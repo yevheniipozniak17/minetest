@@ -1,0 +1,187 @@
+.header {
+  z-index: 100;
+  border-bottom: 1px solid var(--color-border);
+  background: transparent;
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+/* ── Logo ── */
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+/* ── Divider ── */
+
+.divider {
+  width: 1px;
+  height: 72px;
+  background: var(--color-border);
+  flex-shrink: 0;
+}
+
+.dividerDesktop {
+  width: 1px;
+  height: 72px;
+  background: var(--color-border);
+  flex-shrink: 0;
+}
+
+/* ── Navigation (desktop) ── */
+
+.nav {
+  display: none;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.navLink {
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  white-space: nowrap;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.navLink:hover {
+  color: var(--color-primary);
+}
+
+/* ── Auth buttons (desktop) ── */
+
+.authButtons {
+  display: none;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.btnSecondary {
+  height: 38px;
+  padding: 0 24px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  backdrop-filter: blur(24px);
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--color-text);
+  white-space: nowrap;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  transition: background 0.2s;
+}
+
+.btnSecondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.btnPrimary {
+  height: 38px;
+  padding: 0 24px;
+  border-radius: var(--radius-pill);
+  background: var(--color-primary);
+  box-shadow:
+    4px 5px 30px 0px rgba(187, 223, 51, 0.55),
+    inset -3px -4px 7px 0px rgba(255, 255, 255, 0.15);
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--color-bg);
+  white-space: nowrap;
+  transition: filter 0.2s;
+}
+
+.btnPrimary:hover {
+  filter: brightness(1.1);
+}
+
+/* ── Menu button (mobile) ── */
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 8px;
+}
+
+/* ── Language selector ── */
+
+.langButton {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-family: var(--font-main);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.langArrow {
+  opacity: 0.7;
+}
+
+/* ── Desktop (≥ 1024px) ── */
+
+@media (min-width: 1024px) {
+  .nav {
+    display: flex;
+  }
+
+  .authButtons {
+    display: flex;
+  }
+
+  .menuButton {
+    display: none;
+  }
+
+  .dividerDesktop {
+    display: block;
+  }
+}
+
+/* ── Mobile & Tablet (< 1024px) ── */
+
+@media (max-width: 1023px) {
+  .divider {
+    display: none;
+  }
+
+  .dividerDesktop {
+    display: none;
+  }
+
+  .authButtons {
+    display: none;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menuButton {
+    margin-left: auto;
+  }
+}
+

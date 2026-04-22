@@ -1,0 +1,99 @@
+.section {
+  height: 366px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 51px;
+  padding-bottom: 51px;
+  background: var(--color-primary);
+}
+
+/* ── Title ── */
+
+.title {
+  margin-left: auto;
+  margin-right: auto;
+  width: 329px;
+  margin-bottom: 11px;
+  color: var(--New-group-color-bg-effect-500, #031d17);
+  text-align: center;
+
+  /* mobile/H1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H1-Large, 48px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+/* ── Description ── */
+
+.description {
+  margin-bottom: 11px;
+  color: var(--New-group-color-bg-effect-500, #031d17);
+  text-align: center;
+
+  /* mobile/body 1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+/* ── Button ── */
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  display: flex;
+  width: 139px;
+  height: 47px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 109px;
+  background: var(--color-bg);
+  box-shadow:
+    4px 5px 30px 0 rgba(187, 223, 51, 0.55),
+    inset -3px -4px 7px 0 rgba(255, 255, 255, 0.15);
+  font-family: var(--font-main);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  color: var(--color-primary);
+  text-decoration: none;
+  white-space: nowrap;
+  transition: filter 0.2s;
+}
+
+.btn:hover {
+  filter: brightness(1.15);
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-top: 51px;
+    padding-bottom: 51px;
+  }
+  .title {
+    margin: 0;
+    width: 569px;
+    text-align: start;
+  }
+  .description {
+    text-align: start;
+    color: var(--New-group-color-bg-effect-500, #031d17);
+
+    /* desktop/body 1 */
+    font-family: var(--Font-Serif-Typography, Montserrat);
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .btn {
+    margin: 0;
+  }
+}
