@@ -1,14 +1,13 @@
 import Image from 'next/image';
 import styles from './FeaturesCard.module.css';
+import type { FeaturesCardProps } from '../Features';
 
-export type FeaturesCardProps = {
-  title: string;
-  text: string;
-  description: string;
-  icon: string;
-};
-
-export default function FeaturesCard({ title, text, description, icon }: FeaturesCardProps) {
+export default function FeaturesCard({
+  title,
+  text,
+  description,
+  icon,
+}: FeaturesCardProps) {
   return (
     <div className={styles.featuresCard}>
       <span className={styles.icon}>

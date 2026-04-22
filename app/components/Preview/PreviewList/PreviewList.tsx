@@ -2,15 +2,15 @@
 
 import { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
-import FeaturesCard from '../FeaturesCard/FeaturesCard';
-import styles from './FeaturesList.module.css';
-import type { FeaturesCardProps } from '../Features';
+import type { PreviewCardProps } from '../Preview';
+import PreviewCard from '../PreviewCard/PreviewCard';
+import styles from './PreviewList.module.css';
 
-export type FeaturesListProps = {
-  items: FeaturesCardProps[];
+export type PreviewListProps = {
+  items: PreviewCardProps[];
 };
 
-export default function FeaturesList({ items }: FeaturesListProps) {
+export default function PreviewList({ items }: PreviewListProps) {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: 'center',
     loop: false,
@@ -35,32 +35,30 @@ export default function FeaturesList({ items }: FeaturesListProps) {
     emblaApi.on('reInit', onSelect);
   }, [emblaApi, onSelect]);
 
-  const scrollTo = useCallback((index: number) => emblaApi?.scrollTo(index), [emblaApi]);
+  const scrollTo = useCallback(
+    (index: number) => emblaApi?.scrollTo(index),
+    [emblaApi]
+  );
 
   return (
     <div className={styles.root}>
       <div className={styles.viewport} ref={emblaRef}>
         <div className={styles.track}>
-          {items.map((card, idx) => (
+          {items.map((item, idx) => (
             <div className={styles.slide} key={idx}>
-              <FeaturesCard
-                title={card.title}
-                text={card.text}
-                description={card.description}
-                icon={card.icon}
-              />
+              <PreviewCard {...item} />
             </div>
           ))}
         </div>
       </div>
 
-      <div className={styles.dots} role="tablist" aria-label="Game features">
-        {items.map((card, i) => (
+      <div className={styles.dots} role="tablist" aria-label="Store items">
+        {items.map((item, i) => (
           <button
             key={i}
             type="button"
             role="tab"
-            aria-label={`Go to ${card.title}`}
+            aria-label={`Go to ${item.title}`}
             aria-selected={i === selectedIndex}
             className={`${styles.dot} ${i === selectedIndex ? styles.dotActive : ''}`}
             onClick={() => scrollTo(i)}

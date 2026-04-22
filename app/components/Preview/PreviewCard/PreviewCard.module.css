@@ -1,0 +1,97 @@
+.previewCard {
+  position: relative;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 337px;
+  height: 195px;
+  padding: 72px 12px 17px 12px;
+
+  border-radius: 20px;
+  border: 1px solid var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+  background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+  box-shadow: 4px 5px 30px 0 rgba(3, 29, 23, 0.44);
+  backdrop-filter: blur(5px);
+}
+
+.icon {
+  position: absolute;
+  width: 139px;
+  height: 97px;
+  left: 102px;
+  bottom: 128px;
+}
+
+.title {
+  margin-bottom: 9px;
+  color: #fff;
+  text-align: center;
+
+  /* mobile/H3 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H3-Small, 18px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.text {
+  margin-bottom: 10px;
+  color: #fff;
+
+  /* mobile/body 1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+.button {
+  display: flex;
+  width: 100%;
+  height: 47px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  color: var(--New-group-color-bg-default-50, #fff);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Desk-Body-xsmall, 16px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  border-radius: 109px;
+  border: 1px solid var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+  background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+
+  /* Inner 1 */
+  box-shadow: 4px 5px 30px 0 rgba(3, 29, 23, 0.44);
+}
+
+@media (min-width: 1024px) {
+  .previewCard {
+    width: 369px;
+    height: 262px;
+    padding: 108px 19px 20px 17px;
+  }
+
+  .icon {
+    width: 177px;
+    height: 124px;
+    left: 99px;
+    bottom: 159px;
+  }
+
+  .title {
+    margin-bottom: 11px;
+    font-size: var(--Size-Desk-H3-Small, 24px);
+  }
+
+  .text {
+    margin-bottom: 23px;
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+  }
+}
