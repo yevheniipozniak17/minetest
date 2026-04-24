@@ -1,0 +1,43 @@
+import BenefitsList from './BenefitsList/BenefitsList';
+import styles from './Benefits.module.css';
+
+export type BenefitsCardProps = {
+  title: string;
+  text: string;
+};
+
+const Data: BenefitsCardProps[] = [
+  {
+    title: 'Stable servers',
+    text: 'High uptime and smooth performance — no lag, no crashes.',
+  },
+  {
+    title: 'High online',
+    text: 'An active community playing daily across all servers.',
+  },
+  {
+    title: 'Active team',
+    text: 'Moderation, support, and development always online.',
+  },
+  {
+    title: 'Regular updates',
+    text: 'New features, fixes, and improvements every month.',
+  },
+  {
+    title: 'Fair economy',
+    text: 'No pay-to-win. Balance comes first.',
+  },
+  {
+    title: 'Player support',
+    text: 'Fast help via Discord and in-game support.',
+  },
+];
+
+export default function BenefitsSection() {
+  return (
+    <section className={styles.benefitsSection}>
+      <h2 className={styles.title}>Why Play With Us?</h2>
+      <BenefitsList items={Data} />
+    </section>
+  );
+}

@@ -1,0 +1,21 @@
+.benefitsSection {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.title {
+  margin-bottom: 17px;
+  text-align: center;
+  color: #fff;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H2-Medium, 30px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+@media (min-width: 1024px) {
+  .title {
+    margin-bottom: 20px;
+    font-size: var(--Size-Desk-H2-Medium, 40px);
+  }
+}
