@@ -9,20 +9,9 @@ export function Hero() {
     <>
       <section className={styles.hero}>
         <div className={styles.bg}>
-          <video
-            className={styles.bgVideo}
-            autoPlay
-            loop
-            muted
-            playsInline
-            preload="auto"
-          >
-            <source src="/video/hero/hero-video.mp4" type="video/mp4" />
+          <video className={styles.bgVideo} autoPlay loop muted playsInline preload="auto">
+            <source src="/video/hero-video.mp4" type="video/mp4" />
           </video>
-          <div className={styles.overlayBottom} />
-          <div className={styles.overlayTop} />
-          <div className={styles.overlayLeft} />
-          <div className={styles.overlayRight} />
         </div>
 
         <Container className={styles.content}>
@@ -32,8 +21,8 @@ export function Hero() {
           </h1>
 
           <p className={styles.description}>
-            Three unique servers, an in-game economy, rankings, and tournaments.
-            Play the way you like—PvP, survival, or casual building.
+            Three unique servers, an in-game economy, rankings, and tournaments. Play the way you
+            like—PvP, survival, or casual building.
           </p>
 
           <div className={styles.buttons}>
@@ -46,24 +35,14 @@ export function Hero() {
               rel="noopener noreferrer"
               className={styles.btnSecondary}
             >
-              <Image
-                src="/icons/social/ic_outline-discord.svg"
-                alt=""
-                width={24}
-                height={24}
-              />
+              <Image src="/icons/social/ic_outline-discord.svg" alt="" width={24} height={24} />
               <span>Join Discord</span>
             </a>
           </div>
         </Container>
 
         <div className={styles.cat}>
-          <Image
-            src="/icons/illustrations/cat.svg"
-            alt="Minecraft cat"
-            width={130}
-            height={142}
-          />
+          <Image src="/icons/illustrations/cat.svg" alt="Minecraft cat" width={130} height={142} />
         </div>
       </section>
 

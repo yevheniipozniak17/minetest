@@ -16,6 +16,9 @@
   position: absolute;
   inset: 0;
   z-index: 0;
+  isolation: isolate;
+  contain: paint;
+  transform: translate3d(0, 0, 0);
 }
 
 .bgVideo {
@@ -25,52 +28,35 @@
   height: 100%;
   object-fit: cover;
   aspect-ratio: 122 / 271;
+  display: block;
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
+  filter: brightness(1);
+}
+
+.bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(0deg, rgba(3, 29, 23, 0) 0%, #031d17 100%) top / 100% 48% no-repeat,
+    linear-gradient(180deg, rgba(3, 29, 23, 0) 0%, #031d17 73.7%) bottom / 100% 48% no-repeat,
+    linear-gradient(90deg, #031d17 0%, rgba(3, 29, 23, 0) 100%) left / 50% 100% no-repeat,
+    linear-gradient(270deg, #031d17 0%, rgba(3, 29, 23, 0) 78%) right / 50% 100% no-repeat;
+  pointer-events: none;
+  z-index: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  will-change: transform;
 }
 
 @media (min-width: 1024px) {
   .bgVideo {
     aspect-ratio: auto;
   }
-}
-
-.overlayBottom {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 48%;
-  background: linear-gradient(180deg, rgba(3, 29, 23, 0) 0%, #031d17 73.7%);
-  z-index: 1;
-}
-
-.overlayTop {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 48%;
-  background: linear-gradient(0deg, rgba(3, 29, 23, 0) 0%, #031d17 100%);
-  z-index: 1;
-}
-
-.overlayLeft {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 50%;
-  background: linear-gradient(90deg, #031d17 0%, rgba(3, 29, 23, 0) 100%);
-  z-index: 1;
-}
-
-.overlayRight {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  width: 50%;
-  background: linear-gradient(270deg, #031d17 0%, rgba(3, 29, 23, 0) 78%);
-  z-index: 1;
 }
 
 /* ── Content ── */

@@ -1,4 +1,5 @@
 .benefitsList {
+  margin-bottom: 64px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,6 +9,7 @@
 
 @media (min-width: 1024px) {
   .benefitsList {
+    margin-bottom: 48px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
