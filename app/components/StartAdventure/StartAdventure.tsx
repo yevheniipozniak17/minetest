@@ -6,11 +6,25 @@ export default function StartAdventure() {
   return (
     <section className={styles.section}>
       <Container>
-        <h2 className={styles.title}>Ready to start your adventure?</h2>
-        <p className={styles.description}>Join the world of unique Minecraft servers.</p>
-        <Link href="/play" className={styles.btn}>
-          Play Now
-        </Link>
+        <div className={styles.content}>
+          <div className={styles.wrapper}>
+            <h2 className={styles.title}>Ready to start your adventure?</h2>
+            <p className={styles.description}>Join the world of unique Minecraft servers.</p>
+            <Link href="/play" className={styles.btn}>
+              Play Now
+            </Link>
+          </div>
+        </div>
+
+        {/* <video
+          src="/video/big_cat.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+          className={styles.video}
+        /> */}
       </Container>
     </section>
   );

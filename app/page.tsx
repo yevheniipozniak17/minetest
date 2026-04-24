@@ -2,6 +2,7 @@ import Benefits from './components/Benefits/Benefits';
 import Features from './components/Features/Features';
 import { Hero } from './components/Hero/Hero';
 import Preview from './components/Preview/Preview';
+import Questions from './components/Questions/Questions';
 import Server from './components/Server/Server';
 import StartAdventure from './components/StartAdventure/StartAdventure';
 
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
       <Preview />
       <Benefits />
+      <Questions />
       <StartAdventure />
     </>
   );

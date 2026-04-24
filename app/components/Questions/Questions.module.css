@@ -1,0 +1,98 @@
+.questionsSection {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  margin-right: auto;
+  margin-left: auto;
+  width: 375px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H2-Medium, 30px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.text {
+  margin-bottom: 12px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 253px;
+  color: #fff;
+  text-align: center;
+
+  /* mobile/body 1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+.button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 18px;
+  display: flex;
+  width: 139px;
+  height: 47px;
+  justify-content: center;
+  align-items: center;
+
+  color: var(--New-group-color-bg-effect-500, #031d17);
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Desk-Body-xsmall, 16px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  border-radius: 109px;
+  background: var(--primary-color-primary-500, #bde153);
+
+  /* For Button */
+  box-shadow:
+    4px 5px 30px 0 rgba(187, 223, 51, 0.55),
+    -3px -4px 7px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+@media (min-width: 1024px) {
+  .questionsSection {
+    padding-bottom: 115px;
+  }
+
+  .questionsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .title {
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: 16px;
+    text-align: left;
+    width: 389px;
+    font-size: var(--Size-Desk-H2-Medium, 40px);
+  }
+
+  .text {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+  }
+
+  .button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
