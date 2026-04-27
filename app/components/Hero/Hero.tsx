@@ -7,13 +7,19 @@ import styles from './Hero.module.css';
 export function Hero() {
   return (
     <>
-      <section className={styles.hero}>
-        <div className={styles.bg}>
-          <video className={styles.bgVideo} autoPlay loop muted playsInline preload="auto">
-            <source src="/video/hero-video.mp4" type="video/mp4" />
-          </video>
-        </div>
+      <section className={styles.main}>
+        <div className={styles.overlay}></div>
+        <video
+          className={styles.video}
+          src="/video/hero-video.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          preload="auto"
+        />
 
+        {/* Content */}
         <Container className={styles.content}>
           <h1 className={styles.title}>
             <span className={styles.titleAccent}>Minecraft:</span>
@@ -42,7 +48,7 @@ export function Hero() {
         </Container>
 
         <div className={styles.cat}>
-          <Image src="/icons/illustrations/cat.svg" alt="Minecraft cat" width={130} height={142} />
+          <Image src="/icons/illustrations/cat.svg" alt="Minecraft cat" width={488} height={222} />
         </div>
       </section>
 

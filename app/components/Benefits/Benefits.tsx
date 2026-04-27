@@ -41,7 +41,8 @@ export default function BenefitsSection() {
         <h2 className={styles.title}>Why Play With Us?</h2>
         <BenefitsList items={Data} />
         <div className={styles.benefitsVideoContainer}>
-          <video className={styles.benefitsVideo} autoPlay loop muted playsInline preload="auto">
+          <div className={styles.overlay}></div>
+          <video className={styles.video} autoPlay loop muted playsInline preload="auto">
             <source src="/video/benefits-video.mp4" type="video/mp4" />
           </video>
         </div>

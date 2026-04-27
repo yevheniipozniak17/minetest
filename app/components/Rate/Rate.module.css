@@ -1,0 +1,54 @@
+.rateSection {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.title {
+  margin-bottom: 8px;
+  color: #fff;
+  text-align: center;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H2-Medium, 30px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.text {
+  margin-bottom: 18px;
+  color: #fff;
+  text-align: center;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+.rateList {
+  list-style: none;
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    margin-bottom: 13px;
+    font-size: var(--Size-Desk-H2-Medium, 40px);
+  }
+
+  .text {
+    margin-bottom: 5px;
+    color: #fff;
+    text-align: center;
+
+    /* desktop/body 1 */
+    font-family: var(--Font-Serif-Typography, Montserrat);
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+}

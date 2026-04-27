@@ -1,0 +1,46 @@
+.rateCard {
+  width: 337px;
+  height: 134px;
+  padding: 7px 29px 14px 21px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 74px;
+
+  border-radius: 20px;
+  border: 1px solid var(--new-group-color-bg-default-5020, rgba(255, 255, 255, 0.2));
+  background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+  box-shadow: 4px 5px 30px 0 rgba(3, 29, 23, 0.44);
+  backdrop-filter: blur(5px);
+}
+
+.title {
+  color: rgba(255, 255, 255, 0.55);
+
+  /* mobile/body-3 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xxxsmal, 9px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 270%; /* 24.3px */
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleValue {
+  display: flex;
+  gap: 9px;
+
+  color: #fff;
+
+  /* mobile/body-2 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xxsmall, 10.5px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.75px */
+}

@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import styles from './StartAdventure.module.css';
 import { Container } from '../Container/Container';
@@ -14,17 +15,26 @@ export default function StartAdventure() {
               Play Now
             </Link>
           </div>
-        </div>
 
-        {/* <video
-          src="/video/big_cat.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          preload="auto"
-          className={styles.video}
-        /> */}
+          <div className={styles.videoBox}>
+            <video
+              src="/video/big_cat.mp4"
+              autoPlay
+              loop
+              muted
+              playsInline
+              preload="none"
+              className={styles.video}
+            />
+            <Image
+              src="/icons/illustrations/effect.png"
+              alt=""
+              fill
+              priority
+              className={styles.effect}
+            />
+          </div>
+        </div>
       </Container>
     </section>
   );
