@@ -96,6 +96,8 @@
 
 .image {
   position: absolute;
+  width: 118px;
+  height: 128px;
   bottom: 23px;
   right: 7px;
 }
@@ -120,4 +122,63 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    width: 594px;
+    margin-bottom: 18px;
+    font-size: var(--Size-Desk-H2-Medium, 40px);
+  }
+
+  .description {
+    width: 606px;
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+    margin-bottom: 31px;
+  }
+
+  .cards {
+    flex-direction: row;
+    justify-content: center;
+    gap: 21px;
+  }
+
+  .firstCard {
+    width: 369px;
+    height: 182px;
+    padding: 39px 7px 27px 20px;
+  }
+
+  .titleFirst {
+    font-size: var(--Size-Desk-H3-Small, 24px);
+    margin-bottom: 10px;
+  }
+
+  .descriptionFirst {
+    width: 342px;
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+  }
+
+  .image {
+    width: 125px;
+    height: 134px;
+    bottom: 77px;
+    right: 30px;
+  }
+
+  .secondCard {
+    width: 758px;
+    height: 182px;
+    padding: 30px 24px 35px 35px;
+  }
+
+  .titleSecond {
+    margin-bottom: 14px;
+    font-size: var(--Size-Desk-H3-Small, 24px);
+  }
+
+  .descriptionSecond {
+    margin-bottom: 22px;
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+  }
 }
