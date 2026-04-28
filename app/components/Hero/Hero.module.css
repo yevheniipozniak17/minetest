@@ -140,14 +140,6 @@
     font-size: 16px;
     max-width: 590px;
   }
-
-  .cat {
-    display: block;
-    position: absolute;
-    right: 100px;
-    bottom: 40px;
-    z-index: 2;
-  }
 }
 
 /* ── Desktop (≥ 1024px) ── */
@@ -174,7 +166,7 @@
     display: block;
     position: absolute;
     right: 0px;
-    bottom: 102px;
+    bottom: 15px;
     z-index: 2;
   }
 }
