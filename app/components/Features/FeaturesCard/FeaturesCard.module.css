@@ -61,7 +61,9 @@
 
 @media (min-width: 1024px) {
   .featuresCard {
-    width: 369px;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
     height: 254px;
     padding: 65px 13px 27px 14px;
   }

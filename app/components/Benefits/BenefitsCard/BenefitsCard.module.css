@@ -41,7 +41,8 @@
 
 @media (min-width: 1024px) {
   .benefitsCard {
-    width: 566px;
+    width: 100%;
+    max-width: none;
     height: 93px;
     padding: 19px 22px 21px 23px;
   }

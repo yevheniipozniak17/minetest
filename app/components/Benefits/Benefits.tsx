@@ -13,20 +13,20 @@ const Data: BenefitsCardProps[] = [
     text: 'High uptime and smooth performance — no lag, no crashes.',
   },
   {
-    title: 'High online',
-    text: 'An active community playing daily across all servers.',
-  },
-  {
-    title: 'Active team',
-    text: 'Moderation, support, and development always online.',
-  },
-  {
     title: 'Regular updates',
     text: 'New features, fixes, and improvements every month.',
   },
   {
+    title: 'High online',
+    text: 'An active community playing daily across all servers.',
+  },
+  {
     title: 'Fair economy',
     text: 'No pay-to-win. Balance comes first.',
+  },
+  {
+    title: 'Active team',
+    text: 'Moderation, support, and development always online.',
   },
   {
     title: 'Player support',

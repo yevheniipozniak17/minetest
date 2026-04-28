@@ -1,4 +1,5 @@
 import Benefits from './components/Benefits/Benefits';
+import CommunityTrust from './components/CommunityTrust/CommunityTrust';
 import Features from './components/Features/Features';
 import { Hero } from './components/Hero/Hero';
 import Preview from './components/Preview/Preview';
@@ -16,6 +17,7 @@ export default function Home() {
       <Preview />
       <Benefits />
       <Rate />
+      <CommunityTrust />
       <Questions />
       <StartAdventure />
     </>
