@@ -78,6 +78,14 @@ export default function Rate() {
         <Container>
           <h2 className={styles.title}>Top Rated Players</h2>
           <p className={styles.text}>Play more. Progress further. Stand out.</p>
+          <div className={styles.rateHeader} aria-hidden="true">
+            <span>Rank</span>
+            <span>Player</span>
+            <span>Server</span>
+            <span>Level</span>
+            <span>Playtime</span>
+            <span>Activity Score</span>
+          </div>
           <ul className={styles.rateList}>
             {RATE_CARDS.map((card, index) => (
               <RateCard

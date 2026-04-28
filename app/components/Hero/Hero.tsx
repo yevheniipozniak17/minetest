@@ -45,11 +45,16 @@ export function Hero() {
               <span>Join Discord</span>
             </a>
           </div>
-        </Container>
 
-        <div className={styles.cat}>
-          <Image src="/icons/illustrations/cat.svg" alt="Minecraft cat" width={488} height={222} />
-        </div>
+          <div className={styles.cat}>
+            <Image
+              src="/icons/illustrations/cat.svg"
+              alt="Minecraft cat"
+              width={488}
+              height={222}
+            />
+          </div>
+        </Container>
       </section>
 
       <Divider />
