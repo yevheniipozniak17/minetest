@@ -1,0 +1,92 @@
+.hero {
+  height: 831px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+  background-image: url('/servers/images/bg-mobile.png');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 616px;
+    background-image: url('/servers/images/bg.png');
+
+    background-size: cover;
+  }
+}
+
+.wrapper {
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+}
+
+.badgeFirst {
+  width: 153px;
+  height: 26px;
+  display: flex;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color-primary-500, #bde153);
+
+  border-radius: 16px;
+  background: var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
+  backdrop-filter: blur(10px);
+
+  /* mobile/body-2 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xxsmall, 10.5px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 15.75px */
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H1-Large, 48px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.description {
+  color: var(--New-group-color-bg-default-50, #fff);
+  text-align: center;
+
+  /* mobile/body 1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+.badgeSecond {
+  display: flex;
+  padding: 8px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  /* mobile/body 1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+
+  border-radius: 24px;
+  border: 1px solid var(--primary-color-primary-50030, rgba(189, 225, 83, 0.3));
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(10px);
+}

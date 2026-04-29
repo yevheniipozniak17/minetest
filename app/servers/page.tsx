@@ -1,5 +1,11 @@
+import Hero from './_sections/Hero/Hero';
+
 const Servers = () => {
-  return <div>Servers Page</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default Servers;
