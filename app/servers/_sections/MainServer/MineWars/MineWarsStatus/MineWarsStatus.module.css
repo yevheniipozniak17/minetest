@@ -1,0 +1,169 @@
+.card {
+  margin: 20px auto 0;
+  width: 335px;
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 16px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(242, 89, 38, 0.2);
+  background: var(--color-bg-effect, #001812);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dot {
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #33df5e;
+}
+
+.title {
+  color: #fff;
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.titleDesktop {
+  display: none;
+}
+
+.online {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 6px;
+
+  border-radius: 4px;
+  background: rgba(64, 217, 89, 0.15);
+
+  color: #40d959;
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.stats {
+  display: flex;
+  align-items: stretch;
+  gap: 8px;
+  list-style: none;
+}
+
+.stat {
+  flex: 1;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  padding: 10px;
+
+  border-radius: 8px;
+  background: rgba(3, 29, 23, 0.6);
+}
+
+.value {
+  color: #f25926;
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.label {
+  color: rgba(255, 255, 255, 0.5);
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.labelDesktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 20px 0 0;
+    gap: 16px;
+    padding: 24px;
+    border-color: rgba(242, 89, 38, 0.15);
+  }
+
+  .dot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .title {
+    font-size: 14px;
+  }
+
+  .titleMobile {
+    display: none;
+  }
+
+  .titleDesktop {
+    display: inline;
+  }
+
+  .online {
+    padding: 3px 8px;
+    font-size: 10px;
+  }
+
+  .stats {
+    align-items: flex-start;
+    gap: 16px;
+  }
+
+  .stat {
+    flex: 0 0 auto;
+    height: auto;
+    gap: 4px;
+    padding: 12px 16px;
+  }
+
+  .value {
+    font-size: 22px;
+  }
+
+  .label {
+    font-size: 12px;
+  }
+
+  .labelMobile {
+    display: none;
+  }
+
+  .labelDesktop {
+    display: inline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    margin: 0;
+  }
+}

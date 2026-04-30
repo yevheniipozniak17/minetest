@@ -12,12 +12,16 @@ export default function LuckySurvival() {
     <>
       <LuckyHeader />
       <div className={styles.grid}>
-        <LuckyGamesModes />
-        <LuckyAbout />
-        <LuckyFeatures />
-        <LuckyHowToStart />
-        <LuckyActions />
-        <LuckyStatus />
+        <div className={styles.leftColumn}>
+          <LuckyGamesModes />
+          <LuckyAbout />
+          <LuckyStatus />
+        </div>
+        <div className={styles.rightColumn}>
+          <LuckyActions />
+          <LuckyFeatures />
+          <LuckyHowToStart />
+        </div>
       </div>
     </>
   );
