@@ -1,0 +1,106 @@
+.card {
+  margin: 20px auto 0;
+  width: 335px;
+  max-width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px 16px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--color-bg-effect, #001812);
+}
+
+.eyebrow {
+  color: rgba(255, 255, 255, 0.4);
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.title {
+  color: #fff;
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.65);
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.descriptionDesktop {
+  display: none;
+}
+
+.target {
+  color: rgba(189, 225, 83, 0.8);
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.targetDesktop {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 20px 0 0;
+    gap: 16px;
+    padding: 24px;
+  }
+
+  .eyebrow {
+    font-size: 13px;
+  }
+
+  .title {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .descriptionDesktop {
+    display: inline;
+  }
+
+  .target {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 15px;
+  }
+
+  .targetMobile {
+    display: none;
+  }
+
+  .targetDesktop {
+    display: inline;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    margin: 0;
+  }
+}

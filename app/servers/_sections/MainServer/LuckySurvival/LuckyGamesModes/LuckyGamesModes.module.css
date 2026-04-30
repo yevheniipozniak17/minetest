@@ -1,0 +1,140 @@
+.section {
+  margin: 20px auto 0;
+  width: 335px;
+  max-width: 100%;
+  padding: 14px 16px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--color-bg-effect, #001812);
+}
+
+.title {
+  margin-bottom: 10px;
+  color: rgba(255, 255, 255, 0.4);
+
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.badgeActive {
+  display: flex;
+  padding: 7px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 7px;
+  border: 1px solid rgba(189, 225, 83, 0.4);
+  background: rgba(189, 225, 83, 0.15);
+
+  color: var(--color-primary, #bde153);
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.badgeActiveText {
+  display: flex;
+  padding: 2px 5px;
+  align-items: flex-start;
+
+  border-radius: 3px;
+  background: rgba(64, 217, 89, 0.18);
+
+  color: #40d959;
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.badgeNoActive {
+  display: flex;
+  padding: 7px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  border-radius: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.05);
+
+  color: rgba(255, 255, 255, 0.4);
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.badgeNoActiveText {
+  display: flex;
+  padding: 2px 5px;
+  align-items: flex-start;
+
+  border-radius: 3px;
+  background: rgba(229, 64, 64, 0.15);
+
+  color: #e54040;
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (min-width: 768px) {
+  .section {
+    width: 100%;
+    margin: 20px 0 0;
+    padding: 24px;
+  }
+
+  .title {
+    margin-bottom: 16px;
+    font-size: 13px;
+  }
+
+  .list {
+    flex-wrap: nowrap;
+    gap: 12px;
+  }
+
+  .badgeActive,
+  .badgeNoActive {
+    padding: 8px 12px;
+    border-radius: 8px;
+    gap: 8px;
+    font-size: 13px;
+  }
+
+  .badgeActiveText,
+  .badgeNoActiveText {
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 10px;
+  }
+
+  .badgeActiveText {
+    background: rgba(64, 217, 89, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .section {
+    margin: 0;
+  }
+}

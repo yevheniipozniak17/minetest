@@ -1,6 +1,6 @@
+import Image from 'next/image';
 import { Container } from '@/app/_components/Container/Container';
 import styles from './Hero.module.css';
-import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -8,16 +8,35 @@ export default function Hero() {
       <Container>
         <div className={styles.wrapper}>
           <div className={styles.badgeFirst}>
-            <Image src="/icons/icons/ellipse.svg" alt="" width={6} height={6} />
+            <Image
+              src="/icons/icons/ellipse.svg"
+              alt=""
+              width={7}
+              height={7}
+              className={styles.badgeFirstDot}
+            />
             MINECRAFT SERVERS
           </div>
+
           <h1 className={styles.title}>Explore Our Servers</h1>
+
           <p className={styles.description}>
+            <span className={styles.descriptionDesktopLine}>
+              Explore all Minecraft servers and their unique features.
+            </span>
             Choose your playstyle — survival, PvP, or peaceful building.
           </p>
+
           <div className={styles.badgeSecond}>
-            <Image src="/servers/icons/ellipse.svg" alt="" width={6} height={6} />
-            All servers online • 1,247 players
+            <Image
+              src="/servers/icons/ellipse.svg"
+              alt=""
+              width={8}
+              height={8}
+              className={styles.badgeSecondDot}
+            />
+            All servers online&nbsp;&nbsp;•&nbsp;&nbsp;1,247 players
+            <span className={styles.badgeSecondActive}>&nbsp;active</span>
           </div>
         </div>
       </Container>

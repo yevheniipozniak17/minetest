@@ -5,17 +5,7 @@
   background-color: black;
   background-image: url('/servers/images/bg-mobile.png');
   background-repeat: no-repeat;
-
   background-size: cover;
-}
-
-@media (min-width: 768px) {
-  .hero {
-    height: 616px;
-    background-image: url('/servers/images/bg.png');
-
-    background-size: cover;
-  }
 }
 
 .wrapper {
@@ -27,66 +17,138 @@
 }
 
 .badgeFirst {
-  width: 153px;
-  height: 26px;
-  display: flex;
+  display: inline-flex;
   gap: 6px;
   justify-content: center;
   align-items: center;
-  color: var(--primary-color-primary-500, #bde153);
+  padding: 5px 12px;
 
   border-radius: 16px;
-  background: var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
+  background: rgba(189, 225, 83, 0.1);
   backdrop-filter: blur(10px);
 
-  /* mobile/body-2 */
-  font-family: var(--Font-Serif-Typography, Montserrat);
-  font-size: var(--Size-Mobile-Body-xxsmall, 10.5px);
+  color: var(--color-primary, #bde153);
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 10.5px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 15.75px */
+  line-height: 1.5;
+}
+
+.badgeFirstDot {
+  width: 6px;
+  height: 6px;
 }
 
 .title {
   color: #fff;
   text-align: center;
-  font-family: var(--Font-Serif-Typography, Montserrat);
-  font-size: var(--Size-Mobile-H1-Large, 48px);
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 48px;
   font-style: normal;
   font-weight: 800;
   line-height: normal;
 }
 
 .description {
-  color: var(--New-group-color-bg-default-50, #fff);
+  color: var(--color-text, #fff);
   text-align: center;
-
-  /* mobile/body 1 */
-  font-family: var(--Font-Serif-Typography, Montserrat);
-  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 18px */
+  line-height: 1.5;
+}
+
+.descriptionDesktopLine {
+  display: none;
 }
 
 .badgeSecond {
-  display: flex;
+  display: inline-flex;
   padding: 8px 18px;
   justify-content: center;
   align-items: center;
   gap: 8px;
 
   color: rgba(255, 255, 255, 0.7);
-
-  /* mobile/body 1 */
-  font-family: var(--Font-Serif-Typography, Montserrat);
-  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 18px */
+  line-height: 1.5;
+  white-space: nowrap;
 
   border-radius: 24px;
-  border: 1px solid var(--primary-color-primary-50030, rgba(189, 225, 83, 0.3));
+  border: 1px solid rgba(189, 225, 83, 0.3);
   background: rgba(255, 255, 255, 0.04);
   backdrop-filter: blur(10px);
+}
+
+.badgeSecondDot {
+  width: 6px;
+  height: 6px;
+}
+
+.badgeSecondActive {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    height: 616px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    align-items: center;
+    background-image: url('/servers/images/bg.png');
+  }
+
+  .wrapper {
+    margin-top: 0;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .badgeFirst {
+    gap: 8px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    background: rgba(189, 225, 83, 0.13);
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .badgeFirstDot {
+    width: 7px;
+    height: 7px;
+  }
+
+  .title {
+    font-size: 64px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .descriptionDesktopLine {
+    display: block;
+  }
+
+  .badgeSecond {
+    border-color: rgba(189, 225, 83, 0.25);
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+  }
+
+  .badgeSecondDot {
+    width: 8px;
+    height: 8px;
+  }
+
+  .badgeSecondActive {
+    display: inline;
+  }
 }

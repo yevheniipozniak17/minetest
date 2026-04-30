@@ -1,0 +1,37 @@
+.grid {
+  display: block;
+}
+
+@media (min-width: 1024px) {
+  .grid {
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    grid-template-areas:
+      'modes      actions'
+      'about      features'
+      'status     howtostart';
+    column-gap: 48px;
+    row-gap: 32px;
+    align-items: start;
+    padding-top: 64px;
+  }
+
+  .grid > *:nth-child(1) {
+    grid-area: modes;
+  }
+  .grid > *:nth-child(2) {
+    grid-area: about;
+  }
+  .grid > *:nth-child(3) {
+    grid-area: features;
+  }
+  .grid > *:nth-child(4) {
+    grid-area: howtostart;
+  }
+  .grid > *:nth-child(5) {
+    grid-area: actions;
+  }
+  .grid > *:nth-child(6) {
+    grid-area: status;
+  }
+}
