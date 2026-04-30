@@ -5,6 +5,15 @@ import styles from './Hero.module.css';
 export default function Hero() {
   return (
     <div className={styles.hero}>
+      <Image
+        src="/servers/images/bg.webp"
+        alt=""
+        fill
+        sizes="100vw"
+        preload
+        className={styles.bg}
+        style={{ objectFit: 'cover', objectPosition: '45% 50%' }}
+      />
       <Container>
         <div className={styles.wrapper}>
           <div className={styles.badgeFirst}>

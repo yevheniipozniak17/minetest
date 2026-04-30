@@ -5,10 +5,10 @@ export default function CalmSkyHeader() {
   return (
     <div className={styles.banner}>
       <Image
-        src="/servers/images/CalmSky.png"
+        src="/servers/images/CalmSky.webp"
         alt=""
         fill
-        priority
+        preload
         sizes="(min-width: 768px) 1240px, 100vw"
         className={styles.image}
       />
@@ -19,10 +19,8 @@ export default function CalmSkyHeader() {
         </span>
         <h2 className={styles.title}>CalmSky</h2>
         <p className={styles.description}>
-          A relaxed, peaceful server for building, exploring and enjoying
-          Minecraft<span className={styles.descriptionDesktop}>
-            {' '}at your own pace
-          </span>.
+          A relaxed, peaceful server for building, exploring and enjoying Minecraft
+          <span className={styles.descriptionDesktop}> at your own pace</span>.
         </p>
       </div>
     </div>

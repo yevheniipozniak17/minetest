@@ -30,7 +30,7 @@ export default function StartAdventure() {
               src="/icons/illustrations/effect.png"
               alt=""
               fill
-              priority
+              loading="lazy"
               className={styles.effect}
             />
           </div>

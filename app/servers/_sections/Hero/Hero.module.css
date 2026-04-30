@@ -1,15 +1,19 @@
 .hero {
+  position: relative;
   height: 831px;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: black;
-  background-image: url('/servers/images/bg.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 45% 50%;
+  overflow: hidden;
+}
+
+.bg {
+  z-index: 0;
 }
 
 .wrapper {
+  position: relative;
+  z-index: 1;
   margin-top: 180px;
   display: flex;
   flex-direction: column;
