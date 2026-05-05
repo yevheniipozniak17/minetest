@@ -3,7 +3,6 @@ import { PrivilegesCardProps } from '../PrivilegesCards';
 import styles from './Card.module.css';
 
 export default function Card({ title, text, icon }: PrivilegesCardProps) {
-  console.log(icon);
   return (
     <li className={styles.card}>
       <h3 className={styles.title}>{title}</h3>
