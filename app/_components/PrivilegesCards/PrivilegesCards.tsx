@@ -20,27 +20,21 @@ const Data: PrivilegesCardProps[] = [
   },
 
   {
-    title: 'Silver',
-    text: 'Get the SILVER kit and enjoy useful gameplay, instant access to workbench, ender chest and inventory, player teleportation, and private message control. You’ll also get 4 auction slots, 2 land claims, 2 sethome points, and earn $50 per hour in-game. A practical upgrade for smoother and more comfortable gameplay.',
-    icon: image2,
-  },
-
-  {
     title: 'Supreme',
     text: 'Unlock the SUPREME kit and enjoy advanced perks like wearing items as a hat, ignoring players, checking last visits, and changing your personal weather. You’ll also get 6 auction slots, 4 land claims, 4 sethome points, and earn $100 per hour in-game. A powerful upgrade for players who want maximum control and extra benefits.',
-    icon: image3,
+    icon: image2,
   },
 
   {
     title: 'Wither',
     text: 'Unlock the WITHER kit and gain powerful perks like access to admin chat, viewing nearby players, restoring hunger, extinguishing yourself, and checking server information. You’ll also get 8 auction slots, 6 land claims, 6 sethome points, and earn $150 per hour in-game. A premium choice for players who want extended control and advanced server privileges.',
-    icon: image4,
+    icon: image3,
   },
 
   {
     title: 'Hero',
     text: 'Unlock the HERO kit and enjoy high-level perks like broadcasting ads, viewing other players’ inventories etc. You’ll also receive spawner drops when broken with Silk Touch, 12 auction slots, 8 land claims, 8 sethome points, and earn $200 per hour in-game. A top-tier upgrade for players who want maximum power, control, and server advantages.',
-    icon: image1,
+    icon: image4,
   },
 
   {
