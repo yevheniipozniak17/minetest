@@ -16,9 +16,17 @@
   line-height: normal;
 }
 
+.cards {
+  margin-top: 32px;
+}
+
 @media (min-width: 1024px) {
   .title {
     margin-bottom: 24px;
     font-size: var(--Size-Desk-H2-Medium, 40px);
+  }
+
+  .cards {
+    margin-top: 56px;
   }
 }

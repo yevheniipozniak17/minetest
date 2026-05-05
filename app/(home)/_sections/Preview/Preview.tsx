@@ -1,43 +1,25 @@
 'use client';
 
+import { useState } from 'react';
 import styles from './Preview.module.css';
-import PreviewList from './PreviewList/PreviewList';
+import CrystalsCards from '@/app/_components/CrystalsCards/CrystalsCards';
+import PrivilegesCards from '@/app/_components/PrivilegesCards/PrivilegesCards';
 import { Divider } from '../../../_components/Divider/Divider';
-import Tabs from '@/app/_components/Tabs/Tabs';
-
-export type PreviewCardProps = {
-  title: string;
-  text: string;
-  icon: string;
-};
-
-const Data: PreviewCardProps[] = [
-  {
-    title: '500 Crystals',
-    text: 'Start your journey.',
-    icon: '/icons/illustrations/preview-green.svg',
-  },
-  {
-    title: '1,500 Crystals',
-    text: 'Best value for active players.',
-    icon: '/icons/illustrations/preview-yellow.svg',
-  },
-  {
-    title: '5,000 Crystals',
-    text: 'For serious progression.',
-    icon: '/icons/illustrations/preview-blue.svg',
-  },
-];
+import Tabs, { type Tab } from '@/app/_components/Tabs/Tabs';
 
 export default function Preview() {
+  const [activeTab, setActiveTab] = useState<Tab>('Crystals');
+
   return (
     <>
       <section className={styles.preview}>
         <h2 className={styles.title}>Store Preview</h2>
 
-        <Tabs />
+        <Tabs value={activeTab} onChange={setActiveTab} />
 
-        <PreviewList items={Data} />
+        <div className={styles.cards}>
+          {activeTab === 'Crystals' ? <CrystalsCards /> : <PrivilegesCards />}
+        </div>
       </section>
       <Divider />
     </>

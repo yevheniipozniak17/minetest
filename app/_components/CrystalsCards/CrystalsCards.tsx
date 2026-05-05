@@ -2,15 +2,34 @@
 
 import { useCallback, useEffect, useState } from 'react';
 import useEmblaCarousel from 'embla-carousel-react';
-import type { PreviewCardProps } from '../Preview';
-import PreviewCard from '../PreviewCard/PreviewCard';
-import styles from './PreviewList.module.css';
+import Card from './Card/Card';
+import styles from './CrystalsCards.module.css';
 
-export type PreviewListProps = {
-  items: PreviewCardProps[];
+export type CrystalsCardProps = {
+  title: string;
+  text: string;
+  icon: string;
 };
 
-export default function PreviewList({ items }: PreviewListProps) {
+const Data: CrystalsCardProps[] = [
+  {
+    title: '500 Crystals',
+    text: 'Start your journey.',
+    icon: '/icons/illustrations/preview-green.svg',
+  },
+  {
+    title: '1,500 Crystals',
+    text: 'Best value for active players.',
+    icon: '/icons/illustrations/preview-yellow.svg',
+  },
+  {
+    title: '5,000 Crystals',
+    text: 'For serious progression.',
+    icon: '/icons/illustrations/preview-blue.svg',
+  },
+];
+
+export default function CrystalsCards() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: 'center',
     loop: false,
@@ -35,25 +54,20 @@ export default function PreviewList({ items }: PreviewListProps) {
     emblaApi.on('reInit', onSelect);
   }, [emblaApi, onSelect]);
 
-  const scrollTo = useCallback(
-    (index: number) => emblaApi?.scrollTo(index),
-    [emblaApi]
-  );
+  const scrollTo = useCallback((index: number) => emblaApi?.scrollTo(index), [emblaApi]);
 
   return (
     <div className={styles.root}>
       <div className={styles.viewport} ref={emblaRef}>
-        <div className={styles.track}>
-          {items.map((item, idx) => (
-            <div className={styles.slide} key={idx}>
-              <PreviewCard {...item} />
-            </div>
+        <ul className={styles.cards}>
+          {Data.map((item, index) => (
+            <Card key={index} title={item.title} text={item.text} icon={item.icon} />
           ))}
-        </div>
+        </ul>
       </div>
 
       <div className={styles.dots} role="tablist" aria-label="Store items">
-        {items.map((item, i) => (
+        {Data.map((item, i) => (
           <button
             key={i}
             type="button"

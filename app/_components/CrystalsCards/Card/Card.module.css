@@ -1,9 +1,15 @@
-.previewCard {
+.slide {
+  flex: 0 0 100%;
+  min-width: 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.card {
   position: relative;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 337px;
+  width: 338px;
   height: 195px;
   padding: 72px 12px 17px 12px;
 
@@ -72,8 +78,12 @@
 }
 
 @media (min-width: 1024px) {
-  .previewCard {
-    width: 369px;
+  .slide {
+    flex: 0 0 auto;
+  }
+
+  .card {
+    width: 371px;
     height: 262px;
     padding: 108px 19px 20px 17px;
   }

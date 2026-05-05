@@ -2,18 +2,11 @@
   width: 100%;
 }
 
-.track {
-  margin-top: 47px;
+.cards {
   display: flex;
   gap: 16px;
+  list-style: none;
   touch-action: pan-y pinch-zoom;
-}
-
-.slide {
-  flex: 0 0 100%;
-  min-width: 0;
-  display: flex;
-  justify-content: center;
 }
 
 .dots {
@@ -43,15 +36,11 @@
 }
 
 @media (min-width: 1024px) {
-  .track {
-    margin-top: 37px;
+  .cards {
     flex-wrap: wrap;
-    gap: 26px;
+    gap: 22px;
+    row-gap: 32px;
     justify-content: center;
-  }
-
-  .slide {
-    flex: 0 0 auto;
   }
 
   .dots {

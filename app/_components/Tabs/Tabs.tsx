@@ -1,16 +1,19 @@
 'use client';
-import { useState } from 'react';
 import styles from './Tabs.module.css';
 
-const TABS = ['Crystals', 'Privileges'] as const;
-type Tab = (typeof TABS)[number];
+export const TABS = ['Crystals', 'Privileges'] as const;
+export type Tab = (typeof TABS)[number];
 
-export default function Tabs() {
-  const [activeTab, setActiveTab] = useState<Tab>('Crystals');
+type TabsProps = {
+  value: Tab;
+  onChange: (tab: Tab) => void;
+};
+
+export default function Tabs({ value, onChange }: TabsProps) {
   return (
     <div className={styles.tabs} role="tablist" aria-label="Store categories">
       {TABS.map(tab => {
-        const isActive = tab === activeTab;
+        const isActive = tab === value;
         return (
           <button
             key={tab}
@@ -18,7 +21,7 @@ export default function Tabs() {
             role="tab"
             aria-selected={isActive}
             className={`${styles.tab} ${isActive ? styles.tabActive : ''}`}
-            onClick={() => setActiveTab(tab)}
+            onClick={() => onChange(tab)}
           >
             {tab}
           </button>
