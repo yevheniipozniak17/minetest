@@ -1,5 +1,13 @@
+import Category from './_sections/Category/Category';
+import Hero from './_sections/Hero/Hero';
+
 const Store = () => {
-  return <div>Store Page</div>;
+  return (
+    <>
+      <Hero />
+      <Category />
+    </>
+  );
 };
 
 export default Store;

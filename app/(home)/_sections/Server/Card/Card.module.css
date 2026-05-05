@@ -8,8 +8,8 @@
   box-shadow: 4px 5px 30px 0 rgba(3, 29, 23, 0.44);
   backdrop-filter: blur(5px);
   transition:
-    background 0.2s,
-    border-color 0.2s;
+    border-color 0.3s ease,
+    background 0.3s ease;
 
   padding: 76px 18px 18px;
 }

@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   height: 831px;
-  padding-top: 40px;
+  padding-top: 112px;
   padding-bottom: 40px;
   background-color: black;
   overflow: hidden;
@@ -102,7 +102,7 @@
 @media (min-width: 768px) {
   .hero {
     height: 616px;
-    padding-top: 72px;
+    padding-top: 144px;
     padding-bottom: 72px;
     display: flex;
     align-items: center;

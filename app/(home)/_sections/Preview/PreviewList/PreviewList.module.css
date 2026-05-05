@@ -3,6 +3,7 @@
 }
 
 .track {
+  margin-top: 47px;
   display: flex;
   gap: 16px;
   touch-action: pan-y pinch-zoom;
@@ -43,6 +44,7 @@
 
 @media (min-width: 1024px) {
   .track {
+    margin-top: 37px;
     flex-wrap: wrap;
     gap: 26px;
     justify-content: center;

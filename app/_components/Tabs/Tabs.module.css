@@ -1,0 +1,41 @@
+.tabs {
+  width: 314px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2px;
+  background: var(--color-bg-effect, #001812);
+  border-radius: 50px;
+}
+
+.tab {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 154px;
+  height: 49px;
+  padding: 14px 44px;
+  border-radius: var(--radius-pill, 109px);
+  color: var(--color-text, #fff);
+  font-family: var(--font-main, Montserrat), sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  white-space: nowrap;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.tab:focus-visible {
+  outline: 2px solid var(--color-primary, #bde153);
+  outline-offset: 2px;
+}
+
+.tabActive {
+  background: var(--color-primary, #bde153);
+  color: var(--color-bg, #031d17);
+  box-shadow:
+    inset -3px -4px 7px 0 rgba(255, 255, 255, 0.15),
+    4px 5px 30px 0 rgba(187, 223, 51, 0.55);
+}

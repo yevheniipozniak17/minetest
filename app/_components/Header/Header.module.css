@@ -1,4 +1,8 @@
 .header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: 100;
   border-bottom: 1px solid var(--color-border);
   background: transparent;
@@ -119,7 +123,6 @@
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  padding: 8px;
 }
 
 /* ── Language selector ── */
@@ -164,23 +167,14 @@
 /* ── Mobile & Tablet (< 1024px) ── */
 
 @media (max-width: 1023px) {
-  .divider {
-    display: none;
-  }
-
-  .dividerDesktop {
-    display: none;
-  }
-
-  .authButtons {
-    display: none;
-  }
-
+  .dividerEdge,
+  .dividerDesktop,
+  .authButtons,
   .nav {
     display: none;
   }
 
-  .menuButton {
+  .langButton {
     margin-left: auto;
   }
 }

@@ -24,7 +24,7 @@ const Data: FeaturesCardProps[] = [
     text: 'Fight, survive, and dominate.',
     description:
       'Engage in PvP battles, raids, and survival challenges. Prove your skills and climb the rankings.',
-    icon: '/icons/icons/features-crown.svg',
+    icon: '/icons/icons/crown.svg',
   },
   {
     title: 'Skins & Cosmetics',
@@ -38,7 +38,7 @@ const Data: FeaturesCardProps[] = [
     text: 'Trade. Earn. Progress.',
     description:
       'A balanced economy powered by in-game currency. Trade with players, buy upgrades, and grow your wealth.',
-    icon: '/icons/icons/features-dollar.svg',
+    icon: '/icons/icons/dollar.svg',
   },
   {
     title: 'Events & Tournaments',
