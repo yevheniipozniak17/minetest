@@ -1,0 +1,198 @@
+.section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.title {
+  margin-bottom: 22px;
+  color: var(--color-text);
+  text-align: center;
+
+  /* mobile/H2 */
+  font-family: var(--font-main);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+}
+
+.tableHeader {
+  display: none;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  list-style: none;
+}
+
+.card {
+  width: 338px;
+  padding: 26px 23px 30px;
+
+  border-radius: var(--radius-card);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  box-shadow: 4px 5px 30px 0 rgba(3, 29, 23, 0.44);
+  backdrop-filter: blur(5px);
+}
+
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'currency type'
+    'obtain   obtain'
+    'spend    spend';
+  column-gap: 26px;
+  row-gap: 24px;
+}
+
+.cellCurrency {
+  grid-area: currency;
+}
+
+.cellType {
+  grid-area: type;
+}
+
+.cellObtain {
+  grid-area: obtain;
+}
+
+.cellSpend {
+  grid-area: spend;
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  margin-bottom: 12px;
+  color: var(--color-border-light);
+
+  /* desktop/body-2 */
+  font-family: var(--font-main);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.value {
+  color: var(--color-text);
+
+  /* desktop/body 1 */
+  font-family: var(--font-main);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.accent {
+  color: var(--color-primary);
+}
+
+.cat {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .section {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+
+  .title {
+    margin-bottom: 20px;
+
+    /* desktop/H2 medium */
+    font-size: 40px;
+  }
+
+  .content {
+    max-width: 662px;
+  }
+
+  .tableHeader {
+    display: grid;
+    grid-template-columns: 143px 115px 194px 1fr;
+    padding: 0 34px;
+    margin-bottom: 14px;
+  }
+
+  .headerCell {
+    color: var(--color-border-light);
+
+    /* desktop/body-2 */
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+  .list {
+    align-items: stretch;
+    gap: 14px;
+  }
+
+  .card {
+    width: 100%;
+    height: 85px;
+    padding: 0 34px;
+  }
+
+  .details {
+    height: 100%;
+    grid-template-columns: 143px 115px 194px 1fr;
+    grid-template-areas: 'currency type obtain spend';
+    column-gap: 0;
+    row-gap: 0;
+    align-items: center;
+  }
+
+  .label {
+    display: none;
+  }
+}
+
+@media (min-width: 1280px) {
+  .section {
+    overflow: hidden;
+  }
+
+  .layout {
+    flex-direction: row;
+    align-items: center;
+    gap: 38px;
+  }
+
+  .content {
+    flex: 0 0 662px;
+  }
+
+  .cat {
+    display: block;
+    flex: 0 1 386px;
+    width: 100%;
+    height: auto;
+    max-width: 386px;
+    min-width: 0;
+  }
+}
