@@ -34,7 +34,7 @@
 
 /* Stepper */
 .stepperList {
-  --stepper-gap: 80px;
+  --stepper-gap: 170px;
 
   list-style: none;
   display: flex;
@@ -170,6 +170,10 @@
   font-weight: 400;
   line-height: 150%; /* 18px */
 }
+
+.stepperImage {
+  display: none;
+}
 /* Stepper */
 
 @media (min-width: 768px) {
@@ -202,6 +206,10 @@
   }
 
   .stepperList {
+    --stepper-gap: 200px; /* 319px */
+  }
+
+  .stepperList {
     align-items: flex-start;
   }
 
@@ -221,5 +229,11 @@
     margin-bottom: 24px;
     font-size: var(--Size-Desk-Body-xsmall, 16px);
     width: 531px;
+  }
+
+  .stepperImage {
+    display: block;
+    margin-left: 120px;
+    margin-top: -80px;
   }
 }
