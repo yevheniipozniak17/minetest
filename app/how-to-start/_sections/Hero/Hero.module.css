@@ -1,0 +1,225 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 644px;
+  background-color: var(--color-bg);
+  background-image: url('/how-to-start/bg-mobile.webp');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.title {
+  margin-bottom: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 145px;
+  width: 208px;
+  color: var(--New-group-color-bg-default-50, #fff);
+  text-align: center;
+
+  /* mobile/H1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H1-Large, 48px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.stepper {
+  margin-top: -382px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+/* Stepper */
+.stepperList {
+  --stepper-gap: 80px;
+
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--stepper-gap);
+  align-items: center;
+}
+
+.stepperNumber {
+  width: 73px;
+  height: 73px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1px solid var(--primary-color-primary-500, #bde153);
+
+  /* filter: drop-shadow(4px 5px 30px rgba(3, 29, 23, 0.44)); */
+  backdrop-filter: blur(5px);
+
+  color: var(--primary-color-primary-500, #bde153);
+
+  /* desktop/H2 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Desk-H2-Medium, 40px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+
+  border-radius: 50%;
+
+  fill: var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
+  stroke-width: 1px;
+  stroke: var(--primary-color-primary-500, #bde153);
+  filter: drop-shadow(4px 5px 30px rgba(3, 29, 23, 0.44));
+  backdrop-filter: blur(5px);
+}
+
+.stepperItem {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+/* Connector: від низу кола до верху наступного (рядок + flex-gap) */
+.stepperItem:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  left: calc(73px / 2);
+  top: 73px;
+  bottom: calc(-1 * var(--stepper-gap));
+  width: 0;
+  border-left: 1px dashed var(--primary-color-primary-500, #bde153);
+  transform: translateX(-50%);
+}
+
+.stepperTitle {
+  margin-bottom: 12px;
+  display: flex;
+  align-items: flex-end;
+  gap: 6px;
+
+  width: 205px;
+  color: var(--primary-color-primary-500, #bde153);
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H2-Medium, 30px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.stepperDescription {
+  margin-bottom: 12px;
+  width: 197px;
+  color: var(--New-group-color-bg-default-50, #fff);
+
+  /* mobile/body 1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+
+.stepperButton {
+  display: flex;
+  max-width: 182px;
+  width: 100%;
+  height: 47px;
+
+  justify-content: center;
+  align-items: center;
+
+  color: var(--New-group-color-bg-effect-500, #031d17);
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Desk-Body-xsmall, 16px);
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  border-radius: 109px;
+  background: var(--primary-color-primary-500, #bde153);
+
+  /* For Button */
+  box-shadow:
+    4px 5px 30px 0 rgba(187, 223, 51, 0.55),
+    -3px -4px 7px 0 rgba(255, 255, 255, 0.15) inset;
+}
+
+.stepperVersion {
+  width: 86px;
+  height: 37px;
+  padding: 10px 23px;
+  border-radius: 109px;
+  border: 1px solid var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+  background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+  backdrop-filter: blur(24px);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+
+  color: var(--New-group-color-bg-default-50, #fff);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
+
+  /* mobile/body 1 */
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 18px */
+}
+/* Stepper */
+
+@media (min-width: 768px) {
+  .hero {
+    background-image: url('/how-to-start/bg.webp');
+    background-size: cover;
+    background-position: 75% 50%;
+  }
+
+  .title {
+    text-align: start;
+    width: 523px;
+    margin-left: 0;
+    padding-top: 224px;
+    color: var(--New-group-color-bg-default-50, #fff);
+
+    /* desktop/H1 */
+    font-family: var(--Font-Serif-Typography, Montserrat);
+    font-size: var(--Size-Desk-H1-Large, 64px);
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .stepper {
+    margin-top: -380px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background: #031d17;
+  }
+
+  .stepperList {
+    align-items: flex-start;
+  }
+
+  .stepperTitle {
+    margin-bottom: 24px;
+    width: 100%;
+    align-items: center;
+    font-size: var(--Size-Desk-H2-Medium, 40px);
+  }
+
+  .stepperVersion {
+    width: 109px;
+    height: 47px;
+  }
+
+  .stepperDescription {
+    margin-bottom: 24px;
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+    width: 531px;
+  }
+}

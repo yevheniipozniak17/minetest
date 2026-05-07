@@ -1,5 +1,11 @@
+import Hero from './_sections/Hero/Hero';
+
 const HowToStart = () => {
-  return <div>How To Start Page</div>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 };
 
 export default HowToStart;
