@@ -198,6 +198,24 @@
   line-height: 18px;
 }
 
+.fieldError {
+  padding-top: 2px;
+  color: #ff8d8d;
+  font-family: Montserrat, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.inputError,
+.inputError:focus,
+.selectError,
+.selectError:focus,
+.textareaError,
+.textareaError:focus {
+  border-color: rgba(255, 107, 107, 0.6);
+}
+
 .success {
   display: flex;
   flex-direction: column;
