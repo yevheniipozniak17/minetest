@@ -78,11 +78,14 @@
       "messageLabel": "Nachricht",
       "messagePlaceholder": "Wie können wir dir helfen\u2026",
       "submit": "Nachricht senden",
-      "submitting": "E-Mail wird geöffnet\u2026",
-      "successTitle": "Bereit zum Senden",
-      "successText": "Deine E-Mail-App sollte sich mit der vorausgefüllten Nachricht öffnen. Falls nicht, schreibe an",
+      "submitting": "Wird gesendet\u2026",
+      "successTitle": "Nachricht gesendet",
+      "successText": "Danke! Wir antworten innerhalb eines Werktags auf deine E-Mail.",
+      "successFallback": "Falls du keine Antwort erhältst, schreibe an",
       "sendAnother": "Weitere Nachricht senden",
-      "error": "Bitte alle Felder ausfüllen."
+      "error": "Bitte alle Felder ausfüllen.",
+      "errorNetwork": "Etwas ist schiefgelaufen. Bitte versuche es erneut.",
+      "errorRateLimit": "Du kannst bis zu 3 Nachrichten pro Tag senden. Bitte versuche es morgen erneut."
     },
     "data": {
       "topic": {

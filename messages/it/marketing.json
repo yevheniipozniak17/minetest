@@ -78,11 +78,14 @@
       "messageLabel": "Messaggio",
       "messagePlaceholder": "Dicci come possiamo aiutarti\u2026",
       "submit": "Invia messaggio",
-      "submitting": "Apertura email\u2026",
-      "successTitle": "Pronto per inviare",
-      "successText": "La tua app email dovrebbe aprirsi con il messaggio precompilato. Se non accade, scrivi a",
+      "submitting": "Invio in corso\u2026",
+      "successTitle": "Messaggio inviato",
+      "successText": "Grazie! Ti risponderemo via email entro un giorno lavorativo.",
+      "successFallback": "Se non ricevi risposta, scrivi a",
       "sendAnother": "Invia un altro messaggio",
-      "error": "Compila tutti i campi."
+      "error": "Compila tutti i campi.",
+      "errorNetwork": "Qualcosa è andato storto. Riprova.",
+      "errorRateLimit": "Puoi inviare fino a 3 messaggi al giorno. Riprova domani."
     },
     "data": {
       "topic": {

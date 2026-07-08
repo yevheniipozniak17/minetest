@@ -78,11 +78,14 @@
       "messageLabel": "Mensaje",
       "messagePlaceholder": "Cuéntanos cómo podemos ayudarte\u2026",
       "submit": "Enviar mensaje",
-      "submitting": "Abriendo el email\u2026",
-      "successTitle": "Listo para enviar",
-      "successText": "Tu aplicación de correo debería abrirse con el mensaje prellenado. Si no, escribe a",
+      "submitting": "Enviando\u2026",
+      "successTitle": "Mensaje enviado",
+      "successText": "¡Gracias! Te responderemos por email en un día hábil.",
+      "successFallback": "Si no recibes respuesta, escribe a",
       "sendAnother": "Enviar otro mensaje",
-      "error": "Por favor, rellena todos los campos."
+      "error": "Por favor, rellena todos los campos.",
+      "errorNetwork": "Algo salió mal. Inténtalo de nuevo.",
+      "errorRateLimit": "Puedes enviar hasta 3 mensajes al día. Inténtalo mañana."
     },
     "data": {
       "topic": {

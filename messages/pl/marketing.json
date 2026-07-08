@@ -78,11 +78,14 @@
       "messageLabel": "Wiadomość",
       "messagePlaceholder": "Powiedz nam, jak możemy pomóc\u2026",
       "submit": "Wyślij wiadomość",
-      "submitting": "Otwieranie emaila\u2026",
-      "successTitle": "Gotowe do wysłania",
-      "successText": "Twoja aplikacja pocztowa powinna otworzyć się z wypełnioną wiadomością. Jeśli nie, napisz na",
+      "submitting": "Wysyłanie\u2026",
+      "successTitle": "Wiadomość wysłana",
+      "successText": "Dziękujemy! Odpowiemy na Twój email w ciągu jednego dnia roboczego.",
+      "successFallback": "Jeśli nie otrzymasz odpowiedzi, napisz na",
       "sendAnother": "Wyślij kolejną wiadomość",
-      "error": "Proszę wypełnić wszystkie pola."
+      "error": "Proszę wypełnić wszystkie pola.",
+      "errorNetwork": "Coś poszło nie tak. Spróbuj ponownie.",
+      "errorRateLimit": "Możesz wysłać do 3 wiadomości dziennie. Spróbuj jutro."
     },
     "data": {
       "topic": {

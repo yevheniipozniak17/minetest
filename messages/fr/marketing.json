@@ -78,11 +78,14 @@
       "messageLabel": "Message",
       "messagePlaceholder": "Comment pouvons-nous vous aider\u2026",
       "submit": "Envoyer le message",
-      "submitting": "Ouverture de l'e-mail\u2026",
-      "successTitle": "Prêt à envoyer",
-      "successText": "Votre application de messagerie devrait s'ouvrir avec le message pré-rempli. Sinon, écrivez à",
+      "submitting": "Envoi en cours\u2026",
+      "successTitle": "Message envoyé",
+      "successText": "Merci\u00a0! Nous vous répondrons par e-mail dans un jour ouvrable.",
+      "successFallback": "Si vous n'avez pas de réponse, écrivez à",
       "sendAnother": "Envoyer un autre message",
-      "error": "Veuillez remplir tous les champs."
+      "error": "Veuillez remplir tous les champs.",
+      "errorNetwork": "Une erreur s'est produite. Veuillez réessayer.",
+      "errorRateLimit": "Vous pouvez envoyer jusqu'à 3 messages par jour. Réessayez demain."
     },
     "data": {
       "topic": {

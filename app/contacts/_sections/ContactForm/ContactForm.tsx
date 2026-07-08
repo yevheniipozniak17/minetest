@@ -1,12 +1,20 @@
 'use client';
 
+import { isAxiosError } from 'axios';
 import { FormEvent, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { sendContactForm } from '@/lib/api/contact';
 import { CONTACT_TOPICS, SUPPORT_EMAIL } from '@/lib/data/contacts';
-import type { ContactTopicValue } from '@/lib/data/contacts';
 import styles from './ContactForm.module.css';
 
 type FormStatus = 'idle' | 'submitting' | 'sent';
+
+function isRateLimitError(status: number | undefined, detail: unknown): boolean {
+  if (status === 429) return true;
+  if (typeof detail !== 'string') return false;
+  const lower = detail.toLowerCase();
+  return lower.includes('limit') || lower.includes('daily') || lower.includes('3');
+}
 
 export default function ContactForm() {
   const t = useTranslations('marketing');
@@ -18,7 +26,7 @@ export default function ContactForm() {
   const [status, setStatus] = useState<FormStatus>('idle');
   const [formError, setFormError] = useState<string | null>(null);
 
-  function handleSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     setFormError(null);
 
@@ -27,20 +35,31 @@ export default function ContactForm() {
       return;
     }
 
-    const topicLabel = topic
-      ? t(`contacts.data.topic.${topic as ContactTopicValue}`)
-      : topic;
-    const subject = encodeURIComponent(`Support: ${topicLabel}`);
-    const body = encodeURIComponent(
-      `Name: ${name.trim()}\nEmail: ${email.trim()}\nTopic: ${topicLabel}\n\n${message.trim()}`,
-    );
-
     setStatus('submitting');
-    window.location.href = `mailto:${SUPPORT_EMAIL}?subject=${subject}&body=${body}`;
-
-    window.setTimeout(() => {
+    try {
+      await sendContactForm({
+        name: name.trim(),
+        email: email.trim(),
+        topic,
+        message: message.trim(),
+      });
       setStatus('sent');
-    }, 400);
+    } catch (err) {
+      setStatus('idle');
+      if (isAxiosError(err)) {
+        const statusCode = err.response?.status;
+        const detail = err.response?.data?.detail;
+        if (isRateLimitError(statusCode, detail)) {
+          setFormError(t('contacts.form.errorRateLimit'));
+        } else if (typeof detail === 'string') {
+          setFormError(detail);
+        } else {
+          setFormError(t('contacts.form.errorNetwork'));
+        }
+      } else {
+        setFormError(t('contacts.form.errorNetwork'));
+      }
+    }
   }
 
   return (
@@ -54,8 +73,9 @@ export default function ContactForm() {
       {status === 'sent' ? (
         <div className={styles.success} role="status">
           <p className={styles.successTitle}>{t('contacts.form.successTitle')}</p>
+          <p className={styles.successText}>{t('contacts.form.successText')}</p>
           <p className={styles.successText}>
-            {t('contacts.form.successText')}{' '}
+            {t('contacts.form.successFallback')}{' '}
             <a href={`mailto:${SUPPORT_EMAIL}`} className={styles.successLink}>
               {SUPPORT_EMAIL}
             </a>

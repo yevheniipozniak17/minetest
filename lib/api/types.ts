@@ -29,6 +29,13 @@ export interface ChangePasswordInput {
   new_password: string;
 }
 
+export interface ContactFormInput {
+  name: string;
+  email: string;
+  topic: string;
+  message: string;
+}
+
 // ---- User profile ----
 
 export interface UserProfile {

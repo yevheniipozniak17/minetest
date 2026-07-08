@@ -78,11 +78,14 @@
       "messageLabel": "Message",
       "messagePlaceholder": "Tell us how we can help\u2026",
       "submit": "Send message",
-      "submitting": "Opening email\u2026",
-      "successTitle": "Ready to send",
-      "successText": "Your email app should open with the message pre-filled. If it does not, write to",
+      "submitting": "Sending\u2026",
+      "successTitle": "Message sent",
+      "successText": "Thank you! We will reply to your email within one business day.",
+      "successFallback": "If you do not hear back, write to",
       "sendAnother": "Send another",
-      "error": "Please fill in all fields."
+      "error": "Please fill in all fields.",
+      "errorNetwork": "Something went wrong. Please try again.",
+      "errorRateLimit": "You can send up to 3 messages per day. Please try again tomorrow."
     },
     "data": {
       "topic": {
