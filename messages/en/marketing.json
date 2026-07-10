@@ -80,7 +80,7 @@
       "submit": "Send message",
       "submitting": "Sending\u2026",
       "successTitle": "Message sent",
-      "successText": "Thank you! We will reply to your email within one business day.",
+      "successText": "Thank you! We'll reply to {email} within one business day.",
       "successFallback": "If you do not hear back, write to",
       "sendAnother": "Send another",
       "errorNameRequired": "Please enter your name.",

@@ -80,7 +80,7 @@
       "submit": "Nachricht senden",
       "submitting": "Wird gesendet\u2026",
       "successTitle": "Nachricht gesendet",
-      "successText": "Danke! Wir antworten innerhalb eines Werktags auf deine E-Mail.",
+      "successText": "Danke! Wir antworten innerhalb eines Werktags an {email}.",
       "successFallback": "Falls du keine Antwort erhältst, schreibe an",
       "sendAnother": "Weitere Nachricht senden",
       "errorNameRequired": "Bitte gib deinen Namen ein.",

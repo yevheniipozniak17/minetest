@@ -80,7 +80,7 @@
       "submit": "Enviar mensaje",
       "submitting": "Enviando\u2026",
       "successTitle": "Mensaje enviado",
-      "successText": "¡Gracias! Te responderemos por email en un día hábil.",
+      "successText": "¡Gracias! Te responderemos a {email} en un día hábil.",
       "successFallback": "Si no recibes respuesta, escribe a",
       "sendAnother": "Enviar otro mensaje",
       "errorNameRequired": "Introduce tu nombre.",

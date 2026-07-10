@@ -80,7 +80,7 @@
       "submit": "Invia messaggio",
       "submitting": "Invio in corso\u2026",
       "successTitle": "Messaggio inviato",
-      "successText": "Grazie! Ti risponderemo via email entro un giorno lavorativo.",
+      "successText": "Grazie! Ti risponderemo a {email} entro un giorno lavorativo.",
       "successFallback": "Se non ricevi risposta, scrivi a",
       "sendAnother": "Invia un altro messaggio",
       "errorNameRequired": "Inserisci il tuo nome.",

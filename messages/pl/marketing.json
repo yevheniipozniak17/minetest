@@ -80,7 +80,7 @@
       "submit": "Wyślij wiadomość",
       "submitting": "Wysyłanie\u2026",
       "successTitle": "Wiadomość wysłana",
-      "successText": "Dziękujemy! Odpowiemy na Twój email w ciągu jednego dnia roboczego.",
+      "successText": "Dziękujemy! Odpowiemy na {email} w ciągu jednego dnia roboczego.",
       "successFallback": "Jeśli nie otrzymasz odpowiedzi, napisz na",
       "sendAnother": "Wyślij kolejną wiadomość",
       "errorNameRequired": "Podaj swoje imię.",

@@ -156,12 +156,16 @@ export default function ContactForm() {
       <h2 id="contact-form-heading" className={styles.formTitle}>
         {t('contacts.form.title')}
       </h2>
-      <p className={styles.formDescription}>{t('contacts.form.description')}</p>
+      {status !== 'sent' ? (
+        <p className={styles.formDescription}>{t('contacts.form.description')}</p>
+      ) : null}
 
       {status === 'sent' ? (
         <div className={styles.success} role="status">
           <p className={styles.successTitle}>{t('contacts.form.successTitle')}</p>
-          <p className={styles.successText}>{t('contacts.form.successText')}</p>
+          <p className={styles.successText}>
+            {t('contacts.form.successText', { email })}
+          </p>
           <p className={styles.successText}>
             {t('contacts.form.successFallback')}{' '}
             <a href={`mailto:${SUPPORT_EMAIL}`} className={styles.successLink}>
