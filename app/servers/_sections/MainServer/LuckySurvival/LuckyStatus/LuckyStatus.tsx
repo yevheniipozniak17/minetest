@@ -1,21 +1,15 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { formatServerOnlineCount } from '@/lib/client/formatServerOnlineCount';
 import { useServerOnline } from '@/lib/client/useServerOnline';
 import styles from './LuckyStatus.module.css';
 
 export default function LuckyStatus() {
   const t = useTranslations('servers');
-  const { online, status } = useServerOnline('luckysurvival');
+  const { status } = useServerOnline('luckysurvival');
   const isOffline = status === 'offline';
 
   const STATS = [
-    {
-      value: formatServerOnlineCount(online, status),
-      labelMobile: t('shared.playersMobile'),
-      labelDesktop: t('shared.playersDesktop'),
-    },
     { value: '24/7', labelMobile: t('shared.availabilityLabel'), labelDesktop: t('shared.availabilityLabel') },
   ];
 

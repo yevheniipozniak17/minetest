@@ -50,6 +50,8 @@
 }
 
 .primary {
+  position: relative;
+  z-index: 0;
   background: var(--color-primary, #bde153);
   color: var(--color-bg, #031d17);
   box-shadow:
@@ -62,7 +64,9 @@
 }
 
 .secondary {
-  background: rgba(255, 255, 255, 0.05);
+  position: relative;
+  z-index: 1;
+  background: var(--color-bg-effect, #001812);
   border: 1px solid rgba(255, 255, 255, 0.05);
   color: var(--color-text, #fff);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);
@@ -70,7 +74,7 @@
 }
 
 .secondary:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: #0a221c;
   border-color: rgba(255, 255, 255, 0.15);
 }
 
