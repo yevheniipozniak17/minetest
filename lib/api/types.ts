@@ -136,9 +136,23 @@ export interface OrderListItem {
   status?: string | null;
 }
 
+// ---- Promos ----
+
+export interface ApplyPromoInput {
+  promo: string;
+}
+
+// Бекенд валідує промо по активному замовленню й повертає розрахунок знижки
+// (без збереження). У Swagger серіалайзер відповіді збігається із запитом і не
+// декларує полів суми, тож тримаємо відповідь як довільний об'єкт і дістаємо
+// новий тотал/знижку захищено на клієнті.
+export type ApplyPromoResult = Record<string, unknown>;
+
 // ---- Payment ----
 
 export interface CreatePaymentInput {
   user_nickname: string;
   server: string;
+  // Промокод, підтверджений через /promos/apply — бекенд застосує знижку сам.
+  promo?: string | null;
 }

@@ -483,6 +483,27 @@
   filter: brightness(1.08);
 }
 
+.promoApply:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  filter: none;
+}
+
+.promoMessage {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+}
+
+.promoMessageOk {
+  color: var(--color-primary);
+}
+
+.promoMessageError {
+  color: #ff8b7d;
+}
+
 /* ── Summary ── */
 
 .summary {

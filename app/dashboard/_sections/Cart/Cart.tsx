@@ -7,6 +7,7 @@ import { useLocale, useTranslations } from 'next-intl';
 import { getOrderItems, changeItemAmount, removeFromCart } from '@/lib/api/cart';
 import { getServers, getProducts } from '@/lib/api/shop';
 import { createPayment } from '@/lib/api/payment';
+import { applyPromo } from '@/lib/api/promos';
 import type { OrderItem } from '@/lib/api/types';
 import { DEFAULT_CURRENCY, formatMoney } from '@/lib/client/currency';
 import { notifyCartUpdated } from '@/lib/client/cartCount';
@@ -63,6 +64,56 @@ function extractPaymentUrl(data: unknown): string | null {
   return null;
 }
 
+function toNumber(value: unknown): number | null {
+  if (typeof value === 'number' && Number.isFinite(value)) return value;
+  if (typeof value === 'string' && value.trim() !== '') {
+    const n = Number(value);
+    return Number.isFinite(n) ? n : null;
+  }
+  return null;
+}
+
+// Реальна відповідь /core/promos/apply:
+//   { promo, promo_value: "30.00000000", total_price: "150...", payment_price: "120..." }
+// payment_price — сума до сплати зі знижкою; promo_value — розмір знижки;
+// total_price — початкова сума (НЕ нова!). Тримаємо фолбеки на інші імена
+// на випадок майбутніх змін серіалайзера, але з правильним пріоритетом.
+function extractPromoAmounts(data: unknown): {
+  newTotal: number | null;
+  discount: number | null;
+} {
+  if (!data || typeof data !== 'object') return { newTotal: null, discount: null };
+  const obj = data as Record<string, unknown>;
+  // Ключі суми до сплати — payment_price авторитетний; total_price свідомо не тут.
+  const totalKeys = [
+    'payment_price',
+    'amount_to_pay',
+    'new_total',
+    'new_price',
+    'total_with_promo',
+    'final_price',
+  ];
+  const discountKeys = ['promo_value', 'discount', 'discount_amount', 'promo_discount', 'sale', 'saved'];
+
+  let newTotal: number | null = null;
+  for (const key of totalKeys) {
+    const n = toNumber(obj[key]);
+    if (n !== null) {
+      newTotal = n;
+      break;
+    }
+  }
+  let discount: number | null = null;
+  for (const key of discountKeys) {
+    const n = toNumber(obj[key]);
+    if (n !== null) {
+      discount = n;
+      break;
+    }
+  }
+  return { newTotal, discount };
+}
+
 function labelFromImage(name: string | undefined): string {
   if (!name) return 'Item';
   const base =
@@ -116,6 +167,12 @@ export default function Cart() {
   const [nicknameOverride, setNicknameOverride] = useState<string | null>(null);
   const nickname = nicknameOverride ?? suggestedNickname;
   const [promoCode, setPromoCode] = useState('');
+  const [appliedPromo, setAppliedPromo] = useState<string | null>(null);
+  const [promoDiscount, setPromoDiscount] = useState<number | null>(null);
+  const [promoNewTotal, setPromoNewTotal] = useState<number | null>(null);
+  const [applyingPromo, setApplyingPromo] = useState(false);
+  const [promoMessage, setPromoMessage] = useState<string | null>(null);
+  const [promoError, setPromoError] = useState(false);
   const [paying, setPaying] = useState(false);
   const [payMessage, setPayMessage] = useState<string | null>(null);
   const [purchaseAgreed, setPurchaseAgreed] = useState(false);
@@ -195,6 +252,24 @@ export default function Cart() {
   // Валюта кошика = валюта його позицій (бекенд тримає одну валюту на кошик).
   const cartCurrency = rows[0]?.currency ?? DEFAULT_CURRENCY;
 
+  // Ефективний тотал до оплати: якщо промо застосовано — нова сума з бекенду.
+  const effectiveTotal = promoNewTotal ?? subtotal;
+
+  // Скидаємо застосований промо — код більше не відповідає поточному кошику/введенню.
+  const clearAppliedPromo = useCallback(() => {
+    setAppliedPromo(null);
+    setPromoDiscount(null);
+    setPromoNewTotal(null);
+    setPromoMessage(null);
+    setPromoError(false);
+  }, []);
+
+  // Зміна складу/кількості кошика робить попередній розрахунок знижки нерелевантним.
+  useEffect(() => {
+    if (appliedPromo) clearAppliedPromo();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [subtotal]);
+
   // dir: +1 / -1 — напрямок; крок залежить від товару (кристали — по 10).
   const changeQty = (id: string, dir: 1 | -1) => {
     let nextQty = 1;
@@ -248,6 +323,36 @@ export default function Cart() {
     }
   }
 
+  async function handleApplyPromo() {
+    const code = promoCode.trim();
+    if (!code || applyingPromo || lineCount === 0) return;
+    setApplyingPromo(true);
+    setPromoMessage(null);
+    setPromoError(false);
+    try {
+      const data = await applyPromo({ promo: code });
+      const { newTotal, discount } = extractPromoAmounts(data);
+      // Взаємодоповнюємо тотал і знижку, звідки б бекенд не повернув значення.
+      const resolvedTotal =
+        newTotal ?? (discount !== null ? Math.max(0, subtotal - discount) : null);
+      const resolvedDiscount =
+        discount ?? (newTotal !== null ? Math.max(0, subtotal - newTotal) : null);
+      setAppliedPromo(code);
+      setPromoNewTotal(resolvedTotal);
+      setPromoDiscount(resolvedDiscount);
+      setPromoError(false);
+      setPromoMessage(t('promoApplied', { code }));
+    } catch {
+      setAppliedPromo(null);
+      setPromoNewTotal(null);
+      setPromoDiscount(null);
+      setPromoError(true);
+      setPromoMessage(t('promoInvalid'));
+    } finally {
+      setApplyingPromo(false);
+    }
+  }
+
   async function handlePay() {
     const nick = nickname.trim();
     if (!nick) {
@@ -261,7 +366,12 @@ export default function Cart() {
       // після оплати, тож не зриваємо створення платежу, якщо гравця ще немає в мережі.
       const online = await isNicknameOnline(nick);
 
-      const data = await createPayment({ user_nickname: nick, server });
+      const data = await createPayment({
+        user_nickname: nick,
+        server,
+        // Той самий підтверджений промокод — бекенд застосує знижку під капотом.
+        promo: appliedPromo ?? undefined,
+      });
       const url = extractPaymentUrl(data);
       if (url) {
         window.location.href = url;
@@ -287,8 +397,12 @@ export default function Cart() {
         <span className={styles.summaryValue}>{formatMoney(subtotal, cartCurrency)}</span>
       </div>
       <div className={styles.summaryRow}>
-        <span>{t('promoLabel')}</span>
-        <span className={styles.summaryValue}>–</span>
+        <span>{appliedPromo ? t('promoLabelApplied', { code: appliedPromo }) : t('promoLabel')}</span>
+        <span className={styles.summaryValue}>
+          {promoDiscount && promoDiscount > 0
+            ? `−${formatMoney(promoDiscount, cartCurrency)}`
+            : '–'}
+        </span>
       </div>
       <div className={styles.summaryRow}>
         <span>{t('serviceFee')}</span>
@@ -297,7 +411,9 @@ export default function Cart() {
       <div className={styles.summaryDivider} aria-hidden />
       <div className={styles.summaryTotal}>
         <span>{t('total')}</span>
-        <span className={styles.summaryTotalValue}>{formatMoney(subtotal, cartCurrency)}</span>
+        <span className={styles.summaryTotalValue}>
+          {formatMoney(effectiveTotal, cartCurrency)}
+        </span>
       </div>
       <button
         type="button"
@@ -532,12 +648,35 @@ export default function Cart() {
                 className={styles.promoInput}
                 placeholder={t('promoPlaceholder')}
                 value={promoCode}
-                onChange={e => setPromoCode(e.target.value)}
+                onChange={e => {
+                  setPromoCode(e.target.value);
+                  if (appliedPromo || promoMessage) clearAppliedPromo();
+                }}
+                onKeyDown={e => {
+                  if (e.key === 'Enter') {
+                    e.preventDefault();
+                    handleApplyPromo();
+                  }
+                }}
+                disabled={applyingPromo || lineCount === 0}
               />
-              <button type="button" className={styles.promoApply}>
-                {t('promoApply')}
+              <button
+                type="button"
+                className={styles.promoApply}
+                onClick={handleApplyPromo}
+                disabled={applyingPromo || lineCount === 0 || promoCode.trim().length === 0}
+              >
+                {applyingPromo ? t('promoApplying') : t('promoApply')}
               </button>
             </div>
+            {promoMessage && (
+              <p
+                className={`${styles.promoMessage} ${promoError ? styles.promoMessageError : styles.promoMessageOk}`}
+                role="status"
+              >
+                {promoMessage}
+              </p>
+            )}
           </section>
         </div>
       </div>
