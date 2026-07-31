@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useCallback, useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
 import { getOrderItems, changeItemAmount, removeFromCart } from '@/lib/api/cart';
 import { getServers, getProducts } from '@/lib/api/shop';
@@ -177,6 +177,39 @@ export default function Cart() {
   const [payMessage, setPayMessage] = useState<string | null>(null);
   const [purchaseAgreed, setPurchaseAgreed] = useState(false);
   const [policiesAgreed, setPoliciesAgreed] = useState(false);
+  const [consentToast, setConsentToast] = useState<string | null>(null);
+  const [highlightConsents, setHighlightConsents] = useState(false);
+  const consentsRef = useRef<HTMLDivElement>(null);
+  const purchaseConsentRef = useRef<HTMLInputElement>(null);
+  const policiesConsentRef = useRef<HTMLInputElement>(null);
+  const consentToastTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const highlightTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const flashConsentToast = useCallback(
+    (message: string) => {
+      setConsentToast(message);
+      if (consentToastTimer.current) clearTimeout(consentToastTimer.current);
+      consentToastTimer.current = setTimeout(() => setConsentToast(null), 3000);
+    },
+    []
+  );
+
+  const nudgeConsents = useCallback(() => {
+    flashConsentToast(t('consentRequiredToast'));
+    setHighlightConsents(true);
+    if (highlightTimer.current) clearTimeout(highlightTimer.current);
+    highlightTimer.current = setTimeout(() => setHighlightConsents(false), 1000);
+    consentsRef.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    const focusTarget = !purchaseAgreed ? purchaseConsentRef : policiesConsentRef;
+    window.requestAnimationFrame(() => focusTarget.current?.focus());
+  }, [flashConsentToast, purchaseAgreed, t]);
+
+  useEffect(() => {
+    return () => {
+      if (consentToastTimer.current) clearTimeout(consentToastTimer.current);
+      if (highlightTimer.current) clearTimeout(highlightTimer.current);
+    };
+  }, []);
 
   useEffect(() => {
     let active = true;
@@ -387,6 +420,14 @@ export default function Cart() {
     }
   }
 
+  function attemptPay() {
+    if (!purchaseAgreed || !policiesAgreed) {
+      nudgeConsents();
+      return;
+    }
+    void handlePay();
+  }
+
   const summaryBlock = (
     <section className={styles.summary} aria-labelledby="summary-heading">
       <h2 id="summary-heading" className={styles.summaryTitle}>
@@ -418,55 +459,62 @@ export default function Cart() {
       <button
         type="button"
         className={styles.payBtn}
-        onClick={handlePay}
-        disabled={paying || lineCount === 0 || !purchaseAgreed || !policiesAgreed}
+        onClick={attemptPay}
+        disabled={paying || lineCount === 0}
       >
         <span>{paying ? t('payBtnProcessing') : t('payBtn')}</span>
         <span aria-hidden>→</span>
       </button>
-      <label className={styles.consent}>
-        <input
-          type="checkbox"
-          className={styles.consentInput}
-          checked={purchaseAgreed}
-          onChange={event => setPurchaseAgreed(event.target.checked)}
-        />
-        <span className={styles.consentBox} aria-hidden="true" />
-        <span className={styles.consentText}>{t('consentText')}</span>
-      </label>
-      <label className={styles.consent}>
-        <input
-          type="checkbox"
-          className={styles.consentInput}
-          checked={policiesAgreed}
-          onChange={event => setPoliciesAgreed(event.target.checked)}
-        />
-        <span className={styles.consentBox} aria-hidden="true" />
-        <span className={styles.consentText}>
-          {t.rich('policiesConsentText', {
-            privacy: chunks => (
-              <Link href="/privacy-policy" className={styles.consentLink}>
-                {chunks}
-              </Link>
-            ),
-            terms: chunks => (
-              <Link href="/terms" className={styles.consentLink}>
-                {chunks}
-              </Link>
-            ),
-            delivery: chunks => (
-              <Link href="/delivery-policy" className={styles.consentLink}>
-                {chunks}
-              </Link>
-            ),
-            billing: chunks => (
-              <Link href="/billing-refunds" className={styles.consentLink}>
-                {chunks}
-              </Link>
-            ),
-          })}
-        </span>
-      </label>
+      <div
+        ref={consentsRef}
+        className={`${styles.consentGroup} ${highlightConsents ? styles.consentGroupHighlight : ''}`}
+      >
+        <label className={styles.consent}>
+          <input
+            ref={purchaseConsentRef}
+            type="checkbox"
+            className={styles.consentInput}
+            checked={purchaseAgreed}
+            onChange={event => setPurchaseAgreed(event.target.checked)}
+          />
+          <span className={styles.consentBox} aria-hidden="true" />
+          <span className={styles.consentText}>{t('consentText')}</span>
+        </label>
+        <label className={styles.consent}>
+          <input
+            ref={policiesConsentRef}
+            type="checkbox"
+            className={styles.consentInput}
+            checked={policiesAgreed}
+            onChange={event => setPoliciesAgreed(event.target.checked)}
+          />
+          <span className={styles.consentBox} aria-hidden="true" />
+          <span className={styles.consentText}>
+            {t.rich('policiesConsentText', {
+              privacy: chunks => (
+                <Link href="/privacy-policy" className={styles.consentLink}>
+                  {chunks}
+                </Link>
+              ),
+              terms: chunks => (
+                <Link href="/terms" className={styles.consentLink}>
+                  {chunks}
+                </Link>
+              ),
+              delivery: chunks => (
+                <Link href="/delivery-policy" className={styles.consentLink}>
+                  {chunks}
+                </Link>
+              ),
+              billing: chunks => (
+                <Link href="/billing-refunds" className={styles.consentLink}>
+                  {chunks}
+                </Link>
+              ),
+            })}
+          </span>
+        </label>
+      </div>
       {payMessage && <p className={styles.secureNote}>{payMessage}</p>}
     </section>
   );
@@ -680,6 +728,11 @@ export default function Cart() {
           </section>
         </div>
       </div>
+      {consentToast && (
+        <div className={styles.toast} role="status" aria-live="polite">
+          {consentToast}
+        </div>
+      )}
     </div>
   );
 }
