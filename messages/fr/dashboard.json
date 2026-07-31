@@ -22,7 +22,12 @@
     "seeAll": "Voir tous les serveurs",
     "online": "en ligne",
     "offline": "hors ligne",
-    "playersOnline": "Joueurs en ligne",
+    "difficulty": "Difficulté",
+    "difficultyLevels": {
+      "easy": "Facile",
+      "normal": "Normal",
+      "hard": "Difficile"
+    },
     "join": "Rejoindre"
   },
   "offline": {

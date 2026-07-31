@@ -416,6 +416,18 @@
   white-space: nowrap;
 }
 
+.difficultyEasy {
+  color: #7fd858;
+}
+
+.difficultyNormal {
+  color: #f2c14e;
+}
+
+.difficultyHard {
+  color: #ff6b5e;
+}
+
 .bar {
   width: 100%;
   height: 6px;

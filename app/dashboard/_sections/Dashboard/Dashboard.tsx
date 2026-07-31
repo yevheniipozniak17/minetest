@@ -29,9 +29,9 @@ const nf = new Intl.NumberFormat('en-US');
 
 // Real servers (keys from lib/server/gameServers.ts). Soft cap is visual-only.
 const SERVERS = [
-  { key: 'luckysurvival', name: 'LuckySurvival', meta: 'Java 1.12–1.19' },
-  { key: 'minewars', name: 'MineWars', meta: 'Java 1.12–1.19' },
-  { key: 'calmsky', name: 'CalmSky', meta: 'Java 1.12–1.19' },
+  { key: 'luckysurvival', name: 'LuckySurvival', meta: 'Java 1.12–1.19', difficulty: 'normal' },
+  { key: 'minewars', name: 'MineWars', meta: 'Java 1.12–1.19', difficulty: 'hard' },
+  { key: 'calmsky', name: 'CalmSky', meta: 'Java 1.12–1.19', difficulty: 'easy' },
 ] as const;
 
 type ActivityItem = {
@@ -435,7 +435,6 @@ export default function Dashboard() {
         {SERVERS.map(server => {
           const live = liveByKey[server.key];
           const isOnline = live.status === 'online';
-          const onlineText = live.online !== null ? nf.format(live.online) : '—';
 
           return (
             <article key={server.key} className={styles.server}>
@@ -459,8 +458,16 @@ export default function Dashboard() {
               </p>
 
               <div className={styles.playersRow}>
-                <span className={styles.playersLabel}>{t('serverStatus.playersOnline')}</span>
-                <span className={styles.playersValue}>{onlineText}</span>
+                <span className={styles.playersLabel}>{t('serverStatus.difficulty')}</span>
+                <span
+                  className={`${styles.playersValue} ${
+                    styles[
+                      `difficulty${server.difficulty.charAt(0).toUpperCase()}${server.difficulty.slice(1)}`
+                    ]
+                  }`}
+                >
+                  {t(`serverStatus.difficultyLevels.${server.difficulty}`)}
+                </span>
               </div>
 
               <div className={styles.serverFoot}>

@@ -53,6 +53,6 @@
   background: var(--color-primary, #bde153);
   color: var(--color-bg, #031d17);
   box-shadow:
-    4px 5px 30px 0 rgba(187, 223, 51, 0.55),
+    0 0 12px rgba(187, 223, 51, 0.4),
     inset -3px -4px 7px 0 rgba(255, 255, 255, 0.15);
 }
