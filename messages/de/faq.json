@@ -661,8 +661,8 @@
     },
     "change-nickname": {
       "lead": {
-        "mobile": "Dein Spielname ist das, was andere Spieler im Chat, in der Tab-Liste und in Bestenlisten sehen.",
-        "desktop": "Dein Spielname ist das, was andere Spieler im Chat, der Tab-Liste und Bestenlisten sehen. Er kann sich von deinem Microsoft-Gamertag oder E-Mail-Benutzernamen unterscheiden."
+        "mobile": "Dein Spielname ist das, was andere Spieler im Chat und in der Tab-Liste sehen.",
+        "desktop": "Dein Spielname ist das, was andere Spieler im Chat und in der Tab-Liste sehen. Er kann sich von deinem Microsoft-Gamertag oder E-Mail-Benutzernamen unterscheiden."
       },
       "s1": {
         "title": "Spielnamen \u00e4ndern",
@@ -1063,7 +1063,7 @@
         "bullets": [
           "Schemata vor dem ver\u00f6ffentlichten Stichtag exportieren.",
           "Saisontrophien bleiben auf deinem Dashboard-Profil.",
-          "Bestenlisten werden nach dem Reset auf der Website archiviert."
+          "Saison-Zusammenfassungen werden nach dem Reset auf der Website archiviert."
         ]
       },
       "s3": {
@@ -1206,8 +1206,8 @@
       },
       "s3": {
         "title": "Abgelaufene R\u00e4nge",
-        "leadMobile": "Du beh\u00e4ltst Bestenlisten-Trophäen, verlierst aber aktive Kosmetika, wenn die Zeit abl\u00e4uft.",
-        "leadDesktop": "Du beh\u00e4ltst Bestenlisten-Trophäen und Forum-Abzeichen, verlierst aber aktive Kosmetika und Warteschlangenpriorit\u00e4t, wenn die Zeit abl\u00e4uft.",
+        "leadMobile": "Du beh\u00e4ltst Saison-Troph\u00e4en, verlierst aber aktive Kosmetika, wenn die Zeit abl\u00e4uft.",
+        "leadDesktop": "Du beh\u00e4ltst Saison-Troph\u00e4en und Forum-Abzeichen, verlierst aber aktive Kosmetika und Warteschlangenpriorit\u00e4t, wenn die Zeit abl\u00e4uft.",
         "calloutTitle": "Tipp",
         "calloutMobile": "Gnadenfrist: 48 Stunden nach Ablauf mit reduzierten Vorteilen vor vollst\u00e4ndiger Entfernung.",
         "calloutDesktop": "Es gibt eine 48-St\u00fcnden-Gnadenfrist nach Ablauf mit reduzierten Vorteilen vor vollst\u00e4ndiger Entfernung \u2014 w\u00e4hrend der Gnadenfrist verl\u00e4ngern, um das Neu-Ausstatten von Kosmetika zu vermeiden."
@@ -1320,7 +1320,7 @@
     "tournaments": {
       "lead": {
         "mobile": "W\u00f6chentliche Brackets laufen von Freitag bis Sonntag UTC mit M\u00fcnz- und Kosmetikpreisen.",
-        "desktop": "W\u00f6chentliche Brackets laufen von Freitag 18:00 UTC bis Sonntag 23:59 UTC mit M\u00fcnzpools, Trophäen und exklusiven Kosmetika f\u00fcr Top-Finisher."
+        "desktop": "W\u00f6chentliche Brackets laufen von Freitag 18:00 UTC bis Sonntag 23:59 UTC mit M\u00fcnzpools, Troph\u00e4en und exklusiven Kosmetika f\u00fcr Top-Finisher."
       },
       "s1": {
         "title": "Anmelden",

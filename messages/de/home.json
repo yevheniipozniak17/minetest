@@ -1,7 +1,7 @@
 {
   "hero": {
-    "titleSuffix": "Ein Ökosystem der nächsten Generation",
-    "description": "Drei einzigartige Server, eine Ingame-Wirtschaft, Rankings und Turniere. Spiele wie du willst — PvP, Überleben oder entspanntes Bauen.",
+    "titleSuffix": "Ein \u00d6kosystem der n\u00e4chsten Generation",
+    "description": "Drei einzigartige Server, eine Ingame-Wirtschaft, Rankings und Turniere. Spiele wie du willst \u2014 PvP, \u00dcberleben oder entspanntes Bauen.",
     "playNow": "Jetzt spielen",
     "joinTwitch": "Twitch beitreten",
     "catAlt": "Minecraft-Katze"
@@ -10,19 +10,19 @@
     "title": "Warum bei uns spielen?",
     "stableServers": {
       "title": "Stabile Server",
-      "text": "Hohe Verfügbarkeit und flüssige Performance — kein Lag, keine Abstürze."
+      "text": "Hohe Verf\u00fcgbarkeit und fl\u00fcssige Performance \u2014 kein Lag, keine Abst\u00fcrze."
     },
     "regularUpdates": {
-      "title": "Regelmäßige Updates",
+      "title": "Regelm\u00e4\u00dfige Updates",
       "text": "Neue Funktionen, Fixes und Verbesserungen jeden Monat."
     },
-    "highOnline": {
-      "title": "Hohe Spielerzahl",
-      "text": "Eine aktive Community, die täglich auf allen Servern spielt."
+    "livingCommunity": {
+      "title": "Lebendige Community",
+      "text": "Spieler bauen, handeln und erkunden jeden Tag gemeinsam."
     },
     "fairEconomy": {
       "title": "Faire Wirtschaft",
-      "text": "Kein Pay-to-Win. Balance hat oberste Priorität."
+      "text": "Kein Pay-to-Win. Balance hat oberste Priorit\u00e4t."
     },
     "activeTeam": {
       "title": "Aktives Team",
@@ -30,7 +30,7 @@
     },
     "playerSupport": {
       "title": "Spieler-Support",
-      "text": "Schnelle Hilfe über Discord und In-Game-Support."
+      "text": "Schnelle Hilfe \u00fcber Discord und In-Game-Support."
     }
   },
   "features": {
@@ -40,50 +40,50 @@
     "buildCreate": {
       "title": "Bauen & Erschaffen",
       "text": "Frei bauen. Deine Welt gestalten.",
-      "description": "Erstelle Basen, Städte und Landschaften ohne Grenzen. Von kleinen Projekten bis zu riesigen Bauwerken — deine Fantasie setzt die Regeln."
+      "description": "Erstelle Basen, St\u00e4dte und Landschaften ohne Grenzen. Von kleinen Projekten bis zu riesigen Bauwerken \u2014 deine Fantasie setzt die Regeln."
     },
     "surviveCompete": {
-      "title": "Überleben & Kämpfen",
-      "text": "Kämpfen, überleben und dominieren.",
-      "description": "PvP-Kämpfe, Überfälle und Überlebensherausforderungen. Beweise dein Können und erklimme die Rankings."
+      "title": "\u00dcberleben & K\u00e4mpfen",
+      "text": "K\u00e4mpfen, \u00fcberleben und dominieren.",
+      "description": "PvP-K\u00e4mpfe, \u00dcberf\u00e4lle und \u00dcberlebensherausforderungen. Beweise dein K\u00f6nnen und erklimme die Rankings."
     },
     "skinsCosmetics": {
       "title": "Skins & Kosmetik",
       "text": "Optisch herausstechen.",
-      "description": "Passe deinen Charakter mit einzigartigen Skins, Effekten und visuellen Upgrades an. Kein Spielvorteil — nur Stil."
+      "description": "Passe deinen Charakter mit einzigartigen Skins, Effekten und visuellen Upgrades an. Kein Spielvorteil \u2014 nur Stil."
     },
     "inGameEconomy": {
       "title": "Ingame-Wirtschaft",
       "text": "Handeln. Verdienen. Vorankommen.",
-      "description": "Eine ausgewogene Wirtschaft mit Ingame-Währung. Handle mit Spielern, kaufe Upgrades und baue deinen Reichtum aus."
+      "description": "Eine ausgewogene Wirtschaft mit Ingame-W\u00e4hrung. Handle mit Spielern, kaufe Upgrades und baue deinen Reichtum aus."
     },
     "eventsTournaments": {
       "title": "Events & Turniere",
       "text": "Wettbewerbe kommen bald.",
-      "description": "Saisonevents, PvP-Turniere und Herausforderungen mit Belohnungen. Bleibt gespannt — große Kämpfe stehen bevor."
+      "description": "Saisonevents, PvP-Turniere und Herausforderungen mit Belohnungen. Bleibt gespannt \u2014 gro\u00dfe K\u00e4mpfe stehen bevor."
     }
   },
   "server": {
-    "title": "Wähle deinen Server",
+    "title": "W\u00e4hle deinen Server",
     "descLine1": "Jeder Server bietet einen einzigartigen Spielstil.",
     "descLine2": "Tritt der Welt bei, die am besten zu dir passt.",
     "introTitle": "Dein Abenteuer beginnt hier",
-    "introText": "Tauche ein in eine Welt voller endloser Erkundung, spannender Kämpfe und kreativem Bauen. Wähle deinen Weg, spiele nach deinen Regeln und genieße jeden Moment auf unseren Servern.",
-    "audienceTitle": "Für jeden Spieler gemacht",
-    "audienceText": "Ob du Survival, PvP oder friedliches Bauen liebst — unsere Server bieten einen einladenden Ort zum Erkunden, Erschaffen und Kennenlernen.",
+    "introText": "Tauche ein in eine Welt voller endloser Erkundung, spannender K\u00e4mpfe und kreativem Bauen. W\u00e4hle deinen Weg, spiele nach deinen Regeln und genie\u00dfe jeden Moment auf unseren Servern.",
+    "audienceTitle": "F\u00fcr jeden Spieler gemacht",
+    "audienceText": "Ob du Survival, PvP oder friedliches Bauen liebst \u2014 unsere Server bieten einen einladenden Ort zum Erkunden, Erschaffen und Kennenlernen.",
     "carouselAriaLabel": "Server",
     "goToServer": "Zu {title} wechseln",
     "luckysurvival": {
-      "text": "Klassisches Überleben mit ausgewogenem PvP",
-      "description": "Vanilla-Survival mit deaktiviertem PvP und TNT. Faire Kämpfe, Fortschritt und langfristiges Spiel."
+      "text": "Klassisches \u00dcberleben mit ausgewogenem PvP",
+      "description": "Vanilla-Survival mit deaktiviertem PvP und TNT. Faire K\u00e4mpfe, Fortschritt und langfristiges Spiel."
     },
     "minewars": {
       "text": "Totale Freiheit. Totales Chaos.",
-      "description": "Vanilla-Survival mit PvP und TNT. Bauen, zerstören, überfallen oder dominieren — ohne Limits."
+      "description": "Vanilla-Survival mit PvP und TNT. Bauen, zerst\u00f6ren, \u00fcberfallen oder dominieren \u2014 ohne Limits."
     },
     "calmsky": {
       "text": "Bauen, entspannen und verbinden",
-      "description": "Friedlicher Vanilla-Server ohne PvP oder TNT. Kreativität, soziales Spielen und schöne Bauten."
+      "description": "Friedlicher Vanilla-Server ohne PvP oder TNT. Kreativit\u00e4t, soziales Spielen und sch\u00f6ne Bauten."
     },
     "cardStatus": "Status",
     "cardOnline": "Online",
@@ -97,61 +97,49 @@
     "cardServerIp": "Server-IP:",
     "cardCopyNotice": "IP kopiert! Starte Minecraft und verbinde dich jetzt",
     "cardJoin": "{title} beitreten",
-    "cardOnlineAlt": "Online",
-    "cardOfflineAlt": "Offline",
     "bonusTitle": "Neuspieler-Bonus",
     "bonusText": "20% Rabatt auf deinen ersten Kauf",
-    "bonusDescLine1": "Steigere dein Gameplay mit Ingame-Währung oder Privilegien.",
-    "bonusDescLine2": "Zeitlich begrenztes Angebot für Neuspieler.",
+    "bonusDescLine1": "Steigere dein Gameplay mit Ingame-W\u00e4hrung oder Privilegien.",
+    "bonusDescLine2": "Zeitlich begrenztes Angebot f\u00fcr Neuspieler.",
     "bonusClaim": "Bonus beanspruchen",
     "bonusCopyNotice": "Promo-Code kopiert! Verwende ihn beim Checkout."
   },
   "preview": {
     "title": "Store-Vorschau"
   },
-  "rate": {
-    "title": "Top-bewertete Spieler",
-    "text": "Mehr spielen. Weiter kommen. Herausstechen.",
-    "rank": "Rang",
-    "player": "Spieler",
-    "server": "Server",
-    "level": "Level",
-    "playtime": "Spielzeit",
-    "activityScore": "Aktivitätspunkte"
-  },
   "questions": {
-    "title": "Häufig gestellte Fragen",
+    "title": "H\u00e4ufig gestellte Fragen",
     "text": "Keine Antwort gefunden? Besuche die FAQ-Seite",
     "seeMore": "Mehr anzeigen",
     "seeMoreAriaLabel": "Zum FAQ",
     "q1": {
       "question": "Wie fange ich an zu spielen?",
-      "answer": "Erstelle ein Konto, wähle einen Server und verbinde dich mit der IP-Adresse."
+      "answer": "Erstelle ein Konto, w\u00e4hle einen Server und verbinde dich mit der IP-Adresse."
     },
     "q2": {
       "question": "Kann ich auf mehreren Servern spielen?",
-      "answer": "Ja. Ein Konto funktioniert auf LuckySurvival, MineWars und CalmSky — jederzeit wechseln."
+      "answer": "Ja. Ein Konto funktioniert auf LuckySurvival, MineWars und CalmSky \u2014 jederzeit wechseln."
     },
     "q3": {
-      "question": "Unterstützt ihr die Java Edition?",
-      "answer": "Ja. Wir unterstützen Java 1.20.4 und die aktuelle Bedrock-Version."
+      "question": "Unterst\u00fctzt ihr die Java Edition?",
+      "answer": "Ja. Wir unterst\u00fctzen Java 1.20.4 und die aktuelle Bedrock-Version."
     },
     "q4": {
       "question": "Wie erreiche ich den Support?",
-      "answer": "Nutze Live-Chat, E-Mail oder Discord — unser Team antwortet innerhalb von 4 Stunden, rund um die Uhr."
+      "answer": "Nutze Live-Chat, E-Mail oder Discord \u2014 unser Team antwortet innerhalb von 4 Stunden, rund um die Uhr."
     },
     "q5": {
       "question": "Sind Events kostenlos?",
-      "answer": "Ja. Turniere und Saisonevents sind für alle Spieler kostenlos — kein zusätzlicher Kauf erforderlich."
+      "answer": "Ja. Turniere und Saisonevents sind f\u00fcr alle Spieler kostenlos \u2014 kein zus\u00e4tzlicher Kauf erforderlich."
     }
   },
   "communityTrust": {
-    "title": "Spieler sprechen über uns. Von der Community vertraut.",
-    "description": "Erfahre, was Spieler und Gaming-Plattformen über unsere Server sagen. Gelistet in vertrauenswürdigen Minecraft-Verzeichnissen.",
+    "title": "Spieler sprechen \u00fcber uns. Von der Community vertraut.",
+    "description": "Erfahre, was Spieler und Gaming-Plattformen \u00fcber unsere Server sagen. Gelistet in vertrauensw\u00fcrdigen Minecraft-Verzeichnissen.",
     "awardsTitle": "Community-Auszeichnungen",
-    "awardsDescription": "Von Spielern gewählt. Von der Community anerkannt.",
-    "platformsTitle": "Plattform-Erwähnungen",
-    "platformsDescription": "Auf vertrauenswürdigen Minecraft-Plattformen vorgestellt.",
+    "awardsDescription": "Von Spielern gew\u00e4hlt. Von der Community anerkannt.",
+    "platformsTitle": "Plattform-Erw\u00e4hnungen",
+    "platformsDescription": "Auf vertrauensw\u00fcrdigen Minecraft-Plattformen vorgestellt.",
     "awardAlt": "Auszeichnung",
     "featuredOnAriaLabel": "Vorgestellt auf"
   },

@@ -1,13 +1,27 @@
 // Конфіг ігрових Minecraft-серверів (окремий бекенд на порту 7000).
 // Токен статичний і має лишатися ТІЛЬКИ на сервері — ніколи не віддаємо в браузер.
 
+/** Складність світу — показуємо її замість кількості онлайну. */
+export type ServerDifficulty = 'easy' | 'normal' | 'hard';
+
 export const GAME_SERVERS = {
-  luckysurvival: { name: 'LuckySurvival', ip: '188.245.202.194' },
-  minewars: { name: 'MineWars', ip: '94.130.231.109' },
-  calmsky: { name: 'CalmSky', ip: '195.201.115.31' },
-} as const;
+  luckysurvival: {
+    name: 'LuckySurvival',
+    ip: '188.245.202.194',
+    difficulty: 'normal',
+  },
+  minewars: { name: 'MineWars', ip: '94.130.231.109', difficulty: 'hard' },
+  calmsky: { name: 'CalmSky', ip: '195.201.115.31', difficulty: 'easy' },
+} as const satisfies Record<
+  string,
+  { name: string; ip: string; difficulty: ServerDifficulty }
+>;
 
 export type GameServerKey = keyof typeof GAME_SERVERS;
+
+export function getServerDifficulty(key: GameServerKey): ServerDifficulty {
+  return GAME_SERVERS[key].difficulty;
+}
 
 export const GAME_API_PORT = 7000;
 

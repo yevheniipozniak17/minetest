@@ -15,7 +15,7 @@ export default async function BenefitsSection() {
   const items: BenefitsCardProps[] = [
     { title: t('benefits.stableServers.title'), text: t('benefits.stableServers.text') },
     { title: t('benefits.regularUpdates.title'), text: t('benefits.regularUpdates.text') },
-    { title: t('benefits.highOnline.title'), text: t('benefits.highOnline.text') },
+    { title: t('benefits.livingCommunity.title'), text: t('benefits.livingCommunity.text') },
     { title: t('benefits.fairEconomy.title'), text: t('benefits.fairEconomy.text') },
     { title: t('benefits.activeTeam.title'), text: t('benefits.activeTeam.text') },
     { title: t('benefits.playerSupport.title'), text: t('benefits.playerSupport.text') },

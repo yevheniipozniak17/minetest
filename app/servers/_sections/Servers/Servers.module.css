@@ -206,23 +206,16 @@
   display: none;
 }
 
-.bar {
-  width: 100%;
-  height: 4px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.08);
-  overflow: hidden;
+.playersCount[data-difficulty='easy'] {
+  --difficulty-color: #bde153;
 }
 
-.barFill {
-  display: block;
-  height: 100%;
-  border-radius: 999px;
-  background: var(--color-primary, #bde153);
+.playersCount[data-difficulty='normal'] {
+  --difficulty-color: #ffb347;
 }
 
-.barFillEmpty {
-  background: rgba(255, 255, 255, 0.15);
+.playersCount[data-difficulty='hard'] {
+  --difficulty-color: #ff6b6b;
 }
 
 .actions {
@@ -477,11 +470,7 @@
   .playersCount {
     font-size: 13px;
     font-weight: 800;
-    color: #fff;
-  }
-
-  .bar {
-    height: 6px;
+    color: var(--difficulty-color, #fff);
   }
 
   .actions {

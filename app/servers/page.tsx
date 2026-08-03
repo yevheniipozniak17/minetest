@@ -4,7 +4,6 @@ import { buildMetadata } from '@/lib/seo/meta';
 import { JsonLd } from '@/app/_components/JsonLd/JsonLd';
 import { breadcrumbSchema, itemListSchema } from '@/lib/seo/schema';
 import { PROJECT_SERVERS } from '@/lib/data/servers';
-import { TOP_RATED_PLAYERS } from '@/lib/data/topRatedPlayers';
 import Hero from './_sections/Hero/Hero';
 import MainServer from './_sections/MainServer/MainServer';
 
@@ -32,13 +31,6 @@ export default async function ServersPage() {
         data={itemListSchema(
           'Minecraft servers',
           PROJECT_SERVERS.map(server => ({ name: server.name, url: '/servers' })),
-        )}
-      />
-      <JsonLd
-        id="servers-leaderboard"
-        data={itemListSchema(
-          'Top rated players',
-          TOP_RATED_PLAYERS.map(player => ({ name: player.player })),
         )}
       />
       <Hero />

@@ -113,7 +113,7 @@ export function articleSchema(input: {
   };
 }
 
-/** Generic ordered ItemList (servers, leaderboard, etc.). */
+/** Generic ordered ItemList (servers, articles, etc.). */
 export function itemListSchema(
   name: string,
   items: { name: string; url?: string }[],

@@ -71,49 +71,6 @@
       "nextAriaLabel": "Pagina successiva"
     }
   },
-  "tr": {
-    "eyebrow": "Top / Classifiche",
-    "title": "Classifica giocatori",
-    "subtitleMobile": "Aggiornata settimanalmente. 200+ giocatori attivi classificati su ogni server.",
-    "subtitleDesktop": "Migliori giocatori per tempo di gioco, aggiornata automaticamente. 200+ giocatori attivi su tutti i server.",
-    "autoRefresh": "Aggiornamento auto \u2014 settimanale",
-    "tabsAriaLabel": "Metriche della classifica",
-    "tab": {
-      "playtimeMobile": "Tempo",
-      "playtimeDesktop": "Tempo di gioco",
-      "killsMobile": "Uccisioni",
-      "killsDesktop": "Uccisioni",
-      "wealthMobile": "Ricchezza",
-      "wealthDesktop": "Ricchezza",
-      "achievMobile": "Obiettivi",
-      "achievDesktop": "Obiettivi"
-    },
-    "filter": {
-      "periodPrefix": "Periodo:",
-      "periodLabel": "Seleziona periodo",
-      "serverPrefix": "Server:",
-      "serverLabel": "Seleziona server"
-    },
-    "period": {
-      "thisWeek": "Questa settimana",
-      "thisMonth": "Questo mese",
-      "allTime": "Sempre"
-    },
-    "server": {
-      "allServers": "Tutti i server"
-    },
-    "top3Label": "Top 3 giocatori",
-    "listLabel": "Classifica giocatori",
-    "emptyFilter": "Nessun giocatore corrisponde ai filtri.",
-    "col": {
-      "hash": "#",
-      "player": "Giocatore",
-      "server": "Server",
-      "playtime": "Tempo di gioco",
-      "kills": "Uccisioni",
-      "wealth": "Ricchezza"
-    }
-  },
   "comingSoon": {
     "countdownLabel": "Tempo al lancio",
     "countdown": {

@@ -357,9 +357,9 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
   {
     slug: 'change-nickname',
     lead: {
-      mobile: 'Your nickname is what other players see in chat, tab list, and leaderboards.',
+      mobile: 'Your nickname is what other players see in chat and in the tab list.',
       desktop:
-        'Your nickname is what other players see in chat, the tab list, and leaderboards. It can differ from your Microsoft gamertag or email username.',
+        'Your nickname is what other players see in chat and in the tab list. It can differ from your Microsoft gamertag or email username.',
     },
     sections: [
       {
@@ -978,7 +978,7 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
         bullets: [
           'Export schematics before the published cutoff date.',
           'Season trophies stay on your dashboard profile.',
-          'Leaderboards archive to the website after reset.',
+          'Season summaries archive to the website after reset.',
         ],
       },
       {
@@ -1199,9 +1199,9 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       {
         title: 'Lapsed ranks',
         lead: {
-          mobile: 'You keep leaderboard trophies but lose active cosmetics when time runs out.',
+          mobile: 'You keep season trophies but lose active cosmetics when time runs out.',
           desktop:
-            'You keep leaderboard trophies and forum badges but lose active cosmetics and queue priority when time runs out.',
+            'You keep season trophies and forum badges but lose active cosmetics and queue priority when time runs out.',
         },
         callout: {
           title: 'Tip',

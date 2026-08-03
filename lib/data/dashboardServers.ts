@@ -1,13 +1,6 @@
-import { GAME_SERVERS } from '@/lib/server/gameServers';
+import { GAME_SERVERS, type ServerDifficulty } from '@/lib/server/gameServers';
 
 type ServerStatus = 'online' | 'offline';
-
-export type LivePlayer = {
-  initial: string;
-  name: string;
-  /** Translation key within serversData.activities — e.g. 'building', 'pvpArena' */
-  activity: string;
-};
 
 export type DashboardServer = {
   id: string;
@@ -16,7 +9,7 @@ export type DashboardServer = {
   breadcrumbLabel: string;
   detailTitle: string;
   status: ServerStatus;
-  current: number;
+  difficulty: ServerDifficulty;
   image: string;
   latency: string;
   uptime: string;
@@ -24,9 +17,6 @@ export type DashboardServer = {
   version: string;
   featureCount: number;
   featureCountDesktop: number;
-  livePlayers: LivePlayer[];
-  livePlayersDesktop: LivePlayer[];
-  chartData: number[];
 };
 
 export const DASHBOARD_SERVERS: DashboardServer[] = [
@@ -36,7 +26,7 @@ export const DASHBOARD_SERVERS: DashboardServer[] = [
     breadcrumbLabel: 'LuckySurvival',
     detailTitle: 'LuckySurvival',
     status: 'online',
-    current: 128,
+    difficulty: GAME_SERVERS.luckysurvival.difficulty,
     image: '/profile/servers/1.webp',
     latency: '12 ms',
     uptime: '99.9%',
@@ -44,21 +34,6 @@ export const DASHBOARD_SERVERS: DashboardServer[] = [
     version: 'Java • 1.12–1.19',
     featureCount: 4,
     featureCountDesktop: 4,
-    livePlayers: [
-      { initial: 'R', name: 'RedstoneKing', activity: 'building' },
-      { initial: 'P', name: 'PixelHunter', activity: 'pvpArena' },
-      { initial: 'E', name: 'EnderQueen', activity: 'mining' },
-    ],
-    livePlayersDesktop: [
-      { initial: 'R', name: 'RedstoneKing', activity: 'building' },
-      { initial: 'P', name: 'PixelHunter', activity: 'pvpArena' },
-      { initial: 'E', name: 'EnderQueen', activity: 'mining' },
-      { initial: 'B', name: 'BlockNinja', activity: 'trading' },
-    ],
-    chartData: [
-      40, 60, 80, 55, 120, 140, 160, 135, 110, 90, 75, 100, 150, 180, 170, 155, 140, 120,
-      100, 80, 60, 55, 70, 128,
-    ],
   },
   {
     id: 'minewars',
@@ -66,7 +41,7 @@ export const DASHBOARD_SERVERS: DashboardServer[] = [
     breadcrumbLabel: 'MineWars',
     detailTitle: 'MineWars',
     status: 'online',
-    current: 312,
+    difficulty: GAME_SERVERS.minewars.difficulty,
     image: '/profile/servers/2.webp',
     latency: '8 ms',
     uptime: '99.8%',
@@ -74,21 +49,6 @@ export const DASHBOARD_SERVERS: DashboardServer[] = [
     version: 'Java • 1.12–1.19',
     featureCount: 4,
     featureCountDesktop: 4,
-    livePlayers: [
-      { initial: 'W', name: 'WarLord', activity: 'pvpArena' },
-      { initial: 'A', name: 'AlexPvP', activity: 'rankedQueue' },
-      { initial: 'F', name: 'FireStrike', activity: 'raiding' },
-    ],
-    livePlayersDesktop: [
-      { initial: 'W', name: 'WarLord', activity: 'pvpArena' },
-      { initial: 'A', name: 'AlexPvP', activity: 'rankedQueue' },
-      { initial: 'F', name: 'FireStrike', activity: 'raiding' },
-      { initial: 'K', name: 'KnightX', activity: 'tournament' },
-    ],
-    chartData: [
-      80, 95, 110, 90, 150, 180, 200, 175, 160, 140, 120, 135, 190, 220, 210, 195, 180, 165,
-      150, 130, 110, 95, 120, 312,
-    ],
   },
   {
     id: 'calmsky',
@@ -97,7 +57,7 @@ export const DASHBOARD_SERVERS: DashboardServer[] = [
     breadcrumbLabel: 'CalmSky',
     detailTitle: 'CalmSky',
     status: 'online',
-    current: 84,
+    difficulty: GAME_SERVERS.calmsky.difficulty,
     image: '/profile/servers/3.webp',
     latency: '15 ms',
     uptime: '99.7%',
@@ -105,21 +65,6 @@ export const DASHBOARD_SERVERS: DashboardServer[] = [
     version: 'Java • 1.12–1.19',
     featureCount: 4,
     featureCountDesktop: 4,
-    livePlayers: [
-      { initial: 'S', name: 'SkyBuilder', activity: 'building' },
-      { initial: 'C', name: 'CraftQueen', activity: 'plotDesign' },
-      { initial: 'B', name: 'BlockArtist', activity: 'contestBuild' },
-    ],
-    livePlayersDesktop: [
-      { initial: 'S', name: 'SkyBuilder', activity: 'building' },
-      { initial: 'C', name: 'CraftQueen', activity: 'plotDesign' },
-      { initial: 'B', name: 'BlockArtist', activity: 'contestBuild' },
-      { initial: 'P', name: 'PeacefulPanda', activity: 'exploring' },
-    ],
-    chartData: [
-      30, 45, 55, 50, 90, 100, 115, 95, 80, 70, 60, 75, 110, 130, 125, 115, 100, 85, 70, 55,
-      45, 40, 55, 84,
-    ],
   },
 ];
 

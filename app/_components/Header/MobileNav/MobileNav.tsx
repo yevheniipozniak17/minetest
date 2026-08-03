@@ -80,8 +80,8 @@ export function MobileNav({ isOpen, onClose, pathname }: MobileNavProps) {
         <Link href="/servers" className={styles.statusCard} onClick={onClose}>
           <span className={styles.statusDot} aria-hidden="true" />
           <span className={styles.statusText}>
-            <span className={styles.statusTitle}>{t('mobileNav.serversOnline')}</span>
-            <span className={styles.statusSubtitle}>{t('mobileNav.playersOnline')}</span>
+            <span className={styles.statusTitle}>{t('mobileNav.serversTitle')}</span>
+            <span className={styles.statusSubtitle}>{t('mobileNav.serversSubtitle')}</span>
           </span>
           <span className={styles.statusChevron} aria-hidden="true">
             ›

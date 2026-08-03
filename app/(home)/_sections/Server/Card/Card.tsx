@@ -4,10 +4,8 @@ import Image from 'next/image';
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useServerOnline } from '@/lib/client/useServerOnline';
-import type { GameServerKey } from '@/lib/server/gameServers';
+import type { GameServerKey, ServerDifficulty } from '@/lib/server/gameServers';
 import styles from './Card.module.css';
-
-export type Difficulty = 'easy' | 'normal' | 'hard';
 
 export type CardProps = {
   serverId: GameServerKey;
@@ -17,7 +15,7 @@ export type CardProps = {
   icon: string;
   version: string;
   connectAddress: string;
-  difficulty: Difficulty;
+  difficulty: ServerDifficulty;
 };
 
 export function Card({

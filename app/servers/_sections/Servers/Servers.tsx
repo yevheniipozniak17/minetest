@@ -8,22 +8,14 @@ import { DASHBOARD_SERVERS, type DashboardServer } from '@/lib/data/dashboardSer
 import { useServerOnline } from '@/lib/client/useServerOnline';
 import styles from './Servers.module.css';
 
-/** Лише для ширини зеленої смуги — не показується користувачу. */
-function getOnlineBarWidth(online: number, chartData: number[]): number {
-  const peak = Math.max(...chartData, 1);
-  return Math.min(100, Math.max(12, Math.round((online / peak) * 100)));
-}
-
 function ServerCard({ server }: { server: DashboardServer }) {
   const t = useTranslations('serversData');
   const [copied, setCopied] = useState(false);
   const copiedTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const live = useServerOnline(server.id);
   const isOnline = live.status === 'online';
-  const showPlayers = isOnline && live.online !== null;
   const mobileTitle = server.nameMobile ?? server.name;
-  const playersMobile = showPlayers ? `${live.online} ${t('ui.players')}` : null;
-  const playersDesktop = showPlayers ? String(live.online) : null;
+  const difficultyLabel = t(`ui.difficulty.${server.difficulty}`);
   const statusLabel = live.status === 'loading' ? t('ui.checking') : isOnline ? t('ui.online') : t('ui.offline');
 
   useEffect(() => {
@@ -69,25 +61,16 @@ function ServerCard({ server }: { server: DashboardServer }) {
           <span className={styles.titleDesktop}>{server.name}</span>
         </h2>
 
-        {playersMobile ? <p className={styles.playersMobile}>{playersMobile}</p> : null}
+        <p className={styles.playersMobile}>{difficultyLabel}</p>
 
         <p className={styles.description}>{t(`${server.id}.description`)}</p>
 
-        {showPlayers ? (
-          <div className={styles.playersRow}>
-            <span className={styles.playersLabel}>{t('ui.playersOnline')}</span>
-            <span className={styles.playersCount}>{playersDesktop}</span>
-          </div>
-        ) : null}
-
-        {showPlayers ? (
-          <div className={styles.bar} aria-hidden>
-            <span
-              className={styles.barFill}
-              style={{ width: `${getOnlineBarWidth(live.online!, server.chartData)}%` }}
-            />
-          </div>
-        ) : null}
+        <div className={styles.playersRow}>
+          <span className={styles.playersLabel}>{t('ui.difficultyLabel')}</span>
+          <span className={styles.playersCount} data-difficulty={server.difficulty}>
+            {difficultyLabel}
+          </span>
+        </div>
       </div>
 
       <div className={styles.actions}>

@@ -1,7 +1,7 @@
 {
   "hero": {
     "titleSuffix": "A Next-Generation Ecosystem",
-    "description": "Three unique servers, an in-game economy, rankings, and tournaments. Play the way you like—PvP, survival, or casual building.",
+    "description": "Three unique servers, an in-game economy, rankings, and tournaments. Play the way you like\u2014PvP, survival, or casual building.",
     "playNow": "Play Now",
     "joinTwitch": "Join Twitch",
     "catAlt": "Minecraft cat"
@@ -10,17 +10,20 @@
     "title": "Why Play With Us?",
     "stableServers": {
       "title": "Stable servers",
-      "text": "High uptime and smooth performance — no lag, no crashes."
+      "text": "High uptime and smooth performance \u2014 no lag, no crashes."
     },
     "regularUpdates": {
       "title": "Regular updates",
       "text": "New features, fixes, and improvements every month."
     },
-    "highOnline": {
-      "title": "High online",
-      "text": "An active community playing daily across all servers."
+    "livingCommunity": {
+      "title": "Living community",
+      "text": "Players building, trading, and exploring together every day."
     },
-    "fairEconomy": { "title": "Fair economy", "text": "No pay-to-win. Balance comes first." },
+    "fairEconomy": {
+      "title": "Fair economy",
+      "text": "No pay-to-win. Balance comes first."
+    },
     "activeTeam": {
       "title": "Active team",
       "text": "Moderation, support, and development always online."
@@ -37,7 +40,7 @@
     "buildCreate": {
       "title": "Build & Create",
       "text": "Build freely. Shape your world.",
-      "description": "Create bases, cities, and landscapes with no limits. From small builds to massive projects — your imagination sets the rules."
+      "description": "Create bases, cities, and landscapes with no limits. From small builds to massive projects \u2014 your imagination sets the rules."
     },
     "surviveCompete": {
       "title": "Survive & Compete",
@@ -47,7 +50,7 @@
     "skinsCosmetics": {
       "title": "Skins & Cosmetics",
       "text": "Stand out visually.",
-      "description": "Customize your character with unique skins, effects, and visual upgrades. No gameplay advantage — only style."
+      "description": "Customize your character with unique skins, effects, and visual upgrades. No gameplay advantage \u2014 only style."
     },
     "inGameEconomy": {
       "title": "In-game Economy",
@@ -57,7 +60,7 @@
     "eventsTournaments": {
       "title": "Events & Tournaments",
       "text": "Competitive events coming soon.",
-      "description": "Seasonal events, PvP tournaments, and challenges with rewards. Stay tuned — big battles are ahead."
+      "description": "Seasonal events, PvP tournaments, and challenges with rewards. Stay tuned \u2014 big battles are ahead."
     }
   },
   "server": {
@@ -76,7 +79,7 @@
     },
     "minewars": {
       "text": "Total freedom. Total chaos.",
-      "description": "Vanilla survival with PvP and TNT enabled. Build, destroy, raid, or dominate — no limits on playstyle."
+      "description": "Vanilla survival with PvP and TNT enabled. Build, destroy, raid, or dominate \u2014 no limits on playstyle."
     },
     "calmsky": {
       "text": "Build, relax, and connect",
@@ -94,8 +97,6 @@
     "cardServerIp": "Server IP:",
     "cardCopyNotice": "IP copied! Launch Minecraft and connect now",
     "cardJoin": "Join {title}",
-    "cardOnlineAlt": "Online",
-    "cardOfflineAlt": "Offline",
     "bonusTitle": "New Player Bonus",
     "bonusText": "Get 20% OFF your first purchase",
     "bonusDescLine1": "Boost your gameplay with in-game currency or privileges.",
@@ -105,16 +106,6 @@
   },
   "preview": {
     "title": "Store Preview"
-  },
-  "rate": {
-    "title": "Top Rated Players",
-    "text": "Play more. Progress further. Stand out.",
-    "rank": "Rank",
-    "player": "Player",
-    "server": "Server",
-    "level": "Level",
-    "playtime": "Playtime",
-    "activityScore": "Activity Score"
   },
   "questions": {
     "title": "Frequently Asked Questions",
@@ -127,7 +118,7 @@
     },
     "q2": {
       "question": "Can I play on multiple servers?",
-      "answer": "Yes. One account works across LuckySurvival, MineWars, and CalmSky — switch anytime."
+      "answer": "Yes. One account works across LuckySurvival, MineWars, and CalmSky \u2014 switch anytime."
     },
     "q3": {
       "question": "Do you support Java Edition?",
@@ -135,11 +126,11 @@
     },
     "q4": {
       "question": "How do I contact support?",
-      "answer": "Use live chat, email, or Discord — our team replies in under 4 hours, around the clock."
+      "answer": "Use live chat, email, or Discord \u2014 our team replies in under 4 hours, around the clock."
     },
     "q5": {
       "question": "Are events free to join?",
-      "answer": "Yes. Tournaments and seasonal events are free for all players — no extra purchase required."
+      "answer": "Yes. Tournaments and seasonal events are free for all players \u2014 no extra purchase required."
     }
   },
   "communityTrust": {

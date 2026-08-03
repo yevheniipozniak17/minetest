@@ -35,8 +35,8 @@
     "mobileNavLabel": "Mobile navigation",
     "logIn": "Log in",
     "signUp": "Sign up",
-    "serversOnline": "Servers online \u2014 2 of 3",
-    "playersOnline": "212 players exploring right now",
+    "serversTitle": "Explore our servers",
+    "serversSubtitle": "Three worlds \u2014 Easy, Normal and Hard",
     "community": "Community"
   },
   "footer": {

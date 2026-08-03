@@ -35,8 +35,8 @@
     "mobileNavLabel": "Navigazione mobile",
     "logIn": "Accedi",
     "signUp": "Registrati",
-    "serversOnline": "Server online \u2014 2 di 3",
-    "playersOnline": "212 giocatori esplorano ora",
+    "serversTitle": "Esplora i nostri server",
+    "serversSubtitle": "Tre mondi \u2014 Facile, Normale e Difficile",
     "community": "Comunit\u00e0"
   },
   "footer": {

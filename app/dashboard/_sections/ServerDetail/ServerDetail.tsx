@@ -2,65 +2,15 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useState } from 'react';
 import { useTranslations } from 'next-intl';
-import type { DashboardServer, LivePlayer } from '@/lib/data/dashboardServers';
+import type { DashboardServer } from '@/lib/data/dashboardServers';
 import { useServerOnline } from '@/lib/client/useServerOnline';
 import styles from './ServerDetail.module.css';
 
 type ServerDetailProps = {
   server: DashboardServer;
 };
-
-function LiveRows({ players }: { players: LivePlayer[] }) {
-  const t = useTranslations('serversData');
-
-  return (
-    <>
-      {players.map(player => (
-        <li key={player.name} className={styles.liveRow}>
-          <span className={styles.avatar} aria-hidden>
-            {player.initial}
-          </span>
-          <div className={styles.liveCopy}>
-            <span className={styles.liveName}>{player.name}</span>
-            <span className={styles.liveActivity}>{t(`activities.${player.activity}`)}</span>
-          </div>
-          <span className={styles.liveDot} aria-hidden />
-        </li>
-      ))}
-    </>
-  );
-}
-
-function ChartBlock({
-  chartData,
-  chartMax,
-}: {
-  chartData: number[];
-  chartMax: number;
-}) {
-  const t = useTranslations('serversData');
-
-  return (
-    <div className={styles.chart}>
-      <h3 className={styles.chartTitle}>{t('ui.playersLast24h')}</h3>
-      <div className={styles.chartBars} aria-hidden>
-        {chartData.map((height, index) => (
-          <span
-            key={index}
-            className={styles.chartBar}
-            style={{ height: `${Math.round((height / chartMax) * 180)}px` }}
-          />
-        ))}
-      </div>
-      <div className={styles.chartFooter}>
-        <span>{t('ui.24hAgo')}</span>
-        <span className={styles.chartNow}>{t('ui.now')}</span>
-      </div>
-    </div>
-  );
-}
 
 export default function ServerDetail({ server }: ServerDetailProps) {
   const t = useTranslations('serversData');
@@ -69,29 +19,7 @@ export default function ServerDetail({ server }: ServerDetailProps) {
   const isOnline = live.status === 'online';
   const isLoading = live.status === 'loading';
   const statusLabel = isLoading ? t('ui.checking') : isOnline ? t('ui.online') : t('ui.offline');
-  const current =
-    live.online !== null ? live.online : isLoading ? server.current : null;
-  const playersMobile =
-    current !== null ? String(current) : '—';
-  const playersDesktop =
-    current !== null ? String(current) : '—';
-  const chartMax = Math.max(...server.chartData, 1);
-
-  const livePlayers = useMemo((): LivePlayer[] => {
-    if (isOnline && live.players.length > 0) {
-      return live.players.map(name => ({
-        initial: name.charAt(0).toUpperCase() || '?',
-        name,
-        activity: 'playing',
-      }));
-    }
-    if (isLoading) {
-      return server.livePlayersDesktop;
-    }
-    return [];
-  }, [isOnline, isLoading, live.players, server.livePlayersDesktop]);
-
-  const hasLive = livePlayers.length > 0;
+  const difficultyLabel = t(`ui.difficulty.${server.difficulty}`);
 
   const handleCopy = useCallback(() => {
     void navigator.clipboard.writeText(server.ip).then(() => {
@@ -147,14 +75,10 @@ export default function ServerDetail({ server }: ServerDetailProps) {
 
           <dl className={styles.stats}>
             <div className={styles.stat}>
-              <dt className={styles.statValue}>
-                <span className={styles.statValueMobile}>{playersMobile}</span>
-                <span className={styles.statValueDesktop}>{playersDesktop}</span>
+              <dt className={styles.statValue} data-difficulty={server.difficulty}>
+                {difficultyLabel}
               </dt>
-              <dd className={styles.statLabel}>
-                <span className={styles.statLabelMobile}>{t('ui.statLabelPlayers')}</span>
-                <span className={styles.statLabelDesktop}>{t('ui.statLabelPlayersDesktop')}</span>
-              </dd>
+              <dd className={styles.statLabel}>{t('ui.difficultyLabel')}</dd>
             </div>
             <div className={styles.stat}>
               <dt className={styles.statValue}>{isOnline ? server.latency : t('ui.offlineLabel')}</dt>
@@ -205,36 +129,6 @@ export default function ServerDetail({ server }: ServerDetailProps) {
         </ul>
       </div>
 
-      {hasLive ? (
-        <>
-          <h2 className={styles.liveTitleMobile}>{t('ui.liveNow')}</h2>
-          <h2 className={styles.activityTitleDesktop}>{t('ui.currentActivity')}</h2>
-
-          <div className={styles.activityRow}>
-            <div className={styles.livePanelMobile}>
-              <ul className={styles.liveList}>
-                <LiveRows players={livePlayers} />
-              </ul>
-            </div>
-
-            <div className={styles.livePanelDesktop}>
-              <div className={styles.liveHeadDesktop}>
-                <span className={styles.liveHeadTitle}>{t('ui.liveNow')}</span>
-                <span className={styles.liveHeadCount}>{playersDesktop} {t('ui.players')}</span>
-              </div>
-              <ul className={styles.liveList}>
-                <LiveRows players={livePlayers} />
-              </ul>
-            </div>
-
-            <ChartBlock chartData={server.chartData} chartMax={chartMax} />
-          </div>
-        </>
-      ) : (
-        <div className={styles.chartOnly}>
-          <ChartBlock chartData={server.chartData} chartMax={chartMax} />
-        </div>
-      )}
       </div>
     </section>
   );

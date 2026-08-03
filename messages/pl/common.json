@@ -35,8 +35,8 @@
     "mobileNavLabel": "Nawigacja mobilna",
     "logIn": "Zaloguj si\u0119",
     "signUp": "Zarejestruj si\u0119",
-    "serversOnline": "Serwery online \u2014 2 z 3",
-    "playersOnline": "212 graczy eksploruje teraz",
+    "serversTitle": "Poznaj nasze serwery",
+    "serversSubtitle": "Trzy \u015bwiaty \u2014 \u0141atwy, Normalny i Trudny",
     "community": "Spo\u0142eczno\u015b\u0107"
   },
   "footer": {
@@ -49,7 +49,7 @@
     "cookiePolicy": "Polityka cookies",
     "termsAndConditions": "Regulamin",
     "deliveryPolicy": "Polityka dostawy",
-    "billingRefunds": "Polityka płatności i zwrotów",
+    "billingRefunds": "Polityka p\u0142atno\u015bci i zwrot\u00f3w",
     "copyright": "\u00a9 2026 Adventures in Minecraft. Wszelkie prawa zastrze\u017cone."
   },
   "dash": {

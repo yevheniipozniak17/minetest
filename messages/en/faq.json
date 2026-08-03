@@ -661,8 +661,8 @@
     },
     "change-nickname": {
       "lead": {
-        "mobile": "Your nickname is what other players see in chat, tab list, and leaderboards.",
-        "desktop": "Your nickname is what other players see in chat, the tab list, and leaderboards. It can differ from your Microsoft gamertag or email username."
+        "mobile": "Your nickname is what other players see in chat and in the tab list.",
+        "desktop": "Your nickname is what other players see in chat and in the tab list. It can differ from your Microsoft gamertag or email username."
       },
       "s1": {
         "title": "Change your nickname",
@@ -1063,7 +1063,7 @@
         "bullets": [
           "Export schematics before the published cutoff date.",
           "Season trophies stay on your dashboard profile.",
-          "Leaderboards archive to the website after reset."
+          "Season summaries archive to the website after reset."
         ]
       },
       "s3": {
@@ -1206,8 +1206,8 @@
       },
       "s3": {
         "title": "Lapsed ranks",
-        "leadMobile": "You keep leaderboard trophies but lose active cosmetics when time runs out.",
-        "leadDesktop": "You keep leaderboard trophies and forum badges but lose active cosmetics and queue priority when time runs out.",
+        "leadMobile": "You keep season trophies but lose active cosmetics when time runs out.",
+        "leadDesktop": "You keep season trophies and forum badges but lose active cosmetics and queue priority when time runs out.",
         "calloutTitle": "Tip",
         "calloutMobile": "Grace period: 48 hours after expiry with reduced perks before full removal.",
         "calloutDesktop": "There is a 48-hour grace period after expiry with reduced perks before full removal \u2014 renew during grace to avoid re-equipping cosmetics."

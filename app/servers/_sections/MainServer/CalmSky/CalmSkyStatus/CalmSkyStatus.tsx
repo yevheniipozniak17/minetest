@@ -2,7 +2,10 @@
 
 import { useTranslations } from 'next-intl';
 import { useServerOnline } from '@/lib/client/useServerOnline';
+import { GAME_SERVERS } from '@/lib/server/gameServers';
 import styles from './CalmSkyStatus.module.css';
+
+const DIFFICULTY = GAME_SERVERS.calmsky.difficulty;
 
 export default function CalmSkyStatus() {
   const t = useTranslations('servers');
@@ -11,6 +14,11 @@ export default function CalmSkyStatus() {
 
   const STATS = [
     { value: '24/7', labelMobile: t('shared.availabilityLabel'), labelDesktop: t('shared.availabilityLabel') },
+    {
+      value: t(`shared.difficulty.${DIFFICULTY}`),
+      labelMobile: t('shared.difficultyLabel'),
+      labelDesktop: t('shared.difficultyLabel'),
+    },
   ];
 
   return (

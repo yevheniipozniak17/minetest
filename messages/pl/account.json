@@ -71,49 +71,6 @@
       "nextAriaLabel": "Nast\u0119pna strona"
     }
   },
-  "tr": {
-    "eyebrow": "Top / Rankingi",
-    "title": "Ranking graczy",
-    "subtitleMobile": "Aktualizowany co tydzie\u0144. 200+ aktywnych graczy sklasyfikowanych na ka\u017cdym serwerze.",
-    "subtitleDesktop": "Najlepsi gracze wed\u0142ug czasu gry, aktualizowani automatycznie. 200+ aktywnych graczy na wszystkich serwerach.",
-    "autoRefresh": "Automatyczne od\u015bwie\u017canie \u2014 co tydzie\u0144",
-    "tabsAriaLabel": "Metryki rankingu",
-    "tab": {
-      "playtimeMobile": "Czas",
-      "playtimeDesktop": "Czas gry",
-      "killsMobile": "Zabicia",
-      "killsDesktop": "Zabicia",
-      "wealthMobile": "Bogactwo",
-      "wealthDesktop": "Bogactwo",
-      "achievMobile": "Osi\u0105gn.",
-      "achievDesktop": "Osi\u0105gni\u0119cia"
-    },
-    "filter": {
-      "periodPrefix": "Okres:",
-      "periodLabel": "Wybierz okres",
-      "serverPrefix": "Serwer:",
-      "serverLabel": "Wybierz serwer"
-    },
-    "period": {
-      "thisWeek": "Ten tydzie\u0144",
-      "thisMonth": "Ten miesi\u0105c",
-      "allTime": "Ca\u0142y czas"
-    },
-    "server": {
-      "allServers": "Wszystkie serwery"
-    },
-    "top3Label": "Top 3 graczy",
-    "listLabel": "Ranking graczy",
-    "emptyFilter": "\u017badni gracze nie pasuj\u0105 do tych filtr\u00f3w.",
-    "col": {
-      "hash": "#",
-      "player": "Gracz",
-      "server": "Serwer",
-      "playtime": "Czas gry",
-      "kills": "Zabicia",
-      "wealth": "Bogactwo"
-    }
-  },
   "comingSoon": {
     "countdownLabel": "Czas do startu",
     "countdown": {

@@ -35,8 +35,8 @@
     "mobileNavLabel": "Mobile Navigation",
     "logIn": "Anmelden",
     "signUp": "Registrieren",
-    "serversOnline": "Server online \u2014 2 von 3",
-    "playersOnline": "212 Spieler erkunden gerade",
+    "serversTitle": "Unsere Server entdecken",
+    "serversSubtitle": "Drei Welten \u2014 Leicht, Normal und Schwer",
     "community": "Community"
   },
   "footer": {

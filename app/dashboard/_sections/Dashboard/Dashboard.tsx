@@ -18,6 +18,7 @@ import { resolvePlayingAsNickname, resolveWelcomeName } from '@/lib/client/profi
 import { hasPurchaseSuccessPending, clearPurchaseSuccess } from '@/lib/client/purchaseNotification';
 import { useProfile } from '@/app/_components/ProfileProvider/ProfileProvider';
 import { crystalPackPrice } from '@/lib/pricing';
+import { GAME_SERVERS } from '@/lib/server/gameServers';
 import {
   CURRENCY_CHANGE_EVENT,
   DEFAULT_CURRENCY,
@@ -27,12 +28,16 @@ import styles from './Dashboard.module.css';
 
 const nf = new Intl.NumberFormat('en-US');
 
-// Real servers (keys from lib/server/gameServers.ts). Soft cap is visual-only.
 const SERVERS = [
-  { key: 'luckysurvival', name: 'LuckySurvival', meta: 'Java 1.12–1.19', difficulty: 'normal' },
-  { key: 'minewars', name: 'MineWars', meta: 'Java 1.12–1.19', difficulty: 'hard' },
-  { key: 'calmsky', name: 'CalmSky', meta: 'Java 1.12–1.19', difficulty: 'easy' },
-] as const;
+  { key: 'luckysurvival', meta: 'Java 1.12–1.19' },
+  { key: 'minewars', meta: 'Java 1.12–1.19' },
+  { key: 'calmsky', meta: 'Java 1.12–1.19' },
+].map(({ key, meta }) => ({
+  key,
+  meta,
+  name: GAME_SERVERS[key as keyof typeof GAME_SERVERS].name,
+  difficulty: GAME_SERVERS[key as keyof typeof GAME_SERVERS].difficulty,
+}));
 
 type ActivityItem = {
   title: string;

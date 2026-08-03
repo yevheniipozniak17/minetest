@@ -71,49 +71,6 @@
       "nextAriaLabel": "Page suivante"
     }
   },
-  "tr": {
-    "eyebrow": "Top / Classements",
-    "title": "Classement des joueurs",
-    "subtitleMobile": "Mis \u00e0 jour chaque semaine. 200+ joueurs actifs class\u00e9s sur tous les serveurs.",
-    "subtitleDesktop": "Meilleurs joueurs par temps de jeu, mis \u00e0 jour automatiquement. 200+ joueurs actifs class\u00e9s sur tous les serveurs.",
-    "autoRefresh": "Actualisation auto \u2014 hebdomadaire",
-    "tabsAriaLabel": "M\u00e9triques du classement",
-    "tab": {
-      "playtimeMobile": "Temps",
-      "playtimeDesktop": "Temps de jeu",
-      "killsMobile": "\u00c9lim.",
-      "killsDesktop": "\u00c9liminations",
-      "wealthMobile": "Richesse",
-      "wealthDesktop": "Richesse",
-      "achievMobile": "Succ\u00e8s",
-      "achievDesktop": "Succ\u00e8s"
-    },
-    "filter": {
-      "periodPrefix": "P\u00e9riode\u00a0:",
-      "periodLabel": "Choisir la p\u00e9riode",
-      "serverPrefix": "Serveur\u00a0:",
-      "serverLabel": "Choisir le serveur"
-    },
-    "period": {
-      "thisWeek": "Cette semaine",
-      "thisMonth": "Ce mois-ci",
-      "allTime": "Depuis le d\u00e9but"
-    },
-    "server": {
-      "allServers": "Tous les serveurs"
-    },
-    "top3Label": "Top 3 joueurs",
-    "listLabel": "Classement des joueurs",
-    "emptyFilter": "Aucun joueur ne correspond \u00e0 ces filtres.",
-    "col": {
-      "hash": "#",
-      "player": "Joueur",
-      "server": "Serveur",
-      "playtime": "Temps de jeu",
-      "kills": "\u00c9liminations",
-      "wealth": "Richesse"
-    }
-  },
   "comingSoon": {
     "countdownLabel": "Temps avant le lancement",
     "countdown": {

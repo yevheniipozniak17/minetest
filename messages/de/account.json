@@ -71,49 +71,6 @@
       "nextAriaLabel": "N\u00e4chste Seite"
     }
   },
-  "tr": {
-    "eyebrow": "Top / Rangliste",
-    "title": "Spielerrangliste",
-    "subtitleMobile": "W\u00f6chentlich aktualisiert. 200+ aktive Spieler server\u00fcbergreifend gerankt.",
-    "subtitleDesktop": "Top-Spieler nach Spielzeit, automatisch aktualisiert. 200+ aktive Spieler auf allen Servern gerankt.",
-    "autoRefresh": "Automatisch \u2014 w\u00f6chentlich",
-    "tabsAriaLabel": "Ranglisten-Metriken",
-    "tab": {
-      "playtimeMobile": "Spielzeit",
-      "playtimeDesktop": "Spielzeit",
-      "killsMobile": "Kills",
-      "killsDesktop": "Kills",
-      "wealthMobile": "Reichtum",
-      "wealthDesktop": "Reichtum",
-      "achievMobile": "Errung.",
-      "achievDesktop": "Errungenschaften"
-    },
-    "filter": {
-      "periodPrefix": "Zeitraum:",
-      "periodLabel": "Zeitraum w\u00e4hlen",
-      "serverPrefix": "Server:",
-      "serverLabel": "Server w\u00e4hlen"
-    },
-    "period": {
-      "thisWeek": "Diese Woche",
-      "thisMonth": "Diesen Monat",
-      "allTime": "Gesamtzeit"
-    },
-    "server": {
-      "allServers": "Alle Server"
-    },
-    "top3Label": "Top-3-Spieler",
-    "listLabel": "Ranglisten-Ergebnisse",
-    "emptyFilter": "Keine Spieler f\u00fcr diese Filter.",
-    "col": {
-      "hash": "#",
-      "player": "Spieler",
-      "server": "Server",
-      "playtime": "Spielzeit",
-      "kills": "Kills",
-      "wealth": "Reichtum"
-    }
-  },
   "comingSoon": {
     "countdownLabel": "Zeit bis zum Start",
     "countdown": {
