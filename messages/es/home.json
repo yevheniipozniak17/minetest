@@ -33,6 +33,35 @@
       "text": "Ayuda r\u00e1pida por Discord y soporte en el juego."
     }
   },
+  "howItWorks": {
+    "title": "C\u00f3mo <accent>funciona</accent>",
+    "description": "Desde elegir servidor hasta jugar con tus objetos \u2014 cinco pasos sencillos.",
+    "chooseServer": {
+      "title": "Elige servidor",
+      "text": "Elige LuckySurvival, MineWars o CalmSky y copia la IP."
+    },
+    "selectProduct": {
+      "title": "Elige producto",
+      "text": "Explora la tienda y elige los privilegios u objetos que necesitas."
+    },
+    "securePayment": {
+      "title": "Pago seguro",
+      "text": "Completa tu pago de forma segura en un checkout protegido."
+    },
+    "receiveInstantly": {
+      "title": "Recibe al instante",
+      "text": "Todo se entrega en tu cuenta autom\u00e1ticamente."
+    },
+    "enjoyGame": {
+      "title": "Disfruta del juego",
+      "text": "Entra y disfruta de tu experiencia mejorada al momento."
+    },
+    "summaryTitle": "R\u00e1pido. Seguro. Autom\u00e1tico.",
+    "summaryText": "Todas las compras se procesan de forma autom\u00e1tica y segura. Si necesitas ayuda, nuestro <link>equipo de soporte</link> siempre est\u00e1 disponible.",
+    "instantDelivery": "Entrega instant\u00e1nea",
+    "securePayments": "Pagos seguros",
+    "support": "Soporte 24/7"
+  },
   "features": {
     "title": "Caracter\u00edsticas del juego",
     "carouselAriaLabel": "Caracter\u00edsticas del juego",
