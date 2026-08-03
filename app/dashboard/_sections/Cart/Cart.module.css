@@ -662,6 +662,19 @@
   color: var(--color-primary);
 }
 
+.minimumNotice {
+  width: 100%;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid rgba(239, 77, 77, 0.45);
+  background: rgba(239, 77, 77, 0.08);
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+}
+
 .payBtn {
   display: flex;
   align-items: center;

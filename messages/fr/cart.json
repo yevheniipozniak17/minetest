@@ -22,6 +22,7 @@
   "promoLabel": "Promo (—)",
   "serviceFee": "Frais de service",
   "total": "Total",
+  "minimumOrderNotice": "Le montant minimum d'achat est de €10.00 après remises. Augmentez votre commande pour continuer.",
   "payBtn": "Procéder au paiement",
   "payBtnProcessing": "Traitement en cours…",
   "consentText": "En achetant, j'accepte la livraison numérique immédiate et renonce à mon droit de rétractation.",

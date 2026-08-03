@@ -22,6 +22,7 @@
   "promoLabel": "Promo (—)",
   "serviceFee": "Service fee",
   "total": "Total",
+  "minimumOrderNotice": "Minimum purchase amount is €10.00 after discounts. Please increase your order to continue.",
   "payBtn": "Proceed to pay",
   "payBtnProcessing": "Processing…",
   "consentText": "By purchasing, I agree to immediate digital delivery and waive my withdrawal right.",

@@ -22,6 +22,7 @@
   "promoLabel": "Promo (—)",
   "serviceFee": "Commissione di servizio",
   "total": "Totale",
+  "minimumOrderNotice": "L'importo minimo d'acquisto è €10.00 dopo gli sconti. Aumenta il tuo ordine per continuare.",
   "payBtn": "Procedi al pagamento",
   "payBtnProcessing": "Elaborazione…",
   "consentText": "Acquistando, acconsento alla consegna digitale immediata e rinuncio al mio diritto di recesso.",

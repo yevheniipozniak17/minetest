@@ -22,6 +22,7 @@
   "promoLabel": "Promo (—)",
   "serviceFee": "Servicegebühr",
   "total": "Gesamt",
+  "minimumOrderNotice": "Der Mindestbestellwert beträgt €10.00 nach Rabatten. Bitte erhöhe deine Bestellung, um fortzufahren.",
   "payBtn": "Zur Zahlung",
   "payBtnProcessing": "Wird verarbeitet…",
   "consentText": "Mit dem Kauf stimme ich der sofortigen digitalen Lieferung zu und verzichte auf mein Widerrufsrecht.",

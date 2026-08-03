@@ -40,6 +40,8 @@ const CART_IMAGES = ['/profile/cart/1.webp', '/profile/cart/2.webp', '/profile/c
 const FALLBACK_SERVERS = ['LuckySurvival', 'MineWars', 'CalmSky'];
 // Верхня межа кількості за позицію — узгоджено з бекендом (AddToCart.amount max 20000).
 const MAX_QTY = 15_000;
+// Мінімальна сума замовлення після знижок (EUR).
+const MIN_ORDER_TOTAL = 10;
 
 // Назва сервера бекенду ("LuckySurvival") → ключ ігрового моніторингу ("luckysurvival").
 function serverKey(name: string): string {
@@ -356,6 +358,8 @@ export default function Cart() {
   // Ефективний тотал до оплати: якщо промо застосовано — перерахована сума.
   const effectiveTotal = promoNewTotal ?? subtotal;
 
+  const belowMinimum = lineCount > 0 && effectiveTotal < MIN_ORDER_TOTAL;
+
   // Скидаємо застосований промо — код більше не відповідає поточному кошику/введенню.
   const clearAppliedPromo = useCallback(() => {
     setAppliedPromo(null);
@@ -565,6 +569,7 @@ export default function Cart() {
   }
 
   function attemptPay() {
+    if (belowMinimum) return;
     if (!purchaseAgreed || !policiesAgreed) {
       nudgeConsents();
       return;
@@ -613,11 +618,18 @@ export default function Cart() {
           {formatMoney(effectiveTotal, cartCurrency)}
         </span>
       </div>
+      {belowMinimum && (
+        <p className={styles.minimumNotice} role="status">
+          {t('minimumOrderNotice')}
+        </p>
+      )}
       <button
         type="button"
         className={styles.payBtn}
         onClick={attemptPay}
-        disabled={paying || lineCount === 0 || !purchaseAgreed || !policiesAgreed}
+        disabled={
+          paying || lineCount === 0 || belowMinimum || !purchaseAgreed || !policiesAgreed
+        }
       >
         <span>{paying ? t('payBtnProcessing') : t('payBtn')}</span>
         <span aria-hidden>→</span>
