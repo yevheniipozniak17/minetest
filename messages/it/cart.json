@@ -49,6 +49,7 @@
   "resumeText": "Il tuo link di pagamento è ancora valido per circa {minutes} min. Riprendi da dove eri rimasto.",
   "resumeContinue": "Continua il pagamento",
   "resumeDismiss": "Ignora",
+  "resumeFor": "per {nick} · {server}",
   "itemSubtitleDefault": "In gioco",
   "itemSubtitleDesktop": "{currency} — consegna immediata"
 }

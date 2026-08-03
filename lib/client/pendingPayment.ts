@@ -33,6 +33,8 @@ export interface PendingPayment {
   createdAt: number;
   amount?: number;
   currency?: string;
+  nickname?: string;
+  server?: string;
 }
 
 export function savePendingPayment(payment: Omit<PendingPayment, 'createdAt'>): void {

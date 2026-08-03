@@ -543,7 +543,13 @@ export default function Cart() {
       if (url) {
         // Зберігаємо лінк, щоб при поверненні (вихід/назад) запропонувати дооплату,
         // і ставимо прапорець, щоб при поверненні зробити чистий reload.
-        savePendingPayment({ url, amount: effectiveTotal, currency: cartCurrency });
+        savePendingPayment({
+          url,
+          amount: effectiveTotal,
+          currency: cartCurrency,
+          nickname: nick,
+          server,
+        });
         markPaymentRedirect();
         window.location.href = url;
         return;
@@ -611,7 +617,7 @@ export default function Cart() {
         type="button"
         className={styles.payBtn}
         onClick={attemptPay}
-        disabled={paying || lineCount === 0}
+        disabled={paying || lineCount === 0 || !purchaseAgreed || !policiesAgreed}
       >
         <span>{paying ? t('payBtnProcessing') : t('payBtn')}</span>
         <span aria-hidden>→</span>
@@ -687,6 +693,21 @@ export default function Cart() {
             <div className={styles.resumeCopy}>
               <p className={styles.resumeTitle}>{t('resumeTitle')}</p>
               <p className={styles.resumeText}>{t('resumeText', { minutes: pendingMinutes })}</p>
+              {pendingPayment.amount != null && (
+                <p className={styles.resumeMeta}>
+                  <span className={styles.resumeAmount}>
+                    {formatMoney(pendingPayment.amount, pendingPayment.currency ?? cartCurrency)}
+                  </span>
+                  {pendingPayment.nickname && pendingPayment.server && (
+                    <span className={styles.resumeFor}>
+                      {t('resumeFor', {
+                        nick: pendingPayment.nickname,
+                        server: pendingPayment.server,
+                      })}
+                    </span>
+                  )}
+                </p>
+              )}
             </div>
             <div className={styles.resumeActions}>
               <button
