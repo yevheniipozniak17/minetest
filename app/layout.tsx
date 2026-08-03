@@ -105,6 +105,19 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body className={montserrat.variable}>
+        {/*
+          Повернення з зовнішньої платіжки (кнопка «назад») інколи віддає сторінку,
+          на якій React НЕ гідратується (кнопки мертві, банер «Продовжити оплату»
+          не зʼявляється). Будь-який фікс усередині React не спрацює, бо клієнт «мертвий».
+          Тому робимо це inline-скриптом, що виконується при парсингу HTML (до React):
+          перед редіректом на оплату кошик ставить прапорець у sessionStorage — тут ми
+          його бачимо й робимо ОДИН чистий reload (еквівалент ручного F5, який працює).
+        */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){var K='payment_return_reload';function cart(){return location.pathname.indexOf('/dashboard/cart')!==-1}function go(){try{if(cart()&&sessionStorage.getItem(K)==='1'){sessionStorage.removeItem(K);location.reload();return true}}catch(e){}return false}if(!go()){window.addEventListener('pageshow',function(e){try{if(e.persisted&&cart()&&sessionStorage.getItem(K)==='1'){sessionStorage.removeItem(K);location.reload()}}catch(err){}})}})();`,
+          }}
+        />
         <JsonLd id="org-schema" data={organizationSchema()} />
         <JsonLd id="website-schema" data={websiteSchema()} />
         <NextIntlClientProvider>

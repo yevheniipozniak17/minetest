@@ -17,7 +17,6 @@ import {
   clearPendingPayment,
   pendingPaymentRemainingMs,
   markPaymentRedirect,
-  PAYMENT_RETURN_FLAG,
   type PendingPayment,
 } from '@/lib/client/pendingPayment';
 import { useProfile } from '@/app/_components/ProfileProvider/ProfileProvider';
@@ -244,50 +243,6 @@ export default function Cart() {
     return () => {
       if (consentToastTimer.current) clearTimeout(consentToastTimer.current);
       if (highlightTimer.current) clearTimeout(highlightTimer.current);
-    };
-  }, []);
-
-  // [ТИМЧАСОВА ДІАГНОСТИКА] Пише реальний стан сховища напряму в DOM (#pp-debug),
-  // тому працює навіть якщо React «заморожений» після повернення з платіжки.
-  // Реагує на mount, pageshow, focus, visibilitychange та кожну секунду.
-  useEffect(() => {
-    const readDebug = (source: string) => {
-      let ls: string | null = 'ERR';
-      let flag: string | null = 'ERR';
-      try {
-        ls = window.localStorage.getItem('pending_payment');
-      } catch {
-        ls = 'ERR';
-      }
-      try {
-        flag = window.sessionStorage.getItem(PAYMENT_RETURN_FLAG);
-      } catch {
-        flag = 'ERR';
-      }
-      const el = document.getElementById('pp-debug');
-      const persisted = el?.getAttribute('data-persisted') ?? '?';
-      const text = `DBG[${source}] t=${new Date().toLocaleTimeString()} | LS=${
-        ls ? 'YES(' + ls.length + ')' : String(ls)
-      } | FLAG=${flag ?? 'null'} | persisted=${persisted}`;
-      if (el) el.textContent = text;
-    };
-    readDebug('mount');
-    const onPageShow = (e: PageTransitionEvent) => {
-      const el = document.getElementById('pp-debug');
-      if (el) el.setAttribute('data-persisted', String(e.persisted));
-      readDebug('pageshow');
-    };
-    const onFocus = () => readDebug('focus');
-    const onVis = () => readDebug('visibility:' + document.visibilityState);
-    window.addEventListener('pageshow', onPageShow);
-    window.addEventListener('focus', onFocus);
-    document.addEventListener('visibilitychange', onVis);
-    const timer = setInterval(() => readDebug('tick'), 1000);
-    return () => {
-      window.removeEventListener('pageshow', onPageShow);
-      window.removeEventListener('focus', onFocus);
-      document.removeEventListener('visibilitychange', onVis);
-      clearInterval(timer);
     };
   }, []);
 
@@ -723,27 +678,6 @@ export default function Cart() {
           <h1 className={styles.title}>{t('title', { count: lineCount })}</h1>
           <p className={styles.subtitle}>{t('subtitle')}</p>
         </header>
-
-        {/* [ТИМЧАСОВА ДІАГНОСТИКА] прибрати після зʼясування причини */}
-        <div
-          id="pp-debug"
-          data-persisted="?"
-          style={{
-            position: 'fixed',
-            top: 0,
-            left: 0,
-            right: 0,
-            zIndex: 99999,
-            background: '#111',
-            color: '#0f0',
-            font: '12px/1.4 monospace',
-            padding: '6px 10px',
-            whiteSpace: 'pre-wrap',
-            wordBreak: 'break-all',
-          }}
-        >
-          DBG[init]
-        </div>
 
         {pendingPayment && (
           <div className={styles.resumeBanner} role="status">
