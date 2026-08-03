@@ -7,6 +7,8 @@ import { useServerOnline } from '@/lib/client/useServerOnline';
 import type { GameServerKey } from '@/lib/server/gameServers';
 import styles from './Card.module.css';
 
+export type Difficulty = 'easy' | 'normal' | 'hard';
+
 export type CardProps = {
   serverId: GameServerKey;
   title: string;
@@ -15,6 +17,7 @@ export type CardProps = {
   icon: string;
   version: string;
   connectAddress: string;
+  difficulty: Difficulty;
 };
 
 export function Card({
@@ -25,11 +28,11 @@ export function Card({
   icon,
   version,
   connectAddress,
+  difficulty,
 }: CardProps) {
   const t = useTranslations('home');
-  const { online, status } = useServerOnline(serverId);
+  const { status } = useServerOnline(serverId);
   const isOffline = status === 'offline';
-  const isLoading = status === 'loading';
   const [copied, setCopied] = useState(false);
   const noticeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -85,16 +88,10 @@ export function Card({
           </div>
         </li>
         <li className={styles.item}>
-          {t('server.cardPlayersOnline')}
-          <div className={styles.status}>
-            <Image
-              className={styles.statusIcon}
-              src="/icons/icons/user.svg"
-              alt={t('server.cardPlayersAlt')}
-              width={13}
-              height={13}
-            />
-            {isLoading ? '…' : online !== null ? online : '—'}
+          {t('server.cardDifficulty')}
+          <div className={styles.status} data-difficulty={difficulty}>
+            <span className={styles.difficultyDot} aria-hidden="true" />
+            {t(`server.difficulty.${difficulty}`)}
           </div>
         </li>
         <li className={`${styles.item} ${styles.itemIp}`}>

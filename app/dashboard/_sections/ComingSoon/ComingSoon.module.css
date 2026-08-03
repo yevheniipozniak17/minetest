@@ -6,7 +6,7 @@
   width: 100%;
   min-height: calc(100dvh - var(--header-height));
   background-color: var(--color-bg-effect, #001812);
-  background-image: url('/profile/tournaments/img-mobile.webp');
+  background-image: var(--cs-bg-mobile);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -164,7 +164,7 @@
 
 @media (min-width: 1280px) {
   .shell {
-    background-image: url('/profile/tournaments/img-desktop.webp');
+    background-image: var(--cs-bg-desktop);
   }
 
   .root {

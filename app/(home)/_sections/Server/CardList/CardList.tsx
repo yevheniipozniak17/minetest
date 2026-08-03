@@ -8,14 +8,34 @@ import {
   MINECRAFT_VERSION_LABEL,
   type GameServerKey,
 } from '@/lib/server/gameServers';
-import type { CardProps } from '../Card/Card';
+import type { CardProps, Difficulty } from '../Card/Card';
 import { Card } from '../Card/Card';
 import styles from './CardList.module.css';
 
-const SERVER_IDS: { id: GameServerKey; title: string; icon: string }[] = [
-  { id: 'luckysurvival', title: 'LuckySurvival', icon: '/home/images/server-1.webp' },
-  { id: 'minewars', title: 'MineWars', icon: '/home/images/server-2.webp' },
-  { id: 'calmsky', title: 'CalmSky', icon: '/home/images/server-3.webp' },
+const SERVER_IDS: {
+  id: GameServerKey;
+  title: string;
+  icon: string;
+  difficulty: Difficulty;
+}[] = [
+  {
+    id: 'luckysurvival',
+    title: 'LuckySurvival',
+    icon: '/home/images/server-1.webp',
+    difficulty: 'normal',
+  },
+  {
+    id: 'minewars',
+    title: 'MineWars',
+    icon: '/home/images/server-2.webp',
+    difficulty: 'hard',
+  },
+  {
+    id: 'calmsky',
+    title: 'CalmSky',
+    icon: '/home/images/server-3.webp',
+    difficulty: 'easy',
+  },
 ];
 
 export default function CardList() {
@@ -23,10 +43,11 @@ export default function CardList() {
 
   const CARDS: (Omit<CardProps, 'connectAddress' | 'version' | 'serverId'> & {
     id: GameServerKey;
-  })[] = SERVER_IDS.map(({ id, title, icon }) => ({
+  })[] = SERVER_IDS.map(({ id, title, icon, difficulty }) => ({
       id,
       title,
       icon,
+      difficulty,
       text: t(`server.${id}.text`),
       description: t(`server.${id}.description`),
     }));

@@ -114,11 +114,7 @@
       "wealth": "Wealth"
     }
   },
-  "tournaments": {
-    "comingSoon": "Coming soon",
-    "title": "Tournaments are coming",
-    "descMobile": "Weekly brackets, real prize pools, seasonal trophies. Full launch in June 2026.",
-    "descDesktop": "Weekly brackets, real prize pools, and seasonal trophies. We are testing the system right now \u2014 full launch in June 2026.",
+  "comingSoon": {
     "countdownLabel": "Time until launch",
     "countdown": {
       "daysMobile": "d",
@@ -129,7 +125,33 @@
       "minutesDesktop": "minutes",
       "secondsMobile": "s",
       "secondsDesktop": "seconds"
+    }
+  },
+  "topRatings": {
+    "comingSoon": "Coming soon",
+    "title": "Ratings are coming",
+    "descMobile": "Player leaderboards across every server. We are still collecting data \u2014 launching soon.",
+    "descDesktop": "Player leaderboards across every server, updated automatically as you play. We are still collecting and verifying the data \u2014 the full ranking launches soon.",
+    "featuresLabel": "Rating features",
+    "f0": {
+      "title": "Live leaderboards",
+      "desc": "Rankings refresh automatically, so your progress is always up to date."
     },
+    "f1": {
+      "title": "Several metrics",
+      "desc": "Compare playtime, wealth and achievements across all three worlds."
+    },
+    "f2": {
+      "title": "Fresh periods",
+      "desc": "Weekly, monthly and all-time views \u2014 newcomers always have a shot at the top."
+    },
+    "blogNote": "For more details, follow our <link>blog</link>."
+  },
+  "tournaments": {
+    "comingSoon": "Coming soon",
+    "title": "Tournaments are coming",
+    "descMobile": "Weekly brackets, real prize pools, seasonal trophies. Full launch in June 2026.",
+    "descDesktop": "Weekly brackets, real prize pools, and seasonal trophies. We are testing the system right now \u2014 full launch in June 2026.",
     "featuresLabel": "Tournament features",
     "f0": {
       "title": "Weekly brackets",

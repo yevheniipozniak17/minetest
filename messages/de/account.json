@@ -114,11 +114,7 @@
       "wealth": "Reichtum"
     }
   },
-  "tournaments": {
-    "comingSoon": "Bald verf\u00fcgbar",
-    "title": "Turniere kommen bald",
-    "descMobile": "W\u00f6chentliche Brackets, echte Preispools, saisonale Troph\u00e4en. Vollstart im Juni 2026.",
-    "descDesktop": "W\u00f6chentliche Brackets, echte Preispools und saisonale Troph\u00e4en. Wir testen das System gerade \u2014 Vollstart im Juni 2026.",
+  "comingSoon": {
     "countdownLabel": "Zeit bis zum Start",
     "countdown": {
       "daysMobile": "T",
@@ -129,7 +125,33 @@
       "minutesDesktop": "Minuten",
       "secondsMobile": "Sek",
       "secondsDesktop": "Sekunden"
+    }
+  },
+  "topRatings": {
+    "comingSoon": "Bald verf\u00fcgbar",
+    "title": "Ranglisten kommen bald",
+    "descMobile": "Spieler-Ranglisten f\u00fcr alle Server. Wir sammeln noch Daten \u2014 Start in K\u00fcrze.",
+    "descDesktop": "Spieler-Ranglisten f\u00fcr alle Server, die sich beim Spielen automatisch aktualisieren. Wir sammeln und pr\u00fcfen die Daten noch \u2014 die vollst\u00e4ndige Rangliste startet in K\u00fcrze.",
+    "featuresLabel": "Ranglisten-Funktionen",
+    "f0": {
+      "title": "Live-Ranglisten",
+      "desc": "Die Platzierungen aktualisieren sich automatisch \u2014 dein Fortschritt ist immer aktuell."
     },
+    "f1": {
+      "title": "Mehrere Metriken",
+      "desc": "Vergleiche Spielzeit, Reichtum und Erfolge \u00fcber alle drei Welten hinweg."
+    },
+    "f2": {
+      "title": "Frische Zeitr\u00e4ume",
+      "desc": "Woche, Monat und Gesamtzeit \u2014 Neulinge haben immer eine Chance auf die Spitze."
+    },
+    "blogNote": "Mehr Details findest du in unserem <link>Blog</link>."
+  },
+  "tournaments": {
+    "comingSoon": "Bald verf\u00fcgbar",
+    "title": "Turniere kommen bald",
+    "descMobile": "W\u00f6chentliche Brackets, echte Preispools, saisonale Troph\u00e4en. Vollstart im Juni 2026.",
+    "descDesktop": "W\u00f6chentliche Brackets, echte Preispools und saisonale Troph\u00e4en. Wir testen das System gerade \u2014 Vollstart im Juni 2026.",
     "featuresLabel": "Turnierfunktionen",
     "f0": {
       "title": "W\u00f6chentliche Brackets",

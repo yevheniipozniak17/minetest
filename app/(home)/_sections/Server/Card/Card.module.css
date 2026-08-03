@@ -159,6 +159,26 @@
   height: 13px;
 }
 
+.difficultyDot {
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--difficulty-color);
+}
+
+.status[data-difficulty='easy'] {
+  --difficulty-color: var(--primary-color-primary-500, #bde153);
+}
+
+.status[data-difficulty='normal'] {
+  --difficulty-color: #ffb347;
+}
+
+.status[data-difficulty='hard'] {
+  --difficulty-color: #ff6b6b;
+}
+
 .itemIp {
   height: 36px;
   flex-shrink: 0;

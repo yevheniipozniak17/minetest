@@ -114,11 +114,7 @@
       "wealth": "Riqueza"
     }
   },
-  "tournaments": {
-    "comingSoon": "Pr\u00f3ximamente",
-    "title": "Los torneos est\u00e1n en camino",
-    "descMobile": "Brackets semanales, premios reales, trofeos de temporada. Lanzamiento completo en junio de 2026.",
-    "descDesktop": "Brackets semanales, premios reales y trofeos de temporada. Estamos probando el sistema ahora \u2014 lanzamiento completo en junio de 2026.",
+  "comingSoon": {
     "countdownLabel": "Tiempo hasta el lanzamiento",
     "countdown": {
       "daysMobile": "d",
@@ -129,7 +125,33 @@
       "minutesDesktop": "minutos",
       "secondsMobile": "s",
       "secondsDesktop": "segundos"
+    }
+  },
+  "topRatings": {
+    "comingSoon": "Pr\u00f3ximamente",
+    "title": "Las clasificaciones est\u00e1n en camino",
+    "descMobile": "Clasificaciones de jugadores en todos los servidores. A\u00fan estamos recopilando datos \u2014 lanzamiento pr\u00f3ximo.",
+    "descDesktop": "Clasificaciones de jugadores en todos los servidores, actualizadas autom\u00e1ticamente mientras juegas. A\u00fan estamos recopilando y verificando los datos \u2014 la clasificaci\u00f3n completa se lanza pronto.",
+    "featuresLabel": "Caracter\u00edsticas de las clasificaciones",
+    "f0": {
+      "title": "Clasificaciones en vivo",
+      "desc": "Las posiciones se actualizan autom\u00e1ticamente, as\u00ed que tu progreso siempre est\u00e1 al d\u00eda."
     },
+    "f1": {
+      "title": "Varias m\u00e9tricas",
+      "desc": "Compara tiempo de juego, riqueza y logros en los tres mundos."
+    },
+    "f2": {
+      "title": "Periodos frescos",
+      "desc": "Semana, mes y hist\u00f3rico \u2014 los nuevos siempre tienen opciones de llegar arriba."
+    },
+    "blogNote": "Para m\u00e1s detalles, sigue nuestro <link>blog</link>."
+  },
+  "tournaments": {
+    "comingSoon": "Pr\u00f3ximamente",
+    "title": "Los torneos est\u00e1n en camino",
+    "descMobile": "Brackets semanales, premios reales, trofeos de temporada. Lanzamiento completo en junio de 2026.",
+    "descDesktop": "Brackets semanales, premios reales y trofeos de temporada. Estamos probando el sistema ahora \u2014 lanzamiento completo en junio de 2026.",
     "featuresLabel": "Caracter\u00edsticas de los torneos",
     "f0": {
       "title": "Brackets semanales",

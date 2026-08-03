@@ -114,11 +114,7 @@
       "wealth": "Bogactwo"
     }
   },
-  "tournaments": {
-    "comingSoon": "Wkr\u00f3tce",
-    "title": "Turnieje s\u0105 w drodze",
-    "descMobile": "Tygodniowe drabinki, realne nagrody, sezonowe trofea. Pe\u0142ny start w czerwcu 2026.",
-    "descDesktop": "Tygodniowe drabinki, realne nagrody i sezonowe trofea. Testujemy system \u2014 pe\u0142ny start w czerwcu 2026.",
+  "comingSoon": {
     "countdownLabel": "Czas do startu",
     "countdown": {
       "daysMobile": "d",
@@ -129,7 +125,33 @@
       "minutesDesktop": "minuty",
       "secondsMobile": "s",
       "secondsDesktop": "sekundy"
+    }
+  },
+  "topRatings": {
+    "comingSoon": "Wkr\u00f3tce",
+    "title": "Rankingi s\u0105 w drodze",
+    "descMobile": "Rankingi graczy ze wszystkich serwer\u00f3w. Wci\u0105\u017c zbieramy dane \u2014 start wkr\u00f3tce.",
+    "descDesktop": "Rankingi graczy ze wszystkich serwer\u00f3w, aktualizowane automatycznie w trakcie gry. Wci\u0105\u017c zbieramy i weryfikujemy dane \u2014 pe\u0142ny ranking ruszy wkr\u00f3tce.",
+    "featuresLabel": "Funkcje rankingu",
+    "f0": {
+      "title": "Rankingi na \u017cywo",
+      "desc": "Pozycje od\u015bwie\u017caj\u0105 si\u0119 automatycznie, wi\u0119c tw\u00f3j post\u0119p jest zawsze aktualny."
     },
+    "f1": {
+      "title": "Kilka metryk",
+      "desc": "Por\u00f3wnuj czas gry, bogactwo i osi\u0105gni\u0119cia na wszystkich trzech \u015bwiatach."
+    },
+    "f2": {
+      "title": "\u015awie\u017ce okresy",
+      "desc": "Tydzie\u0144, miesi\u0105c i ca\u0142y czas \u2014 nowi gracze zawsze maj\u0105 szans\u0119 na szczyt."
+    },
+    "blogNote": "Wi\u0119cej szczeg\u00f3\u0142\u00f3w znajdziesz na naszym <link>blogu</link>."
+  },
+  "tournaments": {
+    "comingSoon": "Wkr\u00f3tce",
+    "title": "Turnieje s\u0105 w drodze",
+    "descMobile": "Tygodniowe drabinki, realne nagrody, sezonowe trofea. Pe\u0142ny start w czerwcu 2026.",
+    "descDesktop": "Tygodniowe drabinki, realne nagrody i sezonowe trofea. Testujemy system \u2014 pe\u0142ny start w czerwcu 2026.",
     "featuresLabel": "Funkcje turniej\u00f3w",
     "f0": {
       "title": "Tygodniowe drabinki",

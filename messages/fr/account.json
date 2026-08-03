@@ -114,11 +114,7 @@
       "wealth": "Richesse"
     }
   },
-  "tournaments": {
-    "comingSoon": "Bient\u00f4t disponible",
-    "title": "Les tournois arrivent",
-    "descMobile": "Brackets hebdomadaires, vrais prix, troph\u00e9es saisonniers. Lancement complet en juin 2026.",
-    "descDesktop": "Brackets hebdomadaires, vrais prix et troph\u00e9es saisonniers. Nous testons le syst\u00e8me en ce moment \u2014 lancement complet en juin 2026.",
+  "comingSoon": {
     "countdownLabel": "Temps avant le lancement",
     "countdown": {
       "daysMobile": "j",
@@ -129,7 +125,33 @@
       "minutesDesktop": "minutes",
       "secondsMobile": "s",
       "secondsDesktop": "secondes"
+    }
+  },
+  "topRatings": {
+    "comingSoon": "Bient\u00f4t disponible",
+    "title": "Les classements arrivent",
+    "descMobile": "Classements des joueurs sur tous les serveurs. Nous collectons encore les donn\u00e9es \u2014 lancement imminent.",
+    "descDesktop": "Classements des joueurs sur tous les serveurs, mis \u00e0 jour automatiquement pendant que tu joues. Nous collectons et v\u00e9rifions encore les donn\u00e9es \u2014 le classement complet arrive bient\u00f4t.",
+    "featuresLabel": "Fonctionnalit\u00e9s des classements",
+    "f0": {
+      "title": "Classements en direct",
+      "desc": "Les positions se rafra\u00eechissent automatiquement : ta progression est toujours \u00e0 jour."
     },
+    "f1": {
+      "title": "Plusieurs mesures",
+      "desc": "Compare temps de jeu, richesse et succ\u00e8s sur les trois mondes."
+    },
+    "f2": {
+      "title": "P\u00e9riodes fra\u00eeches",
+      "desc": "Semaine, mois et depuis toujours \u2014 les nouveaux ont toujours leur chance."
+    },
+    "blogNote": "Pour plus de d\u00e9tails, suis notre <link>blog</link>."
+  },
+  "tournaments": {
+    "comingSoon": "Bient\u00f4t disponible",
+    "title": "Les tournois arrivent",
+    "descMobile": "Brackets hebdomadaires, vrais prix, troph\u00e9es saisonniers. Lancement complet en juin 2026.",
+    "descDesktop": "Brackets hebdomadaires, vrais prix et troph\u00e9es saisonniers. Nous testons le syst\u00e8me en ce moment \u2014 lancement complet en juin 2026.",
     "featuresLabel": "Fonctionnalit\u00e9s des tournois",
     "f0": {
       "title": "Brackets hebdomadaires",

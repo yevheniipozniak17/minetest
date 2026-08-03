@@ -114,11 +114,7 @@
       "wealth": "Ricchezza"
     }
   },
-  "tournaments": {
-    "comingSoon": "Prossimamente",
-    "title": "I tornei stanno arrivando",
-    "descMobile": "Bracket settimanali, veri premi, trofei stagionali. Lancio completo a giugno 2026.",
-    "descDesktop": "Bracket settimanali, veri premi e trofei stagionali. Stiamo testando il sistema \u2014 lancio completo a giugno 2026.",
+  "comingSoon": {
     "countdownLabel": "Tempo al lancio",
     "countdown": {
       "daysMobile": "g",
@@ -129,7 +125,33 @@
       "minutesDesktop": "minuti",
       "secondsMobile": "s",
       "secondsDesktop": "secondi"
+    }
+  },
+  "topRatings": {
+    "comingSoon": "Prossimamente",
+    "title": "Le classifiche stanno arrivando",
+    "descMobile": "Classifiche dei giocatori su tutti i server. Stiamo ancora raccogliendo dati \u2014 lancio a breve.",
+    "descDesktop": "Classifiche dei giocatori su tutti i server, aggiornate automaticamente mentre giochi. Stiamo ancora raccogliendo e verificando i dati \u2014 la classifica completa arriva a breve.",
+    "featuresLabel": "Funzionalit\u00e0 classifiche",
+    "f0": {
+      "title": "Classifiche live",
+      "desc": "Le posizioni si aggiornano da sole, cos\u00ec i tuoi progressi sono sempre attuali."
     },
+    "f1": {
+      "title": "Pi\u00f9 metriche",
+      "desc": "Confronta tempo di gioco, ricchezza e obiettivi su tutti e tre i mondi."
+    },
+    "f2": {
+      "title": "Periodi freschi",
+      "desc": "Settimana, mese e sempre \u2014 i nuovi arrivati hanno sempre una possibilit\u00e0."
+    },
+    "blogNote": "Per maggiori dettagli, segui il nostro <link>blog</link>."
+  },
+  "tournaments": {
+    "comingSoon": "Prossimamente",
+    "title": "I tornei stanno arrivando",
+    "descMobile": "Bracket settimanali, veri premi, trofei stagionali. Lancio completo a giugno 2026.",
+    "descDesktop": "Bracket settimanali, veri premi e trofei stagionali. Stiamo testando il sistema \u2014 lancio completo a giugno 2026.",
     "featuresLabel": "Funzionalit\u00e0 tornei",
     "f0": {
       "title": "Bracket settimanali",
