@@ -34,7 +34,7 @@
   justify-content: center;
 }
 
-.statsContainer {
+.infoContainer {
   margin-top: 32px;
   display: flex;
   flex-direction: column;
@@ -42,11 +42,11 @@
   gap: 10px;
 }
 
-/* Stats Card */
-.stats {
+/* Info Cards */
+.infoCard {
   width: 337px;
-  height: 157px;
-  padding: 27px 16px 10px;
+  min-height: 157px;
+  padding: 27px 16px 20px;
 
   border-radius: 20px;
   border: 1px solid var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
@@ -55,8 +55,8 @@
   backdrop-filter: blur(5px);
 }
 
-.statsTitle {
-  margin-bottom: 24px;
+.infoCardTitle {
+  margin-bottom: 12px;
   color: var(--New-group-color-bg-default-50, #fff);
 
   /* mobile/H3 */
@@ -67,102 +67,16 @@
   line-height: normal;
 }
 
-.statsList {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
-
-.statsItem {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.statsItem + .statsItem {
-  padding-top: 9px;
-  border-top: 1px dashed var(--color-border, rgba(255, 255, 255, 0.1));
-}
-
-.statsItemText {
-  color: var(--New-group-color-bg-default-50, #fff);
-  font-family: Montserrat;
-  font-size: 14px;
+.infoCardText {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: 13px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  min-width: 0;
-  flex: 1 1 auto;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 150%;
 }
 
-.statsBadge {
-  flex-shrink: 0;
-  min-width: 75px;
-  height: 25px;
-  padding: 0 12px;
-  background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
-  border-radius: 109px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 6px;
-
-  color: var(--New-group-color-bg-default-50, #fff);
-
-  /* desktop/body-3 */
-  font-family: var(--Font-Serif-Typography, Montserrat);
-  font-size: var(--Size-Desk-Body-xxxsmal, 12px);
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1;
-  white-space: nowrap;
-}
-
-.statsBadgeDot {
-  flex-shrink: 0;
-  width: 7px;
-  height: 7px;
-}
-
-.topPlayers .statsBadge {
-  min-width: 108px;
-  padding: 0 10px;
-}
-
-/* topPlayers Card */
-.topPlayers {
-  width: 337px;
-  height: 205px;
-  padding: 27px 16px 10px;
-  border-radius: 20px;
-  border: 1px solid var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
-  background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
-  box-shadow: 4px 5px 30px 0 rgba(3, 29, 23, 0.44);
-  backdrop-filter: blur(5px);
-}
-
-.statsTitleWrapper {
-  display: flex;
-  gap: 15px;
-  align-items: center;
-  margin-bottom: 19px;
-
-  color: var(--New-group-color-bg-default-50, #fff);
-
-  /* mobile/H3 */
-  font-family: var(--Font-Serif-Typography, Montserrat);
-  font-size: var(--Size-Mobile-H3-Small, 18px);
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-
-.statsCards {
+.infoCards {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -257,20 +171,19 @@
     margin-bottom: 39px;
   }
 
-  .statsContainer {
+  .infoContainer {
     margin-top: 20px;
     gap: 23px;
   }
 
-  .statsCards {
+  .infoCards {
     flex-direction: row;
     gap: 23px;
   }
 
-  .stats,
-  .topPlayers {
+  .infoCard {
     width: 564px;
-    height: 205px;
+    min-height: 205px;
     padding: 27px 21px 25px 27px;
   }
 
@@ -279,8 +192,8 @@
     height: 236px;
   }
 
-  .statsTitle {
-    margin-bottom: 59px;
+  .infoCardTitle {
+    margin-bottom: 14px;
     color: var(--New-group-color-bg-default-50, #fff);
 
     /* desktop/H3 */
@@ -291,17 +204,10 @@
     line-height: normal;
   }
 
-  .statsTitleWrapper {
-    margin-bottom: 12px;
-    color: var(--New-group-color-bg-default-50, #fff);
-
-    /* desktop/H3 */
-    font-family: var(--Font-Serif-Typography, Montserrat);
-    font-size: var(--Size-Desk-H3-Small, 24px);
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+  .infoCardText {
+    font-size: var(--Size-Desk-Body-xxsmall, 15px);
   }
+
   .newPlayerBonus {
     padding: 21px 37px 32px 37px;
   }

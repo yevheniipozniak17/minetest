@@ -3,8 +3,7 @@ import { Container } from '../../../_components/Container/Container';
 import { Divider } from '../../../_components/Divider/Divider';
 import CardList from './CardList/CardList';
 import { NewPlayerBonus } from './NewPlayerBonus/NewPlayerBonus';
-import { ServerLiveStats } from './ServerLiveStats/ServerLiveStats';
-import { ServerTopPlayers } from './ServerTopPlayers/ServerTopPlayers';
+import { ServerInfoCard } from './ServerInfoCard/ServerInfoCard';
 import styles from './Server.module.css';
 
 export default async function Server() {
@@ -24,10 +23,16 @@ export default async function Server() {
             <CardList />
           </div>
 
-          <div className={styles.statsContainer}>
-            <div className={styles.statsCards}>
-              <ServerLiveStats />
-              <ServerTopPlayers />
+          <div className={styles.infoContainer}>
+            <div className={styles.infoCards}>
+              <ServerInfoCard
+                title={t('server.introTitle')}
+                text={t('server.introText')}
+              />
+              <ServerInfoCard
+                title={t('server.audienceTitle')}
+                text={t('server.audienceText')}
+              />
             </div>
 
             <NewPlayerBonus />

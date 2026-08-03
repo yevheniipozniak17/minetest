@@ -67,11 +67,3 @@ export const TOP_RATED_PLAYERS: TopRatedPlayer[] = [
   },
 ];
 
-/** Preview rows for compact leaderboard widgets (home Server section, etc.). */
-export const TOP_RATED_PREVIEW_COUNT = 3;
-
-export function getTopRatedPlayersPreview(
-  count = TOP_RATED_PREVIEW_COUNT
-): TopRatedPlayer[] {
-  return TOP_RATED_PLAYERS.slice(0, count);
-}
