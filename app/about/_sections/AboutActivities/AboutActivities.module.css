@@ -9,7 +9,7 @@
     gap: 24px;
 }
 
-/* Mobile: порядок content → leaderboard → bottomList */
+/* Mobile: порядок content → visual */
 .main {
     display: contents;
 }
@@ -18,12 +18,8 @@
     order: 1;
 }
 
-.leaderboard {
+.visual {
     order: 2;
-}
-
-.bottomList {
-    order: 3;
 }
 
 .badge {
@@ -59,7 +55,6 @@
 
 .description {
     margin-inline: auto;
-    margin-bottom: 24px;
     width: 335px;
     color: rgba(255, 255, 255, 0.72);
     text-align: center;
@@ -69,22 +64,56 @@
     line-height: 18px;
 }
 
-.leaderboard {
-    margin-inline: auto;
-    margin-bottom: 24px;
-    width: 335px;
-    padding: 16px;
-    border-radius: 16px;
-    border: 1px dashed rgba(189, 225, 83, 0.3);
+.servers {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.server {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
     background: rgba(255, 255, 255, 0.05);
 }
 
-.leaderboardTitle {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 12px;
+.serverDot {
+    width: 7px;
+    height: 7px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: var(--tone);
+    box-shadow: 0 0 8px var(--tone);
+}
+
+.server[data-tone='survival'] {
+    --tone: #bde153;
+}
+
+.server[data-tone='pvp'] {
+    --tone: #ff7a45;
+}
+
+.server[data-tone='calm'] {
+    --tone: #7fc7ff;
+}
+
+.serverName {
     color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.serverGenre {
+    color: rgba(255, 255, 255, 0.55);
     font-family: Montserrat, sans-serif;
     font-size: 10px;
     font-weight: 600;
@@ -93,41 +122,22 @@
     text-transform: uppercase;
 }
 
-.bottomList {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    align-items: center;
-}
-
-.bottomItem {
-    position: relative;
-    display: flex;
-    align-items: center;
+.visual {
+    margin-inline: auto;
+    margin-bottom: 24px;
     width: 335px;
-    padding: 10px 12px;
-    padding-left: 30px;
-    border-radius: 10px;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    background: rgba(255, 255, 255, 0.05);
-    color: rgba(255, 255, 255, 0.72);
-    font-family: Montserrat, sans-serif;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 18px;
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+    border-radius: 16px;
+    border: 1px solid rgba(189, 225, 83, 0.25);
+    background: #031a14;
 }
 
-.bottomItem::before {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 12px;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: #bde153;
-    transform: translateY(-50%);
+.visualImage {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 @media screen and (min-width: 1280px) {
@@ -153,8 +163,7 @@
     }
 
     .content,
-    .leaderboard,
-    .bottomList {
+    .visual {
         order: unset;
     }
 
@@ -178,6 +187,7 @@
 
     .description {
         margin-inline: 0;
+        margin-bottom: 0;
         width: 520px;
         max-width: 100%;
         text-align: start;
@@ -185,39 +195,36 @@
         line-height: 26px;
     }
 
-    .bottomList {
-        align-items: stretch;
+    .servers {
+        justify-content: flex-start;
         width: 520px;
         max-width: 100%;
-        gap: 12px;
+        margin-top: 28px;
+        gap: 10px;
     }
 
-    .bottomItem {
-        width: 100%;
-        height: 41px;
-        padding: 14px 16px;
-        padding-left: 36px;
+    .server {
+        padding: 10px 16px;
+        gap: 10px;
+    }
+
+    .serverDot {
+        width: 8px;
+        height: 8px;
+    }
+
+    .serverName {
         font-size: 14px;
-        line-height: 20px;
     }
 
-    .bottomItem::before {
-        left: 16px;
+    .serverGenre {
+        font-size: 11px;
     }
 
-    .leaderboard {
+    .visual {
         flex-shrink: 0;
         margin-inline: 0;
         margin-bottom: 0;
         width: 560px;
-        height: 452px;
-        padding: 24px;
-        box-sizing: border-box;
-    }
-
-    .leaderboardTitle {
-        margin-bottom: 16px;
-        font-size: 14px;
-        letter-spacing: 0.56px;
     }
 }

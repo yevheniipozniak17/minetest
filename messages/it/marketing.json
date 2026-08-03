@@ -36,13 +36,9 @@
       "card3Desc": "Server vanilla pacifico senza PvP o TNT. Creatività, gioco sociale e costruzioni bellissime."
     },
     "activities": {
-      "topPlayers": "Migliori giocatori",
       "badge": "Attività e tornei",
       "title": "Diventa una leggenda dell'ecosistema",
-      "description": "Il nostro ecosistema non dorme mai. Ogni settimana organizziamo eventi e attività in gioco. Partecipa a tornei con premi reali, lotta per i primi posti nelle classifiche globali — per ricchezza, kill e ore giocate — e mostra a tutti chi comanda.",
-      "bullet1": "Tornei settimanali con montepremi",
-      "bullet2": "Classifiche globali: ricchezza, kill, tempo",
-      "bullet3": "Eventi stagionali e ricompense limitate"
+      "description": "Il nostro ecosistema non dorme mai. Ogni settimana organizziamo eventi e attività in gioco. Partecipa a tornei con premi reali, lotta per i primi posti nelle classifiche globali — per ricchezza, kill e ore giocate — e mostra a tutti chi comanda."
     }
   },
   "contacts": {

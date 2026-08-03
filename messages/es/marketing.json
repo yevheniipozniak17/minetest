@@ -36,13 +36,9 @@
       "card3Desc": "Servidor vanilla pacífico sin PvP ni TNT. Creatividad, juego social y construcciones hermosas."
     },
     "activities": {
-      "topPlayers": "Mejores jugadores",
       "badge": "Actividades y torneos",
       "title": "Conviértete en una leyenda del ecosistema",
-      "description": "Nuestro ecosistema nunca duerme. Cada semana organizamos eventos y actividades en el juego. Participa en torneos con premios reales, lucha por los primeros puestos en los rankings globales — por riqueza, kills y horas jugadas — y demuestra quién manda.",
-      "bullet1": "Torneos semanales con premios",
-      "bullet2": "Rankings globales: riqueza, kills, tiempo",
-      "bullet3": "Eventos de temporada y recompensas limitadas"
+      "description": "Nuestro ecosistema nunca duerme. Cada semana organizamos eventos y actividades en el juego. Participa en torneos con premios reales, lucha por los primeros puestos en los rankings globales — por riqueza, kills y horas jugadas — y demuestra quién manda."
     }
   },
   "contacts": {

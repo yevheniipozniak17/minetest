@@ -36,13 +36,9 @@
       "card3Desc": "Peaceful vanilla server without PvP or TNT. Focus on creativity, social play, and beautiful builds."
     },
     "activities": {
-      "topPlayers": "Top Players",
       "badge": "Activities & Tournaments",
       "title": "Become a legend of the ecosystem",
-      "description": "Our ecosystem never sleeps. Every week we run large-scale events and in-game activities. Take part in regular tournaments with real prizes, fight for top spots in the global rankings — top by wealth, top by kills, top by hours played — and show everyone who is in charge.",
-      "bullet1": "Weekly tournaments with prize pools",
-      "bullet2": "Global rankings: wealth, kills, time",
-      "bullet3": "Seasonal events and limited rewards"
+      "description": "Our ecosystem never sleeps. Every week we run large-scale events and in-game activities. Take part in regular tournaments with real prizes, fight for top spots in the global rankings — top by wealth, top by kills, top by hours played — and show everyone who is in charge."
     }
   },
   "contacts": {

@@ -36,13 +36,9 @@
       "card3Desc": "Serveur vanilla paisible sans PvP ni TNT. Créativité, jeu social et belles constructions."
     },
     "activities": {
-      "topPlayers": "Meilleurs joueurs",
       "badge": "Activités & Tournois",
       "title": "Deviens une légende de l'écosystème",
-      "description": "Notre écosystème ne dort jamais. Chaque semaine, nous organisons des événements et activités en jeu. Participe à des tournois avec de vrais prix, bats-toi pour les premières places dans les classements mondiaux — richesse, kills, heures jouées — et montre qui dirige.",
-      "bullet1": "Tournois hebdomadaires avec lots",
-      "bullet2": "Classements mondiaux : richesse, kills, temps",
-      "bullet3": "Événements saisonniers et récompenses limitées"
+      "description": "Notre écosystème ne dort jamais. Chaque semaine, nous organisons des événements et activités en jeu. Participe à des tournois avec de vrais prix, bats-toi pour les premières places dans les classements mondiaux — richesse, kills, heures jouées — et montre qui dirige."
     }
   },
   "contacts": {
