@@ -45,6 +45,10 @@
   "paymentCreatedOffline": "Pagamento creato — unisciti a {server} come \"{nick}\" affinché i tuoi articoli possano essere consegnati.",
   "paymentCreatedOnline": "Pagamento creato — in attesa di conferma. Seguilo nella cronologia degli acquisti.",
   "errorPaymentFailed": "Impossibile avviare il pagamento. Riprova.",
+  "resumeTitle": "Non hai completato il pagamento",
+  "resumeText": "Il tuo link di pagamento è ancora valido per circa {minutes} min. Riprendi da dove eri rimasto.",
+  "resumeContinue": "Continua il pagamento",
+  "resumeDismiss": "Ignora",
   "itemSubtitleDefault": "In gioco",
   "itemSubtitleDesktop": "{currency} — consegna immediata"
 }

@@ -45,6 +45,10 @@
   "paymentCreatedOffline": "Paiement créé — rejoignez {server} en tant que \"{nick}\" pour que vos articles puissent être livrés.",
   "paymentCreatedOnline": "Paiement créé — en attente de confirmation. Suivez-le dans votre historique d'achats.",
   "errorPaymentFailed": "Impossible de démarrer le paiement. Veuillez réessayer.",
+  "resumeTitle": "Vous n'avez pas finalisé votre paiement",
+  "resumeText": "Votre lien de paiement est encore valable environ {minutes} min. Reprenez où vous vous êtes arrêté.",
+  "resumeContinue": "Continuer le paiement",
+  "resumeDismiss": "Ignorer",
   "itemSubtitleDefault": "En jeu",
   "itemSubtitleDesktop": "{currency} — livraison instantanée"
 }

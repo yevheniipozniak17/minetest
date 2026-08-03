@@ -45,6 +45,10 @@
   "paymentCreatedOffline": "Payment created — join {server} as \"{nick}\" so your items can be delivered.",
   "paymentCreatedOnline": "Payment created — awaiting confirmation. Track it in your purchase history.",
   "errorPaymentFailed": "Could not start payment. Please try again.",
+  "resumeTitle": "You haven't finished your payment",
+  "resumeText": "Your payment link is still valid for about {minutes} min. Continue where you left off.",
+  "resumeContinue": "Continue payment",
+  "resumeDismiss": "Dismiss",
   "itemSubtitleDefault": "In-game",
   "itemSubtitleDesktop": "{currency} — instant delivery"
 }

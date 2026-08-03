@@ -45,6 +45,10 @@
   "paymentCreatedOffline": "Płatność utworzona — dołącz do {server} jako \"{nick}\", aby Twoje przedmioty mogły zostać dostarczone.",
   "paymentCreatedOnline": "Płatność utworzona — oczekuje na potwierdzenie. Śledź ją w historii zakupów.",
   "errorPaymentFailed": "Nie udało się rozpocząć płatności. Spróbuj ponownie.",
+  "resumeTitle": "Nie dokończyłeś płatności",
+  "resumeText": "Twój link do płatności jest ważny jeszcze około {minutes} min. Kontynuuj od miejsca, w którym skończyłeś.",
+  "resumeContinue": "Kontynuuj płatność",
+  "resumeDismiss": "Odrzuć",
   "itemSubtitleDefault": "W grze",
   "itemSubtitleDesktop": "{currency} — natychmiastowa dostawa"
 }

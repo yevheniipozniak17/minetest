@@ -11,6 +11,15 @@ import { applyPromo } from '@/lib/api/promos';
 import type { OrderItem } from '@/lib/api/types';
 import { DEFAULT_CURRENCY, formatMoney } from '@/lib/client/currency';
 import { notifyCartUpdated } from '@/lib/client/cartCount';
+import {
+  savePendingPayment,
+  getPendingPayment,
+  clearPendingPayment,
+  pendingPaymentRemainingMs,
+  markPaymentRedirect,
+  PAYMENT_RETURN_FLAG,
+  type PendingPayment,
+} from '@/lib/client/pendingPayment';
 import { useProfile } from '@/app/_components/ProfileProvider/ProfileProvider';
 import styles from './Cart.module.css';
 
@@ -76,15 +85,22 @@ function toNumber(value: unknown): number | null {
 // Реальна відповідь /core/promos/apply:
 //   { promo, promo_value: "30.00000000", total_price: "150...", payment_price: "120..." }
 // payment_price — сума до сплати зі знижкою; promo_value — розмір знижки;
-// total_price — початкова сума (НЕ нова!). Тримаємо фолбеки на інші імена
-// на випадок майбутніх змін серіалайзера, але з правильним пріоритетом.
+// total_price — ПОЧАТКОВА сума на боці бекенду (його база розрахунку).
+//
+// ВАЖЛИВО: бекендова база (total_price) може НЕ збігатися з нашим Subtotal
+// (напр. інша валюта/базова ціна). Тому ми не підставляємо абсолютні суми
+// бекенду напряму — беремо лише ВІДСОТОК знижки (він не залежить від бази) і
+// застосовуємо його до нашого Subtotal, щоб панель завжди була узгоджена.
 function extractPromoAmounts(data: unknown): {
+  baseTotal: number | null;
   newTotal: number | null;
   discount: number | null;
 } {
-  if (!data || typeof data !== 'object') return { newTotal: null, discount: null };
+  if (!data || typeof data !== 'object') return { baseTotal: null, newTotal: null, discount: null };
   const obj = data as Record<string, unknown>;
-  // Ключі суми до сплати — payment_price авторитетний; total_price свідомо не тут.
+  // Початкова сума до знижки на боці бекенду (база для відсотка).
+  const baseKeys = ['total_price', 'original_price', 'order_total', 'gross_price', 'price'];
+  // Сума до сплати зі знижкою.
   const totalKeys = [
     'payment_price',
     'amount_to_pay',
@@ -95,23 +111,29 @@ function extractPromoAmounts(data: unknown): {
   ];
   const discountKeys = ['promo_value', 'discount', 'discount_amount', 'promo_discount', 'sale', 'saved'];
 
-  let newTotal: number | null = null;
-  for (const key of totalKeys) {
-    const n = toNumber(obj[key]);
-    if (n !== null) {
-      newTotal = n;
-      break;
+  const pick = (keys: string[]): number | null => {
+    for (const key of keys) {
+      const n = toNumber(obj[key]);
+      if (n !== null) return n;
     }
-  }
-  let discount: number | null = null;
-  for (const key of discountKeys) {
-    const n = toNumber(obj[key]);
-    if (n !== null) {
-      discount = n;
-      break;
-    }
-  }
-  return { newTotal, discount };
+    return null;
+  };
+
+  return {
+    baseTotal: pick(baseKeys),
+    newTotal: pick(totalKeys),
+    discount: pick(discountKeys),
+  };
+}
+
+// Знижка як частка [0..1] з бекендової відповіді, незалежна від валюти/бази.
+// Пріоритет: (база − сума_до_сплати)/база, далі знижка/база.
+function promoRateFrom(baseTotal: number | null, newTotal: number | null, discount: number | null) {
+  if (!baseTotal || baseTotal <= 0) return null;
+  const raw =
+    newTotal !== null ? (baseTotal - newTotal) / baseTotal : discount !== null ? discount / baseTotal : null;
+  if (raw === null || !Number.isFinite(raw)) return null;
+  return Math.min(1, Math.max(0, raw));
 }
 
 function labelFromImage(name: string | undefined): string {
@@ -168,13 +190,27 @@ export default function Cart() {
   const nickname = nicknameOverride ?? suggestedNickname;
   const [promoCode, setPromoCode] = useState('');
   const [appliedPromo, setAppliedPromo] = useState<string | null>(null);
-  const [promoDiscount, setPromoDiscount] = useState<number | null>(null);
-  const [promoNewTotal, setPromoNewTotal] = useState<number | null>(null);
+  // Зберігаємо ПРИРОДУ знижки, а не готову суму, щоб перераховувати під поточний
+  // Subtotal при кожній зміні кількості:
+  //  - promoRate  → відсоткова знижка (частка 0..1), масштабується з кількістю;
+  //  - promoFixed → фіксована сума знижки, з кількістю не змінюється.
+  const [promoRate, setPromoRate] = useState<number | null>(null);
+  const [promoFixed, setPromoFixed] = useState<number | null>(null);
   const [applyingPromo, setApplyingPromo] = useState(false);
   const [promoMessage, setPromoMessage] = useState<string | null>(null);
   const [promoError, setPromoError] = useState(false);
+  // Скільки змін кількості ще летить у бекенд — поки >0, промо застосовувати не можна,
+  // інакше знижка порахується від застарілого (несинхронізованого) замовлення.
+  const [qtySyncing, setQtySyncing] = useState(false);
+  const qtySyncCount = useRef(0);
+  // Ре-валідація промо на бекенді при зміні кількості: токен відкидає застарілі
+  // відповіді, а ref памʼятає Subtotal, для якого промо вже підтверджено (щоб не
+  // смикати бекенд даремно, напр. одразу після ручного застосування).
+  const revalidateToken = useRef(0);
+  const validatedSubtotal = useRef<number | null>(null);
   const [paying, setPaying] = useState(false);
   const [payMessage, setPayMessage] = useState<string | null>(null);
+  const [pendingPayment, setPendingPayment] = useState<PendingPayment | null>(null);
   const [purchaseAgreed, setPurchaseAgreed] = useState(false);
   const [policiesAgreed, setPoliciesAgreed] = useState(false);
   const [consentToast, setConsentToast] = useState<string | null>(null);
@@ -208,6 +244,69 @@ export default function Cart() {
     return () => {
       if (consentToastTimer.current) clearTimeout(consentToastTimer.current);
       if (highlightTimer.current) clearTimeout(highlightTimer.current);
+    };
+  }, []);
+
+  // [ТИМЧАСОВА ДІАГНОСТИКА] Пише реальний стан сховища напряму в DOM (#pp-debug),
+  // тому працює навіть якщо React «заморожений» після повернення з платіжки.
+  // Реагує на mount, pageshow, focus, visibilitychange та кожну секунду.
+  useEffect(() => {
+    const readDebug = (source: string) => {
+      let ls: string | null = 'ERR';
+      let flag: string | null = 'ERR';
+      try {
+        ls = window.localStorage.getItem('pending_payment');
+      } catch {
+        ls = 'ERR';
+      }
+      try {
+        flag = window.sessionStorage.getItem(PAYMENT_RETURN_FLAG);
+      } catch {
+        flag = 'ERR';
+      }
+      const el = document.getElementById('pp-debug');
+      const persisted = el?.getAttribute('data-persisted') ?? '?';
+      const text = `DBG[${source}] t=${new Date().toLocaleTimeString()} | LS=${
+        ls ? 'YES(' + ls.length + ')' : String(ls)
+      } | FLAG=${flag ?? 'null'} | persisted=${persisted}`;
+      if (el) el.textContent = text;
+    };
+    readDebug('mount');
+    const onPageShow = (e: PageTransitionEvent) => {
+      const el = document.getElementById('pp-debug');
+      if (el) el.setAttribute('data-persisted', String(e.persisted));
+      readDebug('pageshow');
+    };
+    const onFocus = () => readDebug('focus');
+    const onVis = () => readDebug('visibility:' + document.visibilityState);
+    window.addEventListener('pageshow', onPageShow);
+    window.addEventListener('focus', onFocus);
+    document.addEventListener('visibilitychange', onVis);
+    const timer = setInterval(() => readDebug('tick'), 1000);
+    return () => {
+      window.removeEventListener('pageshow', onPageShow);
+      window.removeEventListener('focus', onFocus);
+      document.removeEventListener('visibilitychange', onVis);
+      clearInterval(timer);
+    };
+  }, []);
+
+  // Незавершений платіж: показуємо банер «Продовжити оплату», поки лінк живий (20 хв).
+  // На чистому завантаженні (у т.ч. після reload вище) mount-ефект прочитає localStorage,
+  // а інтервал оновлює лічильник хвилин і ховає банер по протуханню.
+  useEffect(() => {
+    const refresh = () => setPendingPayment(getPendingPayment());
+    refresh();
+    const timer = setInterval(refresh, 30_000);
+    const onVisibility = () => {
+      if (document.visibilityState === 'visible') refresh();
+    };
+    window.addEventListener('focus', refresh);
+    document.addEventListener('visibilitychange', onVisibility);
+    return () => {
+      clearInterval(timer);
+      window.removeEventListener('focus', refresh);
+      document.removeEventListener('visibilitychange', onVisibility);
     };
   }, []);
 
@@ -285,23 +384,77 @@ export default function Cart() {
   // Валюта кошика = валюта його позицій (бекенд тримає одну валюту на кошик).
   const cartCurrency = rows[0]?.currency ?? DEFAULT_CURRENCY;
 
-  // Ефективний тотал до оплати: якщо промо застосовано — нова сума з бекенду.
+  // Сума знижки — ПОХІДНА від Subtotal, тож − / + перераховують її автоматично.
+  const promoDiscount = useMemo(() => {
+    if (!appliedPromo) return null;
+    if (promoRate !== null) return subtotal * promoRate;
+    if (promoFixed !== null) return Math.min(promoFixed, subtotal);
+    return 0;
+  }, [appliedPromo, promoRate, promoFixed, subtotal]);
+
+  // Сума до сплати зі знижкою (ніколи не нижче 0 і не вище Subtotal).
+  const promoNewTotal = useMemo(
+    () => (appliedPromo ? Math.max(0, subtotal - (promoDiscount ?? 0)) : null),
+    [appliedPromo, promoDiscount, subtotal]
+  );
+
+  // Ефективний тотал до оплати: якщо промо застосовано — перерахована сума.
   const effectiveTotal = promoNewTotal ?? subtotal;
 
   // Скидаємо застосований промо — код більше не відповідає поточному кошику/введенню.
   const clearAppliedPromo = useCallback(() => {
     setAppliedPromo(null);
-    setPromoDiscount(null);
-    setPromoNewTotal(null);
+    setPromoRate(null);
+    setPromoFixed(null);
     setPromoMessage(null);
     setPromoError(false);
+    // Наступне застосування промо має пройти повну валідацію.
+    validatedSubtotal.current = null;
+    revalidateToken.current += 1;
   }, []);
 
-  // Зміна складу/кількості кошика робить попередній розрахунок знижки нерелевантним.
+  // Порожній кошик — застосований промо втрачає сенс.
   useEffect(() => {
-    if (appliedPromo) clearAppliedPromo();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [subtotal]);
+    if (appliedPromo && lineCount === 0) clearAppliedPromo();
+  }, [lineCount, appliedPromo, clearAppliedPromo]);
+
+  // Тиха ре-валідація промо на бекенді після зміни кількості (з debounce).
+  // Локальний перерахунок за відсотком дає миттєвий результат, а цей запит звіряє
+  // його з правилами бекенду (мін. сума, ліміти) і за потреби коригує/скидає промо.
+  useEffect(() => {
+    const code = appliedPromo;
+    // Чекаємо, поки кількість долетить у бекенд (qtySyncing), і не смикаємо
+    // бекенд, якщо для цього Subtotal промо вже підтверджено.
+    if (!code || lineCount === 0 || qtySyncing || validatedSubtotal.current === subtotal) return;
+
+    const token = ++revalidateToken.current;
+    const pendingSubtotal = subtotal;
+    const timer = setTimeout(async () => {
+      try {
+        const data = await applyPromo({ promo: code });
+        if (token !== revalidateToken.current) return; // прийшла застаріла відповідь
+        const { baseTotal, newTotal, discount } = extractPromoAmounts(data);
+        const rate = promoRateFrom(baseTotal, newTotal, discount);
+        if (rate !== null && rate > 0) {
+          setPromoRate(rate);
+          setPromoFixed(null);
+        } else if (discount !== null) {
+          setPromoFixed(discount);
+          setPromoRate(null);
+        }
+        // Якщо нічого не витягли — лишаємо попередній коефіцієнт (локальний перерахунок).
+        validatedSubtotal.current = pendingSubtotal;
+      } catch {
+        if (token !== revalidateToken.current) return;
+        // Бекенд відхилив промо для нового складу (напр. сума впала нижче мінімуму).
+        clearAppliedPromo();
+        setPromoError(true);
+        setPromoMessage(t('promoInvalid'));
+      }
+    }, 500);
+
+    return () => clearTimeout(timer);
+  }, [subtotal, appliedPromo, lineCount, qtySyncing, clearAppliedPromo, t]);
 
   // dir: +1 / -1 — напрямок; крок залежить від товару (кристали — по 10).
   const changeQty = (id: string, dir: 1 | -1) => {
@@ -323,9 +476,15 @@ export default function Cart() {
 
     // Бекенд ідентифікує позицію кошика за product_id, а не за id рядка замовлення.
     if (fromApi && productId) {
+      qtySyncCount.current += 1;
+      setQtySyncing(true);
       changeItemAmount(productId, nextQty)
         .then(() => reloadCart())
-        .catch(() => {});
+        .catch(() => {})
+        .finally(() => {
+          qtySyncCount.current = Math.max(0, qtySyncCount.current - 1);
+          if (qtySyncCount.current === 0) setQtySyncing(false);
+        });
     }
   };
 
@@ -357,28 +516,48 @@ export default function Cart() {
   }
 
   async function handleApplyPromo() {
-    const code = promoCode.trim();
-    if (!code || applyingPromo || lineCount === 0) return;
+    // Нормалізуємо регістр, щоб payload збігався з тим, що показує поле (uppercase).
+    const code = promoCode.trim().toUpperCase();
+    if (!code || applyingPromo || lineCount === 0 || qtySyncing) return;
     setApplyingPromo(true);
     setPromoMessage(null);
     setPromoError(false);
     try {
       const data = await applyPromo({ promo: code });
-      const { newTotal, discount } = extractPromoAmounts(data);
-      // Взаємодоповнюємо тотал і знижку, звідки б бекенд не повернув значення.
-      const resolvedTotal =
-        newTotal ?? (discount !== null ? Math.max(0, subtotal - discount) : null);
-      const resolvedDiscount =
-        discount ?? (newTotal !== null ? Math.max(0, subtotal - newTotal) : null);
+      const { baseTotal, newTotal, discount } = extractPromoAmounts(data);
+
+      // Зберігаємо ПРИРОДУ знижки (відсоток або фіксовану суму), а не готове число,
+      // щоб далі перераховувати під поточний Subtotal при зміні кількості.
+      const rate = promoRateFrom(baseTotal, newTotal, discount);
+
+      if (rate !== null && rate > 0) {
+        // Відсоткова знижка — не залежить від валюти/бази, масштабується з кількістю.
+        setPromoRate(rate);
+        setPromoFixed(null);
+      } else if (discount !== null) {
+        // Фіксована знижка (напр. −€5) — з кількістю не змінюється.
+        setPromoFixed(discount);
+        setPromoRate(null);
+      } else if (newTotal !== null && subtotal > 0 && newTotal <= subtotal) {
+        // Є лише сума до сплати — виводимо з неї відсоток, щоб теж масштабувалась.
+        setPromoRate((subtotal - newTotal) / subtotal);
+        setPromoFixed(null);
+      } else {
+        // Код прийнято, але знижку витягти не вдалось — 0 (панель лишиться коректною).
+        setPromoRate(0);
+        setPromoFixed(null);
+      }
+
       setAppliedPromo(code);
-      setPromoNewTotal(resolvedTotal);
-      setPromoDiscount(resolvedDiscount);
       setPromoError(false);
       setPromoMessage(t('promoApplied', { code }));
+      // Промо підтверджено саме для цього Subtotal — ре-валідація не смикатиме бекенд,
+      // поки кількість не зміниться.
+      validatedSubtotal.current = subtotal;
     } catch {
       setAppliedPromo(null);
-      setPromoNewTotal(null);
-      setPromoDiscount(null);
+      setPromoRate(null);
+      setPromoFixed(null);
       setPromoError(true);
       setPromoMessage(t('promoInvalid'));
     } finally {
@@ -407,6 +586,10 @@ export default function Cart() {
       });
       const url = extractPaymentUrl(data);
       if (url) {
+        // Зберігаємо лінк, щоб при поверненні (вихід/назад) запропонувати дооплату,
+        // і ставимо прапорець, щоб при поверненні зробити чистий reload.
+        savePendingPayment({ url, amount: effectiveTotal, currency: cartCurrency });
+        markPaymentRedirect();
         window.location.href = url;
         return;
       }
@@ -426,6 +609,19 @@ export default function Cart() {
       return;
     }
     void handlePay();
+  }
+
+  const pendingMinutes = pendingPayment
+    ? Math.max(1, Math.ceil(pendingPaymentRemainingMs(pendingPayment) / 60_000))
+    : 0;
+
+  function resumePendingPayment() {
+    if (pendingPayment) window.location.href = pendingPayment.url;
+  }
+
+  function dismissPendingPayment() {
+    clearPendingPayment();
+    setPendingPayment(null);
   }
 
   const summaryBlock = (
@@ -527,6 +723,55 @@ export default function Cart() {
           <h1 className={styles.title}>{t('title', { count: lineCount })}</h1>
           <p className={styles.subtitle}>{t('subtitle')}</p>
         </header>
+
+        {/* [ТИМЧАСОВА ДІАГНОСТИКА] прибрати після зʼясування причини */}
+        <div
+          id="pp-debug"
+          data-persisted="?"
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            zIndex: 99999,
+            background: '#111',
+            color: '#0f0',
+            font: '12px/1.4 monospace',
+            padding: '6px 10px',
+            whiteSpace: 'pre-wrap',
+            wordBreak: 'break-all',
+          }}
+        >
+          DBG[init]
+        </div>
+
+        {pendingPayment && (
+          <div className={styles.resumeBanner} role="status">
+            <span className={styles.resumeIcon} aria-hidden>
+              ⏳
+            </span>
+            <div className={styles.resumeCopy}>
+              <p className={styles.resumeTitle}>{t('resumeTitle')}</p>
+              <p className={styles.resumeText}>{t('resumeText', { minutes: pendingMinutes })}</p>
+            </div>
+            <div className={styles.resumeActions}>
+              <button
+                type="button"
+                className={styles.resumeContinue}
+                onClick={resumePendingPayment}
+              >
+                {t('resumeContinue')}
+              </button>
+              <button
+                type="button"
+                className={styles.resumeDismiss}
+                onClick={dismissPendingPayment}
+              >
+                {t('resumeDismiss')}
+              </button>
+            </div>
+          </div>
+        )}
 
         <div className={styles.body}>
           <div className={styles.mainPrimary}>
@@ -697,7 +942,9 @@ export default function Cart() {
                 placeholder={t('promoPlaceholder')}
                 value={promoCode}
                 onChange={e => {
-                  setPromoCode(e.target.value);
+                  // Одразу приводимо до верхнього регістру: реальне значення = те, що видно,
+                  // тож "welcome20" стає "WELCOME20" і застосується коректно.
+                  setPromoCode(e.target.value.toUpperCase());
                   if (appliedPromo || promoMessage) clearAppliedPromo();
                 }}
                 onKeyDown={e => {
@@ -706,13 +953,15 @@ export default function Cart() {
                     handleApplyPromo();
                   }
                 }}
-                disabled={applyingPromo || lineCount === 0}
+                disabled={applyingPromo || lineCount === 0 || qtySyncing}
               />
               <button
                 type="button"
                 className={styles.promoApply}
                 onClick={handleApplyPromo}
-                disabled={applyingPromo || lineCount === 0 || promoCode.trim().length === 0}
+                disabled={
+                  applyingPromo || lineCount === 0 || promoCode.trim().length === 0 || qtySyncing
+                }
               >
                 {applyingPromo ? t('promoApplying') : t('promoApply')}
               </button>

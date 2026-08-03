@@ -6,6 +6,7 @@ import { useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
 import { notifyPurchaseSuccess } from '@/lib/client/purchaseNotification';
+import { clearPendingPayment, clearPaymentReturnFlag } from '@/lib/client/pendingPayment';
 import styles from './PaymentResult.module.css';
 
 type Status = 'success' | 'failed';
@@ -25,15 +26,27 @@ export default function PaymentResult({ status }: { status: Status }) {
   const t = useTranslations('system');
   const params = useSearchParams();
   // Провайдер часто додає референс платежу в query — показуємо, якщо є.
+  // Тримаємо широкий перелік імен, бо різні шлюзи називають поле по-різному.
   const orderRef =
     params.get('order') ??
     params.get('order_id') ??
     params.get('id') ??
-    params.get('payment_id');
+    params.get('payment_id') ??
+    params.get('transaction_id') ??
+    params.get('transaction') ??
+    params.get('txn_id') ??
+    params.get('invoice') ??
+    params.get('bill') ??
+    params.get('reference') ??
+    params.get('ref');
 
   const hrefs = HREFS[status];
 
   useEffect(() => {
+    // Провайдер завершив потік (успіх або відмова) — прибираємо збережений лінк,
+    // щоб у кошику не висів банер «Продовжити оплату», і скидаємо прапорець reload.
+    clearPendingPayment();
+    clearPaymentReturnFlag();
     if (status === 'success') notifyPurchaseSuccess();
   }, [status]);
 

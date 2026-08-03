@@ -403,6 +403,87 @@
   border-color: rgba(189, 225, 83, 0.4);
 }
 
+/* ── Resume payment banner ── */
+
+.resumeBanner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(189, 225, 83, 0.35);
+  background: rgba(189, 225, 83, 0.08);
+  margin-bottom: 20px;
+}
+
+.resumeIcon {
+  flex-shrink: 0;
+  font-size: 22px;
+  line-height: 1;
+}
+
+.resumeCopy {
+  flex: 1;
+  min-width: 0;
+}
+
+.resumeTitle {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.resumeText {
+  margin-top: 2px;
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.resumeActions {
+  display: flex;
+  flex-shrink: 0;
+  gap: 8px;
+}
+
+.resumeContinue {
+  padding: 9px 16px;
+  border: none;
+  border-radius: 8px;
+  background: var(--color-primary);
+  color: var(--color-bg-effect);
+  font-family: var(--font-main);
+  font-size: 12px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.resumeDismiss {
+  padding: 9px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  background: transparent;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: var(--font-main);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .resumeBanner {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .resumeActions {
+    width: 100%;
+  }
+
+  .resumeContinue {
+    flex: 1;
+  }
+}
+
 /* ── Promo ── */
 
 .promoPanel {
@@ -454,6 +535,8 @@
   font-family: var(--font-main);
   font-size: 11px;
   font-weight: 400;
+  letter-spacing: 0.44px;
+  text-transform: uppercase;
 }
 
 .promoInput::placeholder {
