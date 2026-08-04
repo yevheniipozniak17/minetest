@@ -464,15 +464,10 @@ export default function Dashboard() {
 
               <div className={styles.playersRow}>
                 <span className={styles.playersLabel}>{t('serverStatus.difficulty')}</span>
-                <span
-                  className={`${styles.playersValue} ${
-                    styles[
-                      `difficulty${server.difficulty.charAt(0).toUpperCase()}${server.difficulty.slice(1)}`
-                    ]
-                  }`}
-                >
+                <div className={styles.playersValue} data-difficulty={server.difficulty}>
+                  <span className={styles.difficultyDot} aria-hidden="true" />
                   {t(`serverStatus.difficultyLevels.${server.difficulty}`)}
-                </span>
+                </div>
               </div>
 
               <div className={styles.serverFoot}>

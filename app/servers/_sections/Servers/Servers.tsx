@@ -68,6 +68,7 @@ function ServerCard({ server }: { server: DashboardServer }) {
         <div className={styles.playersRow}>
           <span className={styles.playersLabel}>{t('ui.difficultyLabel')}</span>
           <span className={styles.playersCount} data-difficulty={server.difficulty}>
+            <span className={styles.difficultyDot} aria-hidden="true" />
             {difficultyLabel}
           </span>
         </div>

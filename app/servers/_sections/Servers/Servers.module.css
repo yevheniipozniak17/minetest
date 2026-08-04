@@ -207,7 +207,7 @@
 }
 
 .playersCount[data-difficulty='easy'] {
-  --difficulty-color: #bde153;
+  --difficulty-color: var(--primary-color-primary-500, #bde153);
 }
 
 .playersCount[data-difficulty='normal'] {
@@ -216,6 +216,14 @@
 
 .playersCount[data-difficulty='hard'] {
   --difficulty-color: #ff6b6b;
+}
+
+.difficultyDot {
+  flex-shrink: 0;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--difficulty-color);
 }
 
 .actions {
@@ -454,7 +462,8 @@
   .playersRow {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 12px;
     width: 100%;
     padding-top: 4px;
     text-transform: uppercase;
@@ -468,9 +477,20 @@
   }
 
   .playersCount {
-    font-size: 13px;
-    font-weight: 800;
-    color: var(--difficulty-color, #fff);
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 25px;
+    padding: 0 12px;
+    border-radius: 109px;
+    background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
+    color: var(--New-group-color-bg-default-50, #fff);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: none;
+    line-height: 1;
+    white-space: nowrap;
   }
 
   .actions {
