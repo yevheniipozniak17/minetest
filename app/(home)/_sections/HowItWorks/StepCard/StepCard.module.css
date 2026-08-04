@@ -42,6 +42,21 @@
   background: var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
 }
 
+.artwork {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 8px;
+}
+
+.artworkImage {
+  width: 96px;
+  height: 96px;
+  object-fit: contain;
+}
+
 .title {
   margin-bottom: 8px;
   color: var(--New-group-color-bg-default-50, #fff);

@@ -28,7 +28,7 @@
   "consentText": "En achetant, j'accepte la livraison numérique immédiate et renonce à mon droit de rétractation.",
   "consentRequiredToast": "Veuillez accepter les conditions ci-dessus avant de payer.",
   "pciNote": "Nous traitons les données de carte conformément à PCI DSS",
-  "policiesConsentText": "J'ai lu et j'accepte la <privacy>Politique de confidentialité</privacy>, les <terms>Conditions d'utilisation</terms>, la <delivery>Politique de livraison</delivery> et la <billing>Politique de facturation, remboursements et rétrofacturations</billing>.",
+  "policiesConsentText": "J''ai lu et j''accepte la <privacy>Politique de confidentialité</privacy>, les <terms>Conditions d''utilisation</terms>, la <delivery>Politique de livraison</delivery> et la <billing>Politique de facturation, remboursements et rétrofacturations</billing>.",
   "importantNoticeAriaLabel": "Avis de livraison important",
   "importantTitle": "Important",
   "importantText1": "Vous devez être sur le serveur sélectionné <highlight>au moment de l'achat.</highlight>",

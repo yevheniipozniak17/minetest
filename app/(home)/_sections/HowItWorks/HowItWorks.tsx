@@ -7,11 +7,31 @@ import StepCard from './StepCard/StepCard';
 import styles from './HowItWorks.module.css';
 
 const STEPS = [
-  { key: 'chooseServer', icon: '/icons/how-it-works/server.svg' },
-  { key: 'selectProduct', icon: '/icons/how-it-works/cart.svg' },
-  { key: 'securePayment', icon: '/icons/how-it-works/shield.svg' },
-  { key: 'receiveInstantly', icon: '/icons/how-it-works/chest.svg' },
-  { key: 'enjoyGame', icon: '/icons/how-it-works/sword.svg' },
+  {
+    key: 'chooseServer',
+    icon: '/home/images/how-it-works-server.webp',
+    isArtwork: true,
+  },
+  {
+    key: 'selectProduct',
+    icon: '/home/images/how-it-works-cart.webp',
+    isArtwork: true,
+  },
+  {
+    key: 'securePayment',
+    icon: '/home/images/how-it-works-shield.webp',
+    isArtwork: true,
+  },
+  {
+    key: 'receiveInstantly',
+    icon: '/home/images/how-it-works-chest.webp',
+    isArtwork: true,
+  },
+  {
+    key: 'enjoyGame',
+    icon: '/home/images/how-it-works-sword.webp',
+    isArtwork: true,
+  },
 ] as const;
 
 const PERKS = [
@@ -35,11 +55,12 @@ export default async function HowItWorks() {
           <p className={styles.description}>{t('howItWorks.description')}</p>
 
           <ol className={styles.steps}>
-            {STEPS.map(({ key, icon }, index) => (
+            {STEPS.map(({ key, icon, isArtwork }, index) => (
               <StepCard
                 key={key}
                 number={String(index + 1).padStart(2, '0')}
                 icon={icon}
+                isArtwork={isArtwork}
                 title={t(`howItWorks.${key}.title` as const)}
                 text={t(`howItWorks.${key}.text` as const)}
               />
