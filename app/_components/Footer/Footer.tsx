@@ -76,9 +76,18 @@ export function Footer() {
               />
             </Link>
 
-            <p className={styles.description}>
-              {t('footer.description')}
-            </p>
+            <picture>
+              <source srcSet="/footer/images/legal-address.webp" type="image/webp" />
+              <img
+                src="/footer/images/legal-address.png"
+                alt={t('footer.legalAddressAlt')}
+                width={348}
+                height={88}
+                className={styles.address}
+                loading="lazy"
+                decoding="async"
+              />
+            </picture>
 
             <div className={styles.socials}>
               {SOCIAL_LINKS.map(link => (
