@@ -37,7 +37,6 @@ const STEPS = [
 const PERKS = [
   { key: 'instantDelivery', icon: '/icons/how-it-works/bolt.svg' },
   { key: 'securePayments', icon: '/icons/how-it-works/shield.svg' },
-  { key: 'support', icon: '/icons/how-it-works/support.svg' },
 ] as const;
 
 export default async function HowItWorks() {

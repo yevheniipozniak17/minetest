@@ -623,17 +623,6 @@ export default function Cart() {
           {t('minimumOrderNotice')}
         </p>
       )}
-      <button
-        type="button"
-        className={styles.payBtn}
-        onClick={attemptPay}
-        disabled={
-          paying || lineCount === 0 || belowMinimum || !purchaseAgreed || !policiesAgreed
-        }
-      >
-        <span>{paying ? t('payBtnProcessing') : t('payBtn')}</span>
-        <span aria-hidden>→</span>
-      </button>
       <div
         ref={consentsRef}
         className={`${styles.consentGroup} ${highlightConsents ? styles.consentGroupHighlight : ''}`}
@@ -684,6 +673,17 @@ export default function Cart() {
           </span>
         </label>
       </div>
+      <button
+        type="button"
+        className={styles.payBtn}
+        onClick={attemptPay}
+        disabled={
+          paying || lineCount === 0 || belowMinimum || !purchaseAgreed || !policiesAgreed
+        }
+      >
+        <span>{paying ? t('payBtnProcessing') : t('payBtn')}</span>
+        <span aria-hidden>→</span>
+      </button>
       {payMessage && <p className={styles.secureNote}>{payMessage}</p>}
     </section>
   );
