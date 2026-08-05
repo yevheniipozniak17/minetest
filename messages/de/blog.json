@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Blog",
-    "title": "Geschichten aus dem Minecraft-\u00d6kosystem",
+    "title": "Geschichten von unseren Minecraft-Servern",
     "description": "Guides, Server-Updates und Spielergeschichten aus unseren Welten.",
     "searchPlaceholder": "Artikel suchen\u2026",
     "searchButton": "Suchen",
@@ -229,8 +229,8 @@
       "title": "8. Was kommt als N\u00e4chstes",
       "paragraphMobile": "Wir planen bereits 2.7. Highlights: eine Kreativmodus-Sandbox, erweiterte Redstone-Komponenten und ein In-Game-Makro-Rekorder. Public-Test-Branch \u00f6ffnet Mitte Juni.",
       "paragraphDesktop": "Wir sind bereits tief in der Planung f\u00fcr 2.7. Die Highlights sind eine Kreativmodus-Bau-Sandbox, erweiterte Redstone-Komponenten und ein In-Game-Makro-Rekorder f\u00fcr sich wiederholende Builds. Der Public-Test-Branch \u00f6ffnet voraussichtlich Mitte Juni.",
-      "closingMobile": "Danke, dass du Teil des \u00d6kosystems bist. Bis bald auf den Inseln.",
-      "closingDesktop": "Danke, wie immer, f\u00fcr deine Teilnahme am \u00d6kosystem. Bis bald auf den Inseln.",
+      "closingMobile": "Danke, dass du Teil der Community bist. Bis bald auf den Inseln.",
+      "closingDesktop": "Danke, wie immer, f\u00fcr deine Teilnahme an der Community. Bis bald auf den Inseln.",
       "cta": "Alle Updates ansehen"
     },
     "relatedBadge": "Diese Woche beliebt",
@@ -249,7 +249,7 @@
       },
       {
         "title": "So baust du eine effiziente Eisenfarm in 2026",
-        "description": "Ein kompaktes, lag-freundliches Design, das ~600 Barren pro Stunde produziert und auf jedem Server in unserem \u00d6kosystem funktioniert.",
+        "description": "Ein kompaktes, lag-freundliches Design, das ~600 Barren pro Stunde produziert und auf allen drei unserer Server funktioniert.",
         "descriptionDesktop": "Ein kompaktes, lag-freundliches Eisenfarm-Design, das rund 600 Barren pro Stunde produziert und auf jedem Server funktioniert \u2014 keine Datapacks n\u00f6tig.",
         "genre": "Engineering",
         "time": 6,
@@ -447,8 +447,8 @@
     },
     "iron-farm": {
       "title": "So baust du eine effiziente Eisenfarm in 2026",
-      "description": "Ein kompaktes, lag-freundliches Design, das ~600 Barren pro Stunde produziert und auf jedem Server in unserem \u00d6kosystem funktioniert.",
-      "descriptionDesktop": "Ein kompaktes, lag-freundliches Eisenfarm-Design, das rund 600 Barren pro Stunde produziert und auf jedem Server in unserem \u00d6kosystem funktioniert \u2014 keine Datapacks, kein Chunk-Busting, und vollst\u00e4ndig AFK-freundlich nach dem Bau.",
+      "description": "Ein kompaktes, lag-freundliches Design, das ~600 Barren pro Stunde produziert und auf allen drei unserer Server funktioniert.",
+      "descriptionDesktop": "Ein kompaktes, lag-freundliches Eisenfarm-Design, das rund 600 Barren pro Stunde produziert und auf allen drei unserer Server funktioniert \u2014 keine Datapacks, kein Chunk-Busting, und vollst\u00e4ndig AFK-freundlich nach dem Bau.",
       "breadcrumbLabel": "Eisenfarm-Guide",
       "heroTags": ["Engineering", "Farmen"],
       "sidebarTags": ["Engineering", "Eisen", "Farmen", "Redstone"],
@@ -785,8 +785,8 @@
       "heroTags": ["Community", "Spotlight"],
       "sidebarTags": ["Community", "Spotlight", "Builds", "Turniere"],
       "lead": {
-        "mobile": "Jeden Monat stellen wir einen Spieler vor, der das \u00d6kosystem voranbringt \u2014 nicht immer der reichste oder h\u00f6chste PvP-Rang, sondern jemand, der den Server lebendig macht. April geh\u00f6rt RedstoneKing.",
-        "desktop": "Jeden Monat stellen wir einen Spieler vor, der das \u00d6kosystem voranbringt \u2014 nicht immer der reichste Account oder h\u00f6chste PvP-Rang, sondern jemand, der den Server durch Builds, Guides oder Community-Events lebendig macht. April geh\u00f6rt RedstoneKing, einem Survival-Hauptspieler, der seine Redstone-Obsession in etwas verwandelt hat, das jeder besuchen kann."
+        "mobile": "Jeden Monat stellen wir einen Spieler vor, der die Community voranbringt \u2014 nicht immer der reichste oder h\u00f6chste PvP-Rang, sondern jemand, der den Server lebendig macht. April geh\u00f6rt RedstoneKing.",
+        "desktop": "Jeden Monat stellen wir einen Spieler vor, der die Community voranbringt \u2014 nicht immer der reichste Account oder h\u00f6chste PvP-Rang, sondern jemand, der den Server durch Builds, Guides oder Community-Events lebendig macht. April geh\u00f6rt RedstoneKing, einem Survival-Hauptspieler, der seine Redstone-Obsession in etwas verwandelt hat, das jeder besuchen kann."
       },
       "sections": [
         {

@@ -372,8 +372,8 @@
   },
   "join": {
     "lead": {
-      "mobile": "Entrare in un server di Minecraft Ecosystem richiede circa due minuti una volta installato Minecraft. Questa guida descrive ogni passaggio.",
-      "desktop": "Entrare in un server di Minecraft Ecosystem richiede circa due minuti una volta installato Minecraft. Questa guida descrive ogni passaggio, dalla registrazione alla prima connessione \u2014 incluso cosa fare se qualcosa non funziona."
+      "mobile": "Entrare in uno dei nostri server Minecraft richiede circa due minuti una volta installato Minecraft. Questa guida descrive ogni passaggio.",
+      "desktop": "Entrare in uno dei nostri server Minecraft richiede circa due minuti una volta installato Minecraft. Questa guida descrive ogni passaggio, dalla registrazione alla prima connessione \u2014 incluso cosa fare se qualcosa non funziona."
     },
     "beforeTitle": "Prima di iniziare",
     "beforeLead": {
@@ -1009,7 +1009,7 @@
     "switch-servers": {
       "lead": {
         "mobile": "Un unico accesso copre tutti i server. Ogni mondo mantiene il proprio inventario e le proprie rivendicazioni.",
-        "desktop": "Un unico accesso al sito copre tutti i server dell'ecosistema. Ogni mondo mantiene il proprio inventario, le proprie rivendicazioni e il proprio saldo economico."
+        "desktop": "Un unico accesso al sito copre tutti e tre i nostri server. Ogni mondo mantiene il proprio inventario, le proprie rivendicazioni e il proprio saldo economico."
       },
       "s1": {
         "title": "Come cambiare server",
@@ -1029,7 +1029,7 @@
         "bullets": [
           "I cosmetici del negozio si sincronizzano all'accesso.",
           "I ruoli Discord si aggiornano entro cinque minuti.",
-          "Lo stato del ban si applica a tutto l'ecosistema."
+          "Lo stato del ban si applica su tutti i server."
         ]
       },
       "s3": {
@@ -1488,8 +1488,8 @@
     },
     "server-rules": {
       "lead": {
-        "mobile": "Le regole mantengono l'ecosistema giocabile per costruttori, commercianti e giocatori PvP.",
-        "desktop": "Le regole mantengono l'ecosistema giocabile per costruttori, commercianti e giocatori PvP. L'ignoranza non \u00e8 una scusa \u2014 questo riepilogo copre gli elementi essenziali."
+        "mobile": "Le regole mantengono i nostri server giocabili per costruttori, commercianti e giocatori PvP.",
+        "desktop": "Le regole mantengono i nostri server giocabili per costruttori, commercianti e giocatori PvP. L'ignoranza non \u00e8 una scusa \u2014 questo riepilogo copre gli elementi essenziali."
       },
       "s1": {
         "title": "Regole principali",

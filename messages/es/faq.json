@@ -372,8 +372,8 @@
   },
   "join": {
     "lead": {
-      "mobile": "Unirse a un servidor de Minecraft Ecosystem tarda unos dos minutos una vez que tienes Minecraft instalado. Esta gu\u00eda explica cada paso.",
-      "desktop": "Unirse a un servidor de Minecraft Ecosystem tarda unos dos minutos una vez que tienes Minecraft instalado. Esta gu\u00eda explica cada paso, desde el registro hasta tu primera conexi\u00f3n \u2014 m\u00e1s qu\u00e9 hacer si algo no funciona."
+      "mobile": "Unirse a uno de nuestros servidores de Minecraft tarda unos dos minutos una vez que tienes Minecraft instalado. Esta gu\u00eda explica cada paso.",
+      "desktop": "Unirse a uno de nuestros servidores de Minecraft tarda unos dos minutos una vez que tienes Minecraft instalado. Esta gu\u00eda explica cada paso, desde el registro hasta tu primera conexi\u00f3n \u2014 m\u00e1s qu\u00e9 hacer si algo no funciona."
     },
     "beforeTitle": "Antes de empezar",
     "beforeLead": {
@@ -1009,7 +1009,7 @@
     "switch-servers": {
       "lead": {
         "mobile": "Un inicio de sesi\u00f3n cubre todos los servidores. Cada mundo tiene su propio inventario y reclamaciones.",
-        "desktop": "Un inicio de sesi\u00f3n en el sitio web cubre todos los servidores del ecosistema. Cada mundo tiene su propio inventario, reclamaciones y saldo de econom\u00eda."
+        "desktop": "Un inicio de sesi\u00f3n en el sitio web cubre nuestros tres servidores. Cada mundo tiene su propio inventario, reclamaciones y saldo de econom\u00eda."
       },
       "s1": {
         "title": "C\u00f3mo cambiar",
@@ -1029,7 +1029,7 @@
         "bullets": [
           "Los cosm\u00e9ticos de la tienda se sincronizan al iniciar sesi\u00f3n.",
           "Los roles de Discord se actualizan en cinco minutos.",
-          "El estado de baneo aplica en todo el ecosistema."
+          "El estado de baneo aplica en todos los servidores."
         ]
       },
       "s3": {
@@ -1488,8 +1488,8 @@
     },
     "server-rules": {
       "lead": {
-        "mobile": "Las reglas mantienen el ecosistema jugable para constructores, comerciantes y jugadores de PvP por igual.",
-        "desktop": "Las reglas mantienen el ecosistema jugable para constructores, comerciantes y jugadores de PvP por igual. La ignorancia no es una excusa \u2014 este resumen cubre lo esencial."
+        "mobile": "Las reglas mantienen nuestros servidores jugables para constructores, comerciantes y jugadores de PvP por igual.",
+        "desktop": "Las reglas mantienen nuestros servidores jugables para constructores, comerciantes y jugadores de PvP por igual. La ignorancia no es una excusa \u2014 este resumen cubre lo esencial."
       },
       "s1": {
         "title": "Reglas fundamentales",

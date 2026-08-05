@@ -2,7 +2,7 @@
   "about": {
     "hero": {
       "badge": "À propos du projet",
-      "title": "Bienvenue dans l'écosystème Minecraft\u00a0!",
+      "title": "Bienvenue dans notre projet Minecraft\u00a0!",
       "description": "Bien plus que Minecraft — un espace unique pour les joueurs, créé par des fans passionnés.",
       "startPlaying": "Commencer à jouer",
       "goToStore": "Aller à la boutique"
@@ -10,13 +10,13 @@
     "mission": {
       "badge": "Mission",
       "title": "Qui sommes-nous",
-      "description1": "Créé par des amis passionnés de Minecraft — devenu un écosystème complet porté par la communauté.",
-      "description2": "Ce projet est bien plus qu'un ensemble de serveurs — c'est une vraie communauté. Nous avons commencé comme un petit groupe d'amis passionnés de Minecraft et sommes devenus un grand écosystème. Notre objectif est d'offrir un hébergement de qualité, un TPS stable, des plugins uniques et — surtout — une atmosphère sûre et conviviale. Nous évoluons constamment et prenons en compte chaque retour."
+      "description1": "Créé par des amis passionnés de Minecraft — devenu trois serveurs portés par la communauté.",
+      "description2": "Ce projet est bien plus qu'un ensemble de serveurs — c'est une vraie communauté. Nous avons commencé comme un petit groupe d'amis passionnés de Minecraft et sommes devenus un projet avec trois serveurs et des milliers de joueurs. Notre objectif est d'offrir un hébergement de qualité, un TPS stable, des plugins uniques et — surtout — une atmosphère sûre et conviviale. Nous évoluons constamment et prenons en compte chaque retour."
     },
     "economy": {
       "badge": "Économie & Privilèges",
       "title": "Ton confort, ta personnalisation",
-      "description": "Nous avons construit un écosystème juste et transparent. Gagne la monnaie en jeu pendant que tu joues, ou soutiens le projet pour débloquer des privilèges uniques, des objets cosmétiques et des boosters qui te démarquent et rendent le gameplay encore plus agréable.",
+      "description": "Nous avons construit une économie en jeu juste et transparente. Gagne la monnaie en jeu pendant que tu joues, ou soutiens le projet pour débloquer des privilèges uniques, des objets cosmétiques et des boosters qui te démarquent et rendent le gameplay encore plus agréable.",
       "stat1Label": "Objets cosmétiques",
       "stat1Value": "100+",
       "stat2Label": "Niveaux de privilèges",
@@ -37,8 +37,8 @@
     },
     "activities": {
       "badge": "Mondes & communauté",
-      "title": "Deviens une légende de l'écosystème",
-      "description": "Notre écosystème ne dort jamais. Trois mondes, trois façons de jouer — et une seule communauté derrière eux. Construis tranquillement, commerce jusqu'au sommet ou bats-toi pour chaque bloc : il y a ici une place qui correspond à ton style. Nous gardons les serveurs stables, les règles équitables et l'ambiance conviviale — le reste de l'histoire, c'est toi qui l'écris."
+      "title": "Deviens une légende de nos serveurs",
+      "description": "Nos serveurs ne dorment jamais. Trois mondes, trois façons de jouer — et une seule communauté derrière eux. Construis tranquillement, commerce jusqu'au sommet ou bats-toi pour chaque bloc : il y a ici une place qui correspond à ton style. Nous gardons les serveurs stables, les règles équitables et l'ambiance conviviale — le reste de l'histoire, c'est toi qui l'écris."
     }
   },
   "contacts": {

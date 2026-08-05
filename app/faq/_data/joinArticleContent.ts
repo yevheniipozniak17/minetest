@@ -10,9 +10,9 @@ export type FaqArticleListBlock = {
 
 export const JOIN_LEAD: FaqArticleContentBlock = {
   mobile:
-    'Joining a Minecraft Ecosystem server takes about two minutes once you have Minecraft installed. This guide walks through every step.',
+    'Joining one of our Minecraft servers takes about two minutes once you have Minecraft installed. This guide walks through every step.',
   desktop:
-    'Joining a Minecraft Ecosystem server takes about two minutes once you have Minecraft installed. This guide walks through every step, from sign-up to your first connection — plus what to do if something does not work.',
+    'Joining one of our Minecraft servers takes about two minutes once you have Minecraft installed. This guide walks through every step, from sign-up to your first connection — plus what to do if something does not work.',
 };
 
 export const JOIN_BEFORE: {

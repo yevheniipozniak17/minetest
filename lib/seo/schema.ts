@@ -39,7 +39,7 @@ export function websiteSchema(): Record<string, unknown> {
   };
 }
 
-/** VideoGame node describing the Minecraft ecosystem as a whole. */
+/** VideoGame node describing the Minecraft project as a whole. */
 export function videoGameSchema(): Record<string, unknown> {
   return {
     '@context': 'https://schema.org',
@@ -48,7 +48,7 @@ export function videoGameSchema(): Record<string, unknown> {
     url: SITE_URL,
     image: absoluteUrl('/og/og-default.png'),
     description:
-      'A modern Minecraft ecosystem with three servers — LuckySurvival, MineWars, and CalmSky — featuring a fair economy, rankings, and tournaments.',
+      'A modern Minecraft project with three servers — LuckySurvival, MineWars, and CalmSky — featuring a fair economy, rankings, and tournaments.',
     publisher: { '@id': ORG_ID },
     gamePlatform: ['PC', 'Java Edition', 'Bedrock Edition'],
     applicationCategory: 'Game',

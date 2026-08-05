@@ -372,8 +372,8 @@
   },
   "join": {
     "lead": {
-      "mobile": "Einem Minecraft-Ecosystem-Server beizutreten dauert etwa zwei Minuten, sobald Minecraft installiert ist. Diese Anleitung erkl\u00e4rt jeden Schritt.",
-      "desktop": "Einem Minecraft-Ecosystem-Server beizutreten dauert etwa zwei Minuten, sobald Minecraft installiert ist. Diese Anleitung erkl\u00e4rt jeden Schritt \u2014 von der Registrierung bis zur ersten Verbindung, plus was zu tun ist, wenn etwas nicht funktioniert."
+      "mobile": "Einem unserer Minecraft-Server beizutreten dauert etwa zwei Minuten, sobald Minecraft installiert ist. Diese Anleitung erkl\u00e4rt jeden Schritt.",
+      "desktop": "Einem unserer Minecraft-Server beizutreten dauert etwa zwei Minuten, sobald Minecraft installiert ist. Diese Anleitung erkl\u00e4rt jeden Schritt \u2014 von der Registrierung bis zur ersten Verbindung, plus was zu tun ist, wenn etwas nicht funktioniert."
     },
     "beforeTitle": "Bevor du beginnst",
     "beforeLead": {
@@ -1009,7 +1009,7 @@
     "switch-servers": {
       "lead": {
         "mobile": "Ein Login deckt jeden Server ab. Jede Welt beh\u00e4lt ihr eigenes Inventar und ihre Claims.",
-        "desktop": "Ein Website-Login deckt jeden Server im \u00d6kosystem ab. Jede Welt beh\u00e4lt ihr eigenes Inventar, Claims und Wirtschaftsguthaben."
+        "desktop": "Ein Website-Login deckt alle drei unserer Server ab. Jede Welt beh\u00e4lt ihr eigenes Inventar, Claims und Wirtschaftsguthaben."
       },
       "s1": {
         "title": "Wie man wechselt",
@@ -1029,7 +1029,7 @@
         "bullets": [
           "Shop-Kosmetika synchronisieren sich bei der Anmeldung.",
           "Discord-Rollen aktualisieren sich innerhalb von f\u00fcnf Minuten.",
-          "Bannstatus gilt \u00f6kosystemweit."
+          "Bannstatus gilt auf allen Servern."
         ]
       },
       "s3": {
@@ -1488,8 +1488,8 @@
     },
     "server-rules": {
       "lead": {
-        "mobile": "Regeln halten das \u00d6kosystem f\u00fcr Baumeister, H\u00e4ndler und PvP-Spieler gleicherma\u00dfen spielbar.",
-        "desktop": "Regeln halten das \u00d6kosystem f\u00fcr Baumeister, H\u00e4ndler und PvP-Spieler gleicherma\u00dfen spielbar. Unwissenheit ist keine Entschuldigung \u2014 diese Zusammenfassung deckt das Wesentliche ab."
+        "mobile": "Regeln halten unsere Server f\u00fcr Baumeister, H\u00e4ndler und PvP-Spieler gleicherma\u00dfen spielbar.",
+        "desktop": "Regeln halten unsere Server f\u00fcr Baumeister, H\u00e4ndler und PvP-Spieler gleicherma\u00dfen spielbar. Unwissenheit ist keine Entschuldigung \u2014 diese Zusammenfassung deckt das Wesentliche ab."
       },
       "s1": {
         "title": "Kernregeln",

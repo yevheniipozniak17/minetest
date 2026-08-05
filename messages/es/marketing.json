@@ -2,7 +2,7 @@
   "about": {
     "hero": {
       "badge": "Sobre el proyecto",
-      "title": "¡Bienvenido al ecosistema de Minecraft!",
+      "title": "¡Bienvenido a nuestro proyecto de Minecraft!",
       "description": "Más que Minecraft — un espacio único para jugadores, creado por fans que viven y respiran el juego.",
       "startPlaying": "Empezar a jugar",
       "goToStore": "Ir a la tienda"
@@ -10,13 +10,13 @@
     "mission": {
       "badge": "Misión",
       "title": "Quiénes somos",
-      "description1": "Construido por amigos apasionados de Minecraft — convertido en un ecosistema completo impulsado por la comunidad.",
-      "description2": "Este proyecto es mucho más que un conjunto de servidores — es una comunidad real. Empezamos como un pequeño grupo de amigos amantes de Minecraft y crecimos hasta convertirnos en un gran ecosistema. Nuestro objetivo es ofrecer hosting de calidad, TPS estable, plugins únicos y — lo más importante — un ambiente seguro y amigable. Seguimos evolucionando y escuchamos cada comentario."
+      "description1": "Construido por amigos apasionados de Minecraft — convertido en tres servidores impulsados por la comunidad.",
+      "description2": "Este proyecto es mucho más que un conjunto de servidores — es una comunidad real. Empezamos como un pequeño grupo de amigos amantes de Minecraft y crecimos hasta convertirnos en un proyecto con tres servidores y miles de jugadores. Nuestro objetivo es ofrecer hosting de calidad, TPS estable, plugins únicos y — lo más importante — un ambiente seguro y amigable. Seguimos evolucionando y escuchamos cada comentario."
     },
     "economy": {
       "badge": "Economía y privilegios",
       "title": "Tu comodidad, tu personalización",
-      "description": "Construimos un ecosistema justo y transparente. Gana la moneda del juego mientras juegas, o apoya el proyecto para desbloquear privilegios únicos, objetos cosméticos y potenciadores que te destacan y hacen la experiencia aún más divertida.",
+      "description": "Construimos una economía en el juego justa y transparente. Gana la moneda del juego mientras juegas, o apoya el proyecto para desbloquear privilegios únicos, objetos cosméticos y potenciadores que te destacan y hacen la experiencia aún más divertida.",
       "stat1Label": "Objetos cosméticos",
       "stat1Value": "100+",
       "stat2Label": "Niveles de privilegios",
@@ -37,8 +37,8 @@
     },
     "activities": {
       "badge": "Mundos y comunidad",
-      "title": "Conviértete en una leyenda del ecosistema",
-      "description": "Nuestro ecosistema nunca duerme. Tres mundos, tres formas de jugar — y una sola comunidad detrás de todos ellos. Construye con calma, comercia hasta la cima o lucha por cada bloque: aquí hay un lugar que encaja con tu estilo. Nosotros mantenemos los servidores estables, las reglas justas y el ambiente amigable — el resto de la historia la escribes tú."
+      "title": "Conviértete en una leyenda de nuestros servidores",
+      "description": "Nuestros servidores nunca duermen. Tres mundos, tres formas de jugar — y una sola comunidad detrás de todos ellos. Construye con calma, comercia hasta la cima o lucha por cada bloque: aquí hay un lugar que encaja con tu estilo. Nosotros mantenemos los servidores estables, las reglas justas y el ambiente amigable — el resto de la historia la escribes tú."
     }
   },
   "contacts": {

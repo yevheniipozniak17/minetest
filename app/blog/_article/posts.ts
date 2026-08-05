@@ -210,9 +210,9 @@ export const BLOG_POSTS: BlogPostFull[] = [
     time: 6,
     title: 'How to build an efficient iron farm in 2026',
     description:
-      'A compact, lag-friendly design that produces ~600 ingots per hour and works on every server in our ecosystem.',
+      'A compact, lag-friendly design that produces ~600 ingots per hour and works on all three of our servers.',
     descriptionDesktop:
-      'A compact, lag-friendly iron farm design that produces around 600 ingots per hour and works on every server in our ecosystem — no datapacks required, no chunk-busting entity cramming, and fully AFK-friendly once you finish the build.',
+      'A compact, lag-friendly iron farm design that produces around 600 ingots per hour and works on all three of our servers — no datapacks required, no chunk-busting entity cramming, and fully AFK-friendly once you finish the build.',
     date: 'Apr 18, 2026',
     popularity: 1240,
     heroTags: ['Engineering', 'Farms'],
@@ -600,9 +600,9 @@ export const BLOG_POSTS: BlogPostFull[] = [
     breadcrumbLabel: 'Player spotlight',
     lead: {
       mobile:
-        'Every month we feature one player who pushes the ecosystem forward — not always the richest or highest PvP rank, but someone who makes the server feel alive. April belongs to RedstoneKing.',
+        'Every month we feature one player who pushes the community forward — not always the richest or highest PvP rank, but someone who makes the server feel alive. April belongs to RedstoneKing.',
       desktop:
-        'Every month we feature one player who pushes the ecosystem forward — not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. April belongs to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit.',
+        'Every month we feature one player who pushes the community forward — not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. April belongs to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit.',
     },
     sections: [
       {

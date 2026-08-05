@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Blog",
-    "title": "Historias del ecosistema Minecraft",
+    "title": "Historias de nuestros servidores Minecraft",
     "description": "Gu\u00edas, actualizaciones del servidor e historias de jugadores desde nuestros mundos.",
     "searchPlaceholder": "Buscar art\u00edculos\u2026",
     "searchButton": "Buscar",
@@ -229,8 +229,8 @@
       "title": "8. Qu\u00e9 viene despu\u00e9s",
       "paragraphMobile": "Ya estamos planificando la 2.7. Novedades principales: un sandbox en modo creativo, componentes redstone ampliados y una grabadora de macros en el juego. La rama de prueba p\u00fablica abre a mediados de junio.",
       "paragraphDesktop": "Ya estamos inmersos en la planificaci\u00f3n de la 2.7. Las novedades principales son un sandbox de construcci\u00f3n en modo creativo, componentes redstone ampliados y una grabadora de macros en el juego para construcciones repetitivas. Esperamos que la rama de prueba p\u00fablica abra hacia mediados de junio.",
-      "closingMobile": "Gracias por ser parte del ecosistema. Hasta pronto en las islas.",
-      "closingDesktop": "Gracias, como siempre, por ser parte del ecosistema. Hasta pronto en las islas.",
+      "closingMobile": "Gracias por ser parte de la comunidad. Hasta pronto en las islas.",
+      "closingDesktop": "Gracias, como siempre, por ser parte de la comunidad. Hasta pronto en las islas.",
       "cta": "Ver todas las actualizaciones"
     },
     "relatedBadge": "Popular esta semana",
@@ -249,7 +249,7 @@
       },
       {
         "title": "C\u00f3mo construir una granja de hierro eficiente en 2026",
-        "description": "Un dise\u00f1o compacto y sin lag que produce ~600 lingotes por hora y funciona en cada servidor del ecosistema.",
+        "description": "Un dise\u00f1o compacto y sin lag que produce ~600 lingotes por hora y funciona en nuestros tres servidores.",
         "descriptionDesktop": "Un dise\u00f1o de granja de hierro compacto y sin lag que produce alrededor de 600 lingotes por hora y funciona en cada servidor \u2014 sin datapacks necesarios.",
         "genre": "Engineering",
         "time": 6,
@@ -447,7 +447,7 @@
     },
     "iron-farm": {
       "title": "C\u00f3mo construir una granja de hierro eficiente en 2026",
-      "description": "Un dise\u00f1o compacto y sin lag que produce ~600 lingotes por hora y funciona en cada servidor del ecosistema.",
+      "description": "Un dise\u00f1o compacto y sin lag que produce ~600 lingotes por hora y funciona en nuestros tres servidores.",
       "descriptionDesktop": "Un dise\u00f1o de granja de hierro compacto y sin lag que produce alrededor de 600 lingotes por hora y funciona en cada servidor \u2014 sin datapacks, sin aglomeraci\u00f3n de entidades y totalmente AFK-friendly.",
       "breadcrumbLabel": "Gu\u00eda de granja de hierro",
       "heroTags": ["Ingenier\u00eda", "Granjas"],
@@ -785,8 +785,8 @@
       "heroTags": ["Comunidad", "Spotlight"],
       "sidebarTags": ["Comunidad", "Spotlight", "Construcciones", "Torneos"],
       "lead": {
-        "mobile": "Cada mes destacamos a un jugador que impulsa el ecosistema hacia adelante \u2014 no siempre el m\u00e1s rico o el mayor rango PvP, sino alguien que hace que el servidor se sienta vivo. Abril pertenece a RedstoneKing.",
-        "desktop": "Cada mes destacamos a un jugador que impulsa el ecosistema hacia adelante \u2014 no siempre la cuenta m\u00e1s rica o el mayor rango PvP, sino alguien que hace que el servidor se sienta vivo a trav\u00e9s de construcciones, gu\u00edas o eventos comunitarios. Abril pertenece a RedstoneKing, un main de supervivencia que convirti\u00f3 su obsesi\u00f3n redstone en algo que todos pueden visitar."
+        "mobile": "Cada mes destacamos a un jugador que impulsa la comunidad hacia adelante \u2014 no siempre el m\u00e1s rico o el mayor rango PvP, sino alguien que hace que el servidor se sienta vivo. Abril pertenece a RedstoneKing.",
+        "desktop": "Cada mes destacamos a un jugador que impulsa la comunidad hacia adelante \u2014 no siempre la cuenta m\u00e1s rica o el mayor rango PvP, sino alguien que hace que el servidor se sienta vivo a trav\u00e9s de construcciones, gu\u00edas o eventos comunitarios. Abril pertenece a RedstoneKing, un main de supervivencia que convirti\u00f3 su obsesi\u00f3n redstone en algo que todos pueden visitar."
       },
       "sections": [
         {

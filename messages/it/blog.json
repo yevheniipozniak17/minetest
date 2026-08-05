@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Blog",
-    "title": "Storie dall\u2019ecosistema Minecraft",
+    "title": "Storie dai nostri server Minecraft",
     "description": "Guide, aggiornamenti server e storie dei giocatori dai nostri mondi.",
     "searchPlaceholder": "Cerca articoli\u2026",
     "searchButton": "Cerca",
@@ -229,8 +229,8 @@
       "title": "8. Cosa viene dopo",
       "paragraphMobile": "Stiamo gi\u00e0 pianificando la 2.7. Novit\u00e0 principali: una sandbox in modalit\u00e0 creativa, componenti redstone espansi e un registratore di macro in gioco. Il ramo di test pubblico apre a met\u00e0 giugno.",
       "paragraphDesktop": "Siamo gi\u00e0 nel vivo della pianificazione della 2.7. Le novit\u00e0 principali sono una sandbox per la costruzione in modalit\u00e0 creativa, componenti redstone espansi e un registratore di macro in gioco per le costruzioni ripetitive. Il ramo di test pubblico dovrebbe aprire intorno a met\u00e0 giugno.",
-      "closingMobile": "Grazie per far parte dell\u2019ecosistema. A presto sulle isole.",
-      "closingDesktop": "Grazie, come sempre, per far parte dell\u2019ecosistema. A presto sulle isole.",
+      "closingMobile": "Grazie per far parte della community. A presto sulle isole.",
+      "closingDesktop": "Grazie, come sempre, per far parte della community. A presto sulle isole.",
       "cta": "Vedi tutti gli aggiornamenti"
     },
     "relatedBadge": "Popolare questa settimana",
@@ -249,7 +249,7 @@
       },
       {
         "title": "Come costruire una fattoria di ferro efficiente nel 2026",
-        "description": "Un design compatto e senza lag che produce ~600 lingotti all\u2019ora e funziona su ogni server del nostro ecosistema.",
+        "description": "Un design compatto e senza lag che produce ~600 lingotti all\u2019ora e funziona su tutti e tre i nostri server.",
         "descriptionDesktop": "Un design di fattoria di ferro compatto e senza lag che produce circa 600 lingotti all\u2019ora e funziona su ogni server \u2014 senza datapack necessari.",
         "genre": "Engineering",
         "time": 6,
@@ -447,8 +447,8 @@
     },
     "iron-farm": {
       "title": "Come costruire una fattoria di ferro efficiente nel 2026",
-      "description": "Un design compatto e senza lag che produce ~600 lingotti all\u2019ora e funziona su ogni server del nostro ecosistema.",
-      "descriptionDesktop": "Un design di fattoria di ferro compatto e senza lag che produce circa 600 lingotti all\u2019ora e funziona su ogni server del nostro ecosistema \u2014 nessun datapack richiesto, nessun cramming di entit\u00e0 e totalmente AFK-friendly.",
+      "description": "Un design compatto e senza lag che produce ~600 lingotti all\u2019ora e funziona su tutti e tre i nostri server.",
+      "descriptionDesktop": "Un design di fattoria di ferro compatto e senza lag che produce circa 600 lingotti all\u2019ora e funziona su tutti e tre i nostri server \u2014 nessun datapack richiesto, nessun cramming di entit\u00e0 e totalmente AFK-friendly.",
       "breadcrumbLabel": "Guida alla fattoria di ferro",
       "heroTags": ["Ingegneria", "Fattorie"],
       "sidebarTags": ["Ingegneria", "Ferro", "Fattorie", "Redstone"],
@@ -785,8 +785,8 @@
       "heroTags": ["Community", "Spotlight"],
       "sidebarTags": ["Community", "Spotlight", "Costruzioni", "Tornei"],
       "lead": {
-        "mobile": "Ogni mese mettiamo in evidenza un giocatore che fa avanzare l\u2019ecosistema \u2014 non sempre il pi\u00f9 ricco o il PvP rank pi\u00f9 alto, ma qualcuno che d\u00e0 vita al server. Aprile appartiene a RedstoneKing.",
-        "desktop": "Ogni mese mettiamo in evidenza un giocatore che fa avanzare l\u2019ecosistema \u2014 non sempre l\u2019account pi\u00f9 ricco o il PvP rank pi\u00f9 alto, ma qualcuno che d\u00e0 vita al server attraverso costruzioni, guide o eventi della community. Aprile appartiene a RedstoneKing, un main di sopravvivenza che ha trasformato la sua ossessione per il redstone in qualcosa che tutti possono visitare."
+        "mobile": "Ogni mese mettiamo in evidenza un giocatore che fa avanzare la community \u2014 non sempre il pi\u00f9 ricco o il PvP rank pi\u00f9 alto, ma qualcuno che d\u00e0 vita al server. Aprile appartiene a RedstoneKing.",
+        "desktop": "Ogni mese mettiamo in evidenza un giocatore che fa avanzare la community \u2014 non sempre l\u2019account pi\u00f9 ricco o il PvP rank pi\u00f9 alto, ma qualcuno che d\u00e0 vita al server attraverso costruzioni, guide o eventi della community. Aprile appartiene a RedstoneKing, un main di sopravvivenza che ha trasformato la sua ossessione per il redstone in qualcosa che tutti possono visitare."
       },
       "sections": [
         {

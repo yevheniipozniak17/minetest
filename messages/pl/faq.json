@@ -372,8 +372,8 @@
   },
   "join": {
     "lead": {
-      "mobile": "Do\u0142\u0105czenie do serwera Minecraft Ecosystem zajmuje oko\u0142o dw\u00f3ch minut, gdy masz ju\u017c zainstalowanego Minecrafta. Ten poradnik przeprowadzi Ci\u0119 przez ka\u017cdy krok.",
-      "desktop": "Do\u0142\u0105czenie do serwera Minecraft Ecosystem zajmuje oko\u0142o dw\u00f3ch minut, gdy masz ju\u017c zainstalowanego Minecrafta. Ten poradnik przeprowadzi Ci\u0119 przez ka\u017cdy krok \u2014 od rejestracji do pierwszego po\u0142\u0105czenia \u2014 wraz ze wskaz\u00f3wkami na wypadek problem\u00f3w."
+      "mobile": "Do\u0142\u0105czenie do jednego z naszych serwer\u00f3w Minecraft zajmuje oko\u0142o dw\u00f3ch minut, gdy masz ju\u017c zainstalowanego Minecrafta. Ten poradnik przeprowadzi Ci\u0119 przez ka\u017cdy krok.",
+      "desktop": "Do\u0142\u0105czenie do jednego z naszych serwer\u00f3w Minecraft zajmuje oko\u0142o dw\u00f3ch minut, gdy masz ju\u017c zainstalowanego Minecrafta. Ten poradnik przeprowadzi Ci\u0119 przez ka\u017cdy krok \u2014 od rejestracji do pierwszego po\u0142\u0105czenia \u2014 wraz ze wskaz\u00f3wkami na wypadek problem\u00f3w."
     },
     "beforeTitle": "Zanim zaczniesz",
     "beforeLead": {
@@ -1009,7 +1009,7 @@
     "switch-servers": {
       "lead": {
         "mobile": "Jedno logowanie obejmuje ka\u017cdy serwer. Ka\u017cdy \u015bwiat ma w\u0142asny ekwipunek i dzia\u0142ki.",
-        "desktop": "Jedno logowanie na stronie obejmuje ka\u017cdy serwer w ekosystemie. Ka\u017cdy \u015bwiat ma w\u0142asny ekwipunek, dzia\u0142ki i saldo ekonomii."
+        "desktop": "Jedno logowanie na stronie obejmuje wszystkie trzy nasze serwery. Ka\u017cdy \u015bwiat ma w\u0142asny ekwipunek, dzia\u0142ki i saldo ekonomii."
       },
       "s1": {
         "title": "Jak si\u0119 prze\u0142\u0105czy\u0107",
@@ -1029,7 +1029,7 @@
         "bullets": [
           "Kosmetyki sklepu synchronizuj\u0105 si\u0119 przy logowaniu.",
           "Role na Discordzie s\u0105 aktualizowane w ci\u0105gu pi\u0119ciu minut.",
-          "Status bana obowi\u0105zuje w ca\u0142ym ekosystemie."
+          "Status bana obowi\u0105zuje na wszystkich serwerach."
         ]
       },
       "s3": {
@@ -1488,8 +1488,8 @@
     },
     "server-rules": {
       "lead": {
-        "mobile": "Zasady utrzymuj\u0105 ekosystem przyjaznym dla budowniczych, handlarzy i graczy PvP.",
-        "desktop": "Zasady utrzymuj\u0105 ekosystem przyjaznym dla budowniczych, handlarzy i graczy PvP. Nieznajomo\u015b\u0107 zasad nie jest wym\u00f3wk\u0105 \u2014 to podsumowanie obejmuje najwa\u017cniejsze punkty."
+        "mobile": "Zasady utrzymuj\u0105 nasze serwery przyjaznymi dla budowniczych, handlarzy i graczy PvP.",
+        "desktop": "Zasady utrzymuj\u0105 nasze serwery przyjaznymi dla budowniczych, handlarzy i graczy PvP. Nieznajomo\u015b\u0107 zasad nie jest wym\u00f3wk\u0105 \u2014 to podsumowanie obejmuje najwa\u017cniejsze punkty."
       },
       "s1": {
         "title": "Podstawowe zasady",

@@ -897,7 +897,7 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
     lead: {
       mobile: 'One login covers every server. Each world keeps its own inventory and claims.',
       desktop:
-        'One website login covers every server in the ecosystem. Each world keeps its own inventory, claims, and economy balance.',
+        'One website login covers all three of our servers. Each world keeps its own inventory, claims, and economy balance.',
     },
     sections: [
       {
@@ -924,7 +924,7 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
         bullets: [
           'Shop cosmetics sync on login.',
           'Discord roles update within five minutes.',
-          'Ban status applies ecosystem-wide.',
+          'Ban status applies across all servers.',
         ],
       },
       {
@@ -1646,9 +1646,9 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
   {
     slug: 'server-rules',
     lead: {
-      mobile: 'Rules keep the ecosystem playable for builders, traders, and PvP players alike.',
+      mobile: 'Rules keep our servers playable for builders, traders, and PvP players alike.',
       desktop:
-        'Rules keep the ecosystem playable for builders, traders, and PvP players alike. Ignorance is not an excuse — this summary covers the essentials.',
+        'Rules keep our servers playable for builders, traders, and PvP players alike. Ignorance is not an excuse — this summary covers the essentials.',
     },
     sections: [
       {

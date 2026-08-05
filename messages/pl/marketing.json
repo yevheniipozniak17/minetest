@@ -2,7 +2,7 @@
   "about": {
     "hero": {
       "badge": "O projekcie",
-      "title": "Witaj w ekosystemie Minecraft!",
+      "title": "Witaj w naszym projekcie Minecraft!",
       "description": "Coś więcej niż Minecraft — wyjątkowa przestrzeń dla graczy, stworzona przez fanów żyjących grą.",
       "startPlaying": "Zacznij grać",
       "goToStore": "Przejdź do sklepu"
@@ -10,13 +10,13 @@
     "mission": {
       "badge": "Misja",
       "title": "Kim jesteśmy",
-      "description1": "Zbudowany przez przyjaciół zakochanych w Minecraft — wyrósł w pełnoprawny ekosystem napędzany społecznością.",
-      "description2": "Ten projekt to coś więcej niż zestaw serwerów — to prawdziwa społeczność. Zaczęliśmy jako mała grupa przyjaciół kochających Minecraft i wyrosliśmy do dużego ekosystemu. Naszym celem jest zapewnienie wysokiej jakości hostingu, stabilnego TPS, unikalnych pluginów i — co najważniejsze — bezpiecznej i przyjaznej atmosfery. Stale się rozwijamy i wsłuchujemy w każdą opinię."
+      "description1": "Zbudowany przez przyjaciół zakochanych w Minecraft — wyrósł w trzy serwery napędzane społecznością.",
+      "description2": "Ten projekt to coś więcej niż zestaw serwerów — to prawdziwa społeczność. Zaczęliśmy jako mała grupa przyjaciół kochających Minecraft i wyrosliśmy do projektu z trzema serwerami i tysiącami graczy. Naszym celem jest zapewnienie wysokiej jakości hostingu, stabilnego TPS, unikalnych pluginów i — co najważniejsze — bezpiecznej i przyjaznej atmosfery. Stale się rozwijamy i wsłuchujemy w każdą opinię."
     },
     "economy": {
       "badge": "Ekonomia i przywileje",
       "title": "Twój komfort, twoja personalizacja",
-      "description": "Zbudowaliśmy uczciwy i przejrzysty ekosystem. Zarabiaj walutę w grze podczas rozgrywki lub wesprzyj projekt, aby odblokować unikalne przywileje, kosmetyczne przedmioty i boostery, które wyróżnią cię i uczynią grę jeszcze przyjemniejszą.",
+      "description": "Zbudowaliśmy uczciwą i przejrzystą ekonomię w grze. Zarabiaj walutę w grze podczas rozgrywki lub wesprzyj projekt, aby odblokować unikalne przywileje, kosmetyczne przedmioty i boostery, które wyróżnią cię i uczynią grę jeszcze przyjemniejszą.",
       "stat1Label": "Przedmioty kosmetyczne",
       "stat1Value": "100+",
       "stat2Label": "Poziomy przywilejów",
@@ -37,8 +37,8 @@
     },
     "activities": {
       "badge": "Światy i społeczność",
-      "title": "Zostań legendą ekosystemu",
-      "description": "Nasz ekosystem nigdy nie śpi. Trzy światy, trzy sposoby gry — i jedna społeczność, która za nimi stoi. Buduj w spokoju, handluj na szczyt albo walcz o każdy blok: znajdziesz tu miejsce dopasowane do swojego stylu. My dbamy o stabilne serwery, uczciwe zasady i przyjazną atmosferę — resztę historii piszesz ty."
+      "title": "Zostań legendą naszych serwerów",
+      "description": "Nasze serwery nigdy nie śpią. Trzy światy, trzy sposoby gry — i jedna społeczność, która za nimi stoi. Buduj w spokoju, handluj na szczyt albo walcz o każdy blok: znajdziesz tu miejsce dopasowane do swojego stylu. My dbamy o stabilne serwery, uczciwe zasady i przyjazną atmosferę — resztę historii piszesz ty."
     }
   },
   "contacts": {

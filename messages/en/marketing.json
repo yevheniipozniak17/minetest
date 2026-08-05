@@ -2,7 +2,7 @@
   "about": {
     "hero": {
       "badge": "About the project",
-      "title": "Welcome to the Minecraft ecosystem!",
+      "title": "Welcome to our Minecraft project!",
       "description": "More than just Minecraft — a unique space for players, built by fans who live and breathe the craft.",
       "startPlaying": "Start Playing",
       "goToStore": "Go to Store"
@@ -10,13 +10,13 @@
     "mission": {
       "badge": "Mission",
       "title": "Who we are",
-      "description1": "Built by friends in love with Minecraft — grown into a full-scale ecosystem powered by community.",
-      "description2": "This project is more than a set of servers — it is a full community. We started as a small group of friends in love with Minecraft and grew into a large ecosystem. Our goal is to give players quality hosting, stable TPS, unique custom plugins, and — most importantly — a safe and friendly atmosphere to play in. We keep evolving and we listen to every piece of feedback we receive."
+      "description1": "Built by friends in love with Minecraft — grown into three servers powered by community.",
+      "description2": "This project is more than a set of servers — it is a full community. We started as a small group of friends in love with Minecraft and grew into a project with three servers and thousands of players. Our goal is to give players quality hosting, stable TPS, unique custom plugins, and — most importantly — a safe and friendly atmosphere to play in. We keep evolving and we listen to every piece of feedback we receive."
     },
     "economy": {
       "badge": "Economy & Privileges",
       "title": "Your comfort, your customization",
-      "description": "We built a fair and transparent ecosystem. Earn the in-game currency while you play, or support the project to unlock unique privileges, custom cosmetic items, and boosters that make you stand out and make gameplay even more enjoyable.",
+      "description": "We built a fair and transparent in-game economy. Earn the in-game currency while you play, or support the project to unlock unique privileges, custom cosmetic items, and boosters that make you stand out and make gameplay even more enjoyable.",
       "stat1Label": "Cosmetic items",
       "stat1Value": "100+",
       "stat2Label": "Privilege tiers",
@@ -37,8 +37,8 @@
     },
     "activities": {
       "badge": "Worlds & Community",
-      "title": "Become a legend of the ecosystem",
-      "description": "Our ecosystem never sleeps. Three worlds, three ways to play — and one community behind them all. Build in peace, trade your way to the top, or fight for every block: there is a place here that fits how you like to play. We keep the servers stable, the rules fair, and the atmosphere friendly — the rest of the story is yours to write."
+      "title": "Become a legend of our servers",
+      "description": "Our servers never sleep. Three worlds, three ways to play — and one community behind them all. Build in peace, trade your way to the top, or fight for every block: there is a place here that fits how you like to play. We keep the servers stable, the rules fair, and the atmosphere friendly — the rest of the story is yours to write."
     }
   },
   "contacts": {

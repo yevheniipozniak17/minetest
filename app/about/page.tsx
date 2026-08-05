@@ -13,7 +13,7 @@ import Hero from './_sections/Hero/Hero';
 export const metadata: Metadata = buildMetadata({
   title: 'About',
   description:
-    'Learn about our Minecraft ecosystem — three servers, a fair no pay-to-win economy, rankings, tournaments, and an active community.',
+    'Learn about our Minecraft project — three servers, a fair no pay-to-win economy, rankings, tournaments, and an active community.',
   path: '/about',
 });
 

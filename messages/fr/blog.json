@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Blog",
-    "title": "Histoires de l\u2019\u00e9cosyst\u00e8me Minecraft",
+    "title": "Histoires de nos serveurs Minecraft",
     "description": "Guides, mises \u00e0 jour serveur et histoires de joueurs depuis nos mondes.",
     "searchPlaceholder": "Rechercher des articles\u2026",
     "searchButton": "Rechercher",
@@ -229,8 +229,8 @@
       "title": "8. La suite",
       "paragraphMobile": "Nous planifions d\u00e9j\u00e0 la 2.7. Au programme\u00a0: un bac \u00e0 sable en mode cr\u00e9atif, des composants redstone \u00e9tendus et un enregistreur de macros en jeu. La branche de test publique ouvre mi-juin.",
       "paragraphDesktop": "Nous sommes d\u00e9j\u00e0 avanc\u00e9s dans la planification de la 2.7. Les grandes nouveaut\u00e9s sont un bac \u00e0 sable de construction en mode cr\u00e9atif, des composants redstone \u00e9tendus et un enregistreur de macros en jeu pour les constructions r\u00e9p\u00e9titives. La branche de test publique devrait ouvrir vers mi-juin.",
-      "closingMobile": "Merci de faire partie de l\u2019\u00e9cosyst\u00e8me. \u00c0 bient\u00f4t sur les \u00eeles.",
-      "closingDesktop": "Merci, comme toujours, de faire partie de l\u2019\u00e9cosyst\u00e8me. \u00c0 bient\u00f4t sur les \u00eeles.",
+      "closingMobile": "Merci de faire partie de la communaut\u00e9. \u00c0 bient\u00f4t sur les \u00eeles.",
+      "closingDesktop": "Merci, comme toujours, de faire partie de la communaut\u00e9. \u00c0 bient\u00f4t sur les \u00eeles.",
       "cta": "Voir toutes les mises \u00e0 jour"
     },
     "relatedBadge": "Populaire cette semaine",
@@ -249,7 +249,7 @@
       },
       {
         "title": "Comment construire une ferme \u00e0 fer efficace en 2026",
-        "description": "Un design compact et sans lag qui produit ~600 lingots par heure et fonctionne sur chaque serveur de notre \u00e9cosyst\u00e8me.",
+        "description": "Un design compact et sans lag qui produit ~600 lingots par heure et fonctionne sur nos trois serveurs.",
         "descriptionDesktop": "Un design de ferme \u00e0 fer compact et sans lag qui produit environ 600 lingots par heure et fonctionne sur chaque serveur \u2014 sans datapack requis.",
         "genre": "Engineering",
         "time": 6,
@@ -447,8 +447,8 @@
     },
     "iron-farm": {
       "title": "Comment construire une ferme \u00e0 fer efficace en 2026",
-      "description": "Un design compact et sans lag qui produit ~600 lingots par heure et fonctionne sur chaque serveur de notre \u00e9cosyst\u00e8me.",
-      "descriptionDesktop": "Un design de ferme \u00e0 fer compact et sans lag qui produit environ 600 lingots par heure et fonctionne sur chaque serveur de notre \u00e9cosyst\u00e8me \u2014 sans datapack, sans bourrage d\u2019entit\u00e9s et totalement AFK-friendly une fois la construction termin\u00e9e.",
+      "description": "Un design compact et sans lag qui produit ~600 lingots par heure et fonctionne sur nos trois serveurs.",
+      "descriptionDesktop": "Un design de ferme \u00e0 fer compact et sans lag qui produit environ 600 lingots par heure et fonctionne sur nos trois serveurs \u2014 sans datapack, sans bourrage d\u2019entit\u00e9s et totalement AFK-friendly une fois la construction termin\u00e9e.",
       "breadcrumbLabel": "Guide de ferme \u00e0 fer",
       "heroTags": ["Technique", "Fermes"],
       "sidebarTags": ["Technique", "Fer", "Fermes", "Redstone"],
@@ -785,8 +785,8 @@
       "heroTags": ["Communaut\u00e9", "Spotlight"],
       "sidebarTags": ["Communaut\u00e9", "Spotlight", "Constructions", "Tournois"],
       "lead": {
-        "mobile": "Chaque mois nous mettons en avant un joueur qui fait avancer l\u2019\u00e9cosyst\u00e8me \u2014 pas toujours le plus riche ou le meilleur rang PvP, mais quelqu\u2019un qui donne vie au serveur. Avril appartient \u00e0 RedstoneKing.",
-        "desktop": "Chaque mois nous mettons en avant un joueur qui fait avancer l\u2019\u00e9cosyst\u00e8me \u2014 pas toujours le compte le plus riche ou le meilleur rang PvP, mais quelqu\u2019un qui donne vie au serveur par des constructions, des guides ou des \u00e9v\u00e9nements communautaires. Avril appartient \u00e0 RedstoneKing, un main survie qui a transform\u00e9 son obsession redstone en quelque chose que tout le monde peut visiter."
+        "mobile": "Chaque mois nous mettons en avant un joueur qui fait avancer la communaut\u00e9 \u2014 pas toujours le plus riche ou le meilleur rang PvP, mais quelqu\u2019un qui donne vie au serveur. Avril appartient \u00e0 RedstoneKing.",
+        "desktop": "Chaque mois nous mettons en avant un joueur qui fait avancer la communaut\u00e9 \u2014 pas toujours le compte le plus riche ou le meilleur rang PvP, mais quelqu\u2019un qui donne vie au serveur par des constructions, des guides ou des \u00e9v\u00e9nements communautaires. Avril appartient \u00e0 RedstoneKing, un main survie qui a transform\u00e9 son obsession redstone en quelque chose que tout le monde peut visiter."
       },
       "sections": [
         {

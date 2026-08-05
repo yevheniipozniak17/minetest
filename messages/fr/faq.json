@@ -372,8 +372,8 @@
   },
   "join": {
     "lead": {
-      "mobile": "Rejoindre un serveur de l'\u00e9cosyst\u00e8me Minecraft prend environ deux minutes une fois que vous avez Minecraft install\u00e9. Ce guide vous accompagne pas \u00e0 pas.",
-      "desktop": "Rejoindre un serveur de l'\u00e9cosyst\u00e8me Minecraft prend environ deux minutes une fois que vous avez Minecraft install\u00e9. Ce guide vous accompagne \u00e0 chaque \u00e9tape, de l'inscription \u00e0 votre premi\u00e8re connexion \u2014 et vous indique quoi faire si quelque chose ne fonctionne pas."
+      "mobile": "Rejoindre l'un de nos serveurs Minecraft prend environ deux minutes une fois que vous avez Minecraft install\u00e9. Ce guide vous accompagne pas \u00e0 pas.",
+      "desktop": "Rejoindre l'un de nos serveurs Minecraft prend environ deux minutes une fois que vous avez Minecraft install\u00e9. Ce guide vous accompagne \u00e0 chaque \u00e9tape, de l'inscription \u00e0 votre premi\u00e8re connexion \u2014 et vous indique quoi faire si quelque chose ne fonctionne pas."
     },
     "beforeTitle": "Avant de commencer",
     "beforeLead": {
@@ -1009,7 +1009,7 @@
     "switch-servers": {
       "lead": {
         "mobile": "Une seule connexion couvre tous les serveurs. Chaque monde conserve son propre inventaire et ses revendications.",
-        "desktop": "Une seule connexion au site couvre tous les serveurs de l'\u00e9cosyst\u00e8me. Chaque monde conserve son propre inventaire, ses revendications et son solde \u00e9conomique."
+        "desktop": "Une seule connexion au site couvre nos trois serveurs. Chaque monde conserve son propre inventaire, ses revendications et son solde \u00e9conomique."
       },
       "s1": {
         "title": "Comment changer",
@@ -1029,7 +1029,7 @@
         "bullets": [
           "Les cosm\u00e9tiques de boutique se synchronisent \u00e0 la connexion.",
           "Les r\u00f4les Discord se mettent \u00e0 jour dans les cinq minutes.",
-          "Le statut de bannissement s'applique \u00e0 tout l'\u00e9cosyst\u00e8me."
+          "Le statut de bannissement s'applique sur tous les serveurs."
         ]
       },
       "s3": {
@@ -1488,8 +1488,8 @@
     },
     "server-rules": {
       "lead": {
-        "mobile": "Les r\u00e8gles maintiennent l'\u00e9cosyst\u00e8me jouable pour les constructeurs, commer\u00e7ants et joueurs PvP.",
-        "desktop": "Les r\u00e8gles maintiennent l'\u00e9cosyst\u00e8me jouable pour les constructeurs, commer\u00e7ants et joueurs PvP. L'ignorance n'est pas une excuse \u2014 ce r\u00e9sum\u00e9 couvre les points essentiels."
+        "mobile": "Les r\u00e8gles maintiennent nos serveurs jouables pour les constructeurs, commer\u00e7ants et joueurs PvP.",
+        "desktop": "Les r\u00e8gles maintiennent nos serveurs jouables pour les constructeurs, commer\u00e7ants et joueurs PvP. L'ignorance n'est pas une excuse \u2014 ce r\u00e9sum\u00e9 couvre les points essentiels."
       },
       "s1": {
         "title": "R\u00e8gles fondamentales",

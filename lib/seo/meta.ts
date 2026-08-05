@@ -5,7 +5,7 @@ export const SITE_NAME = 'Minecraft Game';
 export const SITE_TWITTER = '@minecrafts_game';
 export const DEFAULT_OG_IMAGE = '/og/og-default.png';
 
-export const DEFAULT_TITLE = 'Minecraft Game — A Next-Generation Ecosystem';
+export const DEFAULT_TITLE = 'Minecraft Game — Three Next-Generation Servers';
 export const DEFAULT_DESCRIPTION =
   'Three unique Minecraft servers, an in-game economy, rankings, and tournaments. Play survival, PvP, or peaceful building the way you like.';
 

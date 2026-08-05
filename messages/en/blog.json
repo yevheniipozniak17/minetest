@@ -1,7 +1,7 @@
 {
   "hero": {
     "badge": "Blog",
-    "title": "Stories from the Minecraft ecosystem",
+    "title": "Stories from our Minecraft servers",
     "description": "Guides, server updates and player stories from our worlds.",
     "searchPlaceholder": "Search articles\u2026",
     "searchButton": "Search",
@@ -229,8 +229,8 @@
       "title": "8. What\u2019s next",
       "paragraphMobile": "We are already planning 2.7. Headline features: a creative-mode sandbox, expanded redstone components, and an in-game macro recorder. Public test branch opens mid-June.",
       "paragraphDesktop": "We are already deep into planning for 2.7. The headline features are a creative-mode building sandbox, expanded redstone components, and an in-game macro recorder for repetitive builds. Expect the public test branch to open around mid-June.",
-      "closingMobile": "Thanks for being part of the ecosystem. See you on the islands.",
-      "closingDesktop": "Thanks, as always, for being part of the ecosystem. See you on the islands.",
+      "closingMobile": "Thanks for being part of the community. See you on the islands.",
+      "closingDesktop": "Thanks, as always, for being part of the community. See you on the islands.",
       "cta": "Browse all updates"
     },
     "relatedBadge": "Popular this week",
@@ -249,8 +249,8 @@
       },
       {
         "title": "How to build an efficient iron farm in 2026",
-        "description": "A compact, lag-friendly design that produces ~600 ingots per hour and works on every server in our ecosystem.",
-        "descriptionDesktop": "A compact, lag-friendly design that produces around 600 ingots per hour and works on every server in our ecosystem \u2014 no datapacks required.",
+        "description": "A compact, lag-friendly design that produces ~600 ingots per hour and works on all three of our servers.",
+        "descriptionDesktop": "A compact, lag-friendly design that produces around 600 ingots per hour and works on all three of our servers \u2014 no datapacks required.",
         "genre": "Engineering",
         "time": 6,
         "date": "Apr 18, 2026",
@@ -447,8 +447,8 @@
     },
     "iron-farm": {
       "title": "How to build an efficient iron farm in 2026",
-      "description": "A compact, lag-friendly design that produces ~600 ingots per hour and works on every server in our ecosystem.",
-      "descriptionDesktop": "A compact, lag-friendly iron farm design that produces around 600 ingots per hour and works on every server in our ecosystem \u2014 no datapacks required, no chunk-busting entity cramming, and fully AFK-friendly once you finish the build.",
+      "description": "A compact, lag-friendly design that produces ~600 ingots per hour and works on all three of our servers.",
+      "descriptionDesktop": "A compact, lag-friendly iron farm design that produces around 600 ingots per hour and works on all three of our servers \u2014 no datapacks required, no chunk-busting entity cramming, and fully AFK-friendly once you finish the build.",
       "breadcrumbLabel": "Iron farm guide",
       "heroTags": ["Engineering", "Farms"],
       "sidebarTags": ["Engineering", "Iron", "Farms", "Redstone"],
@@ -785,8 +785,8 @@
       "heroTags": ["Community", "Spotlight"],
       "sidebarTags": ["Community", "Spotlight", "Builds", "Tournaments"],
       "lead": {
-        "mobile": "Every month we feature one player who pushes the ecosystem forward \u2014 not always the richest or highest PvP rank, but someone who makes the server feel alive. April belongs to RedstoneKing.",
-        "desktop": "Every month we feature one player who pushes the ecosystem forward \u2014 not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. April belongs to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit."
+        "mobile": "Every month we feature one player who pushes the community forward \u2014 not always the richest or highest PvP rank, but someone who makes the server feel alive. April belongs to RedstoneKing.",
+        "desktop": "Every month we feature one player who pushes the community forward \u2014 not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. April belongs to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit."
       },
       "sections": [
         {

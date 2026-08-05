@@ -372,8 +372,8 @@
   },
   "join": {
     "lead": {
-      "mobile": "Joining a Minecraft Ecosystem server takes about two minutes once you have Minecraft installed. This guide walks through every step.",
-      "desktop": "Joining a Minecraft Ecosystem server takes about two minutes once you have Minecraft installed. This guide walks through every step, from sign-up to your first connection \u2014 plus what to do if something does not work."
+      "mobile": "Joining one of our Minecraft servers takes about two minutes once you have Minecraft installed. This guide walks through every step.",
+      "desktop": "Joining one of our Minecraft servers takes about two minutes once you have Minecraft installed. This guide walks through every step, from sign-up to your first connection \u2014 plus what to do if something does not work."
     },
     "beforeTitle": "Before you start",
     "beforeLead": {
@@ -1009,7 +1009,7 @@
     "switch-servers": {
       "lead": {
         "mobile": "One login covers every server. Each world keeps its own inventory and claims.",
-        "desktop": "One website login covers every server in the ecosystem. Each world keeps its own inventory, claims, and economy balance."
+        "desktop": "One website login covers all three of our servers. Each world keeps its own inventory, claims, and economy balance."
       },
       "s1": {
         "title": "How to switch",
@@ -1029,7 +1029,7 @@
         "bullets": [
           "Shop cosmetics sync on login.",
           "Discord roles update within five minutes.",
-          "Ban status applies ecosystem-wide."
+          "Ban status applies across all servers."
         ]
       },
       "s3": {
@@ -1488,8 +1488,8 @@
     },
     "server-rules": {
       "lead": {
-        "mobile": "Rules keep the ecosystem playable for builders, traders, and PvP players alike.",
-        "desktop": "Rules keep the ecosystem playable for builders, traders, and PvP players alike. Ignorance is not an excuse \u2014 this summary covers the essentials."
+        "mobile": "Rules keep our servers playable for builders, traders, and PvP players alike.",
+        "desktop": "Rules keep our servers playable for builders, traders, and PvP players alike. Ignorance is not an excuse \u2014 this summary covers the essentials."
       },
       "s1": {
         "title": "Core rules",
