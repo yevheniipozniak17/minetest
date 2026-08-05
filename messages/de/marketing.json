@@ -2,7 +2,7 @@
   "about": {
     "hero": {
       "badge": "Über das Projekt",
-      "title": "Willkommen in unserem Minecraft-Projekt!"
+      "title": "Willkommen in unserem Minecraft-Projekt!",
       "description": "Mehr als nur Minecraft — ein einzigartiger Raum für Spieler, gebaut von Fans, die für das Spiel leben.",
       "startPlaying": "Jetzt spielen",
       "goToStore": "Zum Shop"
@@ -16,7 +16,7 @@
     "economy": {
       "badge": "Wirtschaft & Privilegien",
       "title": "Dein Komfort, deine Anpassung",
-      "description": "Wir haben eine faire und transparente Ingame-Wirtschaft aufgebaut. Verdiene die Ingame-Währung beim Spielen oder unterstütze das Projekt, um einzigartige Privilegien, kosmetische Items und Booster freizuschalten, die dich hervorheben und das Gameplay noch angenehmer machen."
+      "description": "Wir haben eine faire und transparente Ingame-Wirtschaft aufgebaut. Verdiene die Ingame-Währung beim Spielen oder unterstütze das Projekt, um einzigartige Privilegien, kosmetische Items und Booster freizuschalten, die dich hervorheben und das Gameplay noch angenehmer machen.",
       "stat1Label": "Kosmetische Items",
       "stat1Value": "100+",
       "stat2Label": "Privilegien-Stufen",
