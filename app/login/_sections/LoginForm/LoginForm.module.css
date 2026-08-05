@@ -33,6 +33,23 @@
   max-height: 100%;
 }
 
+/* Мобільний: на невисоких екранах контент вищий за вьюпорт — даємо
+   .panelLeft скролитись, інакше низ форми обрізається без можливості скролу. */
+@media (max-width: 1279px) {
+  .panelLeft {
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  .panelLeft::-webkit-scrollbar {
+    display: none;
+  }
+
+  .leftInner {
+    max-height: none;
+  }
+}
+
 .topbar {
   display: flex;
   flex-direction: column;

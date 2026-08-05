@@ -416,7 +416,7 @@ export default function RegistrationForm() {
                 </div>
 
                 <p className={styles.footerLink}>
-                  <span>{t('register.alreadyAccount')}</span>
+                  <span>{t('register.alreadyAccount')}</span>{' '}
                   <Link href="/login" className={styles.loginLink}>
                     {t('register.loginLink')}
                   </Link>
