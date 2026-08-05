@@ -553,7 +553,7 @@
     justify-content: center;
     max-width: 480px;
     min-height: 0;
-    overflow: hidden;
+    /* без overflow: hidden — інакше glow кнопки зрізається по її краях */
   }
 
   .topbar {
