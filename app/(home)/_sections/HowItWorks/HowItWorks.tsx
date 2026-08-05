@@ -9,27 +9,27 @@ import styles from './HowItWorks.module.css';
 const STEPS = [
   {
     key: 'chooseServer',
-    icon: '/home/images/how-it-works-server.webp',
+    icon: '/home/images/how-it-works-server-v2.webp',
     isArtwork: true,
   },
   {
     key: 'selectProduct',
-    icon: '/home/images/how-it-works-cart.webp',
+    icon: '/home/images/how-it-works-cart-v2.webp',
     isArtwork: true,
   },
   {
     key: 'securePayment',
-    icon: '/home/images/how-it-works-shield.webp',
+    icon: '/home/images/how-it-works-shield-v2.webp',
     isArtwork: true,
   },
   {
     key: 'receiveInstantly',
-    icon: '/home/images/how-it-works-chest.webp',
+    icon: '/home/images/how-it-works-chest-v2.webp',
     isArtwork: true,
   },
   {
     key: 'enjoyGame',
-    icon: '/home/images/how-it-works-sword.webp',
+    icon: '/home/images/how-it-works-sword-v2.webp',
     isArtwork: true,
   },
 ] as const;
