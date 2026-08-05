@@ -34,7 +34,6 @@
   border-radius: 109px;
   border: 1px solid var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
   background: var(--new-group-color-bg-default-505, rgba(255, 255, 255, 0.05));
-  backdrop-filter: blur(24px);
   color: var(--New-group-color-bg-default-50, #fff);
   font-family: var(--Font-Serif-Typography, Montserrat);
   font-size: var(--Size-Mobile-Body-xsmall, 12px);
@@ -201,8 +200,8 @@
   border: 1px solid var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
   background: var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
 
-  /* Blur */
-  backdrop-filter: blur(24px);
+  /* Без backdrop-filter: вкладений у блюрену картку блюр рендериться
+     білим блоком у Safari 18 (iOS 18), а візуально нічого не додає. */
 
   color: var(--New-group-color-bg-default-50, #fff);
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.25);

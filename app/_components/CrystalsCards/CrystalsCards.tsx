@@ -15,9 +15,9 @@ export type CrystalsCardProps = {
 type PackKey = 'pack1' | 'pack2' | 'pack3';
 
 const PACK_DATA: { key: PackKey; icon: string }[] = [
-  { key: 'pack1', icon: '/icons/illustrations/preview-green.svg' },
-  { key: 'pack2', icon: '/icons/illustrations/preview-yellow.svg' },
-  { key: 'pack3', icon: '/icons/illustrations/preview-blue.svg' },
+  { key: 'pack1', icon: '/icons/illustrations/preview-green.webp' },
+  { key: 'pack2', icon: '/icons/illustrations/preview-yellow.webp' },
+  { key: 'pack3', icon: '/icons/illustrations/preview-blue.webp' },
 ];
 
 export default function CrystalsCards({ seeMoreHref }: { seeMoreHref: string }) {

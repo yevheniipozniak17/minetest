@@ -174,8 +174,8 @@
   border: 1px solid var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
   background: var(--primary-color-primary-50010, rgba(189, 225, 83, 0.1));
 
-  /* Blur */
-  backdrop-filter: blur(24px);
+  /* Без backdrop-filter: вкладений у блюрену картку блюр рендериться
+     білим блоком у Safari 18 (iOS 18), а візуально нічого не додає. */
 
   color: var(--New-group-color-bg-default-50, #fff);
   text-decoration: none;
