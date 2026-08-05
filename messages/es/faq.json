@@ -83,7 +83,6 @@
   },
   "sort": {
     "all": "Todas",
-    "mostHelpful": "M\u00e1s \u00fatiles",
     "latest": "M\u00e1s recientes",
     "label": "Ordenar:",
     "ariaLabel": "Ordenar preguntas"
@@ -161,7 +160,6 @@
     "tagTop": "Top",
     "tagTopDesktop": "Pregunta destacada",
     "views": "{count} vistas",
-    "helpfulPct": "{percent}% lo encontr\u00f3 \u00fatil",
     "minRead": "{min} min de lectura",
     "updatedFull": "Actualizado el {date}, 2026"
   },
@@ -173,16 +171,6 @@
     "allFaq": "Todo el FAQ",
     "readMobile": "Leer",
     "readDesktop": "Ver respuesta"
-  },
-  "feedback": {
-    "hintMobile": "Tu voto nos ayuda a mejorar.",
-    "hintDesktop": "Tu voto nos ayuda a priorizar qu\u00e9 respuestas ampliar y reescribir.",
-    "yesMobile": "S\u00ed",
-    "yesDesktop": "S\u00ed, \u00fatil",
-    "noMobile": "No mucho",
-    "noDesktop": "Podr\u00eda mejorar",
-    "statsMobile": "{helpful} de {total} ({percent}%) lo encontr\u00f3 \u00fatil",
-    "statsDesktop": "{helpful} de {total} jugadores ({percent}%) lo encontr\u00f3 \u00fatil"
   },
   "contentCta": {
     "primary": "Cont\u00e1ctanos",
@@ -535,14 +523,6 @@
       "Abre la tienda del juego con /shop y revisa las misiones diarias.",
       "\u00danete al Discord de la comunidad \u2014 la mayor\u00eda de constructores, comerciantes y jugadores de PvP est\u00e1n all\u00ed."
     ],
-    "feedbackHintMobile": "Tu voto nos ayuda a mejorar.",
-    "feedbackHintDesktop": "Tu voto nos ayuda a priorizar qu\u00e9 respuestas ampliar y reescribir.",
-    "feedbackYesMobile": "S\u00ed",
-    "feedbackYesDesktop": "S\u00ed, \u00fatil",
-    "feedbackNoMobile": "No mucho",
-    "feedbackNoDesktop": "Podr\u00eda mejorar",
-    "feedbackStatsMobile": "243 de 258 (94%) lo encontraron \u00fatil",
-    "feedbackStatsDesktop": "243 de 258 jugadores (94%) lo encontraron \u00fatil",
     "ctaPrimary": "Unirse a Twitch",
     "ctaSecondary": "Ver todo el FAQ"
   },

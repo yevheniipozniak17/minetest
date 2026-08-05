@@ -220,16 +220,3 @@ export const JOIN_WHATS_NEXT = {
     ],
   },
 };
-
-export const JOIN_FEEDBACK = {
-  hint: {
-    mobile: 'Your vote helps us improve.',
-    desktop: 'Your vote helps us prioritise which answers to expand and re-write.',
-  },
-  yes: { mobile: 'Yes', desktop: 'Yes, helpful' },
-  no: { mobile: 'Not really', desktop: 'Could be better' },
-  stats: {
-    mobile: '243 out of 258 (94%) found this helpful',
-    desktop: '243 out of 258 players (94%) found this helpful',
-  },
-};

@@ -3,31 +3,31 @@
     "badge": "Blog",
     "title": "Geschichten von unseren Minecraft-Servern",
     "description": "Guides, Server-Updates und Spielergeschichten aus unseren Welten.",
-    "searchPlaceholder": "Artikel suchen\u2026",
+    "searchPlaceholder": "Artikel suchen…",
     "searchButton": "Suchen",
     "categoriesLabel": "Blog-Kategorien"
   },
   "featured": {
     "tagFeatured": "Hervorgehoben",
     "tagUpdates": "Updates",
-    "title": "Server-Update 2.6 \u2014 eigene Rezepte, Wirtschaftsrebalance und der gr\u00f6\u00dfte Patch der Saison",
-    "description": "Wir haben die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky \u00fcberarbeitet, 12 neue eigene Rezepte hinzugef\u00fcgt, die Wirtschaft neu ausbalanciert und einen neuen Turniermodus eingerichtet. Alles, was du wissen musst \u2014 und die \u00c4nderungen, die du heute Nacht im Public Branch testen kannst.",
+    "title": "Server-Update 2.6 — eigene Rezepte, Wirtschaftsrebalance und der größte Patch der Saison",
+    "description": "Wir haben die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky überarbeitet, 12 neue eigene Rezepte hinzugefügt, die Wirtschaft neu ausbalanciert und einen neuen Turniermodus eingerichtet. Alles, was du wissen musst — und die Änderungen, die du heute Nacht im Public Branch testen kannst.",
     "date": "Apr 28, 2026",
     "readTime": "7 Min. Lesezeit",
     "readArticle": "Artikel lesen",
     "readArticleAriaLabel": "Server-Update 2.6 lesen"
   },
   "sort": {
-    "all": "Alle Beitr\u00e4ge",
+    "all": "Alle Beiträge",
     "newest": "Neueste",
     "popular": "Beliebteste",
     "ariaLabel": "Artikel sortieren"
   },
   "pagination": {
-    "prev": "Zur\u00fcck",
+    "prev": "Zurück",
     "next": "Weiter",
     "prevAriaLabel": "Vorherige Seite",
-    "nextAriaLabel": "N\u00e4chste Seite"
+    "nextAriaLabel": "Nächste Seite"
   },
   "articles": {
     "latestTitle": "Neueste Artikel",
@@ -63,174 +63,208 @@
     "blog": "Blog",
     "minRead": "{time} Min. Lesezeit"
   },
-  "articleCta": "Alle Beitr\u00e4ge",
+  "articleCta": "Alle Beiträge",
   "share": {
     "x": "Auf X teilen",
-    "twitch": "Link f\u00fcr Twitch kopieren",
+    "twitch": "Link für Twitch kopieren",
     "facebook": "Auf Facebook teilen",
-    "instagram": "Link f\u00fcr Instagram kopieren",
+    "instagram": "Link für Instagram kopieren",
     "copied": "Link kopiert"
   },
   "updates": {
-    "breadcrumb": ["Startseite", "Blog", "Updates", "Server-Update 2.6"],
+    "breadcrumb": [
+      "Startseite",
+      "Blog",
+      "Updates",
+      "Server-Update 2.6"
+    ],
     "hero": {
       "tagUpdates": "Updates",
       "tagFeatured": "Hervorgehoben",
-      "title": "Server-Update 2.6 \u2014 eigene Rezepte, Wirtschaftsrebalance und der gr\u00f6\u00dfte Patch der Saison",
+      "title": "Server-Update 2.6 — eigene Rezepte, Wirtschaftsrebalance und der größte Patch der Saison",
       "description": "Nach acht Wochen im Public-Test-Branch rollt der 2.6-Patch jetzt auf allen Servern aus.",
-      "descriptionDesktop": "Nach acht Wochen im Public-Test-Branch rollt der 2.6-Patch jetzt auf allen Servern aus. Wir haben die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky \u00fcberarbeitet, 12 neue eigene Rezepte hinzugef\u00fcgt, die Wirtschaft ausbalanciert und einen neuen Turniermodus eingerichtet.",
+      "descriptionDesktop": "Nach acht Wochen im Public-Test-Branch rollt der 2.6-Patch jetzt auf allen Servern aus. Wir haben die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky überarbeitet, 12 neue eigene Rezepte hinzugefügt, die Wirtschaft ausbalanciert und einen neuen Turniermodus eingerichtet.",
       "date": "Apr 28, 2026",
       "readTime": "7 Min. Lesezeit",
       "imageAlt": "Server-Update 2.6 Hero-Illustration"
     },
     "toc": [
-      { "id": "01", "label": "Was ist neu in 2.6" },
-      { "id": "02", "label": "Spawn-Hub-Erneuerung" },
-      { "id": "03", "label": "12 neue eigene Rezepte" },
-      { "id": "04", "label": "Wirtschaftsrebalance" },
-      { "id": "05", "label": "Turniermodus" },
-      { "id": "06", "label": "So wird das Update installiert" },
-      { "id": "07", "label": "Bekannte Probleme" },
-      { "id": "08", "label": "Was kommt als N\u00e4chstes" }
+      {
+        "id": "01",
+        "label": "Was ist neu in 2.6"
+      },
+      {
+        "id": "02",
+        "label": "Spawn-Hub-Erneuerung"
+      },
+      {
+        "id": "03",
+        "label": "12 neue eigene Rezepte"
+      },
+      {
+        "id": "04",
+        "label": "Wirtschaftsrebalance"
+      },
+      {
+        "id": "05",
+        "label": "Turniermodus"
+      },
+      {
+        "id": "06",
+        "label": "So wird das Update installiert"
+      },
+      {
+        "id": "07",
+        "label": "Bekannte Probleme"
+      },
+      {
+        "id": "08",
+        "label": "Was kommt als Nächstes"
+      }
     ],
-    "shareTitle": "Server-Update 2.6 \u2014 eigene Rezepte, Wirtschaftsrebalance und der gr\u00f6\u00dfte Patch der Saison",
+    "shareTitle": "Server-Update 2.6 — eigene Rezepte, Wirtschaftsrebalance und der größte Patch der Saison",
     "onThisPage": "Auf dieser Seite",
     "readingProgress": "Lesefortschritt",
     "shareArticle": "Artikel teilen",
     "shareLabel": "Teilen:",
     "tagsLabel": "Tags",
-    "tags": ["Updates", "LuckySurvival", "Economy", "Tournaments"],
-    "leadMobile": "Nach acht Wochen im Public-Test-Branch rollt der 2.6-Patch jetzt auf allen Servern aus. Dieses Release erneuert die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky, f\u00fcgt zw\u00f6lf neue Rezepte hinzu, liefert einen neuen Turniermodus und ber\u00fchrt fast jede Wirtschaftskurve.",
-    "leadDesktop": "Nach acht Wochen im Public-Test-Branch rollt der 2.6-Patch jetzt auf allen Servern aus. Dieses Release erneuert die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky, f\u00fcgt zw\u00f6lf neue Rezepte hinzu, liefert einen brandneuen Turniermodus und ber\u00fchrt fast jede Wirtschaftskurve im Spiel. Hier ist die vollst\u00e4ndige \u00dcbersicht.",
+    "tags": [
+      "Updates",
+      "LuckySurvival",
+      "Economy",
+      "Tournaments"
+    ],
+    "leadMobile": "Nach acht Wochen im Public-Test-Branch rollt der 2.6-Patch jetzt auf allen Servern aus. Dieses Release erneuert die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky, fügt zwölf neue Rezepte hinzu, liefert einen neuen Turniermodus und berührt fast jede Wirtschaftskurve.",
+    "leadDesktop": "Nach acht Wochen im Public-Test-Branch rollt der 2.6-Patch jetzt auf allen Servern aus. Dieses Release erneuert die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky, fügt zwölf neue Rezepte hinzu, liefert einen brandneuen Turniermodus und berührt fast jede Wirtschaftskurve im Spiel. Hier ist die vollständige Übersicht.",
     "s01": {
       "title": "1. Was ist neu in 2.6",
-      "paragraphMobile": "Bei diesem Release haben wir uns auf die drei Bereiche konzentriert, nach denen Spieler am meisten gefragt haben: Spawn-Hub-Qualit\u00e4t, Wirtschaftsbalance und kompetitives Spiel. Jede \u00c4nderung erscheint gleichzeitig auf allen Servern.",
-      "paragraphDesktop": "Bei diesem Release haben wir uns auf die drei Bereiche konzentriert, nach denen Spieler in der Fr\u00fchjahrsumfrage am meisten gefragt haben: Spawn-Hub-Qualit\u00e4t, Wirtschaftsbalance und kompetitives Spiel. Jede \u00c4nderung erscheint gleichzeitig auf allen Servern \u2014 nichts ist hinter einer bestimmten Welt gesperrt.",
+      "paragraphMobile": "Bei diesem Release haben wir uns auf die drei Bereiche konzentriert, nach denen Spieler am meisten gefragt haben: Spawn-Hub-Qualität, Wirtschaftsbalance und kompetitives Spiel. Jede Änderung erscheint gleichzeitig auf allen Servern.",
+      "paragraphDesktop": "Bei diesem Release haben wir uns auf die drei Bereiche konzentriert, nach denen Spieler in der Frühjahrsumfrage am meisten gefragt haben: Spawn-Hub-Qualität, Wirtschaftsbalance und kompetitives Spiel. Jede Änderung erscheint gleichzeitig auf allen Servern — nichts ist hinter einer bestimmten Welt gesperrt.",
       "bulletsMobile": [
         "Erneuerte Spawn-Hubs auf LuckySurvival, MineWars und CalmSky.",
-        "Zw\u00f6lf neue eigene Rezepte, darunter der Ender-Kompass.",
-        "Wirtschaftsrebalance mit ge\u00e4nderten Preisen und Belohnungen.",
-        "Brandneuer Turniermodus mit w\u00f6chentlichen Brackets.",
-        "Server\u00fcbergreifende Freundesliste und verbesserter Chat."
+        "Zwölf neue eigene Rezepte, darunter der Ender-Kompass.",
+        "Wirtschaftsrebalance mit geänderten Preisen und Belohnungen.",
+        "Brandneuer Turniermodus mit wöchentlichen Brackets.",
+        "Serverübergreifende Freundesliste und verbesserter Chat."
       ],
       "bulletsDesktop": [
         "Erneuerte Spawn-Hubs mit klareren Warps und Tutorial-NPCs auf jedem Server.",
-        "Zw\u00f6lf neue eigene Rezepte, darunter der lang ersehnte Ender-Kompass.",
-        "Wirtschaftsrebalance mit ge\u00e4nderten H\u00e4ndlerpreisen, Steuern und Belohnungskurven.",
-        "Brandneuer Turniermodus mit w\u00f6chentlichen Brackets und Saisontrophäen.",
-        "Server\u00fcbergreifende Freundesliste, Party-Einladungen und verbessertes Chat-Tooling."
+        "Zwölf neue eigene Rezepte, darunter der lang ersehnte Ender-Kompass.",
+        "Wirtschaftsrebalance mit geänderten Händlerpreisen, Steuern und Belohnungskurven.",
+        "Brandneuer Turniermodus mit wöchentlichen Brackets und Saisontrophäen.",
+        "Serverübergreifende Freundesliste, Party-Einladungen und verbessertes Chat-Tooling."
       ]
     },
     "s02": {
       "title": "2. Spawn-Hub-Erneuerung",
-      "paragraphMobile": "Die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky waren die \u00e4ltesten Bereiche auf der Karte \u2014 gebaut, bevor wir Tutorial-NPCs und server\u00fcbergreifende Warps hinzugef\u00fcgt hatten. Wir haben alle drei mit klarerer Beschilderung und schnelleren Wegen in die Wildnis neu gebaut.",
-      "paragraphDesktop": "Die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky waren die \u00e4ltesten Bereiche auf der Karte \u2014 gebaut, bevor wir Tutorial-NPCs und server\u00fcbergreifende Warps hinzugef\u00fcgt hatten. Wir haben alle drei mit klarerer Beschilderung, erneuerten Marktst\u00e4nden und schnelleren Wegen in die Wildnis auf jedem Server neu gebaut.",
+      "paragraphMobile": "Die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky waren die ältesten Bereiche auf der Karte — gebaut, bevor wir Tutorial-NPCs und serverübergreifende Warps hinzugefügt hatten. Wir haben alle drei mit klarerer Beschilderung und schnelleren Wegen in die Wildnis neu gebaut.",
+      "paragraphDesktop": "Die Spawn-Hubs auf LuckySurvival, MineWars und CalmSky waren die ältesten Bereiche auf der Karte — gebaut, bevor wir Tutorial-NPCs und serverübergreifende Warps hinzugefügt hatten. Wir haben alle drei mit klarerer Beschilderung, erneuerten Marktständen und schnelleren Wegen in die Wildnis auf jedem Server neu gebaut.",
       "figureAlt": "Erneuerter Spawn-Hub auf LuckySurvival",
-      "figureCaption": "Beschriftung: Der neue LuckySurvival-Spawn \u2014 gleiche Welt, klarere Warps und Tutorial-Flow.",
-      "paragraph2Mobile": "Jeder Hub beh\u00e4lt denselben World-Seed und dieselben Claim-Grenzen \u2014 nur der Spawn-Build hat sich ge\u00e4ndert. Deine vorhandenen Basen und Truhen sind unber\u00fchrt.",
-      "paragraph2Desktop": "Jeder Hub beh\u00e4lt denselben World-Seed und dieselben Claim-Grenzen \u2014 nur der Spawn-Build hat sich ge\u00e4ndert. Deine vorhandenen Basen, Truhen und /home-Punkte sind unber\u00fchrt; nutze die neuen Warp-Schilder, um die Wildnis schneller zu erreichen.",
+      "figureCaption": "Beschriftung: Der neue LuckySurvival-Spawn — gleiche Welt, klarere Warps und Tutorial-Flow.",
+      "paragraph2Mobile": "Jeder Hub behält denselben World-Seed und dieselben Claim-Grenzen — nur der Spawn-Build hat sich geändert. Deine vorhandenen Basen und Truhen sind unberührt.",
+      "paragraph2Desktop": "Jeder Hub behält denselben World-Seed und dieselben Claim-Grenzen — nur der Spawn-Build hat sich geändert. Deine vorhandenen Basen, Truhen und /home-Punkte sind unberührt; nutze die neuen Warp-Schilder, um die Wildnis schneller zu erreichen.",
       "calloutTitle": "Hinweis",
       "calloutMobile": "Wer einen Shop-Stand im alten Spawn-Markt hatte, dem haben die Admins die Truheninhalte in die neue Marktzeile migriert.",
       "calloutDesktop": "Wer einen Shop-Stand im alten Spawn-Markt hatte, dem haben die Admins die Truheninhalte in die neue Marktzeile migriert. Tippe im Spiel /mail ein, falls etwas fehlt."
     },
     "s03": {
-      "title": "3. Zw\u00f6lf neue eigene Rezepte",
-      "paragraphMobile": "Eigene Rezepte sind Crafting-Anleitungen, die nur auf unseren Servern existieren. Mit 2.6 liefern wir zw\u00f6lf neue \u2014 sechs n\u00fctzliche, sechs kosmetische.",
-      "paragraphDesktop": "Eigene Rezepte sind Crafting-Anleitungen, die nur auf unseren Servern existieren. Sie verwenden Vanilla-Materialien, erzeugen aber einzigartige Werkzeuge und Dekorationsobjekte. Mit 2.6 liefern wir zw\u00f6lf neue \u2014 sechs n\u00fctzliche, sechs kosmetische. Die vollst\u00e4ndige Liste findest du im Spiel unter Rezepte \u2192 Server.",
-      "utilityHeading": "N\u00fctzliche Rezepte",
+      "title": "3. Zwölf neue eigene Rezepte",
+      "paragraphMobile": "Eigene Rezepte sind Crafting-Anleitungen, die nur auf unseren Servern existieren. Mit 2.6 liefern wir zwölf neue — sechs nützliche, sechs kosmetische.",
+      "paragraphDesktop": "Eigene Rezepte sind Crafting-Anleitungen, die nur auf unseren Servern existieren. Sie verwenden Vanilla-Materialien, erzeugen aber einzigartige Werkzeuge und Dekorationsobjekte. Mit 2.6 liefern wir zwölf neue — sechs nützliche, sechs kosmetische. Die vollständige Liste findest du im Spiel unter Rezepte → Server.",
+      "utilityHeading": "Nützliche Rezepte",
       "cosmeticHeading": "Kosmetische Rezepte",
       "utilityCraftsMobile": [
-        "Ender-Kompass \u2014 zeigt auf deinen letzten Tod.",
-        "Massen-Schmelzer \u2014 schmilzt einen ganzen Stack auf einmal.",
-        "Server-Spitzhacke \u2014 funktioniert \u00fcber Claim-Grenzen hinweg.",
-        "Schnell-Stack-Beutel \u2014 sortiert automatisch in nahegelegene Truhen.",
-        "Freundes-Leuchtturm \u2014 pingt deine Gruppe auf der Karte.",
-        "Spawner-Lasso \u2014 versetzt Monster-Spawner."
+        "Ender-Kompass — zeigt auf deinen letzten Tod.",
+        "Massen-Schmelzer — schmilzt einen ganzen Stack auf einmal.",
+        "Server-Spitzhacke — funktioniert über Claim-Grenzen hinweg.",
+        "Schnell-Stack-Beutel — sortiert automatisch in nahegelegene Truhen.",
+        "Freundes-Leuchtturm — pingt deine Gruppe auf der Karte.",
+        "Spawner-Lasso — versetzt Monster-Spawner."
       ],
       "utilityCraftsDesktop": [
-        "Ender-Kompass \u2014 zeigt auf deinen letzten Tod.",
-        "Massen-Schmelzer \u2014 schmilzt einen ganzen Stack auf einmal.",
-        "Server-Spitzhacke \u2014 funktioniert \u00fcber Claim-Grenzen hinweg (mit Erlaubnis).",
-        "Schnell-Stack-Beutel \u2014 sortiert automatisch in nahegelegene Truhen.",
-        "Freundes-Leuchtturm \u2014 pingt deine Gruppe auf der Karte.",
-        "Spawner-Lasso \u2014 versetzt Monster-Spawner."
+        "Ender-Kompass — zeigt auf deinen letzten Tod.",
+        "Massen-Schmelzer — schmilzt einen ganzen Stack auf einmal.",
+        "Server-Spitzhacke — funktioniert über Claim-Grenzen hinweg (mit Erlaubnis).",
+        "Schnell-Stack-Beutel — sortiert automatisch in nahegelegene Truhen.",
+        "Freundes-Leuchtturm — pingt deine Gruppe auf der Karte.",
+        "Spawner-Lasso — versetzt Monster-Spawner."
       ],
       "cosmeticMobile": "Sechs neue Dekorationsobjekte sind im Katalog erschienen, darunter das Leuchtende Banner-Set, die Schwebende Laterne und drei Eisentrophäen-Varianten.",
-      "cosmeticDesktop": "Sechs neue Dekorationsobjekte sind im Katalog erschienen, darunter das sehr beliebte Leuchtende Banner-Set, die Leuchtende Schwebende Laterne und drei Varianten der Saison-Eisentrophäe, die in Turnieren verwendet wird. Alle kosmetischen Rezepte sind auch als Bundle im In-Game-Store erh\u00e4ltlich."
+      "cosmeticDesktop": "Sechs neue Dekorationsobjekte sind im Katalog erschienen, darunter das sehr beliebte Leuchtende Banner-Set, die Leuchtende Schwebende Laterne und drei Varianten der Saison-Eisentrophäe, die in Turnieren verwendet wird. Alle kosmetischen Rezepte sind auch als Bundle im In-Game-Store erhältlich."
     },
     "s04": {
       "title": "4. Wirtschaftsrebalance",
-      "paragraphMobile": "Wir haben jeden H\u00e4ndlerpreis, jede Event-Belohnung und die t\u00e4gliche Steuerkurve angepasst. Die meisten \u00c4nderungen sind kleine Prozentwerte \u2014 aber einige Gegenst\u00e4nde sind jetzt deutlich g\u00fcnstiger, um den fr\u00fchen Fortschritt zu unterst\u00fctzen.",
-      "paragraphDesktop": "Wir haben jeden H\u00e4ndlerpreis, jede Event-Belohnung und die t\u00e4gliche Steuerkurve angepasst. Die meisten \u00c4nderungen sind kleine Prozentwerte, die in einer normalen Session unsichtbar sein sollten \u2014 aber einige Gegenst\u00e4nde sind jetzt deutlich g\u00fcnstiger, um den Einstieg zu erleichtern.",
-      "quoteMobile": "\u201eWir wollten, dass neue Spieler in den ersten drei Spielstunden echten Fortschritt sp\u00fcren \u2014 kein langsames Grinden.\u201c",
-      "quoteDesktop": "\u201eWir wollten, dass neue Spieler in den ersten drei Spielstunden echten Fortschritt sp\u00fcren \u2014 kein langsames Grinden. Der Gro\u00dfteil der Rebalance zielt auf die erste und zweite Stunde eines neuen Accounts ab.\u201c",
+      "paragraphMobile": "Wir haben jeden Händlerpreis, jede Event-Belohnung und die tägliche Steuerkurve angepasst. Die meisten Änderungen sind kleine Prozentwerte — aber einige Gegenstände sind jetzt deutlich günstiger, um den frühen Fortschritt zu unterstützen.",
+      "paragraphDesktop": "Wir haben jeden Händlerpreis, jede Event-Belohnung und die tägliche Steuerkurve angepasst. Die meisten Änderungen sind kleine Prozentwerte, die in einer normalen Session unsichtbar sein sollten — aber einige Gegenstände sind jetzt deutlich günstiger, um den Einstieg zu erleichtern.",
+      "quoteMobile": "„Wir wollten, dass neue Spieler in den ersten drei Spielstunden echten Fortschritt spüren — kein langsames Grinden.“",
+      "quoteDesktop": "„Wir wollten, dass neue Spieler in den ersten drei Spielstunden echten Fortschritt spüren — kein langsames Grinden. Der Großteil der Rebalance zielt auf die erste und zweite Stunde eines neuen Accounts ab.“",
       "quoteAuthor": "Mike Rasmus, Lead Server Engineer",
-      "tldrDesktop": "Eine vollst\u00e4ndige \u00dcbersicht aller \u00c4nderungen ist im Entwickler-Blog ver\u00f6ffentlicht. Die Kurzfassung findest du unten.",
+      "tldrDesktop": "Eine vollständige Übersicht aller Änderungen ist im Entwickler-Blog veröffentlicht. Die Kurzfassung findest du unten.",
       "bulletsMobile": [
-        "Werkzeuge und einfache R\u00fcstungen sind 15\u201325\u00a0% g\u00fcnstiger.",
-        "Beacons und verzauberte Ausr\u00fcstung sind 5\u201310\u00a0% teurer.",
-        "T\u00e4glicher Login-Bonus um 20\u00a0% erh\u00f6ht.",
-        "Turnier-Preispools ungef\u00e4hr verdoppelt."
+        "Werkzeuge und einfache Rüstungen sind 15–25 % günstiger.",
+        "Beacons und verzauberte Ausrüstung sind 5–10 % teurer.",
+        "Täglicher Login-Bonus um 20 % erhöht.",
+        "Turnier-Preispools ungefähr verdoppelt."
       ],
       "bulletsDesktop": [
-        "Werkzeuge und einfache R\u00fcstungen sind 15\u201325\u00a0% g\u00fcnstiger.",
-        "Beacons und verzauberte Ausr\u00fcstung sind 5\u201310\u00a0% teurer.",
-        "T\u00e4glicher Login-Bonus um 20\u00a0% erh\u00f6ht.",
-        "Turnier-Preispools sind ungef\u00e4hr doppelt so gro\u00df wie letzte Saison."
+        "Werkzeuge und einfache Rüstungen sind 15–25 % günstiger.",
+        "Beacons und verzauberte Ausrüstung sind 5–10 % teurer.",
+        "Täglicher Login-Bonus um 20 % erhöht.",
+        "Turnier-Preispools sind ungefähr doppelt so groß wie letzte Saison."
       ]
     },
     "s05": {
       "title": "5. Turniermodus",
-      "paragraphMobile": "Das gr\u00f6\u00dfte einzelne Feature in 2.6. Jede Woche \u00f6ffnet freitags um 18:00 UTC ein neues Bracket und l\u00e4uft bis Sonntag 23:59 UTC. Top-Platzierer erhalten Trophäen, Preisgeld-W\u00e4hrung und exklusive Kosmetik.",
-      "paragraphDesktop": "Das gr\u00f6\u00dfte einzelne Feature in 2.6: der Turniermodus. Jede Woche \u00f6ffnet freitags um 18:00 UTC ein neues Bracket und l\u00e4uft bis Sonntag um 23:59 UTC. Top-Platzierer erhalten Saisontrophäen, Preisgeld-W\u00e4hrung und exklusive kosmetische Skins.",
-      "figureAlt": "Turnier-Bracket-Oberfl\u00e4che",
-      "figureCaption": "Beschriftung: Die neue Bracket-Oberfl\u00e4che \u2014 direkt \u00fcber das In-Game-Men\u00fc zug\u00e4nglich.",
+      "paragraphMobile": "Das größte einzelne Feature in 2.6. Jede Woche öffnet freitags um 18:00 UTC ein neues Bracket und läuft bis Sonntag 23:59 UTC. Top-Platzierer erhalten Trophäen, Preisgeld-Währung und exklusive Kosmetik.",
+      "paragraphDesktop": "Das größte einzelne Feature in 2.6: der Turniermodus. Jede Woche öffnet freitags um 18:00 UTC ein neues Bracket und läuft bis Sonntag um 23:59 UTC. Top-Platzierer erhalten Saisontrophäen, Preisgeld-Währung und exklusive kosmetische Skins.",
+      "figureAlt": "Turnier-Bracket-Oberfläche",
+      "figureCaption": "Beschriftung: Die neue Bracket-Oberfläche — direkt über das In-Game-Menü zugänglich.",
       "paragraph2Mobile": "Brackets werden automatisch nach Spielzeit ausgeglichen, sodass neue Accounts mit gleichrangigen Spielern konkurrieren.",
-      "paragraph2Desktop": "Brackets werden automatisch nach Spielzeit und bisheriger Leistung ausgeglichen, sodass neue Accounts mit gleichrangigen Spielern konkurrieren. Einen vollst\u00e4ndigen Strategie-Guide ver\u00f6ffentlichen wir, sobald die erste Saison in drei Wochen endet."
+      "paragraph2Desktop": "Brackets werden automatisch nach Spielzeit und bisheriger Leistung ausgeglichen, sodass neue Accounts mit gleichrangigen Spielern konkurrieren. Einen vollständigen Strategie-Guide veröffentlichen wir, sobald die erste Saison in drei Wochen endet."
     },
     "s06": {
       "title": "6. So wird das Update installiert",
-      "paragraphMobile": "Der Patch installiert sich beim n\u00e4chsten Start automatisch. Um das Update zu erzwingen, folge den Schritten unten.",
-      "paragraphDesktop": "Du musst nichts tun \u2014 der Patch installiert sich beim n\u00e4chsten Start automatisch. Wenn du das Update manuell erzwingen m\u00f6chtest, folge den Schritten unten.",
+      "paragraphMobile": "Der Patch installiert sich beim nächsten Start automatisch. Um das Update zu erzwingen, folge den Schritten unten.",
+      "paragraphDesktop": "Du musst nichts tun — der Patch installiert sich beim nächsten Start automatisch. Wenn du das Update manuell erzwingen möchtest, folge den Schritten unten.",
       "stepsMobile": [
-        "Schlie\u00dfe das Spiel vollst\u00e4ndig.",
+        "Schließe das Spiel vollständig.",
         "Starte den Launcher und klicke auf das Aktualisieren-Symbol.",
         "Warte, bis das Update-Banner verschwindet.",
         "Starte das Spiel; du solltest auf dem 2.6-Startbildschirm landen."
       ],
       "stepsDesktop": [
-        "Schlie\u00dfe das Spiel vollst\u00e4ndig.",
+        "Schließe das Spiel vollständig.",
         "Starte den Launcher und klicke auf das kleine Aktualisieren-Symbol neben dem Play-Button.",
         "Warte, bis das Update-Banner verschwindet.",
         "Starte das Spiel wie gewohnt; du solltest auf dem 2.6-Startbildschirm landen."
       ],
       "calloutTitle": "Leistungshinweis",
-      "calloutMobile": "Wer hochaufl\u00f6sende Ressourcenpakete nutzt, sollte beim ersten Start nach dem Update mit einer einmalig l\u00e4ngeren Ladezeit rechnen.",
-      "calloutDesktop": "Wer hochaufl\u00f6sende Ressourcenpakete nutzt, sollte beim ersten Start nach dem Update mit einer einmalig l\u00e4ngeren Ladezeit rechnen. Folgende Starts laufen wieder normal."
+      "calloutMobile": "Wer hochauflösende Ressourcenpakete nutzt, sollte beim ersten Start nach dem Update mit einer einmalig längeren Ladezeit rechnen.",
+      "calloutDesktop": "Wer hochauflösende Ressourcenpakete nutzt, sollte beim ersten Start nach dem Update mit einer einmalig längeren Ladezeit rechnen. Folgende Starts laufen wieder normal."
     },
     "s07": {
       "title": "7. Bekannte Probleme",
-      "paragraphMobile": "Hier ist, was wir bereits wissen und f\u00fcr Hotfix 2.6.1 verfolgen, der f\u00fcr n\u00e4chsten Dienstag geplant ist.",
-      "paragraphDesktop": "Jedes Release bringt ein paar raue Kanten mit. Hier ist, was wir bereits wissen und f\u00fcr Hotfix 2.6.1 verfolgen, der f\u00fcr n\u00e4chsten Dienstag geplant ist.",
+      "paragraphMobile": "Hier ist, was wir bereits wissen und für Hotfix 2.6.1 verfolgen, der für nächsten Dienstag geplant ist.",
+      "paragraphDesktop": "Jedes Release bringt ein paar raue Kanten mit. Hier ist, was wir bereits wissen und für Hotfix 2.6.1 verfolgen, der für nächsten Dienstag geplant ist.",
       "issuesMobile": [
-        "Ender-Kompass zeigt gelegentlich auf den Spawn \u2014 Fix in 2.6.1.",
+        "Ender-Kompass zeigt gelegentlich auf den Spawn — Fix in 2.6.1.",
         "Freundes-Leuchtturm wird auf manchen Viewports nicht angezeigt.",
-        "Turnier-Chat verz\u00f6gert um 5\u201310 Sekunden zu Spitzenlastzeiten.",
+        "Turnier-Chat verzögert um 5–10 Sekunden zu Spitzenlastzeiten.",
         "Drei kleinere Laternenfehler in dunklen Biomen."
       ],
       "issuesDesktop": [
         "Ender-Kompass zeigt gelegentlich auf den Welt-Spawn statt auf den letzten Tod; Fix in 2.6.1.",
         "Freundes-Leuchtturm wird auf bestimmten mobilen Viewports nicht korrekt angezeigt.",
-        "Turnier-Chat wird w\u00e4hrend Spitzenlastzeiten manchmal um 5\u201310 Sekunden verz\u00f6gert.",
+        "Turnier-Chat wird während Spitzenlastzeiten manchmal um 5–10 Sekunden verzögert.",
         "Drei kleinere visuelle Fehler mit der neuen Laternen-Kosmetik in dunklen Biomen."
       ]
     },
     "s08": {
-      "title": "8. Was kommt als N\u00e4chstes",
-      "paragraphMobile": "Wir planen bereits 2.7. Highlights: eine Kreativmodus-Sandbox, erweiterte Redstone-Komponenten und ein In-Game-Makro-Rekorder. Public-Test-Branch \u00f6ffnet Mitte Juni.",
-      "paragraphDesktop": "Wir sind bereits tief in der Planung f\u00fcr 2.7. Die Highlights sind eine Kreativmodus-Bau-Sandbox, erweiterte Redstone-Komponenten und ein In-Game-Makro-Rekorder f\u00fcr sich wiederholende Builds. Der Public-Test-Branch \u00f6ffnet voraussichtlich Mitte Juni.",
+      "title": "8. Was kommt als Nächstes",
+      "paragraphMobile": "Wir planen bereits 2.7. Highlights: eine Kreativmodus-Sandbox, erweiterte Redstone-Komponenten und ein In-Game-Makro-Rekorder. Public-Test-Branch öffnet Mitte Juni.",
+      "paragraphDesktop": "Wir sind bereits tief in der Planung für 2.7. Die Highlights sind eine Kreativmodus-Bau-Sandbox, erweiterte Redstone-Komponenten und ein In-Game-Makro-Rekorder für sich wiederholende Builds. Der Public-Test-Branch öffnet voraussichtlich Mitte Juni.",
       "closingMobile": "Danke, dass du Teil der Community bist. Bis bald auf den Inseln.",
-      "closingDesktop": "Danke, wie immer, f\u00fcr deine Teilnahme an der Community. Bis bald auf den Inseln.",
+      "closingDesktop": "Danke, wie immer, für deine Teilnahme an der Community. Bis bald auf den Inseln.",
       "cta": "Alle Updates ansehen"
     },
     "relatedBadge": "Diese Woche beliebt",
@@ -238,9 +272,9 @@
     "relatedAllArticles": "Alle Artikel",
     "related": [
       {
-        "title": "Die 10 besten \u00dcberlebenstipps f\u00fcr absolute Anf\u00e4nger",
-        "description": "Ein Spawn in einer frischen Welt ist \u00fcberw\u00e4ltigend. Hier ist die kurze Liste, was du in deiner ersten Stunde tun solltest.",
-        "descriptionDesktop": "Ein Spawn in einer frischen Welt ist \u00fcberw\u00e4ltigend. Hier ist die kurze Liste \u2014 plus die drei Fehler, die die meisten neuen Runs ruinieren.",
+        "title": "Die 10 besten Überlebenstipps für absolute Anfänger",
+        "description": "Ein Spawn in einer frischen Welt ist überwältigend. Hier ist die kurze Liste, was du in deiner ersten Stunde tun solltest.",
+        "descriptionDesktop": "Ein Spawn in einer frischen Welt ist überwältigend. Hier ist die kurze Liste — plus die drei Fehler, die die meisten neuen Runs ruinieren.",
         "genre": "Guides",
         "time": 4,
         "date": "Apr 22, 2026",
@@ -250,7 +284,7 @@
       {
         "title": "So baust du eine effiziente Eisenfarm in 2026",
         "description": "Ein kompaktes, lag-freundliches Design, das ~600 Barren pro Stunde produziert und auf allen drei unserer Server funktioniert.",
-        "descriptionDesktop": "Ein kompaktes, lag-freundliches Eisenfarm-Design, das rund 600 Barren pro Stunde produziert und auf jedem Server funktioniert \u2014 keine Datapacks n\u00f6tig.",
+        "descriptionDesktop": "Ein kompaktes, lag-freundliches Eisenfarm-Design, das rund 600 Barren pro Stunde produziert und auf jedem Server funktioniert — keine Datapacks nötig.",
         "genre": "Engineering",
         "time": 6,
         "date": "Apr 18, 2026",
@@ -259,7 +293,7 @@
       },
       {
         "title": "PvP-Loadouts, die auf MineWars wirklich funktionieren",
-        "description": "Wir haben 18 Builds \u00fcber zwei Wochen kleiner K\u00e4mpfe getestet. Vier Loadouts gewinnen immer wieder \u2014 der Rest kann in Rente gehen.",
+        "description": "Wir haben 18 Builds über zwei Wochen kleiner Kämpfe getestet. Vier Loadouts gewinnen immer wieder — der Rest kann in Rente gehen.",
         "descriptionDesktop": "Wir haben 18 Builds getestet. Das sind die vier Loadouts, die immer wieder gewinnen, plus die, die du getrost in Rente schicken kannst.",
         "genre": "PvP",
         "time": 5,
@@ -271,43 +305,51 @@
   },
   "posts": {
     "survival-tips": {
-      "title": "Die 10 besten \u00dcberlebenstipps f\u00fcr absolute Anf\u00e4nger",
-      "description": "Ein Spawn in einer frischen Welt ist \u00fcberw\u00e4ltigend. Hier ist die kurze Liste, was du in deiner ersten Stunde tun solltest.",
-      "descriptionDesktop": "Ein Spawn in einer frischen Welt ist \u00fcberw\u00e4ltigend \u2014 \u00fcberall B\u00e4ume, D\u00e4mmerungs-Mobs und keine Karte. Hier ist die kurze Liste, was du in deiner ersten Stunde tun solltest, plus die drei Fehler, die die meisten neuen Runs vor Tag zwei ruinieren.",
-      "breadcrumbLabel": "\u00dcberlebenstipps",
-      "heroTags": ["Guides", "\u00dcberleben"],
-      "sidebarTags": ["Guides", "\u00dcberleben", "Anf\u00e4nger", "Tipps"],
+      "title": "Die 10 besten Überlebenstipps für absolute Anfänger",
+      "description": "Ein Spawn in einer frischen Welt ist überwältigend. Hier ist die kurze Liste, was du in deiner ersten Stunde tun solltest.",
+      "descriptionDesktop": "Ein Spawn in einer frischen Welt ist überwältigend — überall Bäume, Dämmerungs-Mobs und keine Karte. Hier ist die kurze Liste, was du in deiner ersten Stunde tun solltest, plus die drei Fehler, die die meisten neuen Runs vor Tag zwei ruinieren.",
+      "breadcrumbLabel": "Überlebenstipps",
+      "heroTags": [
+        "Guides",
+        "Überleben"
+      ],
+      "sidebarTags": [
+        "Guides",
+        "Überleben",
+        "Anfänger",
+        "Tipps"
+      ],
       "lead": {
-        "mobile": "Deine erste Stunde in einer Survival-Welt bestimmt alles, was danach kommt. Diese zehn Priorit\u00e4ten stammen aus Hunderten von Neuspieler-Sessions auf unseren Servern \u2014 geordnet danach, was dich wirklich am Leben h\u00e4lt.",
-        "desktop": "Deine erste Stunde in einer Survival-Welt bestimmt alles, was danach kommt. Diese zehn Priorit\u00e4ten stammen aus Hunderten von Neuspieler-Sessions auf unseren Servern \u2014 geordnet danach, was dich wirklich am Leben h\u00e4lt, nicht nach dem, was Speedrunner auf YouTube machen. Befolge sie der Reihe nach und du erreichst Tag zwei mit Nahrung, Unterkunft und echten Werkzeugen."
+        "mobile": "Deine erste Stunde in einer Survival-Welt bestimmt alles, was danach kommt. Diese zehn Prioritäten stammen aus Hunderten von Neuspieler-Sessions auf unseren Servern — geordnet danach, was dich wirklich am Leben hält.",
+        "desktop": "Deine erste Stunde in einer Survival-Welt bestimmt alles, was danach kommt. Diese zehn Prioritäten stammen aus Hunderten von Neuspieler-Sessions auf unseren Servern — geordnet danach, was dich wirklich am Leben hält, nicht nach dem, was Speedrunner auf YouTube machen. Befolge sie der Reihe nach und du erreichst Tag zwei mit Nahrung, Unterkunft und echten Werkzeugen."
       },
       "sections": [
         {
           "id": "01",
-          "tocLabel": "Checkliste f\u00fcr die erste Stunde",
-          "title": "Checkliste f\u00fcr die erste Stunde",
+          "tocLabel": "Checkliste für die erste Stunde",
+          "title": "Checkliste für die erste Stunde",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
                 "mobile": "Bevor du erkundest, halte dich an einen einfachen Ablauf: Holz schlagen, Bretter craften, Werkzeugbank bauen, dann Werkzeuge. Alles andere wartet, bis du Stein hast.",
-                "desktop": "Bevor du erkundest, halte dich an einen einfachen Ablauf: Holz schlagen, Bretter craften, Werkzeugbank bauen, dann Grundwerkzeuge. Alles andere \u2014 H\u00f6hlen, D\u00f6rfer, aufwendige Builds \u2014 wartet, bis du Steinausr\u00fcstung und einen Schlafplatz f\u00fcr die Nacht hast."
+                "desktop": "Bevor du erkundest, halte dich an einen einfachen Ablauf: Holz schlagen, Bretter craften, Werkzeugbank bauen, dann Grundwerkzeuge. Alles andere — Höhlen, Dörfer, aufwendige Builds — wartet, bis du Steinausrüstung und einen Schlafplatz für die Nacht hast."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "16+ Holzst\u00e4mme sammeln und zu Brettern verarbeiten.",
-                "Werkzeugbank und h\u00f6lzerne Spitzhacke craften.",
-                "11 Kies f\u00fcr Steinwerkzeuge abbauen.",
-                "Kohle finden oder Holz f\u00fcr Fackeln verbrennen.",
-                "Vor Sonnenuntergang eine 3\u00d73-Erdhh\u00fctte bauen."
+                "16+ Holzstämme sammeln und zu Brettern verarbeiten.",
+                "Werkzeugbank und hölzerne Spitzhacke craften.",
+                "11 Kies für Steinwerkzeuge abbauen.",
+                "Kohle finden oder Holz für Fackeln verbrennen.",
+                "Vor Sonnenuntergang eine 3×3-Erdhhütte bauen."
               ],
               "desktopItems": [
-                "Mindestens 16 Holzst\u00e4mme sammeln und zu Brettern verarbeiten.",
-                "Werkzeugbank, St\u00e4be und eine h\u00f6lzerne Spitzhacke craften.",
+                "Mindestens 16 Holzstämme sammeln und zu Brettern verarbeiten.",
+                "Werkzeugbank, Stäbe und eine hölzerne Spitzhacke craften.",
                 "11 Kies abbauen und auf Steinwerkzeuge upgraden.",
-                "Kohle finden oder Holzkohle f\u00fcr mindestens vier Fackeln schmelzen.",
+                "Kohle finden oder Holzkohle für mindestens vier Fackeln schmelzen.",
                 "Vor Sonnenuntergang eine kleine Erd- oder Kiesunterkunft bauen."
               ]
             }
@@ -321,15 +363,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Die erste Nacht t\u00f6tet mehr neue Spieler als Creeper. Du brauchst kein Haus \u2014 du brauchst vier W\u00e4nde, ein Dach und eine T\u00fcr. Ein Loch im Boden z\u00e4hlt.",
-                "desktop": "Die erste Nacht t\u00f6tet mehr neue Spieler als Creeper es je tun werden. Du brauchst kein Haus mit Fenstern \u2014 du brauchst vier W\u00e4nde, ein Dach und eine T\u00fcr. Ein Loch im Boden mit einer Fackel z\u00e4hlt. Lichtlevel ist wichtig: eine Fackel innen verhindert die meisten Mob-Spawns."
+                "mobile": "Die erste Nacht tötet mehr neue Spieler als Creeper. Du brauchst kein Haus — du brauchst vier Wände, ein Dach und eine Tür. Ein Loch im Boden zählt.",
+                "desktop": "Die erste Nacht tötet mehr neue Spieler als Creeper es je tun werden. Du brauchst kein Haus mit Fenstern — du brauchst vier Wände, ein Dach und eine Tür. Ein Loch im Boden mit einer Fackel zählt. Lichtlevel ist wichtig: eine Fackel innen verhindert die meisten Mob-Spawns."
               }
             },
             {
               "type": "figure",
               "src": "/blog/1.webp",
-              "alt": "Erste \u00dcberlebensunterkunft bei D\u00e4mmerung",
-              "caption": "Beschriftung: Eine minimale Erste-Nacht-Unterkunft \u2014 Erdw\u00e4nde, h\u00f6lzerne T\u00fcr, eine Fackel.",
+              "alt": "Erste Überlebensunterkunft bei Dämmerung",
+              "caption": "Beschriftung: Eine minimale Erste-Nacht-Unterkunft — Erdwände, hölzerne Tür, eine Fackel.",
               "dashed": true
             },
             {
@@ -337,8 +379,8 @@
               "variant": "info",
               "title": "Hinweis",
               "text": {
-                "mobile": "Auf unseren Servern \u00fcberspringt Schlafen die Nacht nur, wenn die meisten Online-Spieler in deinem Chunk in Betten liegen. Solo? Deine Unterkunft ist dein Schlaf-Button.",
-                "desktop": "Auf unseren Servern \u00fcberspringt Schlafen die Nacht nur, wenn die meisten Online-Spieler in deinem Chunk in Betten liegen. Spielst du solo? Deine Unterkunft ist dein Schlaf-Button \u2014 wandere nicht nach drau\u00dfen, bis du ein Bett gecraftet hast."
+                "mobile": "Auf unseren Servern überspringt Schlafen die Nacht nur, wenn die meisten Online-Spieler in deinem Chunk in Betten liegen. Solo? Deine Unterkunft ist dein Schlaf-Button.",
+                "desktop": "Auf unseren Servern überspringt Schlafen die Nacht nur, wenn die meisten Online-Spieler in deinem Chunk in Betten liegen. Spielst du solo? Deine Unterkunft ist dein Schlaf-Button — wandere nicht nach draußen, bis du ein Bett gecraftet hast."
               }
             }
           ]
@@ -351,8 +393,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Hunger sinkt beim Sprinten, Springen und K\u00e4mpfen. T\u00f6te am ersten Tag Tiere f\u00fcr Fleisch oder brich hohes Gras f\u00fcr Samen. Brot ist sicherer als rohes Fleisch.",
-                "desktop": "Hunger sinkt beim Sprinten, Springen und K\u00e4mpfen. T\u00f6te am ersten Tag passive Tiere f\u00fcr Fleisch oder brich hohes Gras f\u00fcr Weizensamen. Gekochtes Essen stellt mehr wieder her \u2014 und Brot ist sicherer als rohes H\u00fchnchen, bevor du Reserveleben hast."
+                "mobile": "Hunger sinkt beim Sprinten, Springen und Kämpfen. Töte am ersten Tag Tiere für Fleisch oder brich hohes Gras für Samen. Brot ist sicherer als rohes Fleisch.",
+                "desktop": "Hunger sinkt beim Sprinten, Springen und Kämpfen. Töte am ersten Tag passive Tiere für Fleisch oder brich hohes Gras für Weizensamen. Gekochtes Essen stellt mehr wieder her — und Brot ist sicherer als rohes Hühnchen, bevor du Reserveleben hast."
               }
             },
             {
@@ -360,13 +402,13 @@
               "items": [
                 "Gras brechen, bis du Samen hast.",
                 "Erde neben Wasser hacken und anpflanzen.",
-                "K\u00fche f\u00fcr Leder (sp\u00e4tere R\u00fcstung) und Rindfleisch t\u00f6ten.",
+                "Kühe für Leder (spätere Rüstung) und Rindfleisch töten.",
                 "Fleisch in einem Ofen schmelzen, sobald du Kohle hast."
               ],
               "desktopItems": [
-                "Grasbl\u00f6cke brechen, bis du Weizensamen gesammelt hast.",
+                "Grasblöcke brechen, bis du Weizensamen gesammelt hast.",
                 "Eine Hacke craften, Erde neben Wasser hacken und Samen pflanzen.",
-                "K\u00fche f\u00fcr Leder (sp\u00e4tere R\u00fcstung) und rohes Rindfleisch t\u00f6ten.",
+                "Kühe für Leder (spätere Rüstung) und rohes Rindfleisch töten.",
                 "Fleisch in einem Ofen schmelzen, sobald du Kohle oder Holzkohle hast."
               ]
             }
@@ -380,15 +422,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Upgrade-Reihenfolge: Holz \u2192 Stein \u2192 Eisen. Niemals Diamant mit einer Steinspitzhacke abbauen. Halte eine Ersatz-Spitzhacke in deiner Hotbar.",
-                "desktop": "Upgrade-Reihenfolge: Holz \u2192 Stein \u2192 Eisen \u2192 Diamant. Niemals Diamanterz mit einer Steinspitzhacke abbauen \u2014 du zerst\u00f6rst den Drop. Halte eine Ersatz-Spitzhacke in deiner Hotbar; nichts stoppt einen Run so sehr wie das Brechen deines einzigen Werkzeugs zweihundert Bl\u00f6cke unter der Erde."
+                "mobile": "Upgrade-Reihenfolge: Holz → Stein → Eisen. Niemals Diamant mit einer Steinspitzhacke abbauen. Halte eine Ersatz-Spitzhacke in deiner Hotbar.",
+                "desktop": "Upgrade-Reihenfolge: Holz → Stein → Eisen → Diamant. Niemals Diamanterz mit einer Steinspitzhacke abbauen — du zerstörst den Drop. Halte eine Ersatz-Spitzhacke in deiner Hotbar; nichts stoppt einen Run so sehr wie das Brechen deines einzigen Werkzeugs zweihundert Blöcke unter der Erde."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201eSteinwerkzeuge bei Sonnenuntergang, Eisen bis Tag drei \u2014 das ist das Tempo, das sich auf unseren Survival-Welten gut anf\u00fchlt.\u201c",
-                "desktop": "\u201eSteinwerkzeuge bei Sonnenuntergang, Eisen bis Tag drei \u2014 das ist das Tempo, das sich auf unseren Survival-Welten gut anf\u00fchlt. Wer Diamant am ersten Tag forciert, stirbt meistens mit vollem Inventar.\u201c"
+                "mobile": "„Steinwerkzeuge bei Sonnenuntergang, Eisen bis Tag drei — das ist das Tempo, das sich auf unseren Survival-Welten gut anfühlt.“",
+                "desktop": "„Steinwerkzeuge bei Sonnenuntergang, Eisen bis Tag drei — das ist das Tempo, das sich auf unseren Survival-Welten gut anfühlt. Wer Diamant am ersten Tag forciert, stirbt meistens mit vollem Inventar.“"
               },
               "author": "Elena Voss, Community Guide Lead"
             }
@@ -402,37 +444,37 @@
             {
               "type": "bullets",
               "items": [
-                "Gerade nach unten graben \u2014 Lava und H\u00f6hlen beenden Runs sofort.",
-                "Alles tragen \u2014 Ersatzausr\u00fcstung an der Basis lassen.",
-                "Licht ignorieren \u2014 Mobs spawnen dort, wo du nicht siehst."
+                "Gerade nach unten graben — Lava und Höhlen beenden Runs sofort.",
+                "Alles tragen — Ersatzausrüstung an der Basis lassen.",
+                "Licht ignorieren — Mobs spawnen dort, wo du nicht siehst."
               ],
               "desktopItems": [
-                "Gerade nach unten graben \u2014 Lavaseen und \u00fcberraschende H\u00f6hlen beenden Runs sofort.",
-                "Das gesamte Inventar auf Erkundung mitnehmen \u2014 Ersatzwerkzeuge und Essen an der Basis lassen.",
-                "Lichtlevel ignorieren \u2014 feindliche Mobs spawnen in jedem unbeleuchteten Bereich, auch in deinem unfertigen Keller."
+                "Gerade nach unten graben — Lavaseen und überraschende Höhlen beenden Runs sofort.",
+                "Das gesamte Inventar auf Erkundung mitnehmen — Ersatzwerkzeuge und Essen an der Basis lassen.",
+                "Lichtlevel ignorieren — feindliche Mobs spawnen in jedem unbeleuchteten Bereich, auch in deinem unfertigen Keller."
               ]
             },
             {
               "type": "callout",
               "variant": "warn",
-              "title": "H\u00e4ufige Falle",
+              "title": "Häufige Falle",
               "text": {
-                "mobile": "Inventar-Shulker-Runs f\u00fchlen sich spannend an, bis ein Creeper zwei Stunden Fortschritt ausl\u00f6scht. Wertgegend\u00e4nde fr\u00fchzeitig einlagern.",
-                "desktop": "Inventar-Shulker-Runs f\u00fchlen sich spannend an, bis ein Creeper in einem dunklen Tunnel zwei Stunden Fortschritt ausl\u00f6scht. Wertgegenst\u00e4nde in Truhen an der Basis deponieren, bevor du in neue Biome vordringst."
+                "mobile": "Inventar-Shulker-Runs fühlen sich spannend an, bis ein Creeper zwei Stunden Fortschritt auslöscht. Wertgegendände frühzeitig einlagern.",
+                "desktop": "Inventar-Shulker-Runs fühlen sich spannend an, bis ein Creeper in einem dunklen Tunnel zwei Stunden Fortschritt auslöscht. Wertgegenstände in Truhen an der Basis deponieren, bevor du in neue Biome vordringst."
               }
             }
           ]
         },
         {
           "id": "06",
-          "tocLabel": "Was als N\u00e4chstes tun",
-          "title": "Was als N\u00e4chstes tun",
+          "tocLabel": "Was als Nächstes tun",
+          "title": "Was als Nächstes tun",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Sobald du drei N\u00e4chte \u00fcberlebst, wechsle vom Panikmodus zur Planung: Eisenr\u00fcstung, eine richtige Farm und eine kartierte Basis. Unser Redstone-Weizen-Guide ist der logische n\u00e4chste Schritt.",
-                "desktop": "Sobald du drei N\u00e4chte \u00fcberlebst, wechsle vom Panikmodus zur Planung: Eisenr\u00fcstung, eine richtige Ernte-Farm und einen kartierten Basisstandort. Unser Redstone-101-Weizenfarm-Guide ist der logische n\u00e4chste Schritt, wenn du passives Essen ohne st\u00e4ndige Pflege willst."
+                "mobile": "Sobald du drei Nächte überlebst, wechsle vom Panikmodus zur Planung: Eisenrüstung, eine richtige Farm und eine kartierte Basis. Unser Redstone-Weizen-Guide ist der logische nächste Schritt.",
+                "desktop": "Sobald du drei Nächte überlebst, wechsle vom Panikmodus zur Planung: Eisenrüstung, eine richtige Ernte-Farm und einen kartierten Basisstandort. Unser Redstone-101-Weizenfarm-Guide ist der logische nächste Schritt, wenn du passives Essen ohne ständige Pflege willst."
               }
             },
             {
@@ -448,13 +490,21 @@
     "iron-farm": {
       "title": "So baust du eine effiziente Eisenfarm in 2026",
       "description": "Ein kompaktes, lag-freundliches Design, das ~600 Barren pro Stunde produziert und auf allen drei unserer Server funktioniert.",
-      "descriptionDesktop": "Ein kompaktes, lag-freundliches Eisenfarm-Design, das rund 600 Barren pro Stunde produziert und auf allen drei unserer Server funktioniert \u2014 keine Datapacks, kein Chunk-Busting, und vollst\u00e4ndig AFK-freundlich nach dem Bau.",
+      "descriptionDesktop": "Ein kompaktes, lag-freundliches Eisenfarm-Design, das rund 600 Barren pro Stunde produziert und auf allen drei unserer Server funktioniert — keine Datapacks, kein Chunk-Busting, und vollständig AFK-freundlich nach dem Bau.",
       "breadcrumbLabel": "Eisenfarm-Guide",
-      "heroTags": ["Engineering", "Farmen"],
-      "sidebarTags": ["Engineering", "Eisen", "Farmen", "Redstone"],
+      "heroTags": [
+        "Engineering",
+        "Farmen"
+      ],
+      "sidebarTags": [
+        "Engineering",
+        "Eisen",
+        "Farmen",
+        "Redstone"
+      ],
       "lead": {
-        "mobile": "Eisen ist der Engpass f\u00fcr Werkzeuge, Schienen und Amboss auf jeder Langzeit-Welt. Dieses 2026-Design tauscht Gr\u00f6\u00dfe gegen Durchsatz \u2014 etwa 600 Barren pro Stunde bei unserem Standard-Tick-Rate.",
-        "desktop": "Eisen ist der Engpass f\u00fcr Werkzeuge, Schienen und Amboss auf jeder Langzeit-Welt. Dieses 2026-Design tauscht Fl\u00e4che gegen Durchsatz \u2014 etwa 600 Barren pro Stunde bei unserem Standard-Tick-Rate, mit so niedrigen Entity-Zahlen, dass TPS auch an belebten Abenden stabil bleibt."
+        "mobile": "Eisen ist der Engpass für Werkzeuge, Schienen und Amboss auf jeder Langzeit-Welt. Dieses 2026-Design tauscht Größe gegen Durchsatz — etwa 600 Barren pro Stunde bei unserem Standard-Tick-Rate.",
+        "desktop": "Eisen ist der Engpass für Werkzeuge, Schienen und Amboss auf jeder Langzeit-Welt. Dieses 2026-Design tauscht Fläche gegen Durchsatz — etwa 600 Barren pro Stunde bei unserem Standard-Tick-Rate, mit so niedrigen Entity-Zahlen, dass TPS auch an belebten Abenden stabil bleibt."
       },
       "sections": [
         {
@@ -465,21 +515,21 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "\u00c4ltere Eisenfarmen setzten auf riesige Dorfbewohner-S\u00e4le und unzuverl\u00e4ssige Spawn-Raten. Der 2026-Kompakt nutzt drei Plattform-Ebenen und eine einzige Kill-Kammer \u2014 weniger Entities, gleicher Output.",
-                "desktop": "\u00c4ltere Eisenfarmen setzten auf riesige Dorfbewohner-S\u00e4le und unzuverl\u00e4ssige Spawn-Raten im Server-Ma\u00dfstab. Der 2026-Kompakt nutzt drei Plattform-Ebenen, eine einzelne Wasserstrahl-Kill-Kammer und eine Hopper-Sammellinie \u2014 weniger Entities, gleicher St\u00fcnden-Output, einfacher zu debuggen."
+                "mobile": "Ältere Eisenfarmen setzten auf riesige Dorfbewohner-Säle und unzuverlässige Spawn-Raten. Der 2026-Kompakt nutzt drei Plattform-Ebenen und eine einzige Kill-Kammer — weniger Entities, gleicher Output.",
+                "desktop": "Ältere Eisenfarmen setzten auf riesige Dorfbewohner-Säle und unzuverlässige Spawn-Raten im Server-Maßstab. Der 2026-Kompakt nutzt drei Plattform-Ebenen, eine einzelne Wasserstrahl-Kill-Kammer und eine Hopper-Sammellinie — weniger Entities, gleicher Stünden-Output, einfacher zu debuggen."
               }
             },
             {
               "type": "bullets",
               "items": [
                 "~600 Eisenbarren pro Stunde bei Standard-Tick-Rate.",
-                "Passt in einen 16\u00d716-Claim ohne Nachbarn zu ber\u00fchren.",
+                "Passt in einen 16×16-Claim ohne Nachbarn zu berühren.",
                 "Keine clientseitigen Mods oder Datapacks erforderlich.",
                 "AFK-sicher, sobald Lava und Hopper-Leitungen getestet sind."
               ],
               "desktopItems": [
                 "Rund 600 Eisenbarren pro Stunde bei unserem Standard-Tick-Rate.",
-                "Passt vollst\u00e4ndig in einen 16\u00d716-Land-Claim ohne Nachbarn zu \u00fcberschreiten.",
+                "Passt vollständig in einen 16×16-Land-Claim ohne Nachbarn zu überschreiten.",
                 "Keine clientseitigen Mods, Schematic-Mods oder Server-Datapacks erforderlich.",
                 "AFK-sicher, sobald Lava-Klinge-Timing und Hopper-Leitungen einmal getestet wurden."
               ]
@@ -494,39 +544,39 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Plane einen vollen Abend f\u00fcrs Sammeln. Die meisten Kosten entstehen durch Betten, Arbeitsstationen und Baumaterialien \u2014 nicht Redstone.",
-                "desktop": "Plane einen vollen Abend f\u00fcrs Sammeln und einen zweiten f\u00fcrs Bauen. Die meisten Materialkosten entstehen durch Betten, Arbeitsstationen und Baumaterialien \u2014 nicht Redstone. Du kannst Kies durch jeden Dekorationsblock ersetzen, ohne die Mechanik zu \u00e4ndern."
+                "mobile": "Plane einen vollen Abend fürs Sammeln. Die meisten Kosten entstehen durch Betten, Arbeitsstationen und Baumaterialien — nicht Redstone.",
+                "desktop": "Plane einen vollen Abend fürs Sammeln und einen zweiten fürs Bauen. Die meisten Materialkosten entstehen durch Betten, Arbeitsstationen und Baumaterialien — nicht Redstone. Du kannst Kies durch jeden Dekorationsblock ersetzen, ohne die Mechanik zu ändern."
               }
             },
             {
               "type": "ordered",
               "items": [
                 "3 Dorfbewohner (2 Arbeiter + 1 Zombie-Schreck)",
-                "36 Betten und passende Arbeitsstationsbl\u00f6cke",
+                "36 Betten und passende Arbeitsstationsblöcke",
                 "2 Wassereimer, 1 Lavaeimer, 4 Hopper",
                 "48 Baumaterialien pro Plattform-Ebene",
                 "1 Truhe, 1 Hopper-Lore (optionaler Boost)"
               ],
               "desktopItems": [
-                "3 Dorfbewohner \u2014 zwei Arbeiter plus einen Zombie f\u00fcr Schreck-Mechaniken",
-                "36 Betten und passende Arbeitsstationsbl\u00f6cke (einer pro Bett)",
+                "3 Dorfbewohner — zwei Arbeiter plus einen Zombie für Schreck-Mechaniken",
+                "36 Betten und passende Arbeitsstationsblöcke (einer pro Bett)",
                 "2 Wassereimer, 1 Lavaeimer, 4 Hopper, 8 Truhen",
                 "48 Baumaterialien pro Plattform-Ebene (144 gesamt mindestens)",
-                "1 Sammeltruhe und 1 Hopper-Lore, wenn deine Kill-Kammer Chunks \u00fcberschreitet"
+                "1 Sammeltruhe und 1 Hopper-Lore, wenn deine Kill-Kammer Chunks überschreitet"
               ]
             }
           ]
         },
         {
           "id": "03",
-          "tocLabel": "\u00dcbersicht \u00fcber den Bau",
-          "title": "\u00dcbersicht \u00fcber den Bau",
+          "tocLabel": "Übersicht über den Bau",
+          "title": "Übersicht über den Bau",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Stapele drei Spawn-Plattformen 65 Bl\u00f6cke \u00fcber deinem AFK-Punkt. Dorfbewohner geraten in Panik beim Zombie, Golems spawnen auf den Plattformen und fallen durch Wasser in die Lava-Klinge.",
-                "desktop": "Stapele drei Spawn-Plattformen 65 Bl\u00f6cke \u00fcber deinem AFK-Punkt \u2014 hoch genug, dass unterirdische H\u00f6hlen keine Mob-Cap stehlen. Dorfbewohner geraten in Panik beim Zombie hinter einem Zaun, Golems spawnen auf den Plattformen, fallen dann durch Wasserstr\u00f6me in eine zentrale Lava-Klinge und Hopper-Sammellinie."
+                "mobile": "Stapele drei Spawn-Plattformen 65 Blöcke über deinem AFK-Punkt. Dorfbewohner geraten in Panik beim Zombie, Golems spawnen auf den Plattformen und fallen durch Wasser in die Lava-Klinge.",
+                "desktop": "Stapele drei Spawn-Plattformen 65 Blöcke über deinem AFK-Punkt — hoch genug, dass unterirdische Höhlen keine Mob-Cap stehlen. Dorfbewohner geraten in Panik beim Zombie hinter einem Zaun, Golems spawnen auf den Plattformen, fallen dann durch Wasserströme in eine zentrale Lava-Klinge und Hopper-Sammellinie."
               }
             },
             {
@@ -540,26 +590,26 @@
         },
         {
           "id": "04",
-          "tocLabel": "Schritt-f\u00fcr-Schritt-Bau",
-          "title": "Schritt-f\u00fcr-Schritt-Bau",
+          "tocLabel": "Schritt-für-Schritt-Bau",
+          "title": "Schritt-für-Schritt-Bau",
           "blocks": [
             {
               "type": "ordered",
               "items": [
-                "Markiere eine 7\u00d77-Fl\u00e4che bei Y=120 (anpassen je nach Gel\u00e4nde).",
-                "Platziere Betten und Arbeitsstationen im Ring; sperre den Zombie 2 Bl\u00f6cke entfernt.",
-                "F\u00fcge drei 7\u00d77-Plattformen mit 5 Bl\u00f6cken vertikalem Abstand hinzu.",
-                "F\u00fchre Wasserstr\u00f6me zum zentralen Fallschacht.",
+                "Markiere eine 7×7-Fläche bei Y=120 (anpassen je nach Gelände).",
+                "Platziere Betten und Arbeitsstationen im Ring; sperre den Zombie 2 Blöcke entfernt.",
+                "Füge drei 7×7-Plattformen mit 5 Blöcken vertikalem Abstand hinzu.",
+                "Führe Wasserströme zum zentralen Fallschacht.",
                 "Installiere Lava-Klinge bei Y=55 mit Schildschutz.",
-                "Verbinde Hopper mit einer Doppeltruhe auf Bodenh\u00f6he."
+                "Verbinde Hopper mit einer Doppeltruhe auf Bodenhöhe."
               ],
               "desktopItems": [
-                "Markiere eine 7\u00d77-Fl\u00e4che bei Y=120 \u2014 nach oben anpassen, wenn H\u00f6hlen darunter st\u00f6ren.",
-                "Platziere Betten und Arbeitsstationen im Ring; sperre den Zombie zwei Bl\u00f6cke entfernt hinter einem Zauntor.",
-                "F\u00fcge drei identische 7\u00d77-Plattformen mit f\u00fcnf Bl\u00f6cken vertikalem Abstand hinzu.",
-                "F\u00fchre Wasserstr\u00f6me auf jeder Plattform zum zentralen Fallschacht.",
+                "Markiere eine 7×7-Fläche bei Y=120 — nach oben anpassen, wenn Höhlen darunter stören.",
+                "Platziere Betten und Arbeitsstationen im Ring; sperre den Zombie zwei Blöcke entfernt hinter einem Zauntor.",
+                "Füge drei identische 7×7-Plattformen mit fünf Blöcken vertikalem Abstand hinzu.",
+                "Führe Wasserströme auf jeder Plattform zum zentralen Fallschacht.",
                 "Installiere die Lava-Klinge bei Y=55 mit Schildschutz und einem Sammelhopper.",
-                "Verbinde Hopper mit einer Doppeltruhe auf Bodenh\u00f6he und beschrifte sie."
+                "Verbinde Hopper mit einer Doppeltruhe auf Bodenhöhe und beschrifte sie."
               ]
             },
             {
@@ -581,41 +631,41 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Raten niedrig? \u00dcberpr\u00fcfe die Mob-Cap anderswo, stelle sicher, dass Dorfbewohner nachts schlafen, und stehe am AFK-Pad \u2014 nicht innerhalb der Farm.",
-                "desktop": "Raten niedriger als erwartet? \u00dcberpr\u00fcfe die Mob-Cap-Auslastung anderswo auf dem Server, stelle sicher, dass Dorfbewohner tats\u00e4chlich nachts schlafen, und AFK am vorgesehenen Pad 40 Bl\u00f6cke unterhalb der Plattformen \u2014 innerhalb der Farm stehen bricht die Spawn-Logik auf manchen Versionen."
+                "mobile": "Raten niedrig? Überprüfe die Mob-Cap anderswo, stelle sicher, dass Dorfbewohner nachts schlafen, und stehe am AFK-Pad — nicht innerhalb der Farm.",
+                "desktop": "Raten niedriger als erwartet? Überprüfe die Mob-Cap-Auslastung anderswo auf dem Server, stelle sicher, dass Dorfbewohner tatsächlich nachts schlafen, und AFK am vorgesehenen Pad 40 Blöcke unterhalb der Plattformen — innerhalb der Farm stehen bricht die Spawn-Logik auf manchen Versionen."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "Golems stecken an R\u00e4ndern \u2014 Wasserstr\u00f6me um einen Block verbreitern.",
-                "Hopper-Stau \u2014 Sekund\u00e4rtruhe und Hopper-Kette hinzuf\u00fcgen.",
-                "TPS-Einbr\u00fcche \u2014 redundante Entities in der N\u00e4he des Claims reduzieren."
+                "Golems stecken an Rändern — Wasserströme um einen Block verbreitern.",
+                "Hopper-Stau — Sekundärtruhe und Hopper-Kette hinzufügen.",
+                "TPS-Einbrüche — redundante Entities in der Nähe des Claims reduzieren."
               ],
               "desktopItems": [
-                "Golems stecken an Plattformr\u00e4ndern \u2014 Wasserstr\u00f6me auf jeder Seite um einen Block verbreitern.",
-                "Hopper-Stau zu Spitzenlastzeiten \u2014 Sekund\u00e4rtruhe und parallele Hopper-Kette hinzuf\u00fcgen.",
-                "Server-TPS-Einbr\u00fcche \u2014 redundante Item-Entities und inaktive Mobs in der N\u00e4he deines Claims reduzieren."
+                "Golems stecken an Plattformrändern — Wasserströme auf jeder Seite um einen Block verbreitern.",
+                "Hopper-Stau zu Spitzenlastzeiten — Sekundärtruhe und parallele Hopper-Kette hinzufügen.",
+                "Server-TPS-Einbrüche — redundante Item-Entities und inaktive Mobs in der Nähe deines Claims reduzieren."
               ]
             }
           ]
         },
         {
           "id": "06",
-          "tocLabel": "Server-Kompatibilit\u00e4t",
-          "title": "Server-Kompatibilit\u00e4t",
+          "tocLabel": "Server-Kompatibilität",
+          "title": "Server-Kompatibilität",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Dieses Design wurde auf LuckySurvival, MineWars und CalmSky getestet. Claims sch\u00fctzen den Bau; frage Admins, bevor du auf MineWars die Wildnis \u00fcberquerst.",
-                "desktop": "Dieses Design wurde auf unseren LuckySurvival-, MineWars- und CalmSky-Servern ohne Regelanpassungen getestet. Land-Claims sch\u00fctzen den Bau vor Griefing \u2014 auf MineWars frage Admins, bevor du Dorfbewohner-Module neben unklamierten Wildnisgrenzen platzierst."
+                "mobile": "Dieses Design wurde auf LuckySurvival, MineWars und CalmSky getestet. Claims schützen den Bau; frage Admins, bevor du auf MineWars die Wildnis überquerst.",
+                "desktop": "Dieses Design wurde auf unseren LuckySurvival-, MineWars- und CalmSky-Servern ohne Regelanpassungen getestet. Land-Claims schützen den Bau vor Griefing — auf MineWars frage Admins, bevor du Dorfbewohner-Module neben unklamierten Wildnisgrenzen platzierst."
               }
             },
             {
               "type": "cta",
               "primary": "Guide speichern",
-              "secondaryLabel": "Weitere Engineering-Beitr\u00e4ge",
+              "secondaryLabel": "Weitere Engineering-Beiträge",
               "secondaryHref": "/blog"
             }
           ]
@@ -624,14 +674,22 @@
     },
     "pvp-loadouts": {
       "title": "PvP-Loadouts, die auf MineWars wirklich funktionieren",
-      "description": "Wir haben 18 Builds \u00fcber zwei Wochen kleiner K\u00e4mpfe getestet. Vier Loadouts gewinnen immer wieder \u2014 der Rest kann in Rente gehen.",
-      "descriptionDesktop": "Wir haben 18 Builds \u00fcber zwei Wochen kleiner MineWars-K\u00e4mpfe getestet \u2014 Duelle, Grenzgefechte und Nether-Highway-Hinterhalte. Vier Loadouts gewinnen im aktuellen Meta. Der Rest ist gut f\u00fcrs \u00dcben, aber f\u00fcr ernste K\u00e4mpfe kannst du sie getrost in Rente schicken.",
+      "description": "Wir haben 18 Builds über zwei Wochen kleiner Kämpfe getestet. Vier Loadouts gewinnen immer wieder — der Rest kann in Rente gehen.",
+      "descriptionDesktop": "Wir haben 18 Builds über zwei Wochen kleiner MineWars-Kämpfe getestet — Duelle, Grenzgefechte und Nether-Highway-Hinterhalte. Vier Loadouts gewinnen im aktuellen Meta. Der Rest ist gut fürs Üben, aber für ernste Kämpfe kannst du sie getrost in Rente schicken.",
       "breadcrumbLabel": "PvP-Loadouts",
-      "heroTags": ["PvP", "MineWars"],
-      "sidebarTags": ["PvP", "MineWars", "Loadouts", "Meta"],
+      "heroTags": [
+        "PvP",
+        "MineWars"
+      ],
+      "sidebarTags": [
+        "PvP",
+        "MineWars",
+        "Loadouts",
+        "Meta"
+      ],
       "lead": {
-        "mobile": "PvP auf MineWars geht nicht um perfekte R\u00fcstung \u2014 es geht um Kit-Synergie, Pearl-Disziplin und zu wissen, wann man sich zur\u00fcckzieht. Diese vier Loadouts haben zwei Wochen aufgezeichneter K\u00e4mpfe \u00fcberstanden.",
-        "desktop": "PvP auf MineWars geht nicht um perfekte R\u00fcstungsverzauberungen \u2014 es geht um Kit-Synergie, Pearl-Disziplin und zu wissen, wann man sich zur\u00fcckzieht. Diese vier Loadouts haben zwei Wochen aufgezeichneter K\u00e4mpfe \u00fcber 180+ Begegnungen \u00fcberstanden. Alles andere hat unterperformt, als Gegner Kristalle und Keule-Tech einsetzten."
+        "mobile": "PvP auf MineWars geht nicht um perfekte Rüstung — es geht um Kit-Synergie, Pearl-Disziplin und zu wissen, wann man sich zurückzieht. Diese vier Loadouts haben zwei Wochen aufgezeichneter Kämpfe überstanden.",
+        "desktop": "PvP auf MineWars geht nicht um perfekte Rüstungsverzauberungen — es geht um Kit-Synergie, Pearl-Disziplin und zu wissen, wann man sich zurückzieht. Diese vier Loadouts haben zwei Wochen aufgezeichneter Kämpfe über 180+ Begegnungen überstanden. Alles andere hat unterperformt, als Gegner Kristalle und Keule-Tech einsetzten."
       },
       "sections": [
         {
@@ -642,37 +700,37 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Fr\u00fchjahr 2026 beg\u00fcnstigt Burst-Schaden und schnelles Re-Pearl. Tank-Builds gewinnen immer noch lange K\u00e4mpfe, aber nur wenn du sie erzwingst \u2014 die meisten K\u00e4mpfe enden in unter 15 Sekunden.",
-                "desktop": "Fr\u00fchjahr 2026 beg\u00fcnstigt Burst-Schaden und schnelles Re-Pearl-Timing. Tank-Builds gewinnen immer noch ausgedehnte Trades, aber nur wenn du sie erzwingst \u2014 die meisten aufgezeichneten K\u00e4mpfe auf unserem MineWars-Shard endeten in unter f\u00fcnfzehn Sekunden, sobald beide Spieler volle Kits hatten."
+                "mobile": "Frühjahr 2026 begünstigt Burst-Schaden und schnelles Re-Pearl. Tank-Builds gewinnen immer noch lange Kämpfe, aber nur wenn du sie erzwingst — die meisten Kämpfe enden in unter 15 Sekunden.",
+                "desktop": "Frühjahr 2026 begünstigt Burst-Schaden und schnelles Re-Pearl-Timing. Tank-Builds gewinnen immer noch ausgedehnte Trades, aber nur wenn du sie erzwingst — die meisten aufgezeichneten Kämpfe auf unserem MineWars-Shard endeten in unter fünfzehn Sekunden, sobald beide Spieler volle Kits hatten."
               }
             },
             {
               "type": "bullets",
               "items": [
                 "Kristall + Keule-Hybriden dominieren offenes Terrain.",
-                "Totem-Tanks \u00fcberleben Nether-Hub-Schlachten.",
-                "Speed-Hit-and-Run-Kits kontern \u00fcbergear\u00e4ste Spieler.",
-                "Budget-Kits sind wichtig \u2014 nicht jeder nutzt maximale Verzauberungen."
+                "Totem-Tanks überleben Nether-Hub-Schlachten.",
+                "Speed-Hit-and-Run-Kits kontern übergearäste Spieler.",
+                "Budget-Kits sind wichtig — nicht jeder nutzt maximale Verzauberungen."
               ],
               "desktopItems": [
-                "Kristall und Keule-Hybriden dominieren offenes Terrain und W\u00fcsten-Highways.",
-                "Totem-Tanks \u00fcberleben Nether-Hub-Schlachten und Portal-Fallen.",
-                "Speed-Hit-and-Run-Kits kontern \u00fcbergear\u00e4ste Spieler, die den ersten Treffer verpassen.",
-                "Budget-Kits gewinnen noch \u2014 nicht jeder Kampf erfordert max-verzaubertes Netherit."
+                "Kristall und Keule-Hybriden dominieren offenes Terrain und Wüsten-Highways.",
+                "Totem-Tanks überleben Nether-Hub-Schlachten und Portal-Fallen.",
+                "Speed-Hit-and-Run-Kits kontern übergearäste Spieler, die den ersten Treffer verpassen.",
+                "Budget-Kits gewinnen noch — nicht jeder Kampf erfordert max-verzaubertes Netherit."
               ]
             }
           ]
         },
         {
           "id": "02",
-          "tocLabel": "Loadout #1 \u2014 Kristall-Burst",
-          "title": "Loadout #1 \u2014 Kristall-Burst",
+          "tocLabel": "Loadout #1 — Kristall-Burst",
+          "title": "Loadout #1 — Kristall-Burst",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "R\u00fcstung: Schutz IV Netherit mit Explosionsschutz-Hosen. Totem immer in der Hand. Hotbar: Kristalle, Obsidian, Ender-Perlen, Goldene \u00c4pfel, Keule.",
-                "desktop": "R\u00fcstung: Schutz IV Netherit mit Explosionsschutz IV Hosen und Federfall-Stiefeln. Totem jederzeit in der Hand. Hotbar: End-Kristalle, Obsidian, Ender-Perlen, Goldene \u00c4pfel, Keule mit Dichte V und ein Gapple-Stack f\u00fcr Sustain."
+                "mobile": "Rüstung: Schutz IV Netherit mit Explosionsschutz-Hosen. Totem immer in der Hand. Hotbar: Kristalle, Obsidian, Ender-Perlen, Goldene Äpfel, Keule.",
+                "desktop": "Rüstung: Schutz IV Netherit mit Explosionsschutz IV Hosen und Federfall-Stiefeln. Totem jederzeit in der Hand. Hotbar: End-Kristalle, Obsidian, Ender-Perlen, Goldene Äpfel, Keule mit Dichte V und ein Gapple-Stack für Sustain."
               }
             },
             {
@@ -680,49 +738,49 @@
               "variant": "warn",
               "title": "Risikoprofil",
               "text": {
-                "mobile": "Hoher Selbstschaden bei verfehlten Platzierungen. Vor Spawn-K\u00e4mpfen auf unserem PvP-Test-Shard \u00fcben.",
-                "desktop": "Hoher Selbstschaden bei verfehlten Kristall-Platzierungen oder eigenem Burst. Vor Spawn-K\u00e4mpfen auf unserem PvP-Test-Shard \u00fcben \u2014 Admins setzen die Arena alle sechs Stunden zur\u00fcck."
+                "mobile": "Hoher Selbstschaden bei verfehlten Platzierungen. Vor Spawn-Kämpfen auf unserem PvP-Test-Shard üben.",
+                "desktop": "Hoher Selbstschaden bei verfehlten Kristall-Platzierungen oder eigenem Burst. Vor Spawn-Kämpfen auf unserem PvP-Test-Shard üben — Admins setzen die Arena alle sechs Stunden zurück."
               }
             }
           ]
         },
         {
           "id": "03",
-          "tocLabel": "Loadout #2 \u2014 Totem-Tank",
-          "title": "Loadout #2 \u2014 Totem-Tank",
+          "tocLabel": "Loadout #2 — Totem-Tank",
+          "title": "Loadout #2 — Totem-Tank",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "F\u00fcr Portal-K\u00e4mpfe und enge Tunnel. Max Schutz, zwei Totems (Hand + Hotbar), Schwert mit Sch\u00e4rfe V, Langsamfall-Tr\u00e4nke optional.",
-                "desktop": "F\u00fcr Portal-K\u00e4mpfe, Nether-Tunnel und \u00fcberall, wo du nicht kiteen kannst. Max-Schutz-Netherit, zwei Totems (Hand plus Hotbar-Tausch), Schwert mit Sch\u00e4rfe V, St\u00e4rke-Splash optional und Langsamfall f\u00fcr Pearl-Erholung von Klippen."
+                "mobile": "Für Portal-Kämpfe und enge Tunnel. Max Schutz, zwei Totems (Hand + Hotbar), Schwert mit Schärfe V, Langsamfall-Tränke optional.",
+                "desktop": "Für Portal-Kämpfe, Nether-Tunnel und überall, wo du nicht kiteen kannst. Max-Schutz-Netherit, zwei Totems (Hand plus Hotbar-Tausch), Schwert mit Schärfe V, Stärke-Splash optional und Langsamfall für Pearl-Erholung von Klippen."
               }
             },
             {
               "type": "figure",
               "src": "/blog/3.webp",
               "alt": "Totem-Tank PvP-Loadout Inventarlayout",
-              "caption": "Beschriftung: Totem-Tank-Hotbar \u2014 Schwert, Perlen, G\u00e4pfel, zweites Totem, Bl\u00f6cke."
+              "caption": "Beschriftung: Totem-Tank-Hotbar — Schwert, Perlen, Gäpfel, zweites Totem, Blöcke."
             }
           ]
         },
         {
           "id": "04",
-          "tocLabel": "Loadout #3 \u2014 Speed-Hit-and-Run",
-          "title": "Loadout #3 \u2014 Speed-Hit-and-Run",
+          "tocLabel": "Loadout #3 — Speed-Hit-and-Run",
+          "title": "Loadout #3 — Speed-Hit-and-Run",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Leichte R\u00fcstung mit Swift Sneak und Speed-II-Tr\u00e4nken. Keule f\u00fcr vertikale Bursts, Perlen zum Entkommen. Siegbedingung: erster Treffer, dann zur\u00fcckziehen \u2014 niemals traden.",
-                "desktop": "Leichte R\u00fcstung mit Swift-Sneak-III-Hosen und Speed-II-Splash-Tr\u00e4nken. Keule f\u00fcr vertikalen Burst-Schaden, Perlen zum Entkommen durch Dachl\u00fccken. Siegbedingung: ersten Treffer aus der H\u00f6he landen, dann zur\u00fcckziehen \u2014 niemals gegen Tank-Kits stehen und traden."
+                "mobile": "Leichte Rüstung mit Swift Sneak und Speed-II-Tränken. Keule für vertikale Bursts, Perlen zum Entkommen. Siegbedingung: erster Treffer, dann zurückziehen — niemals traden.",
+                "desktop": "Leichte Rüstung mit Swift-Sneak-III-Hosen und Speed-II-Splash-Tränken. Keule für vertikalen Burst-Schaden, Perlen zum Entkommen durch Dachlücken. Siegbedingung: ersten Treffer aus der Höhe landen, dann zurückziehen — niemals gegen Tank-Kits stehen und traden."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201eWenn du auf offenem Feld noch full-tradest, schenkst du Ausr\u00fcstung. Treffen, pearen, von oben neu angreifen.\u201c",
-                "desktop": "\u201eWenn du auf offenem Feld gegen Kristall-Kits noch full-tradest, schenkst du der Wirtschaft Ausr\u00fcstung. Treffen, pearen, von oben neu angreifen \u2014 das ist das ganze Kit.\u201c"
+                "mobile": "„Wenn du auf offenem Feld noch full-tradest, schenkst du Ausrüstung. Treffen, pearen, von oben neu angreifen.“",
+                "desktop": "„Wenn du auf offenem Feld gegen Kristall-Kits noch full-tradest, schenkst du der Wirtschaft Ausrüstung. Treffen, pearen, von oben neu angreifen — das ist das ganze Kit.“"
               },
               "author": "NovaShift, MineWars tournament finalist"
             }
@@ -730,27 +788,27 @@
         },
         {
           "id": "05",
-          "tocLabel": "Loadout #4 \u2014 Budget-Einsteiger",
-          "title": "Loadout #4 \u2014 Budget-Einsteiger",
+          "tocLabel": "Loadout #4 — Budget-Einsteiger",
+          "title": "Loadout #4 — Budget-Einsteiger",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Diamant Prot II\u2013III, Eisenschwert Sch\u00e4rfe IV, 8 Perlen, 3 G\u00e4pfel, Bl\u00f6cke. G\u00fcnstig genug, um zweimal zu verlieren und trotzdem von einem Kill zu profitieren.",
-                "desktop": "Diamant-Schutz II\u2013III, Eisenschwert Sch\u00e4rfe IV, acht Ender-Perlen, drei Goldene \u00c4pfel und ein Stack Kies f\u00fcr schnelle T\u00fcrme. G\u00fcnstig genug, um zweimal zu verlieren und trotzdem von einem erfolgreichen Kill plus Beute zu profitieren."
+                "mobile": "Diamant Prot II–III, Eisenschwert Schärfe IV, 8 Perlen, 3 Gäpfel, Blöcke. Günstig genug, um zweimal zu verlieren und trotzdem von einem Kill zu profitieren.",
+                "desktop": "Diamant-Schutz II–III, Eisenschwert Schärfe IV, acht Ender-Perlen, drei Goldene Äpfel und ein Stack Kies für schnelle Türme. Günstig genug, um zweimal zu verlieren und trotzdem von einem erfolgreichen Kill plus Beute zu profitieren."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "Verzauberungen \u00fcberspringen, die du in einer Session nicht ersetzen kannst.",
-                "Weniger Perlen tragen \u2014 Budget-Kits gewinnen durch Geduld.",
-                "Bei Gel\u00e4nde k\u00e4mpfen, das du hochbauen kannst."
+                "Verzauberungen überspringen, die du in einer Session nicht ersetzen kannst.",
+                "Weniger Perlen tragen — Budget-Kits gewinnen durch Geduld.",
+                "Bei Gelände kämpfen, das du hochbauen kannst."
               ],
               "desktopItems": [
-                "Verzauberungen \u00fcberspringen, die du in einer einzigen Farm-Session nicht ersetzen kannst.",
-                "Weniger Perlen tragen \u2014 Budget-Kits gewinnen durch Geduld und Positionierung, nicht durch Jagd.",
-                "Nur bei Gel\u00e4nde k\u00e4mpfen, das du hochbauen oder zur Deckung nutzen kannst."
+                "Verzauberungen überspringen, die du in einer einzigen Farm-Session nicht ersetzen kannst.",
+                "Weniger Perlen tragen — Budget-Kits gewinnen durch Geduld und Positionierung, nicht durch Jagd.",
+                "Nur bei Gelände kämpfen, das du hochbauen oder zur Deckung nutzen kannst."
               ]
             }
           ]
@@ -763,8 +821,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Reine Schutz-Schwert-Builds, Bogen-Hauptkits ohne Perlen und unverzauberter Diamant in Kristallreichweite \u2014 alle haben in unseren Tests schlechter abgeschnitten. Lass sie f\u00fcr Duelle, nicht f\u00fcr MineWars.",
-                "desktop": "Reine Schutz-Schwert-Builds, Bogen-Hauptkits ohne Pearl-Flucht und unverzauberter Diamant in Kristallreichweite \u2014 alle haben in unserem zweiwöchigen Testfenster schlechter abgeschnitten. Behalte sie f\u00fcr freundschaftliche Duelle, nicht f\u00fcr ernstes MineWars-Roaming."
+                "mobile": "Reine Schutz-Schwert-Builds, Bogen-Hauptkits ohne Perlen und unverzauberter Diamant in Kristallreichweite — alle haben in unseren Tests schlechter abgeschnitten. Lass sie für Duelle, nicht für MineWars.",
+                "desktop": "Reine Schutz-Schwert-Builds, Bogen-Hauptkits ohne Pearl-Flucht und unverzauberter Diamant in Kristallreichweite — alle haben in unserem zweiwöchigen Testfenster schlechter abgeschnitten. Behalte sie für freundschaftliche Duelle, nicht für ernstes MineWars-Roaming."
               }
             },
             {
@@ -779,14 +837,22 @@
     },
     "player-spotlight": {
       "title": "Spieler des Monats: Lern RedstoneKing kennen",
-      "description": "13 Monate Spielzeit, eine 40-stockige Sky-Base und ein beeindruckendes Turnierergebnis \u2014 die ganze Geschichte aus diesem Monats-Spotlight.",
-      "descriptionDesktop": "Dreizehn Monate Survival-Spielzeit, eine vierzig-stockige Sky-Base sichtbar aus drei Biomen und ein Top-Vier-Turnierergebnis \u2014 die ganze Geschichte hinter dem Community-Spotlight-Spieler dieses Monats, RedstoneKing.",
+      "description": "Eine 40-stockige Sky-Base und ein beeindruckendes Turnierergebnis — die ganze Geschichte aus diesem Monats-Spotlight.",
+      "descriptionDesktop": "Eine vierzig-stockige Sky-Base, sichtbar aus drei Biomen, und ein Top-Vier-Turnierergebnis — die ganze Geschichte hinter dem Community-Spotlight-Spieler dieses Monats, RedstoneKing.",
       "breadcrumbLabel": "Spieler-Spotlight",
-      "heroTags": ["Community", "Spotlight"],
-      "sidebarTags": ["Community", "Spotlight", "Builds", "Turniere"],
+      "heroTags": [
+        "Community",
+        "Spotlight"
+      ],
+      "sidebarTags": [
+        "Community",
+        "Spotlight",
+        "Builds",
+        "Turniere"
+      ],
       "lead": {
-        "mobile": "Jeden Monat stellen wir einen Spieler vor, der die Community voranbringt \u2014 nicht immer der reichste oder h\u00f6chste PvP-Rang, sondern jemand, der den Server lebendig macht. April geh\u00f6rt RedstoneKing.",
-        "desktop": "Jeden Monat stellen wir einen Spieler vor, der die Community voranbringt \u2014 nicht immer der reichste Account oder h\u00f6chste PvP-Rang, sondern jemand, der den Server durch Builds, Guides oder Community-Events lebendig macht. April geh\u00f6rt RedstoneKing, einem Survival-Hauptspieler, der seine Redstone-Obsession in etwas verwandelt hat, das jeder besuchen kann."
+        "mobile": "Jeden Monat stellen wir einen Spieler vor, der die Community voranbringt — nicht immer der reichste oder höchste PvP-Rang, sondern jemand, der den Server lebendig macht. Dieser Spotlight gilt RedstoneKing.",
+        "desktop": "Jeden Monat stellen wir einen Spieler vor, der die Community voranbringt — nicht immer der reichste Account oder höchste PvP-Rang, sondern jemand, der den Server durch Builds, Guides oder Community-Events lebendig macht. Dieser Spotlight gilt RedstoneKing, einem Survival-Hauptspieler, der seine Redstone-Obsession in etwas verwandelt hat, das jeder besuchen kann."
       },
       "sections": [
         {
@@ -797,21 +863,21 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing ist im M\u00e4rz 2025 auf Survival beigetreten. Kein Admin-Rang, kein Content-Creator-Tag \u2014 nur ein Spieler, der jedes Farm-Upgrade in \u00f6ffentlichen Discord-Threads dokumentiert hat.",
-                "desktop": "RedstoneKing ist im M\u00e4rz 2025 auf unserem prim\u00e4ren Survival-Shard beigetreten. Kein Admin-Rang, kein offizieller Content-Creator-Tag \u2014 nur ein Spieler, der jedes Farm-Upgrade in \u00f6ffentlichen Discord-Threads dokumentiert und Neuspieler-Redstone-Fragen um 2 Uhr morgens Server-Zeit beantwortet hat."
+                "mobile": "RedstoneKing spielt auf Survival. Kein Admin-Rang, kein Content-Creator-Tag — nur ein Spieler, der jedes Farm-Upgrade in öffentlichen Discord-Threads dokumentiert hat.",
+                "desktop": "RedstoneKing ist Stammgast auf unserem primären Survival-Shard. Kein Admin-Rang, kein offizieller Content-Creator-Tag — nur ein Spieler, der jedes Farm-Upgrade in öffentlichen Discord-Threads dokumentiert und Neuspieler-Redstone-Fragen um 2 Uhr morgens Server-Zeit beantwortet hat."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "13 Monate aktiv, 1.400+ Stunden gespielt.",
-                "Keine Ban-Geschichte, drei Mentoring-Auszeichnungen.",
-                "Bekannt f\u00fcr offene Basis-Touren jeden Samstag."
+                "Spielt hauptsächlich auf Survival.",
+                "Keine Ban-Historie, drei Mentoring-Auszeichnungen.",
+                "Bekannt für offene Base-Touren jeden Samstag."
               ],
               "desktopItems": [
-                "Dreizehn Monate aktiv mit \u00fcber 1.400 gespielten Stunden.",
-                "Keine Ban-Geschichte und drei Community-Mentoring-Auszeichnungen von Moderatoren.",
-                "Bekannt f\u00fcr offene Basis-Touren jeden Samstag um 16:00 UTC."
+                "Regelmäßiger Survival-Spieler mit öffentlichem Build-Log auf Discord.",
+                "Keine Ban-Historie und drei Community-Mentoring-Auszeichnungen von Moderatoren.",
+                "Bekannt für offene Base-Touren jeden Samstag um 16:00 UTC."
               ]
             }
           ]
@@ -824,15 +890,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Der Haupt-Build ist ein 40-stockiger Turm \u00fcber Y=220 \u2014 Lagerung, Farmen und ein \u00f6ffentliches Museum-Stockwerk mit funktionierenden Redstone-Demos, die jeder ausl\u00f6sen kann.",
-                "desktop": "Der Haupt-Build ist ein vierzig-stockiger Turm verankert \u00fcber Y=220 \u2014 automatisierte Lagerung, Ernte- und Mob-Farmen, Wohnr\u00e4ume und ein \u00f6ffentliches Museum-Stockwerk mit funktionierenden Redstone-Demos, die jeder ohne Griefing-Berechtigungen ausl\u00f6sen kann."
+                "mobile": "Der Haupt-Build ist ein 40-stockiger Turm über Y=220 — Lagerung, Farmen und ein öffentliches Museum-Stockwerk mit funktionierenden Redstone-Demos, die jeder auslösen kann.",
+                "desktop": "Der Haupt-Build ist ein vierzig-stockiger Turm verankert über Y=220 — automatisierte Lagerung, Ernte- und Mob-Farmen, Wohnräume und ein öffentliches Museum-Stockwerk mit funktionierenden Redstone-Demos, die jeder ohne Griefing-Berechtigungen auslösen kann."
               }
             },
             {
               "type": "figure",
               "src": "/blog/4.webp",
-              "alt": "RedstoneKing Sky-Base Au\u00dfenansicht bei Sonnenuntergang",
-              "caption": "Beschriftung: Die Sky-Base bei Sonnenuntergang \u2014 Beacon vom Haupt-Spawn-Hub sichtbar.",
+              "alt": "RedstoneKing Sky-Base Außenansicht bei Sonnenuntergang",
+              "caption": "Beschriftung: Die Sky-Base bei Sonnenuntergang — Beacon vom Haupt-Spawn-Hub sichtbar.",
               "dashed": true
             },
             {
@@ -840,8 +906,8 @@
               "variant": "info",
               "title": "Im Spiel besuchen",
               "text": {
-                "mobile": "Warp: /warp rk-tower auf Survival. Museum-Etage ist Stockwerk 38\u201340; bitte keine Demo-Bl\u00f6cke abbauen.",
-                "desktop": "Besuche auf Survival mit /warp rk-tower. Museum-Stockwerke sind 38 bis 40; bitte keine Demo-Bl\u00f6cke abbauen \u2014 sie werden st\u00fcndlich zur\u00fcckgesetzt, unterbrechen aber Touren f\u00fcr andere Besucher."
+                "mobile": "Warp: /warp rk-tower auf Survival. Museum-Etage ist Stockwerk 38–40; bitte keine Demo-Blöcke abbauen.",
+                "desktop": "Besuche auf Survival mit /warp rk-tower. Museum-Stockwerke sind 38 bis 40; bitte keine Demo-Blöcke abbauen — sie werden stündlich zurückgesetzt, unterbrechen aber Touren für andere Besucher."
               }
             }
           ]
@@ -854,15 +920,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing ist kein PvP-Hauptspieler \u2014 was die \u00dcberraschung beim Season-2-Bracket real machte. Top-Vier-Platzierung mit einem geliehenen Tank-Kit, null Kristall-\u00dcbung.",
-                "desktop": "RedstoneKing ist kein PvP-Hauptspieler \u2014 was die \u00dcberraschung beim Season-2-Bracket real machte. Sie platzierten sich in den Top Vier mit einem geliehenen Tank-Kit und null Kristall-\u00dcbung, gewannen drei Runden allein durch Positionierung, bevor sie im Halbfinale gegen den Vorjahres-Champion verloren."
+                "mobile": "RedstoneKing ist kein PvP-Hauptspieler — was die Überraschung beim Season-2-Bracket real machte. Top-Vier-Platzierung mit einem geliehenen Tank-Kit, null Kristall-Übung.",
+                "desktop": "RedstoneKing ist kein PvP-Hauptspieler — was die Überraschung beim Season-2-Bracket real machte. Sie platzierten sich in den Top Vier mit einem geliehenen Tank-Kit und null Kristall-Übung, gewannen drei Runden allein durch Positionierung, bevor sie im Halbfinale gegen den Vorjahres-Champion verloren."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201eIch habe mich angemeldet, um die neue Bracket-Oberfl\u00e4che zu sehen. Vier Runden zu \u00fcberleben war die eigentliche Leistung.\u201c",
-                "desktop": "\u201eIch habe mich angemeldet, um die neue Bracket-Oberfl\u00e4che zu sehen und Bugs zu melden. Vier Runden gegen echte PvP-Hauptspieler zu \u00fcberleben war die eigentliche Leistung \u2014 ich kann Kristalle immer noch nicht sauber platzieren.\u201c"
+                "mobile": "„Ich habe mich angemeldet, um die neue Bracket-Oberfläche zu sehen. Vier Runden zu überleben war die eigentliche Leistung.“",
+                "desktop": "„Ich habe mich angemeldet, um die neue Bracket-Oberfläche zu sehen und Bugs zu melden. Vier Runden gegen echte PvP-Hauptspieler zu überleben war die eigentliche Leistung — ich kann Kristalle immer noch nicht sauber platzieren.“"
               },
               "author": "RedstoneKing"
             }
@@ -876,21 +942,21 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Neben Builds f\u00fchrt RedstoneKing einen w\u00f6chentlichen \u201eRedstone-Sprechstunden\u201c-Thread \u2014 Screenshot deines Stromkreises einschicken, asynchrones Feedback erhalten. \u00dcber 200 Antworten allein letzten Monat.",
-                "desktop": "Neben Builds f\u00fchrt RedstoneKing einen w\u00f6chentlichen \u201eRedstone-Sprechstunden\u201c-Thread in Discord \u2014 Screenshot deines Stromkreises einschicken, asynchrones Feedback innerhalb eines Tages erhalten. Moderatoren z\u00e4hlten \u00fcber 200 hilfreiche Antworten allein letzten Monat, viele an Farm-Erstbauer gerichtet."
+                "mobile": "Neben Builds führt RedstoneKing einen wöchentlichen „Redstone-Sprechstunden“-Thread — Screenshot deines Stromkreises einschicken, asynchrones Feedback erhalten. Über 200 Antworten allein letzten Monat.",
+                "desktop": "Neben Builds führt RedstoneKing einen wöchentlichen „Redstone-Sprechstunden“-Thread in Discord — Screenshot deines Stromkreises einschicken, asynchrones Feedback innerhalb eines Tages erhalten. Moderatoren zählten über 200 hilfreiche Antworten allein letzten Monat, viele an Farm-Erstbauer gerichtet."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "Drei Gast-Tipps in unserer Redstone-101-Serie ver\u00f6ffentlicht.",
+                "Drei Gast-Tipps in unserer Redstone-101-Serie veröffentlicht.",
                 "Doppelte Shulker-Kits an die Neuspieler-Truhe beim Spawn gespendet.",
-                "Als \u201ehilfreichster Baumeister\u201c in der Community-Umfrage gew\u00e4hlt."
+                "Als „hilfreichster Baumeister“ in der Community-Umfrage gewählt."
               ],
               "desktopItems": [
-                "Drei Gast-Tipps in unserer Redstone-101-Artikelserie verlinkt ver\u00f6ffentlicht.",
+                "Drei Gast-Tipps in unserer Redstone-101-Artikelserie verlinkt veröffentlicht.",
                 "Doppelte Shulker-Kits an die Neuspieler-Truhe beim zentralen Spawn gespendet.",
-                "Als \u201ehilfreichster Baumeister\u201c in der April-Community-Umfrage mit 34\u00a0% der Stimmen gew\u00e4hlt."
+                "Als „hilfreichster Baumeister“ in der Community-Umfrage gewählt."
               ]
             }
           ]
@@ -903,13 +969,13 @@
             {
               "type": "ordered",
               "items": [
-                "Jede Hopper-Leitung beschriften \u2014 zuk\u00fcnftiges Ich ist auch m\u00fcde.",
-                "Farmen \u00fcber Y=100 bauen, um H\u00f6hlenl\u00e4rm zu reduzieren.",
+                "Jede Hopper-Leitung beschriften — zukünftiges Ich ist auch müde.",
+                "Farmen über Y=100 bauen, um Höhlenlärm zu reduzieren.",
                 "Andere Basen besichtigen, bevor YouTube-Schematics kopiert werden."
               ],
               "desktopItems": [
-                "Jede Hopper-Leitung und Truhe beschriften \u2014 zuk\u00fcnftiges Ich ist auch um 1 Uhr nachts m\u00fcde.",
-                "Automatisierte Farmen \u00fcber Y=100 bauen, um H\u00f6hlenl\u00e4rm und Mob-Cap-Bleed zu reduzieren.",
+                "Jede Hopper-Leitung und Truhe beschriften — zukünftiges Ich ist auch um 1 Uhr nachts müde.",
+                "Automatisierte Farmen über Y=100 bauen, um Höhlenlärm und Mob-Cap-Bleed zu reduzieren.",
                 "Andere Spielerbasens auf dem Server besichtigen, bevor generische YouTube-Schematics kopiert werden."
               ]
             }
@@ -917,20 +983,20 @@
         },
         {
           "id": "06",
-          "tocLabel": "N\u00e4chsten Monat nominieren",
-          "title": "N\u00e4chsten Monat nominieren",
+          "tocLabel": "Nächsten Monat nominieren",
+          "title": "Nächsten Monat nominieren",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Denkst du, jemand verdient den Mai-Spotlight? \u00d6ffne ein Ticket in Discord #community-nominate mit seinem Benutzernamen und einem Satz, warum. Admins und Spieler stimmen beide ab.",
-                "desktop": "Denkst du, jemand verdient den Mai-Spotlight? \u00d6ffne ein Ticket in Discord #community-nominate mit seinem Benutzernamen, Server und einem Satz, warum. Admins und Spieler stimmen beide ab \u2014 Gewinne brauchen Community-Support und saubere Moderationsgeschichte."
+                "mobile": "Kennt jemanden, der den Spotlight im nächsten Monat verdient? Ticket in Discord #community-nominate mit Username und einem Satz warum. Staff und Spieler stimmen ab.",
+                "desktop": "Kennt jemanden, der den Spotlight im nächsten Monat verdient? Ticket in Discord #community-nominate mit Username, Server und einem Satz warum. Staff und Spieler stimmen ab — Gewinne brauchen Community-Pull und saubere Moderations-Historie."
               }
             },
             {
               "type": "cta",
               "primary": "Spieler nominieren",
-              "secondaryLabel": "Alle Community-Beitr\u00e4ge",
+              "secondaryLabel": "Alle Community-Beiträge",
               "secondaryHref": "/blog"
             }
           ]
@@ -939,14 +1005,22 @@
     },
     "redstone-wheat-farm": {
       "title": "Redstone 101: Eine automatische Weizenfarm in 30 Minuten",
-      "description": "Kein Redstone-Vorwissen n\u00f6tig. Jeder Block, jeder Komparator und der Trick, der deinen Ertrag verdoppelt.",
-      "descriptionDesktop": "Kein Redstone-Vorwissen n\u00f6tig. Jeder Block, jede Komparatoreinstellung und der Observer-Trick, der deinen Ertrag verdoppelt, ohne die Fl\u00e4che zu vergr\u00f6\u00dfern \u2014 in dreißig Minuten im Survival-Modus baubar, wenn du schon Eisen hast.",
+      "description": "Kein Redstone-Vorwissen nötig. Jeder Block, jeder Komparator und der Trick, der deinen Ertrag verdoppelt.",
+      "descriptionDesktop": "Kein Redstone-Vorwissen nötig. Jeder Block, jede Komparatoreinstellung und der Observer-Trick, der deinen Ertrag verdoppelt, ohne die Fläche zu vergrößern — in dreißig Minuten im Survival-Modus baubar, wenn du schon Eisen hast.",
       "breadcrumbLabel": "Weizenfarm-Tutorial",
-      "heroTags": ["Tutorials", "Redstone"],
-      "sidebarTags": ["Tutorials", "Redstone", "Farmen", "Automatisierung"],
+      "heroTags": [
+        "Tutorials",
+        "Redstone"
+      ],
+      "sidebarTags": [
+        "Tutorials",
+        "Redstone",
+        "Farmen",
+        "Automatisierung"
+      ],
       "lead": {
-        "mobile": "Automatisierter Weizen ist das erste Redstone-Projekt, das wir nach Steinwerkzeugen empfehlen. Dieses Layout passt in ein 9\u00d77-Grundst\u00fcck, nutzt neun Hopper und l\u00e4uft, w\u00e4hrend du bergbaust.",
-        "desktop": "Automatisierter Weizen ist das erste Redstone-Projekt, das wir nach Steinwerkzeugen empfehlen. Dieses Layout passt in ein 9\u00d77-Grundst\u00fcck, nutzt neun Hopper und zwei Observer und l\u00e4uft, w\u00e4hrend du unter der Erde bergbaust \u2014 keine Uhren-Schaltkreise, keine Schleim-Bl\u00f6cke, keine Mods."
+        "mobile": "Automatisierter Weizen ist das erste Redstone-Projekt, das wir nach Steinwerkzeugen empfehlen. Dieses Layout passt in ein 9×7-Grundstück, nutzt neun Hopper und läuft, während du bergbaust.",
+        "desktop": "Automatisierter Weizen ist das erste Redstone-Projekt, das wir nach Steinwerkzeugen empfehlen. Dieses Layout passt in ein 9×7-Grundstück, nutzt neun Hopper und zwei Observer und läuft, während du unter der Erde bergbaust — keine Uhren-Schaltkreise, keine Schleim-Blöcke, keine Mods."
       },
       "sections": [
         {
@@ -957,8 +1031,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Zuerst sammeln, dann bauen \u2014 wegen eines fehlenden Observers zur\u00fcckzulaufen t\u00f6tet das Dreißig-Minuten-Ziel.",
-                "desktop": "Alles sammeln, bevor du den ersten Block legst \u2014 wegen eines fehlenden Observers oder Hoppers zur\u00fcckzulaufen t\u00f6tet das Dreißig-Minuten-Ziel und versucht dich, die Farm halb verdrahtet zu lassen."
+                "mobile": "Zuerst sammeln, dann bauen — wegen eines fehlenden Observers zurückzulaufen tötet das Dreißig-Minuten-Ziel.",
+                "desktop": "Alles sammeln, bevor du den ersten Block legst — wegen eines fehlenden Observers oder Hoppers zurückzulaufen tötet das Dreißig-Minuten-Ziel und versucht dich, die Farm halb verdrahtet zu lassen."
               }
             },
             {
@@ -973,7 +1047,7 @@
                 "1 Eisenhacke, 1 Wassereimer, 1 fester Block zur Wassereingrenzung",
                 "9 Hopper, 2 Truhen, 2 Observer die sich ansehen",
                 "1 Kolben, 1 Redstone-Staub, 32 Baumaterialien (Kies ist gut)",
-                "32 Weizensamen \u2014 nur nach dem Testen der Verdrahtung pflanzen"
+                "32 Weizensamen — nur nach dem Testen der Verdrahtung pflanzen"
               ]
             }
           ]
@@ -986,15 +1060,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Neun Weizenreihen in einem 9\u00d77-Rechteck. Wasserquelle hinten mittig bew\u00e4ssert das gesamte Feld. Sammelhopper laufen unter den vorderen zwei Reihen.",
-                "desktop": "Neun Weizenreihen in einem 9\u00d77-Rechteck. Eine Wasserquelle hinten mittig bew\u00e4ssert das gesamte Feld. Sammelhopper laufen unter den vorderen zwei Reihen, wo gebr\u00fcchene Items hingleiten \u2014 der Rest des Bodens ist feste Bl\u00f6cke, um Items in Reichweite zu halten."
+                "mobile": "Neun Weizenreihen in einem 9×7-Rechteck. Wasserquelle hinten mittig bewässert das gesamte Feld. Sammelhopper laufen unter den vorderen zwei Reihen.",
+                "desktop": "Neun Weizenreihen in einem 9×7-Rechteck. Eine Wasserquelle hinten mittig bewässert das gesamte Feld. Sammelhopper laufen unter den vorderen zwei Reihen, wo gebrüchene Items hingleiten — der Rest des Bodens ist feste Blöcke, um Items in Reichweite zu halten."
               }
             },
             {
               "type": "figure",
               "src": "/blog/5.webp",
               "alt": "Draufsicht auf das automatische Weizenfarm-Layout",
-              "caption": "Beschriftung: Draufsicht \u2014 Wasser hinten, Hopper vorne, Observer-Linie an der Seite.",
+              "caption": "Beschriftung: Draufsicht — Wasser hinten, Hopper vorne, Observer-Linie an der Seite.",
               "dashed": true
             }
           ]
@@ -1007,8 +1081,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Platziere einen Observer, der die vordere Weizenreihe beobachtet. Bei Wachstumsupdates pulsiert er den Kolben hinter der Reihe und bricht reife Weizenbl\u00f6cke in den Wasserstrom.",
-                "desktop": "Platziere einen Observer, der die vordere Weizenreihe beobachtet, mit dem Ausgang zum Kolben hinter der Reihe. Wenn ein Weizenblock die letzte Wachstumsstufe erreicht, pulsiert der Observer den Kolben, bricht reifen Weizen und Samen in den darunter flie\u00dfenden Wasserstrom."
+                "mobile": "Platziere einen Observer, der die vordere Weizenreihe beobachtet. Bei Wachstumsupdates pulsiert er den Kolben hinter der Reihe und bricht reife Weizenblöcke in den Wasserstrom.",
+                "desktop": "Platziere einen Observer, der die vordere Weizenreihe beobachtet, mit dem Ausgang zum Kolben hinter der Reihe. Wenn ein Weizenblock die letzte Wachstumsstufe erreicht, pulsiert der Observer den Kolben, bricht reifen Weizen und Samen in den darunter fließenden Wasserstrom."
               }
             },
             {
@@ -1016,8 +1090,8 @@
               "variant": "info",
               "title": "Komparator-Trick",
               "text": {
-                "mobile": "F\u00fcge einen Komparator hinzu, der einen Hopper unter dem Feld liest \u2014 die Farm l\u00f6st nur aus, wenn die vordere Truhe nicht voll ist. Spart Kolben-Spam und Server-Tick-Kosten.",
-                "desktop": "F\u00fcge einen Komparator hinzu, der einen seitlichen Hopper unter dem Feld liest \u2014 die Farm l\u00f6st nur aus, wenn die vordere Truhe nicht voll ist. Das spart Kolben-Spam, reduziert Server-Tick-Kosten und ist der Trick, der dir sp\u00e4ter ohne Lag auf Doppelreihen skalieren l\u00e4sst."
+                "mobile": "Füge einen Komparator hinzu, der einen Hopper unter dem Feld liest — die Farm löst nur aus, wenn die vordere Truhe nicht voll ist. Spart Kolben-Spam und Server-Tick-Kosten.",
+                "desktop": "Füge einen Komparator hinzu, der einen seitlichen Hopper unter dem Feld liest — die Farm löst nur aus, wenn die vordere Truhe nicht voll ist. Das spart Kolben-Spam, reduziert Server-Tick-Kosten und ist der Trick, der dir später ohne Lag auf Doppelreihen skalieren lässt."
               }
             }
           ]
@@ -1030,16 +1104,16 @@
             {
               "type": "ordered",
               "items": [
-                "Samen pflanzen und eine Reihe mit Knochenmehl d\u00fcngen.",
-                "Pr\u00fcfen, ob Items binnen 5 Sekunden die Truhe erreichen.",
-                "Einen Observer abbauen und neu platzieren, wenn Pulse fehlz\u00fcnden.",
-                "AFK beim Truhen-Chunk \u2014 kein Spielereinsatz n\u00f6tig."
+                "Samen pflanzen und eine Reihe mit Knochenmehl düngen.",
+                "Prüfen, ob Items binnen 5 Sekunden die Truhe erreichen.",
+                "Einen Observer abbauen und neu platzieren, wenn Pulse fehlzünden.",
+                "AFK beim Truhen-Chunk — kein Spielereinsatz nötig."
               ],
               "desktopItems": [
-                "Samen pflanzen und eine Reihe mit Knochenmehl d\u00fcngen, um ein Wachstumsupdate zu erzwingen.",
-                "Pr\u00fcfen, ob Items binnen f\u00fcnf Sekunden nach dem Puls die Truhe erreichen.",
-                "Einen Observer abbauen und neu platzieren, wenn Pulse fehlz\u00fcnden \u2014 \u00fcblicherweise ein Ausrichtungsfehler.",
-                "AFK innerhalb des Truhen-Chunks \u2014 kein Spielereinsatz n\u00f6tig, sobald Reihen reif sind."
+                "Samen pflanzen und eine Reihe mit Knochenmehl düngen, um ein Wachstumsupdate zu erzwingen.",
+                "Prüfen, ob Items binnen fünf Sekunden nach dem Puls die Truhe erreichen.",
+                "Einen Observer abbauen und neu platzieren, wenn Pulse fehlzünden — üblicherweise ein Ausrichtungsfehler.",
+                "AFK innerhalb des Truhen-Chunks — kein Spielereinsatz nötig, sobald Reihen reif sind."
               ]
             }
           ]
@@ -1052,15 +1126,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Spiegele die Observer-Linie an der gegen\u00fcberliegenden Reihe \u2014 gleicher Kolben-Schaltkreis, gemeinsame Hopper-Kette. Du verdoppelst den Output, ohne Wasser oder Sammeltruhen zu verdoppeln.",
-                "desktop": "Spiegele die Observer-Linie an der gegen\u00fcberliegenden Reihe \u2014 gleicher Kolben-Schaltkreis, gemeinsame Hopper-Kette in der Mitte. Du verdoppelst den Output, ohne Wasserquellen oder Sammeltruhen zu verdoppeln, und die Komparator-Sperre gilt weiterhin f\u00fcr das gesamte System."
+                "mobile": "Spiegele die Observer-Linie an der gegenüberliegenden Reihe — gleicher Kolben-Schaltkreis, gemeinsame Hopper-Kette. Du verdoppelst den Output, ohne Wasser oder Sammeltruhen zu verdoppeln.",
+                "desktop": "Spiegele die Observer-Linie an der gegenüberliegenden Reihe — gleicher Kolben-Schaltkreis, gemeinsame Hopper-Kette in der Mitte. Du verdoppelst den Output, ohne Wasserquellen oder Sammeltruhen zu verdoppeln, und die Komparator-Sperre gilt weiterhin für das gesamte System."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201eWenn deine Farm ein Tutorial-Video neben dir braucht, vereinfache das Design. Weizenfarmen sollten langweilig sein.\u201c",
-                "desktop": "\u201eWenn deine Weizenfarm ein Tutorial-Video neben dir in Echtzeit braucht, vereinfache das Design. Weizenfarmen sollten langweilig, zuverl\u00e4ssig und leicht h\u00e4sslich sein.\u201c"
+                "mobile": "„Wenn deine Farm ein Tutorial-Video neben dir braucht, vereinfache das Design. Weizenfarmen sollten langweilig sein.“",
+                "desktop": "„Wenn deine Weizenfarm ein Tutorial-Video neben dir in Echtzeit braucht, vereinfache das Design. Weizenfarmen sollten langweilig, zuverlässig und leicht hässlich sein.“"
               },
               "author": "RedstoneKing, guest contributor"
             }
@@ -1068,14 +1142,14 @@
         },
         {
           "id": "06",
-          "tocLabel": "Was als N\u00e4chstes bauen",
-          "title": "Was als N\u00e4chstes bauen",
+          "tocLabel": "Was als Nächstes bauen",
+          "title": "Was als Nächstes bauen",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Sobald Brot passiv ist, geh zu Eisen oder einer Mob-Farm \u2014 gleiche Hopper-Logik, gr\u00f6\u00dferer Ma\u00dfstab. Unser Eisenfarm-Guide ist gew\u00f6hnlich Schritt zwei.",
-                "desktop": "Sobald Brot passiv ist, geh zu Eisen oder einer kompakten Mob-Farm \u2014 gleiche Hopper-Sammellogik, gr\u00f6\u00dferer Ma\u00dfstab. Unser Eisenfarm-Engineering-Guide ist gew\u00f6hnlich Schritt zwei auf Langzeit-Survival-Welten."
+                "mobile": "Sobald Brot passiv ist, geh zu Eisen oder einer Mob-Farm — gleiche Hopper-Logik, größerer Maßstab. Unser Eisenfarm-Guide ist gewöhnlich Schritt zwei.",
+                "desktop": "Sobald Brot passiv ist, geh zu Eisen oder einer kompakten Mob-Farm — gleiche Hopper-Sammellogik, größerer Maßstab. Unser Eisenfarm-Engineering-Guide ist gewöhnlich Schritt zwei auf Langzeit-Survival-Welten."
               }
             },
             {
@@ -1089,27 +1163,35 @@
       ]
     },
     "resource-packs": {
-      "title": "Die 7 besten Ressourcenpakete f\u00fcr 2026",
-      "description": "Von minimalen Vanilla-Auffrischungen bis hin zu malerischen Welten \u2014 die Pakete, die unser Team gerade auf jedem Server nutzt.",
-      "descriptionDesktop": "Von minimalen Vanilla-Auffrischungen bis hin zu malerischen Welten mit eigenen Himmeln \u2014 die sieben Ressourcenpakete, die unser Team gerade auf jedem Server nutzt, plus Installationshinweise und Leistungsauswirkungen auf schwachen Laptops.",
+      "title": "Die 7 besten Ressourcenpakete für 2026",
+      "description": "Von minimalen Vanilla-Auffrischungen bis hin zu malerischen Welten — die Pakete, die unser Team gerade auf jedem Server nutzt.",
+      "descriptionDesktop": "Von minimalen Vanilla-Auffrischungen bis hin zu malerischen Welten mit eigenen Himmeln — die sieben Ressourcenpakete, die unser Team gerade auf jedem Server nutzt, plus Installationshinweise und Leistungsauswirkungen auf schwachen Laptops.",
       "breadcrumbLabel": "Ressourcenpakete 2026",
-      "heroTags": ["Updates", "Ressourcenpakete"],
-      "sidebarTags": ["Updates", "Ressourcenpakete", "Visuals", "Leistung"],
+      "heroTags": [
+        "Updates",
+        "Ressourcenpakete"
+      ],
+      "sidebarTags": [
+        "Updates",
+        "Ressourcenpakete",
+        "Visuals",
+        "Leistung"
+      ],
       "lead": {
-        "mobile": "Ressourcenpakete sind auf allen unseren Servern erlaubt, solange sie keine unfairen Vorteile bringen \u2014 kein X-Ray, keine Low-Fire-PvP-Cheats. Diese sieben sind von Admins freigegeben und sehen auf Screenshots super aus.",
-        "desktop": "Ressourcenpakete sind auf allen unseren Servern erlaubt, solange sie keine unfairen Vorteile bringen \u2014 kein X-Ray, keine Low-Fire-PvP-Cheats, kein klares Wasser f\u00fcr Tunnel-Sicht. Diese sieben sind von Admins freigegeben, auf 1.21-Clients getestet und sehen auf Screenshots super aus, ohne schwache Laptops zu schmelzen."
+        "mobile": "Ressourcenpakete sind auf allen unseren Servern erlaubt, solange sie keine unfairen Vorteile bringen — kein X-Ray, keine Low-Fire-PvP-Cheats. Diese sieben sind von Admins freigegeben und sehen auf Screenshots super aus.",
+        "desktop": "Ressourcenpakete sind auf allen unseren Servern erlaubt, solange sie keine unfairen Vorteile bringen — kein X-Ray, keine Low-Fire-PvP-Cheats, kein klares Wasser für Tunnel-Sicht. Diese sieben sind von Admins freigegeben, auf 1.21-Clients getestet und sehen auf Screenshots super aus, ohne schwache Laptops zu schmelzen."
       },
       "sections": [
         {
           "id": "01",
-          "tocLabel": "Wie wir sie ausgew\u00e4hlt haben",
-          "title": "Wie wir sie ausgew\u00e4hlt haben",
+          "tocLabel": "Wie wir sie ausgewählt haben",
+          "title": "Wie wir sie ausgewählt haben",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
                 "mobile": "Wir haben Hunderte von Paketen auf sieben reduziert, mit drei Regeln: lesbares UI bei 1080p, stabile FPS auf integrierter Grafik und keine blockierten Texturen beim Anti-Cheat-Scan.",
-                "desktop": "Wir haben Hunderte von Community-Paketen auf sieben reduziert, mit drei Regeln: lesbares UI bei 1080p, stabile FPS auf integrierter Grafik bei belebten Spawn-Events und eine saubere Anti-Cheat-Textur-Pr\u00fcfung \u2014 keine unfairen Erz-Highlights oder entfernten Partikel."
+                "desktop": "Wir haben Hunderte von Community-Paketen auf sieben reduziert, mit drei Regeln: lesbares UI bei 1080p, stabile FPS auf integrierter Grafik bei belebten Spawn-Events und eine saubere Anti-Cheat-Textur-Prüfung — keine unfairen Erz-Highlights oder entfernten Partikel."
               }
             },
             {
@@ -1117,12 +1199,12 @@
               "items": [
                 "Muss auf Java 1.21.x ohne OptiFine laufen.",
                 "Unter 128 MB Download bevorzugt.",
-                "Eigener Look \u2014 keine sieben Kopien desselben Vanilla-Tweaks."
+                "Eigener Look — keine sieben Kopien desselben Vanilla-Tweaks."
               ],
               "desktopItems": [
                 "Muss auf Java 1.21.x ohne OptiFine-Anforderung laufen.",
-                "Unter 128 MB Download bevorzugt f\u00fcr schnelle Launcher-Wechsel.",
-                "Eigene Kunstrichtung \u2014 keine sieben Kopien desselben Vanilla-Kontrast-Tweaks."
+                "Unter 128 MB Download bevorzugt für schnelle Launcher-Wechsel.",
+                "Eigene Kunstrichtung — keine sieben Kopien desselben Vanilla-Kontrast-Tweaks."
               ]
             }
           ]
@@ -1139,33 +1221,33 @@
             {
               "type": "ordered",
               "items": [
-                "Fresh Vanilla+ \u2014 sch\u00e4rfere Bl\u00f6cke, gleiches Feeling.",
-                "Soft Leaves \u2014 sanftere B\u00e4ume, toll f\u00fcr Baumeister.",
-                "Clean GUI Lite \u2014 gr\u00f6\u00dfere Tooltips, ruhigeres Inventar."
+                "Fresh Vanilla+ — schärfere Blöcke, gleiches Feeling.",
+                "Soft Leaves — sanftere Bäume, toll für Baumeister.",
+                "Clean GUI Lite — größere Tooltips, ruhigeres Inventar."
               ],
               "desktopItems": [
-                "Fresh Vanilla+ \u2014 sch\u00e4rfere Blockkanten und saubereres Glas, gleiches Gesamtgef\u00fchl.",
-                "Soft Leaves \u2014 sanfteres Laub und St\u00e4mme, toll f\u00fcr kinematische Baumeister.",
-                "Clean GUI Lite \u2014 gr\u00f6\u00dfere Tooltips und ruhigerer Inventarkontrast f\u00fcr lange Sessions."
+                "Fresh Vanilla+ — schärfere Blockkanten und saubereres Glas, gleiches Gesamtgefühl.",
+                "Soft Leaves — sanfteres Laub und Stämme, toll für kinematische Baumeister.",
+                "Clean GUI Lite — größere Tooltips und ruhigerer Inventarkontrast für lange Sessions."
               ]
             },
             {
               "type": "subheading",
-              "text": "Malerisch und atmosph\u00e4risch"
+              "text": "Malerisch und atmosphärisch"
             },
             {
               "type": "ordered",
               "items": [
-                "Terralith Skies \u2014 eigene Wolken und Sonnenuntergang-Farbverl\u00e4ufe.",
-                "Canvas Folk \u2014 handgemalter Stein und Holz.",
-                "Deep Dark UI \u2014 stimmungsvolle Men\u00fcs f\u00fcr Horror-Baumeister.",
-                "Neon Circuit \u2014 Sci-Fi-Redstone-Labor-\u00c4sthetik."
+                "Terralith Skies — eigene Wolken und Sonnenuntergang-Farbverläufe.",
+                "Canvas Folk — handgemalter Stein und Holz.",
+                "Deep Dark UI — stimmungsvolle Menüs für Horror-Baumeister.",
+                "Neon Circuit — Sci-Fi-Redstone-Labor-Ästhetik."
               ],
               "desktopItems": [
-                "Terralith Skies \u2014 eigene Wolken und Sonnenuntergang-Farbverl\u00e4ufe passend zu unserer Shader-freien Richtlinie.",
-                "Canvas Folk \u2014 handgemalte Stein- und Holztexturen f\u00fcr mittelalterliche Bezirke.",
-                "Deep Dark UI \u2014 stimmungsvolle Men\u00fcs und dunklere Hotbar f\u00fcr Horror- und H\u00f6hlenbaumeister.",
-                "Neon Circuit \u2014 Sci-Fi-Paneele und leuchtende Redstone-Akzente f\u00fcr Labor-Basen."
+                "Terralith Skies — eigene Wolken und Sonnenuntergang-Farbverläufe passend zu unserer Shader-freien Richtlinie.",
+                "Canvas Folk — handgemalte Stein- und Holztexturen für mittelalterliche Bezirke.",
+                "Deep Dark UI — stimmungsvolle Menüs und dunklere Hotbar für Horror- und Höhlenbaumeister.",
+                "Neon Circuit — Sci-Fi-Paneele und leuchtende Redstone-Akzente für Labor-Basen."
               ]
             },
             {
@@ -1184,8 +1266,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Malerische Pakete kosten 5\u201315 FPS auf integrierter Grafik. Minimale Pakete haben \u00fcblicherweise keine Leistungskosten. Eigene Himmel deaktivieren, wenn du beim Spawn ruckelst.",
-                "desktop": "Vollst\u00e4ndige malerische Pakete kosten bei Spawn-Events typischerweise f\u00fcnf bis f\u00fcnfzehn FPS auf integrierter Grafik. Minimale Pakete haben \u00fcblicherweise keine Leistungskosten. Zuerst eigene Himmel und animierte Texturen deaktivieren, wenn du ruckelst \u2014 die meisten Pakete zeigen Umschalt-Optionen in ihrem Optionsordner."
+                "mobile": "Malerische Pakete kosten 5–15 FPS auf integrierter Grafik. Minimale Pakete haben üblicherweise keine Leistungskosten. Eigene Himmel deaktivieren, wenn du beim Spawn ruckelst.",
+                "desktop": "Vollständige malerische Pakete kosten bei Spawn-Events typischerweise fünf bis fünfzehn FPS auf integrierter Grafik. Minimale Pakete haben üblicherweise keine Leistungskosten. Zuerst eigene Himmel und animierte Texturen deaktivieren, wenn du ruckelst — die meisten Pakete zeigen Umschalt-Optionen in ihrem Optionsordner."
               }
             },
             {
@@ -1193,8 +1275,8 @@
               "variant": "warn",
               "title": "Fair-Play-Erinnerung",
               "text": {
-                "mobile": "Pakete, die Feuer entfernen, Hitboxen visuell ver\u00e4ndern oder Erze hervorheben, sind verboten. Im Zweifel vor dem Turniertag in #support fragen.",
-                "desktop": "Pakete, die Feuer-Overlays entfernen, Hitbox-Visuals ver\u00e4ndern oder versteckte Erze hervorheben, sind verboten und k\u00f6nnen automatische Kicks ausl\u00f6sen. Im Zweifel vor dem Turniertag in #support fragen \u2014 Admins k\u00f6nnen deine Paketliste in Minuten scannen."
+                "mobile": "Pakete, die Feuer entfernen, Hitboxen visuell verändern oder Erze hervorheben, sind verboten. Im Zweifel vor dem Turniertag in #support fragen.",
+                "desktop": "Pakete, die Feuer-Overlays entfernen, Hitbox-Visuals verändern oder versteckte Erze hervorheben, sind verboten und können automatische Kicks auslösen. Im Zweifel vor dem Turniertag in #support fragen — Admins können deine Paketliste in Minuten scannen."
               }
             }
           ]
@@ -1208,15 +1290,15 @@
               "type": "ordered",
               "items": [
                 "Die .zip von den offiziellen Links in unserem Discord-Pin herunterladen.",
-                "Minecraft \u00f6ffnen \u2192 Optionen \u2192 Ressourcenpakete \u2192 Paketordner \u00f6ffnen.",
+                "Minecraft öffnen → Optionen → Ressourcenpakete → Paketordner öffnen.",
                 "Zip in den Ordner ziehen und in der Liste aktivieren.",
-                "Neu mit einem Server verbinden \u2014 kein Neustart auf unserem Launcher n\u00f6tig."
+                "Neu mit einem Server verbinden — kein Neustart auf unserem Launcher nötig."
               ],
               "desktopItems": [
                 "Die .zip von den in Discord #resource-packs angepinnten offiziellen Links herunterladen.",
-                "Minecraft \u00f6ffnen \u2192 Optionen \u2192 Ressourcenpakete \u2192 Paketordner \u00f6ffnen.",
-                "Zip in den Ordner ziehen und in die ausgew\u00e4hlte Spalte verschieben.",
-                "Neu mit einem Server in unserem Launcher verbinden \u2014 ein vollst\u00e4ndiger Neustart ist \u00fcblicherweise nicht n\u00f6tig."
+                "Minecraft öffnen → Optionen → Ressourcenpakete → Paketordner öffnen.",
+                "Zip in den Ordner ziehen und in die ausgewählte Spalte verschieben.",
+                "Neu mit einem Server in unserem Launcher verbinden — ein vollständiger Neustart ist üblicherweise nicht nötig."
               ]
             }
           ]
@@ -1229,8 +1311,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "LuckySurvival und CalmSky erlauben alle sieben. MineWars erlaubt nur kosmetische Pakete \u2014 kein UI, das Totem-Pop-Animationen versteckt. Turnier-Bracket erfordert Standard-Feuer-Overlay.",
-                "desktop": "LuckySurvival und CalmSky erlauben alle sieben ohne Einschr\u00e4nkung. MineWars erlaubt nur kosmetische Pakete \u2014 keine UI-Mods, die Totem-Pop-Animationen verstecken oder Feuer-Overlays verk\u00fcrzen. Offizielle Turnier-Brackets erfordern Standard-Feuer- und Totem-Visuals f\u00fcr Fairness-Pr\u00fcfungen."
+                "mobile": "LuckySurvival und CalmSky erlauben alle sieben. MineWars erlaubt nur kosmetische Pakete — kein UI, das Totem-Pop-Animationen versteckt. Turnier-Bracket erfordert Standard-Feuer-Overlay.",
+                "desktop": "LuckySurvival und CalmSky erlauben alle sieben ohne Einschränkung. MineWars erlaubt nur kosmetische Pakete — keine UI-Mods, die Totem-Pop-Animationen verstecken oder Feuer-Overlays verkürzen. Offizielle Turnier-Brackets erfordern Standard-Feuer- und Totem-Visuals für Fairness-Prüfungen."
               }
             }
           ]
@@ -1243,8 +1325,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Ein Paket auf unseren Servern erstellt? F\u00fcr die Sommerliste in #resource-packs einreichen mit Screenshot-Album und FPS-Notizen. Wir stellen jede Saison zwei Community-Pakete vor.",
-                "desktop": "Ein Paket w\u00e4hrend des Spielens auf unseren Servern erstellt? F\u00fcr die saisonale Admin-Picks-Liste in #resource-packs einreichen mit Screenshot-Album, Download-Link und ehrlichen FPS-Notizen auf integrierter Grafik. Wir stellen jede Saison zwei Community-Pakete neben internen Favoriten vor."
+                "mobile": "Ein Paket auf unseren Servern erstellt? Für die Sommerliste in #resource-packs einreichen mit Screenshot-Album und FPS-Notizen. Wir stellen jede Saison zwei Community-Pakete vor.",
+                "desktop": "Ein Paket während des Spielens auf unseren Servern erstellt? Für die saisonale Admin-Picks-Liste in #resource-packs einreichen mit Screenshot-Album, Download-Link und ehrlichen FPS-Notizen auf integrierter Grafik. Wir stellen jede Saison zwei Community-Pakete neben internen Favoriten vor."
               }
             },
             {

@@ -3,15 +3,15 @@
     "badge": "Blog",
     "title": "Stories from our Minecraft servers",
     "description": "Guides, server updates and player stories from our worlds.",
-    "searchPlaceholder": "Search articles\u2026",
+    "searchPlaceholder": "Search articles…",
     "searchButton": "Search",
     "categoriesLabel": "Blog categories"
   },
   "featured": {
     "tagFeatured": "Featured",
     "tagUpdates": "Updates",
-    "title": "Server Update 2.6 \u2014 custom crafts, economy rebalance, and the biggest patch of the season",
-    "description": "We refreshed spawn hubs on LuckySurvival, MineWars, and CalmSky, added 12 new custom crafts, rebalanced the economy, and shipped a brand-new tournament mode. Here is everything you need to know \u2014 and the changes you can already test on the public branch tonight.",
+    "title": "Server Update 2.6 — custom crafts, economy rebalance, and the biggest patch of the season",
+    "description": "We refreshed spawn hubs on LuckySurvival, MineWars, and CalmSky, added 12 new custom crafts, rebalanced the economy, and shipped a brand-new tournament mode. Here is everything you need to know — and the changes you can already test on the public branch tonight.",
     "date": "Apr 28, 2026",
     "readTime": "7 min read",
     "readArticle": "Read article",
@@ -72,11 +72,16 @@
     "copied": "Link copied"
   },
   "updates": {
-    "breadcrumb": ["Home", "Blog", "Updates", "Server Update 2.6"],
+    "breadcrumb": [
+      "Home",
+      "Blog",
+      "Updates",
+      "Server Update 2.6"
+    ],
     "hero": {
       "tagUpdates": "Updates",
       "tagFeatured": "Featured",
-      "title": "Server Update 2.6 \u2014 custom crafts, economy rebalance, and the biggest patch of the season",
+      "title": "Server Update 2.6 — custom crafts, economy rebalance, and the biggest patch of the season",
       "description": "After eight weeks on the public test branch, the 2.6 patch is finally rolling out across every server.",
       "descriptionDesktop": "After eight weeks on the public test branch, the 2.6 patch is finally rolling out to every server. We refreshed spawn hubs on LuckySurvival, MineWars, and CalmSky, added 12 new custom crafts, rebalanced the economy, and shipped a brand-new tournament mode.",
       "date": "Apr 28, 2026",
@@ -84,26 +89,55 @@
       "imageAlt": "Server Update 2.6 hero illustration"
     },
     "toc": [
-      { "id": "01", "label": "What\u2019s new in 2.6" },
-      { "id": "02", "label": "Spawn hub refresh" },
-      { "id": "03", "label": "12 new custom crafts" },
-      { "id": "04", "label": "Economy rebalance" },
-      { "id": "05", "label": "Tournament mode" },
-      { "id": "06", "label": "How to update" },
-      { "id": "07", "label": "Known issues" },
-      { "id": "08", "label": "What\u2019s next" }
+      {
+        "id": "01",
+        "label": "What’s new in 2.6"
+      },
+      {
+        "id": "02",
+        "label": "Spawn hub refresh"
+      },
+      {
+        "id": "03",
+        "label": "12 new custom crafts"
+      },
+      {
+        "id": "04",
+        "label": "Economy rebalance"
+      },
+      {
+        "id": "05",
+        "label": "Tournament mode"
+      },
+      {
+        "id": "06",
+        "label": "How to update"
+      },
+      {
+        "id": "07",
+        "label": "Known issues"
+      },
+      {
+        "id": "08",
+        "label": "What’s next"
+      }
     ],
-    "shareTitle": "Server Update 2.6 \u2014 custom crafts, economy rebalance, and the biggest patch of the season",
+    "shareTitle": "Server Update 2.6 — custom crafts, economy rebalance, and the biggest patch of the season",
     "onThisPage": "On this page",
     "readingProgress": "Reading progress",
     "shareArticle": "Share this article",
     "shareLabel": "Share:",
     "tagsLabel": "Tags",
-    "tags": ["Updates", "LuckySurvival", "Economy", "Tournaments"],
+    "tags": [
+      "Updates",
+      "LuckySurvival",
+      "Economy",
+      "Tournaments"
+    ],
     "leadMobile": "After eight weeks on the public test branch, the 2.6 patch is finally rolling out across every server. This release refreshes spawn hubs on LuckySurvival, MineWars, and CalmSky, adds twelve new crafts, ships a new tournament mode, and touches almost every economy curve.",
     "leadDesktop": "After eight weeks on the public test branch, the 2.6 patch is finally rolling out across every server. This release refreshes spawn hubs on LuckySurvival, MineWars, and CalmSky, adds twelve new crafts, ships a brand-new tournament mode, and touches almost every economy curve in the game. Here is the full breakdown.",
     "s01": {
-      "title": "1. What\u2019s new in 2.6",
+      "title": "1. What’s new in 2.6",
       "paragraphMobile": "We focused this release on the three areas players asked for most: spawn hub quality, economy balance, and competitive play. Every change ships across all servers simultaneously.",
       "paragraphDesktop": "We focused this release on the three areas players asked for most in the spring survey: spawn hub quality, economy balance, and competitive play. Every change ships across all servers simultaneously, so nothing is locked behind a specific world.",
       "bulletsMobile": [
@@ -123,47 +157,47 @@
     },
     "s02": {
       "title": "2. Spawn hub refresh",
-      "paragraphMobile": "Spawn hubs on LuckySurvival, MineWars, and CalmSky were the oldest areas on the map \u2014 built before we added tutorial NPCs and cross-server warps. We rebuilt all three with clearer signage and faster routes to the wilderness.",
-      "paragraphDesktop": "Spawn hubs on LuckySurvival, MineWars, and CalmSky were the oldest areas on the map \u2014 built before we added tutorial NPCs and cross-server warps. We rebuilt all three with clearer signage, refreshed market stalls, and faster routes to the wilderness on each server.",
+      "paragraphMobile": "Spawn hubs on LuckySurvival, MineWars, and CalmSky were the oldest areas on the map — built before we added tutorial NPCs and cross-server warps. We rebuilt all three with clearer signage and faster routes to the wilderness.",
+      "paragraphDesktop": "Spawn hubs on LuckySurvival, MineWars, and CalmSky were the oldest areas on the map — built before we added tutorial NPCs and cross-server warps. We rebuilt all three with clearer signage, refreshed market stalls, and faster routes to the wilderness on each server.",
       "figureAlt": "Refreshed spawn hub on LuckySurvival",
-      "figureCaption": "Caption: The new LuckySurvival spawn \u2014 same world, clearer warps and tutorial flow.",
-      "paragraph2Mobile": "Each hub keeps the same world seed and claim boundaries \u2014 only the spawn build changed. Your existing bases and chests are untouched.",
-      "paragraph2Desktop": "Each hub keeps the same world seed and claim boundaries \u2014 only the spawn build changed. Your existing bases, chests, and /home points are untouched; use the new warp signs to reach the wilderness faster.",
+      "figureCaption": "Caption: The new LuckySurvival spawn — same world, clearer warps and tutorial flow.",
+      "paragraph2Mobile": "Each hub keeps the same world seed and claim boundaries — only the spawn build changed. Your existing bases and chests are untouched.",
+      "paragraph2Desktop": "Each hub keeps the same world seed and claim boundaries — only the spawn build changed. Your existing bases, chests, and /home points are untouched; use the new warp signs to reach the wilderness faster.",
       "calloutTitle": "Heads up",
       "calloutMobile": "If you had a shop stall in the old spawn market, staff migrated your chest contents to the new market row.",
       "calloutDesktop": "If you had a shop stall in the old spawn market, staff migrated your chest contents to the new market row. Check /mail in-game if anything looks missing."
     },
     "s03": {
       "title": "3. Twelve new custom crafts",
-      "paragraphMobile": "Custom crafts are recipes that only exist on our servers. With 2.6, we are shipping twelve new ones \u2014 six utility, six cosmetic.",
-      "paragraphDesktop": "Custom crafts are recipes that only exist on our servers. They use vanilla materials but produce unique tools and decorative items. With 2.6, we are shipping twelve new ones \u2014 six utility, six cosmetic. The full list is in the in-game compendium under Recipes \u2192 Server.",
+      "paragraphMobile": "Custom crafts are recipes that only exist on our servers. With 2.6, we are shipping twelve new ones — six utility, six cosmetic.",
+      "paragraphDesktop": "Custom crafts are recipes that only exist on our servers. They use vanilla materials but produce unique tools and decorative items. With 2.6, we are shipping twelve new ones — six utility, six cosmetic. The full list is in the in-game compendium under Recipes → Server.",
       "utilityHeading": "Utility crafts",
       "cosmeticHeading": "Cosmetic crafts",
       "utilityCraftsMobile": [
-        "Ender Compass \u2014 points to your last death.",
-        "Bulk Smelter \u2014 smelts a full stack at once.",
-        "Server Pickaxe \u2014 works across claim boundaries.",
-        "Quick-Stack Pouch \u2014 auto-sorts into nearby chests.",
-        "Friend Beacon \u2014 pings your party on the map.",
-        "Spawner Lasso \u2014 relocates monster spawners."
+        "Ender Compass — points to your last death.",
+        "Bulk Smelter — smelts a full stack at once.",
+        "Server Pickaxe — works across claim boundaries.",
+        "Quick-Stack Pouch — auto-sorts into nearby chests.",
+        "Friend Beacon — pings your party on the map.",
+        "Spawner Lasso — relocates monster spawners."
       ],
       "utilityCraftsDesktop": [
-        "Ender Compass \u2014 points to your last death.",
-        "Bulk Smelter \u2014 smelts a full stack at once.",
-        "Server Pickaxe \u2014 works across claim boundaries (with permission).",
-        "Quick-Stack Pouch \u2014 auto-sorts into nearby chests.",
-        "Friend Beacon \u2014 pings your party on the map.",
-        "Spawner Lasso \u2014 relocates monster spawners."
+        "Ender Compass — points to your last death.",
+        "Bulk Smelter — smelts a full stack at once.",
+        "Server Pickaxe — works across claim boundaries (with permission).",
+        "Quick-Stack Pouch — auto-sorts into nearby chests.",
+        "Friend Beacon — pings your party on the map.",
+        "Spawner Lasso — relocates monster spawners."
       ],
       "cosmeticMobile": "Six new decorative items joined the catalog, including the Glowing Banner Set, the Floating Lantern, and three Iron Trophy variants.",
       "cosmeticDesktop": "Six new decorative items have joined the catalog, including the wildly popular Glowing Banner Set, the Glowing Floating Lantern, and three variants of the seasonal Iron Trophy used in tournaments. All cosmetic crafts are also available as a bundle in the in-game store."
     },
     "s04": {
       "title": "4. Economy rebalance",
-      "paragraphMobile": "We adjusted every vendor price, every event reward, and the daily tax curve. Most are small percentage changes \u2014 but a handful of items are now significantly cheaper to help early progression.",
-      "paragraphDesktop": "We adjusted every vendor price, every event reward, and the daily tax curve. Most of these are small percentage changes that should be invisible during a normal session \u2014 but a handful of items are now significantly cheaper to encourage early-game progression.",
-      "quoteMobile": "\u201cWe wanted new players to feel real progression in their first three hours of play \u2014 not a slow grind.\u201d",
-      "quoteDesktop": "\u201cWe wanted new players to feel real progression in their first three hours of play \u2014 not a slow grind. Most of the rebalance is aimed at hour one and hour two of a fresh account.\u201d",
+      "paragraphMobile": "We adjusted every vendor price, every event reward, and the daily tax curve. Most are small percentage changes — but a handful of items are now significantly cheaper to help early progression.",
+      "paragraphDesktop": "We adjusted every vendor price, every event reward, and the daily tax curve. Most of these are small percentage changes that should be invisible during a normal session — but a handful of items are now significantly cheaper to encourage early-game progression.",
+      "quoteMobile": "“We wanted new players to feel real progression in their first three hours of play — not a slow grind.”",
+      "quoteDesktop": "“We wanted new players to feel real progression in their first three hours of play — not a slow grind. Most of the rebalance is aimed at hour one and hour two of a fresh account.”",
       "quoteAuthor": "Mike Rasmus, Lead Server Engineer",
       "tldrDesktop": "A complete diff of the changes is published on the developer blog if you want to see every line. The TL;DR is below.",
       "bulletsMobile": [
@@ -184,14 +218,14 @@
       "paragraphMobile": "The biggest single feature in 2.6. Every week a new bracket opens Friday at 18:00 UTC and runs through Sunday 23:59 UTC. Top finishers earn trophies, prize-pool currency, and exclusive cosmetics.",
       "paragraphDesktop": "The biggest single feature in 2.6: Tournament mode. Every week a new bracket opens on Friday at 18:00 UTC and runs through Sunday at 23:59 UTC. Top finishers earn season trophies, prize-pool currency, and exclusive cosmetic skins.",
       "figureAlt": "Tournament bracket interface",
-      "figureCaption": "Caption: The new bracket interface \u2014 fully accessible from the in-game menu.",
+      "figureCaption": "Caption: The new bracket interface — fully accessible from the in-game menu.",
       "paragraph2Mobile": "Brackets are auto-balanced by playtime, so brand-new accounts compete with peers of similar experience.",
       "paragraph2Desktop": "Brackets are auto-balanced by playtime and historical performance, so brand-new accounts compete with peers of similar experience. We will publish a full strategy guide once the first season closes in three weeks."
     },
     "s06": {
       "title": "6. How to update",
       "paragraphMobile": "The patch installs automatically on next launch. To force the update, follow the steps below.",
-      "paragraphDesktop": "You do not need to do anything \u2014 the patch installs automatically on next launch. If you want to force the update, follow the steps below.",
+      "paragraphDesktop": "You do not need to do anything — the patch installs automatically on next launch. If you want to force the update, follow the steps below.",
       "stepsMobile": [
         "Close the game completely.",
         "Open the launcher and click the refresh icon.",
@@ -213,7 +247,7 @@
       "paragraphMobile": "Here is what we already know and are tracking for hotfix 2.6.1, scheduled for next Tuesday.",
       "paragraphDesktop": "Every release ships with a few rough edges. Here is what we already know about and are tracking for hotfix 2.6.1, scheduled for next Tuesday.",
       "issuesMobile": [
-        "Ender Compass occasionally points to spawn \u2014 fix in 2.6.1.",
+        "Ender Compass occasionally points to spawn — fix in 2.6.1.",
         "Friend Beacon does not display on some viewports.",
         "Tournament chat delayed by 5-10 seconds at peak.",
         "Three minor lantern glitches in low-light biomes."
@@ -226,7 +260,7 @@
       ]
     },
     "s08": {
-      "title": "8. What\u2019s next",
+      "title": "8. What’s next",
       "paragraphMobile": "We are already planning 2.7. Headline features: a creative-mode sandbox, expanded redstone components, and an in-game macro recorder. Public test branch opens mid-June.",
       "paragraphDesktop": "We are already deep into planning for 2.7. The headline features are a creative-mode building sandbox, expanded redstone components, and an in-game macro recorder for repetitive builds. Expect the public test branch to open around mid-June.",
       "closingMobile": "Thanks for being part of the community. See you on the islands.",
@@ -240,7 +274,7 @@
       {
         "title": "Top 10 survival tips for absolute beginners",
         "description": "Spawning in a fresh world is overwhelming. Here is the short list of things to do in your first hour.",
-        "descriptionDesktop": "Spawning in a fresh world is overwhelming. Here is the short list of things to do in your first hour \u2014 and the three mistakes that ruin most new runs.",
+        "descriptionDesktop": "Spawning in a fresh world is overwhelming. Here is the short list of things to do in your first hour — and the three mistakes that ruin most new runs.",
         "genre": "Guides",
         "time": 4,
         "date": "Apr 22, 2026",
@@ -250,7 +284,7 @@
       {
         "title": "How to build an efficient iron farm in 2026",
         "description": "A compact, lag-friendly design that produces ~600 ingots per hour and works on all three of our servers.",
-        "descriptionDesktop": "A compact, lag-friendly design that produces around 600 ingots per hour and works on all three of our servers \u2014 no datapacks required.",
+        "descriptionDesktop": "A compact, lag-friendly design that produces around 600 ingots per hour and works on all three of our servers — no datapacks required.",
         "genre": "Engineering",
         "time": 6,
         "date": "Apr 18, 2026",
@@ -259,7 +293,7 @@
       },
       {
         "title": "PvP loadouts that actually work on MineWars",
-        "description": "We tested 18 builds across two weeks of small-scale fights. Four loadouts keep winning \u2014 the rest, retire.",
+        "description": "We tested 18 builds across two weeks of small-scale fights. Four loadouts keep winning — the rest, retire.",
         "descriptionDesktop": "We tested 18 builds across two weeks of small-scale fights. These are the four loadouts that keep winning, plus the ones you can safely retire.",
         "genre": "PvP",
         "time": 5,
@@ -273,13 +307,21 @@
     "survival-tips": {
       "title": "Top 10 survival tips for absolute beginners",
       "description": "Spawning in a fresh world is overwhelming. Here is the short list of things to do in your first hour.",
-      "descriptionDesktop": "Spawning in a fresh world is overwhelming \u2014 trees everywhere, mobs at dusk, and no map. Here is the short list of things to do in your first hour, plus the three mistakes that ruin most new runs before day two.",
+      "descriptionDesktop": "Spawning in a fresh world is overwhelming — trees everywhere, mobs at dusk, and no map. Here is the short list of things to do in your first hour, plus the three mistakes that ruin most new runs before day two.",
       "breadcrumbLabel": "Survival tips",
-      "heroTags": ["Guides", "Survival"],
-      "sidebarTags": ["Guides", "Survival", "Beginners", "Tips"],
+      "heroTags": [
+        "Guides",
+        "Survival"
+      ],
+      "sidebarTags": [
+        "Guides",
+        "Survival",
+        "Beginners",
+        "Tips"
+      ],
       "lead": {
-        "mobile": "Your first hour in a survival world sets the tone for everything that follows. These ten priorities come from hundreds of new-player sessions on our servers \u2014 ranked by what actually keeps you alive.",
-        "desktop": "Your first hour in a survival world sets the tone for everything that follows. These ten priorities come from hundreds of new-player sessions on our servers \u2014 ranked by what actually keeps you alive, not by what speedrunners do on YouTube. Follow them in order and you will reach day two with food, shelter, and real tools."
+        "mobile": "Your first hour in a survival world sets the tone for everything that follows. These ten priorities come from hundreds of new-player sessions on our servers — ranked by what actually keeps you alive.",
+        "desktop": "Your first hour in a survival world sets the tone for everything that follows. These ten priorities come from hundreds of new-player sessions on our servers — ranked by what actually keeps you alive, not by what speedrunners do on YouTube. Follow them in order and you will reach day two with food, shelter, and real tools."
       },
       "sections": [
         {
@@ -291,7 +333,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "Before you explore, commit to a simple loop: punch wood, craft planks, make a crafting table, then tools. Everything else waits until you have stone.",
-                "desktop": "Before you explore, commit to a simple loop: punch wood, craft planks, make a crafting table, then basic tools. Everything else \u2014 caves, villages, fancy builds \u2014 waits until you have stone gear and a place to sleep through the night."
+                "desktop": "Before you explore, commit to a simple loop: punch wood, craft planks, make a crafting table, then basic tools. Everything else — caves, villages, fancy builds — waits until you have stone gear and a place to sleep through the night."
               }
             },
             {
@@ -301,7 +343,7 @@
                 "Craft a crafting table and wooden pickaxe.",
                 "Mine 11 cobblestone for stone tools.",
                 "Find coal or burn logs for torches.",
-                "Build a 3\u00d73 dirt shelter before sunset."
+                "Build a 3×3 dirt shelter before sunset."
               ],
               "desktopItems": [
                 "Gather at least 16 logs and convert them to planks.",
@@ -321,15 +363,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Night one kills more new players than creepers. You do not need a house \u2014 you need four walls, a roof, and a door. A hole in the ground counts.",
-                "desktop": "Night one kills more new players than creepers ever will. You do not need a house with windows \u2014 you need four walls, a roof, and a door. A hole in the ground with a torch counts. Light level matters: one torch inside prevents most mob spawns."
+                "mobile": "Night one kills more new players than creepers. You do not need a house — you need four walls, a roof, and a door. A hole in the ground counts.",
+                "desktop": "Night one kills more new players than creepers ever will. You do not need a house with windows — you need four walls, a roof, and a door. A hole in the ground with a torch counts. Light level matters: one torch inside prevents most mob spawns."
               }
             },
             {
               "type": "figure",
               "src": "/blog/1.webp",
               "alt": "Starter survival shelter at dusk",
-              "caption": "Caption: A minimal first-night shelter \u2014 dirt walls, wooden door, one torch.",
+              "caption": "Caption: A minimal first-night shelter — dirt walls, wooden door, one torch.",
               "dashed": true
             },
             {
@@ -338,7 +380,7 @@
               "title": "Heads up",
               "text": {
                 "mobile": "On our servers, sleeping skips the night only if most online players in your chunk are in beds. Solo? Your shelter is your sleep button.",
-                "desktop": "On our servers, sleeping skips the night only if most online players in your chunk are in beds. Playing solo? Your shelter is your sleep button \u2014 do not wander outside until you craft a bed."
+                "desktop": "On our servers, sleeping skips the night only if most online players in your chunk are in beds. Playing solo? Your shelter is your sleep button — do not wander outside until you craft a bed."
               }
             }
           ]
@@ -352,7 +394,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "Hunger drains while you sprint, jump, and fight. On day one, kill animals for meat or break tall grass for seeds. Bread beats raw meat for safety.",
-                "desktop": "Hunger drains while you sprint, jump, and fight. On day one, kill passive animals for meat or break tall grass for wheat seeds. Cooked food restores more \u2014 and bread is safer than eating raw chicken before you have spare health."
+                "desktop": "Hunger drains while you sprint, jump, and fight. On day one, kill passive animals for meat or break tall grass for wheat seeds. Cooked food restores more — and bread is safer than eating raw chicken before you have spare health."
               }
             },
             {
@@ -380,15 +422,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Upgrade tools in order: wood \u2192 stone \u2192 iron. Never mine diamond with a stone pickaxe. Keep a spare pick in your hotbar \u2014 nothing stalls a run like breaking your only tool underground.",
-                "desktop": "Upgrade tools in order: wood \u2192 stone \u2192 iron \u2192 diamond. Never mine diamond ore with a stone pickaxe \u2014 you will destroy the drop. Keep a spare pick in your hotbar; nothing stalls a run like breaking your only tool two hundred blocks underground."
+                "mobile": "Upgrade tools in order: wood → stone → iron. Never mine diamond with a stone pickaxe. Keep a spare pick in your hotbar — nothing stalls a run like breaking your only tool underground.",
+                "desktop": "Upgrade tools in order: wood → stone → iron → diamond. Never mine diamond ore with a stone pickaxe — you will destroy the drop. Keep a spare pick in your hotbar; nothing stalls a run like breaking your only tool two hundred blocks underground."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201cStone tools by sunset, iron by day three \u2014 that is the pace that feels good on our survival worlds.\u201d",
-                "desktop": "\u201cStone tools by sunset, iron by day three \u2014 that is the pace that feels good on our survival worlds. Rush diamond on day one and you usually die with full inventory.\u201d"
+                "mobile": "“Stone tools by sunset, iron by day three — that is the pace that feels good on our survival worlds.”",
+                "desktop": "“Stone tools by sunset, iron by day three — that is the pace that feels good on our survival worlds. Rush diamond on day one and you usually die with full inventory.”"
               },
               "author": "Elena Voss, Community Guide Lead"
             }
@@ -402,14 +444,14 @@
             {
               "type": "bullets",
               "items": [
-                "Digging straight down \u2014 lava and caves end runs instantly.",
-                "Carrying everything \u2014 leave backup gear at base.",
-                "Ignoring light \u2014 mobs spawn where you cannot see."
+                "Digging straight down — lava and caves end runs instantly.",
+                "Carrying everything — leave backup gear at base.",
+                "Ignoring light — mobs spawn where you cannot see."
               ],
               "desktopItems": [
-                "Digging straight down \u2014 lava pools and surprise caves end runs instantly.",
-                "Carrying your entire inventory on exploration \u2014 leave backup tools and food at base.",
-                "Ignoring light levels \u2014 hostile mobs spawn in any unlit space, including your unfinished basement."
+                "Digging straight down — lava pools and surprise caves end runs instantly.",
+                "Carrying your entire inventory on exploration — leave backup tools and food at base.",
+                "Ignoring light levels — hostile mobs spawn in any unlit space, including your unfinished basement."
               ]
             },
             {
@@ -448,13 +490,21 @@
     "iron-farm": {
       "title": "How to build an efficient iron farm in 2026",
       "description": "A compact, lag-friendly design that produces ~600 ingots per hour and works on all three of our servers.",
-      "descriptionDesktop": "A compact, lag-friendly iron farm design that produces around 600 ingots per hour and works on all three of our servers \u2014 no datapacks required, no chunk-busting entity cramming, and fully AFK-friendly once you finish the build.",
+      "descriptionDesktop": "A compact, lag-friendly iron farm design that produces around 600 ingots per hour and works on all three of our servers — no datapacks required, no chunk-busting entity cramming, and fully AFK-friendly once you finish the build.",
       "breadcrumbLabel": "Iron farm guide",
-      "heroTags": ["Engineering", "Farms"],
-      "sidebarTags": ["Engineering", "Iron", "Farms", "Redstone"],
+      "heroTags": [
+        "Engineering",
+        "Farms"
+      ],
+      "sidebarTags": [
+        "Engineering",
+        "Iron",
+        "Farms",
+        "Redstone"
+      ],
       "lead": {
-        "mobile": "Iron is the bottleneck for tools, rails, and anvils on every long-term world. This 2026 layout trades size for throughput \u2014 roughly 600 ingots per hour on our standard tick rate.",
-        "desktop": "Iron is the bottleneck for tools, rails, and anvils on every long-term world. This 2026 layout trades footprint for throughput \u2014 roughly 600 ingots per hour on our standard tick rate, with entity counts low enough that TPS stays stable even on busy evenings."
+        "mobile": "Iron is the bottleneck for tools, rails, and anvils on every long-term world. This 2026 layout trades size for throughput — roughly 600 ingots per hour on our standard tick rate.",
+        "desktop": "Iron is the bottleneck for tools, rails, and anvils on every long-term world. This 2026 layout trades footprint for throughput — roughly 600 ingots per hour on our standard tick rate, with entity counts low enough that TPS stays stable even on busy evenings."
       },
       "sections": [
         {
@@ -465,21 +515,21 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Older iron farms relied on massive villager halls and unreliable spawn rates. The 2026 compact uses three platform layers and a single kill chamber \u2014 fewer entities, same output.",
-                "desktop": "Older iron farms relied on massive villager halls and unreliable spawn rates at server scale. The 2026 compact uses three platform layers, a single water-stream kill chamber, and one collection hopper line \u2014 fewer entities, same hourly output, and easier to debug when something breaks."
+                "mobile": "Older iron farms relied on massive villager halls and unreliable spawn rates. The 2026 compact uses three platform layers and a single kill chamber — fewer entities, same output.",
+                "desktop": "Older iron farms relied on massive villager halls and unreliable spawn rates at server scale. The 2026 compact uses three platform layers, a single water-stream kill chamber, and one collection hopper line — fewer entities, same hourly output, and easier to debug when something breaks."
               }
             },
             {
               "type": "bullets",
               "items": [
                 "~600 iron ingots per hour at default tick rate.",
-                "Fits in a 16\u00d716 claim without crossing neighbors.",
+                "Fits in a 16×16 claim without crossing neighbors.",
                 "No client-side mods or datapacks required.",
                 "AFK-safe once lava and hopper lines are tested."
               ],
               "desktopItems": [
                 "Roughly 600 iron ingots per hour at our default tick rate.",
-                "Fits entirely inside a 16\u00d716 land claim without crossing into neighbors.",
+                "Fits entirely inside a 16×16 land claim without crossing into neighbors.",
                 "No client-side mods, schematic mods, or server datapacks required.",
                 "AFK-safe once lava blade timing and hopper lines are tested once."
               ]
@@ -494,8 +544,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Budget one full evening for gathering. Most cost is beds, workstations, and building blocks \u2014 not redstone.",
-                "desktop": "Budget one full evening for gathering and a second for construction. Most of the material cost is beds, workstations, and building blocks \u2014 not redstone. You can substitute cobble for any decorative block without changing mechanics."
+                "mobile": "Budget one full evening for gathering. Most cost is beds, workstations, and building blocks — not redstone.",
+                "desktop": "Budget one full evening for gathering and a second for construction. Most of the material cost is beds, workstations, and building blocks — not redstone. You can substitute cobble for any decorative block without changing mechanics."
               }
             },
             {
@@ -508,7 +558,7 @@
                 "1 chest, 1 hopper minecart (optional boost)"
               ],
               "desktopItems": [
-                "3 villagers \u2014 two workers plus one zombie for scare mechanics",
+                "3 villagers — two workers plus one zombie for scare mechanics",
                 "36 beds and matching workstation blocks (one per bed)",
                 "2 water buckets, 1 lava bucket, 4 hoppers, 8 chests",
                 "48 building blocks per platform layer (144 total minimum)",
@@ -526,7 +576,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "Stack three spawning platforms 65 blocks above your AFK spot. Villagers panic at the zombie, golems spawn on platforms, drop through water into the lava blade.",
-                "desktop": "Stack three spawning platforms 65 blocks above your AFK spot \u2014 high enough that underground caves do not steal mob cap. Villagers panic at the zombie behind a fence, golems spawn on the platforms, then drop through water streams into a central lava blade and hopper collection line."
+                "desktop": "Stack three spawning platforms 65 blocks above your AFK spot — high enough that underground caves do not steal mob cap. Villagers panic at the zombie behind a fence, golems spawn on the platforms, then drop through water streams into a central lava blade and hopper collection line."
               }
             },
             {
@@ -546,17 +596,17 @@
             {
               "type": "ordered",
               "items": [
-                "Mark a 7\u00d77 pad at Y=120 (adjust for your terrain).",
+                "Mark a 7×7 pad at Y=120 (adjust for your terrain).",
                 "Place beds and workstations in a ring; trap the zombie 2 blocks away.",
-                "Add three 7\u00d77 platforms spaced 5 blocks vertically.",
+                "Add three 7×7 platforms spaced 5 blocks vertically.",
                 "Run water streams toward the center drop chute.",
                 "Install lava blade at Y=55 with sign protection.",
                 "Connect hoppers to a double chest at ground level."
               ],
               "desktopItems": [
-                "Mark a 7\u00d77 pad at Y=120 \u2014 adjust upward if caves are noisy below.",
+                "Mark a 7×7 pad at Y=120 — adjust upward if caves are noisy below.",
                 "Place beds and workstations in a ring; trap the zombie two blocks away behind a fence gate.",
-                "Add three identical 7\u00d77 platforms spaced five blocks vertically.",
+                "Add three identical 7×7 platforms spaced five blocks vertically.",
                 "Run water streams on each platform toward the center drop chute.",
                 "Install the lava blade at Y=55 with sign protection and a collection hopper.",
                 "Connect hoppers to a double chest at ground level and label it."
@@ -581,21 +631,21 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Rates low? Check mob cap elsewhere, verify villagers sleep at night, and stand at the AFK pad \u2014 not inside the farm.",
-                "desktop": "Rates lower than expected? Check mob cap usage elsewhere on the server, verify villagers actually sleep at night, and AFK at the designated pad 40 blocks below the platforms \u2014 standing inside the farm breaks spawn logic on some versions."
+                "mobile": "Rates low? Check mob cap elsewhere, verify villagers sleep at night, and stand at the AFK pad — not inside the farm.",
+                "desktop": "Rates lower than expected? Check mob cap usage elsewhere on the server, verify villagers actually sleep at night, and AFK at the designated pad 40 blocks below the platforms — standing inside the farm breaks spawn logic on some versions."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "Golems stuck on edges \u2014 widen water streams by one block.",
-                "Hopper clog \u2014 add a secondary chest and hopper chain.",
-                "TPS dips \u2014 reduce redundant entities near the claim."
+                "Golems stuck on edges — widen water streams by one block.",
+                "Hopper clog — add a secondary chest and hopper chain.",
+                "TPS dips — reduce redundant entities near the claim."
               ],
               "desktopItems": [
-                "Golems stuck on platform edges \u2014 widen water streams by one block on each side.",
-                "Hopper clog during peak hours \u2014 add a secondary chest and parallel hopper chain.",
-                "Server TPS dips \u2014 reduce redundant item entities and idle mobs near your claim."
+                "Golems stuck on platform edges — widen water streams by one block on each side.",
+                "Hopper clog during peak hours — add a secondary chest and parallel hopper chain.",
+                "Server TPS dips — reduce redundant item entities and idle mobs near your claim."
               ]
             }
           ]
@@ -609,7 +659,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "This design is tested on LuckySurvival, MineWars, and CalmSky. Claims protect the build; ask staff before crossing into wilderness on MineWars.",
-                "desktop": "This design is tested on our LuckySurvival, MineWars, and CalmSky servers with no rule changes required. Land claims protect the build from griefing \u2014 on MineWars, ask staff before placing villager modules near unclaimed wilderness borders."
+                "desktop": "This design is tested on our LuckySurvival, MineWars, and CalmSky servers with no rule changes required. Land claims protect the build from griefing — on MineWars, ask staff before placing villager modules near unclaimed wilderness borders."
               }
             },
             {
@@ -624,14 +674,22 @@
     },
     "pvp-loadouts": {
       "title": "PvP loadouts that actually work on MineWars",
-      "description": "We tested 18 builds across two weeks of small-scale fights. Four loadouts keep winning \u2014 the rest, retire.",
-      "descriptionDesktop": "We tested 18 builds across two weeks of small-scale MineWars fights \u2014 duels, border skirmishes, and nether highway ambushes. Four loadouts keep winning at our current meta. The rest are fine for practice, but you can safely retire them from serious fights.",
+      "description": "We tested 18 builds across two weeks of small-scale fights. Four loadouts keep winning — the rest, retire.",
+      "descriptionDesktop": "We tested 18 builds across two weeks of small-scale MineWars fights — duels, border skirmishes, and nether highway ambushes. Four loadouts keep winning at our current meta. The rest are fine for practice, but you can safely retire them from serious fights.",
       "breadcrumbLabel": "PvP loadouts",
-      "heroTags": ["PvP", "MineWars"],
-      "sidebarTags": ["PvP", "MineWars", "Loadouts", "Meta"],
+      "heroTags": [
+        "PvP",
+        "MineWars"
+      ],
+      "sidebarTags": [
+        "PvP",
+        "MineWars",
+        "Loadouts",
+        "Meta"
+      ],
       "lead": {
-        "mobile": "MineWars PvP on our servers is not about perfect armor \u2014 it is about kit synergy, pearl discipline, and knowing when to disengage. These four loadouts survived two weeks of recorded fights.",
-        "desktop": "MineWars PvP on our servers is not about perfect armor enchants \u2014 it is about kit synergy, pearl discipline, and knowing when to disengage. These four loadouts survived two weeks of recorded fights across 180+ engagements. Everything else underperformed once opponents started running crystals and mace tech."
+        "mobile": "MineWars PvP on our servers is not about perfect armor — it is about kit synergy, pearl discipline, and knowing when to disengage. These four loadouts survived two weeks of recorded fights.",
+        "desktop": "MineWars PvP on our servers is not about perfect armor enchants — it is about kit synergy, pearl discipline, and knowing when to disengage. These four loadouts survived two weeks of recorded fights across 180+ engagements. Everything else underperformed once opponents started running crystals and mace tech."
       },
       "sections": [
         {
@@ -642,8 +700,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Spring 2026 favors burst damage and fast re-pearl. Tank builds still win long fights, but only if you force them \u2014 most fights end in under 15 seconds.",
-                "desktop": "Spring 2026 favors burst damage and fast re-pearl timing. Tank builds still win extended trades, but only if you force them \u2014 most recorded fights on our MineWars shard ended in under fifteen seconds once both players had full kits."
+                "mobile": "Spring 2026 favors burst damage and fast re-pearl. Tank builds still win long fights, but only if you force them — most fights end in under 15 seconds.",
+                "desktop": "Spring 2026 favors burst damage and fast re-pearl timing. Tank builds still win extended trades, but only if you force them — most recorded fights on our MineWars shard ended in under fifteen seconds once both players had full kits."
               }
             },
             {
@@ -652,21 +710,21 @@
                 "Crystal + mace hybrids dominate open terrain.",
                 "Totem tanks survive nether hub brawls.",
                 "Speed hit-and-run kits counter over-geared players.",
-                "Budget kits matter \u2014 not everyone runs max enchants."
+                "Budget kits matter — not everyone runs max enchants."
               ],
               "desktopItems": [
                 "Crystal and mace hybrids dominate open terrain and desert highways.",
                 "Totem tanks survive nether hub brawls and portal traps.",
                 "Speed hit-and-run kits counter over-geared players who miss first hit.",
-                "Budget kits still win \u2014 not every fight involves max-enchant netherite."
+                "Budget kits still win — not every fight involves max-enchant netherite."
               ]
             }
           ]
         },
         {
           "id": "02",
-          "tocLabel": "Loadout #1 \u2014 Crystal burst",
-          "title": "Loadout #1 \u2014 Crystal burst",
+          "tocLabel": "Loadout #1 — Crystal burst",
+          "title": "Loadout #1 — Crystal burst",
           "blocks": [
             {
               "type": "paragraph",
@@ -681,15 +739,15 @@
               "title": "Risk profile",
               "text": {
                 "mobile": "High self-damage if you miss placements. Practice on our PvP test shard before bringing this to spawn fights.",
-                "desktop": "High self-damage if you miss crystal placements or eat your own burst. Practice on our PvP test shard before bringing this kit to spawn fights \u2014 staff reset the arena every six hours."
+                "desktop": "High self-damage if you miss crystal placements or eat your own burst. Practice on our PvP test shard before bringing this kit to spawn fights — staff reset the arena every six hours."
               }
             }
           ]
         },
         {
           "id": "03",
-          "tocLabel": "Loadout #2 \u2014 Totem tank",
-          "title": "Loadout #2 \u2014 Totem tank",
+          "tocLabel": "Loadout #2 — Totem tank",
+          "title": "Loadout #2 — Totem tank",
           "blocks": [
             {
               "type": "paragraph",
@@ -702,27 +760,27 @@
               "type": "figure",
               "src": "/blog/3.webp",
               "alt": "Totem tank PvP loadout inventory layout",
-              "caption": "Caption: Totem tank hotbar \u2014 sword, pearls, gaps, second totem, blocks."
+              "caption": "Caption: Totem tank hotbar — sword, pearls, gaps, second totem, blocks."
             }
           ]
         },
         {
           "id": "04",
-          "tocLabel": "Loadout #3 \u2014 Speed hit-and-run",
-          "title": "Loadout #3 \u2014 Speed hit-and-run",
+          "tocLabel": "Loadout #3 — Speed hit-and-run",
+          "title": "Loadout #3 — Speed hit-and-run",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Light armor with Swift Sneak and Speed II pots. Mace for vertical bursts, pearls for exits. Win condition: first hit, then disengage \u2014 never trade.",
-                "desktop": "Light armor with Swift Sneak III leggings and Speed II splash pots. Mace for vertical burst damage, pearls for exits through roof gaps. Win condition: land first hit from elevation, then disengage \u2014 never stand and trade against tank kits."
+                "mobile": "Light armor with Swift Sneak and Speed II pots. Mace for vertical bursts, pearls for exits. Win condition: first hit, then disengage — never trade.",
+                "desktop": "Light armor with Swift Sneak III leggings and Speed II splash pots. Mace for vertical burst damage, pearls for exits through roof gaps. Win condition: land first hit from elevation, then disengage — never stand and trade against tank kits."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201cIf you are still full-trading in open field, you are donating gear. Hit, pearl out, re-engage from height.\u201d",
-                "desktop": "\u201cIf you are still full-trading in open field against crystal kits, you are donating gear to the economy. Hit, pearl out, re-engage from height \u2014 that is the whole kit.\u201d"
+                "mobile": "“If you are still full-trading in open field, you are donating gear. Hit, pearl out, re-engage from height.”",
+                "desktop": "“If you are still full-trading in open field against crystal kits, you are donating gear to the economy. Hit, pearl out, re-engage from height — that is the whole kit.”"
               },
               "author": "NovaShift, MineWars tournament finalist"
             }
@@ -730,26 +788,26 @@
         },
         {
           "id": "05",
-          "tocLabel": "Loadout #4 \u2014 Budget starter",
-          "title": "Loadout #4 \u2014 Budget starter",
+          "tocLabel": "Loadout #4 — Budget starter",
+          "title": "Loadout #4 — Budget starter",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Diamond Prot II\u2013III, iron sword Sharp IV, 8 pearls, 3 gaps, blocks. Cheap enough to lose twice and still profit from one kill.",
-                "desktop": "Diamond Protection II\u2013III, iron sword Sharpness IV, eight ender pearls, three golden apples, and a stack of cobble for quick towers. Cheap enough to lose twice and still profit from one successful kill plus loot."
+                "mobile": "Diamond Prot II–III, iron sword Sharp IV, 8 pearls, 3 gaps, blocks. Cheap enough to lose twice and still profit from one kill.",
+                "desktop": "Diamond Protection II–III, iron sword Sharpness IV, eight ender pearls, three golden apples, and a stack of cobble for quick towers. Cheap enough to lose twice and still profit from one successful kill plus loot."
               }
             },
             {
               "type": "bullets",
               "items": [
                 "Skip enchants you cannot replace in one session.",
-                "Carry fewer pearls \u2014 budget kits win on patience.",
+                "Carry fewer pearls — budget kits win on patience.",
                 "Fight near terrain you can pillar on."
               ],
               "desktopItems": [
                 "Skip enchants you cannot replace in a single farming session.",
-                "Carry fewer pearls \u2014 budget kits win on patience and positioning, not chase.",
+                "Carry fewer pearls — budget kits win on patience and positioning, not chase.",
                 "Fight only near terrain you can pillar on or dip into for cover."
               ]
             }
@@ -763,8 +821,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Full Protection-only sword builds, bow-primary kits without pearls, and unenchanted diamond in crystal range \u2014 all underperformed in our tests. Keep them for duels, not MineWars.",
-                "desktop": "Full Protection-only sword builds, bow-primary kits without pearl escape, and unenchanted diamond in crystal range \u2014 all underperformed in our two-week test window. Keep them for friendly duels, not serious MineWars roaming."
+                "mobile": "Full Protection-only sword builds, bow-primary kits without pearls, and unenchanted diamond in crystal range — all underperformed in our tests. Keep them for duels, not MineWars.",
+                "desktop": "Full Protection-only sword builds, bow-primary kits without pearl escape, and unenchanted diamond in crystal range — all underperformed in our two-week test window. Keep them for friendly duels, not serious MineWars roaming."
               }
             },
             {
@@ -779,14 +837,22 @@
     },
     "player-spotlight": {
       "title": "Player of the month: meet RedstoneKing",
-      "description": "A 13-month run, a 40-floor sky base, and an impressive tournament finish \u2014 the full story from this month\u2019s spotlight.",
-      "descriptionDesktop": "A thirteen-month survival run, a forty-floor sky base visible from three biomes away, and a top-four tournament finish \u2014 the full story behind this month\u2019s community spotlight player, RedstoneKing.",
+      "description": "A 40-floor sky base and an impressive tournament finish — the full story from this month's spotlight.",
+      "descriptionDesktop": "A forty-floor sky base visible from three biomes away, and a top-four tournament finish — the full story behind this month's community spotlight player, RedstoneKing.",
       "breadcrumbLabel": "Player spotlight",
-      "heroTags": ["Community", "Spotlight"],
-      "sidebarTags": ["Community", "Spotlight", "Builds", "Tournaments"],
+      "heroTags": [
+        "Community",
+        "Spotlight"
+      ],
+      "sidebarTags": [
+        "Community",
+        "Spotlight",
+        "Builds",
+        "Tournaments"
+      ],
       "lead": {
-        "mobile": "Every month we feature one player who pushes the community forward \u2014 not always the richest or highest PvP rank, but someone who makes the server feel alive. April belongs to RedstoneKing.",
-        "desktop": "Every month we feature one player who pushes the community forward \u2014 not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. April belongs to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit."
+        "mobile": "Every month we feature one player who pushes the community forward — not always the richest or highest PvP rank, but someone who makes the server feel alive. This spotlight goes to RedstoneKing.",
+        "desktop": "Every month we feature one player who pushes the community forward — not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. This spotlight goes to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit."
       },
       "sections": [
         {
@@ -797,19 +863,19 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing joined in March 2025 on Survival. No staff rank, no content creator tag \u2014 just a player who documented every farm upgrade in public Discord threads.",
-                "desktop": "RedstoneKing joined in March 2025 on our primary Survival shard. No staff rank, no official content creator tag \u2014 just a player who documented every farm upgrade in public Discord threads and answered new-player redstone questions at 2 a.m. server time."
+                "mobile": "RedstoneKing plays on Survival. No staff rank, no content creator tag — just a player who documented every farm upgrade in public Discord threads.",
+                "desktop": "RedstoneKing is a regular on our primary Survival shard. No staff rank, no official content creator tag — just a player who documented every farm upgrade in public Discord threads and answered new-player redstone questions at 2 a.m. server time."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "13 months active, 1,400+ hours logged.",
+                "Plays primarily on Survival.",
                 "Zero ban history, three mentorship awards.",
                 "Known for open-door base tours every Saturday."
               ],
               "desktopItems": [
-                "Thirteen months active with more than 1,400 hours logged.",
+                "Regular Survival player with a public build log on Discord.",
                 "Zero ban history and three community mentorship awards from moderators.",
                 "Known for open-door base tours every Saturday at 16:00 UTC."
               ]
@@ -824,15 +890,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "The headline build is a 40-floor tower above Y=220 \u2014 storage, farms, and a public museum floor with working redstone demos anyone can trigger.",
-                "desktop": "The headline build is a forty-floor tower anchored above Y=220 \u2014 automated storage, crop and mob farms, living quarters, and a public museum floor with working redstone demos that anyone can trigger without griefing permissions."
+                "mobile": "The headline build is a 40-floor tower above Y=220 — storage, farms, and a public museum floor with working redstone demos anyone can trigger.",
+                "desktop": "The headline build is a forty-floor tower anchored above Y=220 — automated storage, crop and mob farms, living quarters, and a public museum floor with working redstone demos that anyone can trigger without griefing permissions."
               }
             },
             {
               "type": "figure",
               "src": "/blog/4.webp",
               "alt": "RedstoneKing sky base exterior at sunset",
-              "caption": "Caption: The sky base at sunset \u2014 beacon visible from the main spawn hub.",
+              "caption": "Caption: The sky base at sunset — beacon visible from the main spawn hub.",
               "dashed": true
             },
             {
@@ -840,8 +906,8 @@
               "variant": "info",
               "title": "Visit in game",
               "text": {
-                "mobile": "Warp: /warp rk-tower on Survival. Museum floor is floors 38\u201340; please do not break demo blocks.",
-                "desktop": "Visit on Survival with /warp rk-tower. Museum floors are 38 through 40; please do not break demo blocks \u2014 they reset hourly but interrupt tours for other visitors."
+                "mobile": "Warp: /warp rk-tower on Survival. Museum floor is floors 38–40; please do not break demo blocks.",
+                "desktop": "Visit on Survival with /warp rk-tower. Museum floors are 38 through 40; please do not break demo blocks — they reset hourly but interrupt tours for other visitors."
               }
             }
           ]
@@ -854,15 +920,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing is not a PvP main \u2014 which made the Season 2 bracket surprise real. Top-four finish running a tank kit borrowed from a friend, zero crystal practice.",
-                "desktop": "RedstoneKing is not a PvP main \u2014 which made the Season 2 bracket surprise real. They placed top four running a borrowed tank kit with zero crystal practice, winning three rounds on positioning alone before losing to last season\u2019s champion in semifinals."
+                "mobile": "RedstoneKing is not a PvP main — which made the Season 2 bracket surprise real. Top-four finish running a tank kit borrowed from a friend, zero crystal practice.",
+                "desktop": "RedstoneKing is not a PvP main — which made the Season 2 bracket surprise real. They placed top four running a borrowed tank kit with zero crystal practice, winning three rounds on positioning alone before losing to last season’s champion in semifinals."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201cI signed up to see the new bracket UI. Staying alive four rounds was the actual achievement.\u201d",
-                "desktop": "\u201cI signed up to see the new bracket UI and report bugs. Staying alive four rounds against actual PvP mains was the actual achievement \u2014 I still cannot place crystals cleanly.\u201d"
+                "mobile": "“I signed up to see the new bracket UI. Staying alive four rounds was the actual achievement.”",
+                "desktop": "“I signed up to see the new bracket UI and report bugs. Staying alive four rounds against actual PvP mains was the actual achievement — I still cannot place crystals cleanly.”"
               },
               "author": "RedstoneKing"
             }
@@ -876,8 +942,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Beyond builds, RedstoneKing runs a weekly \u201cRedstone Office Hours\u201d thread \u2014 screenshot your circuit, get async feedback. Over 200 replies last month alone.",
-                "desktop": "Beyond builds, RedstoneKing runs a weekly \u201cRedstone Office Hours\u201d thread in Discord \u2014 post a screenshot of your circuit, get async feedback within a day. Moderators counted over 200 helpful replies last month alone, many directed at first-time farm builders."
+                "mobile": "Beyond builds, RedstoneKing runs a weekly “Redstone Office Hours” thread — screenshot your circuit, get async feedback. Over 200 replies last month alone.",
+                "desktop": "Beyond builds, RedstoneKing runs a weekly “Redstone Office Hours” thread in Discord — post a screenshot of your circuit, get async feedback within a day. Moderators counted over 200 helpful replies last month alone, many directed at first-time farm builders."
               }
             },
             {
@@ -885,12 +951,12 @@
               "items": [
                 "Published three guest tips in our Redstone 101 series.",
                 "Donated duplicate shulker kits to the new-player chest at spawn.",
-                "Voted \u201cmost helpful builder\u201d in the community poll."
+                "Voted “most helpful builder” in the community poll."
               ],
               "desktopItems": [
                 "Published three guest tips cross-linked in our Redstone 101 article series.",
                 "Donated duplicate shulker kits to the new-player chest at central spawn.",
-                "Voted \u201cmost helpful builder\u201d in the April community poll with 34% of votes."
+                "Voted \"most helpful builder\" in the community poll."
               ]
             }
           ]
@@ -903,12 +969,12 @@
             {
               "type": "ordered",
               "items": [
-                "Label every hopper line \u2014 future you is also tired.",
+                "Label every hopper line — future you is also tired.",
                 "Build farms above Y=100 to reduce cave noise.",
                 "Tour other bases before copying YouTube schematics."
               ],
               "desktopItems": [
-                "Label every hopper line and chest \u2014 future you is also tired at 1 a.m.",
+                "Label every hopper line and chest — future you is also tired at 1 a.m.",
                 "Build automated farms above Y=100 to reduce cave noise and mob cap bleed.",
                 "Tour other player bases on the server before copying generic YouTube schematics."
               ]
@@ -923,8 +989,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Think someone deserves May spotlight? Open a ticket in Discord #community-nominate with their username and a sentence why. Staff and players both vote.",
-                "desktop": "Think someone deserves the May spotlight? Open a ticket in Discord #community-nominate with their username, server, and one sentence why. Staff and players both vote \u2014 wins need both community pull and clean moderation history."
+                "mobile": "Think someone deserves next month's spotlight? Open a ticket in Discord #community-nominate with their username and a sentence why. Staff and players both vote.",
+                "desktop": "Think someone deserves next month's spotlight? Open a ticket in Discord #community-nominate with their username, server, and one sentence why. Staff and players both vote — wins need both community pull and clean moderation history."
               }
             },
             {
@@ -940,13 +1006,21 @@
     "redstone-wheat-farm": {
       "title": "Redstone 101: an automated wheat farm in 30 minutes",
       "description": "No prior redstone knowledge needed. Every block, every comparator, and the trick that doubles your yield.",
-      "descriptionDesktop": "No prior redstone knowledge needed. Every block, every comparator setting, and the observer trick that doubles your yield without expanding the footprint \u2014 buildable in survival within thirty minutes if you already have iron.",
+      "descriptionDesktop": "No prior redstone knowledge needed. Every block, every comparator setting, and the observer trick that doubles your yield without expanding the footprint — buildable in survival within thirty minutes if you already have iron.",
       "breadcrumbLabel": "Wheat farm tutorial",
-      "heroTags": ["Tutorials", "Redstone"],
-      "sidebarTags": ["Tutorials", "Redstone", "Farms", "Automation"],
+      "heroTags": [
+        "Tutorials",
+        "Redstone"
+      ],
+      "sidebarTags": [
+        "Tutorials",
+        "Redstone",
+        "Farms",
+        "Automation"
+      ],
       "lead": {
-        "mobile": "Automated wheat is the first redstone project we recommend after stone tools. This layout fits in a 9\u00d77 plot, uses nine hoppers, and runs while you mine.",
-        "desktop": "Automated wheat is the first redstone project we recommend after stone tools. This layout fits in a 9\u00d77 plot, uses nine hoppers and two observers, and runs while you mine underground \u2014 no clock circuits, no slime blocks, no mods."
+        "mobile": "Automated wheat is the first redstone project we recommend after stone tools. This layout fits in a 9×7 plot, uses nine hoppers, and runs while you mine.",
+        "desktop": "Automated wheat is the first redstone project we recommend after stone tools. This layout fits in a 9×7 plot, uses nine hoppers and two observers, and runs while you mine underground — no clock circuits, no slime blocks, no mods."
       },
       "sections": [
         {
@@ -957,8 +1031,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Gather before you build \u2014 running back for one observer kills the thirty-minute target.",
-                "desktop": "Gather everything before you lay the first block \u2014 running back for one observer or a missing hopper kills the thirty-minute target and tempts you to leave the farm half-wired."
+                "mobile": "Gather before you build — running back for one observer kills the thirty-minute target.",
+                "desktop": "Gather everything before you lay the first block — running back for one observer or a missing hopper kills the thirty-minute target and tempts you to leave the farm half-wired."
               }
             },
             {
@@ -973,7 +1047,7 @@
                 "1 iron hoe, 1 water bucket, 1 solid block for water containment",
                 "9 hoppers, 2 chests, 2 observers facing each other",
                 "1 piston, 1 redstone dust, 32 building blocks (cobble is fine)",
-                "32 wheat seeds \u2014 plant only after the wiring is tested"
+                "32 wheat seeds — plant only after the wiring is tested"
               ]
             }
           ]
@@ -986,15 +1060,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Nine wheat rows in a 9\u00d77 rectangle. Water source at the back center hydrates the whole field. Collection hoppers run under the front two rows.",
-                "desktop": "Nine wheat rows in a 9\u00d77 rectangle. One water source at the back center hydrates the entire field. Collection hoppers run under the front two rows where broken items slide \u2014 the rest of the floor is solid blocks to keep items in range."
+                "mobile": "Nine wheat rows in a 9×7 rectangle. Water source at the back center hydrates the whole field. Collection hoppers run under the front two rows.",
+                "desktop": "Nine wheat rows in a 9×7 rectangle. One water source at the back center hydrates the entire field. Collection hoppers run under the front two rows where broken items slide — the rest of the floor is solid blocks to keep items in range."
               }
             },
             {
               "type": "figure",
               "src": "/blog/5.webp",
               "alt": "Top-down view of automated wheat farm layout",
-              "caption": "Caption: Top-down layout \u2014 water rear, hoppers front, observer line on the side.",
+              "caption": "Caption: Top-down layout — water rear, hoppers front, observer line on the side.",
               "dashed": true
             }
           ]
@@ -1016,8 +1090,8 @@
               "variant": "info",
               "title": "Comparator trick",
               "text": {
-                "mobile": "Add a comparator reading a hopper under the field \u2014 farm only fires when the front chest is not full. Saves piston spam and server tick cost.",
-                "desktop": "Add a comparator reading a side hopper under the field \u2014 the farm only fires when the front chest is not full. This saves piston spam, reduces server tick cost, and is the trick that lets you scale to double rows later without lag."
+                "mobile": "Add a comparator reading a hopper under the field — farm only fires when the front chest is not full. Saves piston spam and server tick cost.",
+                "desktop": "Add a comparator reading a side hopper under the field — the farm only fires when the front chest is not full. This saves piston spam, reduces server tick cost, and is the trick that lets you scale to double rows later without lag."
               }
             }
           ]
@@ -1033,13 +1107,13 @@
                 "Plant seeds and bonemeal one row to force growth.",
                 "Confirm items reach the chest within 5 seconds.",
                 "Break and replace one observer if pulses misfire.",
-                "AFK at the chest chunk \u2014 no player input needed."
+                "AFK at the chest chunk — no player input needed."
               ],
               "desktopItems": [
                 "Plant seeds and bonemeal one row to force a growth update.",
                 "Confirm items reach the chest within five seconds of the pulse.",
-                "Break and replace one observer if pulses misfire \u2014 usually a facing error.",
-                "AFK within the chest chunk \u2014 no player input needed once rows are mature."
+                "Break and replace one observer if pulses misfire — usually a facing error.",
+                "AFK within the chest chunk — no player input needed once rows are mature."
               ]
             }
           ]
@@ -1052,15 +1126,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Mirror the observer line on the opposite row \u2014 same piston circuit, shared hopper chain. You double output without doubling water or collection chests.",
-                "desktop": "Mirror the observer line on the opposite row \u2014 same piston circuit, shared hopper chain down the middle. You double output without doubling water sources or collection chests, and the comparator lock still applies to the whole system."
+                "mobile": "Mirror the observer line on the opposite row — same piston circuit, shared hopper chain. You double output without doubling water or collection chests.",
+                "desktop": "Mirror the observer line on the opposite row — same piston circuit, shared hopper chain down the middle. You double output without doubling water sources or collection chests, and the comparator lock still applies to the whole system."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u201cIf your farm needs a tutorial video playing beside you, simplify the design. Wheat farms should be boring.\u201d",
-                "desktop": "\u201cIf your wheat farm needs a tutorial video playing beside you in real time, simplify the design. Wheat farms should be boring, reliable, and slightly ugly.\u201d"
+                "mobile": "“If your farm needs a tutorial video playing beside you, simplify the design. Wheat farms should be boring.”",
+                "desktop": "“If your wheat farm needs a tutorial video playing beside you in real time, simplify the design. Wheat farms should be boring, reliable, and slightly ugly.”"
               },
               "author": "RedstoneKing, guest contributor"
             }
@@ -1074,8 +1148,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Once bread is passive, move to iron or a mob farm \u2014 same hopper logic, bigger scale. Our iron farm guide is the usual step two.",
-                "desktop": "Once bread is passive, move to iron or a compact mob farm \u2014 same hopper collection logic, bigger scale. Our iron farm engineering guide is the usual step two on long-term survival worlds."
+                "mobile": "Once bread is passive, move to iron or a mob farm — same hopper logic, bigger scale. Our iron farm guide is the usual step two.",
+                "desktop": "Once bread is passive, move to iron or a compact mob farm — same hopper collection logic, bigger scale. Our iron farm engineering guide is the usual step two on long-term survival worlds."
               }
             },
             {
@@ -1090,14 +1164,22 @@
     },
     "resource-packs": {
       "title": "The 7 best resource packs to try in 2026",
-      "description": "From minimal vanilla refreshes to painterly worlds \u2014 the packs our team is running on every server right now.",
-      "descriptionDesktop": "From minimal vanilla refreshes to painterly worlds with custom skies \u2014 the seven resource packs our team is running on every server right now, plus install notes and performance impact on low-end laptops.",
+      "description": "From minimal vanilla refreshes to painterly worlds — the packs our team is running on every server right now.",
+      "descriptionDesktop": "From minimal vanilla refreshes to painterly worlds with custom skies — the seven resource packs our team is running on every server right now, plus install notes and performance impact on low-end laptops.",
       "breadcrumbLabel": "Resource packs 2026",
-      "heroTags": ["Updates", "Resource packs"],
-      "sidebarTags": ["Updates", "Resource packs", "Visuals", "Performance"],
+      "heroTags": [
+        "Updates",
+        "Resource packs"
+      ],
+      "sidebarTags": [
+        "Updates",
+        "Resource packs",
+        "Visuals",
+        "Performance"
+      ],
       "lead": {
-        "mobile": "Resource packs are allowed on all our servers as long as they do not give unfair advantages \u2014 no x-ray, no low-fire PvP cheats. These seven are staff-approved and look great in screenshots.",
-        "desktop": "Resource packs are allowed on all our servers as long as they do not give unfair advantages \u2014 no x-ray, no low-fire PvP cheats, no clear-water tunnel vision. These seven are staff-approved, tested on 1.21 clients, and look great in screenshots without melting low-end laptops."
+        "mobile": "Resource packs are allowed on all our servers as long as they do not give unfair advantages — no x-ray, no low-fire PvP cheats. These seven are staff-approved and look great in screenshots.",
+        "desktop": "Resource packs are allowed on all our servers as long as they do not give unfair advantages — no x-ray, no low-fire PvP cheats, no clear-water tunnel vision. These seven are staff-approved, tested on 1.21 clients, and look great in screenshots without melting low-end laptops."
       },
       "sections": [
         {
@@ -1109,7 +1191,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "We filtered hundreds of packs down to seven using three rules: readable UI at 1080p, stable FPS on integrated graphics, and no blocked textures on our anti-cheat scan.",
-                "desktop": "We filtered hundreds of community packs down to seven using three rules: readable UI at 1080p, stable FPS on integrated graphics during busy spawn events, and a clean pass on our anti-cheat texture scan \u2014 no unfair ore highlights or removed particles."
+                "desktop": "We filtered hundreds of community packs down to seven using three rules: readable UI at 1080p, stable FPS on integrated graphics during busy spawn events, and a clean pass on our anti-cheat texture scan — no unfair ore highlights or removed particles."
               }
             },
             {
@@ -1117,12 +1199,12 @@
               "items": [
                 "Must work on Java 1.21.x without OptiFine.",
                 "Under 128 MB download preferred.",
-                "Distinct look \u2014 not seven copies of the same vanilla tweak."
+                "Distinct look — not seven copies of the same vanilla tweak."
               ],
               "desktopItems": [
                 "Must work on Java 1.21.x without requiring OptiFine.",
                 "Under 128 MB download preferred for quick launcher swaps.",
-                "Distinct art direction \u2014 not seven copies of the same vanilla contrast tweak."
+                "Distinct art direction — not seven copies of the same vanilla contrast tweak."
               ]
             }
           ]
@@ -1139,14 +1221,14 @@
             {
               "type": "ordered",
               "items": [
-                "Fresh Vanilla+ \u2014 sharper blocks, same vibe.",
-                "Soft Leaves \u2014 gentler trees, great for builders.",
-                "Clean GUI Lite \u2014 larger tooltips, calmer inventory."
+                "Fresh Vanilla+ — sharper blocks, same vibe.",
+                "Soft Leaves — gentler trees, great for builders.",
+                "Clean GUI Lite — larger tooltips, calmer inventory."
               ],
               "desktopItems": [
-                "Fresh Vanilla+ \u2014 sharper block edges and cleaner glass, same overall vibe.",
-                "Soft Leaves \u2014 gentler foliage and trunks, great for cinematic builders.",
-                "Clean GUI Lite \u2014 larger tooltips and calmer inventory contrast for long sessions."
+                "Fresh Vanilla+ — sharper block edges and cleaner glass, same overall vibe.",
+                "Soft Leaves — gentler foliage and trunks, great for cinematic builders.",
+                "Clean GUI Lite — larger tooltips and calmer inventory contrast for long sessions."
               ]
             },
             {
@@ -1156,16 +1238,16 @@
             {
               "type": "ordered",
               "items": [
-                "Terralith Skies \u2014 custom clouds and sunset gradients.",
-                "Canvas Folk \u2014 hand-painted stone and wood.",
-                "Deep Dark UI \u2014 moody menus for horror builders.",
-                "Neon Circuit \u2014 sci-fi redstone lab aesthetic."
+                "Terralith Skies — custom clouds and sunset gradients.",
+                "Canvas Folk — hand-painted stone and wood.",
+                "Deep Dark UI — moody menus for horror builders.",
+                "Neon Circuit — sci-fi redstone lab aesthetic."
               ],
               "desktopItems": [
-                "Terralith Skies \u2014 custom clouds and sunset gradients that match our shader-less policy.",
-                "Canvas Folk \u2014 hand-painted stone and wood textures for medieval districts.",
-                "Deep Dark UI \u2014 moody menus and darker hotbar for horror and cave builders.",
-                "Neon Circuit \u2014 sci-fi panels and glowing redstone accents for lab bases."
+                "Terralith Skies — custom clouds and sunset gradients that match our shader-less policy.",
+                "Canvas Folk — hand-painted stone and wood textures for medieval districts.",
+                "Deep Dark UI — moody menus and darker hotbar for horror and cave builders.",
+                "Neon Circuit — sci-fi panels and glowing redstone accents for lab bases."
               ]
             },
             {
@@ -1184,8 +1266,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Painterly packs cost 5\u201315 FPS on integrated graphics. Minimal packs are usually free performance-wise. Disable custom skies if you stutter at spawn.",
-                "desktop": "Full painterly packs typically cost five to fifteen FPS on integrated graphics during spawn events. Minimal packs are usually free performance-wise. Disable custom skies and animated textures first if you stutter \u2014 most packs expose toggles in their options folder."
+                "mobile": "Painterly packs cost 5–15 FPS on integrated graphics. Minimal packs are usually free performance-wise. Disable custom skies if you stutter at spawn.",
+                "desktop": "Full painterly packs typically cost five to fifteen FPS on integrated graphics during spawn events. Minimal packs are usually free performance-wise. Disable custom skies and animated textures first if you stutter — most packs expose toggles in their options folder."
               }
             },
             {
@@ -1194,7 +1276,7 @@
               "title": "Fair play reminder",
               "text": {
                 "mobile": "Packs that remove fire, change hitboxes visually, or highlight ores are banned. When in doubt, ask in #support before tournament day.",
-                "desktop": "Packs that remove fire overlays, change hitbox visuals, or highlight hidden ores are banned and may trigger automatic kicks. When in doubt, ask in #support before tournament day \u2014 staff can scan your pack list in minutes."
+                "desktop": "Packs that remove fire overlays, change hitbox visuals, or highlight hidden ores are banned and may trigger automatic kicks. When in doubt, ask in #support before tournament day — staff can scan your pack list in minutes."
               }
             }
           ]
@@ -1208,15 +1290,15 @@
               "type": "ordered",
               "items": [
                 "Download the .zip from the official links in our Discord pin.",
-                "Open Minecraft \u2192 Options \u2192 Resource Packs \u2192 Open Pack Folder.",
+                "Open Minecraft → Options → Resource Packs → Open Pack Folder.",
                 "Drop the zip in the folder and enable it in the list.",
-                "Reconnect to any server \u2014 no restart required on our launcher."
+                "Reconnect to any server — no restart required on our launcher."
               ],
               "desktopItems": [
                 "Download the .zip from the official links pinned in Discord #resource-packs.",
-                "Open Minecraft \u2192 Options \u2192 Resource Packs \u2192 Open Pack Folder.",
+                "Open Minecraft → Options → Resource Packs → Open Pack Folder.",
                 "Drop the zip in the folder and move it to the selected column.",
-                "Reconnect to any server in our launcher \u2014 a full restart is usually not required."
+                "Reconnect to any server in our launcher — a full restart is usually not required."
               ]
             }
           ]
@@ -1229,8 +1311,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "LuckySurvival and CalmSky allow all seven. MineWars allows cosmetic packs only \u2014 no UI that hides totem pop animations. Tournament bracket requires default fire overlay.",
-                "desktop": "LuckySurvival and CalmSky allow all seven without restriction. MineWars allows cosmetic packs only \u2014 no UI mods that hide totem pop animations or shorten fire overlays. Official tournament brackets require default fire and totem visuals for fairness reviews."
+                "mobile": "LuckySurvival and CalmSky allow all seven. MineWars allows cosmetic packs only — no UI that hides totem pop animations. Tournament bracket requires default fire overlay.",
+                "desktop": "LuckySurvival and CalmSky allow all seven without restriction. MineWars allows cosmetic packs only — no UI mods that hide totem pop animations or shorten fire overlays. Official tournament brackets require default fire and totem visuals for fairness reviews."
               }
             }
           ]

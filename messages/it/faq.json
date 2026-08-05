@@ -83,7 +83,6 @@
   },
   "sort": {
     "all": "Tutte",
-    "mostHelpful": "Pi\u00f9 utili",
     "latest": "Pi\u00f9 recenti",
     "label": "Ordina:",
     "ariaLabel": "Ordina domande"
@@ -161,7 +160,6 @@
     "tagTop": "Top",
     "tagTopDesktop": "Domanda top",
     "views": "{count} visualizzazioni",
-    "helpfulPct": "{percent}% l'ha trovato utile",
     "minRead": "{min} min di lettura",
     "updatedFull": "Aggiornato il {date}, 2026"
   },
@@ -173,16 +171,6 @@
     "allFaq": "Tutta la FAQ",
     "readMobile": "Leggi",
     "readDesktop": "Leggi la risposta"
-  },
-  "feedback": {
-    "hintMobile": "Il tuo voto ci aiuta a migliorare.",
-    "hintDesktop": "Il tuo voto ci aiuta a stabilire quali risposte ampliare e riscrivere.",
-    "yesMobile": "S\u00ec",
-    "yesDesktop": "S\u00ec, utile",
-    "noMobile": "Non molto",
-    "noDesktop": "Si pu\u00f2 migliorare",
-    "statsMobile": "{helpful} su {total} ({percent}%) l'hanno trovato utile",
-    "statsDesktop": "{helpful} su {total} giocatori ({percent}%) l'hanno trovato utile"
   },
   "contentCta": {
     "primary": "Contattaci",
@@ -535,14 +523,6 @@
       "Apri il negozio in gioco con /shop e controlla le missioni giornaliere.",
       "Unisciti al Discord della community \u2014 costruttori, commercianti e giocatori PvP si trovano l\u00ec."
     ],
-    "feedbackHintMobile": "Il tuo voto ci aiuta a migliorare.",
-    "feedbackHintDesktop": "Il tuo voto ci aiuta a stabilire quali risposte ampliare e riscrivere.",
-    "feedbackYesMobile": "S\u00ec",
-    "feedbackYesDesktop": "S\u00ec, utile",
-    "feedbackNoMobile": "Non molto",
-    "feedbackNoDesktop": "Si pu\u00f2 migliorare",
-    "feedbackStatsMobile": "243 su 258 (94%) l'hanno trovato utile",
-    "feedbackStatsDesktop": "243 su 258 giocatori (94%) l'hanno trovato utile",
     "ctaPrimary": "Unisciti a Twitch",
     "ctaSecondary": "Sfoglia tutta la FAQ"
   },

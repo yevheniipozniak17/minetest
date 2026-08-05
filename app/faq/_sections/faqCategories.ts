@@ -62,7 +62,6 @@ export type FaqPageSize = (typeof FAQ_PAGE_SIZE_OPTIONS)[number];
 
 export const FAQ_SORT_OPTIONS = [
   { id: 'all', label: 'All' },
-  { id: 'most-helpful', label: 'Most helpful' },
   { id: 'latest', label: 'Latest' },
 ] as const satisfies ReadonlyArray<{ id: FaqSortOption; label: string }>;
 

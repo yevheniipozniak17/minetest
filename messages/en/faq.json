@@ -83,7 +83,6 @@
   },
   "sort": {
     "all": "All",
-    "mostHelpful": "Most helpful",
     "latest": "Latest",
     "label": "Sort:",
     "ariaLabel": "Sort questions"
@@ -161,7 +160,6 @@
     "tagTop": "Top",
     "tagTopDesktop": "Top question",
     "views": "{count} views",
-    "helpfulPct": "{percent}% found this helpful",
     "minRead": "{min} min read",
     "updatedFull": "Updated {date}, 2026"
   },
@@ -173,16 +171,6 @@
     "allFaq": "All FAQ",
     "readMobile": "Read",
     "readDesktop": "Read answer"
-  },
-  "feedback": {
-    "hintMobile": "Your vote helps us improve.",
-    "hintDesktop": "Your vote helps us prioritise which answers to expand and re-write.",
-    "yesMobile": "Yes",
-    "yesDesktop": "Yes, helpful",
-    "noMobile": "Not really",
-    "noDesktop": "Could be better",
-    "statsMobile": "{helpful} out of {total} ({percent}%) found this helpful",
-    "statsDesktop": "{helpful} out of {total} players ({percent}%) found this helpful"
   },
   "contentCta": {
     "primary": "Contact us",
@@ -535,14 +523,6 @@
       "Open the in-game shop with /shop and check the daily quests.",
       "Join the community Discord \u2014 most builders, traders, and PvP players hang out there."
     ],
-    "feedbackHintMobile": "Your vote helps us improve.",
-    "feedbackHintDesktop": "Your vote helps us prioritise which answers to expand and re-write.",
-    "feedbackYesMobile": "Yes",
-    "feedbackYesDesktop": "Yes, helpful",
-    "feedbackNoMobile": "Not really",
-    "feedbackNoDesktop": "Could be better",
-    "feedbackStatsMobile": "243 out of 258 (94%) found this helpful",
-    "feedbackStatsDesktop": "243 out of 258 players (94%) found this helpful",
     "ctaPrimary": "Join Twitch",
     "ctaSecondary": "Browse all FAQ"
   },

@@ -2,31 +2,31 @@
   "hero": {
     "badge": "Blog",
     "title": "Histoires de nos serveurs Minecraft",
-    "description": "Guides, mises \u00e0 jour serveur et histoires de joueurs depuis nos mondes.",
-    "searchPlaceholder": "Rechercher des articles\u2026",
+    "description": "Guides, mises à jour serveur et histoires de joueurs depuis nos mondes.",
+    "searchPlaceholder": "Rechercher des articles…",
     "searchButton": "Rechercher",
-    "categoriesLabel": "Cat\u00e9gories du blog"
+    "categoriesLabel": "Catégories du blog"
   },
   "featured": {
-    "tagFeatured": "\u00c0 la une",
-    "tagUpdates": "Mises \u00e0 jour",
-    "title": "Mise \u00e0 jour serveur 2.6 \u2014 recettes personnalis\u00e9es, r\u00e9\u00e9quilibrage \u00e9conomique et le plus grand patch de la saison",
-    "description": "Nous avons retravaill\u00e9 les hubs de spawn sur LuckySurvival, MineWars et CalmSky, ajout\u00e9 12 nouvelles recettes personnalis\u00e9es, r\u00e9\u00e9quilibr\u00e9 l\u2019\u00e9conomie et livr\u00e9 un tout nouveau mode tournoi. Voici tout ce qu\u2019il faut savoir \u2014 et les changements d\u00e9j\u00e0 testables ce soir.",
+    "tagFeatured": "À la une",
+    "tagUpdates": "Mises à jour",
+    "title": "Mise à jour serveur 2.6 — recettes personnalisées, rééquilibrage économique et le plus grand patch de la saison",
+    "description": "Nous avons retravaillé les hubs de spawn sur LuckySurvival, MineWars et CalmSky, ajouté 12 nouvelles recettes personnalisées, rééquilibré l’économie et livré un tout nouveau mode tournoi. Voici tout ce qu’il faut savoir — et les changements déjà testables ce soir.",
     "date": "Apr 28, 2026",
     "readTime": "7 min de lecture",
-    "readArticle": "Lire l\u2019article",
-    "readArticleAriaLabel": "Lire l\u2019article Mise \u00e0 jour serveur 2.6"
+    "readArticle": "Lire l’article",
+    "readArticleAriaLabel": "Lire l’article Mise à jour serveur 2.6"
   },
   "sort": {
     "all": "Tous les articles",
-    "newest": "Plus r\u00e9cents",
+    "newest": "Plus récents",
     "popular": "Plus populaires",
     "ariaLabel": "Trier les articles"
   },
   "pagination": {
-    "prev": "Pr\u00e9c\u00e9dent",
+    "prev": "Précédent",
     "next": "Suivant",
-    "prevAriaLabel": "Page pr\u00e9c\u00e9dente",
+    "prevAriaLabel": "Page précédente",
     "nextAriaLabel": "Page suivante"
   },
   "articles": {
@@ -38,8 +38,8 @@
     "Guides": "Guides",
     "Engineering": "Technique",
     "PvP": "PvP",
-    "Community": "Communaut\u00e9",
-    "Updates": "Mises \u00e0 jour",
+    "Community": "Communauté",
+    "Updates": "Mises à jour",
     "Tutorials": "Tutoriels"
   },
   "card": {
@@ -54,7 +54,7 @@
     "onThisPage": "Sur cette page",
     "readingProgress": "Progression de lecture",
     "shareTitle": "Partager cet article",
-    "shareLabel": "Partager\u00a0:",
+    "shareLabel": "Partager :",
     "tagsTitle": "Tags",
     "paginationLabel": "Pagination des articles"
   },
@@ -69,178 +69,212 @@
     "twitch": "Copier le lien pour Twitch",
     "facebook": "Partager sur Facebook",
     "instagram": "Copier le lien pour Instagram",
-    "copied": "Lien copi\u00e9"
+    "copied": "Lien copié"
   },
   "updates": {
-    "breadcrumb": ["Accueil", "Blog", "Mises \u00e0 jour", "Mise \u00e0 jour serveur 2.6"],
+    "breadcrumb": [
+      "Accueil",
+      "Blog",
+      "Mises à jour",
+      "Mise à jour serveur 2.6"
+    ],
     "hero": {
-      "tagUpdates": "Mises \u00e0 jour",
-      "tagFeatured": "\u00c0 la une",
-      "title": "Mise \u00e0 jour serveur 2.6 \u2014 recettes personnalis\u00e9es, r\u00e9\u00e9quilibrage \u00e9conomique et le plus grand patch de la saison",
-      "description": "Apr\u00e8s huit semaines sur la branche de test publique, le patch 2.6 est enfin d\u00e9ploy\u00e9 sur tous les serveurs.",
-      "descriptionDesktop": "Apr\u00e8s huit semaines sur la branche de test publique, le patch 2.6 est enfin d\u00e9ploy\u00e9 sur tous les serveurs. Nous avons retravaill\u00e9 les hubs de spawn sur LuckySurvival, MineWars et CalmSky, ajout\u00e9 12 nouvelles recettes, r\u00e9\u00e9quilibr\u00e9 l\u2019\u00e9conomie et livr\u00e9 un tout nouveau mode tournoi.",
+      "tagUpdates": "Mises à jour",
+      "tagFeatured": "À la une",
+      "title": "Mise à jour serveur 2.6 — recettes personnalisées, rééquilibrage économique et le plus grand patch de la saison",
+      "description": "Après huit semaines sur la branche de test publique, le patch 2.6 est enfin déployé sur tous les serveurs.",
+      "descriptionDesktop": "Après huit semaines sur la branche de test publique, le patch 2.6 est enfin déployé sur tous les serveurs. Nous avons retravaillé les hubs de spawn sur LuckySurvival, MineWars et CalmSky, ajouté 12 nouvelles recettes, rééquilibré l’économie et livré un tout nouveau mode tournoi.",
       "date": "Apr 28, 2026",
       "readTime": "7 min de lecture",
-      "imageAlt": "Illustration principale de la mise \u00e0 jour serveur 2.6"
+      "imageAlt": "Illustration principale de la mise à jour serveur 2.6"
     },
     "toc": [
-      { "id": "01", "label": "Les nouveaut\u00e9s de la 2.6" },
-      { "id": "02", "label": "Refonte des hubs de spawn" },
-      { "id": "03", "label": "12 nouvelles recettes" },
-      { "id": "04", "label": "R\u00e9\u00e9quilibrage \u00e9conomique" },
-      { "id": "05", "label": "Mode tournoi" },
-      { "id": "06", "label": "Comment mettre \u00e0 jour" },
-      { "id": "07", "label": "Probl\u00e8mes connus" },
-      { "id": "08", "label": "La suite" }
+      {
+        "id": "01",
+        "label": "Les nouveautés de la 2.6"
+      },
+      {
+        "id": "02",
+        "label": "Refonte des hubs de spawn"
+      },
+      {
+        "id": "03",
+        "label": "12 nouvelles recettes"
+      },
+      {
+        "id": "04",
+        "label": "Rééquilibrage économique"
+      },
+      {
+        "id": "05",
+        "label": "Mode tournoi"
+      },
+      {
+        "id": "06",
+        "label": "Comment mettre à jour"
+      },
+      {
+        "id": "07",
+        "label": "Problèmes connus"
+      },
+      {
+        "id": "08",
+        "label": "La suite"
+      }
     ],
-    "shareTitle": "Mise \u00e0 jour serveur 2.6 \u2014 recettes personnalis\u00e9es, r\u00e9\u00e9quilibrage \u00e9conomique et le plus grand patch de la saison",
+    "shareTitle": "Mise à jour serveur 2.6 — recettes personnalisées, rééquilibrage économique et le plus grand patch de la saison",
     "onThisPage": "Sur cette page",
     "readingProgress": "Progression de lecture",
     "shareArticle": "Partager cet article",
-    "shareLabel": "Partager\u00a0:",
+    "shareLabel": "Partager :",
     "tagsLabel": "Tags",
-    "tags": ["Updates", "LuckySurvival", "Economy", "Tournaments"],
-    "leadMobile": "Apr\u00e8s huit semaines sur la branche de test publique, le patch 2.6 d\u00e9barque sur tous les serveurs. Cette version renouvelle les hubs de spawn de LuckySurvival, MineWars et CalmSky, ajoute douze nouvelles recettes, livre un nouveau mode tournoi et touche presque toutes les courbes \u00e9conomiques.",
-    "leadDesktop": "Apr\u00e8s huit semaines sur la branche de test publique, le patch 2.6 d\u00e9barque sur tous les serveurs. Cette version renouvelle les hubs de spawn de LuckySurvival, MineWars et CalmSky, ajoute douze nouvelles recettes, livre un tout nouveau mode tournoi et touche presque toutes les courbes \u00e9conomiques du jeu. Voici le d\u00e9tail complet.",
+    "tags": [
+      "Updates",
+      "LuckySurvival",
+      "Economy",
+      "Tournaments"
+    ],
+    "leadMobile": "Après huit semaines sur la branche de test publique, le patch 2.6 débarque sur tous les serveurs. Cette version renouvelle les hubs de spawn de LuckySurvival, MineWars et CalmSky, ajoute douze nouvelles recettes, livre un nouveau mode tournoi et touche presque toutes les courbes économiques.",
+    "leadDesktop": "Après huit semaines sur la branche de test publique, le patch 2.6 débarque sur tous les serveurs. Cette version renouvelle les hubs de spawn de LuckySurvival, MineWars et CalmSky, ajoute douze nouvelles recettes, livre un tout nouveau mode tournoi et touche presque toutes les courbes économiques du jeu. Voici le détail complet.",
     "s01": {
-      "title": "1. Les nouveaut\u00e9s de la 2.6",
-      "paragraphMobile": "Nous avons concentr\u00e9 cette version sur les trois domaines les plus demand\u00e9s\u00a0: la qualit\u00e9 du hub de spawn, l\u2019\u00e9quilibre \u00e9conomique et le jeu comp\u00e9titif. Chaque changement est d\u00e9ploy\u00e9 simultan\u00e9ment sur tous les serveurs.",
-      "paragraphDesktop": "Nous avons concentr\u00e9 cette version sur les trois domaines les plus demand\u00e9s dans l\u2019enqu\u00eate de printemps\u00a0: la qualit\u00e9 du hub de spawn, l\u2019\u00e9quilibre \u00e9conomique et le jeu comp\u00e9titif. Chaque changement est d\u00e9ploy\u00e9 simultan\u00e9ment sur tous les serveurs \u2014 rien n\u2019est bloqu\u00e9 derri\u00e8re un monde sp\u00e9cifique.",
+      "title": "1. Les nouveautés de la 2.6",
+      "paragraphMobile": "Nous avons concentré cette version sur les trois domaines les plus demandés : la qualité du hub de spawn, l’équilibre économique et le jeu compétitif. Chaque changement est déployé simultanément sur tous les serveurs.",
+      "paragraphDesktop": "Nous avons concentré cette version sur les trois domaines les plus demandés dans l’enquête de printemps : la qualité du hub de spawn, l’équilibre économique et le jeu compétitif. Chaque changement est déployé simultanément sur tous les serveurs — rien n’est bloqué derrière un monde spécifique.",
       "bulletsMobile": [
-        "Hubs de spawn retravaill\u00e9s sur LuckySurvival, MineWars et CalmSky.",
-        "Douze nouvelles recettes personnalis\u00e9es, dont la Boussole Ender.",
-        "R\u00e9\u00e9quilibrage \u00e9conomique sur les prix et les r\u00e9compenses.",
+        "Hubs de spawn retravaillés sur LuckySurvival, MineWars et CalmSky.",
+        "Douze nouvelles recettes personnalisées, dont la Boussole Ender.",
+        "Rééquilibrage économique sur les prix et les récompenses.",
         "Tout nouveau mode tournoi avec brackets hebdomadaires.",
-        "Liste d\u2019amis inter-serveurs et chat am\u00e9lior\u00e9."
+        "Liste d’amis inter-serveurs et chat amélioré."
       ],
       "bulletsDesktop": [
-        "Hubs de spawn retravaill\u00e9s avec des warps plus clairs et des PNJ tutoriels sur chaque serveur.",
-        "Douze nouvelles recettes personnalis\u00e9es, dont la tant attendue Boussole Ender.",
-        "R\u00e9\u00e9quilibrage \u00e9conomique sur les prix march\u00e9, les taxes et les courbes de r\u00e9compenses.",
-        "Tout nouveau mode tournoi avec brackets hebdomadaires et troph\u00e9es saisonniers.",
-        "Liste d\u2019amis inter-serveurs, invitations de groupe et chat am\u00e9lior\u00e9."
+        "Hubs de spawn retravaillés avec des warps plus clairs et des PNJ tutoriels sur chaque serveur.",
+        "Douze nouvelles recettes personnalisées, dont la tant attendue Boussole Ender.",
+        "Rééquilibrage économique sur les prix marché, les taxes et les courbes de récompenses.",
+        "Tout nouveau mode tournoi avec brackets hebdomadaires et trophées saisonniers.",
+        "Liste d’amis inter-serveurs, invitations de groupe et chat amélioré."
       ]
     },
     "s02": {
       "title": "2. Refonte des hubs de spawn",
-      "paragraphMobile": "Les hubs de spawn de LuckySurvival, MineWars et CalmSky \u00e9taient les zones les plus anciennes de la carte \u2014 construites avant l\u2019ajout des PNJ tutoriels et des warps inter-serveurs. Nous avons tout reconstruit avec une signalisation plus claire et des acc\u00e8s plus rapides vers les terres sauvages.",
-      "paragraphDesktop": "Les hubs de spawn de LuckySurvival, MineWars et CalmSky \u00e9taient les zones les plus anciennes de la carte \u2014 construites avant l\u2019ajout des PNJ tutoriels et des warps inter-serveurs. Nous avons tout reconstruit avec une signalisation plus claire, des \u00e9tals de march\u00e9 refaits et des routes plus rapides vers les terres sauvages sur chaque serveur.",
-      "figureAlt": "Hub de spawn retravaill\u00e9 sur LuckySurvival",
-      "figureCaption": "L\u00e9gende\u00a0: Le nouveau spawn de LuckySurvival \u2014 m\u00eame monde, warps et tutoriel plus clairs.",
-      "paragraph2Mobile": "Chaque hub conserve le m\u00eame seed de monde et les m\u00eames fronti\u00e8res de claim \u2014 seule la construction du spawn a chang\u00e9. Vos bases et coffres existants sont intacts.",
-      "paragraph2Desktop": "Chaque hub conserve le m\u00eame seed de monde et les m\u00eames fronti\u00e8res de claim \u2014 seule la construction du spawn a chang\u00e9. Vos bases, coffres et points /home sont intacts\u00a0; utilisez les nouveaux panneaux de warp pour rejoindre les terres sauvages plus rapidement.",
+      "paragraphMobile": "Les hubs de spawn de LuckySurvival, MineWars et CalmSky étaient les zones les plus anciennes de la carte — construites avant l’ajout des PNJ tutoriels et des warps inter-serveurs. Nous avons tout reconstruit avec une signalisation plus claire et des accès plus rapides vers les terres sauvages.",
+      "paragraphDesktop": "Les hubs de spawn de LuckySurvival, MineWars et CalmSky étaient les zones les plus anciennes de la carte — construites avant l’ajout des PNJ tutoriels et des warps inter-serveurs. Nous avons tout reconstruit avec une signalisation plus claire, des étals de marché refaits et des routes plus rapides vers les terres sauvages sur chaque serveur.",
+      "figureAlt": "Hub de spawn retravaillé sur LuckySurvival",
+      "figureCaption": "Légende : Le nouveau spawn de LuckySurvival — même monde, warps et tutoriel plus clairs.",
+      "paragraph2Mobile": "Chaque hub conserve le même seed de monde et les mêmes frontières de claim — seule la construction du spawn a changé. Vos bases et coffres existants sont intacts.",
+      "paragraph2Desktop": "Chaque hub conserve le même seed de monde et les mêmes frontières de claim — seule la construction du spawn a changé. Vos bases, coffres et points /home sont intacts ; utilisez les nouveaux panneaux de warp pour rejoindre les terres sauvages plus rapidement.",
       "calloutTitle": "Attention",
-      "calloutMobile": "Si vous aviez un \u00e9tal dans l\u2019ancien march\u00e9 de spawn, le staff a migr\u00e9 le contenu de votre coffre vers la nouvelle rang\u00e9e de march\u00e9.",
-      "calloutDesktop": "Si vous aviez un \u00e9tal dans l\u2019ancien march\u00e9 de spawn, le staff a migr\u00e9 le contenu de votre coffre vers la nouvelle rang\u00e9e de march\u00e9. V\u00e9rifiez /mail en jeu si quelque chose semble manquer."
+      "calloutMobile": "Si vous aviez un étal dans l’ancien marché de spawn, le staff a migré le contenu de votre coffre vers la nouvelle rangée de marché.",
+      "calloutDesktop": "Si vous aviez un étal dans l’ancien marché de spawn, le staff a migré le contenu de votre coffre vers la nouvelle rangée de marché. Vérifiez /mail en jeu si quelque chose semble manquer."
     },
     "s03": {
-      "title": "3. Douze nouvelles recettes personnalis\u00e9es",
-      "paragraphMobile": "Les recettes personnalis\u00e9es n\u2019existent que sur nos serveurs. Avec la 2.6, nous en livrons douze nouvelles \u2014 six utilitaires, six cosm\u00e9tiques.",
-      "paragraphDesktop": "Les recettes personnalis\u00e9es n\u2019existent que sur nos serveurs. Elles utilisent des mat\u00e9riaux vanilla mais produisent des outils et objets d\u00e9coratifs uniques. Avec la 2.6, nous en livrons douze nouvelles \u2014 six utilitaires, six cosm\u00e9tiques. La liste compl\u00e8te se trouve dans le compendium en jeu sous Recettes \u2192 Serveur.",
+      "title": "3. Douze nouvelles recettes personnalisées",
+      "paragraphMobile": "Les recettes personnalisées n’existent que sur nos serveurs. Avec la 2.6, nous en livrons douze nouvelles — six utilitaires, six cosmétiques.",
+      "paragraphDesktop": "Les recettes personnalisées n’existent que sur nos serveurs. Elles utilisent des matériaux vanilla mais produisent des outils et objets décoratifs uniques. Avec la 2.6, nous en livrons douze nouvelles — six utilitaires, six cosmétiques. La liste complète se trouve dans le compendium en jeu sous Recettes → Serveur.",
       "utilityHeading": "Recettes utilitaires",
-      "cosmeticHeading": "Recettes cosm\u00e9tiques",
+      "cosmeticHeading": "Recettes cosmétiques",
       "utilityCraftsMobile": [
-        "Boussole Ender \u2014 pointe vers votre dernier point de mort.",
-        "Fondeur en masse \u2014 fond un stack entier en une fois.",
-        "Pioche serveur \u2014 fonctionne au-del\u00e0 des fronti\u00e8res de claim.",
-        "Sacoche de tri rapide \u2014 trie automatiquement dans les coffres proches.",
-        "Balise d\u2019ami \u2014 notifie votre groupe sur la carte.",
-        "Lasso \u00e0 spawner \u2014 d\u00e9place les spawners de monstres."
+        "Boussole Ender — pointe vers votre dernier point de mort.",
+        "Fondeur en masse — fond un stack entier en une fois.",
+        "Pioche serveur — fonctionne au-delà des frontières de claim.",
+        "Sacoche de tri rapide — trie automatiquement dans les coffres proches.",
+        "Balise d’ami — notifie votre groupe sur la carte.",
+        "Lasso à spawner — déplace les spawners de monstres."
       ],
       "utilityCraftsDesktop": [
-        "Boussole Ender \u2014 pointe vers votre dernier point de mort.",
-        "Fondeur en masse \u2014 fond un stack entier en une fois.",
-        "Pioche serveur \u2014 fonctionne au-del\u00e0 des fronti\u00e8res de claim (avec permission).",
-        "Sacoche de tri rapide \u2014 trie automatiquement dans les coffres proches.",
-        "Balise d\u2019ami \u2014 notifie votre groupe sur la carte.",
-        "Lasso \u00e0 spawner \u2014 d\u00e9place les spawners de monstres."
+        "Boussole Ender — pointe vers votre dernier point de mort.",
+        "Fondeur en masse — fond un stack entier en une fois.",
+        "Pioche serveur — fonctionne au-delà des frontières de claim (avec permission).",
+        "Sacoche de tri rapide — trie automatiquement dans les coffres proches.",
+        "Balise d’ami — notifie votre groupe sur la carte.",
+        "Lasso à spawner — déplace les spawners de monstres."
       ],
-      "cosmeticMobile": "Six nouveaux objets d\u00e9coratifs rejoignent le catalogue, dont le Set de banni\u00e8res lumineuses, la Lanterne flottante et trois variantes de Troph\u00e9e de fer.",
-      "cosmeticDesktop": "Six nouveaux objets d\u00e9coratifs rejoignent le catalogue, dont le tr\u00e8s populaire Set de banni\u00e8res lumineuses, la Lanterne flottante lumineuse et trois variantes du Troph\u00e9e de fer saisonnier utilis\u00e9 dans les tournois. Toutes les recettes cosm\u00e9tiques sont \u00e9galement disponibles en bundle dans la boutique en jeu."
+      "cosmeticMobile": "Six nouveaux objets décoratifs rejoignent le catalogue, dont le Set de bannières lumineuses, la Lanterne flottante et trois variantes de Trophée de fer.",
+      "cosmeticDesktop": "Six nouveaux objets décoratifs rejoignent le catalogue, dont le très populaire Set de bannières lumineuses, la Lanterne flottante lumineuse et trois variantes du Trophée de fer saisonnier utilisé dans les tournois. Toutes les recettes cosmétiques sont également disponibles en bundle dans la boutique en jeu."
     },
     "s04": {
-      "title": "4. R\u00e9\u00e9quilibrage \u00e9conomique",
-      "paragraphMobile": "Nous avons ajust\u00e9 chaque prix marchand, chaque r\u00e9compense d\u2019\u00e9v\u00e9nement et la courbe de taxe quotidienne. La plupart sont de petits ajustements en pourcentage \u2014 mais certains objets sont maintenant nettement moins chers pour faciliter la progression.",
-      "paragraphDesktop": "Nous avons ajust\u00e9 chaque prix marchand, chaque r\u00e9compense d\u2019\u00e9v\u00e9nement et la courbe de taxe quotidienne. La plupart de ces changements sont de petits ajustements en pourcentage qui devraient \u00eatre invisibles en session normale \u2014 mais certains objets sont maintenant nettement moins chers pour encourager la progression en d\u00e9but de jeu.",
-      "quoteMobile": "\u00ab\u00a0Nous voulions que les nouveaux joueurs ressentent une vraie progression dans leurs trois premi\u00e8res heures de jeu \u2014 pas un grinding lent.\u00a0\u00bb",
-      "quoteDesktop": "\u00ab\u00a0Nous voulions que les nouveaux joueurs ressentent une vraie progression dans leurs trois premi\u00e8res heures de jeu \u2014 pas un grinding lent. L\u2019essentiel du r\u00e9\u00e9quilibrage vise la premi\u00e8re et la deuxi\u00e8me heure d\u2019un nouveau compte.\u00a0\u00bb",
+      "title": "4. Rééquilibrage économique",
+      "paragraphMobile": "Nous avons ajusté chaque prix marchand, chaque récompense d’événement et la courbe de taxe quotidienne. La plupart sont de petits ajustements en pourcentage — mais certains objets sont maintenant nettement moins chers pour faciliter la progression.",
+      "paragraphDesktop": "Nous avons ajusté chaque prix marchand, chaque récompense d’événement et la courbe de taxe quotidienne. La plupart de ces changements sont de petits ajustements en pourcentage qui devraient être invisibles en session normale — mais certains objets sont maintenant nettement moins chers pour encourager la progression en début de jeu.",
+      "quoteMobile": "« Nous voulions que les nouveaux joueurs ressentent une vraie progression dans leurs trois premières heures de jeu — pas un grinding lent. »",
+      "quoteDesktop": "« Nous voulions que les nouveaux joueurs ressentent une vraie progression dans leurs trois premières heures de jeu — pas un grinding lent. L’essentiel du rééquilibrage vise la première et la deuxième heure d’un nouveau compte. »",
       "quoteAuthor": "Mike Rasmus, Lead Server Engineer",
-      "tldrDesktop": "Un diff complet des changements est publi\u00e9 sur le blog d\u00e9veloppeur si vous souhaitez voir chaque ligne. Le r\u00e9sum\u00e9 est ci-dessous.",
+      "tldrDesktop": "Un diff complet des changements est publié sur le blog développeur si vous souhaitez voir chaque ligne. Le résumé est ci-dessous.",
       "bulletsMobile": [
-        "Les outils et armures de base co\u00fbtent 15-25\u00a0% moins cher.",
-        "Les balises et \u00e9quipements enchant\u00e9s co\u00fbtent 5-10\u00a0% plus cher.",
-        "Le bonus de connexion quotidienne augmente de 20\u00a0%.",
-        "Les cagnottes de tournoi sont approximativement doubl\u00e9es."
+        "Les outils et armures de base coûtent 15-25 % moins cher.",
+        "Les balises et équipements enchantés coûtent 5-10 % plus cher.",
+        "Le bonus de connexion quotidienne augmente de 20 %.",
+        "Les cagnottes de tournoi sont approximativement doublées."
       ],
       "bulletsDesktop": [
-        "Les outils et armures de base co\u00fbtent 15-25\u00a0% moins cher.",
-        "Les balises et \u00e9quipements enchant\u00e9s co\u00fbtent 5-10\u00a0% plus cher.",
-        "Le bonus de connexion quotidienne augmente de 20\u00a0%.",
-        "Les cagnottes de tournoi sont environ le double de la saison derni\u00e8re."
+        "Les outils et armures de base coûtent 15-25 % moins cher.",
+        "Les balises et équipements enchantés coûtent 5-10 % plus cher.",
+        "Le bonus de connexion quotidienne augmente de 20 %.",
+        "Les cagnottes de tournoi sont environ le double de la saison dernière."
       ]
     },
     "s05": {
       "title": "5. Mode tournoi",
-      "paragraphMobile": "La plus grande nouveaut\u00e9 de la 2.6. Chaque semaine, un nouveau bracket s\u2019ouvre le vendredi \u00e0 18h00 UTC et court jusqu\u2019au dimanche 23h59 UTC. Les meilleurs gagnent des troph\u00e9es, de la monnaie de cagnotte et des cosm\u00e9tiques exclusifs.",
-      "paragraphDesktop": "La plus grande nouveaut\u00e9 de la 2.6\u00a0: le mode tournoi. Chaque semaine, un nouveau bracket s\u2019ouvre le vendredi \u00e0 18h00 UTC et court jusqu\u2019au dimanche \u00e0 23h59 UTC. Les meilleurs gagnent des troph\u00e9es saisonniers, de la monnaie de cagnotte et des skins cosm\u00e9tiques exclusifs.",
+      "paragraphMobile": "La plus grande nouveauté de la 2.6. Chaque semaine, un nouveau bracket s’ouvre le vendredi à 18h00 UTC et court jusqu’au dimanche 23h59 UTC. Les meilleurs gagnent des trophées, de la monnaie de cagnotte et des cosmétiques exclusifs.",
+      "paragraphDesktop": "La plus grande nouveauté de la 2.6 : le mode tournoi. Chaque semaine, un nouveau bracket s’ouvre le vendredi à 18h00 UTC et court jusqu’au dimanche à 23h59 UTC. Les meilleurs gagnent des trophées saisonniers, de la monnaie de cagnotte et des skins cosmétiques exclusifs.",
       "figureAlt": "Interface du bracket de tournoi",
-      "figureCaption": "L\u00e9gende\u00a0: La nouvelle interface de bracket \u2014 accessible directement depuis le menu en jeu.",
-      "paragraph2Mobile": "Les brackets sont auto-\u00e9quilibr\u00e9s par temps de jeu, so les nouveaux comptes affrontent des pairs d\u2019exp\u00e9rience similaire.",
-      "paragraph2Desktop": "Les brackets sont auto-\u00e9quilibr\u00e9s par temps de jeu et historique de performances, so les nouveaux comptes affrontent des pairs d\u2019exp\u00e9rience similaire. Nous publierons un guide strat\u00e9gique complet une fois la premi\u00e8re saison close dans trois semaines."
+      "figureCaption": "Légende : La nouvelle interface de bracket — accessible directement depuis le menu en jeu.",
+      "paragraph2Mobile": "Les brackets sont auto-équilibrés par temps de jeu, so les nouveaux comptes affrontent des pairs d’expérience similaire.",
+      "paragraph2Desktop": "Les brackets sont auto-équilibrés par temps de jeu et historique de performances, so les nouveaux comptes affrontent des pairs d’expérience similaire. Nous publierons un guide stratégique complet une fois la première saison close dans trois semaines."
     },
     "s06": {
-      "title": "6. Comment mettre \u00e0 jour",
-      "paragraphMobile": "Le patch s\u2019installe automatiquement au prochain lancement. Pour forcer la mise \u00e0 jour, suivez les \u00e9tapes ci-dessous.",
-      "paragraphDesktop": "Vous n\u2019avez rien \u00e0 faire \u2014 le patch s\u2019installe automatiquement au prochain lancement. Si vous souhaitez forcer la mise \u00e0 jour, suivez les \u00e9tapes ci-dessous.",
+      "title": "6. Comment mettre à jour",
+      "paragraphMobile": "Le patch s’installe automatiquement au prochain lancement. Pour forcer la mise à jour, suivez les étapes ci-dessous.",
+      "paragraphDesktop": "Vous n’avez rien à faire — le patch s’installe automatiquement au prochain lancement. Si vous souhaitez forcer la mise à jour, suivez les étapes ci-dessous.",
       "stepsMobile": [
-        "Fermez compl\u00e8tement le jeu.",
-        "Ouvrez le launcher et cliquez sur l\u2019ic\u00f4ne d\u2019actualisation.",
-        "Attendez la disparition de la banni\u00e8re de mise \u00e0 jour.",
-        "Lancez le jeu\u00a0; vous devriez atterrir sur l\u2019\u00e9cran de d\u00e9marrage 2.6."
+        "Fermez complètement le jeu.",
+        "Ouvrez le launcher et cliquez sur l’icône d’actualisation.",
+        "Attendez la disparition de la bannière de mise à jour.",
+        "Lancez le jeu ; vous devriez atterrir sur l’écran de démarrage 2.6."
       ],
       "stepsDesktop": [
-        "Fermez compl\u00e8tement le jeu.",
-        "Ouvrez le launcher et cliquez sur la petite ic\u00f4ne d\u2019actualisation \u00e0 c\u00f4t\u00e9 du bouton play.",
-        "Attendez la disparition de la banni\u00e8re de mise \u00e0 jour.",
-        "Lancez le jeu normalement\u00a0; vous devriez atterrir sur l\u2019\u00e9cran de d\u00e9marrage 2.6."
+        "Fermez complètement le jeu.",
+        "Ouvrez le launcher et cliquez sur la petite icône d’actualisation à côté du bouton play.",
+        "Attendez la disparition de la bannière de mise à jour.",
+        "Lancez le jeu normalement ; vous devriez atterrir sur l’écran de démarrage 2.6."
       ],
       "calloutTitle": "Note de performance",
-      "calloutMobile": "Si vous jouez avec des packs de ressources haute r\u00e9solution, attendez un temps de chargement plus long au premier lancement.",
-      "calloutDesktop": "Si vous jouez avec des packs de ressources haute r\u00e9solution, attendez un temps de chargement plus long au premier lancement apr\u00e8s la mise \u00e0 jour. Les lancements suivants redeviennent normaux."
+      "calloutMobile": "Si vous jouez avec des packs de ressources haute résolution, attendez un temps de chargement plus long au premier lancement.",
+      "calloutDesktop": "Si vous jouez avec des packs de ressources haute résolution, attendez un temps de chargement plus long au premier lancement après la mise à jour. Les lancements suivants redeviennent normaux."
     },
     "s07": {
-      "title": "7. Probl\u00e8mes connus",
-      "paragraphMobile": "Voici ce que nous savons d\u00e9j\u00e0 et suivons pour le hotfix 2.6.1, pr\u00e9vu mardi prochain.",
-      "paragraphDesktop": "Chaque version embarque quelques imperfections. Voici ce que nous savons d\u00e9j\u00e0 et suivons pour le hotfix 2.6.1, pr\u00e9vu mardi prochain.",
+      "title": "7. Problèmes connus",
+      "paragraphMobile": "Voici ce que nous savons déjà et suivons pour le hotfix 2.6.1, prévu mardi prochain.",
+      "paragraphDesktop": "Chaque version embarque quelques imperfections. Voici ce que nous savons déjà et suivons pour le hotfix 2.6.1, prévu mardi prochain.",
       "issuesMobile": [
-        "La Boussole Ender pointe parfois vers le spawn \u2014 correctif dans la 2.6.1.",
-        "La Balise d\u2019ami ne s\u2019affiche pas sur certains viewports.",
-        "Le chat de tournoi est retard\u00e9 de 5 \u00e0 10 secondes en p\u00e9riode de pointe.",
+        "La Boussole Ender pointe parfois vers le spawn — correctif dans la 2.6.1.",
+        "La Balise d’ami ne s’affiche pas sur certains viewports.",
+        "Le chat de tournoi est retardé de 5 à 10 secondes en période de pointe.",
         "Trois petits bugs visuels avec la nouvelle lanterne en biomes sombres."
       ],
       "issuesDesktop": [
-        "La Boussole Ender pointe parfois vers le spawn mondial plut\u00f4t que vers le dernier point de mort\u00a0; correctif dans la 2.6.1.",
-        "La Balise d\u2019ami ne s\u2019affiche pas correctement sur certains viewports mobiles.",
-        "Le chat de tournoi est parfois retard\u00e9 de 5 \u00e0 10 secondes aux heures de pointe.",
-        "Trois petits bugs visuels avec la nouvelle lanterne cosm\u00e9tique en biomes sombres."
+        "La Boussole Ender pointe parfois vers le spawn mondial plutôt que vers le dernier point de mort ; correctif dans la 2.6.1.",
+        "La Balise d’ami ne s’affiche pas correctement sur certains viewports mobiles.",
+        "Le chat de tournoi est parfois retardé de 5 à 10 secondes aux heures de pointe.",
+        "Trois petits bugs visuels avec la nouvelle lanterne cosmétique en biomes sombres."
       ]
     },
     "s08": {
       "title": "8. La suite",
-      "paragraphMobile": "Nous planifions d\u00e9j\u00e0 la 2.7. Au programme\u00a0: un bac \u00e0 sable en mode cr\u00e9atif, des composants redstone \u00e9tendus et un enregistreur de macros en jeu. La branche de test publique ouvre mi-juin.",
-      "paragraphDesktop": "Nous sommes d\u00e9j\u00e0 avanc\u00e9s dans la planification de la 2.7. Les grandes nouveaut\u00e9s sont un bac \u00e0 sable de construction en mode cr\u00e9atif, des composants redstone \u00e9tendus et un enregistreur de macros en jeu pour les constructions r\u00e9p\u00e9titives. La branche de test publique devrait ouvrir vers mi-juin.",
-      "closingMobile": "Merci de faire partie de la communaut\u00e9. \u00c0 bient\u00f4t sur les \u00eeles.",
-      "closingDesktop": "Merci, comme toujours, de faire partie de la communaut\u00e9. \u00c0 bient\u00f4t sur les \u00eeles.",
-      "cta": "Voir toutes les mises \u00e0 jour"
+      "paragraphMobile": "Nous planifions déjà la 2.7. Au programme : un bac à sable en mode créatif, des composants redstone étendus et un enregistreur de macros en jeu. La branche de test publique ouvre mi-juin.",
+      "paragraphDesktop": "Nous sommes déjà avancés dans la planification de la 2.7. Les grandes nouveautés sont un bac à sable de construction en mode créatif, des composants redstone étendus et un enregistreur de macros en jeu pour les constructions répétitives. La branche de test publique devrait ouvrir vers mi-juin.",
+      "closingMobile": "Merci de faire partie de la communauté. À bientôt sur les îles.",
+      "closingDesktop": "Merci, comme toujours, de faire partie de la communauté. À bientôt sur les îles.",
+      "cta": "Voir toutes les mises à jour"
     },
     "relatedBadge": "Populaire cette semaine",
     "relatedTitle": "Continuer la lecture",
     "relatedAllArticles": "Tous les articles",
     "related": [
       {
-        "title": "Les 10 meilleurs conseils de survie pour les grands d\u00e9butants",
-        "description": "Apparaître dans un monde tout neuf est \u00e9crasant. Voici la courte liste de ce qu\u2019il faut faire pendant votre premi\u00e8re heure.",
-        "descriptionDesktop": "Apparaître dans un monde tout neuf est \u00e9crasant. Voici la courte liste \u2014 plus les trois erreurs qui ruinent la plupart des nouvelles parties.",
+        "title": "Les 10 meilleurs conseils de survie pour les grands débutants",
+        "description": "Apparaître dans un monde tout neuf est écrasant. Voici la courte liste de ce qu’il faut faire pendant votre première heure.",
+        "descriptionDesktop": "Apparaître dans un monde tout neuf est écrasant. Voici la courte liste — plus les trois erreurs qui ruinent la plupart des nouvelles parties.",
         "genre": "Guides",
         "time": 4,
         "date": "Apr 22, 2026",
@@ -248,9 +282,9 @@
         "slug": "survival-tips"
       },
       {
-        "title": "Comment construire une ferme \u00e0 fer efficace en 2026",
+        "title": "Comment construire une ferme à fer efficace en 2026",
         "description": "Un design compact et sans lag qui produit ~600 lingots par heure et fonctionne sur nos trois serveurs.",
-        "descriptionDesktop": "Un design de ferme \u00e0 fer compact et sans lag qui produit environ 600 lingots par heure et fonctionne sur chaque serveur \u2014 sans datapack requis.",
+        "descriptionDesktop": "Un design de ferme à fer compact et sans lag qui produit environ 600 lingots par heure et fonctionne sur chaque serveur — sans datapack requis.",
         "genre": "Engineering",
         "time": 6,
         "date": "Apr 18, 2026",
@@ -259,8 +293,8 @@
       },
       {
         "title": "Des loadouts PvP qui fonctionnent vraiment sur MineWars",
-        "description": "Nous avons test\u00e9 18 builds sur deux semaines de petits combats. Quatre loadouts continuent de gagner \u2014 le reste peut prendre sa retraite.",
-        "descriptionDesktop": "Nous avons test\u00e9 18 builds sur deux semaines. Ce sont les quatre loadouts qui continuent de gagner, plus ceux que vous pouvez sans risque mettre de c\u00f4t\u00e9.",
+        "description": "Nous avons testé 18 builds sur deux semaines de petits combats. Quatre loadouts continuent de gagner — le reste peut prendre sa retraite.",
+        "descriptionDesktop": "Nous avons testé 18 builds sur deux semaines. Ce sont les quatre loadouts qui continuent de gagner, plus ceux que vous pouvez sans risque mettre de côté.",
         "genre": "PvP",
         "time": 5,
         "date": "Apr 15, 2026",
@@ -271,41 +305,49 @@
   },
   "posts": {
     "survival-tips": {
-      "title": "Les 10 meilleurs conseils de survie pour les grands d\u00e9butants",
-      "description": "Apparaître dans un monde tout neuf est \u00e9crasant. Voici la courte liste de ce qu\u2019il faut faire pendant votre premi\u00e8re heure.",
-      "descriptionDesktop": "Apparaître dans un monde tout neuf est \u00e9crasant \u2014 des arbres partout, des mobs au cr\u00e9puscule et pas de carte. Voici la courte liste de ce qu\u2019il faut faire pendant votre premi\u00e8re heure, plus les trois erreurs qui ruinent la plupart des nouvelles parties avant le deuxi\u00e8me jour.",
+      "title": "Les 10 meilleurs conseils de survie pour les grands débutants",
+      "description": "Apparaître dans un monde tout neuf est écrasant. Voici la courte liste de ce qu’il faut faire pendant votre première heure.",
+      "descriptionDesktop": "Apparaître dans un monde tout neuf est écrasant — des arbres partout, des mobs au crépuscule et pas de carte. Voici la courte liste de ce qu’il faut faire pendant votre première heure, plus les trois erreurs qui ruinent la plupart des nouvelles parties avant le deuxième jour.",
       "breadcrumbLabel": "Conseils de survie",
-      "heroTags": ["Guides", "Survie"],
-      "sidebarTags": ["Guides", "Survie", "D\u00e9butants", "Conseils"],
+      "heroTags": [
+        "Guides",
+        "Survie"
+      ],
+      "sidebarTags": [
+        "Guides",
+        "Survie",
+        "Débutants",
+        "Conseils"
+      ],
       "lead": {
-        "mobile": "Votre premi\u00e8re heure dans un monde de survie d\u00e9termine tout ce qui suit. Ces dix priorit\u00e9s viennent de centaines de sessions de nouveaux joueurs sur nos serveurs \u2014 class\u00e9es par ce qui vous maintient vraiment en vie.",
-        "desktop": "Votre premi\u00e8re heure dans un monde de survie d\u00e9termine tout ce qui suit. Ces dix priorit\u00e9s viennent de centaines de sessions de nouveaux joueurs sur nos serveurs \u2014 class\u00e9es par ce qui vous maintient vraiment en vie, pas par ce que font les speedrunners sur YouTube. Suivez-les dans l\u2019ordre et vous atteindrez le deuxi\u00e8me jour avec de la nourriture, un abri et de vrais outils."
+        "mobile": "Votre première heure dans un monde de survie détermine tout ce qui suit. Ces dix priorités viennent de centaines de sessions de nouveaux joueurs sur nos serveurs — classées par ce qui vous maintient vraiment en vie.",
+        "desktop": "Votre première heure dans un monde de survie détermine tout ce qui suit. Ces dix priorités viennent de centaines de sessions de nouveaux joueurs sur nos serveurs — classées par ce qui vous maintient vraiment en vie, pas par ce que font les speedrunners sur YouTube. Suivez-les dans l’ordre et vous atteindrez le deuxième jour avec de la nourriture, un abri et de vrais outils."
       },
       "sections": [
         {
           "id": "01",
-          "tocLabel": "Checklist de la premi\u00e8re heure",
-          "title": "Checklist de la premi\u00e8re heure",
+          "tocLabel": "Checklist de la première heure",
+          "title": "Checklist de la première heure",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Avant d\u2019explorer, respectez une boucle simple\u00a0: casser du bois, fabriquer des planches, poser une table de craft, puis des outils. Tout le reste attend que vous ayez de la pierre.",
-                "desktop": "Avant d\u2019explorer, respectez une boucle simple\u00a0: casser du bois, fabriquer des planches, poser une table de craft, puis des outils de base. Tout le reste \u2014 cavernes, villages, belles constructions \u2014 attend que vous ayez de l\u2019\u00e9quipement en pierre et un endroit pour dormir la nuit."
+                "mobile": "Avant d’explorer, respectez une boucle simple : casser du bois, fabriquer des planches, poser une table de craft, puis des outils. Tout le reste attend que vous ayez de la pierre.",
+                "desktop": "Avant d’explorer, respectez une boucle simple : casser du bois, fabriquer des planches, poser une table de craft, puis des outils de base. Tout le reste — cavernes, villages, belles constructions — attend que vous ayez de l’équipement en pierre et un endroit pour dormir la nuit."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "R\u00e9coltez 16+ b\u00fbches et convertissez-les en planches.",
+                "Récoltez 16+ bûches et convertissez-les en planches.",
                 "Fabriquez une table de craft et une pioche en bois.",
                 "Extrayez 11 blocs de pierre pour les outils en pierre.",
-                "Trouvez du charbon ou br\u00fblez des b\u00fbches pour des torches.",
-                "Construisez un abri 3\u00d73 en terre avant le coucher du soleil."
+                "Trouvez du charbon ou brûlez des bûches pour des torches.",
+                "Construisez un abri 3×3 en terre avant le coucher du soleil."
               ],
               "desktopItems": [
-                "R\u00e9coltez au moins 16 b\u00fbches et convertissez-les en planches.",
-                "Fabriquez une table de craft, des b\u00e2tons et une pioche en bois.",
+                "Récoltez au moins 16 bûches et convertissez-les en planches.",
+                "Fabriquez une table de craft, des bâtons et une pioche en bois.",
                 "Extrayez 11 blocs de pierre et passez aux outils en pierre.",
                 "Trouvez du charbon ou fabriquez du charbon de bois pour au moins quatre torches.",
                 "Construisez un petit abri en terre ou en pierre avant que le soleil se couche."
@@ -321,15 +363,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "La premi\u00e8re nuit tue plus de nouveaux joueurs que les creepers. Vous n\u2019avez pas besoin d\u2019une maison \u2014 vous avez besoin de quatre murs, d\u2019un toit et d\u2019une porte. Un trou dans le sol compte.",
-                "desktop": "La premi\u00e8re nuit tue plus de nouveaux joueurs que les creepers ne le feront jamais. Vous n\u2019avez pas besoin d\u2019une maison avec des fen\u00eatres \u2014 quatre murs, un toit et une porte suffisent. Un trou dans le sol avec une torche compte. Le niveau de lumi\u00e8re importe\u00a0: une torche \u00e0 l\u2019int\u00e9rieur emp\u00eache la plupart des spawns de mobs."
+                "mobile": "La première nuit tue plus de nouveaux joueurs que les creepers. Vous n’avez pas besoin d’une maison — vous avez besoin de quatre murs, d’un toit et d’une porte. Un trou dans le sol compte.",
+                "desktop": "La première nuit tue plus de nouveaux joueurs que les creepers ne le feront jamais. Vous n’avez pas besoin d’une maison avec des fenêtres — quatre murs, un toit et une porte suffisent. Un trou dans le sol avec une torche compte. Le niveau de lumière importe : une torche à l’intérieur empêche la plupart des spawns de mobs."
               }
             },
             {
               "type": "figure",
               "src": "/blog/1.webp",
-              "alt": "Abri de survie de d\u00e9but de partie au cr\u00e9puscule",
-              "caption": "L\u00e9gende\u00a0: Un abri minimal pour la premi\u00e8re nuit \u2014 murs en terre, porte en bois, une torche.",
+              "alt": "Abri de survie de début de partie au crépuscule",
+              "caption": "Légende : Un abri minimal pour la première nuit — murs en terre, porte en bois, une torche.",
               "dashed": true
             },
             {
@@ -337,8 +379,8 @@
               "variant": "info",
               "title": "Attention",
               "text": {
-                "mobile": "Sur nos serveurs, dormir ne passe la nuit que si la plupart des joueurs en ligne dans votre chunk sont dans des lits. Seul\u00a0? Votre abri est votre bouton de sommeil.",
-                "desktop": "Sur nos serveurs, dormir ne passe la nuit que si la plupart des joueurs en ligne dans votre chunk sont dans des lits. Vous jouez seul\u00a0? Votre abri est votre bouton de sommeil \u2014 ne sortez pas avant d\u2019avoir fabriqu\u00e9 un lit."
+                "mobile": "Sur nos serveurs, dormir ne passe la nuit que si la plupart des joueurs en ligne dans votre chunk sont dans des lits. Seul ? Votre abri est votre bouton de sommeil.",
+                "desktop": "Sur nos serveurs, dormir ne passe la nuit que si la plupart des joueurs en ligne dans votre chunk sont dans des lits. Vous jouez seul ? Votre abri est votre bouton de sommeil — ne sortez pas avant d’avoir fabriqué un lit."
               }
             }
           ]
@@ -351,23 +393,23 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "La faim diminue en sprintant, sautant et combattant. Le premier jour, tuez des animaux pour de la viande ou cassez de l\u2019herbe haute pour des graines. Le pain est plus s\u00fbr que la viande crue.",
-                "desktop": "La faim diminue en sprintant, sautant et combattant. Le premier jour, tuez des animaux passifs pour de la viande ou cassez de l\u2019herbe haute pour des graines de bl\u00e9. La nourriture cuite restaure davantage \u2014 et le pain est plus s\u00fbr que le poulet cru avant d\u2019avoir de la sant\u00e9 en r\u00e9serve."
+                "mobile": "La faim diminue en sprintant, sautant et combattant. Le premier jour, tuez des animaux pour de la viande ou cassez de l’herbe haute pour des graines. Le pain est plus sûr que la viande crue.",
+                "desktop": "La faim diminue en sprintant, sautant et combattant. Le premier jour, tuez des animaux passifs pour de la viande ou cassez de l’herbe haute pour des graines de blé. La nourriture cuite restaure davantage — et le pain est plus sûr que le poulet cru avant d’avoir de la santé en réserve."
               }
             },
             {
               "type": "ordered",
               "items": [
-                "Cassez de l\u2019herbe jusqu\u2019\u00e0 avoir des graines.",
-                "Binez la terre pr\u00e8s de l\u2019eau et plantez.",
-                "Tuez des vaches pour le cuir (armure future) et le b\u0153uf.",
-                "Faites cuire la viande dans un four d\u00e8s que vous avez du charbon."
+                "Cassez de l’herbe jusqu’à avoir des graines.",
+                "Binez la terre près de l’eau et plantez.",
+                "Tuez des vaches pour le cuir (armure future) et le bœuf.",
+                "Faites cuire la viande dans un four dès que vous avez du charbon."
               ],
               "desktopItems": [
-                "Cassez des blocs d\u2019herbe jusqu\u2019\u00e0 collecter des graines de bl\u00e9.",
-                "Fabriquez une houe, binez la terre pr\u00e8s de l\u2019eau et plantez les graines.",
-                "Tuez des vaches pour le cuir (armure future) et le b\u0153uf cru.",
-                "Faites cuire la viande dans un four d\u00e8s que vous avez du charbon ou du charbon de bois."
+                "Cassez des blocs d’herbe jusqu’à collecter des graines de blé.",
+                "Fabriquez une houe, binez la terre près de l’eau et plantez les graines.",
+                "Tuez des vaches pour le cuir (armure future) et le bœuf cru.",
+                "Faites cuire la viande dans un four dès que vous avez du charbon ou du charbon de bois."
               ]
             }
           ]
@@ -380,15 +422,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Am\u00e9liorez les outils dans l\u2019ordre\u00a0: bois \u2192 pierre \u2192 fer. Ne minez jamais du diamant avec une pioche en pierre. Gardez une pioche de rechange dans votre barre.",
-                "desktop": "Am\u00e9liorez les outils dans l\u2019ordre\u00a0: bois \u2192 pierre \u2192 fer \u2192 diamant. Ne minez jamais du minerai de diamant avec une pioche en pierre \u2014 vous d\u00e9truirez le drop. Gardez une pioche de rechange dans votre barre\u00a0; rien ne stoppe une partie comme briser son seul outil deux cents blocs sous terre."
+                "mobile": "Améliorez les outils dans l’ordre : bois → pierre → fer. Ne minez jamais du diamant avec une pioche en pierre. Gardez une pioche de rechange dans votre barre.",
+                "desktop": "Améliorez les outils dans l’ordre : bois → pierre → fer → diamant. Ne minez jamais du minerai de diamant avec une pioche en pierre — vous détruirez le drop. Gardez une pioche de rechange dans votre barre ; rien ne stoppe une partie comme briser son seul outil deux cents blocs sous terre."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u00ab\u00a0Outils en pierre au coucher du soleil, fer au troisi\u00e8me jour \u2014 c\u2019est le rythme qui semble bon sur nos mondes de survie.\u00a0\u00bb",
-                "desktop": "\u00ab\u00a0Outils en pierre au coucher du soleil, fer au troisi\u00e8me jour \u2014 c\u2019est le rythme qui semble bon sur nos mondes de survie. Foncer vers le diamant le premier jour finit g\u00e9n\u00e9ralement par une mort avec l\u2019inventaire plein.\u00a0\u00bb"
+                "mobile": "« Outils en pierre au coucher du soleil, fer au troisième jour — c’est le rythme qui semble bon sur nos mondes de survie. »",
+                "desktop": "« Outils en pierre au coucher du soleil, fer au troisième jour — c’est le rythme qui semble bon sur nos mondes de survie. Foncer vers le diamant le premier jour finit généralement par une mort avec l’inventaire plein. »"
               },
               "author": "Elena Voss, Community Guide Lead"
             }
@@ -396,29 +438,29 @@
         },
         {
           "id": "05",
-          "tocLabel": "Trois erreurs \u00e0 \u00e9viter",
-          "title": "Trois erreurs \u00e0 \u00e9viter",
+          "tocLabel": "Trois erreurs à éviter",
+          "title": "Trois erreurs à éviter",
           "blocks": [
             {
               "type": "bullets",
               "items": [
-                "Creuser droit vers le bas \u2014 la lave et les cavernes terminent les parties instantan\u00e9ment.",
-                "Tout transporter \u2014 laissez l\u2019\u00e9quipement de rechange \u00e0 la base.",
-                "Ignorer la lumi\u00e8re \u2014 les mobs apparaissent l\u00e0 o\u00f9 vous ne voyez pas."
+                "Creuser droit vers le bas — la lave et les cavernes terminent les parties instantanément.",
+                "Tout transporter — laissez l’équipement de rechange à la base.",
+                "Ignorer la lumière — les mobs apparaissent là où vous ne voyez pas."
               ],
               "desktopItems": [
-                "Creuser droit vers le bas \u2014 les lacs de lave et les cavernes surprises terminent les parties instantan\u00e9ment.",
-                "Transporter tout votre inventaire en exploration \u2014 laissez outils et nourriture de rechange \u00e0 la base.",
-                "Ignorer les niveaux de lumi\u00e8re \u2014 les mobs hostiles apparaissent dans tout espace non \u00e9clair\u00e9, y compris votre cave inachev\u00e9e."
+                "Creuser droit vers le bas — les lacs de lave et les cavernes surprises terminent les parties instantanément.",
+                "Transporter tout votre inventaire en exploration — laissez outils et nourriture de rechange à la base.",
+                "Ignorer les niveaux de lumière — les mobs hostiles apparaissent dans tout espace non éclairé, y compris votre cave inachevée."
               ]
             },
             {
               "type": "callout",
               "variant": "warn",
-              "title": "Pi\u00e8ge courant",
+              "title": "Piège courant",
               "text": {
-                "mobile": "Les runs avec shulkers pleins semblent excitants jusqu\u2019\u00e0 ce qu\u2019un creeper efface deux heures de progression. Mettez les objets de valeur en s\u00e9curit\u00e9 t\u00f4t.",
-                "desktop": "Les runs avec shulkers pleins semblent excitants jusqu\u2019\u00e0 ce qu\u2019un creeper dans un tunnel sombre efface deux heures de progression. D\u00e9posez les objets de valeur dans des coffres \u00e0 la base avant de vous aventurer dans de nouveaux biomes."
+                "mobile": "Les runs avec shulkers pleins semblent excitants jusqu’à ce qu’un creeper efface deux heures de progression. Mettez les objets de valeur en sécurité tôt.",
+                "desktop": "Les runs avec shulkers pleins semblent excitants jusqu’à ce qu’un creeper dans un tunnel sombre efface deux heures de progression. Déposez les objets de valeur dans des coffres à la base avant de vous aventurer dans de nouveaux biomes."
               }
             }
           ]
@@ -431,13 +473,13 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Une fois trois nuits surviv\u00e9es, passez du mode panique \u00e0 la planification\u00a0: armure en fer, une vraie ferme et une base rep\u00e9r\u00e9e. Notre guide de ferme \u00e0 bl\u00e9 redstone est l\u2019\u00e9tape suivante naturelle.",
-                "desktop": "Une fois trois nuits surviv\u00e9es, passez du mode panique \u00e0 la planification\u00a0: armure en fer, une vraie ferme \u00e0 culture et un emplacement de base rep\u00e9r\u00e9. Notre guide de ferme \u00e0 bl\u00e9 Redstone 101 est l\u2019\u00e9tape suivante naturelle si vous voulez de la nourriture passive sans surveiller vos cultures."
+                "mobile": "Une fois trois nuits survivées, passez du mode panique à la planification : armure en fer, une vraie ferme et une base repérée. Notre guide de ferme à blé redstone est l’étape suivante naturelle.",
+                "desktop": "Une fois trois nuits survivées, passez du mode panique à la planification : armure en fer, une vraie ferme à culture et un emplacement de base repéré. Notre guide de ferme à blé Redstone 101 est l’étape suivante naturelle si vous voulez de la nourriture passive sans surveiller vos cultures."
               }
             },
             {
               "type": "cta",
-              "primary": "S\u2019abonner aux guides",
+              "primary": "S’abonner aux guides",
               "secondaryLabel": "Voir tous les articles",
               "secondaryHref": "/blog"
             }
@@ -446,15 +488,23 @@
       ]
     },
     "iron-farm": {
-      "title": "Comment construire une ferme \u00e0 fer efficace en 2026",
+      "title": "Comment construire une ferme à fer efficace en 2026",
       "description": "Un design compact et sans lag qui produit ~600 lingots par heure et fonctionne sur nos trois serveurs.",
-      "descriptionDesktop": "Un design de ferme \u00e0 fer compact et sans lag qui produit environ 600 lingots par heure et fonctionne sur nos trois serveurs \u2014 sans datapack, sans bourrage d\u2019entit\u00e9s et totalement AFK-friendly une fois la construction termin\u00e9e.",
-      "breadcrumbLabel": "Guide de ferme \u00e0 fer",
-      "heroTags": ["Technique", "Fermes"],
-      "sidebarTags": ["Technique", "Fer", "Fermes", "Redstone"],
+      "descriptionDesktop": "Un design de ferme à fer compact et sans lag qui produit environ 600 lingots par heure et fonctionne sur nos trois serveurs — sans datapack, sans bourrage d’entités et totalement AFK-friendly une fois la construction terminée.",
+      "breadcrumbLabel": "Guide de ferme à fer",
+      "heroTags": [
+        "Technique",
+        "Fermes"
+      ],
+      "sidebarTags": [
+        "Technique",
+        "Fer",
+        "Fermes",
+        "Redstone"
+      ],
       "lead": {
-        "mobile": "Le fer est le goulot d\u2019\u00e9tranglement pour les outils, les rails et les enclumes dans tout monde \u00e0 long terme. Ce layout 2026 \u00e9change la taille contre le d\u00e9bit \u2014 environ 600 lingots par heure \u00e0 notre taux de tick standard.",
-        "desktop": "Le fer est le goulot d\u2019\u00e9tranglement pour les outils, les rails et les enclumes dans tout monde \u00e0 long terme. Ce layout 2026 \u00e9change l\u2019empreinte contre le d\u00e9bit \u2014 environ 600 lingots par heure \u00e0 notre taux de tick standard, avec des comptages d\u2019entit\u00e9s suffisamment bas pour que le TPS reste stable m\u00eame les soirs charg\u00e9s."
+        "mobile": "Le fer est le goulot d’étranglement pour les outils, les rails et les enclumes dans tout monde à long terme. Ce layout 2026 échange la taille contre le débit — environ 600 lingots par heure à notre taux de tick standard.",
+        "desktop": "Le fer est le goulot d’étranglement pour les outils, les rails et les enclumes dans tout monde à long terme. Ce layout 2026 échange l’empreinte contre le débit — environ 600 lingots par heure à notre taux de tick standard, avec des comptages d’entités suffisamment bas pour que le TPS reste stable même les soirs chargés."
       },
       "sections": [
         {
@@ -465,37 +515,37 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Les anciennes fermes \u00e0 fer reposaient sur d\u2019immenses salles de villageois et des taux de spawn peu fiables. Le compact 2026 utilise trois niveaux de plateformes et une seule chambre de kill \u2014 moins d\u2019entit\u00e9s, m\u00eame rendement.",
-                "desktop": "Les anciennes fermes \u00e0 fer reposaient sur d\u2019immenses salles de villageois et des taux de spawn peu fiables \u00e0 l\u2019\u00e9chelle d\u2019un serveur. Le compact 2026 utilise trois niveaux de plateformes, une seule chambre de kill \u00e0 courant d\u2019eau et une ligne de hopper de collection \u2014 moins d\u2019entit\u00e9s, m\u00eame rendement horaire, plus facile \u00e0 d\u00e9boguer."
+                "mobile": "Les anciennes fermes à fer reposaient sur d’immenses salles de villageois et des taux de spawn peu fiables. Le compact 2026 utilise trois niveaux de plateformes et une seule chambre de kill — moins d’entités, même rendement.",
+                "desktop": "Les anciennes fermes à fer reposaient sur d’immenses salles de villageois et des taux de spawn peu fiables à l’échelle d’un serveur. Le compact 2026 utilise trois niveaux de plateformes, une seule chambre de kill à courant d’eau et une ligne de hopper de collection — moins d’entités, même rendement horaire, plus facile à déboguer."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "~600 lingots de fer par heure au taux de tick par d\u00e9faut.",
-                "Tient dans un claim 16\u00d716 sans empi\u00e9ter sur les voisins.",
-                "Pas de mods c\u00f4t\u00e9 client ni de datapacks requis.",
-                "S\u00fbr en AFK une fois la lave et les hoppers test\u00e9s."
+                "~600 lingots de fer par heure au taux de tick par défaut.",
+                "Tient dans un claim 16×16 sans empiéter sur les voisins.",
+                "Pas de mods côté client ni de datapacks requis.",
+                "Sûr en AFK une fois la lave et les hoppers testés."
               ],
               "desktopItems": [
-                "Environ 600 lingots de fer par heure \u00e0 notre taux de tick standard.",
-                "Tient enti\u00e8rement dans un claim 16\u00d716 sans empi\u00e9ter sur les voisins.",
-                "Pas de mods c\u00f4t\u00e9 client, de mods de sch\u00e9mas ou de datapacks serveur requis.",
-                "S\u00fbr en AFK une fois la lave et les hoppers test\u00e9s une fois."
+                "Environ 600 lingots de fer par heure à notre taux de tick standard.",
+                "Tient entièrement dans un claim 16×16 sans empiéter sur les voisins.",
+                "Pas de mods côté client, de mods de schémas ou de datapacks serveur requis.",
+                "Sûr en AFK une fois la lave et les hoppers testés une fois."
               ]
             }
           ]
         },
         {
           "id": "02",
-          "tocLabel": "Liste de mat\u00e9riaux",
-          "title": "Liste de mat\u00e9riaux",
+          "tocLabel": "Liste de matériaux",
+          "title": "Liste de matériaux",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Pr\u00e9voyez une soir\u00e9e compl\u00e8te pour la collecte. La plupart du co\u00fbt vient des lits, des stations de travail et des blocs de construction \u2014 pas de la redstone.",
-                "desktop": "Pr\u00e9voyez une soir\u00e9e compl\u00e8te pour la collecte et une deuxi\u00e8me pour la construction. La plupart du co\u00fbt mat\u00e9riel vient des lits, des stations de travail et des blocs de construction \u2014 pas de la redstone. Vous pouvez substituer du cobblestone \u00e0 n\u2019importe quel bloc d\u00e9coratif sans changer la m\u00e9canique."
+                "mobile": "Prévoyez une soirée complète pour la collecte. La plupart du coût vient des lits, des stations de travail et des blocs de construction — pas de la redstone.",
+                "desktop": "Prévoyez une soirée complète pour la collecte et une deuxième pour la construction. La plupart du coût matériel vient des lits, des stations de travail et des blocs de construction — pas de la redstone. Vous pouvez substituer du cobblestone à n’importe quel bloc décoratif sans changer la mécanique."
               }
             },
             {
@@ -503,119 +553,119 @@
               "items": [
                 "3 villageois (2 travailleurs + 1 zombie pour la peur)",
                 "36 lits et blocs de station de travail assortis",
-                "2 seaux d\u2019eau, 1 seau de lave, 4 hoppers",
+                "2 seaux d’eau, 1 seau de lave, 4 hoppers",
                 "48 blocs de construction par niveau de plateforme",
-                "1 coffre, 1 minecart \u00e0 hopper (boost optionnel)"
+                "1 coffre, 1 minecart à hopper (boost optionnel)"
               ],
               "desktopItems": [
-                "3 villageois \u2014 deux travailleurs plus un zombie pour les m\u00e9caniques de peur",
+                "3 villageois — deux travailleurs plus un zombie pour les mécaniques de peur",
                 "36 lits et blocs de station de travail assortis (un par lit)",
-                "2 seaux d\u2019eau, 1 seau de lave, 4 hoppers, 8 coffres",
+                "2 seaux d’eau, 1 seau de lave, 4 hoppers, 8 coffres",
                 "48 blocs de construction par niveau de plateforme (144 minimum au total)",
-                "1 coffre de collection et 1 minecart \u00e0 hopper si votre chambre de kill traverse des chunks"
+                "1 coffre de collection et 1 minecart à hopper si votre chambre de kill traverse des chunks"
               ]
             }
           ]
         },
         {
           "id": "03",
-          "tocLabel": "Aper\u00e7u de la construction",
-          "title": "Aper\u00e7u de la construction",
+          "tocLabel": "Aperçu de la construction",
+          "title": "Aperçu de la construction",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Empilez trois plateformes de spawn 65 blocs au-dessus de votre spot AFK. Les villageois paniquent devant le zombie, les golems spawnent sur les plateformes, tombent dans l\u2019eau vers la lame de lave.",
-                "desktop": "Empilez trois plateformes de spawn 65 blocs au-dessus de votre spot AFK \u2014 assez haut pour que les cavernes souterraines ne volent pas le cap de mobs. Les villageois paniquent devant le zombie derri\u00e8re une cl\u00f4ture, les golems spawnent sur les plateformes, puis tombent dans des courants d\u2019eau vers une lame de lave centrale et une ligne de hoppers de collection."
+                "mobile": "Empilez trois plateformes de spawn 65 blocs au-dessus de votre spot AFK. Les villageois paniquent devant le zombie, les golems spawnent sur les plateformes, tombent dans l’eau vers la lame de lave.",
+                "desktop": "Empilez trois plateformes de spawn 65 blocs au-dessus de votre spot AFK — assez haut pour que les cavernes souterraines ne volent pas le cap de mobs. Les villageois paniquent devant le zombie derrière une clôture, les golems spawnent sur les plateformes, puis tombent dans des courants d’eau vers une lame de lave centrale et une ligne de hoppers de collection."
               }
             },
             {
               "type": "figure",
               "src": "/blog/2.webp",
-              "alt": "Diagramme en coupe de la ferme \u00e0 fer compacte",
-              "caption": "L\u00e9gende\u00a0: Vue lat\u00e9rale de l\u2019empilement de plateformes \u00e0 trois niveaux et de la chambre de kill centrale.",
+              "alt": "Diagramme en coupe de la ferme à fer compacte",
+              "caption": "Légende : Vue latérale de l’empilement de plateformes à trois niveaux et de la chambre de kill centrale.",
               "dashed": true
             }
           ]
         },
         {
           "id": "04",
-          "tocLabel": "Construction \u00e9tape par \u00e9tape",
-          "title": "Construction \u00e9tape par \u00e9tape",
+          "tocLabel": "Construction étape par étape",
+          "title": "Construction étape par étape",
           "blocks": [
             {
               "type": "ordered",
               "items": [
-                "Marquez une zone 7\u00d77 \u00e0 Y=120 (ajustez selon votre terrain).",
-                "Placez lits et stations de travail en anneau\u00a0; enfermez le zombie 2 blocs plus loin.",
-                "Ajoutez trois plateformes 7\u00d77 espac\u00e9es de 5 blocs verticalement.",
-                "Faites couler des courants d\u2019eau vers le puit central.",
-                "Installez la lame de lave \u00e0 Y=55 avec protection par panneau.",
-                "Connectez les hoppers \u00e0 un double coffre au niveau du sol."
+                "Marquez une zone 7×7 à Y=120 (ajustez selon votre terrain).",
+                "Placez lits et stations de travail en anneau ; enfermez le zombie 2 blocs plus loin.",
+                "Ajoutez trois plateformes 7×7 espacées de 5 blocs verticalement.",
+                "Faites couler des courants d’eau vers le puit central.",
+                "Installez la lame de lave à Y=55 avec protection par panneau.",
+                "Connectez les hoppers à un double coffre au niveau du sol."
               ],
               "desktopItems": [
-                "Marquez une zone 7\u00d77 \u00e0 Y=120 \u2014 ajustez vers le haut si des cavernes g\u00eanent en dessous.",
-                "Placez lits et stations de travail en anneau\u00a0; enfermez le zombie deux blocs plus loin derri\u00e8re un portail de cl\u00f4ture.",
-                "Ajoutez trois plateformes 7\u00d77 identiques espac\u00e9es de cinq blocs verticalement.",
-                "Faites couler des courants d\u2019eau sur chaque plateforme vers le puit central.",
-                "Installez la lame de lave \u00e0 Y=55 avec protection par panneau et un hopper de collection.",
-                "Connectez les hoppers \u00e0 un double coffre au niveau du sol et \u00e9tiquetez-le."
+                "Marquez une zone 7×7 à Y=120 — ajustez vers le haut si des cavernes gênent en dessous.",
+                "Placez lits et stations de travail en anneau ; enfermez le zombie deux blocs plus loin derrière un portail de clôture.",
+                "Ajoutez trois plateformes 7×7 identiques espacées de cinq blocs verticalement.",
+                "Faites couler des courants d’eau sur chaque plateforme vers le puit central.",
+                "Installez la lame de lave à Y=55 avec protection par panneau et un hopper de collection.",
+                "Connectez les hoppers à un double coffre au niveau du sol et étiquetez-le."
               ]
             },
             {
               "type": "callout",
               "variant": "info",
-              "title": "S\u00e9curit\u00e9 des villageois",
+              "title": "Sécurité des villageois",
               "text": {
-                "mobile": "Nommez votre zombie et vos deux villageois travailleurs. Si le zombie despawn, les taux de golems tombent \u00e0 z\u00e9ro.",
-                "desktop": "Nommez votre zombie et vos deux villageois travailleurs avant d\u2019activer la ferme. Si le zombie despawn ou si un villageois est entra\u00een\u00e9 dans la chambre de kill, les taux de golems tombent \u00e0 z\u00e9ro jusqu\u2019\u00e0 remplacement et reliaison des stations de travail."
+                "mobile": "Nommez votre zombie et vos deux villageois travailleurs. Si le zombie despawn, les taux de golems tombent à zéro.",
+                "desktop": "Nommez votre zombie et vos deux villageois travailleurs avant d’activer la ferme. Si le zombie despawn ou si un villageois est entraîné dans la chambre de kill, les taux de golems tombent à zéro jusqu’à remplacement et reliaison des stations de travail."
               }
             }
           ]
         },
         {
           "id": "05",
-          "tocLabel": "Optimisation et d\u00e9pannage",
-          "title": "Optimisation et d\u00e9pannage",
+          "tocLabel": "Optimisation et dépannage",
+          "title": "Optimisation et dépannage",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Taux faibles\u00a0? V\u00e9rifiez le cap de mobs ailleurs, assurez-vous que les villageois dorment la nuit et tenez-vous au spot AFK \u2014 pas \u00e0 l\u2019int\u00e9rieur de la ferme.",
-                "desktop": "Taux inf\u00e9rieurs aux attentes\u00a0? V\u00e9rifiez l\u2019utilisation du cap de mobs ailleurs sur le serveur, assurez-vous que les villageois dorment vraiment la nuit et restez en AFK au pad d\u00e9sign\u00e9 40 blocs sous les plateformes \u2014 se tenir \u00e0 l\u2019int\u00e9rieur de la ferme casse la logique de spawn sur certaines versions."
+                "mobile": "Taux faibles ? Vérifiez le cap de mobs ailleurs, assurez-vous que les villageois dorment la nuit et tenez-vous au spot AFK — pas à l’intérieur de la ferme.",
+                "desktop": "Taux inférieurs aux attentes ? Vérifiez l’utilisation du cap de mobs ailleurs sur le serveur, assurez-vous que les villageois dorment vraiment la nuit et restez en AFK au pad désigné 40 blocs sous les plateformes — se tenir à l’intérieur de la ferme casse la logique de spawn sur certaines versions."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "Golems coinc\u00e9s sur les bords \u2014 \u00e9largissez les courants d\u2019eau d\u2019un bloc.",
-                "Hopper bouch\u00e9 \u2014 ajoutez un coffre secondaire et une cha\u00eene de hoppers.",
-                "Baisses de TPS \u2014 r\u00e9duisez les entit\u00e9s redondantes pr\u00e8s du claim."
+                "Golems coincés sur les bords — élargissez les courants d’eau d’un bloc.",
+                "Hopper bouché — ajoutez un coffre secondaire et une chaîne de hoppers.",
+                "Baisses de TPS — réduisez les entités redondantes près du claim."
               ],
               "desktopItems": [
-                "Golems coinc\u00e9s sur les bords de plateforme \u2014 \u00e9largissez les courants d\u2019eau d\u2019un bloc de chaque c\u00f4t\u00e9.",
-                "Hopper bouch\u00e9 aux heures de pointe \u2014 ajoutez un coffre secondaire et une cha\u00eene de hoppers parall\u00e8le.",
-                "Baisses de TPS serveur \u2014 r\u00e9duisez les entit\u00e9s-items redondantes et les mobs inactifs pr\u00e8s de votre claim."
+                "Golems coincés sur les bords de plateforme — élargissez les courants d’eau d’un bloc de chaque côté.",
+                "Hopper bouché aux heures de pointe — ajoutez un coffre secondaire et une chaîne de hoppers parallèle.",
+                "Baisses de TPS serveur — réduisez les entités-items redondantes et les mobs inactifs près de votre claim."
               ]
             }
           ]
         },
         {
           "id": "06",
-          "tocLabel": "Compatibilit\u00e9 serveur",
-          "title": "Compatibilit\u00e9 serveur",
+          "tocLabel": "Compatibilité serveur",
+          "title": "Compatibilité serveur",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Ce design est test\u00e9 sur LuckySurvival, MineWars et CalmSky. Les claims prot\u00e8gent la construction\u00a0; demandez au staff avant de traverser la nature sauvage sur MineWars.",
-                "desktop": "Ce design est test\u00e9 sur nos serveurs LuckySurvival, MineWars et CalmSky sans modifications de r\u00e8gles requises. Les land claims prot\u00e8gent la construction du griefing \u2014 sur MineWars, demandez au staff avant de placer des modules de villageois pr\u00e8s des fronti\u00e8res sauvages non claim\u00e9es."
+                "mobile": "Ce design est testé sur LuckySurvival, MineWars et CalmSky. Les claims protègent la construction ; demandez au staff avant de traverser la nature sauvage sur MineWars.",
+                "desktop": "Ce design est testé sur nos serveurs LuckySurvival, MineWars et CalmSky sans modifications de règles requises. Les land claims protègent la construction du griefing — sur MineWars, demandez au staff avant de placer des modules de villageois près des frontières sauvages non claimées."
               }
             },
             {
               "type": "cta",
               "primary": "Sauvegarder ce guide",
-              "secondaryLabel": "Plus d\u2019articles techniques",
+              "secondaryLabel": "Plus d’articles techniques",
               "secondaryHref": "/blog"
             }
           ]
@@ -624,55 +674,63 @@
     },
     "pvp-loadouts": {
       "title": "Des loadouts PvP qui fonctionnent vraiment sur MineWars",
-      "description": "Nous avons test\u00e9 18 builds sur deux semaines de petits combats. Quatre loadouts continuent de gagner \u2014 le reste peut prendre sa retraite.",
-      "descriptionDesktop": "Nous avons test\u00e9 18 builds sur deux semaines de petits combats MineWars \u2014 duels, escarmouches frontaliers et embuscades sur les autoroutes du Nether. Quatre loadouts gagnent dans le m\u00e9ta actuel. Le reste peut prendre sa retraite.",
+      "description": "Nous avons testé 18 builds sur deux semaines de petits combats. Quatre loadouts continuent de gagner — le reste peut prendre sa retraite.",
+      "descriptionDesktop": "Nous avons testé 18 builds sur deux semaines de petits combats MineWars — duels, escarmouches frontaliers et embuscades sur les autoroutes du Nether. Quatre loadouts gagnent dans le méta actuel. Le reste peut prendre sa retraite.",
       "breadcrumbLabel": "Loadouts PvP",
-      "heroTags": ["PvP", "MineWars"],
-      "sidebarTags": ["PvP", "MineWars", "Loadouts", "M\u00e9ta"],
+      "heroTags": [
+        "PvP",
+        "MineWars"
+      ],
+      "sidebarTags": [
+        "PvP",
+        "MineWars",
+        "Loadouts",
+        "Méta"
+      ],
       "lead": {
-        "mobile": "Le PvP MineWars sur nos serveurs ne concerne pas l\u2019armure parfaite \u2014 c\u2019est la synergie du kit, la discipline des pearls et savoir quand se d\u00e9sengager. Ces quatre loadouts ont surv\u00e9cu deux semaines de combats enregistr\u00e9s.",
-        "desktop": "Le PvP MineWars sur nos serveurs ne concerne pas les enchantements d\u2019armure parfaits \u2014 c\u2019est la synergie du kit, la discipline des pearls et savoir quand se d\u00e9sengager. Ces quatre loadouts ont surv\u00e9cu deux semaines de combats enregistr\u00e9s sur 180+ engagements. Tout le reste a sous-perform\u00e9 d\u00e8s que les adversaires ont commenc\u00e9 \u00e0 utiliser des cristaux et la tech de masse."
+        "mobile": "Le PvP MineWars sur nos serveurs ne concerne pas l’armure parfaite — c’est la synergie du kit, la discipline des pearls et savoir quand se désengager. Ces quatre loadouts ont survécu deux semaines de combats enregistrés.",
+        "desktop": "Le PvP MineWars sur nos serveurs ne concerne pas les enchantements d’armure parfaits — c’est la synergie du kit, la discipline des pearls et savoir quand se désengager. Ces quatre loadouts ont survécu deux semaines de combats enregistrés sur 180+ engagements. Tout le reste a sous-performé dès que les adversaires ont commencé à utiliser des cristaux et la tech de masse."
       },
       "sections": [
         {
           "id": "01",
-          "tocLabel": "Snapshot du m\u00e9ta actuel",
-          "title": "Snapshot du m\u00e9ta actuel",
+          "tocLabel": "Snapshot du méta actuel",
+          "title": "Snapshot du méta actuel",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Le printemps 2026 favorise les d\u00e9g\u00e2ts en burst et le re-pearl rapide. Les builds tank gagnent encore les longs combats, mais seulement si vous les forcez \u2014 la plupart des combats se terminent en moins de 15 secondes.",
-                "desktop": "Le printemps 2026 favorise les d\u00e9g\u00e2ts en burst et le timing du re-pearl rapide. Les builds tank gagnent encore les \u00e9changes prolong\u00e9s, mais seulement si vous les forcez \u2014 la plupart des combats enregistr\u00e9s sur notre shard MineWars se sont termin\u00e9s en moins de quinze secondes d\u00e8s que les deux joueurs avaient des kits complets."
+                "mobile": "Le printemps 2026 favorise les dégâts en burst et le re-pearl rapide. Les builds tank gagnent encore les longs combats, mais seulement si vous les forcez — la plupart des combats se terminent en moins de 15 secondes.",
+                "desktop": "Le printemps 2026 favorise les dégâts en burst et le timing du re-pearl rapide. Les builds tank gagnent encore les échanges prolongés, mais seulement si vous les forcez — la plupart des combats enregistrés sur notre shard MineWars se sont terminés en moins de quinze secondes dès que les deux joueurs avaient des kits complets."
               }
             },
             {
               "type": "bullets",
               "items": [
                 "Les hybrides cristal + masse dominent les terrains ouverts.",
-                "Les tanks totem survivent aux m\u00eal\u00e9es du hub Nether.",
-                "Les kits speed hit-and-run contrent les joueurs surquip\u00e9s.",
-                "Les kits budget comptent \u2014 tout le monde n\u2019utilise pas des enchantements max."
+                "Les tanks totem survivent aux mêlées du hub Nether.",
+                "Les kits speed hit-and-run contrent les joueurs surquipés.",
+                "Les kits budget comptent — tout le monde n’utilise pas des enchantements max."
               ],
               "desktopItems": [
-                "Les hybrides cristal et masse dominent les terrains ouverts et les autoroutes du d\u00e9sert.",
-                "Les tanks totem survivent aux m\u00eal\u00e9es du hub Nether et aux pi\u00e8ges de portail.",
-                "Les kits speed hit-and-run contrent les joueurs surquip\u00e9s qui ratent le premier coup.",
-                "Les kits budget gagnent encore \u2014 tous les combats n\u2019impliquent pas du netherite max-enchant\u00e9."
+                "Les hybrides cristal et masse dominent les terrains ouverts et les autoroutes du désert.",
+                "Les tanks totem survivent aux mêlées du hub Nether et aux pièges de portail.",
+                "Les kits speed hit-and-run contrent les joueurs surquipés qui ratent le premier coup.",
+                "Les kits budget gagnent encore — tous les combats n’impliquent pas du netherite max-enchanté."
               ]
             }
           ]
         },
         {
           "id": "02",
-          "tocLabel": "Loadout #1 \u2014 Burst cristal",
-          "title": "Loadout #1 \u2014 Burst cristal",
+          "tocLabel": "Loadout #1 — Burst cristal",
+          "title": "Loadout #1 — Burst cristal",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Armure\u00a0: netherite Protection IV avec jambards Protection contre les Explosions. Totem en main gauche toujours. Barre\u00a0: cristaux, obsidienne, pearls Ender, pommes dor\u00e9es, masse.",
-                "desktop": "Armure\u00a0: netherite Protection IV avec jambards Protection contre les Explosions IV et bottes Chute de plume. Totem en main gauche en permanence. Barre\u00a0: cristaux d\u2019end, obsidienne, pearls Ender, pommes dor\u00e9es, masse avec Densit\u00e9 V et un stack de gapples pour la sustain."
+                "mobile": "Armure : netherite Protection IV avec jambards Protection contre les Explosions. Totem en main gauche toujours. Barre : cristaux, obsidienne, pearls Ender, pommes dorées, masse.",
+                "desktop": "Armure : netherite Protection IV avec jambards Protection contre les Explosions IV et bottes Chute de plume. Totem en main gauche en permanence. Barre : cristaux d’end, obsidienne, pearls Ender, pommes dorées, masse avec Densité V et un stack de gapples pour la sustain."
               }
             },
             {
@@ -680,49 +738,49 @@
               "variant": "warn",
               "title": "Profil de risque",
               "text": {
-                "mobile": "D\u00e9g\u00e2ts propres \u00e9lev\u00e9s en cas de placement rat\u00e9. Entra\u00eenez-vous sur notre shard de test PvP avant de vous lancer dans des combats spawn.",
-                "desktop": "D\u00e9g\u00e2ts propres \u00e9lev\u00e9s en cas de placement rat\u00e9 ou de burst ennemi. Entra\u00eenez-vous sur notre shard de test PvP avant de porter ce kit aux combats spawn \u2014 le staff r\u00e9initialise l\u2019ar\u00e8ne toutes les six heures."
+                "mobile": "Dégâts propres élevés en cas de placement raté. Entraînez-vous sur notre shard de test PvP avant de vous lancer dans des combats spawn.",
+                "desktop": "Dégâts propres élevés en cas de placement raté ou de burst ennemi. Entraînez-vous sur notre shard de test PvP avant de porter ce kit aux combats spawn — le staff réinitialise l’arène toutes les six heures."
               }
             }
           ]
         },
         {
           "id": "03",
-          "tocLabel": "Loadout #2 \u2014 Tank totem",
-          "title": "Loadout #2 \u2014 Tank totem",
+          "tocLabel": "Loadout #2 — Tank totem",
+          "title": "Loadout #2 — Tank totem",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Con\u00e7u pour les combats de portail et les tunnels \u00e9troits. Protection maximale, deux totems (main + barre), \u00e9p\u00e9e Tr\u00e9buchement V, potions de chute lente optionnelles.",
-                "desktop": "Con\u00e7u pour les combats de portail, les tunnels du Nether et partout o\u00f9 vous ne pouvez pas kiter. Netherite max Protection, deux totems (\u00e9change main-barre), \u00e9p\u00e9e Tr\u00e9buchement V, splash Force optionnel et chute lente pour la r\u00e9cup\u00e9ration de pearl depuis les falaises."
+                "mobile": "Conçu pour les combats de portail et les tunnels étroits. Protection maximale, deux totems (main + barre), épée Trébuchement V, potions de chute lente optionnelles.",
+                "desktop": "Conçu pour les combats de portail, les tunnels du Nether et partout où vous ne pouvez pas kiter. Netherite max Protection, deux totems (échange main-barre), épée Trébuchement V, splash Force optionnel et chute lente pour la récupération de pearl depuis les falaises."
               }
             },
             {
               "type": "figure",
               "src": "/blog/3.webp",
-              "alt": "Layout d\u2019inventaire du loadout PvP tank totem",
-              "caption": "L\u00e9gende\u00a0: Barre du tank totem \u2014 \u00e9p\u00e9e, pearls, gapples, deuxi\u00e8me totem, blocs."
+              "alt": "Layout d’inventaire du loadout PvP tank totem",
+              "caption": "Légende : Barre du tank totem — épée, pearls, gapples, deuxième totem, blocs."
             }
           ]
         },
         {
           "id": "04",
-          "tocLabel": "Loadout #3 \u2014 Speed hit-and-run",
-          "title": "Loadout #3 \u2014 Speed hit-and-run",
+          "tocLabel": "Loadout #3 — Speed hit-and-run",
+          "title": "Loadout #3 — Speed hit-and-run",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Armure l\u00e9g\u00e8re avec Swift Sneak et potions Vitesse II. Masse pour les bursts verticaux, pearls pour les sorties. Condition de victoire\u00a0: premier coup, puis d\u00e9sengagement \u2014 ne jamais \u00e9changer.",
-                "desktop": "Armure l\u00e9g\u00e8re avec jambards Swift Sneak III et potions splash Vitesse II. Masse pour les d\u00e9g\u00e2ts en burst vertical, pearls pour les sorties par les \u00e9carts de toit. Condition de victoire\u00a0: atterrir le premier coup depuis la hauteur, puis se d\u00e9sengager \u2014 ne jamais rester et \u00e9changer contre des kits tank."
+                "mobile": "Armure légère avec Swift Sneak et potions Vitesse II. Masse pour les bursts verticaux, pearls pour les sorties. Condition de victoire : premier coup, puis désengagement — ne jamais échanger.",
+                "desktop": "Armure légère avec jambards Swift Sneak III et potions splash Vitesse II. Masse pour les dégâts en burst vertical, pearls pour les sorties par les écarts de toit. Condition de victoire : atterrir le premier coup depuis la hauteur, puis se désengager — ne jamais rester et échanger contre des kits tank."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u00ab\u00a0Si vous \u00eates encore en full-trade en terrain ouvert, vous donnez de l\u2019\u00e9quipement. Frappez, pearlez, r\u00e9engagez depuis la hauteur.\u00a0\u00bb",
-                "desktop": "\u00ab\u00a0Si vous \u00eates encore en full-trade en terrain ouvert contre des kits cristal, vous donnez de l\u2019\u00e9quipement \u00e0 l\u2019\u00e9conomie. Frappez, pearlez, r\u00e9engagez depuis la hauteur \u2014 c\u2019est tout le kit.\u00a0\u00bb"
+                "mobile": "« Si vous êtes encore en full-trade en terrain ouvert, vous donnez de l’équipement. Frappez, pearlez, réengagez depuis la hauteur. »",
+                "desktop": "« Si vous êtes encore en full-trade en terrain ouvert contre des kits cristal, vous donnez de l’équipement à l’économie. Frappez, pearlez, réengagez depuis la hauteur — c’est tout le kit. »"
               },
               "author": "NovaShift, MineWars tournament finalist"
             }
@@ -730,27 +788,27 @@
         },
         {
           "id": "05",
-          "tocLabel": "Loadout #4 \u2014 Starter budget",
-          "title": "Loadout #4 \u2014 Starter budget",
+          "tocLabel": "Loadout #4 — Starter budget",
+          "title": "Loadout #4 — Starter budget",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Diamant Prot II\u2013III, \u00e9p\u00e9e en fer Tranchant IV, 8 pearls, 3 gapples, blocs. Assez pas cher pour perdre deux fois et quand m\u00eame profiter d\u2019un kill.",
-                "desktop": "Diamant Protection II\u2013III, \u00e9p\u00e9e en fer Tranchant IV, huit pearls Ender, trois pommes dor\u00e9es et un stack de cobble pour des tours rapides. Assez pas cher pour perdre deux fois et quand m\u00eame profiter d\u2019un kill r\u00e9ussi plus le butin."
+                "mobile": "Diamant Prot II–III, épée en fer Tranchant IV, 8 pearls, 3 gapples, blocs. Assez pas cher pour perdre deux fois et quand même profiter d’un kill.",
+                "desktop": "Diamant Protection II–III, épée en fer Tranchant IV, huit pearls Ender, trois pommes dorées et un stack de cobble pour des tours rapides. Assez pas cher pour perdre deux fois et quand même profiter d’un kill réussi plus le butin."
               }
             },
             {
               "type": "bullets",
               "items": [
                 "Ignorez les enchantements que vous ne pouvez pas remplacer en une session.",
-                "Portez moins de pearls \u2014 les kits budget gagnent sur la patience.",
-                "Combattez pr\u00e8s d\u2019un terrain sur lequel vous pouvez vous \u00e9lever."
+                "Portez moins de pearls — les kits budget gagnent sur la patience.",
+                "Combattez près d’un terrain sur lequel vous pouvez vous élever."
               ],
               "desktopItems": [
                 "Ignorez les enchantements que vous ne pouvez pas remplacer en une seule session de farm.",
-                "Portez moins de pearls \u2014 les kits budget gagnent sur la patience et le positionnement, pas la chasse.",
-                "Combattez uniquement pr\u00e8s d\u2019un terrain sur lequel vous pouvez vous \u00e9lever ou plonger pour vous couvrir."
+                "Portez moins de pearls — les kits budget gagnent sur la patience et le positionnement, pas la chasse.",
+                "Combattez uniquement près d’un terrain sur lequel vous pouvez vous élever ou plonger pour vous couvrir."
               ]
             }
           ]
@@ -763,8 +821,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Les builds \u00e9p\u00e9e Protection seule, les kits arc-principal sans pearls et le diamant non enchant\u00e9 \u00e0 port\u00e9e de cristal \u2014 tous ont sous-perform\u00e9 dans nos tests. Gardez-les pour les duels, pas MineWars.",
-                "desktop": "Les builds \u00e9p\u00e9e Protection seule, les kits arc-principal sans \u00e9chappatoire pearl et le diamant non enchant\u00e9 \u00e0 port\u00e9e de cristal \u2014 tous ont sous-perform\u00e9 pendant nos deux semaines de tests. Gardez-les pour les duels amicaux, pas le roaming s\u00e9rieux sur MineWars."
+                "mobile": "Les builds épée Protection seule, les kits arc-principal sans pearls et le diamant non enchanté à portée de cristal — tous ont sous-performé dans nos tests. Gardez-les pour les duels, pas MineWars.",
+                "desktop": "Les builds épée Protection seule, les kits arc-principal sans échappatoire pearl et le diamant non enchanté à portée de cristal — tous ont sous-performé pendant nos deux semaines de tests. Gardez-les pour les duels amicaux, pas le roaming sérieux sur MineWars."
               }
             },
             {
@@ -778,15 +836,23 @@
       ]
     },
     "player-spotlight": {
-      "title": "Joueur du mois\u00a0: rencontrez RedstoneKing",
-      "description": "13 mois de jeu, une sky base de 40 \u00e9tages et un beau r\u00e9sultat en tournoi \u2014 l\u2019histoire compl\u00e8te du spotlight de ce mois.",
-      "descriptionDesktop": "Treize mois en mode survie, une sky base de quarante \u00e9tages visible depuis trois biomes et une quatri\u00e8me place en tournoi \u2014 l\u2019histoire compl\u00e8te du joueur spotlight communautaire de ce mois, RedstoneKing.",
+      "title": "Joueur du mois : rencontrez RedstoneKing",
+      "description": "Une sky base de 40 étages et un beau résultat en tournoi — l'histoire complète du spotlight de ce mois.",
+      "descriptionDesktop": "Une sky base de quarante étages visible depuis trois biomes et une quatrième place en tournoi — l'histoire complète du joueur spotlight communautaire de ce mois, RedstoneKing.",
       "breadcrumbLabel": "Spotlight joueur",
-      "heroTags": ["Communaut\u00e9", "Spotlight"],
-      "sidebarTags": ["Communaut\u00e9", "Spotlight", "Constructions", "Tournois"],
+      "heroTags": [
+        "Communauté",
+        "Spotlight"
+      ],
+      "sidebarTags": [
+        "Communauté",
+        "Spotlight",
+        "Constructions",
+        "Tournois"
+      ],
       "lead": {
-        "mobile": "Chaque mois nous mettons en avant un joueur qui fait avancer la communaut\u00e9 \u2014 pas toujours le plus riche ou le meilleur rang PvP, mais quelqu\u2019un qui donne vie au serveur. Avril appartient \u00e0 RedstoneKing.",
-        "desktop": "Chaque mois nous mettons en avant un joueur qui fait avancer la communaut\u00e9 \u2014 pas toujours le compte le plus riche ou le meilleur rang PvP, mais quelqu\u2019un qui donne vie au serveur par des constructions, des guides ou des \u00e9v\u00e9nements communautaires. Avril appartient \u00e0 RedstoneKing, un main survie qui a transform\u00e9 son obsession redstone en quelque chose que tout le monde peut visiter."
+        "mobile": "Chaque mois nous mettons en avant un joueur qui fait avancer la communauté — pas toujours le plus riche ou le meilleur rang PvP, mais quelqu'un qui donne vie au serveur. Ce spotlight va à RedstoneKing.",
+        "desktop": "Chaque mois nous mettons en avant un joueur qui fait avancer la communauté — pas toujours le compte le plus riche ou le meilleur rang PvP, mais quelqu'un qui donne vie au serveur par des constructions, des guides ou des événements communautaires. Ce spotlight va à RedstoneKing, un main survie qui a transformé son obsession redstone en quelque chose que tout le monde peut visiter."
       },
       "sections": [
         {
@@ -797,21 +863,21 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing a rejoint en mars 2025 sur Survival. Pas de rang staff, pas de tag cr\u00e9ateur de contenu \u2014 juste un joueur qui a document\u00e9 chaque am\u00e9lioration de ferme dans des fils Discord publics.",
-                "desktop": "RedstoneKing a rejoint en mars 2025 sur notre shard Survival principal. Pas de rang staff, pas de tag cr\u00e9ateur de contenu officiel \u2014 juste un joueur qui a document\u00e9 chaque am\u00e9lioration de ferme dans des fils Discord publics et r\u00e9pondu aux questions redstone des nouveaux joueurs \u00e0 2h du matin, heure du serveur."
+                "mobile": "RedstoneKing joue sur Survival. Pas de rang staff, pas de tag créateur de contenu — juste un joueur qui a documenté chaque amélioration de ferme dans des fils Discord publics.",
+                "desktop": "RedstoneKing est un habitué de notre shard Survival principal. Pas de rang staff, pas de tag créateur de contenu officiel — juste un joueur qui a documenté chaque amélioration de ferme dans des fils Discord publics et répondu aux questions redstone des nouveaux joueurs à 2h du matin, heure du serveur."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "13 mois actif, plus de 1400 heures enregistr\u00e9es.",
-                "Z\u00e9ro historique de ban, trois r\u00e9compenses de mentorat.",
-                "Connu pour les visites guidr\u00e9es de base ouvertes chaque samedi."
+                "Joue principalement sur Survival.",
+                "Zéro historique de ban, trois récompenses de mentorat.",
+                "Connu pour les visites guidées de base ouvertes chaque samedi."
               ],
               "desktopItems": [
-                "Treize mois actif avec plus de 1400 heures enregistr\u00e9es.",
-                "Z\u00e9ro historique de ban et trois r\u00e9compenses de mentorat communautaire des mod\u00e9rateurs.",
-                "Connu pour les visites guid\u00e9es de base ouvertes chaque samedi \u00e0 16h00 UTC."
+                "Joueur Survival régulier avec un journal public de builds sur Discord.",
+                "Zéro historique de ban et trois récompenses de mentorat communautaire des modérateurs.",
+                "Connu pour les visites guidées de base ouvertes chaque samedi à 16h00 UTC."
               ]
             }
           ]
@@ -824,15 +890,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "La construction phare est une tour de 40 \u00e9tages au-dessus de Y=220 \u2014 stockage, fermes et un \u00e9tage mus\u00e9e public avec des d\u00e9mos redstone fonctionnelles que n\u2019importe qui peut d\u00e9clencher.",
-                "desktop": "La construction phare est une tour de quarante \u00e9tages ancr\u00e9e au-dessus de Y=220 \u2014 stockage automatis\u00e9, fermes de culture et de mobs, quartiers d\u2019habitation et un \u00e9tage mus\u00e9e public avec des d\u00e9mos redstone fonctionnelles que n\u2019importe qui peut d\u00e9clencher sans permission de griefing."
+                "mobile": "La construction phare est une tour de 40 étages au-dessus de Y=220 — stockage, fermes et un étage musée public avec des démos redstone fonctionnelles que n’importe qui peut déclencher.",
+                "desktop": "La construction phare est une tour de quarante étages ancrée au-dessus de Y=220 — stockage automatisé, fermes de culture et de mobs, quartiers d’habitation et un étage musée public avec des démos redstone fonctionnelles que n’importe qui peut déclencher sans permission de griefing."
               }
             },
             {
               "type": "figure",
               "src": "/blog/4.webp",
-              "alt": "Ext\u00e9rieur de la sky base de RedstoneKing au coucher du soleil",
-              "caption": "L\u00e9gende\u00a0: La sky base au coucher du soleil \u2014 balise visible depuis le hub de spawn principal.",
+              "alt": "Extérieur de la sky base de RedstoneKing au coucher du soleil",
+              "caption": "Légende : La sky base au coucher du soleil — balise visible depuis le hub de spawn principal.",
               "dashed": true
             },
             {
@@ -840,8 +906,8 @@
               "variant": "info",
               "title": "Visiter en jeu",
               "text": {
-                "mobile": "Warp\u00a0: /warp rk-tower sur Survival. L\u2019\u00e9tage mus\u00e9e est aux \u00e9tages 38\u201340\u00a0; merci de ne pas casser les blocs de d\u00e9mo.",
-                "desktop": "Visitez sur Survival avec /warp rk-tower. Les \u00e9tages mus\u00e9e sont du 38 au 40\u00a0; merci de ne pas casser les blocs de d\u00e9mo \u2014 ils se r\u00e9initialisent toutes les heures mais interrompent les visites pour les autres."
+                "mobile": "Warp : /warp rk-tower sur Survival. L’étage musée est aux étages 38–40 ; merci de ne pas casser les blocs de démo.",
+                "desktop": "Visitez sur Survival avec /warp rk-tower. Les étages musée sont du 38 au 40 ; merci de ne pas casser les blocs de démo — ils se réinitialisent toutes les heures mais interrompent les visites pour les autres."
               }
             }
           ]
@@ -854,15 +920,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing n\u2019est pas un main PvP \u2014 ce qui a rendu la surprise du bracket Saison 2 bien r\u00e9elle. Quatri\u00e8me place avec un kit tank emprunt\u00e9, z\u00e9ro pratique des cristaux.",
-                "desktop": "RedstoneKing n\u2019est pas un main PvP \u2014 ce qui a rendu la surprise du bracket Saison 2 bien r\u00e9elle. Il a fini dans le top quatre avec un kit tank emprunt\u00e9 et z\u00e9ro pratique des cristaux, gagnant trois manches sur le positionnement seul avant de perdre face au champion de la saison derni\u00e8re en demi-finale."
+                "mobile": "RedstoneKing n’est pas un main PvP — ce qui a rendu la surprise du bracket Saison 2 bien réelle. Quatrième place avec un kit tank emprunté, zéro pratique des cristaux.",
+                "desktop": "RedstoneKing n’est pas un main PvP — ce qui a rendu la surprise du bracket Saison 2 bien réelle. Il a fini dans le top quatre avec un kit tank emprunté et zéro pratique des cristaux, gagnant trois manches sur le positionnement seul avant de perdre face au champion de la saison dernière en demi-finale."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u00ab\u00a0Je me suis inscrit pour voir la nouvelle interface de bracket. Survivre quatre manches \u00e9tait le vrai accomplissement.\u00a0\u00bb",
-                "desktop": "\u00ab\u00a0Je me suis inscrit pour voir la nouvelle interface de bracket et signaler des bugs. Survivre quatre manches contre de vrais mains PvP \u00e9tait le vrai accomplissement \u2014 je ne sais toujours pas placer les cristaux correctement.\u00a0\u00bb"
+                "mobile": "« Je me suis inscrit pour voir la nouvelle interface de bracket. Survivre quatre manches était le vrai accomplissement. »",
+                "desktop": "« Je me suis inscrit pour voir la nouvelle interface de bracket et signaler des bugs. Survivre quatre manches contre de vrais mains PvP était le vrai accomplissement — je ne sais toujours pas placer les cristaux correctement. »"
               },
               "author": "RedstoneKing"
             }
@@ -870,27 +936,27 @@
         },
         {
           "id": "04",
-          "tocLabel": "Impact sur la communaut\u00e9",
-          "title": "Impact sur la communaut\u00e9",
+          "tocLabel": "Impact sur la communauté",
+          "title": "Impact sur la communauté",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "En plus des constructions, RedstoneKing g\u00e8re un fil hebdomadaire \u00ab\u00a0Permanence Redstone\u00a0\u00bb \u2014 postez une capture de votre circuit, recevez du feedback asynchrone. Plus de 200 r\u00e9ponses le mois dernier.",
-                "desktop": "En plus des constructions, RedstoneKing g\u00e8re un fil hebdomadaire \u00ab\u00a0Permanence Redstone\u00a0\u00bb dans Discord \u2014 postez une capture de votre circuit, recevez du feedback asynchrone en moins d\u2019un jour. Les mod\u00e9rateurs ont compt\u00e9 plus de 200 r\u00e9ponses utiles le mois dernier, beaucoup destin\u00e9es \u00e0 des premiers constructeurs de fermes."
+                "mobile": "En plus des constructions, RedstoneKing gère un fil hebdomadaire « Permanence Redstone » — postez une capture de votre circuit, recevez du feedback asynchrone. Plus de 200 réponses le mois dernier.",
+                "desktop": "En plus des constructions, RedstoneKing gère un fil hebdomadaire « Permanence Redstone » dans Discord — postez une capture de votre circuit, recevez du feedback asynchrone en moins d’un jour. Les modérateurs ont compté plus de 200 réponses utiles le mois dernier, beaucoup destinées à des premiers constructeurs de fermes."
               }
             },
             {
               "type": "bullets",
               "items": [
-                "Publi\u00e9 trois conseils invit\u00e9s dans notre s\u00e9rie Redstone 101.",
-                "Don\u00e9 des kits shulker en double au coffre des nouveaux joueurs au spawn.",
-                "Vot\u00e9 \u00ab\u00a0constructeur le plus utile\u00a0\u00bb dans le sondage communautaire."
+                "Publié trois conseils invités dans notre série Redstone 101.",
+                "Doné des kits shulker en double au coffre des nouveaux joueurs au spawn.",
+                "Voté « constructeur le plus utile » dans le sondage communautaire."
               ],
               "desktopItems": [
-                "Publi\u00e9 trois conseils invit\u00e9s crois\u00e9s dans notre s\u00e9rie d\u2019articles Redstone 101.",
-                "Don\u00e9 des kits shulker en double au coffre des nouveaux joueurs au spawn central.",
-                "Vot\u00e9 \u00ab\u00a0constructeur le plus utile\u00a0\u00bb dans le sondage communautaire d\u2019avril avec 34\u00a0% des votes."
+                "Publié trois conseils invités croisés dans notre série d’articles Redstone 101.",
+                "Doné des kits shulker en double au coffre des nouveaux joueurs au spawn central.",
+                "Élu « constructeur le plus utile » dans le sondage communautaire."
               ]
             }
           ]
@@ -903,14 +969,14 @@
             {
               "type": "ordered",
               "items": [
-                "\u00c9tiquetez chaque ligne de hopper \u2014 votre moi futur est aussi fatigui\u00e9.",
-                "Construisez les fermes au-dessus de Y=100 pour r\u00e9duire le bruit des cavernes.",
-                "Visitez d\u2019autres bases avant de copier des sch\u00e9mas YouTube."
+                "Étiquetez chaque ligne de hopper — votre moi futur est aussi fatiguié.",
+                "Construisez les fermes au-dessus de Y=100 pour réduire le bruit des cavernes.",
+                "Visitez d’autres bases avant de copier des schémas YouTube."
               ],
               "desktopItems": [
-                "\u00c9tiquetez chaque ligne de hopper et coffre \u2014 votre moi futur est aussi fatigui\u00e9 \u00e0 1h du matin.",
-                "Construisez les fermes automatis\u00e9es au-dessus de Y=100 pour r\u00e9duire le bruit des cavernes et la perte de cap de mobs.",
-                "Visitez d\u2019autres bases de joueurs sur le serveur avant de copier des sch\u00e9mas YouTube g\u00e9n\u00e9riques."
+                "Étiquetez chaque ligne de hopper et coffre — votre moi futur est aussi fatiguié à 1h du matin.",
+                "Construisez les fermes automatisées au-dessus de Y=100 pour réduire le bruit des cavernes et la perte de cap de mobs.",
+                "Visitez d’autres bases de joueurs sur le serveur avant de copier des schémas YouTube génériques."
               ]
             }
           ]
@@ -923,14 +989,14 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Vous pensez que quelqu\u2019un m\u00e9rite le spotlight de mai\u00a0? Ouvrez un ticket dans Discord #community-nominate avec son pseudo et une phrase expliquant pourquoi. Staff et joueurs votent tous les deux.",
-                "desktop": "Vous pensez que quelqu\u2019un m\u00e9rite le spotlight de mai\u00a0? Ouvrez un ticket dans Discord #community-nominate avec son pseudo, serveur et une phrase expliquant pourquoi. Staff et joueurs votent tous les deux \u2014 les gagnants doivent avoir le soutien de la communaut\u00e9 et un historique de mod\u00e9ration propre."
+                "mobile": "Quelqu'un mérite le spotlight du mois prochain ? Ouvrez un ticket dans Discord #community-nominate avec son pseudo et une phrase pourquoi. Staff et joueurs votent.",
+                "desktop": "Quelqu'un mérite le spotlight du mois prochain ? Ouvrez un ticket dans Discord #community-nominate avec son pseudo, serveur et une phrase pourquoi. Staff et joueurs votent — les victoires demandent à la fois traction communautaire et historique de modération propre."
               }
             },
             {
               "type": "cta",
               "primary": "Nominer un joueur",
-              "secondaryLabel": "Tous les articles communaut\u00e9",
+              "secondaryLabel": "Tous les articles communauté",
               "secondaryHref": "/blog"
             }
           ]
@@ -938,15 +1004,23 @@
       ]
     },
     "redstone-wheat-farm": {
-      "title": "Redstone 101\u00a0: une ferme \u00e0 bl\u00e9 automatis\u00e9e en 30 minutes",
-      "description": "Aucune connaissance en redstone requise. Chaque bloc, chaque comparateur et l\u2019astuce qui double votre rendement.",
-      "descriptionDesktop": "Aucune connaissance en redstone requise. Chaque bloc, chaque r\u00e9glage de comparateur et l\u2019astuce observer qui double votre rendement sans \u00e9tendre l\u2019empreinte \u2014 constructible en survie en trente minutes si vous avez d\u00e9j\u00e0 du fer.",
-      "breadcrumbLabel": "Tutoriel ferme \u00e0 bl\u00e9",
-      "heroTags": ["Tutoriels", "Redstone"],
-      "sidebarTags": ["Tutoriels", "Redstone", "Fermes", "Automatisation"],
+      "title": "Redstone 101 : une ferme à blé automatisée en 30 minutes",
+      "description": "Aucune connaissance en redstone requise. Chaque bloc, chaque comparateur et l’astuce qui double votre rendement.",
+      "descriptionDesktop": "Aucune connaissance en redstone requise. Chaque bloc, chaque réglage de comparateur et l’astuce observer qui double votre rendement sans étendre l’empreinte — constructible en survie en trente minutes si vous avez déjà du fer.",
+      "breadcrumbLabel": "Tutoriel ferme à blé",
+      "heroTags": [
+        "Tutoriels",
+        "Redstone"
+      ],
+      "sidebarTags": [
+        "Tutoriels",
+        "Redstone",
+        "Fermes",
+        "Automatisation"
+      ],
       "lead": {
-        "mobile": "Le bl\u00e9 automatis\u00e9 est le premier projet redstone que nous recommandons apr\u00e8s les outils en pierre. Ce layout tient dans un terrain 9\u00d77, utilise neuf hoppers et tourne pendant que vous minez.",
-        "desktop": "Le bl\u00e9 automatis\u00e9 est le premier projet redstone que nous recommandons apr\u00e8s les outils en pierre. Ce layout tient dans un terrain 9\u00d77, utilise neuf hoppers et deux observers, et tourne pendant que vous minez en souterrain \u2014 pas de circuits d\u2019horloge, pas de blocs de slime, pas de mods."
+        "mobile": "Le blé automatisé est le premier projet redstone que nous recommandons après les outils en pierre. Ce layout tient dans un terrain 9×7, utilise neuf hoppers et tourne pendant que vous minez.",
+        "desktop": "Le blé automatisé est le premier projet redstone que nous recommandons après les outils en pierre. Ce layout tient dans un terrain 9×7, utilise neuf hoppers et deux observers, et tourne pendant que vous minez en souterrain — pas de circuits d’horloge, pas de blocs de slime, pas de mods."
       },
       "sections": [
         {
@@ -957,23 +1031,23 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Ramassez avant de construire \u2014 revenir pour un observer tue l\u2019objectif des trente minutes.",
-                "desktop": "Ramassez tout avant de poser le premier bloc \u2014 revenir pour un observer ou un hopper manquant tue l\u2019objectif des trente minutes et vous incite \u00e0 laisser la ferme \u00e0 demi-c\u00e2bl\u00e9e."
+                "mobile": "Ramassez avant de construire — revenir pour un observer tue l’objectif des trente minutes.",
+                "desktop": "Ramassez tout avant de poser le premier bloc — revenir pour un observer ou un hopper manquant tue l’objectif des trente minutes et vous incite à laisser la ferme à demi-câblée."
               }
             },
             {
               "type": "ordered",
               "items": [
-                "1 houe en fer, 1 seau d\u2019eau",
+                "1 houe en fer, 1 seau d’eau",
                 "9 hoppers, 2 coffres, 2 observers",
                 "1 piston, 1 poudre de redstone, 32 blocs de construction",
-                "32 graines de bl\u00e9 (planter apr\u00e8s le c\u00e2blage)"
+                "32 graines de blé (planter après le câblage)"
               ],
               "desktopItems": [
-                "1 houe en fer, 1 seau d\u2019eau, 1 bloc solide pour contenir l\u2019eau",
+                "1 houe en fer, 1 seau d’eau, 1 bloc solide pour contenir l’eau",
                 "9 hoppers, 2 coffres, 2 observers se faisant face",
-                "1 piston, 1 poudre de redstone, 32 blocs de construction (cobble c\u2019est bien)",
-                "32 graines de bl\u00e9 \u2014 planter seulement apr\u00e8s avoir test\u00e9 le c\u00e2blage"
+                "1 piston, 1 poudre de redstone, 32 blocs de construction (cobble c’est bien)",
+                "32 graines de blé — planter seulement après avoir testé le câblage"
               ]
             }
           ]
@@ -986,29 +1060,29 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Neuf rang\u00e9es de bl\u00e9 dans un rectangle 9\u00d77. Source d\u2019eau \u00e0 l\u2019arri\u00e8re centre irriguant tout le champ. Hoppers de collection sous les deux rang\u00e9es avant.",
-                "desktop": "Neuf rang\u00e9es de bl\u00e9 dans un rectangle 9\u00d77. Une source d\u2019eau \u00e0 l\u2019arri\u00e8re centre irrigue tout le champ. Les hoppers de collection courent sous les deux rang\u00e9es avant o\u00f9 les objets bris\u00e9s glissent \u2014 le reste du sol est en blocs solides pour garder les objets \u00e0 port\u00e9e."
+                "mobile": "Neuf rangées de blé dans un rectangle 9×7. Source d’eau à l’arrière centre irriguant tout le champ. Hoppers de collection sous les deux rangées avant.",
+                "desktop": "Neuf rangées de blé dans un rectangle 9×7. Une source d’eau à l’arrière centre irrigue tout le champ. Les hoppers de collection courent sous les deux rangées avant où les objets brisés glissent — le reste du sol est en blocs solides pour garder les objets à portée."
               }
             },
             {
               "type": "figure",
               "src": "/blog/5.webp",
-              "alt": "Vue du dessus du layout de la ferme \u00e0 bl\u00e9 automatis\u00e9e",
-              "caption": "L\u00e9gende\u00a0: Layout vu du dessus \u2014 eau \u00e0 l\u2019arri\u00e8re, hoppers \u00e0 l\u2019avant, ligne d\u2019observer sur le c\u00f4t\u00e9.",
+              "alt": "Vue du dessus du layout de la ferme à blé automatisée",
+              "caption": "Légende : Layout vu du dessus — eau à l’arrière, hoppers à l’avant, ligne d’observer sur le côté.",
               "dashed": true
             }
           ]
         },
         {
           "id": "03",
-          "tocLabel": "C\u00e2blage de la moissonneuse",
-          "title": "C\u00e2blage de la moissonneuse",
+          "tocLabel": "Câblage de la moissonneuse",
+          "title": "Câblage de la moissonneuse",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Placez un observer observant la rang\u00e9e de bl\u00e9 avant. Quand la croissance se met \u00e0 jour, il impulsion le piston derri\u00e8re la rang\u00e9e, brisant le bl\u00e9 m\u00fbr dans le courant d\u2019eau.",
-                "desktop": "Placez un observer observant la rang\u00e9e de bl\u00e9 avant avec la sortie vers un piston derri\u00e8re la rang\u00e9e. Quand un bloc de bl\u00e9 atteint son stade de croissance final, l\u2019observer impulsionle piston, brisant bl\u00e9 m\u00fbr et graines dans le courant d\u2019eau en dessous."
+                "mobile": "Placez un observer observant la rangée de blé avant. Quand la croissance se met à jour, il impulsion le piston derrière la rangée, brisant le blé mûr dans le courant d’eau.",
+                "desktop": "Placez un observer observant la rangée de blé avant avec la sortie vers un piston derrière la rangée. Quand un bloc de blé atteint son stade de croissance final, l’observer impulsionle piston, brisant blé mûr et graines dans le courant d’eau en dessous."
               }
             },
             {
@@ -1016,8 +1090,8 @@
               "variant": "info",
               "title": "Astuce du comparateur",
               "text": {
-                "mobile": "Ajoutez un comparateur lisant un hopper sous le champ \u2014 la ferme ne se d\u00e9clenche que si le coffre avant n\u2019est pas plein. \u00c9conomise les pistons et les co\u00fbts de tick serveur.",
-                "desktop": "Ajoutez un comparateur lisant un hopper lat\u00e9ral sous le champ \u2014 la ferme ne se d\u00e9clenche que si le coffre avant n\u2019est pas plein. Cela \u00e9conomise les spams de piston, r\u00e9duit les co\u00fbts de tick serveur, et c\u2019est l\u2019astuce qui vous permet de passer aux double rang\u00e9es sans lag."
+                "mobile": "Ajoutez un comparateur lisant un hopper sous le champ — la ferme ne se déclenche que si le coffre avant n’est pas plein. Économise les pistons et les coûts de tick serveur.",
+                "desktop": "Ajoutez un comparateur lisant un hopper latéral sous le champ — la ferme ne se déclenche que si le coffre avant n’est pas plein. Cela économise les spams de piston, réduit les coûts de tick serveur, et c’est l’astuce qui vous permet de passer aux double rangées sans lag."
               }
             }
           ]
@@ -1030,16 +1104,16 @@
             {
               "type": "ordered",
               "items": [
-                "Plantez des graines et fertilisez une rang\u00e9e pour forcer la croissance.",
+                "Plantez des graines et fertilisez une rangée pour forcer la croissance.",
                 "Confirmez que les objets atteignent le coffre en 5 secondes.",
                 "Cassez et remplacez un observer si les impulsions ratent.",
-                "Restez AFK pr\u00e8s du chunk du coffre \u2014 pas besoin d\u2019intervention."
+                "Restez AFK près du chunk du coffre — pas besoin d’intervention."
               ],
               "desktopItems": [
-                "Plantez des graines et fertilisez une rang\u00e9e pour forcer une mise \u00e0 jour de croissance.",
-                "Confirmez que les objets atteignent le coffre en cinq secondes apr\u00e8s l\u2019impulsion.",
-                "Cassez et remplacez un observer si les impulsions ratent \u2014 g\u00e9n\u00e9ralement une erreur d\u2019orientation.",
-                "Restez AFK dans le chunk du coffre \u2014 pas besoin d\u2019intervention une fois les rang\u00e9es m\u00fbres."
+                "Plantez des graines et fertilisez une rangée pour forcer une mise à jour de croissance.",
+                "Confirmez que les objets atteignent le coffre en cinq secondes après l’impulsion.",
+                "Cassez et remplacez un observer si les impulsions ratent — généralement une erreur d’orientation.",
+                "Restez AFK dans le chunk du coffre — pas besoin d’intervention une fois les rangées mûres."
               ]
             }
           ]
@@ -1052,15 +1126,15 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Reproduisez la ligne d\u2019observer sur la rang\u00e9e oppos\u00e9e \u2014 m\u00eame circuit piston, cha\u00eene de hopper partag\u00e9e. Vous doublez le rendement sans doubler l\u2019eau ou les coffres de collection.",
-                "desktop": "Reproduisez la ligne d\u2019observer sur la rang\u00e9e oppos\u00e9e \u2014 m\u00eame circuit piston, cha\u00eene de hopper partag\u00e9e au milieu. Vous doublez le rendement sans doubler les sources d\u2019eau ou les coffres de collection, et le verrou comparateur s\u2019applique toujours au syst\u00e8me entier."
+                "mobile": "Reproduisez la ligne d’observer sur la rangée opposée — même circuit piston, chaîne de hopper partagée. Vous doublez le rendement sans doubler l’eau ou les coffres de collection.",
+                "desktop": "Reproduisez la ligne d’observer sur la rangée opposée — même circuit piston, chaîne de hopper partagée au milieu. Vous doublez le rendement sans doubler les sources d’eau ou les coffres de collection, et le verrou comparateur s’applique toujours au système entier."
               }
             },
             {
               "type": "quote",
               "text": {
-                "mobile": "\u00ab\u00a0Si votre ferme n\u00e9cessite un tutoriel vid\u00e9o \u00e0 c\u00f4t\u00e9 de vous, simplifiez le design. Les fermes \u00e0 bl\u00e9 doivent \u00eatre ennuyeuses.\u00a0\u00bb",
-                "desktop": "\u00ab\u00a0Si votre ferme \u00e0 bl\u00e9 n\u00e9cessite un tutoriel vid\u00e9o \u00e0 c\u00f4t\u00e9 de vous en temps r\u00e9el, simplifiez le design. Les fermes \u00e0 bl\u00e9 doivent \u00eatre ennuyeuses, fiables et l\u00e9g\u00e8rement laides.\u00a0\u00bb"
+                "mobile": "« Si votre ferme nécessite un tutoriel vidéo à côté de vous, simplifiez le design. Les fermes à blé doivent être ennuyeuses. »",
+                "desktop": "« Si votre ferme à blé nécessite un tutoriel vidéo à côté de vous en temps réel, simplifiez le design. Les fermes à blé doivent être ennuyeuses, fiables et légèrement laides. »"
               },
               "author": "RedstoneKing, guest contributor"
             }
@@ -1074,13 +1148,13 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Une fois le pain passif, passez au fer ou une ferme de mobs \u2014 m\u00eame logique de hopper, \u00e9chelle plus grande. Notre guide de ferme \u00e0 fer est l\u2019\u00e9tape deux habituelle.",
-                "desktop": "Une fois le pain passif, passez au fer ou une ferme de mobs compacte \u2014 m\u00eame logique de collection par hopper, \u00e9chelle plus grande. Notre guide d\u2019ing\u00e9nierie de ferme \u00e0 fer est l\u2019\u00e9tape deux habituelle sur les mondes de survie \u00e0 long terme."
+                "mobile": "Une fois le pain passif, passez au fer ou une ferme de mobs — même logique de hopper, échelle plus grande. Notre guide de ferme à fer est l’étape deux habituelle.",
+                "desktop": "Une fois le pain passif, passez au fer ou une ferme de mobs compacte — même logique de collection par hopper, échelle plus grande. Notre guide d’ingénierie de ferme à fer est l’étape deux habituelle sur les mondes de survie à long terme."
               }
             },
             {
               "type": "cta",
-              "primary": "S\u2019abonner aux tutoriels",
+              "primary": "S’abonner aux tutoriels",
               "secondaryLabel": "Voir tous les guides",
               "secondaryHref": "/blog"
             }
@@ -1089,48 +1163,56 @@
       ]
     },
     "resource-packs": {
-      "title": "Les 7 meilleurs packs de ressources \u00e0 essayer en 2026",
-      "description": "Des refreshes vanilla minimalistes aux mondes picturaux \u2014 les packs que notre \u00e9quipe utilise sur chaque serveur en ce moment.",
-      "descriptionDesktop": "Des refreshes vanilla minimalistes aux mondes picturaux avec des ciels personnalis\u00e9s \u2014 les sept packs de ressources que notre \u00e9quipe utilise sur chaque serveur en ce moment, avec notes d\u2019installation et impact performance sur laptops bas de gamme.",
+      "title": "Les 7 meilleurs packs de ressources à essayer en 2026",
+      "description": "Des refreshes vanilla minimalistes aux mondes picturaux — les packs que notre équipe utilise sur chaque serveur en ce moment.",
+      "descriptionDesktop": "Des refreshes vanilla minimalistes aux mondes picturaux avec des ciels personnalisés — les sept packs de ressources que notre équipe utilise sur chaque serveur en ce moment, avec notes d’installation et impact performance sur laptops bas de gamme.",
       "breadcrumbLabel": "Packs de ressources 2026",
-      "heroTags": ["Mises \u00e0 jour", "Packs de ressources"],
-      "sidebarTags": ["Mises \u00e0 jour", "Packs de ressources", "Visuels", "Performance"],
+      "heroTags": [
+        "Mises à jour",
+        "Packs de ressources"
+      ],
+      "sidebarTags": [
+        "Mises à jour",
+        "Packs de ressources",
+        "Visuels",
+        "Performance"
+      ],
       "lead": {
-        "mobile": "Les packs de ressources sont autoris\u00e9s sur tous nos serveurs tant qu\u2019ils ne donnent pas d\u2019avantages injustes \u2014 pas de x-ray, pas de triches PvP low-fire. Ces sept sont approuv\u00e9s par le staff et rendent bien en captures d\u2019\u00e9cran.",
-        "desktop": "Les packs de ressources sont autoris\u00e9s sur tous nos serveurs tant qu\u2019ils ne donnent pas d\u2019avantages injustes \u2014 pas de x-ray, pas de triches PvP low-fire, pas d\u2019eau transparente pour la vision tunnel. Ces sept sont approuv\u00e9s par le staff, test\u00e9s sur les clients 1.21 et rendent bien en captures d\u2019\u00e9cran sans fondre les laptops bas de gamme."
+        "mobile": "Les packs de ressources sont autorisés sur tous nos serveurs tant qu’ils ne donnent pas d’avantages injustes — pas de x-ray, pas de triches PvP low-fire. Ces sept sont approuvés par le staff et rendent bien en captures d’écran.",
+        "desktop": "Les packs de ressources sont autorisés sur tous nos serveurs tant qu’ils ne donnent pas d’avantages injustes — pas de x-ray, pas de triches PvP low-fire, pas d’eau transparente pour la vision tunnel. Ces sept sont approuvés par le staff, testés sur les clients 1.21 et rendent bien en captures d’écran sans fondre les laptops bas de gamme."
       },
       "sections": [
         {
           "id": "01",
-          "tocLabel": "Comment nous les avons s\u00e9lectionn\u00e9s",
-          "title": "Comment nous les avons s\u00e9lectionn\u00e9s",
+          "tocLabel": "Comment nous les avons sélectionnés",
+          "title": "Comment nous les avons sélectionnés",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Nous avons filtr\u00e9 des centaines de packs pour en garder sept avec trois r\u00e8gles\u00a0: UI lisible en 1080p, FPS stables sur graphiques int\u00e9gr\u00e9s et pas de textures bloqu\u00e9es \u00e0 notre scan anti-triche.",
-                "desktop": "Nous avons filtr\u00e9 des centaines de packs communautaires pour en garder sept avec trois r\u00e8gles\u00a0: UI lisible en 1080p, FPS stables sur graphiques int\u00e9gr\u00e9s lors des \u00e9v\u00e9nements spawn charg\u00e9s et un scan anti-triche propre \u2014 pas de surlignage de minerais injuste ou de particules supprim\u00e9es."
+                "mobile": "Nous avons filtré des centaines de packs pour en garder sept avec trois règles : UI lisible en 1080p, FPS stables sur graphiques intégrés et pas de textures bloquées à notre scan anti-triche.",
+                "desktop": "Nous avons filtré des centaines de packs communautaires pour en garder sept avec trois règles : UI lisible en 1080p, FPS stables sur graphiques intégrés lors des événements spawn chargés et un scan anti-triche propre — pas de surlignage de minerais injuste ou de particules supprimées."
               }
             },
             {
               "type": "bullets",
               "items": [
                 "Doit fonctionner sur Java 1.21.x sans OptiFine.",
-                "T\u00e9l\u00e9chargement inf\u00e9rieur \u00e0 128 Mo pr\u00e9f\u00e9r\u00e9.",
-                "Look distinct \u2014 pas sept copies du m\u00eame tweak vanilla."
+                "Téléchargement inférieur à 128 Mo préféré.",
+                "Look distinct — pas sept copies du même tweak vanilla."
               ],
               "desktopItems": [
-                "Doit fonctionner sur Java 1.21.x sans n\u00e9cessiter OptiFine.",
-                "T\u00e9l\u00e9chargement inf\u00e9rieur \u00e0 128 Mo pr\u00e9f\u00e9r\u00e9 pour des changements rapides de launcher.",
-                "Direction artistique distincte \u2014 pas sept copies du m\u00eame tweak de contraste vanilla."
+                "Doit fonctionner sur Java 1.21.x sans nécessiter OptiFine.",
+                "Téléchargement inférieur à 128 Mo préféré pour des changements rapides de launcher.",
+                "Direction artistique distincte — pas sept copies du même tweak de contraste vanilla."
               ]
             }
           ]
         },
         {
           "id": "02",
-          "tocLabel": "Les sept s\u00e9lections",
-          "title": "Les sept s\u00e9lections",
+          "tocLabel": "Les sept sélections",
+          "title": "Les sept sélections",
           "blocks": [
             {
               "type": "subheading",
@@ -1139,40 +1221,40 @@
             {
               "type": "ordered",
               "items": [
-                "Fresh Vanilla+ \u2014 blocs plus nets, m\u00eame ambiance.",
-                "Soft Leaves \u2014 arbres plus doux, parfait pour les constructeurs.",
-                "Clean GUI Lite \u2014 infobulles plus grandes, inventaire plus calme."
+                "Fresh Vanilla+ — blocs plus nets, même ambiance.",
+                "Soft Leaves — arbres plus doux, parfait pour les constructeurs.",
+                "Clean GUI Lite — infobulles plus grandes, inventaire plus calme."
               ],
               "desktopItems": [
-                "Fresh Vanilla+ \u2014 bords de blocs plus nets et verre plus propre, m\u00eame ambiance g\u00e9n\u00e9rale.",
-                "Soft Leaves \u2014 feuillage et troncs plus doux, parfait pour les constructeurs cin\u00e9matiques.",
-                "Clean GUI Lite \u2014 infobulles plus grandes et contraste d\u2019inventaire plus calme pour les longues sessions."
+                "Fresh Vanilla+ — bords de blocs plus nets et verre plus propre, même ambiance générale.",
+                "Soft Leaves — feuillage et troncs plus doux, parfait pour les constructeurs cinématiques.",
+                "Clean GUI Lite — infobulles plus grandes et contraste d’inventaire plus calme pour les longues sessions."
               ]
             },
             {
               "type": "subheading",
-              "text": "Pictural et atmosph\u00e9rique"
+              "text": "Pictural et atmosphérique"
             },
             {
               "type": "ordered",
               "items": [
-                "Terralith Skies \u2014 nuages personnalis\u00e9s et d\u00e9grad\u00e9s de coucher de soleil.",
-                "Canvas Folk \u2014 pierre et bois peints \u00e0 la main.",
-                "Deep Dark UI \u2014 menus sombres pour les constructeurs d\u2019horreur.",
-                "Neon Circuit \u2014 esth\u00e9tique sci-fi de laboratoire redstone."
+                "Terralith Skies — nuages personnalisés et dégradés de coucher de soleil.",
+                "Canvas Folk — pierre et bois peints à la main.",
+                "Deep Dark UI — menus sombres pour les constructeurs d’horreur.",
+                "Neon Circuit — esthétique sci-fi de laboratoire redstone."
               ],
               "desktopItems": [
-                "Terralith Skies \u2014 nuages personnalis\u00e9s et d\u00e9grad\u00e9s de coucher de soleil adaptant notre politique sans shader.",
-                "Canvas Folk \u2014 textures de pierre et de bois peintes \u00e0 la main pour les districts m\u00e9di\u00e9vaux.",
-                "Deep Dark UI \u2014 menus sombres et hotbar plus sombre pour les constructeurs d\u2019horreur et de cavernes.",
-                "Neon Circuit \u2014 panneaux sci-fi et accents redstone lumineux pour les bases de laboratoire."
+                "Terralith Skies — nuages personnalisés et dégradés de coucher de soleil adaptant notre politique sans shader.",
+                "Canvas Folk — textures de pierre et de bois peintes à la main pour les districts médiévaux.",
+                "Deep Dark UI — menus sombres et hotbar plus sombre pour les constructeurs d’horreur et de cavernes.",
+                "Neon Circuit — panneaux sci-fi et accents redstone lumineux pour les bases de laboratoire."
               ]
             },
             {
               "type": "figure",
               "src": "/blog/6.webp",
-              "alt": "Comparaison c\u00f4te \u00e0 c\u00f4te des textures des packs de ressources",
-              "caption": "L\u00e9gende\u00a0: Fresh Vanilla+ vs Canvas Folk sur la m\u00eame construction d\u2019escalier en ch\u00eane."
+              "alt": "Comparaison côte à côte des textures des packs de ressources",
+              "caption": "Légende : Fresh Vanilla+ vs Canvas Folk sur la même construction d’escalier en chêne."
             }
           ]
         },
@@ -1184,8 +1266,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Les packs picturaux co\u00fbtent 5\u201315 FPS sur graphiques int\u00e9gr\u00e9s. Les packs minimalistes sont g\u00e9n\u00e9ralement gratuits en termes de performance. D\u00e9sactivez les ciels personnalis\u00e9s si vous avez des saccades au spawn.",
-                "desktop": "Les packs picturaux complets co\u00fbtent g\u00e9n\u00e9ralement cinq \u00e0 quinze FPS sur graphiques int\u00e9gr\u00e9s lors des \u00e9v\u00e9nements spawn. Les packs minimalistes sont g\u00e9n\u00e9ralement gratuits en termes de performance. D\u00e9sactivez d\u2019abord les ciels personnalis\u00e9s et les textures anim\u00e9es si vous avez des saccades \u2014 la plupart des packs exposent des bascules dans leur dossier d\u2019options."
+                "mobile": "Les packs picturaux coûtent 5–15 FPS sur graphiques intégrés. Les packs minimalistes sont généralement gratuits en termes de performance. Désactivez les ciels personnalisés si vous avez des saccades au spawn.",
+                "desktop": "Les packs picturaux complets coûtent généralement cinq à quinze FPS sur graphiques intégrés lors des événements spawn. Les packs minimalistes sont généralement gratuits en termes de performance. Désactivez d’abord les ciels personnalisés et les textures animées si vous avez des saccades — la plupart des packs exposent des bascules dans leur dossier d’options."
               }
             },
             {
@@ -1194,7 +1276,7 @@
               "title": "Rappel de fair-play",
               "text": {
                 "mobile": "Les packs qui suppriment le feu, modifient les hitboxes visuellement ou surlignent les minerais sont interdits. En cas de doute, demandez dans #support avant le jour du tournoi.",
-                "desktop": "Les packs qui suppriment les overlays de feu, modifient les visuels de hitbox ou surlignent les minerais cach\u00e9s sont interdits et peuvent d\u00e9clencher des expulsions automatiques. En cas de doute, demandez dans #support avant le jour du tournoi \u2014 le staff peut scanner votre liste de packs en quelques minutes."
+                "desktop": "Les packs qui suppriment les overlays de feu, modifient les visuels de hitbox ou surlignent les minerais cachés sont interdits et peuvent déclencher des expulsions automatiques. En cas de doute, demandez dans #support avant le jour du tournoi — le staff peut scanner votre liste de packs en quelques minutes."
               }
             }
           ]
@@ -1207,30 +1289,30 @@
             {
               "type": "ordered",
               "items": [
-                "T\u00e9l\u00e9chargez le .zip depuis les liens officiels \u00e9pingl\u00e9s dans notre Discord.",
-                "Ouvrez Minecraft \u2192 Options \u2192 Packs de ressources \u2192 Ouvrir le dossier.",
-                "D\u00e9posez le zip dans le dossier et activez-le dans la liste.",
-                "Reconnectez-vous \u00e0 n\u2019importe quel serveur \u2014 pas de red\u00e9marrage n\u00e9cessaire."
+                "Téléchargez le .zip depuis les liens officiels épinglés dans notre Discord.",
+                "Ouvrez Minecraft → Options → Packs de ressources → Ouvrir le dossier.",
+                "Déposez le zip dans le dossier et activez-le dans la liste.",
+                "Reconnectez-vous à n’importe quel serveur — pas de redémarrage nécessaire."
               ],
               "desktopItems": [
-                "T\u00e9l\u00e9chargez le .zip depuis les liens officiels \u00e9pingl\u00e9s dans Discord #resource-packs.",
-                "Ouvrez Minecraft \u2192 Options \u2192 Packs de ressources \u2192 Ouvrir le dossier.",
-                "D\u00e9posez le zip dans le dossier et d\u00e9placez-le dans la colonne s\u00e9lectionn\u00e9e.",
-                "Reconnectez-vous \u00e0 n\u2019importe quel serveur dans notre launcher \u2014 un red\u00e9marrage complet n\u2019est g\u00e9n\u00e9ralement pas n\u00e9cessaire."
+                "Téléchargez le .zip depuis les liens officiels épinglés dans Discord #resource-packs.",
+                "Ouvrez Minecraft → Options → Packs de ressources → Ouvrir le dossier.",
+                "Déposez le zip dans le dossier et déplacez-le dans la colonne sélectionnée.",
+                "Reconnectez-vous à n’importe quel serveur dans notre launcher — un redémarrage complet n’est généralement pas nécessaire."
               ]
             }
           ]
         },
         {
           "id": "05",
-          "tocLabel": "R\u00e8gles sp\u00e9cifiques aux serveurs",
-          "title": "R\u00e8gles sp\u00e9cifiques aux serveurs",
+          "tocLabel": "Règles spécifiques aux serveurs",
+          "title": "Règles spécifiques aux serveurs",
           "blocks": [
             {
               "type": "paragraph",
               "text": {
-                "mobile": "LuckySurvival et CalmSky autorisent les sept. MineWars autorise uniquement les packs cosm\u00e9tiques \u2014 pas d\u2019interface masquant les animations de pop de totem. Les brackets de tournoi n\u00e9cessitent l\u2019overlay de feu par d\u00e9faut.",
-                "desktop": "LuckySurvival et CalmSky autorisent les sept sans restriction. MineWars n\u2019autorise que les packs cosm\u00e9tiques \u2014 pas de mods d\u2019interface masquant les animations de pop de totem ou raccourcissant les overlays de feu. Les brackets de tournoi officiels n\u00e9cessitent les visuels de feu et de totem par d\u00e9faut pour les examens d\u2019\u00e9quit\u00e9."
+                "mobile": "LuckySurvival et CalmSky autorisent les sept. MineWars autorise uniquement les packs cosmétiques — pas d’interface masquant les animations de pop de totem. Les brackets de tournoi nécessitent l’overlay de feu par défaut.",
+                "desktop": "LuckySurvival et CalmSky autorisent les sept sans restriction. MineWars n’autorise que les packs cosmétiques — pas de mods d’interface masquant les animations de pop de totem ou raccourcissant les overlays de feu. Les brackets de tournoi officiels nécessitent les visuels de feu et de totem par défaut pour les examens d’équité."
               }
             }
           ]
@@ -1243,14 +1325,14 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Vous avez cr\u00e9\u00e9 un pack sur nos serveurs\u00a0? Soumettez pour la liste d\u2019\u00e9t\u00e9 dans #resource-packs avec un album de captures et des notes FPS. Nous pr\u00e9sentons deux packs communautaires chaque saison.",
-                "desktop": "Vous avez cr\u00e9\u00e9 un pack en jouant sur nos serveurs\u00a0? Soumettez pour la liste de s\u00e9lections staff d\u2019\u00e9t\u00e9 dans #resource-packs avec un album de captures, un lien de t\u00e9l\u00e9chargement et des notes FPS honn\u00eates sur graphiques int\u00e9gr\u00e9s. Nous pr\u00e9sentons deux packs communautaires chaque saison aux c\u00f4t\u00e9s des favoris internes."
+                "mobile": "Vous avez créé un pack sur nos serveurs ? Soumettez pour la liste d’été dans #resource-packs avec un album de captures et des notes FPS. Nous présentons deux packs communautaires chaque saison.",
+                "desktop": "Vous avez créé un pack en jouant sur nos serveurs ? Soumettez pour la liste de sélections staff d’été dans #resource-packs avec un album de captures, un lien de téléchargement et des notes FPS honnêtes sur graphiques intégrés. Nous présentons deux packs communautaires chaque saison aux côtés des favoris internes."
               }
             },
             {
               "type": "cta",
               "primary": "Obtenir les liens de packs",
-              "secondaryLabel": "Voir toutes les mises \u00e0 jour",
+              "secondaryLabel": "Voir toutes les mises à jour",
               "secondaryHref": "/blog"
             }
           ]

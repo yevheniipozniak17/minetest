@@ -83,7 +83,6 @@
   },
   "sort": {
     "all": "Wszystkie",
-    "mostHelpful": "Najbardziej pomocne",
     "latest": "Najnowsze",
     "label": "Sortuj:",
     "ariaLabel": "Sortuj pytania"
@@ -161,7 +160,6 @@
     "tagTop": "Top",
     "tagTopDesktop": "Popularne pytanie",
     "views": "{count} wy\u015bwietle\u0144",
-    "helpfulPct": "{percent}% uzna\u0142o to za pomocne",
     "minRead": "{min} min czytania",
     "updatedFull": "Zaktualizowano {date}, 2026"
   },
@@ -173,16 +171,6 @@
     "allFaq": "Wszystkie FAQ",
     "readMobile": "Czytaj",
     "readDesktop": "Czytaj odpowied\u017a"
-  },
-  "feedback": {
-    "hintMobile": "Twoja ocena pomaga nam si\u0119 rozwija\u0107.",
-    "hintDesktop": "Twoja ocena pomaga nam ustali\u0107, kt\u00f3re odpowiedzi rozbudowa\u0107 i przepisa\u0107.",
-    "yesMobile": "Tak",
-    "yesDesktop": "Tak, pomocne",
-    "noMobile": "Niespecjalnie",
-    "noDesktop": "Mo\u017cna lepiej",
-    "statsMobile": "{helpful} z {total} ({percent}%) uzna\u0142o to za pomocne",
-    "statsDesktop": "{helpful} z {total} graczy ({percent}%) uzna\u0142o to za pomocne"
   },
   "contentCta": {
     "primary": "Skontaktuj si\u0119",
@@ -535,14 +523,6 @@
       "Otw\u00f3rz sklep w grze za pomoc\u0105 /shop i sprawd\u017a dzienne zadania.",
       "Do\u0142\u0105cz do Discorda spo\u0142eczno\u015bci \u2014 to tam spotykaj\u0105 si\u0119 budowniczowie, handlarze i gracze PvP."
     ],
-    "feedbackHintMobile": "Twoja ocena pomaga nam si\u0119 rozwija\u0107.",
-    "feedbackHintDesktop": "Twoja ocena pomaga nam ustali\u0107, kt\u00f3re odpowiedzi rozbudowa\u0107 i przepisa\u0107.",
-    "feedbackYesMobile": "Tak",
-    "feedbackYesDesktop": "Tak, pomocne",
-    "feedbackNoMobile": "Niespecjalnie",
-    "feedbackNoDesktop": "Mo\u017cna lepiej",
-    "feedbackStatsMobile": "243 z 258 (94%) uzna\u0142o to za pomocne",
-    "feedbackStatsDesktop": "243 z 258 graczy (94%) uzna\u0142o to za pomocne",
     "ctaPrimary": "Do\u0142\u0105cz na Twitchu",
     "ctaSecondary": "Przegl\u0105daj wszystkie FAQ"
   },

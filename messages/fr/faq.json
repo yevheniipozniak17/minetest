@@ -83,7 +83,6 @@
   },
   "sort": {
     "all": "Tout",
-    "mostHelpful": "Les plus utiles",
     "latest": "Les plus r\u00e9cents",
     "label": "Trier :",
     "ariaLabel": "Trier les questions"
@@ -161,7 +160,6 @@
     "tagTop": "Top",
     "tagTopDesktop": "Question populaire",
     "views": "{count} vues",
-    "helpfulPct": "{percent}% ont trouv\u00e9 cela utile",
     "minRead": "{min} min de lecture",
     "updatedFull": "Mis \u00e0 jour le {date}, 2026"
   },
@@ -173,16 +171,6 @@
     "allFaq": "Toute la FAQ",
     "readMobile": "Lire",
     "readDesktop": "Lire la r\u00e9ponse"
-  },
-  "feedback": {
-    "hintMobile": "Votre vote nous aide \u00e0 nous am\u00e9liorer.",
-    "hintDesktop": "Votre vote nous aide \u00e0 prioriser les r\u00e9ponses \u00e0 d\u00e9velopper et \u00e0 r\u00e9\u00e9crire.",
-    "yesMobile": "Oui",
-    "yesDesktop": "Oui, utile",
-    "noMobile": "Pas vraiment",
-    "noDesktop": "Peut mieux faire",
-    "statsMobile": "{helpful} sur {total} ({percent}%) ont trouv\u00e9 cela utile",
-    "statsDesktop": "{helpful} sur {total} joueurs ({percent}%) ont trouv\u00e9 cela utile"
   },
   "contentCta": {
     "primary": "Nous contacter",
@@ -535,14 +523,6 @@
       "Ouvrez la boutique en jeu avec /shop et consultez les qu\u00eates quotidiennes.",
       "Rejoignez le Discord communautaire \u2014 la plupart des constructeurs, commer\u00e7ants et joueurs PvP s'y retrouvent."
     ],
-    "feedbackHintMobile": "Votre vote nous aide \u00e0 nous am\u00e9liorer.",
-    "feedbackHintDesktop": "Votre vote nous aide \u00e0 prioriser les r\u00e9ponses \u00e0 d\u00e9velopper et \u00e0 r\u00e9\u00e9crire.",
-    "feedbackYesMobile": "Oui",
-    "feedbackYesDesktop": "Oui, utile",
-    "feedbackNoMobile": "Pas vraiment",
-    "feedbackNoDesktop": "Peut mieux faire",
-    "feedbackStatsMobile": "243 sur 258 (94%) ont trouv\u00e9 cela utile",
-    "feedbackStatsDesktop": "243 sur 258 joueurs (94%) ont trouv\u00e9 cela utile",
     "ctaPrimary": "Rejoindre Twitch",
     "ctaSecondary": "Parcourir toute la FAQ"
   },

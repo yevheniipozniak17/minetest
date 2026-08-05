@@ -15,11 +15,10 @@ type FaqSortSelectProps = {
   variant: 'desktop' | 'mobile';
 };
 
-function getSortTranslationKey(id: FaqSortOption): 'sort.all' | 'sort.mostHelpful' | 'sort.latest' {
+function getSortTranslationKey(id: FaqSortOption): 'sort.all' | 'sort.latest' {
   switch (id) {
-    case 'all':          return 'sort.all';
-    case 'most-helpful': return 'sort.mostHelpful';
-    case 'latest':       return 'sort.latest';
+    case 'all':    return 'sort.all';
+    case 'latest': return 'sort.latest';
   }
 }
 

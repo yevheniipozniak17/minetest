@@ -122,8 +122,8 @@ export default function RegistrationForm() {
   const passwordStrength = useMemo(() => getPasswordStrength(password), [password]);
 
   const STATS = [
-    { value: 'GLOBAL', label: t('register.statGlobalPlayers') },
-    { value: '4.8/5', label: t('register.statCommunityRating') },
+    { value: 'FREE', label: t('register.statFreeToJoin') },
+    { value: '4.8', label: t('register.statPlayerSatisfaction') },
     { value: '3', label: t('register.statLiveServers') },
   ];
 

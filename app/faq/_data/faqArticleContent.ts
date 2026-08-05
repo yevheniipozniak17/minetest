@@ -5,7 +5,6 @@ import {
   JOIN_CHOOSE_SERVER,
   JOIN_CONNECT,
   JOIN_CREATE_ACCOUNT,
-  JOIN_FEEDBACK,
   JOIN_LEAD,
   JOIN_TROUBLESHOOTING,
   JOIN_WHATS_NEXT,
@@ -19,22 +18,6 @@ function list(mobile: readonly string[], desktop?: readonly string[]) {
   return { mobile, desktop: desktop ?? mobile };
 }
 
-function feedbackStats(percent: number, total: number) {
-  const helpful = Math.round((total * percent) / 100);
-  return {
-    hint: block(
-      'Your vote helps us improve.',
-      'Your vote helps us prioritise which answers to expand and re-write.'
-    ),
-    yes: block('Yes', 'Yes, helpful'),
-    no: block('Not really', 'Could be better'),
-    stats: block(
-      `${helpful} out of ${total} (${percent}%) found this helpful`,
-      `${helpful} out of ${total} players (${percent}%) found this helpful`
-    ),
-  };
-}
-
 const JOIN_CONTENT: FaqArticleFullContent = {
   lead: JOIN_LEAD,
   sidebarRelatedSlugs: [
@@ -43,7 +26,6 @@ const JOIN_CONTENT: FaqArticleFullContent = {
     'connection-lost',
     'link-microsoft',
   ],
-  feedback: JOIN_FEEDBACK,
   cta: {
     primary: 'Join Twitch',
     primaryHref: 'https://www.twitch.tv/minecraftsgame',
@@ -146,8 +128,6 @@ type SimpleArticleSeed = {
     };
   }>;
   related: string[];
-  feedbackPercent: number;
-  feedbackTotal: number;
 };
 
 function buildSimpleArticle(seed: SimpleArticleSeed): FaqArticleFullContent {
@@ -173,7 +153,6 @@ function buildSimpleArticle(seed: SimpleArticleSeed): FaqArticleFullContent {
     lead: block(seed.lead.mobile, seed.lead.desktop),
     sections,
     sidebarRelatedSlugs: seed.related,
-    feedback: feedbackStats(seed.feedbackPercent, seed.feedbackTotal),
     cta: {
       primary: 'Contact us',
       primaryHref: '/faq',
@@ -243,8 +222,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['join', 'connection-lost', 'resource-pack-issues'],
-    feedbackPercent: 98,
-    feedbackTotal: 210,
   },
   {
     slug: 'first-day-checklist',
@@ -298,8 +275,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['join', 'claims-protection', 'economy-basics'],
-    feedbackPercent: 91,
-    feedbackTotal: 186,
   },
   {
     slug: 'dashboard-guide',
@@ -351,8 +326,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['join', 'switch-servers', 'tournaments'],
-    feedbackPercent: 89,
-    feedbackTotal: 142,
   },
   {
     slug: 'change-nickname',
@@ -404,8 +377,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['dashboard-guide', 'link-microsoft', 'two-factor-auth'],
-    feedbackPercent: 87,
-    feedbackTotal: 118,
   },
   {
     slug: 'reset-password',
@@ -458,8 +429,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['link-microsoft', 'two-factor-auth', 'delete-account'],
-    feedbackPercent: 96,
-    feedbackTotal: 248,
   },
   {
     slug: 'link-microsoft',
@@ -513,8 +482,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['reset-password', 'change-nickname', 'join'],
-    feedbackPercent: 93,
-    feedbackTotal: 192,
   },
   {
     slug: 'two-factor-auth',
@@ -568,8 +535,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['reset-password', 'delete-account', 'payment-methods'],
-    feedbackPercent: 90,
-    feedbackTotal: 134,
   },
   {
     slug: 'delete-account',
@@ -623,8 +588,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['reset-password', 'two-factor-auth', 'refund-policy'],
-    feedbackPercent: 85,
-    feedbackTotal: 96,
   },
   {
     slug: 'payment-methods',
@@ -677,8 +640,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['donations-privileges', 'payment-failed', 'refund-policy'],
-    feedbackPercent: 95,
-    feedbackTotal: 176,
   },
   {
     slug: 'donations-privileges',
@@ -730,8 +691,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['rank-benefits', 'payment-methods', 'gift-rank'],
-    feedbackPercent: 92,
-    feedbackTotal: 204,
   },
   {
     slug: 'refund-policy',
@@ -782,8 +741,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['payment-failed', 'payment-methods', 'delete-account'],
-    feedbackPercent: 88,
-    feedbackTotal: 158,
   },
   {
     slug: 'payment-failed',
@@ -836,8 +793,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['payment-methods', 'refund-policy', 'rank-benefits'],
-    feedbackPercent: 86,
-    feedbackTotal: 122,
   },
   {
     slug: 'server-differences',
@@ -889,8 +844,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['join', 'switch-servers', 'server-status'],
-    feedbackPercent: 97,
-    feedbackTotal: 228,
   },
   {
     slug: 'switch-servers',
@@ -944,8 +897,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['server-differences', 'dashboard-guide', 'join'],
-    feedbackPercent: 94,
-    feedbackTotal: 168,
   },
   {
     slug: 'world-resets',
@@ -998,8 +949,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['download-world', 'tournaments', 'server-status'],
-    feedbackPercent: 90,
-    feedbackTotal: 144,
   },
   {
     slug: 'download-world',
@@ -1052,8 +1001,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['claims-protection', 'world-resets', 'dashboard-guide'],
-    feedbackPercent: 84,
-    feedbackTotal: 102,
   },
   {
     slug: 'server-status',
@@ -1105,8 +1052,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['connection-lost', 'switch-servers', 'join'],
-    feedbackPercent: 93,
-    feedbackTotal: 188,
   },
   {
     slug: 'rank-benefits',
@@ -1159,8 +1104,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['donations-privileges', 'rank-duration', 'gift-rank'],
-    feedbackPercent: 91,
-    feedbackTotal: 198,
   },
   {
     slug: 'rank-duration',
@@ -1212,8 +1155,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['rank-benefits', 'gift-rank', 'refund-policy'],
-    feedbackPercent: 89,
-    feedbackTotal: 132,
   },
   {
     slug: 'gift-rank',
@@ -1267,8 +1208,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['rank-benefits', 'donations-privileges', 'payment-methods'],
-    feedbackPercent: 88,
-    feedbackTotal: 114,
   },
   {
     slug: 'claims-protection',
@@ -1322,8 +1261,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['first-day-checklist', 'report-player', 'download-world'],
-    feedbackPercent: 95,
-    feedbackTotal: 256,
   },
   {
     slug: 'economy-basics',
@@ -1375,8 +1312,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['first-day-checklist', 'tournaments', 'donations-privileges'],
-    feedbackPercent: 90,
-    feedbackTotal: 172,
   },
   {
     slug: 'tournaments',
@@ -1429,8 +1364,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['dashboard-guide', 'report-player', 'rank-benefits'],
-    feedbackPercent: 92,
-    feedbackTotal: 210,
   },
   {
     slug: 'report-player',
@@ -1483,8 +1416,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['server-rules', 'ban-appeal', 'claims-protection'],
-    feedbackPercent: 87,
-    feedbackTotal: 138,
   },
   {
     slug: 'connection-lost',
@@ -1531,8 +1462,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['supported-versions', 'resource-pack-issues', 'server-status'],
-    feedbackPercent: 91,
-    feedbackTotal: 268,
   },
   {
     slug: 'resource-pack-issues',
@@ -1586,8 +1515,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['connection-lost', 'lag-performance', 'join'],
-    feedbackPercent: 89,
-    feedbackTotal: 184,
   },
   {
     slug: 'lag-performance',
@@ -1640,8 +1567,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['connection-lost', 'resource-pack-issues', 'server-status'],
-    feedbackPercent: 86,
-    feedbackTotal: 156,
   },
   {
     slug: 'server-rules',
@@ -1694,8 +1619,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['ban-appeal', 'report-player', 'claims-protection'],
-    feedbackPercent: 94,
-    feedbackTotal: 220,
   },
   {
     slug: 'ban-appeal',
@@ -1749,8 +1672,6 @@ const SIMPLE_ARTICLES: SimpleArticleSeed[] = [
       },
     ],
     related: ['server-rules', 'report-player', 'delete-account'],
-    feedbackPercent: 83,
-    feedbackTotal: 112,
   },
 ];
 

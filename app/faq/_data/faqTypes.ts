@@ -11,4 +11,4 @@ export type FaqCategoryId =
 
 export type FaqArticleCategoryId = Exclude<FaqCategoryId, 'all'>;
 
-export type FaqSortOption = 'all' | 'most-helpful' | 'latest';
+export type FaqSortOption = 'all' | 'latest';

@@ -14,7 +14,6 @@ export type FaqArticleMeta = {
   updated: string;
   updatedFull: string;
   views: number;
-  helpfulPercent: number;
   readMinutes: number;
   quickAnswer: string;
   featured?: boolean;
@@ -29,7 +28,6 @@ type ArticleSeed = {
   breadcrumbShort: string;
   updated: string;
   views: number;
-  helpfulPercent: number;
   readMinutes: number;
   quickAnswer: string;
   excerpt: string;
@@ -71,7 +69,6 @@ function buildArticleMeta(seed: ArticleSeed): FaqArticleMeta {
     updated: seed.updated,
     updatedFull: `Updated ${seed.updated}, 2026`,
     views: seed.views,
-    helpfulPercent: seed.helpfulPercent,
     readMinutes: seed.readMinutes,
     quickAnswer: seed.quickAnswer,
     excerpt: seed.excerpt,
@@ -88,7 +85,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'How to join',
     updated: 'May 12',
     views: 12840,
-    helpfulPercent: 94,
     readMinutes: 3,
     quickAnswer:
       'Sign up → choose a server → copy IP → paste into Minecraft → Multiplayer → Add Server. The whole flow takes about 2 minutes if Minecraft is already installed.',
@@ -104,7 +100,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Supported versions',
     updated: 'May 09',
     views: 9620,
-    helpfulPercent: 98,
     readMinutes: 2,
     quickAnswer:
       'Java 1.20.4 and the latest Bedrock release. Older versions are not supported because of the custom plugins we run.',
@@ -119,7 +114,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'First day checklist',
     updated: 'May 04',
     views: 7140,
-    helpfulPercent: 91,
     readMinutes: 3,
     quickAnswer:
       'Set a home, claim land, open /shop for daily quests, and join Discord. Those four steps cover 90% of new-player confusion.',
@@ -134,7 +128,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Dashboard guide',
     updated: 'Apr 28',
     views: 5890,
-    helpfulPercent: 89,
     readMinutes: 3,
     quickAnswer:
       'The dashboard shows server IPs, purchase history, tournament brackets, and account settings — all tied to one login.',
@@ -149,7 +142,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Change nickname',
     updated: 'Apr 22',
     views: 4320,
-    helpfulPercent: 87,
     readMinutes: 2,
     quickAnswer:
       'Yes — once every 30 days from Dashboard → Settings. The change applies on next login across all servers.',
@@ -164,7 +156,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Reset password',
     updated: 'May 09',
     views: 11200,
-    helpfulPercent: 96,
     readMinutes: 2,
     quickAnswer:
       'Use Forgot password on the login page. We email a one-time link valid for 30 minutes.',
@@ -179,7 +170,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Link Microsoft',
     updated: 'May 04',
     views: 8760,
-    helpfulPercent: 93,
     readMinutes: 3,
     quickAnswer:
       'Dashboard → Settings → Linked accounts → Connect Microsoft. You stay logged in on both Java and Bedrock after linking.',
@@ -194,7 +184,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Two-factor auth',
     updated: 'Apr 28',
     views: 5210,
-    helpfulPercent: 90,
     readMinutes: 2,
     quickAnswer:
       'Yes — enable TOTP from Dashboard → Security. Required for large shop purchases once your account exceeds $50 lifetime spend.',
@@ -209,7 +198,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Delete account',
     updated: 'Apr 20',
     views: 3180,
-    helpfulPercent: 85,
     readMinutes: 3,
     quickAnswer:
       'Dashboard → Settings → Delete account. Progress is removed after a 14-day grace period; purchases are not refunded automatically.',
@@ -224,7 +212,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Payment methods',
     updated: 'Apr 25',
     views: 6540,
-    helpfulPercent: 95,
     readMinutes: 2,
     quickAnswer:
       'Visa, Mastercard, PayPal, Apple Pay, and Google Pay in supported regions. Crypto is not accepted.',
@@ -239,7 +226,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Donations & privileges',
     updated: 'Apr 20',
     views: 7890,
-    helpfulPercent: 92,
     readMinutes: 3,
     quickAnswer:
       'Privileges are cosmetic and convenience perks — never pay-to-win. They activate instantly after payment and sync to every server.',
@@ -254,7 +240,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Refund policy',
     updated: 'Apr 18',
     views: 5430,
-    helpfulPercent: 88,
     readMinutes: 3,
     quickAnswer:
       'Refunds within 48 hours if the privilege was not used in-game. Open a ticket with your order ID from Dashboard → History.',
@@ -269,7 +254,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Failed payment',
     updated: 'Apr 15',
     views: 4120,
-    helpfulPercent: 86,
     readMinutes: 2,
     quickAnswer:
       'Check your bank for blocks, try another method, or wait 15 minutes and retry. Double charges auto-reverse within an hour.',
@@ -284,7 +268,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Server differences',
     updated: 'Apr 15',
     views: 9340,
-    helpfulPercent: 97,
     readMinutes: 3,
     quickAnswer:
       'LuckySurvival — fair PvP, TNT off. MineWars — ranked PvP, TNT on. CalmSky — peaceful building, no PvP.',
@@ -299,7 +282,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Switch servers',
     updated: 'Apr 12',
     views: 6780,
-    helpfulPercent: 94,
     readMinutes: 2,
     quickAnswer:
       'Yes — one account, separate inventories per server. Copy the new IP from Dashboard → Servers and add it in Minecraft.',
@@ -314,7 +296,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'World resets',
     updated: 'Apr 08',
     views: 5560,
-    helpfulPercent: 90,
     readMinutes: 3,
     quickAnswer:
       'Main worlds do not reset on a schedule. Seasonal event worlds wipe after each tournament season — usually every three months.',
@@ -329,7 +310,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Download world',
     updated: 'Apr 04',
     views: 3890,
-    helpfulPercent: 84,
     readMinutes: 3,
     quickAnswer:
       'Claim owners can request a schematic export of their claimed area once per season from Dashboard → Servers → Export.',
@@ -344,7 +324,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Server status',
     updated: 'Mar 30',
     views: 7210,
-    helpfulPercent: 93,
     readMinutes: 2,
     quickAnswer:
       'Dashboard → Servers shows live status. Green dot = online. You can also subscribe to status alerts by email.',
@@ -359,7 +338,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'VIP benefits',
     updated: 'Apr 12',
     views: 8120,
-    helpfulPercent: 91,
     readMinutes: 3,
     quickAnswer:
       'Extra homes, chat cosmetics, queue priority, and particle trails. No combat or economy advantages on any server.',
@@ -374,7 +352,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Rank duration',
     updated: 'Apr 08',
     views: 4670,
-    helpfulPercent: 89,
     readMinutes: 2,
     quickAnswer:
       'Most ranks are 30 or 90 days. Lifetime tiers exist for supporters. Expiry dates appear in Dashboard → History.',
@@ -389,7 +366,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Gift a rank',
     updated: 'Apr 02',
     views: 3540,
-    helpfulPercent: 88,
     readMinutes: 2,
     quickAnswer:
       'Yes — choose Gift at checkout and enter the recipient username. They receive an in-game notification when it activates.',
@@ -404,7 +380,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Claims & protection',
     updated: 'Apr 08',
     views: 10450,
-    helpfulPercent: 95,
     readMinutes: 3,
     quickAnswer:
       'Use a golden shovel to claim land. Blocks inside your claim cannot be broken by other players unless you trust them.',
@@ -419,7 +394,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Economy basics',
     updated: 'Apr 04',
     views: 6980,
-    helpfulPercent: 90,
     readMinutes: 3,
     quickAnswer:
       'Earn coins from quests, trading, and events. Spend at /shop and player markets. Taxes apply only to large chest-shop sales.',
@@ -434,7 +408,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Tournaments',
     updated: 'Mar 28',
     views: 8870,
-    helpfulPercent: 92,
     readMinutes: 3,
     quickAnswer:
       'Brackets open Friday 18:00 UTC and close Sunday 23:59 UTC. Sign up from Dashboard → Tournaments or /tournament in-game.',
@@ -449,7 +422,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Report a player',
     updated: 'Mar 24',
     views: 5120,
-    helpfulPercent: 87,
     readMinutes: 2,
     quickAnswer:
       'Type /report <username> <reason> in-game or open a ticket with screenshots. Reports are reviewed within 24 hours.',
@@ -464,7 +436,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Connection lost',
     updated: 'Apr 12',
     views: 11890,
-    helpfulPercent: 91,
     readMinutes: 3,
     quickAnswer:
       'Usually a firewall, VPN, or version mismatch. Allow port 25565, disable VPN, and confirm you run Java 1.20.4 or latest Bedrock.',
@@ -479,7 +450,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Resource pack issues',
     updated: 'Apr 08',
     views: 7640,
-    helpfulPercent: 89,
     readMinutes: 3,
     quickAnswer:
       'Restart Minecraft, rejoin, and wait on the loading screen. If stuck at 0%, type /resourcepack reload after spawning.',
@@ -494,7 +464,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Lag & performance',
     updated: 'Apr 02',
     views: 6230,
-    helpfulPercent: 86,
     readMinutes: 3,
     quickAnswer:
       'Lower render distance to 12 chunks, disable heavy shaders, and close background apps. Server-side lag spikes are posted on Discord.',
@@ -509,7 +478,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Server rules',
     updated: 'Mar 28',
     views: 9450,
-    helpfulPercent: 94,
     readMinutes: 3,
     quickAnswer:
       'No cheating, harassment, or real-money trading. Respect claims, follow chat guidelines, and listen to staff instructions.',
@@ -524,7 +492,6 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     breadcrumbShort: 'Ban appeal',
     updated: 'Mar 22',
     views: 4890,
-    helpfulPercent: 83,
     readMinutes: 3,
     quickAnswer:
       'Open Dashboard → Support → Appeal with your case ID. Appeals are reviewed within 72 hours — one appeal per punishment.',
@@ -617,12 +584,6 @@ export function sortFaqArticles(articles: FaqArticleMeta[], sort: FaqSortOption)
   }
 
   const sorted = [...articles];
-
-  if (sort === 'most-helpful') {
-    return sorted.sort(
-      (a, b) => b.helpfulPercent - a.helpfulPercent || byListId(a, b),
-    );
-  }
 
   return sorted.sort(
     (a, b) => getUpdatedTimestamp(b.updated) - getUpdatedTimestamp(a.updated) || byListId(a, b),

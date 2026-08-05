@@ -83,7 +83,6 @@
   },
   "sort": {
     "all": "Alle",
-    "mostHelpful": "Hilfreichste",
     "latest": "Neueste",
     "label": "Sortierung:",
     "ariaLabel": "Fragen sortieren"
@@ -161,7 +160,6 @@
     "tagTop": "Top",
     "tagTopDesktop": "Top-Frage",
     "views": "{count} Aufrufe",
-    "helpfulPct": "{percent}\u00a0% fanden das hilfreich",
     "minRead": "{min}\u00a0Min. Lesezeit",
     "updatedFull": "Aktualisiert am {date}, 2026"
   },
@@ -173,16 +171,6 @@
     "allFaq": "Alle FAQ",
     "readMobile": "Lesen",
     "readDesktop": "Antwort lesen"
-  },
-  "feedback": {
-    "hintMobile": "Deine Stimme hilft uns, uns zu verbessern.",
-    "hintDesktop": "Deine Stimme hilft uns, zu entscheiden, welche Antworten erweitert und \u00fcberarbeitet werden.",
-    "yesMobile": "Ja",
-    "yesDesktop": "Ja, hilfreich",
-    "noMobile": "Nicht wirklich",
-    "noDesktop": "K\u00f6nnte besser sein",
-    "statsMobile": "{helpful} von {total} ({percent}\u00a0%) fanden das hilfreich",
-    "statsDesktop": "{helpful} von {total} Spielern ({percent}\u00a0%) fanden das hilfreich"
   },
   "contentCta": {
     "primary": "Kontakt aufnehmen",
@@ -535,14 +523,6 @@
       "Den In-Game-Shop mit /shop \u00f6ffnen und die t\u00e4glichen Quests pr\u00fcfen.",
       "Dem Community-Discord beitreten \u2014 die meisten Baumeister, H\u00e4ndler und PvP-Spieler sind dort."
     ],
-    "feedbackHintMobile": "Deine Stimme hilft uns, uns zu verbessern.",
-    "feedbackHintDesktop": "Deine Stimme hilft uns, zu entscheiden, welche Antworten erweitert und \u00fcberarbeitet werden.",
-    "feedbackYesMobile": "Ja",
-    "feedbackYesDesktop": "Ja, hilfreich",
-    "feedbackNoMobile": "Nicht wirklich",
-    "feedbackNoDesktop": "K\u00f6nnte besser sein",
-    "feedbackStatsMobile": "243 von 258 (94\u00a0%) fanden das hilfreich",
-    "feedbackStatsDesktop": "243 von 258 Spielern (94\u00a0%) fanden das hilfreich",
     "ctaPrimary": "Twitch beitreten",
     "ctaSecondary": "Alle FAQ durchsuchen"
   },

@@ -32,12 +32,6 @@ export type FaqArticleFullContent = {
   lead: FaqArticleContentBlock;
   sections: readonly FaqSectionContent[];
   sidebarRelatedSlugs: readonly string[];
-  feedback: {
-    hint: FaqArticleContentBlock;
-    yes: FaqArticleContentBlock;
-    no: FaqArticleContentBlock;
-    stats: FaqArticleContentBlock;
-  };
   cta?: {
     primary: string;
     primaryHref: string;

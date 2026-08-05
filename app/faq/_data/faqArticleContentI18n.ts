@@ -66,23 +66,10 @@ function buildSimpleArticleContent(
 
   const sections = [1, 2, 3].map(i => buildSimpleSection(i, slug, t, tRaw, tHas));
 
-  const helpful = Math.round(100 * 0.9); // placeholder, stats are generic
-  const percent = 90;
-  const total = 100;
-
   return {
     lead: b(leadMobile, leadDesktop),
     sections,
     sidebarRelatedSlugs: [],
-    feedback: {
-      hint: b(t('feedback.hintMobile'), t('feedback.hintDesktop')),
-      yes: b(t('feedback.yesMobile'), t('feedback.yesDesktop')),
-      no: b(t('feedback.noMobile'), t('feedback.noDesktop')),
-      stats: b(
-        t('feedback.statsMobile', { helpful, total, percent }),
-        t('feedback.statsDesktop', { helpful, total, percent })
-      ),
-    },
     cta: {
       primary: t('contentCta.primary'),
       primaryHref: '/faq',
@@ -112,12 +99,6 @@ function buildJoinContent(t: TFn, tRaw: TRawFn): FaqArticleFullContent {
       'connection-lost',
       'link-microsoft',
     ],
-    feedback: {
-      hint: b(t('join.feedbackHintMobile'), t('join.feedbackHintDesktop')),
-      yes: b(t('join.feedbackYesMobile'), t('join.feedbackYesDesktop')),
-      no: b(t('join.feedbackNoMobile'), t('join.feedbackNoDesktop')),
-      stats: b(t('join.feedbackStatsMobile'), t('join.feedbackStatsDesktop')),
-    },
     cta: {
       primary: t('join.ctaPrimary'),
       primaryHref: 'https://www.twitch.tv/minecraftsgame',

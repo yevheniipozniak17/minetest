@@ -590,9 +590,9 @@ export const BLOG_POSTS: BlogPostFull[] = [
     time: 3,
     title: 'Player of the month: meet RedstoneKing',
     description:
-      "A 13-month run, a 40-floor sky base, and an impressive tournament finish — the full story from this month's spotlight.",
+      'A 40-floor sky base and an impressive tournament finish — the full story from this month\'s spotlight.',
     descriptionDesktop:
-      "A thirteen-month survival run, a forty-floor sky base visible from three biomes away, and a top-four tournament finish — the full story behind this month's community spotlight player, RedstoneKing.",
+      "A forty-floor sky base visible from three biomes away and a top-four tournament finish — the full story behind this month's community spotlight player, RedstoneKing.",
     date: 'Apr 12, 2026',
     popularity: 760,
     heroTags: ['Community', 'Spotlight'],
@@ -600,9 +600,9 @@ export const BLOG_POSTS: BlogPostFull[] = [
     breadcrumbLabel: 'Player spotlight',
     lead: {
       mobile:
-        'Every month we feature one player who pushes the community forward — not always the richest or highest PvP rank, but someone who makes the server feel alive. April belongs to RedstoneKing.',
+        'Every month we feature one player who pushes the community forward — not always the richest or highest PvP rank, but someone who makes the server feel alive. This spotlight goes to RedstoneKing.',
       desktop:
-        'Every month we feature one player who pushes the community forward — not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. April belongs to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit.',
+        'Every month we feature one player who pushes the community forward — not always the richest account or highest PvP rank, but someone who makes the server feel alive through builds, guides, or community events. This spotlight goes to RedstoneKing, a survival main who turned redstone obsession into something everyone can visit.',
     },
     sections: [
       {
@@ -614,20 +614,20 @@ export const BLOG_POSTS: BlogPostFull[] = [
             type: 'paragraph',
             text: {
               mobile:
-                'RedstoneKing joined in March 2025 on Survival. No staff rank, no content creator tag — just a player who documented every farm upgrade in public Discord threads.',
+                'RedstoneKing plays on Survival. No staff rank, no content creator tag — just a player who documented every farm upgrade in public Discord threads.',
               desktop:
-                'RedstoneKing joined in March 2025 on our primary Survival shard. No staff rank, no official content creator tag — just a player who documented every farm upgrade in public Discord threads and answered new-player redstone questions at 2 a.m. server time.',
+                'RedstoneKing is a regular on our primary Survival shard. No staff rank, no official content creator tag — just a player who documented every farm upgrade in public Discord threads and answered new-player redstone questions at 2 a.m. server time.',
             },
           },
           {
             type: 'bullets',
             items: [
-              '13 months active, 1,400+ hours logged.',
+              'Plays primarily on Survival.',
               'Zero ban history, three mentorship awards.',
               'Known for open-door base tours every Saturday.',
             ],
             desktopItems: [
-              'Thirteen months active with more than 1,400 hours logged.',
+              'Regular Survival player with a public build log on Discord.',
               'Zero ban history and three community mentorship awards from moderators.',
               'Known for open-door base tours every Saturday at 16:00 UTC.',
             ],
@@ -718,7 +718,7 @@ export const BLOG_POSTS: BlogPostFull[] = [
             desktopItems: [
               'Published three guest tips cross-linked in our Redstone 101 article series.',
               'Donated duplicate shulker kits to the new-player chest at central spawn.',
-              'Voted "most helpful builder" in the April community poll with 34% of votes.',
+              'Voted "most helpful builder" in the community poll.',
             ],
           },
         ],
@@ -752,9 +752,9 @@ export const BLOG_POSTS: BlogPostFull[] = [
             type: 'paragraph',
             text: {
               mobile:
-                'Think someone deserves May spotlight? Open a ticket in Discord #community-nominate with their username and a sentence why. Staff and players both vote.',
+                'Think someone deserves next month\'s spotlight? Open a ticket in Discord #community-nominate with their username and a sentence why. Staff and players both vote.',
               desktop:
-                'Think someone deserves the May spotlight? Open a ticket in Discord #community-nominate with their username, server, and one sentence why. Staff and players both vote — wins need both community pull and clean moderation history.',
+                'Think someone deserves next month\'s spotlight? Open a ticket in Discord #community-nominate with their username, server, and one sentence why. Staff and players both vote — wins need both community pull and clean moderation history.',
             },
           },
           {
