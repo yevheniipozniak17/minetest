@@ -405,6 +405,7 @@ export const BLOG_POSTS: BlogPostFull[] = [
   {
     slug: 'pvp-loadouts',
     image: '/blog/3.webp',
+    heroImageDesktop: '/blog/3-hero-desktop.webp',
     genre: 'PvP',
     time: 5,
     title: 'PvP loadouts that actually work on MineWars',
