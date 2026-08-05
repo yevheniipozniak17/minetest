@@ -41,7 +41,8 @@
 .title {
   margin-inline: auto;
   margin-bottom: 20px;
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
   color: #fff;
   text-align: center;
   font-family: Montserrat, sans-serif;
@@ -52,7 +53,8 @@
 
 .description,
 .descriptionDesktop {
-  width: 335px;
+  width: 100%;
+  max-width: 335px;
   margin-inline: auto;
   margin-bottom: 20px;
   color: rgba(255, 255, 255, 0.72);
@@ -101,8 +103,10 @@
 
 .imageMobile {
   display: block;
-  width: 375px;
-  height: 203px;
+  width: 100%;
+  max-width: 375px;
+  height: auto;
+  aspect-ratio: 375 / 203;
 }
 
 .imageDesktop {
