@@ -2,6 +2,12 @@
   "lastUpdatedLabel": "Última actualización",
   "contactFooterLabel": "Contacto",
   "contactFooterText": "Si tiene preguntas sobre esta política, escríbanos a",
+  "companyDetails": {
+    "company": "Empresa",
+    "companyNo": "N.º de empresa",
+    "registeredAddress": "Domicilio social",
+    "email": "Correo electrónico"
+  },
   "privacy": {
     "badge": "Legal",
     "title": "Política de privacidad",
@@ -14,8 +20,7 @@
       {
         "heading": "Responsable del tratamiento",
         "paragraphs": [
-          "Como responsable del tratamiento en virtud del Reglamento General de Protección de Datos (RGPD), determinamos las finalidades y medios del tratamiento de sus datos personales y somos responsables del cumplimiento de la normativa aplicable en materia de protección de datos. Puede contactar con nosotros en:",
-          "Empresa: Dexervil LTD\nN.º de empresa: 17345695\nDomicilio social: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE\nCorreo electrónico: privacy@minecraftsgame.com"
+          "Como responsable del tratamiento en virtud del Reglamento General de Protección de Datos (RGPD), determinamos las finalidades y medios del tratamiento de sus datos personales y somos responsables del cumplimiento de la normativa aplicable en materia de protección de datos."
         ]
       },
       {

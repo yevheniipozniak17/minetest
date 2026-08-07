@@ -2,6 +2,12 @@
   "lastUpdatedLabel": "Last updated",
   "contactFooterLabel": "Contact",
   "contactFooterText": "For questions about this policy, please email us at",
+  "companyDetails": {
+    "company": "Company",
+    "companyNo": "Company No.",
+    "registeredAddress": "Registered Address",
+    "email": "Email"
+  },
   "privacy": {
     "badge": "Legal",
     "title": "Privacy Policy",
@@ -14,8 +20,7 @@
       {
         "heading": "Data Controller",
         "paragraphs": [
-          "As data controller under the General Data Protection Regulation (GDPR), we determine the purposes and means of processing your personal data and are responsible for compliance with applicable data protection law. You can contact us at:",
-          "Company: Dexervil LTD\nCompany No.: 17345695\nRegistered Address: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE\nEmail: privacy@minecraftsgame.com"
+          "As data controller under the General Data Protection Regulation (GDPR), we determine the purposes and means of processing your personal data and are responsible for compliance with applicable data protection law."
         ]
       },
       {

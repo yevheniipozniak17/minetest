@@ -1,6 +1,14 @@
 export const SUPPORT_EMAIL = 'help@minecraftsgame.com';
 export const PRIVACY_EMAIL = 'privacy@minecraftsgame.com';
 
+export const LEGAL_COMPANY_DETAILS = {
+  name: 'Dexervil LTD',
+  companyNo: '17345695',
+  registeredAddress:
+    '2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE',
+  email: PRIVACY_EMAIL,
+} as const;
+
 export const CONTACT_TOPICS = [
   { value: 'general' },
   { value: 'account' },

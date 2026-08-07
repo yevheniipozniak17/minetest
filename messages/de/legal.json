@@ -2,6 +2,12 @@
   "lastUpdatedLabel": "Zuletzt aktualisiert",
   "contactFooterLabel": "Kontakt",
   "contactFooterText": "Bei Fragen zu dieser Richtlinie schreiben Sie uns an",
+  "companyDetails": {
+    "company": "Unternehmen",
+    "companyNo": "Handelsregisternummer",
+    "registeredAddress": "Eingetragene Anschrift",
+    "email": "E-Mail"
+  },
   "privacy": {
     "badge": "Rechtliches",
     "title": "Datenschutzerklärung",
@@ -14,8 +20,7 @@
       {
         "heading": "Verantwortlicher",
         "paragraphs": [
-          "Als Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) bestimmen wir die Zwecke und Mittel der Verarbeitung Ihrer personenbezogenen Daten und sind für die Einhaltung der geltenden Datenschutzgesetze verantwortlich. Sie können uns kontaktieren unter:",
-          "Unternehmen: Dexervil LTD\nHandelsregisternummer: 17345695\nEingetragene Anschrift: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, Vereinigtes Königreich, HA4 7AE\nE-Mail: privacy@minecraftsgame.com"
+          "Als Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) bestimmen wir die Zwecke und Mittel der Verarbeitung Ihrer personenbezogenen Daten und sind für die Einhaltung der geltenden Datenschutzgesetze verantwortlich."
         ]
       },
       {

@@ -1,7 +1,7 @@
 import { getTranslations } from 'next-intl/server';
 import { Badge } from '../Badge/Badge';
 import { Container } from '../Container/Container';
-import { PRIVACY_EMAIL } from '@/lib/data/contacts';
+import { LEGAL_COMPANY_DETAILS, PRIVACY_EMAIL } from '@/lib/data/contacts';
 import styles from './LegalPage.module.css';
 
 type LegalSection = {
@@ -38,6 +38,46 @@ export async function LegalPage({ document }: { document: LegalDocument }) {
             ))}
           </div>
         </header>
+
+        <div className={styles.companyDetailsWrap}>
+          <table className={styles.companyDetailsTable}>
+            <tbody>
+              <tr>
+                <th scope="row" className={styles.companyDetailsLabel}>
+                  {t('companyDetails.company')}
+                </th>
+                <td className={styles.companyDetailsValue}>{LEGAL_COMPANY_DETAILS.name}</td>
+              </tr>
+              <tr>
+                <th scope="row" className={styles.companyDetailsLabel}>
+                  {t('companyDetails.companyNo')}
+                </th>
+                <td className={styles.companyDetailsValue}>{LEGAL_COMPANY_DETAILS.companyNo}</td>
+              </tr>
+              <tr>
+                <th scope="row" className={styles.companyDetailsLabel}>
+                  {t('companyDetails.registeredAddress')}
+                </th>
+                <td className={styles.companyDetailsValue}>
+                  {LEGAL_COMPANY_DETAILS.registeredAddress}
+                </td>
+              </tr>
+              <tr>
+                <th scope="row" className={styles.companyDetailsLabel}>
+                  {t('companyDetails.email')}
+                </th>
+                <td className={styles.companyDetailsValue}>
+                  <a
+                    href={`mailto:${LEGAL_COMPANY_DETAILS.email}`}
+                    className={styles.companyDetailsLink}
+                  >
+                    {LEGAL_COMPANY_DETAILS.email}
+                  </a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
         <div className={styles.body}>
           {sections.map((sectionItem, index) => (

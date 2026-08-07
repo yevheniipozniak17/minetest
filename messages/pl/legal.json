@@ -2,6 +2,12 @@
   "lastUpdatedLabel": "Ostatnia aktualizacja",
   "contactFooterLabel": "Kontakt",
   "contactFooterText": "W razie pytań dotyczących tej polityki napisz do nas na",
+  "companyDetails": {
+    "company": "Spółka",
+    "companyNo": "Numer spółki",
+    "registeredAddress": "Adres siedziby",
+    "email": "E-mail"
+  },
   "privacy": {
     "badge": "Dokumenty prawne",
     "title": "Polityka prywatności",
@@ -14,8 +20,7 @@
       {
         "heading": "Administrator danych",
         "paragraphs": [
-          "Jako administrator danych w rozumieniu Ogólnego Rozporządzenia o Ochronie Danych (RODO) określamy cele i sposoby przetwarzania Twoich danych osobowych oraz ponosimy odpowiedzialność za zgodność z obowiązującymi przepisami o ochronie danych. Możesz skontaktować się z nami pod adresem:",
-          "Spółka: Dexervil LTD\nNumer spółki: 17345695\nAdres siedziby: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE\nE-mail: privacy@minecraftsgame.com"
+          "Jako administrator danych w rozumieniu Ogólnego Rozporządzenia o Ochronie Danych (RODO) określamy cele i sposoby przetwarzania Twoich danych osobowych oraz ponosimy odpowiedzialność za zgodność z obowiązującymi przepisami o ochronie danych."
         ]
       },
       {
