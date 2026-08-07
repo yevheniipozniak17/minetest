@@ -7,19 +7,21 @@ import styles from './LegalPage.module.css';
 type LegalSection = {
   heading: string;
   paragraphs: string[];
+  bullets?: string[];
 };
 
 export type LegalDocument = {
   badge: string;
   title: string;
   lastUpdated: string;
-  intro: string;
+  intro: string | string[];
   sections: LegalSection[];
 };
 
 export async function LegalPage({ document }: { document: LegalDocument }) {
   const t = await getTranslations('legal');
   const { badge, title, lastUpdated, intro, sections } = document;
+  const introParagraphs = Array.isArray(intro) ? intro : [intro];
 
   return (
     <section className={styles.section}>
@@ -28,7 +30,13 @@ export async function LegalPage({ document }: { document: LegalDocument }) {
           <Badge>{badge}</Badge>
           <h1 className={styles.title}>{title}</h1>
           <p className={styles.updated}>{t('lastUpdatedLabel')}: {lastUpdated}</p>
-          <p className={styles.intro}>{intro}</p>
+          <div className={styles.introGroup}>
+            {introParagraphs.map((paragraph, paragraphIndex) => (
+              <p key={paragraphIndex} className={styles.intro}>
+                {paragraph}
+              </p>
+            ))}
+          </div>
         </header>
 
         <div className={styles.body}>
@@ -43,6 +51,15 @@ export async function LegalPage({ document }: { document: LegalDocument }) {
                   {paragraph}
                 </p>
               ))}
+              {sectionItem.bullets && sectionItem.bullets.length > 0 ? (
+                <ul className={styles.list}>
+                  {sectionItem.bullets.map((item, bulletIndex) => (
+                    <li key={bulletIndex} className={styles.listItem}>
+                      {item}
+                    </li>
+                  ))}
+                </ul>
+              ) : null}
             </section>
           ))}
         </div>

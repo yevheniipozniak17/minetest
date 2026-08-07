@@ -37,8 +37,14 @@
   text-transform: uppercase;
 }
 
-.intro {
+.introGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
   max-width: 720px;
+}
+
+.intro {
   color: rgba(255, 255, 255, 0.72);
   font-size: 13px;
   font-weight: 400;
@@ -80,6 +86,21 @@
 }
 
 .paragraph {
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.listItem {
   color: rgba(255, 255, 255, 0.66);
   font-size: 13px;
   font-weight: 400;
@@ -145,6 +166,10 @@
     font-size: 12px;
   }
 
+  .introGroup {
+    gap: 16px;
+  }
+
   .intro {
     font-size: 16px;
     line-height: 24px;
@@ -165,6 +190,11 @@
   }
 
   .paragraph {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  .listItem {
     font-size: 15px;
     line-height: 24px;
   }

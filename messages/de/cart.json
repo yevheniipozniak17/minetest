@@ -28,7 +28,7 @@
   "consentText": "Mit dem Kauf stimme ich der sofortigen digitalen Lieferung zu und verzichte auf mein Widerrufsrecht.",
   "consentRequiredToast": "Bitte stimme den Bedingungen oben zu, bevor du bezahlst.",
   "pciNote": "Wir verarbeiten Kartendaten gemäß PCI DSS",
-  "policiesConsentText": "Ich habe die <privacy>Datenschutzrichtlinie</privacy>, die <terms>Nutzungsbedingungen</terms>, die <delivery>Lieferrichtlinie</delivery> und die <billing>Richtlinie zu Abrechnung, Erstattungen und Chargebacks</billing> gelesen und stimme ihnen zu.",
+  "policiesConsentText": "Ich habe die <privacy>Datenschutzrichtlinie</privacy>, die <terms>Nutzungsbedingungen</terms> und die <delivery>Lieferrichtlinie</delivery> gelesen und stimme ihnen zu.",
   "importantNoticeAriaLabel": "Wichtiger Lieferhinweis",
   "importantTitle": "Wichtig",
   "importantText1": "Du musst dich <highlight>zum Zeitpunkt des Kaufs</highlight> auf dem ausgewählten Server befinden.",

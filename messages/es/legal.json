@@ -5,46 +5,137 @@
   "privacy": {
     "badge": "Legal",
     "title": "Política de privacidad",
-    "lastUpdated": "18 de junio de 2026",
-    "intro": "La presente Política de privacidad explica cómo Adventures in Minecraft recopila, utiliza y protege la información personal que usted nos proporciona al usar nuestro sitio web y servidores de juego.",
+    "lastUpdated": "6 de agosto de 2026",
+    "intro": [
+      "Le damos la bienvenida a nuestro sitio web https://minecraftsgame.com/. Nos comprometemos a proteger su privacidad y sus datos personales. La presente Política de privacidad (la «Política») explica cómo recopilamos, utilizamos y protegemos su información, y describe sus derechos sobre sus datos personales. Le rogamos que la lea detenidamente.",
+      "Al utilizar nuestros servicios o visitar nuestro sitio web, usted acepta las prácticas descritas en esta Política. Si no está de acuerdo con alguna parte de la misma, le rogamos que se abstenga de utilizar nuestros servicios o sitio web."
+    ],
     "sections": [
+      {
+        "heading": "Responsable del tratamiento",
+        "paragraphs": [
+          "Como responsable del tratamiento en virtud del Reglamento General de Protección de Datos (RGPD), determinamos las finalidades y medios del tratamiento de sus datos personales y somos responsables del cumplimiento de la normativa aplicable en materia de protección de datos. Puede contactar con nosotros en:",
+          "Empresa: Dexervil LTD\nN.º de empresa: 17345695\nDomicilio social: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE\nCorreo electrónico: privacy@minecraftsgame.com"
+        ]
+      },
       {
         "heading": "Información que recopilamos",
         "paragraphs": [
-          "Recopilamos la información que nos proporciona directamente, como su nombre de usuario, dirección de correo electrónico y contraseña cuando crea una cuenta.",
-          "También recopilamos datos técnicos de forma automática, incluidos su dirección IP, información del dispositivo, tipo de navegador y actividad en el juego, con el fin de operar y proteger nuestros servicios."
+          "En función de cómo utilice nuestros servicios, podemos recopilar y tratar las siguientes categorías de datos personales:"
+        ],
+        "bullets": [
+          "Información de la cuenta: credenciales de acceso, nombre de usuario, registros de actividad, configuración y datos del perfil.",
+          "Datos de contacto: su dirección de correo electrónico y, cuando se proporcione, su número de teléfono o dirección postal.",
+          "Información de transacciones: historial de pedidos y compras y saldo de la cuenta.",
+          "Datos de pago: los pagos son gestionados por nuestro procesador de pagos autorizado, FINTECH GLOBAL SOFTWARE LTD. No recopilamos, tratamos ni almacenamos los datos de su tarjeta de pago ni otra información financiera sensible. Los datos de pago son recopilados y tratados directamente por la pasarela de pago conforme a las normas PCI-DSS.",
+          "Registros de comunicación: correspondencia con nuestro equipo de atención al cliente.",
+          "Información técnica: datos del dispositivo, dirección IP, sistema operativo, tipo de navegador y configuración.",
+          "Datos de soporte al cliente: detalles de los problemas que nos comunica y de su resolución.",
+          "Preferencias de marketing: sus preferencias respecto a las comunicaciones comerciales, cuando proceda."
         ]
       },
       {
-        "heading": "Cómo usamos su información",
+        "heading": "Cómo utilizamos su información",
         "paragraphs": [
-          "Utilizamos su información para prestar y mantener nuestros servicios, autenticar su cuenta, procesar compras, prevenir fraudes y abusos, y comunicarle actualizaciones importantes.",
-          "Podemos utilizar datos agregados y anonimizados para comprender cómo los jugadores usan nuestros servidores y mejorar la jugabilidad y el rendimiento."
+          "Utilizamos los datos personales para las siguientes finalidades, cada una de las cuales se sustenta en una base jurídica adecuada:"
+        ],
+        "bullets": [
+          "Prestación del servicio — para prestar los Servicios que usted solicita (Base jurídica: necesidad contractual).",
+          "Gestión de la cuenta — para crear y administrar su cuenta (Base jurídica: necesidad contractual).",
+          "Ejecución de pedidos — para procesar y entregar sus compras (Base jurídica: necesidad contractual).",
+          "Gestión de transacciones — para ejecutar y gestionar los pagos de forma segura (Base jurídica: necesidad contractual, interés legítimo).",
+          "Atención al cliente — para responder a consultas y prestar asistencia (Base jurídica: necesidad contractual, interés legítimo).",
+          "Cumplimiento legal — para cumplir las obligaciones legales y reglamentarias aplicables (Base jurídica: obligación legal).",
+          "Prevención del fraude — para detectar y prevenir el uso indebido de nuestros servicios (Base jurídica: obligación legal, interés legítimo).",
+          "Mejora del servicio — para mejorar y desarrollar nuestro sitio web y servicios (Base jurídica: interés legítimo).",
+          "Marketing — para enviar comunicaciones comerciales, cuando haya prestado su consentimiento (Base jurídica: consentimiento)."
         ]
       },
       {
-        "heading": "Compartición de información",
+        "heading": "Información obligatoria y opcional",
         "paragraphs": [
-          "No vendemos su información personal. Podemos compartir datos con proveedores de servicios de confianza que nos ayudan a operar nuestra plataforma, y cuando así lo exija la ley."
+          "Parte de la información es necesaria para que podamos prestar nuestros servicios y se identificará como tal en el momento de la recogida; sin ella, es posible que no podamos prestar determinados Servicios. Otra información es opcional y nos ayuda a personalizar su experiencia."
+        ]
+      },
+      {
+        "heading": "Cómo recopilamos los datos",
+        "paragraphs": [
+          "Recopilamos datos personales mediante los siguientes métodos:"
+        ],
+        "bullets": [
+          "Interacciones directas: información que usted nos facilita directamente, por ejemplo, al crear una cuenta, realizar una compra o contactar con soporte.",
+          "Tecnologías automatizadas: datos recopilados mediante cookies y tecnologías similares mientras utiliza nuestro sitio web — consulte nuestra Política de cookies para más información.",
+          "Fuentes de terceros: información que podemos recibir de socios de servicios, como nuestros proveedores de pago."
+        ]
+      },
+      {
+        "heading": "Comunicación de datos",
+        "paragraphs": [
+          "Podemos comunicar sus datos personales a proveedores de servicios de confianza que nos ayudan con el procesamiento de pagos, el análisis o la atención al cliente, y que están sujetos a las obligaciones de protección de datos correspondientes; a autoridades reguladoras u organismos públicos, cuando sea necesario para cumplir una obligación legal; y a otros destinatarios, cuando nos haya otorgado su consentimiento o nos haya instruido para ello.",
+          "No vendemos sus datos personales."
+        ]
+      },
+      {
+        "heading": "Seguridad de los datos",
+        "paragraphs": [
+          "Adoptamos medidas técnicas y organizativas razonables para proteger sus datos personales, incluido el cifrado en tránsito y en reposo, controles de acceso y revisiones periódicas de seguridad. Ningún método de transmisión o almacenamiento es completamente seguro, y le recomendamos utilizar una contraseña sólida y única y activar la autenticación en dos factores cuando esté disponible."
+        ]
+      },
+      {
+        "heading": "Transferencias internacionales de datos",
+        "paragraphs": [
+          "Cuando sea necesario transferir sus datos personales fuera del Espacio Económico Europeo (EEE), nos basamos en garantías adecuadas, como las Cláusulas Contractuales Tipo de la Comisión Europea, para garantizar que sus datos sigan recibiendo un nivel de protección equivalente."
+        ]
+      },
+      {
+        "heading": "Sus derechos sobre los datos",
+        "paragraphs": [
+          "En función de su ubicación, puede tener los siguientes derechos:"
+        ],
+        "bullets": [
+          "Acceso — obtener una copia de los datos personales que conservamos sobre usted.",
+          "Rectificación — solicitar la corrección de datos inexactos o incompletos.",
+          "Supresión — solicitar la eliminación de sus datos («derecho al olvido»), con sujeción a motivos legales o legítimos de conservación.",
+          "Limitación — solicitar que limitemos el tratamiento en determinadas circunstancias.",
+          "Oposición — oponerse al tratamiento basado en nuestros intereses legítimos o con fines de marketing directo.",
+          "Portabilidad — recibir sus datos en un formato estructurado y de uso mecánico.",
+          "Retirada del consentimiento — retirar el consentimiento en cualquier momento cuando el tratamiento se base en el consentimiento, sin que ello afecte a los tratamientos lícitos anteriores."
+        ]
+      },
+      {
+        "heading": "Decisiones automatizadas",
+        "paragraphs": [
+          "No adoptamos decisiones que produzcan efectos jurídicos o de similar significación para usted basándonos únicamente en tratamientos automatizados, sin intervención humana."
+        ]
+      },
+      {
+        "heading": "Datos de menores",
+        "paragraphs": [
+          "Nuestros servicios no están destinados a personas menores de 18 años. No recopilamos conscientemente datos personales de menores y eliminaremos de forma inmediata cualquier dato de este tipo si tuviéramos conocimiento de ello. Si cree que un menor nos ha facilitado datos personales, póngase en contacto con nosotros."
         ]
       },
       {
         "heading": "Conservación de datos",
         "paragraphs": [
-          "Conservamos su información personal mientras su cuenta esté activa o según sea necesario para prestar nuestros servicios y cumplir con nuestras obligaciones legales."
+          "Conservamos los datos personales únicamente durante el tiempo necesario para las finalidades descritas en esta Política, o según lo exija la legislación aplicable, generalmente alineado con el plazo de prescripción de posibles reclamaciones. Una vez que la conservación deje de ser necesaria, eliminamos o anonimizamos los datos de forma segura."
         ]
       },
       {
-        "heading": "Sus derechos",
+        "heading": "Reclamaciones",
         "paragraphs": [
-          "Dependiendo de su ubicación, es posible que tenga derecho a acceder, rectificar o eliminar sus datos personales, así como a oponerse a determinados tratamientos o a restringirlos.",
-          "Para ejercer cualquiera de estos derechos, póngase en contacto con nuestro equipo de soporte a través de los canales indicados en nuestra página de Contacto."
+          "Si tiene dudas sobre cómo tratamos sus datos personales, póngase en contacto con nosotros en primer lugar. También tiene derecho a presentar una reclamación ante la autoridad de protección de datos de su país de residencia."
         ]
       },
       {
-        "heading": "Contáctenos",
+        "heading": "Actualizaciones de esta Política",
         "paragraphs": [
-          "Si tiene preguntas sobre esta Política de privacidad o sobre el tratamiento de sus datos, no dude en contactarnos a través de Discord o por nuestro correo electrónico de soporte."
+          "Podemos actualizar esta Política periódicamente para reflejar cambios en nuestras prácticas o en los requisitos legales. Le notificaremos los cambios significativos a través del sitio web o por correo electrónico. El uso continuado de nuestros servicios tras dichos cambios constituye la aceptación de la Política actualizada."
+        ]
+      },
+      {
+        "heading": "Información de contacto",
+        "paragraphs": [
+          "Para cualquier consulta sobre esta Política, póngase en contacto con nosotros en privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -52,47 +143,220 @@
   "terms": {
     "badge": "Legal",
     "title": "Términos y condiciones",
-    "lastUpdated": "18 de junio de 2026",
-    "intro": "Los presentes Términos y condiciones rigen su acceso y uso del sitio web, los servidores de juego y los servicios relacionados de Adventures in Minecraft. Al utilizar nuestros servicios, usted acepta estos términos.",
+    "lastUpdated": "6 de agosto de 2026",
+    "intro": [
+      "¡Hola y bienvenido a https://minecraftsgame.com/ (el «Sitio web»)!",
+      "Los presentes Términos y condiciones (los «Términos») regulan la relación contractual entre Dexervil LTD, sociedad constituida conforme a las leyes del Reino Unido, con domicilio social en 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, número de empresa 17345695 («nosotros», «nos», «nuestro» o la «Empresa») y los usuarios de nuestros servicios («usted», «su» o «usuario»).",
+      "Estos Términos se aplican a su uso del Sitio web y a cualquier producto o servicio adquirido a través del mismo (los «Servicios»). Al acceder, utilizar o realizar una compra en nuestro Sitio web, usted acepta quedar vinculado por estos Términos, nuestra Política de privacidad, nuestra Política de cookies y cualquier otra política a la que se haga referencia aquí o enlazada desde el Sitio web (conjuntamente, las «Condiciones de uso»).",
+      "Le rogamos que lea detenidamente estas Condiciones de uso antes de acceder o utilizar el Sitio web o cualquiera de nuestros Servicios. Si no está de acuerdo con alguna parte de las mismas, no debe utilizar el Sitio web.",
+      "Debe aceptar estas Condiciones de uso para crear una cuenta y acceder a nuestros Servicios. Si no dispone de una cuenta, el uso de cualquier parte del Servicio constituye la aceptación de estos Términos.",
+      "Si tiene alguna pregunta sobre estos Términos, póngase en contacto con nosotros en privacy@minecraftsgame.com."
+    ],
     "sections": [
       {
-        "heading": "Aceptación de los términos",
+        "heading": "Definiciones",
         "paragraphs": [
-          "Al crear una cuenta o utilizar nuestros servicios de cualquier otro modo, usted confirma que acepta estos Términos y condiciones y se compromete a cumplirlos.",
-          "Si no está de acuerdo con alguna parte de estos términos, no debe utilizar nuestros servicios."
+          "«Día hábil» significa un día (distinto del sábado, domingo o festivo) en el que los bancos y las autoridades públicas estén abiertos para operar en el Reino Unido.",
+          "«Contenido» significa gráficos, textos, archivos multimedia, software y cualquier otro material disponible en el Sitio web.",
+          "«Artículo digital» significa cualquier privilegio, cristales u otros objetos del juego puestos a disposición de un usuario para su uso exclusivo en nuestros Servidores.",
+          "«Juego» significa Minecraft, un videojuego sandbox desarrollado y publicado por Mojang Studios y otros titulares de derechos.",
+          "«Servicios» significa cualquier producto, Artículo digital o servicio suministrado a un usuario en virtud de estos Términos.",
+          "«Servidores» significa los servidores de juego operados por la Empresa dentro del Juego, que actualmente comprenden tres (3) servidores independientes, en los que los usuarios pueden jugar y a los que se entregan los Artículos digitales adquiridos.",
+          "«Política de privacidad» significa, conjuntamente, nuestra Política de privacidad y Política de cookies, disponibles en el Sitio web, que regulan el tratamiento de datos personales."
         ]
       },
       {
-        "heading": "Cuentas y elegibilidad",
+        "heading": "Modificaciones",
         "paragraphs": [
-          "Usted es responsable de mantener la confidencialidad de las credenciales de su cuenta y de todas las actividades que se realicen bajo la misma.",
-          "Debe proporcionar información veraz al registrarse y mantenerla actualizada."
+          "Podemos modificar, suspender o discontinuar el Sitio web, los Servicios y/o su Contenido en cualquier momento y a nuestra entera discreción, sin previo aviso. Es su responsabilidad revisar periódicamente estos Términos. El uso continuado del Sitio web tras cualquier cambio constituye la aceptación de dicho cambio. Si no está de acuerdo con alguna disposición de estos Términos, su único remedio es dejar de utilizar el Sitio web."
         ]
       },
       {
-        "heading": "Uso aceptable",
+        "heading": "Elegibilidad",
         "paragraphs": [
-          "Usted se compromete a no hacer trampa, explotar errores del juego, usar software de terceros no autorizado, acosar a otros jugadores ni realizar cualquier actividad que perturbe la experiencia de los demás.",
-          "Nos reservamos el derecho de suspender o cancelar las cuentas que infrinjan estas normas."
+          "Debe tener al menos 18 años para utilizar el Sitio web o los Servicios. Si la mayoría de edad en su jurisdicción de residencia es superior, se aplicará dicha edad.",
+          "Al aceptar estos Términos, usted declara y garantiza que: (a) ha alcanzado la edad legal aplicable; y (b) su uso del Sitio web cumple con todas las leyes y normativas que le resulten aplicables.",
+          "No podrá utilizar el Sitio web, nuestros Servicios ni nuestro Contenido si: (1) ello fuera ilícito conforme a la legislación aplicable; o (2) se encuentra en una jurisdicción en la que nuestros Servicios estén restringidos, según pueda notificarse en el Sitio web periódicamente."
         ]
       },
       {
-        "heading": "Compras y objetos virtuales",
+        "heading": "Actividad prohibida",
         "paragraphs": [
-          "Los objetos o servicios del juego adquiridos se le otorgan bajo licencia, no se venden, y no tienen valor monetario real.",
-          "Todas las compras son definitivas, salvo que la legislación aplicable disponga lo contrario."
+          "Solo podrá utilizar el Sitio web y su Contenido con fines lícitos y de conformidad con estos Términos. No podrá utilizar los Servicios para crear u ofrecer un producto competidor, realizar ingeniería inversa de cualquier parte de los Servicios, ni revender o redistribuir los Servicios. Cada cuenta solo puede ser utilizada por un usuario, y cada usuario solo puede tener una cuenta.",
+          "No podrá utilizar los Servicios para infringir los derechos de propiedad intelectual de terceros, incluidos derechos de autor, patentes o marcas. Ello puede dar lugar a sanciones, incluidas acciones legales o una prohibición permanente.",
+          "Podemos investigar las infracciones denunciadas de estos Términos y adoptar las medidas que consideremos oportunas, incluida la comunicación de actividades presuntamente ilícitas a las fuerzas de seguridad, reguladores u otros terceros, y la divulgación de información necesaria para dicho fin.",
+          "Asimismo, queda prohibido utilizar el Sitio web o los Servicios:"
+        ],
+        "bullets": [
+          "con cualquier fin ilícito",
+          "para solicitar a terceros que realicen actos ilícitos",
+          "para infringir cualquier ley, normativa u ordenanza aplicable",
+          "para infringir nuestros derechos de propiedad intelectual o los de terceros",
+          "para acosar, abusar, difamar o discriminar a cualquier persona por cualquier motivo protegido",
+          "para enviar información falsa o engañosa",
+          "para cargar virus u otro código malicioso",
+          "para recopilar o rastrear la información personal de otros usuarios",
+          "para enviar spam, realizar phishing o extraer datos",
+          "con cualquier fin obsceno o inmoral",
+          "para interferir o eludir la seguridad del Servicio o del Sitio web"
+        ]
+      },
+      {
+        "heading": "Política de uso razonable",
+        "paragraphs": [
+          "Si su uso es continuamente excesivo o desproporcionado, afecta negativamente al disfrute de los Servicios por parte de otros usuarios, o es incompatible con el uso típico previsto para su paquete actual, podemos suspender o cancelar su acceso a los Servicios."
+        ]
+      },
+      {
+        "heading": "Nuestros Servicios",
+        "paragraphs": [
+          "El Sitio web es una tienda de Minecraft operada por la Empresa. Operamos Servidores dedicados dentro del Juego, en los que los usuarios pueden jugar. A través de su cuenta personal (el «Panel personal») en el Sitio web, puede adquirir privilegios, cristales y otros Artículos digitales. Cuando complete una compra, selecciona el Servidor en el que desea jugar, y el Artículo digital adquirido se entrega en su cuenta en dicho Servidor."
+        ]
+      },
+      {
+        "heading": "Acceso a los servidores",
+        "paragraphs": [
+          "El acceso a nuestros Servidores es gratuito. Para conectarse, necesitará una copia con licencia del Juego. Tras iniciar el Juego, introduzca la dirección IP del Servidor correspondiente en el menú multijugador. Las direcciones IP de los servidores están disponibles en el Sitio web. Si desea jugar en otro de nuestros Servidores, puede volver al Sitio web para obtener la dirección IP correspondiente."
+        ]
+      },
+      {
+        "heading": "Registro de cuenta de usuario",
+        "paragraphs": [
+          "Para acceder a determinados Servicios o áreas del Sitio web, debe registrar una cuenta (la «Cuenta») y facilitar datos como su nombre, país de residencia, contraseña y dirección de correo electrónico.",
+          "Usted declara y garantiza que toda la información que facilite es actual, completa y exacta, y se compromete a mantenerla actualizada, incluidos su correo electrónico y datos de pago, para que podamos procesar transacciones y contactarle cuando sea necesario. La información que facilite durante el registro se tratará conforme a nuestra Política de privacidad. Mantenga su contraseña en confidencialidad.",
+          "Su Cuenta está vinculada a su dirección de correo electrónico personal, y no podrá permitir que terceros accedan a ella. Usted es responsable de salvaguardar las credenciales de su Cuenta y de toda la actividad realizada bajo la misma.",
+          "Podemos rechazar un registro por motivos válidos y objetivos, incluida una infracción de estos Términos, medidas de prevención del fraude, dudas sobre su identidad, actividad sospechosa de spam, incertidumbre sobre su edad, conducta fraudulenta o un intento de registro desde una jurisdicción en la que nuestros Servicios no estén disponibles."
+        ]
+      },
+      {
+        "heading": "Política de cuenta de usuario",
+        "paragraphs": [
+          "Usted es el único responsable de toda la actividad que se produzca bajo su Cuenta. Se compromete a no utilizar la cuenta, nombre de usuario o contraseña de otro usuario, ni a revelar su propia contraseña a terceros.",
+          "Se compromete a notificarnos de inmediato cualquier uso no autorizado de su Cuenta.",
+          "Si tenemos motivos razonables para sospechar una infracción de estos Términos, o que la información que facilitó es falsa, inexacta o incompleta, podemos cancelar su Cuenta y denegar el acceso futuro a algunos o todos los Servicios.",
+          "No somos responsables de ninguna pérdida o daño derivado del acceso o uso no autorizado de su Cuenta."
+        ]
+      },
+      {
+        "heading": "Política de cuentas inactivas",
+        "paragraphs": [
+          "Podemos desactivar o dar de baja las Cuentas que permanezcan inactivas durante más de 30 días naturales, y los datos asociados pueden eliminarse como consecuencia. No estamos obligados a darle aviso previo de dicha medida."
+        ]
+      },
+      {
+        "heading": "Compras dentro del juego",
+        "paragraphs": [
+          "Para adquirir Artículos digitales en nuestra tienda del juego, primero necesita acceso a uno de nuestros Servidores, tal como se describe anteriormente.",
+          "Para adquirir un Artículo digital, seleccione el artículo que necesita en su Panel personal, elija el Servidor al que debe entregarse y pague mediante un método de pago aceptado.",
+          "Pondremos a su disposición los Artículos digitales adquiridos en su cuenta, en el Servidor seleccionado, sin demora indebida una vez recibamos la confirmación de su pago.",
+          "No estamos obligados a completar una compra cuando un intento de pago no tiene éxito o es rechazado por nuestro proveedor de servicios de pago.",
+          "Las compras deben realizarse únicamente desde su propia cuenta. Nos reservamos el derecho de rechazar cualquier pedido, y de limitar o cancelar cantidades adquiridas por persona, hogar o pedido, incluidos pedidos realizados con la misma cuenta, tarjeta de pago o datos de facturación. Si modificamos o cancelamos un pedido, intentaremos notificárselo utilizando los datos de contacto registrados. Podemos limitar o rechazar pedidos que, a nuestro juicio, parezcan realizados por revendedores o distribuidores.",
+          "Se compromete a mantener actualizada, completa y exacta la información de su cuenta y de pago para que podamos procesar sus compras y contactarle según sea necesario."
+        ]
+      },
+      {
+        "heading": "Precios",
+        "paragraphs": [
+          "Los precios incluyen, por regla general, los gastos de entrega, manipulación e impuestos aplicables; si no fuera así, se lo informaremos antes de realizar su pedido. Su compra puede estar sujeta a comisiones de cambio de divisas o diferencias de precio en función de su ubicación.",
+          "Podemos ajustar, suspender o discontinuar cualquier Servicio a nuestra discreción y no somos responsables de las pérdidas derivadas de dichos cambios.",
+          "En la medida permitida por la ley, podemos modificar nuestros precios en cualquier momento. Le daremos un aviso razonable de cualquier cambio de precio publicando los precios actualizados en el Sitio web y/o notificándole por correo electrónico u otros medios destacados.",
+          "Si no desea pagar un nuevo precio, puede cancelar la suscripción correspondiente antes de que el cambio entre en vigor. Para evitar cargos, debe cancelar activamente su suscripción al menos 24 horas antes de que finalice el periodo de facturación actual."
+        ]
+      },
+      {
+        "heading": "Pagos",
+        "paragraphs": [
+          "Los pagos pueden cargarse a su cuenta mediante tarjeta de débito o crédito u otro método de pago aceptado.",
+          "Las compras deben pagarse por adelantado. Solo podrá adquirir un Artículo digital o Servicio si dispone de fondos o crédito suficientes.",
+          "Si un pago no es aprobado o se devuelve por fondos insuficientes, su pedido no será procesado.",
+          "Todos los pagos son procesados por nuestros proveedores de servicios de pago terceros. El Sitio web recibe una notificación una vez completado el pago y no almacena los datos de la tarjeta de pago.",
+          "Cuando proceda, cumplimos la legislación europea aplicable en materia de servicios de pago, incluida la Directiva (UE) 2015/2366 (PSD2)."
         ]
       },
       {
         "heading": "Limitación de responsabilidad",
         "paragraphs": [
-          "Nuestros servicios se proporcionan «tal cual» y «según disponibilidad». En la máxima medida permitida por la ley, no somos responsables de los daños indirectos o consecuentes que resulten del uso de nuestros servicios."
+          "En la máxima medida permitida por la ley, la Empresa y sus filiales, agentes, directores, empleados, proveedores y licenciantes no serán responsables ante usted por daños derivados de su uso o imposibilidad de uso del Sitio web, el Contenido, los Servicios o los Artículos digitales, incluidos daños resultantes de errores, interrupciones, retrasos, pérdida de datos, acceso no autorizado o confianza en información obtenida a través del Sitio web.",
+          "En ningún caso la Empresa será responsable de daños indirectos, especiales, incidentales, consecuentes, punitivos o ejemplares, incluida la pérdida de fondo de comercio, beneficios perdidos o pérdida o corrupción de datos. Su único remedio por insatisfacción con el Sitio web es dejar de utilizarlo.",
+          "En ningún caso la responsabilidad total de la Empresa ante usted excederá el importe que haya pagado a la Empresa en virtud de estos Términos.",
+          "Esta limitación se aplica con independencia de la teoría jurídica invocada (contrato, responsabilidad extracontractual, negligencia, responsabilidad objetiva u otra), incluso si la Empresa ha sido advertida de la posibilidad de dichos daños."
         ]
       },
       {
-        "heading": "Cambios en estos términos",
+        "heading": "Exclusión de garantías",
         "paragraphs": [
-          "Podemos actualizar estos Términos y condiciones de vez en cuando. El uso continuado de nuestros servicios tras la entrada en vigor de los cambios supone la aceptación de los términos actualizados."
+          "El Sitio web, el Contenido y los Servicios se proporcionan «tal cual» y «según disponibilidad», sin garantías de ningún tipo, expresas o implícitas, incluidas las garantías implícitas de comerciabilidad o idoneidad para un fin particular, en la máxima medida permitida por la ley.",
+          "No garantizamos que el Sitio web o sus Servicios satisfagan sus requisitos específicos, sean ininterrumpidos, oportunos, seguros o libres de errores, ni que los resultados obtenidos sean exactos o fiables. Su uso del Sitio web y de los Servidores es bajo su propio riesgo."
+        ]
+      },
+      {
+        "heading": "Uso de los servidores de juego",
+        "paragraphs": [
+          "Nuestros Servidores se proporcionan con sujeción a los términos del contrato de licencia de usuario final (EULA) del Juego. No podrá utilizar los Servidores de forma que infrinja la EULA o la legislación aplicable, vulnere los derechos de terceros, dañe o sobrecargue los Servidores o las redes conectadas, o intente acceder sin autorización a los Servidores o sistemas relacionados. Podemos suspender o cancelar su acceso a los Servidores en cualquier momento, con o sin previo aviso, por cualquier motivo."
+        ]
+      },
+      {
+        "heading": "Propiedad intelectual",
+        "paragraphs": [
+          "Todo el Contenido del Sitio web es propiedad de la Empresa o de sus licenciantes, salvo que se indique lo contrario, y está protegido por derechos de autor y otras leyes aplicables. Las marcas, logotipos y signos similares mostrados en el Sitio web no podrán utilizarse sin autorización.",
+          "La Empresa no está afiliada ni respaldada por Mojang Studios, Xbox Game Studios u otros titulares de derechos del Juego.",
+          "Si nos envía contenido («Su contenido»), conserva la titularidad, pero otorga a la Empresa una licencia no exclusiva, mundial, perpetua, libre de regalías, transferible y sublicenciable para utilizar, reproducir, modificar, distribuir y tratarlo en relación con los Servicios. Usted garantiza que tiene derecho a compartir dicho contenido y que no infringe derechos de terceros."
+        ]
+      },
+      {
+        "heading": "Indemnización",
+        "paragraphs": [
+          "Al acceder al Sitio web, usted se compromete a defender, indemnizar y mantener indemne a la Empresa y sus filiales frente a cualquier reclamación, exigencia y costes legales razonables derivados de su uso o uso indebido del Sitio web, los Servicios o el Contenido, su incumplimiento de estos Términos o su conducta."
+        ]
+      },
+      {
+        "heading": "Fuerza mayor",
+        "paragraphs": [
+          "La Empresa no será responsable de retrasos o incumplimientos en el cumplimiento causados por circunstancias fuera de su control razonable, incluidos desastres naturales, incendios, epidemias, guerras, terrorismo, disturbios, embargos, fallos de telecomunicaciones o infraestructura, conflictos laborales o medidas gubernamentales."
+        ]
+      },
+      {
+        "heading": "No renuncia",
+        "paragraphs": [
+          "El hecho de que no exijamos el cumplimiento de alguna disposición de estos Términos no implica renuncia a nuestro derecho a exigirlo, ni a cualquier otra disposición, con posterioridad."
+        ]
+      },
+      {
+        "heading": "No constituye sociedad",
+        "paragraphs": [
+          "Nada en estos Términos crea una joint venture, sociedad, relación laboral o de agencia entre usted y la Empresa."
+        ]
+      },
+      {
+        "heading": "Resolución",
+        "paragraphs": [
+          "Podemos suspender, cancelar o restringir su acceso al Sitio web o a los Servicios en cualquier momento, sin previo aviso ni responsabilidad, por cualquier motivo, incluida una infracción de estos Términos."
+        ]
+      },
+      {
+        "heading": "Ley aplicable y resolución de disputas",
+        "paragraphs": [
+          "Estos Términos se rigen por las leyes del Reino Unido. Nada en estos Términos priva a usted de las protecciones reconocidas a los consumidores en virtud de las leyes imperativas de su país de residencia.",
+          "Si reside en el EEE o Suiza, puede utilizar la plataforma europea de resolución de litigios en línea en http://ec.europa.eu/consumers/odr para resolver disputas con nosotros.",
+          "Para cualquier reclamación relativa a estos Términos, póngase en contacto con nosotros en privacy@minecraftsgame.com."
+        ]
+      },
+      {
+        "heading": "Divisibilidad",
+        "paragraphs": [
+          "Si alguna disposición de estos Términos se considerara inaplicable, se modificará en la medida mínima necesaria para hacerla aplicable, y las disposiciones restantes continuarán en pleno vigor y efecto."
+        ]
+      },
+      {
+        "heading": "Acuerdo íntegro",
+        "paragraphs": [
+          "Estos Términos constituyen el acuerdo íntegro entre usted y nosotros respecto del Sitio web y los Servicios, y sustituyen cualquier acuerdo o entendimiento previo sobre el mismo objeto."
+        ]
+      },
+      {
+        "heading": "Supervivencia",
+        "paragraphs": [
+          "Las secciones 4, 15, 16, 18, 19, 21 y 24 subsistirán durante 10 (diez) años tras la cancelación de su Cuenta o la finalización de su acceso a los Servicios."
         ]
       }
     ]
@@ -100,39 +364,62 @@
   "cookies": {
     "badge": "Legal",
     "title": "Política de cookies",
-    "lastUpdated": "18 de junio de 2026",
-    "intro": "La presente Política de cookies explica qué son las cookies, cómo las utiliza Adventures in Minecraft y las opciones de que dispone en relación con su uso.",
+    "lastUpdated": "6 de agosto de 2026",
+    "intro": [
+      "La presente Política de cookies explica cómo Dexervil LTD («nosotros», «nos» o la «Empresa») utiliza cookies y tecnologías similares en https://minecraftsgame.com/ (el «Sitio web»). Debe leerse junto con nuestra Política de privacidad, que explica de forma más general cómo tratamos los datos personales."
+    ],
     "sections": [
       {
         "heading": "¿Qué son las cookies?",
         "paragraphs": [
-          "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Ayudan al sitio a recordar sus preferencias y mejorar su experiencia."
+          "Las cookies son pequeños archivos de texto que se almacenan en su dispositivo cuando visita un sitio web. Permiten que el sitio web reconozca su dispositivo y almacene información sobre sus preferencias o acciones anteriores. También utilizamos tecnologías similares, como almacenamiento local y píxeles, que quedan cubiertas por esta Política junto con las cookies."
         ]
       },
       {
         "heading": "Tipos de cookies que utilizamos",
         "paragraphs": [
-          "Las cookies necesarias son imprescindibles para el funcionamiento del sitio web, como mantenerle conectado y proteger su sesión. No pueden desactivarse.",
-          "Las cookies analíticas nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio para poder mejorarlo. Las cookies de marketing pueden utilizarse para ofrecer contenido relevante y medir el rendimiento de las campañas."
-        ]
-      },
-      {
-        "heading": "Gestión de sus preferencias",
-        "paragraphs": [
-          "La primera vez que visite nuestro sitio, puede elegir aceptar o rechazar las cookies no esenciales a través de nuestro banner de cookies.",
-          "También puede controlar y eliminar las cookies en cualquier momento a través de la configuración de su navegador. La desactivación de ciertas cookies puede afectar al funcionamiento del sitio."
+          "Utilizamos las siguientes categorías de cookies:"
+        ],
+        "bullets": [
+          "Cookies estrictamente necesarias — imprescindibles para el funcionamiento del Sitio web, como mantenerle conectado a su cuenta y permitir un proceso de pago seguro. No pueden desactivarse en nuestros sistemas.",
+          "Cookies funcionales — recuerdan sus preferencias, como el Servidor o idioma seleccionado, para mejorar su experiencia.",
+          "Cookies analíticas — nos ayudan a comprender cómo interactúan los visitantes con el Sitio web (por ejemplo, mediante Google Analytics), para poder mejorar su rendimiento y contenido.",
+          "Cookies de marketing — utilizadas, cuando proceda y con su consentimiento, para ofrecer publicidad más relevante y medir la eficacia de las campañas de marketing."
         ]
       },
       {
         "heading": "Cookies de terceros",
         "paragraphs": [
-          "Algunas cookies pueden ser establecidas por servicios de terceros que aparecen en nuestras páginas. No controlamos el uso de cookies por parte de estos terceros."
+          "Algunas cookies son establecidas por proveedores de servicios terceros que ofrecen funcionalidades en nuestro Sitio web, como análisis o procesamiento de pagos. Estos terceros pueden utilizar cookies conforme a sus propias políticas de privacidad y cookies, sobre las cuales no tenemos control pleno."
         ]
       },
       {
-        "heading": "Actualizaciones de esta política",
+        "heading": "¿Cuánto duran las cookies?",
         "paragraphs": [
-          "Podemos actualizar esta Política de cookies periódicamente para reflejar cambios en la tecnología o en la normativa. Le recomendamos que la revise regularmente para mantenerse informado."
+          "Las cookies pueden ser de sesión o persistentes:"
+        ],
+        "bullets": [
+          "Cookies de sesión — temporales y eliminadas al cerrar su navegador.",
+          "Cookies persistentes — permanecen en su dispositivo durante un periodo determinado, o hasta que las elimine manualmente, de modo que el Sitio web recuerde sus preferencias entre visitas."
+        ]
+      },
+      {
+        "heading": "Gestión de sus preferencias de cookies",
+        "paragraphs": [
+          "La primera vez que visite el Sitio web, se le solicitará que consienta el uso de cookies no esenciales mediante nuestro banner de cookies. Puede modificar sus preferencias en cualquier momento.",
+          "También puede gestionar o eliminar las cookies a través de la configuración de su navegador. La mayoría de los navegadores le permiten rechazar cookies, eliminar las existentes o recibir una notificación antes de que se almacene una cookie. Tenga en cuenta que bloquear las cookies estrictamente necesarias puede afectar al funcionamiento del Sitio web, incluida su capacidad para iniciar sesión o completar una compra."
+        ]
+      },
+      {
+        "heading": "Cambios en esta Política",
+        "paragraphs": [
+          "Podemos actualizar esta Política de cookies periódicamente para reflejar cambios en las cookies que utilizamos o por motivos legales o reglamentarios. Le recomendamos revisar esta Política periódicamente."
+        ]
+      },
+      {
+        "heading": "Contáctenos",
+        "paragraphs": [
+          "Si tiene alguna pregunta sobre esta Política de cookies, póngase en contacto con nosotros en privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -182,55 +469,6 @@
         "heading": "Contactar con soporte",
         "paragraphs": [
           "Para cualquier pregunta o problema relacionado con la entrega, contáctenos por Discord o los canales indicados en nuestra página de Contactos. Incluya su nickname del juego, servidor y hora aproximada de compra."
-        ]
-      }
-    ]
-  },
-  "billingRefunds": {
-    "badge": "Legal",
-    "title": "Política de facturación, reembolsos y contracargos",
-    "lastUpdated": "3 de julio de 2026",
-    "intro": "Esta política describe cómo procesamos pagos, gestionamos reembolsos y manejamos contracargos por compras realizadas en el sitio web de Adventures in Minecraft.",
-    "sections": [
-      {
-        "heading": "Procesamiento de pagos",
-        "paragraphs": [
-          "Los pagos se procesan a través de un proveedor compatible con PCI DSS. No almacenamos números completos de tarjeta, códigos CVV u otros datos sensibles de tarjeta en nuestros servidores.",
-          "Al completar una compra, nos autoriza a cargar el método de pago que proporcione por el importe total mostrado en el checkout, incluidos impuestos o tasas aplicables."
-        ]
-      },
-      {
-        "heading": "Bienes digitales y venta final",
-        "paragraphs": [
-          "Todos los artículos del juego, privilegios y moneda virtual son bienes digitales licenciados para usted, no vendidos, y no tienen valor monetario real.",
-          "Como la entrega comienza inmediatamente después del pago, las compras son generalmente definitivas. Los reembolsos solo se proporcionan cuando lo exija la legislación de protección al consumidor aplicable."
-        ]
-      },
-      {
-        "heading": "Elegibilidad para reembolso",
-        "paragraphs": [
-          "Podemos emitir un reembolso si se le cobró pero no recibió sus artículos debido a un error técnico confirmado de nuestra parte y el soporte no pudo entregarlos manualmente.",
-          "No hay reembolsos para artículos ya entregados y consumidos en el juego, compras con nickname o servidor incorrectos, o casos en los que estaba desconectado en el momento de la entrega."
-        ]
-      },
-      {
-        "heading": "Cómo solicitar un reembolso",
-        "paragraphs": [
-          "Contacte con nuestro equipo de soporte dentro de los 14 días posteriores a la compra. Proporcione su nickname del juego, servidor, fecha de compra y una descripción del problema.",
-          "Los reembolsos aprobados se devuelven al método de pago original. Los tiempos de procesamiento dependen de su banco o emisor de tarjeta y pueden tardar de 5 a 10 días hábiles."
-        ]
-      },
-      {
-        "heading": "Contracargos",
-        "paragraphs": [
-          "Si disputa un cargo con su banco o emisor de tarjeta sin contactarnos primero, nos reservamos el derecho de suspender o prohibir permanentemente la cuenta asociada.",
-          "Presentar un contracargo por una compra en la que los artículos se entregaron correctamente puede considerarse fraude. Proporcionaremos al proveedor de pagos pruebas de transacción y entrega para impugnar contracargos injustificados."
-        ]
-      },
-      {
-        "heading": "Consultas de facturación",
-        "paragraphs": [
-          "Para preguntas de facturación, solicitudes de reembolso o problemas de pago, contáctenos por Discord o el correo de soporte indicado en nuestra página de Contactos."
         ]
       }
     ]

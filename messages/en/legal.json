@@ -5,46 +5,137 @@
   "privacy": {
     "badge": "Legal",
     "title": "Privacy Policy",
-    "lastUpdated": "June 18, 2026",
-    "intro": "This Privacy Policy explains how Adventures in Minecraft collects, uses, and protects the personal information you provide when you use our website and game servers.",
+    "lastUpdated": "August 6, 2026",
+    "intro": [
+      "Welcome to our website at https://minecraftsgame.com/. We are committed to protecting your privacy and personal data. This Privacy Policy (\"Policy\") explains how we collect, use, and safeguard your information, and describes your rights over your personal data. Please read it carefully.",
+      "By using our services or visiting our website, you agree to the practices described in this Policy. If you disagree with any part of it, please refrain from using our services or website."
+    ],
     "sections": [
       {
-        "heading": "Information We Collect",
+        "heading": "Data Controller",
         "paragraphs": [
-          "We collect information you provide directly to us, such as your username, email address, and password when you create an account.",
-          "We also collect technical data automatically, including your IP address, device information, browser type, and in-game activity, in order to operate and secure our services."
+          "As data controller under the General Data Protection Regulation (GDPR), we determine the purposes and means of processing your personal data and are responsible for compliance with applicable data protection law. You can contact us at:",
+          "Company: Dexervil LTD\nCompany No.: 17345695\nRegistered Address: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE\nEmail: privacy@minecraftsgame.com"
+        ]
+      },
+      {
+        "heading": "Information We Gather",
+        "paragraphs": [
+          "Depending on how you use our services, we may collect and process the following categories of personal data:"
+        ],
+        "bullets": [
+          "Account Information: login credentials, username, activity logs, settings, and profile details.",
+          "Contact Details: your email address and, where provided, phone number or postal address.",
+          "Transaction Information: your order and purchase history and account balance.",
+          "Payment Data: Payments are handled by our authorised payment processor, FINTECH GLOBAL SOFTWARE LTD. We do not collect, process, or store your payment card details or other sensitive financial information. Payment data is collected and processed directly by the payment gateway in compliance with PCI-DSS standards.",
+          "Communication Records: correspondence with our customer support team.",
+          "Technical Information: device data, IP address, operating system, browser type, and settings.",
+          "Customer Support Data: details of issues you report and how they were resolved.",
+          "Marketing Preferences: your preferences regarding marketing communications, where applicable."
         ]
       },
       {
         "heading": "How We Use Your Information",
         "paragraphs": [
-          "We use your information to provide and maintain our services, authenticate your account, process purchases, prevent fraud and abuse, and communicate important updates.",
-          "We may use aggregated, anonymized data to understand how players use our servers and to improve gameplay and performance."
+          "We use personal data for the following purposes, each supported by an appropriate legal basis:"
+        ],
+        "bullets": [
+          "Service Provision — to provide the Services you request (Legal Basis: contractual necessity).",
+          "Account Management — to create and manage your account (Legal Basis: contractual necessity).",
+          "Order Fulfilment — to process and deliver your purchases (Legal Basis: contractual necessity).",
+          "Transaction Management — to execute and manage payments securely (Legal Basis: contractual necessity, legitimate interests).",
+          "Customer Support — to respond to inquiries and provide assistance (Legal Basis: contractual necessity, legitimate interests).",
+          "Legal Compliance — to meet applicable legal and regulatory obligations (Legal Basis: legal obligation).",
+          "Fraud Prevention — to detect and prevent misuse of our services (Legal Basis: legal obligation, legitimate interests).",
+          "Service Improvement — to improve and develop our website and services (Legal Basis: legitimate interests).",
+          "Marketing — to send marketing communications, where you have consented (Legal Basis: consent)."
         ]
       },
       {
-        "heading": "Sharing of Information",
+        "heading": "Mandatory and Optional Information",
         "paragraphs": [
-          "We do not sell your personal information. We may share data with trusted service providers who help us operate our platform, and where required by law."
+          "Some information is required for us to provide our services and will be identified as such at the point of collection; without it, we may be unable to provide certain Services. Other information is optional and helps us personalize your experience."
+        ]
+      },
+      {
+        "heading": "How We Collect Data",
+        "paragraphs": [
+          "We collect personal data through the following methods:"
+        ],
+        "bullets": [
+          "Direct Interactions: information you provide directly, e.g. when creating an account, making a purchase, or contacting support.",
+          "Automated Technologies: data collected via cookies and similar technologies as you use our website — see our Cookie Policy for details.",
+          "Third-Party Sources: information we may receive from service partners, such as our payment providers."
+        ]
+      },
+      {
+        "heading": "Data Sharing",
+        "paragraphs": [
+          "We may share your personal data with trusted service providers who assist us with payment processing, analytics, or customer support, and who are bound by appropriate data protection obligations; regulatory authorities or governmental bodies, where required to comply with a legal obligation; and other recipients, where you have given us your consent or instructed us to do so.",
+          "We do not sell your personal data."
+        ]
+      },
+      {
+        "heading": "Data Security",
+        "paragraphs": [
+          "We take reasonable technical and organizational measures to protect your personal data, including encryption in transit and at rest, access controls, and regular security reviews. No method of transmission or storage is completely secure, and we encourage you to use a strong, unique password and enable two-factor authentication where available."
+        ]
+      },
+      {
+        "heading": "International Data Transfers",
+        "paragraphs": [
+          "Where it is necessary to transfer your personal data outside the European Economic Area (EEA), we rely on appropriate safeguards, such as the European Commission's Standard Contractual Clauses, to ensure your data continues to receive an equivalent level of protection."
+        ]
+      },
+      {
+        "heading": "Your Data Rights",
+        "paragraphs": [
+          "Depending on your location, you may have the following rights:"
+        ],
+        "bullets": [
+          "Access — obtain a copy of the personal data we hold about you.",
+          "Correction — request correction of inaccurate or incomplete data.",
+          "Deletion — request deletion of your data (\"right to be forgotten\"), subject to legal or legitimate grounds for retention.",
+          "Restriction — request that we limit processing in certain circumstances.",
+          "Objection — object to processing based on our legitimate interests or for direct marketing.",
+          "Portability — receive your data in a structured, machine-readable format.",
+          "Withdraw Consent — withdraw consent at any time where processing is based on consent, without affecting past lawful processing."
+        ]
+      },
+      {
+        "heading": "Automated Decision-Making",
+        "paragraphs": [
+          "We do not make decisions that produce legal or similarly significant effects on you based solely on automated processing, without human involvement."
+        ]
+      },
+      {
+        "heading": "Data of Minors",
+        "paragraphs": [
+          "Our services are not intended for individuals under 18. We do not knowingly collect personal data from minors, and we will delete any such data promptly if we become aware of it. If you believe a minor has provided us with personal data, please contact us."
         ]
       },
       {
         "heading": "Data Retention",
         "paragraphs": [
-          "We retain your personal information for as long as your account is active or as needed to provide our services and comply with our legal obligations."
+          "We retain personal data only for as long as necessary for the purposes described in this Policy, or as required by applicable law, generally aligned with the limitation period for potential claims. Once retention is no longer necessary, we securely delete or anonymize the data."
         ]
       },
       {
-        "heading": "Your Rights",
+        "heading": "Complaints",
         "paragraphs": [
-          "Depending on your location, you may have the right to access, correct, or delete your personal data, and to object to or restrict certain processing.",
-          "To exercise any of these rights, please contact our support team through the channels listed on our Contacts page."
+          "If you have concerns about how we handle your personal data, please contact us first. You also have the right to lodge a complaint with the data protection authority in your country of residence."
         ]
       },
       {
-        "heading": "Contact Us",
+        "heading": "Updates to This Policy",
         "paragraphs": [
-          "If you have questions about this Privacy Policy or how we handle your data, please reach out to us via Discord or our support email."
+          "We may update this Policy from time to time to reflect changes in our practices or legal requirements. We will notify you of significant changes through the website or by email. Continued use of our services after such changes constitutes acceptance of the updated Policy."
+        ]
+      },
+      {
+        "heading": "Contact Information",
+        "paragraphs": [
+          "For any questions about this Policy, please contact us at privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -52,47 +143,220 @@
   "terms": {
     "badge": "Legal",
     "title": "Terms and Conditions",
-    "lastUpdated": "June 18, 2026",
-    "intro": "These Terms and Conditions govern your access to and use of the Adventures in Minecraft website, game servers, and related services. By using our services, you agree to these terms.",
+    "lastUpdated": "August 6, 2026",
+    "intro": [
+      "Hello and welcome to https://minecraftsgame.com/ (the \"Website\")!",
+      "These Terms and Conditions (the \"Terms\") govern the contractual relationship between Dexervil LTD, a company registered under the laws of United Kingdom, with a registered address at 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, company number 17345695 (\"we,\" \"us,\" \"our,\" or the \"Company\") and the users of our services (\"you,\" \"your,\" or \"user\").",
+      "These Terms apply to your use of the Website and to any products or services purchased through it (the \"Services\"). By accessing, using, or making a purchase on our Website, you agree to be bound by these Terms, our Privacy Policy, our Cookie Policy, and any other policy referenced here or linked from the Website (together, the \"Terms of Use\").",
+      "Please read these Terms of Use carefully before accessing or using the Website or any of our Services. If you do not agree with any part of them, you must not use the Website.",
+      "You must accept these Terms of Use in order to create an account and access our Services. If you do not have an account, using any part of the Service constitutes acceptance of these Terms.",
+      "If you have any questions about these Terms, please contact us at privacy@minecraftsgame.com."
+    ],
     "sections": [
       {
-        "heading": "Acceptance of Terms",
+        "heading": "Definitions",
         "paragraphs": [
-          "By creating an account or otherwise using our services, you confirm that you accept these Terms and Conditions and agree to comply with them.",
-          "If you do not agree with any part of these terms, you must not use our services."
+          "\"Business Day\" means a day (other than a Saturday, Sunday, or public holiday) on which banks and government authorities are open for business in the United Kingdom.",
+          "\"Content\" means graphics, text, media files, software, and any other material available on the Website.",
+          "\"Digital Item\" means any privileges, crystals, or other in-game items made available to a user for use exclusively within our Servers.",
+          "\"Game\" means Minecraft, a sandbox video game developed and published by Mojang Studios and other rights holders.",
+          "\"Services\" means any product, Digital Item, or service supplied to a user under these Terms.",
+          "\"Servers\" means the game servers operated by the Company within the Game, currently comprising three (3) separate servers, on which users may play and to which purchased Digital Items are delivered.",
+          "\"Privacy Policy\" means, collectively, our Privacy Policy and Cookie Policy, available on the Website, which govern how we process personal data."
         ]
       },
       {
-        "heading": "Accounts and Eligibility",
+        "heading": "Modifications",
         "paragraphs": [
-          "You are responsible for maintaining the confidentiality of your account credentials and for all activity that occurs under your account.",
-          "You must provide accurate information when registering and keep it up to date."
+          "We may modify, suspend, or discontinue the Website, the Services, and/or their Content at any time and at our sole discretion, without prior notice. It is your responsibility to review these Terms periodically. Continued use of the Website after any change constitutes acceptance of that change. If you disagree with any provision of these Terms, your only remedy is to stop using the Website."
         ]
       },
       {
-        "heading": "Acceptable Use",
+        "heading": "Eligibility",
         "paragraphs": [
-          "You agree not to cheat, exploit bugs, use unauthorized third-party software, harass other players, or engage in any activity that disrupts the experience for others.",
-          "We reserve the right to suspend or terminate accounts that violate these rules."
+          "You must be at least 18 years old to use the Website or the Services. If the age of majority in your jurisdiction of residence is higher, that age applies instead.",
+          "By agreeing to these Terms, you represent and warrant that: (a) you have reached the applicable legal age; and (b) your use of the Website complies with all laws and regulations applicable to you.",
+          "You may not use the Website, our Services, or our Content if: (1) doing so would be unlawful under applicable law; or (2) you are located in a jurisdiction where our Services are restricted, as may be notified on the Website from time to time."
         ]
       },
       {
-        "heading": "Purchases and Virtual Items",
+        "heading": "Prohibited Activity",
         "paragraphs": [
-          "Any in-game items or services purchased are licensed to you, not sold, and have no real-world monetary value.",
-          "All purchases are final unless otherwise required by applicable law."
+          "You may use the Website and its Content only for lawful purposes and in accordance with these Terms. You may not use the Services to build or offer a competing product, reverse-engineer any part of the Services, or resell or redistribute the Services. Each account may be used by one user only, and each user may hold only one account.",
+          "You may not use the Services to infringe the intellectual property rights of others, including copyright, patent, or trademark rights. Doing so may result in penalties, including legal action or a permanent ban.",
+          "We may investigate reported violations of these Terms and take any action we consider appropriate, including reporting suspected unlawful activity to law enforcement, regulators, or other third parties, and disclosing information as necessary for that purpose.",
+          "You are further prohibited from using the Website or Services:"
+        ],
+        "bullets": [
+          "for any unlawful purpose",
+          "to solicit others to engage in unlawful acts",
+          "to violate any applicable law, regulation, or ordinance",
+          "to infringe our intellectual property rights or those of others",
+          "to harass, abuse, defame, or discriminate against any person on any protected ground",
+          "to submit false or misleading information",
+          "to upload viruses or other malicious code",
+          "to collect or track the personal information of other users",
+          "to spam, phish, or scrape data",
+          "for any obscene or immoral purpose",
+          "to interfere with or circumvent the security of the Service or the Website"
+        ]
+      },
+      {
+        "heading": "Fair Usage Policy",
+        "paragraphs": [
+          "If your usage is continually excessive or unfair, negatively affects other users' enjoyment of the Services, or is inconsistent with the typical usage expected of your current package, we may suspend or terminate your access to the Services."
+        ]
+      },
+      {
+        "heading": "Our Services",
+        "paragraphs": [
+          "The Website is a Minecraft shop operated by the Company. We operate dedicated Servers within the Game, on which users can play. Through your personal account (the \"Personal Cabinet\") on the Website, you may purchase privileges and crystals and other Digital Items. When you complete a purchase, you select the Server on which you wish to play, and the purchased Digital Item is delivered to your account on that Server."
+        ]
+      },
+      {
+        "heading": "Server Access",
+        "paragraphs": [
+          "Access to our Servers is free of charge. To connect, you will need a licensed copy of the Game. After launching the Game, enter the relevant Server's IP address in the multiplayer menu. Server IP addresses are available on the Website. If you wish to play on a different one of our Servers, you may return to the Website to obtain the corresponding IP address."
+        ]
+      },
+      {
+        "heading": "User Account Registration",
+        "paragraphs": [
+          "To access certain Services or areas of the Website, you must register an account (the \"Account\") and provide details such as your name, country of residence, password, and email address.",
+          "You represent and warrant that all information you provide is current, complete, and accurate, and you agree to keep it up to date, including your email address and payment details, so that we can process transactions and contact you when necessary. Information you provide during registration will be handled in accordance with our Privacy Policy. Keep your password confidential.",
+          "Your Account is linked to your personal email address, and you may not allow third parties to access it. You are responsible for safeguarding your Account credentials and for all activity carried out under your Account.",
+          "We may decline a registration for valid and objective reasons, including a violation of these Terms, fraud-prevention measures, doubts about your identity, suspected spam activity, uncertainty about your age, fraudulent behaviour, or an attempt to register from a jurisdiction where our Services are unavailable."
+        ]
+      },
+      {
+        "heading": "User Account Policy",
+        "paragraphs": [
+          "You are solely responsible for all activity that occurs under your Account. You agree not to use another user's account, username, or password, and not to disclose your own password to any third party.",
+          "You agree to notify us immediately of any unauthorized use of your Account.",
+          "If we have reasonable grounds to suspect a violation of these Terms, or that information you provided is untrue, inaccurate, or incomplete, we may terminate your Account and refuse further access to some or all Services.",
+          "We are not responsible for any loss or damage arising from unauthorized access to or use of your Account."
+        ]
+      },
+      {
+        "heading": "Inactive User Account Policy",
+        "paragraphs": [
+          "We may disable or deactivate Accounts that remain inactive for more than 30 calendar days, and associated data may be deleted as a result. We are not obliged to give you prior notice of such action."
+        ]
+      },
+      {
+        "heading": "In-Game Purchases",
+        "paragraphs": [
+          "To purchase Digital Items from our in-game shop, you first need access to one of our Servers as described above.",
+          "To purchase a Digital Item, select the item you require in your Personal Cabinet, choose the Server to which it should be delivered, and pay using an accepted payment method.",
+          "We will make purchased Digital Items available on your account, on the selected Server, without undue delay once we receive confirmation of your payment.",
+          "We are not obliged to complete a purchase where a payment attempt is unsuccessful or is rejected by our payment service provider.",
+          "Purchases must be made from your own account only. We reserve the right to refuse any order, and to limit or cancel quantities purchased per person, household, or order, including orders placed using the same account, payment card, or billing details. If we change or cancel an order, we will attempt to notify you using the contact details on file. We may limit or refuse orders that, in our judgement, appear to be placed by resellers or distributors.",
+          "You agree to keep your account and payment information current, complete, and accurate so that we can process your purchases and contact you as needed."
+        ]
+      },
+      {
+        "heading": "Prices",
+        "paragraphs": [
+          "Prices generally include any applicable delivery, handling, and taxes; if they do not, we will inform you before you place your order. Your purchase may be subject to foreign exchange fees or price differences based on your location.",
+          "We may adjust, suspend, or discontinue any Service at our discretion and are not responsible for losses arising from such changes.",
+          "To the extent permitted by law, we may change our prices at any time. We will give you reasonable notice of any pricing change by posting updated prices on the Website and/or notifying you by email or other prominent means.",
+          "If you do not wish to pay a new price, you may cancel the relevant subscription before the change takes effect. To avoid being charged, you must actively cancel your subscription at least 24 hours before the current billing period ends."
+        ]
+      },
+      {
+        "heading": "Payments",
+        "paragraphs": [
+          "Payments may be charged to your account using a debit or credit card or another accepted payment method.",
+          "Purchases must be paid for in advance. You can only buy a Digital Item or Service if you have sufficient funds or credit available.",
+          "If a payment is not approved, or is returned for insufficient funds, your order will not be processed.",
+          "All payments are processed by our third-party payment service providers. The Website is notified once a payment is completed and does not store payment card details.",
+          "Where applicable, we comply with relevant EU payment services legislation, including Directive (EU) 2015/2366 (PSD2)."
         ]
       },
       {
         "heading": "Limitation of Liability",
         "paragraphs": [
-          "Our services are provided on an \"as is\" and \"as available\" basis. To the maximum extent permitted by law, we are not liable for any indirect or consequential damages arising from your use of our services."
+          "To the maximum extent permitted by law, the Company and its affiliates, agents, directors, employees, suppliers, and licensors will not be liable to you for any damages arising from your use of, or inability to use, the Website, the Content, the Services, or the Digital Items, including damages resulting from errors, interruptions, delays, data loss, unauthorized access, or reliance on information obtained through the Website.",
+          "In no event will the Company be liable for indirect, special, incidental, consequential, punitive, or exemplary damages, including loss of goodwill, lost profits, or loss or corruption of data. Your sole remedy for dissatisfaction with the Website is to stop using it.",
+          "In no event will the Company's total liability to you exceed the amount you paid to the Company under these Terms.",
+          "This limitation applies regardless of the legal theory relied upon (contract, tort, negligence, strict liability, or otherwise), even if the Company has been advised of the possibility of such damages."
         ]
       },
       {
-        "heading": "Changes to These Terms",
+        "heading": "Disclaimer of Warranties",
         "paragraphs": [
-          "We may update these Terms and Conditions from time to time. Continued use of our services after changes take effect constitutes acceptance of the updated terms."
+          "The Website, Content, and Services are provided on an \"as is\" and \"as available\" basis, without warranties of any kind, express or implied, including implied warranties of merchantability or fitness for a particular purpose, to the fullest extent permitted by law.",
+          "We do not warrant that the Website or its Services will meet your specific requirements, be uninterrupted, timely, secure, or error-free, or that any results obtained will be accurate or reliable. Your use of the Website and the Servers is at your own risk."
+        ]
+      },
+      {
+        "heading": "Use of Game Servers",
+        "paragraphs": [
+          "Our Servers are provided subject to the terms of the Game's end-user licence agreement (EULA). You may not use the Servers in a way that violates the EULA or applicable law, infringes the rights of others, damages or overburdens the Servers or connected networks, or attempts unauthorized access to the Servers or related systems. We may suspend or terminate your access to the Servers at any time, with or without notice, for any reason."
+        ]
+      },
+      {
+        "heading": "Intellectual Property",
+        "paragraphs": [
+          "All Content on the Website is the property of the Company or its licensors, unless stated otherwise, and is protected by copyright and other applicable laws. Trademarks, logos, and similar marks shown on the Website may not be used without authorization.",
+          "The Company is not affiliated with or endorsed by Mojang Studios, Xbox Game Studios, or other rights holders in the Game.",
+          "If you submit content to us (\"Your Content\"), you retain ownership, but grant the Company a non-exclusive, worldwide, perpetual, royalty-free, transferable, and sublicensable licence to use, reproduce, modify, distribute, and process it in connection with the Services. You warrant that you have the right to share such content and that it does not infringe any third-party rights."
+        ]
+      },
+      {
+        "heading": "Indemnification",
+        "paragraphs": [
+          "By accessing the Website, you agree to defend, indemnify, and hold harmless the Company and its affiliates against any claims, demands, and reasonable legal costs arising from your use or misuse of the Website, Services, or Content, your breach of these Terms, or your conduct."
+        ]
+      },
+      {
+        "heading": "Force Majeure",
+        "paragraphs": [
+          "The Company is not liable for delays or failures in performance caused by circumstances beyond its reasonable control, including natural disasters, fire, epidemics, war, terrorism, riots, embargoes, telecommunications or infrastructure failures, labour disputes, or governmental action."
+        ]
+      },
+      {
+        "heading": "No Waiver",
+        "paragraphs": [
+          "Our failure to enforce any provision of these Terms does not waive our right to enforce it, or any other provision, subsequently."
+        ]
+      },
+      {
+        "heading": "No Partnership",
+        "paragraphs": [
+          "Nothing in these Terms creates a joint venture, partnership, employment, or agency relationship between you and the Company."
+        ]
+      },
+      {
+        "heading": "Termination",
+        "paragraphs": [
+          "We may suspend, terminate, or restrict your access to the Website or Services at any time, without prior notice or liability, for any reason, including a violation of these Terms."
+        ]
+      },
+      {
+        "heading": "Governing Law and Dispute Resolution",
+        "paragraphs": [
+          "These Terms are governed by the laws of United Kingdom. Nothing in these Terms deprives you of the protections afforded to consumers under the mandatory laws of your country of residence.",
+          "If you reside in the EEA or Switzerland, you may use the EU's online dispute resolution platform at http://ec.europa.eu/consumers/odr to resolve disputes with us.",
+          "For any claim regarding these Terms, please contact us at privacy@minecraftsgame.com."
+        ]
+      },
+      {
+        "heading": "Severability",
+        "paragraphs": [
+          "If any provision of these Terms is found unenforceable, it will be modified to the minimum extent necessary to make it enforceable, and the remaining provisions will continue in full force and effect."
+        ]
+      },
+      {
+        "heading": "Entire Agreement",
+        "paragraphs": [
+          "These Terms constitute the entire agreement between you and us regarding the Website and Services, and supersede any prior agreements or understandings on the same subject."
+        ]
+      },
+      {
+        "heading": "Survival",
+        "paragraphs": [
+          "Sections 4, 15, 16, 18, 19, 21, and 24 survive for 10 (ten) years after termination of your Account or your access to the Services."
         ]
       }
     ]
@@ -100,39 +364,62 @@
   "cookies": {
     "badge": "Legal",
     "title": "Cookie Policy",
-    "lastUpdated": "June 18, 2026",
-    "intro": "This Cookie Policy explains what cookies are, how Adventures in Minecraft uses them, and the choices you have regarding their use.",
+    "lastUpdated": "August 6, 2026",
+    "intro": [
+      "This Cookie Policy explains how Dexervil LTD (\"we,\" \"us,\" or \"the Company\") uses cookies and similar technologies on https://minecraftsgame.com/ (the \"Website\"). It should be read together with our Privacy Policy, which explains how we use personal data more generally."
+    ],
     "sections": [
       {
-        "heading": "What Are Cookies",
+        "heading": "What Are Cookies?",
         "paragraphs": [
-          "Cookies are small text files stored on your device when you visit a website. They help the site remember your preferences and improve your experience."
+          "Cookies are small text files placed on your device when you visit a website. They allow the website to recognize your device and store information about your preferences or past actions. We also use similar technologies, such as local storage and pixels, which are covered by this Policy along with cookies."
         ]
       },
       {
         "heading": "Types of Cookies We Use",
         "paragraphs": [
-          "Necessary cookies are essential for the website to function, such as keeping you signed in and securing your session. These cannot be switched off.",
-          "Analytics cookies help us understand how visitors interact with our site so we can improve it. Marketing cookies may be used to deliver relevant content and measure campaign performance."
-        ]
-      },
-      {
-        "heading": "Managing Your Preferences",
-        "paragraphs": [
-          "When you first visit our site, you can choose to accept or reject non-essential cookies through our cookie banner.",
-          "You can also control and delete cookies through your browser settings at any time. Disabling certain cookies may affect how the site functions."
+          "We use the following categories of cookies:"
+        ],
+        "bullets": [
+          "Strictly Necessary Cookies — required for the Website to function, such as keeping you logged into your account and enabling secure checkout. These cannot be switched off in our systems.",
+          "Functional Cookies — remember your preferences, such as your selected Server or language, to improve your experience.",
+          "Analytics Cookies — help us understand how visitors interact with the Website (e.g. via Google Analytics), so we can improve its performance and content.",
+          "Marketing Cookies — used, where applicable and with your consent, to deliver more relevant advertising and measure the effectiveness of marketing campaigns."
         ]
       },
       {
         "heading": "Third-Party Cookies",
         "paragraphs": [
-          "Some cookies may be set by third-party services that appear on our pages. We do not control the use of cookies by these third parties."
+          "Some cookies are placed by third-party service providers who provide functionality on our Website, such as analytics or payment processing. These third parties may use cookies in accordance with their own privacy and cookie policies, over which we do not have full control."
         ]
       },
       {
-        "heading": "Updates to This Policy",
+        "heading": "How Long Do Cookies Last?",
         "paragraphs": [
-          "We may update this Cookie Policy periodically to reflect changes in technology or regulation. Please review it regularly to stay informed."
+          "Cookies may be session-based or persistent:"
+        ],
+        "bullets": [
+          "Session Cookies — temporary and deleted once you close your browser.",
+          "Persistent Cookies — remain on your device for a set period, or until you delete them manually, so that the Website remembers your preferences across visits."
+        ]
+      },
+      {
+        "heading": "Managing Your Cookie Preferences",
+        "paragraphs": [
+          "When you first visit the Website, you will be asked to consent to non-essential cookies via our cookie banner. You can change your preferences at any time.",
+          "You can also manage or delete cookies through your browser settings. Most browsers allow you to refuse cookies, delete existing cookies, or be notified before a cookie is stored. Please note that blocking strictly necessary cookies may affect the functionality of the Website, including your ability to log in or complete a purchase."
+        ]
+      },
+      {
+        "heading": "Changes to This Policy",
+        "paragraphs": [
+          "We may update this Cookie Policy from time to time to reflect changes in the cookies we use or for legal or regulatory reasons. We encourage you to review this Policy periodically."
+        ]
+      },
+      {
+        "heading": "Contact Us",
+        "paragraphs": [
+          "If you have any questions about this Cookie Policy, please contact us at privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -182,55 +469,6 @@
         "heading": "Contact Support",
         "paragraphs": [
           "For any delivery-related questions or issues, reach out to us via Discord or the contact channels listed on our Contacts page. Include your in-game nickname, server, and approximate purchase time."
-        ]
-      }
-    ]
-  },
-  "billingRefunds": {
-    "badge": "Legal",
-    "title": "Billing, Refunds & Chargeback Policy",
-    "lastUpdated": "July 3, 2026",
-    "intro": "This policy describes how we process payments, handle refunds, and manage chargebacks for purchases made on the Adventures in Minecraft website.",
-    "sections": [
-      {
-        "heading": "Payment Processing",
-        "paragraphs": [
-          "Payments are processed through a PCI DSS-compliant payment provider. We do not store full card numbers, CVV codes, or other sensitive card data on our servers.",
-          "By completing a purchase, you authorize us to charge the payment method you provide for the total amount shown at checkout, including any applicable taxes or fees."
-        ]
-      },
-      {
-        "heading": "Digital Goods and Final Sale",
-        "paragraphs": [
-          "All in-game items, privileges, and virtual currency are digital goods licensed to you, not sold, and have no real-world monetary value.",
-          "Because delivery begins immediately after payment, purchases are generally final. Refunds are only provided where required by applicable consumer protection law."
-        ]
-      },
-      {
-        "heading": "Refund Eligibility",
-        "paragraphs": [
-          "We may issue a refund if you were charged but did not receive your items due to a confirmed technical error on our side, and support was unable to deliver the items manually.",
-          "Refunds are not available for items already delivered and consumed in-game, purchases made with an incorrect nickname or server, or cases where you were offline at the time of delivery."
-        ]
-      },
-      {
-        "heading": "How to Request a Refund",
-        "paragraphs": [
-          "Contact our support team within 14 days of the purchase. Provide your in-game nickname, server, purchase date, and a description of the issue.",
-          "Approved refunds are returned to the original payment method. Processing times depend on your bank or card issuer and may take 5–10 business days."
-        ]
-      },
-      {
-        "heading": "Chargebacks",
-        "paragraphs": [
-          "If you dispute a charge with your bank or card issuer without first contacting us, we reserve the right to suspend or permanently ban the associated account.",
-          "Filing a chargeback for a purchase where items were successfully delivered may be considered fraud. We will provide transaction and delivery evidence to the payment provider to contest illegitimate chargebacks."
-        ]
-      },
-      {
-        "heading": "Billing Inquiries",
-        "paragraphs": [
-          "For billing questions, refund requests, or payment issues, contact us via Discord or the support email listed on our Contacts page."
         ]
       }
     ]

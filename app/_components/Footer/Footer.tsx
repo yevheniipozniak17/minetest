@@ -38,7 +38,6 @@ export function Footer() {
     { label: t('footer.cookiePolicy'), href: '/cookie-policy' },
     { label: t('footer.termsAndConditions'), href: '/terms' },
     { label: t('footer.deliveryPolicy'), href: '/delivery-policy' },
-    { label: t('footer.billingRefunds'), href: '/billing-refunds' },
   ];
 
   return (

@@ -6,7 +6,8 @@ import { buildMetadata } from '@/lib/seo/meta';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Privacy Policy',
-  description: 'How Adventures in Minecraft collects, uses, and protects your personal information.',
+  description:
+    'How Dexervil LTD collects, uses, and protects your personal data on minecraftsgame.com.',
   path: '/privacy-policy',
   noindex: true,
 });
@@ -18,7 +19,7 @@ export default async function PrivacyPolicyPage() {
     badge: t('privacy.badge'),
     title: t('privacy.title'),
     lastUpdated: t('privacy.lastUpdated'),
-    intro: t('privacy.intro'),
+    intro: t.raw('privacy.intro') as LegalDocument['intro'],
     sections: t.raw('privacy.sections') as LegalDocument['sections'],
   };
 

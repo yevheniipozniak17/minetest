@@ -6,7 +6,8 @@ import { buildMetadata } from '@/lib/seo/meta';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Cookie Policy',
-  description: 'What cookies Adventures in Minecraft uses and the choices you have regarding them.',
+  description:
+    'What cookies minecraftsgame.com uses and how you can manage your cookie preferences.',
   path: '/cookie-policy',
   noindex: true,
 });
@@ -18,7 +19,7 @@ export default async function CookiePolicyPage() {
     badge: t('cookies.badge'),
     title: t('cookies.title'),
     lastUpdated: t('cookies.lastUpdated'),
-    intro: t('cookies.intro'),
+    intro: t.raw('cookies.intro') as LegalDocument['intro'],
     sections: t.raw('cookies.sections') as LegalDocument['sections'],
   };
 

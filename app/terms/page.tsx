@@ -6,7 +6,8 @@ import { buildMetadata } from '@/lib/seo/meta';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Terms and Conditions',
-  description: 'The terms that govern your use of the Adventures in Minecraft website and servers.',
+  description:
+    'The terms that govern your use of the minecraftsgame.com website, game servers, and digital purchases.',
   path: '/terms',
   noindex: true,
 });
@@ -18,7 +19,7 @@ export default async function TermsPage() {
     badge: t('terms.badge'),
     title: t('terms.title'),
     lastUpdated: t('terms.lastUpdated'),
-    intro: t('terms.intro'),
+    intro: t.raw('terms.intro') as LegalDocument['intro'],
     sections: t.raw('terms.sections') as LegalDocument['sections'],
   };
 

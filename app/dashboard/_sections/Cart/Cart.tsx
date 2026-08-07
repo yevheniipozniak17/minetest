@@ -664,11 +664,6 @@ export default function Cart() {
                   {chunks}
                 </Link>
               ),
-              billing: chunks => (
-                <Link href="/billing-refunds" className={styles.consentLink}>
-                  {chunks}
-                </Link>
-              ),
             })}
           </span>
         </label>

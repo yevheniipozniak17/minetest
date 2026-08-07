@@ -5,46 +5,137 @@
   "privacy": {
     "badge": "Mentions légales",
     "title": "Politique de confidentialité",
-    "lastUpdated": "18 juin 2026",
-    "intro": "La présente Politique de confidentialité explique comment Adventures in Minecraft collecte, utilise et protège les informations personnelles que vous nous communiquez lorsque vous utilisez notre site web et nos serveurs de jeu.",
+    "lastUpdated": "6 août 2026",
+    "intro": [
+      "Bienvenue sur notre site web https://minecraftsgame.com/. Nous nous engageons à protéger votre vie privée et vos données personnelles. La présente Politique de confidentialité (la « Politique ») explique comment nous collectons, utilisons et protégeons vos informations, et décrit vos droits sur vos données personnelles. Veuillez la lire attentivement.",
+      "En utilisant nos services ou en visitant notre site web, vous acceptez les pratiques décrites dans la présente Politique. Si vous n'acceptez pas une partie quelconque de celle-ci, veuillez vous abstenir d'utiliser nos services ou notre site web."
+    ],
     "sections": [
+      {
+        "heading": "Responsable du traitement",
+        "paragraphs": [
+          "En qualité de responsable du traitement au sens du Règlement général sur la protection des données (RGPD), nous déterminons les finalités et les moyens du traitement de vos données personnelles et sommes responsables du respect de la législation applicable en matière de protection des données. Vous pouvez nous contacter à l'adresse suivante :",
+          "Société : Dexervil LTD\nNuméro d'entreprise : 17345695\nAdresse du siège social : 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE\nE-mail : privacy@minecraftsgame.com"
+        ]
+      },
       {
         "heading": "Informations que nous collectons",
         "paragraphs": [
-          "Nous collectons les informations que vous nous fournissez directement, telles que votre nom d'utilisateur, votre adresse e-mail et votre mot de passe lors de la création de votre compte.",
-          "Nous collectons également automatiquement des données techniques, notamment votre adresse IP, les informations sur votre appareil, le type de navigateur et votre activité en jeu, afin d'exploiter et de sécuriser nos services."
+          "Selon la manière dont vous utilisez nos services, nous pouvons collecter et traiter les catégories de données personnelles suivantes :"
+        ],
+        "bullets": [
+          "Informations de compte : identifiants de connexion, nom d'utilisateur, journaux d'activité, paramètres et détails du profil.",
+          "Coordonnées : votre adresse e-mail et, le cas échéant, votre numéro de téléphone ou votre adresse postale.",
+          "Informations transactionnelles : historique de vos commandes et achats, ainsi que le solde de votre compte.",
+          "Données de paiement : les paiements sont traités par notre prestataire de paiement autorisé, FINTECH GLOBAL SOFTWARE LTD. Nous ne collectons, ne traitons ni ne stockons vos coordonnées bancaires ni d'autres informations financières sensibles. Les données de paiement sont collectées et traitées directement par la passerelle de paiement, conformément aux normes PCI-DSS.",
+          "Historique des communications : correspondance avec notre équipe d'assistance client.",
+          "Informations techniques : données relatives à l'appareil, adresse IP, système d'exploitation, type de navigateur et paramètres.",
+          "Données d'assistance client : détails des problèmes que vous signalez et de la manière dont ils ont été résolus.",
+          "Préférences marketing : vos préférences en matière de communications marketing, le cas échéant."
         ]
       },
       {
         "heading": "Utilisation de vos informations",
         "paragraphs": [
-          "Nous utilisons vos informations pour fournir et maintenir nos services, authentifier votre compte, traiter les achats, prévenir la fraude et les abus, et vous communiquer des mises à jour importantes.",
-          "Nous pouvons utiliser des données agrégées et anonymisées pour comprendre comment les joueurs utilisent nos serveurs et améliorer l'expérience de jeu ainsi que les performances."
+          "Nous utilisons les données personnelles aux fins suivantes, chacune étant fondée sur une base juridique appropriée :"
+        ],
+        "bullets": [
+          "Fourniture des services — pour fournir les Services que vous demandez (Base juridique : exécution du contrat).",
+          "Gestion du compte — pour créer et gérer votre compte (Base juridique : exécution du contrat).",
+          "Exécution des commandes — pour traiter et livrer vos achats (Base juridique : exécution du contrat).",
+          "Gestion des transactions — pour exécuter et gérer les paiements de manière sécurisée (Base juridique : exécution du contrat, intérêt légitime).",
+          "Assistance client — pour répondre à vos demandes et vous apporter de l'aide (Base juridique : exécution du contrat, intérêt légitime).",
+          "Conformité légale — pour respecter les obligations légales et réglementaires applicables (Base juridique : obligation légale).",
+          "Prévention de la fraude — pour détecter et prévenir les utilisations abusives de nos services (Base juridique : obligation légale, intérêt légitime).",
+          "Amélioration des services — pour améliorer et développer notre site web et nos services (Base juridique : intérêt légitime).",
+          "Marketing — pour vous envoyer des communications marketing, lorsque vous y avez consenti (Base juridique : consentement)."
         ]
       },
       {
-        "heading": "Partage des informations",
+        "heading": "Informations obligatoires et facultatives",
         "paragraphs": [
-          "Nous ne vendons pas vos informations personnelles. Nous pouvons partager des données avec des prestataires de services de confiance qui nous aident à exploiter notre plateforme, ainsi que lorsque la loi l'exige."
+          "Certaines informations sont nécessaires pour que nous puissions fournir nos services et seront identifiées comme telles au moment de la collecte ; sans elles, nous pourrions ne pas être en mesure de fournir certains Services. D'autres informations sont facultatives et nous aident à personnaliser votre expérience."
+        ]
+      },
+      {
+        "heading": "Modalités de collecte des données",
+        "paragraphs": [
+          "Nous collectons les données personnelles par les moyens suivants :"
+        ],
+        "bullets": [
+          "Interactions directes : informations que vous nous fournissez directement, par exemple lors de la création d'un compte, d'un achat ou d'une prise de contact avec l'assistance.",
+          "Technologies automatisées : données collectées via des cookies et technologies similaires lorsque vous utilisez notre site web — consultez notre Politique en matière de cookies pour plus de détails.",
+          "Sources tierces : informations que nous pouvons recevoir de partenaires de services, tels que nos prestataires de paiement."
+        ]
+      },
+      {
+        "heading": "Communication des données",
+        "paragraphs": [
+          "Nous pouvons communiquer vos données personnelles à des prestataires de services de confiance qui nous assistent dans le traitement des paiements, l'analyse ou l'assistance client, et qui sont soumis à des obligations appropriées en matière de protection des données ; aux autorités réglementaires ou organismes publics, lorsque cela est nécessaire pour respecter une obligation légale ; et à d'autres destinataires, lorsque vous nous avez donné votre consentement ou que vous nous avez demandé de le faire.",
+          "Nous ne vendons pas vos données personnelles."
+        ]
+      },
+      {
+        "heading": "Sécurité des données",
+        "paragraphs": [
+          "Nous mettons en œuvre des mesures techniques et organisationnelles raisonnables pour protéger vos données personnelles, notamment le chiffrement en transit et au repos, des contrôles d'accès et des examens réguliers de sécurité. Aucune méthode de transmission ou de stockage n'est totalement sécurisée, et nous vous encourageons à utiliser un mot de passe fort et unique, ainsi qu'à activer l'authentification à deux facteurs lorsque cela est disponible."
+        ]
+      },
+      {
+        "heading": "Transferts internationaux de données",
+        "paragraphs": [
+          "Lorsqu'il est nécessaire de transférer vos données personnelles en dehors de l'Espace économique européen (EEE), nous nous appuyons sur des garanties appropriées, telles que les clauses contractuelles types de la Commission européenne, afin d'assurer que vos données continuent de bénéficier d'un niveau de protection équivalent."
+        ]
+      },
+      {
+        "heading": "Vos droits sur vos données",
+        "paragraphs": [
+          "Selon votre lieu de résidence, vous pouvez disposer des droits suivants :"
+        ],
+        "bullets": [
+          "Accès — obtenir une copie des données personnelles que nous détenons à votre sujet.",
+          "Rectification — demander la correction de données inexactes ou incomplètes.",
+          "Effacement — demander la suppression de vos données (droit à l'effacement), sous réserve de motifs légaux ou légitimes de conservation.",
+          "Limitation — demander que nous limitions le traitement dans certaines circonstances.",
+          "Opposition — vous opposer au traitement fondé sur nos intérêts légitimes ou à des fins de prospection commerciale.",
+          "Portabilité — recevoir vos données dans un format structuré et lisible par machine.",
+          "Retrait du consentement — retirer votre consentement à tout moment lorsque le traitement est fondé sur le consentement, sans affecter la licéité du traitement antérieur."
+        ]
+      },
+      {
+        "heading": "Décisions automatisées",
+        "paragraphs": [
+          "Nous ne prenons pas de décisions produisant des effets juridiques ou des effets significatifs similaires à votre égard sur la seule base d'un traitement automatisé, sans intervention humaine."
+        ]
+      },
+      {
+        "heading": "Données des mineurs",
+        "paragraphs": [
+          "Nos services ne sont pas destinés aux personnes de moins de 18 ans. Nous ne collectons pas sciemment de données personnelles auprès de mineurs, et nous supprimerons promptement toute donnée de ce type si nous en avons connaissance. Si vous pensez qu'un mineur nous a transmis des données personnelles, veuillez nous contacter."
         ]
       },
       {
         "heading": "Conservation des données",
         "paragraphs": [
-          "Nous conservons vos informations personnelles aussi longtemps que votre compte est actif ou que cela est nécessaire pour vous fournir nos services et respecter nos obligations légales."
+          "Nous conservons les données personnelles uniquement aussi longtemps que nécessaire aux fins décrites dans la présente Politique, ou conformément à la législation applicable, généralement dans la limite du délai de prescription des éventuelles réclamations. Lorsque la conservation n'est plus nécessaire, nous supprimons ou anonymisons les données de manière sécurisée."
         ]
       },
       {
-        "heading": "Vos droits",
+        "heading": "Réclamations",
         "paragraphs": [
-          "Selon votre lieu de résidence, vous pouvez avoir le droit d'accéder à vos données personnelles, de les rectifier ou de les supprimer, ainsi que de vous opposer à certains traitements ou de les limiter.",
-          "Pour exercer l'un de ces droits, veuillez contacter notre équipe d'assistance via les canaux indiqués sur notre page Contacts."
+          "Si vous avez des préoccupations concernant la manière dont nous traitons vos données personnelles, veuillez d'abord nous contacter. Vous avez également le droit d'introduire une réclamation auprès de l'autorité de protection des données de votre pays de résidence."
         ]
       },
       {
-        "heading": "Nous contacter",
+        "heading": "Mises à jour de la présente Politique",
         "paragraphs": [
-          "Si vous avez des questions concernant la présente Politique de confidentialité ou la manière dont nous traitons vos données, veuillez nous contacter via Discord ou notre adresse e-mail d'assistance."
+          "Nous pouvons mettre à jour la présente Politique de temps à autre afin de refléter l'évolution de nos pratiques ou des exigences légales. Nous vous informerons des modifications importantes via le site web ou par e-mail. La poursuite de l'utilisation de nos services après de telles modifications vaut acceptation de la Politique mise à jour."
+        ]
+      },
+      {
+        "heading": "Coordonnées",
+        "paragraphs": [
+          "Pour toute question relative à la présente Politique, veuillez nous contacter à l'adresse privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -52,47 +143,220 @@
   "terms": {
     "badge": "Mentions légales",
     "title": "Conditions générales d'utilisation",
-    "lastUpdated": "18 juin 2026",
-    "intro": "Les présentes Conditions générales d'utilisation régissent votre accès et l'utilisation du site web, des serveurs de jeu et des services associés d'Adventures in Minecraft. En utilisant nos services, vous acceptez ces conditions.",
+    "lastUpdated": "6 août 2026",
+    "intro": [
+      "Bonjour et bienvenue sur https://minecraftsgame.com/ (le « Site ») !",
+      "Les présentes Conditions générales d'utilisation (les « Conditions ») régissent la relation contractuelle entre Dexervil LTD, société immatriculée conformément aux lois du Royaume-Uni, dont le siège social est situé au 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, numéro d'entreprise 17345695 (« nous », « notre », « nos » ou la « Société ») et les utilisateurs de nos services (« vous », « votre » ou « utilisateur »).",
+      "Les présentes Conditions s'appliquent à votre utilisation du Site et à tout produit ou service acheté par son intermédiaire (les « Services »). En accédant au Site, en l'utilisant ou en effectuant un achat, vous acceptez d'être lié par les présentes Conditions, notre Politique de confidentialité, notre Politique en matière de cookies et toute autre politique mentionnée ici ou accessible depuis le Site (ensemble, les « Conditions d'utilisation »).",
+      "Veuillez lire attentivement ces Conditions d'utilisation avant d'accéder au Site ou d'utiliser l'un de nos Services. Si vous n'acceptez pas une partie quelconque de celles-ci, vous ne devez pas utiliser le Site.",
+      "Vous devez accepter ces Conditions d'utilisation pour créer un compte et accéder à nos Services. Si vous ne disposez pas de compte, l'utilisation de toute partie du Service vaut acceptation des présentes Conditions.",
+      "Pour toute question relative aux présentes Conditions, veuillez nous contacter à l'adresse privacy@minecraftsgame.com."
+    ],
     "sections": [
       {
-        "heading": "Acceptation des conditions",
+        "heading": "Définitions",
         "paragraphs": [
-          "En créant un compte ou en utilisant de toute autre manière nos services, vous confirmez que vous acceptez les présentes Conditions générales d'utilisation et vous engagez à les respecter.",
-          "Si vous n'acceptez pas l'une quelconque partie de ces conditions, vous ne devez pas utiliser nos services."
+          "« Jour ouvrable » désigne un jour (autre qu'un samedi, un dimanche ou un jour férié) où les banques et les autorités publiques sont ouvertes au Royaume-Uni.",
+          "« Contenu » désigne les graphismes, textes, fichiers multimédias, logiciels et tout autre élément disponible sur le Site.",
+          "« Objet numérique » désigne tout privilège, cristal ou autre objet en jeu mis à disposition d'un utilisateur pour une utilisation exclusive sur nos Serveurs.",
+          "« Jeu » désigne Minecraft, jeu vidéo bac à sable développé et publié par Mojang Studios et d'autres titulaires de droits.",
+          "« Services » désigne tout produit, Objet numérique ou service fourni à un utilisateur en vertu des présentes Conditions.",
+          "« Serveurs » désigne les serveurs de jeu exploités par la Société au sein du Jeu, comprenant actuellement trois (3) serveurs distincts, sur lesquels les utilisateurs peuvent jouer et auxquels les Objets numériques achetés sont livrés.",
+          "« Politique de confidentialité » désigne, collectivement, notre Politique de confidentialité et notre Politique en matière de cookies, disponibles sur le Site, qui régissent le traitement des données personnelles."
         ]
       },
       {
-        "heading": "Comptes et éligibilité",
+        "heading": "Modifications",
         "paragraphs": [
-          "Vous êtes responsable de la confidentialité de vos identifiants de connexion et de toutes les activités effectuées sous votre compte.",
-          "Vous devez fournir des informations exactes lors de votre inscription et les tenir à jour."
+          "Nous pouvons modifier, suspendre ou interrompre le Site, les Services et/ou leur Contenu à tout moment, à notre seule discrétion et sans préavis. Il vous incombe de consulter régulièrement les présentes Conditions. La poursuite de l'utilisation du Site après toute modification vaut acceptation de celle-ci. Si vous n'acceptez pas une disposition des présentes Conditions, votre seul recours est de cesser d'utiliser le Site."
         ]
       },
       {
-        "heading": "Utilisation acceptable",
+        "heading": "Éligibilité",
         "paragraphs": [
-          "Vous vous engagez à ne pas tricher, exploiter des bugs, utiliser des logiciels tiers non autorisés, harceler d'autres joueurs ou vous livrer à toute activité perturbant l'expérience des autres.",
-          "Nous nous réservons le droit de suspendre ou de résilier les comptes qui enfreignent ces règles."
+          "Vous devez avoir au moins 18 ans pour utiliser le Site ou les Services. Si l'âge de la majorité dans votre juridiction de résidence est supérieur, cet âge s'applique.",
+          "En acceptant les présentes Conditions, vous déclarez et garantissez que : (a) vous avez atteint l'âge légal applicable ; et (b) votre utilisation du Site est conforme à l'ensemble des lois et réglementations qui vous sont applicables.",
+          "Vous ne pouvez pas utiliser le Site, nos Services ou notre Contenu si : (1) une telle utilisation serait illégale au regard du droit applicable ; ou (2) vous vous trouvez dans une juridiction où nos Services sont restreints, comme cela peut être indiqué sur le Site de temps à autre."
         ]
       },
       {
-        "heading": "Achats et objets virtuels",
+        "heading": "Activités interdites",
         "paragraphs": [
-          "Tout objet ou service de jeu acheté vous est concédé sous licence, et non vendu, et n'a aucune valeur monétaire réelle.",
-          "Tous les achats sont définitifs, sauf si la législation applicable en dispose autrement."
+          "Vous ne pouvez utiliser le Site et son Contenu qu'à des fins licites et conformément aux présentes Conditions. Vous ne pouvez pas utiliser les Services pour développer ou proposer un produit concurrent, procéder à l'ingénierie inverse d'une partie quelconque des Services, ni revendre ou redistribuer les Services. Chaque compte ne peut être utilisé que par un seul utilisateur, et chaque utilisateur ne peut détenir qu'un seul compte.",
+          "Vous ne pouvez pas utiliser les Services pour porter atteinte aux droits de propriété intellectuelle d'autrui, y compris les droits d'auteur, brevets ou marques. Une telle utilisation peut entraîner des sanctions, y compris des poursuites judiciaires ou un bannissement permanent.",
+          "Nous pouvons enquêter sur les violations signalées des présentes Conditions et prendre toute mesure que nous jugeons appropriée, y compris signaler toute activité illégale suspectée aux autorités compétentes, aux régulateurs ou à des tiers, et divulguer les informations nécessaires à cette fin.",
+          "Il vous est en outre interdit d'utiliser le Site ou les Services :"
+        ],
+        "bullets": [
+          "à des fins illégales",
+          "pour inciter autrui à commettre des actes illégaux",
+          "pour enfreindre toute loi, réglementation ou ordonnance applicable",
+          "pour porter atteinte à nos droits de propriété intellectuelle ou à ceux d'autrui",
+          "pour harceler, abuser, diffamer ou discriminer toute personne sur un motif protégé",
+          "pour transmettre des informations fausses ou trompeuses",
+          "pour téléverser des virus ou tout autre code malveillant",
+          "pour collecter ou suivre les informations personnelles d'autres utilisateurs",
+          "à des fins de spam, hameçonnage ou extraction de données",
+          "à des fins obscènes ou immorales",
+          "pour interférer avec la sécurité du Service ou du Site ou la contourner"
+        ]
+      },
+      {
+        "heading": "Politique d'utilisation équitable",
+        "paragraphs": [
+          "Si votre utilisation est continuellement excessive ou abusive, affecte négativement la jouissance des Services par d'autres utilisateurs, ou est incompatible avec l'utilisation typique attendue de votre formule actuelle, nous pouvons suspendre ou résilier votre accès aux Services."
+        ]
+      },
+      {
+        "heading": "Nos Services",
+        "paragraphs": [
+          "Le Site est une boutique Minecraft exploitée par la Société. Nous exploitons des Serveurs dédiés au sein du Jeu, sur lesquels les utilisateurs peuvent jouer. Par l'intermédiaire de votre compte personnel (l'« Espace personnel ») sur le Site, vous pouvez acheter des privilèges, des cristaux et d'autres Objets numériques. Lorsque vous finalisez un achat, vous sélectionnez le Serveur sur lequel vous souhaitez jouer, et l'Objet numérique acheté est livré sur votre compte sur ce Serveur."
+        ]
+      },
+      {
+        "heading": "Accès aux Serveurs",
+        "paragraphs": [
+          "L'accès à nos Serveurs est gratuit. Pour vous connecter, vous devez disposer d'une copie sous licence du Jeu. Après avoir lancé le Jeu, saisissez l'adresse IP du Serveur concerné dans le menu multijoueur. Les adresses IP des Serveurs sont disponibles sur le Site. Si vous souhaitez jouer sur un autre de nos Serveurs, vous pouvez retourner sur le Site pour obtenir l'adresse IP correspondante."
+        ]
+      },
+      {
+        "heading": "Création de compte utilisateur",
+        "paragraphs": [
+          "Pour accéder à certains Services ou sections du Site, vous devez créer un compte (le « Compte ») et fournir des informations telles que votre nom, votre pays de résidence, votre mot de passe et votre adresse e-mail.",
+          "Vous déclarez et garantissez que toutes les informations que vous fournissez sont exactes, complètes et à jour, et vous vous engagez à les maintenir à jour, y compris votre adresse e-mail et vos coordonnées de paiement, afin que nous puissions traiter les transactions et vous contacter si nécessaire. Les informations que vous fournissez lors de l'inscription seront traitées conformément à notre Politique de confidentialité. Conservez votre mot de passe de manière confidentielle.",
+          "Votre Compte est lié à votre adresse e-mail personnelle, et vous ne pouvez pas autoriser des tiers à y accéder. Vous êtes responsable de la protection de vos identifiants de Compte et de toute activité effectuée sous votre Compte.",
+          "Nous pouvons refuser une inscription pour des motifs valables et objectifs, notamment en cas de violation des présentes Conditions, de mesures de prévention de la fraude, de doute sur votre identité, d'activité suspecte de spam, d'incertitude quant à votre âge, de comportement frauduleux ou de tentative d'inscription depuis une juridiction où nos Services ne sont pas disponibles."
+        ]
+      },
+      {
+        "heading": "Politique relative au compte utilisateur",
+        "paragraphs": [
+          "Vous êtes seul responsable de toute activité effectuée sous votre Compte. Vous vous engagez à ne pas utiliser le compte, le nom d'utilisateur ou le mot de passe d'un autre utilisateur, et à ne pas divulguer votre propre mot de passe à un tiers.",
+          "Vous vous engagez à nous informer immédiatement de toute utilisation non autorisée de votre Compte.",
+          "Si nous avons des motifs raisonnables de suspecter une violation des présentes Conditions, ou que les informations que vous avez fournies sont fausses, inexactes ou incomplètes, nous pouvons résilier votre Compte et refuser l'accès à tout ou partie des Services.",
+          "Nous ne sommes pas responsables de toute perte ou dommage résultant d'un accès non autorisé à votre Compte ou de son utilisation non autorisée."
+        ]
+      },
+      {
+        "heading": "Politique relative aux comptes inactifs",
+        "paragraphs": [
+          "Nous pouvons désactiver ou fermer les Comptes restés inactifs pendant plus de 30 jours calendaires, et les données associées peuvent être supprimées en conséquence. Nous ne sommes pas tenus de vous en informer au préalable."
+        ]
+      },
+      {
+        "heading": "Achats en jeu",
+        "paragraphs": [
+          "Pour acheter des Objets numériques dans notre boutique en jeu, vous devez d'abord accéder à l'un de nos Serveurs, comme décrit ci-dessus.",
+          "Pour acheter un Objet numérique, sélectionnez l'objet souhaité dans votre Espace personnel, choisissez le Serveur sur lequel il doit être livré, et payez à l'aide d'un moyen de paiement accepté.",
+          "Nous mettrons les Objets numériques achetés à disposition sur votre compte, sur le Serveur sélectionné, sans retard injustifié dès réception de la confirmation de votre paiement.",
+          "Nous ne sommes pas tenus de finaliser un achat lorsqu'une tentative de paiement échoue ou est refusée par notre prestataire de services de paiement.",
+          "Les achats doivent être effectués exclusivement depuis votre propre compte. Nous nous réservons le droit de refuser toute commande, et de limiter ou annuler les quantités achetées par personne, foyer ou commande, y compris les commandes passées avec le même compte, la même carte de paiement ou les mêmes coordonnées de facturation. Si nous modifions ou annulons une commande, nous tenterons de vous en informer en utilisant les coordonnées enregistrées. Nous pouvons limiter ou refuser les commandes qui, à notre appréciation, semblent être passées par des revendeurs ou distributeurs.",
+          "Vous vous engagez à maintenir à jour, complètes et exactes les informations de votre compte et de paiement afin que nous puissions traiter vos achats et vous contacter si nécessaire."
+        ]
+      },
+      {
+        "heading": "Prix",
+        "paragraphs": [
+          "Les prix comprennent généralement les frais de livraison, de manutention et taxes applicables ; dans le cas contraire, nous vous en informerons avant que vous ne passiez commande. Votre achat peut être soumis à des frais de change ou à des différences de prix selon votre localisation.",
+          "Nous pouvons ajuster, suspendre ou interrompre tout Service à notre discrétion et ne sommes pas responsables des pertes résultant de tels changements.",
+          "Dans la mesure permise par la loi, nous pouvons modifier nos prix à tout moment. Nous vous informerons de toute modification tarifaire dans un délai raisonnable en publiant les prix mis à jour sur le Site et/ou en vous notifiant par e-mail ou par tout autre moyen visible.",
+          "Si vous ne souhaitez pas payer un nouveau prix, vous pouvez résilier l'abonnement concerné avant l'entrée en vigueur de la modification. Pour éviter d'être facturé, vous devez résilier activement votre abonnement au moins 24 heures avant la fin de la période de facturation en cours."
+        ]
+      },
+      {
+        "heading": "Paiements",
+        "paragraphs": [
+          "Les paiements peuvent être débités de votre compte à l'aide d'une carte de débit ou de crédit, ou de tout autre moyen de paiement accepté.",
+          "Les achats doivent être payés d'avance. Vous ne pouvez acheter un Objet numérique ou un Service que si vous disposez de fonds ou de crédit suffisants.",
+          "Si un paiement n'est pas approuvé ou est rejeté pour insuffisance de fonds, votre commande ne sera pas traitée.",
+          "Tous les paiements sont traités par nos prestataires de services de paiement tiers. Le Site est notifié une fois le paiement effectué et ne stocke pas les coordonnées de carte bancaire.",
+          "Le cas échéant, nous respectons la législation européenne applicable aux services de paiement, y compris la directive (UE) 2015/2366 (DSP2)."
         ]
       },
       {
         "heading": "Limitation de responsabilité",
         "paragraphs": [
-          "Nos services sont fournis « en l'état » et « selon disponibilité ». Dans toute la mesure permise par la loi, nous ne sommes pas responsables des dommages indirects ou consécutifs découlant de votre utilisation de nos services."
+          "Dans toute la mesure permise par la loi, la Société et ses affiliés, agents, dirigeants, employés, fournisseurs et concédants de licence ne sauraient être tenus responsables envers vous de tout dommage résultant de votre utilisation ou de votre incapacité à utiliser le Site, le Contenu, les Services ou les Objets numériques, y compris les dommages résultant d'erreurs, d'interruptions, de retards, de pertes de données, d'accès non autorisés ou de la confiance accordée à des informations obtenues via le Site.",
+          "En aucun cas la Société ne saurait être tenue responsable de dommages indirects, spéciaux, accessoires, consécutifs, punitifs ou exemplaires, y compris la perte de clientèle, la perte de bénéfices ou la perte ou la corruption de données. Votre seul recours en cas d'insatisfaction à l'égard du Site est d'en cesser l'utilisation.",
+          "En aucun cas la responsabilité totale de la Société envers vous ne pourra excéder le montant que vous avez versé à la Société en vertu des présentes Conditions.",
+          "Cette limitation s'applique quelle que soit la théorie juridique invoquée (contrat, responsabilité délictuelle, négligence, responsabilité stricte ou autre), même si la Société a été informée de la possibilité de tels dommages."
         ]
       },
       {
-        "heading": "Modifications des présentes conditions",
+        "heading": "Exclusion de garanties",
         "paragraphs": [
-          "Nous pouvons mettre à jour les présentes Conditions générales d'utilisation de temps à autre. La poursuite de l'utilisation de nos services après l'entrée en vigueur des modifications vaut acceptation des conditions mises à jour."
+          "Le Site, le Contenu et les Services sont fournis « en l'état » et « selon disponibilité », sans garantie d'aucune sorte, expresse ou implicite, y compris les garanties implicites de qualité marchande ou d'adéquation à un usage particulier, dans toute la mesure permise par la loi.",
+          "Nous ne garantissons pas que le Site ou ses Services répondront à vos exigences spécifiques, seront ininterrompus, ponctuels, sécurisés ou exempts d'erreurs, ni que les résultats obtenus seront exacts ou fiables. Votre utilisation du Site et des Serveurs se fait à vos propres risques."
+        ]
+      },
+      {
+        "heading": "Utilisation des serveurs de jeu",
+        "paragraphs": [
+          "Nos Serveurs sont fournis sous réserve des conditions du contrat de licence utilisateur final (CLUF) du Jeu. Vous ne pouvez pas utiliser les Serveurs d'une manière qui enfreint le CLUF ou le droit applicable, porte atteinte aux droits d'autrui, endommage ou surcharge les Serveurs ou les réseaux connectés, ou tente d'accéder sans autorisation aux Serveurs ou aux systèmes associés. Nous pouvons suspendre ou résilier votre accès aux Serveurs à tout moment, avec ou sans préavis, pour quelque motif que ce soit."
+        ]
+      },
+      {
+        "heading": "Propriété intellectuelle",
+        "paragraphs": [
+          "L'ensemble du Contenu du Site est la propriété de la Société ou de ses concédants de licence, sauf indication contraire, et est protégé par le droit d'auteur et les autres lois applicables. Les marques, logos et signes similaires affichés sur le Site ne peuvent être utilisés sans autorisation.",
+          "La Société n'est ni affiliée à, ni approuvée par Mojang Studios, Xbox Game Studios ou d'autres titulaires de droits sur le Jeu.",
+          "Si vous nous transmettez du contenu (« Votre contenu »), vous en conservez la propriété, mais accordez à la Société une licence non exclusive, mondiale, perpétuelle, gratuite, transférable et sous-licenciable pour l'utiliser, le reproduire, le modifier, le distribuer et le traiter en lien avec les Services. Vous garantissez que vous avez le droit de partager ce contenu et qu'il ne porte pas atteinte aux droits de tiers."
+        ]
+      },
+      {
+        "heading": "Indemnisation",
+        "paragraphs": [
+          "En accédant au Site, vous acceptez de défendre, d'indemniser et de dégager de toute responsabilité la Société et ses affiliés contre toute réclamation, demande et frais juridiques raisonnables résultant de votre utilisation ou mauvaise utilisation du Site, des Services ou du Contenu, de votre violation des présentes Conditions ou de votre comportement."
+        ]
+      },
+      {
+        "heading": "Force majeure",
+        "paragraphs": [
+          "La Société n'est pas responsable des retards ou manquements à ses obligations causés par des circonstances indépendantes de sa volonté raisonnable, notamment les catastrophes naturelles, incendies, épidémies, guerres, actes de terrorisme, émeutes, embargos, pannes de télécommunications ou d'infrastructures, conflits sociaux ou mesures gouvernementales."
+        ]
+      },
+      {
+        "heading": "Absence de renonciation",
+        "paragraphs": [
+          "Le fait pour nous de ne pas faire appliquer une disposition des présentes Conditions ne constitue pas une renonciation à notre droit de l'appliquer, ou à toute autre disposition, ultérieurement."
+        ]
+      },
+      {
+        "heading": "Absence de partenariat",
+        "paragraphs": [
+          "Rien dans les présentes Conditions ne crée de coentreprise, de partenariat, de relation de travail ou de mandat entre vous et la Société."
+        ]
+      },
+      {
+        "heading": "Résiliation",
+        "paragraphs": [
+          "Nous pouvons suspendre, résilier ou restreindre votre accès au Site ou aux Services à tout moment, sans préavis ni responsabilité, pour quelque motif que ce soit, y compris en cas de violation des présentes Conditions."
+        ]
+      },
+      {
+        "heading": "Droit applicable et règlement des litiges",
+        "paragraphs": [
+          "Les présentes Conditions sont régies par le droit du Royaume-Uni. Rien dans les présentes Conditions ne vous prive des protections accordées aux consommateurs en vertu des lois impératives de votre pays de résidence.",
+          "Si vous résidez dans l'EEE ou en Suisse, vous pouvez utiliser la plateforme européenne de règlement en ligne des litiges à l'adresse http://ec.europa.eu/consumers/odr pour résoudre les litiges avec nous.",
+          "Pour toute réclamation relative aux présentes Conditions, veuillez nous contacter à l'adresse privacy@minecraftsgame.com."
+        ]
+      },
+      {
+        "heading": "Divisibilité",
+        "paragraphs": [
+          "Si une disposition des présentes Conditions est jugée inapplicable, elle sera modifiée dans la mesure minimale nécessaire pour la rendre applicable, et les autres dispositions resteront pleinement en vigueur."
+        ]
+      },
+      {
+        "heading": "Intégralité de l'accord",
+        "paragraphs": [
+          "Les présentes Conditions constituent l'intégralité de l'accord entre vous et nous concernant le Site et les Services, et remplacent tout accord ou entente antérieur portant sur le même objet."
+        ]
+      },
+      {
+        "heading": "Survie",
+        "paragraphs": [
+          "Les sections 4, 15, 16, 18, 19, 21 et 24 survivent pendant 10 (dix) ans après la résiliation de votre Compte ou de votre accès aux Services."
         ]
       }
     ]
@@ -100,39 +364,62 @@
   "cookies": {
     "badge": "Mentions légales",
     "title": "Politique en matière de cookies",
-    "lastUpdated": "18 juin 2026",
-    "intro": "La présente Politique en matière de cookies explique ce que sont les cookies, comment Adventures in Minecraft les utilise et les choix dont vous disposez à leur égard.",
+    "lastUpdated": "6 août 2026",
+    "intro": [
+      "La présente Politique en matière de cookies explique comment Dexervil LTD (« nous », « notre » ou « la Société ») utilise les cookies et technologies similaires sur https://minecraftsgame.com/ (le « Site »). Elle doit être lue conjointement avec notre Politique de confidentialité, qui explique plus généralement comment nous utilisons les données personnelles."
+    ],
     "sections": [
       {
-        "heading": "Qu'est-ce qu'un cookie ?",
+        "heading": "Que sont les cookies ?",
         "paragraphs": [
-          "Les cookies sont de petits fichiers texte stockés sur votre appareil lorsque vous visitez un site web. Ils permettent au site de mémoriser vos préférences et d'améliorer votre expérience."
+          "Les cookies sont de petits fichiers texte déposés sur votre appareil lorsque vous visitez un site web. Ils permettent au site de reconnaître votre appareil et de stocker des informations sur vos préférences ou vos actions passées. Nous utilisons également des technologies similaires, telles que le stockage local et les pixels, qui sont couvertes par la présente Politique au même titre que les cookies."
         ]
       },
       {
         "heading": "Types de cookies que nous utilisons",
         "paragraphs": [
-          "Les cookies nécessaires sont indispensables au fonctionnement du site, notamment pour maintenir votre connexion et sécuriser votre session. Ils ne peuvent pas être désactivés.",
-          "Les cookies analytiques nous aident à comprendre comment les visiteurs interagissent avec notre site afin de l'améliorer. Les cookies marketing peuvent être utilisés pour diffuser du contenu pertinent et mesurer les performances des campagnes."
-        ]
-      },
-      {
-        "heading": "Gestion de vos préférences",
-        "paragraphs": [
-          "Lors de votre première visite sur notre site, vous pouvez choisir d'accepter ou de refuser les cookies non essentiels via notre bannière de cookies.",
-          "Vous pouvez également contrôler et supprimer les cookies à tout moment via les paramètres de votre navigateur. La désactivation de certains cookies peut affecter le fonctionnement du site."
+          "Nous utilisons les catégories de cookies suivantes :"
+        ],
+        "bullets": [
+          "Cookies strictement nécessaires — indispensables au fonctionnement du Site, notamment pour maintenir votre connexion et permettre un paiement sécurisé. Ils ne peuvent pas être désactivés dans nos systèmes.",
+          "Cookies fonctionnels — mémorisent vos préférences, telles que le Serveur sélectionné ou la langue, afin d'améliorer votre expérience.",
+          "Cookies analytiques — nous aident à comprendre comment les visiteurs interagissent avec le Site (par exemple via Google Analytics), afin d'en améliorer les performances et le contenu.",
+          "Cookies marketing — utilisés, le cas échéant et avec votre consentement, pour diffuser des publicités plus pertinentes et mesurer l'efficacité des campagnes marketing."
         ]
       },
       {
         "heading": "Cookies tiers",
         "paragraphs": [
-          "Certains cookies peuvent être déposés par des services tiers apparaissant sur nos pages. Nous ne contrôlons pas l'utilisation des cookies par ces tiers."
+          "Certains cookies sont déposés par des prestataires de services tiers qui fournissent des fonctionnalités sur notre Site, tels que l'analyse ou le traitement des paiements. Ces tiers peuvent utiliser des cookies conformément à leurs propres politiques de confidentialité et en matière de cookies, sur lesquelles nous n'exerçons pas un contrôle total."
         ]
       },
       {
-        "heading": "Mises à jour de cette politique",
+        "heading": "Quelle est la durée de vie des cookies ?",
         "paragraphs": [
-          "Nous pouvons mettre à jour la présente Politique en matière de cookies périodiquement pour refléter les évolutions technologiques ou réglementaires. Nous vous invitons à la consulter régulièrement afin de rester informé."
+          "Les cookies peuvent être de session ou persistants :"
+        ],
+        "bullets": [
+          "Cookies de session — temporaires et supprimés lorsque vous fermez votre navigateur.",
+          "Cookies persistants — restent sur votre appareil pendant une durée déterminée, ou jusqu'à ce que vous les supprimiez manuellement, afin que le Site mémorise vos préférences d'une visite à l'autre."
+        ]
+      },
+      {
+        "heading": "Gestion de vos préférences en matière de cookies",
+        "paragraphs": [
+          "Lors de votre première visite sur le Site, il vous sera demandé de consentir aux cookies non essentiels via notre bannière de cookies. Vous pouvez modifier vos préférences à tout moment.",
+          "Vous pouvez également gérer ou supprimer les cookies via les paramètres de votre navigateur. La plupart des navigateurs vous permettent de refuser les cookies, de supprimer les cookies existants ou d'être averti avant qu'un cookie ne soit enregistré. Veuillez noter que le blocage des cookies strictement nécessaires peut affecter le fonctionnement du Site, y compris votre capacité à vous connecter ou à finaliser un achat."
+        ]
+      },
+      {
+        "heading": "Modifications de la présente Politique",
+        "paragraphs": [
+          "Nous pouvons mettre à jour la présente Politique en matière de cookies de temps à autre afin de refléter l'évolution des cookies que nous utilisons ou pour des raisons légales ou réglementaires. Nous vous invitons à consulter régulièrement la présente Politique."
+        ]
+      },
+      {
+        "heading": "Nous contacter",
+        "paragraphs": [
+          "Pour toute question relative à la présente Politique en matière de cookies, veuillez nous contacter à l'adresse privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -182,55 +469,6 @@
         "heading": "Contacter l'assistance",
         "paragraphs": [
           "Pour toute question ou problème lié à la livraison, contactez-nous via Discord ou les canaux indiqués sur notre page Contacts. Indiquez votre pseudo en jeu, le serveur et l'heure approximative d'achat."
-        ]
-      }
-    ]
-  },
-  "billingRefunds": {
-    "badge": "Mentions légales",
-    "title": "Politique de facturation, remboursements et rétrofacturations",
-    "lastUpdated": "3 juillet 2026",
-    "intro": "Cette politique décrit comment nous traitons les paiements, gérons les remboursements et les rétrofacturations pour les achats effectués sur le site Adventures in Minecraft.",
-    "sections": [
-      {
-        "heading": "Traitement des paiements",
-        "paragraphs": [
-          "Les paiements sont traités via un prestataire conforme à la norme PCI DSS. Nous ne stockons pas les numéros complets de carte, codes CVV ou autres données sensibles de carte sur nos serveurs.",
-          "En finalisant un achat, vous nous autorisez à débiter le moyen de paiement fourni pour le montant total affiché au checkout, taxes et frais applicables inclus."
-        ]
-      },
-      {
-        "heading": "Biens numériques et vente ferme",
-        "paragraphs": [
-          "Tous les objets en jeu, privilèges et monnaie virtuelle sont des biens numériques qui vous sont concédés sous licence, non vendus, et n'ont aucune valeur monétaire réelle.",
-          "Comme la livraison commence immédiatement après le paiement, les achats sont généralement définitifs. Les remboursements ne sont accordés que lorsque la législation applicable sur la protection des consommateurs l'exige."
-        ]
-      },
-      {
-        "heading": "Éligibilité au remboursement",
-        "paragraphs": [
-          "Nous pouvons accorder un remboursement si vous avez été débité mais n'avez pas reçu vos objets en raison d'une erreur technique confirmée de notre côté et que l'assistance n'a pas pu les livrer manuellement.",
-          "Aucun remboursement n'est disponible pour les objets déjà livrés et consommés en jeu, les achats avec un mauvais pseudo ou serveur, ou les cas où vous étiez hors ligne au moment de la livraison."
-        ]
-      },
-      {
-        "heading": "Comment demander un remboursement",
-        "paragraphs": [
-          "Contactez notre équipe d'assistance dans les 14 jours suivant l'achat. Fournissez votre pseudo en jeu, le serveur, la date d'achat et une description du problème.",
-          "Les remboursements approuvés sont retournés au moyen de paiement d'origine. Les délais de traitement dépendent de votre banque ou émetteur de carte et peuvent prendre 5 à 10 jours ouvrables."
-        ]
-      },
-      {
-        "heading": "Rétrofacturations",
-        "paragraphs": [
-          "Si vous contestez un débit auprès de votre banque ou émetteur de carte sans nous contacter au préalable, nous nous réservons le droit de suspendre ou bannir définitivement le compte associé.",
-          "Déposer une rétrofacturation pour un achat dont les objets ont été livrés avec succès peut être considéré comme une fraude. Nous fournirons au prestataire de paiement des preuves de transaction et de livraison pour contester les rétrofacturations injustifiées."
-        ]
-      },
-      {
-        "heading": "Questions de facturation",
-        "paragraphs": [
-          "Pour toute question de facturation, demande de remboursement ou problème de paiement, contactez-nous via Discord ou l'e-mail d'assistance indiqué sur notre page Contacts."
         ]
       }
     ]

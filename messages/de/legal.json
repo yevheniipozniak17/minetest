@@ -5,46 +5,137 @@
   "privacy": {
     "badge": "Rechtliches",
     "title": "Datenschutzerklärung",
-    "lastUpdated": "18. Juni 2026",
-    "intro": "Diese Datenschutzerklärung erläutert, wie Adventures in Minecraft die personenbezogenen Daten, die Sie uns bei der Nutzung unserer Website und Spielserver bereitstellen, erhebt, verwendet und schützt.",
+    "lastUpdated": "6. August 2026",
+    "intro": [
+      "Willkommen auf unserer Website unter https://minecraftsgame.com/. Wir verpflichten uns, Ihre Privatsphäre und Ihre personenbezogenen Daten zu schützen. Diese Datenschutzerklärung (\"Richtlinie\") erläutert, wie wir Ihre Informationen erheben, verwenden und schützen, und beschreibt Ihre Rechte in Bezug auf Ihre personenbezogenen Daten. Bitte lesen Sie sie sorgfältig.",
+      "Durch die Nutzung unserer Dienste oder den Besuch unserer Website stimmen Sie den in dieser Richtlinie beschriebenen Praktiken zu. Wenn Sie mit einem Teil davon nicht einverstanden sind, unterlassen Sie bitte die Nutzung unserer Dienste oder Website."
+    ],
     "sections": [
       {
-        "heading": "Erhobene Daten",
+        "heading": "Verantwortlicher",
         "paragraphs": [
-          "Wir erheben Daten, die Sie uns direkt mitteilen, wie Ihren Benutzernamen, Ihre E-Mail-Adresse und Ihr Passwort bei der Kontoerstellung.",
-          "Darüber hinaus erfassen wir automatisch technische Daten, darunter Ihre IP-Adresse, Geräteinformationen, Browsertyp und In-Game-Aktivitäten, um unsere Dienste zu betreiben und abzusichern."
+          "Als Verantwortlicher im Sinne der Datenschutz-Grundverordnung (DSGVO) bestimmen wir die Zwecke und Mittel der Verarbeitung Ihrer personenbezogenen Daten und sind für die Einhaltung der geltenden Datenschutzgesetze verantwortlich. Sie können uns kontaktieren unter:",
+          "Unternehmen: Dexervil LTD\nHandelsregisternummer: 17345695\nEingetragene Anschrift: 2nd Floor College House, 17 King Edwards Road, Ruislip, London, Vereinigtes Königreich, HA4 7AE\nE-Mail: privacy@minecraftsgame.com"
         ]
       },
       {
-        "heading": "Verwendung Ihrer Daten",
+        "heading": "Von uns erhobene Informationen",
         "paragraphs": [
-          "Wir verwenden Ihre Daten, um unsere Dienste bereitzustellen und aufrechtzuerhalten, Ihr Konto zu authentifizieren, Käufe abzuwickeln, Betrug und Missbrauch zu verhindern sowie wichtige Informationen zu übermitteln.",
-          "Wir können aggregierte, anonymisierte Daten verwenden, um das Nutzungsverhalten auf unseren Servern zu verstehen und das Spielerlebnis sowie die Performance zu verbessern."
+          "Je nach Art Ihrer Nutzung unserer Dienste können wir folgende Kategorien personenbezogener Daten erheben und verarbeiten:"
+        ],
+        "bullets": [
+          "Kontoinformationen: Anmeldedaten, Benutzername, Aktivitätsprotokolle, Einstellungen und Profildetails.",
+          "Kontaktdaten: Ihre E-Mail-Adresse und, sofern angegeben, Telefonnummer oder Postanschrift.",
+          "Transaktionsinformationen: Ihre Bestell- und Kaufhistorie sowie Kontostand.",
+          "Zahlungsdaten: Zahlungen werden von unserem autorisierten Zahlungsdienstleister FINTECH GLOBAL SOFTWARE LTD abgewickelt. Wir erheben, verarbeiten oder speichern Ihre Zahlungskartendaten oder sonstige sensible Finanzinformationen nicht. Zahlungsdaten werden direkt vom Zahlungsgateway in Übereinstimmung mit den PCI-DSS-Standards erhoben und verarbeitet.",
+          "Kommunikationsaufzeichnungen: Korrespondenz mit unserem Kundensupport.",
+          "Technische Informationen: Gerätedaten, IP-Adresse, Betriebssystem, Browsertyp und Einstellungen.",
+          "Kundensupport-Daten: Details zu von Ihnen gemeldeten Problemen und deren Behebung.",
+          "Marketingpräferenzen: Ihre Präferenzen in Bezug auf Marketingmitteilungen, sofern zutreffend."
+        ]
+      },
+      {
+        "heading": "Wie wir Ihre Informationen verwenden",
+        "paragraphs": [
+          "Wir verwenden personenbezogene Daten für folgende Zwecke, jeweils gestützt auf eine geeignete Rechtsgrundlage:"
+        ],
+        "bullets": [
+          "Erbringung der Dienste — zur Bereitstellung der von Ihnen angeforderten Dienste (Rechtsgrundlage: Vertragserfüllung).",
+          "Kontoverwaltung — zur Erstellung und Verwaltung Ihres Kontos (Rechtsgrundlage: Vertragserfüllung).",
+          "Auftragsabwicklung — zur Bearbeitung und Lieferung Ihrer Käufe (Rechtsgrundlage: Vertragserfüllung).",
+          "Transaktionsmanagement — zur sicheren Ausführung und Verwaltung von Zahlungen (Rechtsgrundlage: Vertragserfüllung, berechtigte Interessen).",
+          "Kundensupport — zur Beantwortung von Anfragen und Bereitstellung von Unterstützung (Rechtsgrundlage: Vertragserfüllung, berechtigte Interessen).",
+          "Rechtliche Compliance — zur Erfüllung geltender gesetzlicher und regulatorischer Verpflichtungen (Rechtsgrundlage: rechtliche Verpflichtung).",
+          "Betrugsprävention — zur Erkennung und Verhinderung des Missbrauchs unserer Dienste (Rechtsgrundlage: rechtliche Verpflichtung, berechtigte Interessen).",
+          "Verbesserung der Dienste — zur Verbesserung und Weiterentwicklung unserer Website und Dienste (Rechtsgrundlage: berechtigte Interessen).",
+          "Marketing — zum Versand von Marketingmitteilungen, sofern Sie eingewilligt haben (Rechtsgrundlage: Einwilligung)."
+        ]
+      },
+      {
+        "heading": "Pflicht- und optionale Angaben",
+        "paragraphs": [
+          "Einige Informationen sind für die Erbringung unserer Dienste erforderlich und werden an der Erhebungsstelle als solche gekennzeichnet; ohne diese können wir bestimmte Dienste möglicherweise nicht bereitstellen. Andere Informationen sind optional und helfen uns, Ihr Erlebnis zu personalisieren."
+        ]
+      },
+      {
+        "heading": "Wie wir Daten erheben",
+        "paragraphs": [
+          "Wir erheben personenbezogene Daten auf folgende Weise:"
+        ],
+        "bullets": [
+          "Direkte Interaktionen: Informationen, die Sie uns direkt mitteilen, z. B. bei der Kontoerstellung, einem Kauf oder der Kontaktaufnahme mit dem Support.",
+          "Automatisierte Technologien: Daten, die über Cookies und ähnliche Technologien bei der Nutzung unserer Website erhoben werden — siehe unsere Cookie-Richtlinie für Details.",
+          "Drittquellen: Informationen, die wir von Dienstleistungspartnern erhalten können, z. B. von unseren Zahlungsanbietern."
         ]
       },
       {
         "heading": "Weitergabe von Daten",
         "paragraphs": [
-          "Wir verkaufen Ihre personenbezogenen Daten nicht. Wir können Daten an vertrauenswürdige Dienstleister weitergeben, die uns beim Betrieb unserer Plattform unterstützen, sowie wenn dies gesetzlich vorgeschrieben ist."
+          "Wir können Ihre personenbezogenen Daten an vertrauenswürdige Dienstleister weitergeben, die uns bei der Zahlungsabwicklung, Analyse oder beim Kundensupport unterstützen und die angemessenen Datenschutzverpflichtungen unterliegen; an Aufsichtsbehörden oder staatliche Stellen, soweit dies zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist; sowie an andere Empfänger, sofern Sie uns Ihre Einwilligung erteilt oder uns angewiesen haben.",
+          "Wir verkaufen Ihre personenbezogenen Daten nicht."
         ]
       },
       {
-        "heading": "Datenspeicherung",
+        "heading": "Datensicherheit",
         "paragraphs": [
-          "Wir speichern Ihre personenbezogenen Daten so lange, wie Ihr Konto aktiv ist oder soweit dies zur Erbringung unserer Dienste und zur Erfüllung unserer rechtlichen Verpflichtungen erforderlich ist."
+          "Wir treffen angemessene technische und organisatorische Maßnahmen zum Schutz Ihrer personenbezogenen Daten, einschließlich Verschlüsselung bei der Übertragung und im Ruhezustand, Zugriffskontrollen und regelmäßiger Sicherheitsüberprüfungen. Keine Übertragungs- oder Speichermethode ist vollständig sicher, und wir empfehlen Ihnen, ein starkes, einzigartiges Passwort zu verwenden und die Zwei-Faktor-Authentifizierung zu aktivieren, sofern verfügbar."
+        ]
+      },
+      {
+        "heading": "Internationale Datenübermittlungen",
+        "paragraphs": [
+          "Soweit eine Übermittlung Ihrer personenbezogenen Daten außerhalb des Europäischen Wirtschaftsraums (EWR) erforderlich ist, stützen wir uns auf geeignete Garantien, wie die Standardvertragsklauseln der Europäischen Kommission, um sicherzustellen, dass Ihre Daten weiterhin ein gleichwertiges Schutzniveau erhalten."
         ]
       },
       {
         "heading": "Ihre Rechte",
         "paragraphs": [
-          "Je nach Ihrem Standort haben Sie möglicherweise das Recht, auf Ihre personenbezogenen Daten zuzugreifen, diese zu berichtigen oder zu löschen sowie bestimmter Verarbeitungen zu widersprechen oder diese einzuschränken.",
-          "Um diese Rechte auszuüben, wenden Sie sich bitte über die auf unserer Kontaktseite aufgeführten Kanäle an unser Support-Team."
+          "Je nach Ihrem Standort können Ihnen folgende Rechte zustehen:"
+        ],
+        "bullets": [
+          "Auskunft — Erhalt einer Kopie der personenbezogenen Daten, die wir über Sie speichern.",
+          "Berichtigung — Verlangen der Berichtigung unrichtiger oder unvollständiger Daten.",
+          "Löschung — Verlangen der Löschung Ihrer Daten (\"Recht auf Vergessenwerden\"), vorbehaltlich gesetzlicher oder berechtigter Gründe für die Aufbewahrung.",
+          "Einschränkung — Verlangen, dass wir die Verarbeitung unter bestimmten Umständen einschränken.",
+          "Widerspruch — Widerspruch gegen die Verarbeitung auf Grundlage unserer berechtigten Interessen oder zu Direktmarketingzwecken.",
+          "Datenübertragbarkeit — Erhalt Ihrer Daten in einem strukturierten, maschinenlesbaren Format.",
+          "Widerruf der Einwilligung — Widerruf Ihrer Einwilligung jederzeit, sofern die Verarbeitung auf einer Einwilligung beruht, ohne dass die Rechtmäßigkeit der bisherigen Verarbeitung berührt wird."
         ]
       },
       {
-        "heading": "Kontakt",
+        "heading": "Automatisierte Entscheidungsfindung",
         "paragraphs": [
-          "Wenn Sie Fragen zu dieser Datenschutzerklärung oder zur Verarbeitung Ihrer Daten haben, kontaktieren Sie uns bitte über Discord oder unsere Support-E-Mail-Adresse."
+          "Wir treffen keine Entscheidungen, die Ihnen gegenüber rechtliche oder ähnlich erhebliche Wirkungen entfalten, ausschließlich auf der Grundlage automatisierter Verarbeitung ohne menschliches Eingreifen."
+        ]
+      },
+      {
+        "heading": "Daten Minderjähriger",
+        "paragraphs": [
+          "Unsere Dienste richten sich nicht an Personen unter 18 Jahren. Wir erheben wissentlich keine personenbezogenen Daten von Minderjährigen und löschen derartige Daten umgehend, sobald uns dies bekannt wird. Wenn Sie glauben, dass ein Minderjähriger uns personenbezogene Daten übermittelt hat, kontaktieren Sie uns bitte."
+        ]
+      },
+      {
+        "heading": "Datenspeicherung",
+        "paragraphs": [
+          "Wir speichern personenbezogene Daten nur so lange, wie es für die in dieser Richtlinie beschriebenen Zwecke erforderlich ist oder gesetzlich vorgeschrieben wird, in der Regel im Einklang mit der Verjährungsfrist für mögliche Ansprüche. Sobald die Aufbewahrung nicht mehr erforderlich ist, löschen oder anonymisieren wir die Daten sicher."
+        ]
+      },
+      {
+        "heading": "Beschwerden",
+        "paragraphs": [
+          "Wenn Sie Bedenken hinsichtlich unseres Umgangs mit Ihren personenbezogenen Daten haben, kontaktieren Sie uns bitte zuerst. Sie haben außerdem das Recht, bei der Datenschutzaufsichtsbehörde in Ihrem Wohnsitzland Beschwerde einzulegen."
+        ]
+      },
+      {
+        "heading": "Aktualisierungen dieser Richtlinie",
+        "paragraphs": [
+          "Wir können diese Richtlinie von Zeit zu Zeit aktualisieren, um Änderungen unserer Praktiken oder gesetzlicher Anforderungen widerzuspiegeln. Über wesentliche Änderungen informieren wir Sie über die Website oder per E-Mail. Die fortgesetzte Nutzung unserer Dienste nach solchen Änderungen gilt als Annahme der aktualisierten Richtlinie."
+        ]
+      },
+      {
+        "heading": "Kontaktinformationen",
+        "paragraphs": [
+          "Bei Fragen zu dieser Richtlinie kontaktieren Sie uns bitte unter privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -52,47 +143,220 @@
   "terms": {
     "badge": "Rechtliches",
     "title": "Allgemeine Geschäftsbedingungen",
-    "lastUpdated": "18. Juni 2026",
-    "intro": "Diese Allgemeinen Geschäftsbedingungen regeln Ihren Zugang zur und die Nutzung der Website, der Spielserver und der damit verbundenen Dienste von Adventures in Minecraft. Durch die Nutzung unserer Dienste stimmen Sie diesen Bedingungen zu.",
+    "lastUpdated": "6. August 2026",
+    "intro": [
+      "Hallo und willkommen auf https://minecraftsgame.com/ (die \"Website\")!",
+      "Diese Allgemeinen Geschäftsbedingungen (die \"AGB\") regeln das Vertragsverhältnis zwischen Dexervil LTD, einem nach dem Recht des Vereinigten Königreichs eingetragenen Unternehmen mit eingetragener Anschrift 2nd Floor College House, 17 King Edwards Road, Ruislip, London, Vereinigtes Königreich, HA4 7AE, Handelsregisternummer 17345695 (\"wir\", \"uns\", \"unser\" oder das \"Unternehmen\") und den Nutzern unserer Dienste (\"Sie\", \"Ihr\" oder \"Nutzer\").",
+      "Diese AGB gelten für Ihre Nutzung der Website sowie für alle über sie erworbenen Produkte oder Dienste (die \"Dienste\"). Durch den Zugriff auf, die Nutzung oder einen Kauf auf unserer Website erklären Sie sich mit diesen AGB, unserer Datenschutzerklärung, unserer Cookie-Richtlinie und allen anderen hierin genannten oder von der Website verlinkten Richtlinien (zusammen die \"Nutzungsbedingungen\") einverstanden.",
+      "Bitte lesen Sie diese Nutzungsbedingungen sorgfältig, bevor Sie auf die Website zugreifen oder diese nutzen. Wenn Sie mit einem Teil davon nicht einverstanden sind, dürfen Sie die Website nicht nutzen.",
+      "Sie müssen diese Nutzungsbedingungen akzeptieren, um ein Konto zu erstellen und auf unsere Dienste zugreifen zu können. Wenn Sie kein Konto haben, gilt die Nutzung eines Teils des Dienstes als Annahme dieser AGB.",
+      "Bei Fragen zu diesen AGB kontaktieren Sie uns bitte unter privacy@minecraftsgame.com."
+    ],
     "sections": [
       {
-        "heading": "Annahme der Bedingungen",
+        "heading": "Definitionen",
         "paragraphs": [
-          "Durch die Erstellung eines Kontos oder die sonstige Nutzung unserer Dienste bestätigen Sie, dass Sie diese Allgemeinen Geschäftsbedingungen akzeptieren und sich zu deren Einhaltung verpflichten.",
-          "Wenn Sie mit einem Teil dieser Bedingungen nicht einverstanden sind, dürfen Sie unsere Dienste nicht nutzen."
+          "\"Geschäftstag\" bezeichnet einen Tag (außer Samstag, Sonntag oder gesetzlichem Feiertag), an dem Banken und Behörden im Vereinigten Königreich für den Geschäftsverkehr geöffnet sind.",
+          "\"Inhalt\" bezeichnet Grafiken, Text, Mediendateien, Software und sonstige auf der Website verfügbare Materialien.",
+          "\"Digitaler Gegenstand\" bezeichnet Privilegien, Kristalle oder sonstige Ingame-Gegenstände, die einem Nutzer ausschließlich zur Nutzung auf unseren Servern zur Verfügung gestellt werden.",
+          "\"Spiel\" bezeichnet Minecraft, ein Sandbox-Videospiel, entwickelt und veröffentlicht von Mojang Studios und anderen Rechteinhabern.",
+          "\"Dienste\" bezeichnet jedes Produkt, jeden digitalen Gegenstand oder jede Leistung, die einem Nutzer unter diesen AGB bereitgestellt wird.",
+          "\"Server\" bezeichnet die vom Unternehmen im Spiel betriebenen Spieleserver, derzeit bestehend aus drei (3) separaten Servern, auf denen Nutzer spielen können und an die erworbene digitale Gegenstände geliefert werden.",
+          "\"Datenschutzerklärung\" bezeichnet zusammenfassend unsere Datenschutzerklärung und Cookie-Richtlinie, die auf der Website verfügbar sind und regeln, wie wir personenbezogene Daten verarbeiten."
         ]
       },
       {
-        "heading": "Konten und Nutzungsberechtigung",
+        "heading": "Änderungen",
         "paragraphs": [
-          "Sie sind dafür verantwortlich, die Vertraulichkeit Ihrer Zugangsdaten zu wahren und für alle Aktivitäten, die unter Ihrem Konto stattfinden.",
-          "Sie müssen bei der Registrierung genaue Angaben machen und diese stets auf dem neuesten Stand halten."
+          "Wir können die Website, die Dienste und/oder deren Inhalt jederzeit nach unserem alleinigen Ermessen und ohne vorherige Ankündigung ändern, aussetzen oder einstellen. Es liegt in Ihrer Verantwortung, diese AGB regelmäßig zu prüfen. Die fortgesetzte Nutzung der Website nach einer Änderung gilt als Annahme dieser Änderung. Wenn Sie mit einer Bestimmung dieser AGB nicht einverstanden sind, besteht Ihr einziges Rechtsmittel darin, die Nutzung der Website einzustellen."
         ]
       },
       {
-        "heading": "Zulässige Nutzung",
+        "heading": "Nutzungsberechtigung",
         "paragraphs": [
-          "Sie verpflichten sich, nicht zu betrügen, Fehler auszunutzen, nicht autorisierte Drittanbietersoftware zu verwenden, andere Spieler zu belästigen oder Aktivitäten durchzuführen, die das Spielerlebnis anderer beeinträchtigen.",
-          "Wir behalten uns das Recht vor, Konten, die gegen diese Regeln verstoßen, zu sperren oder zu kündigen."
+          "Sie müssen mindestens 18 Jahre alt sein, um die Website oder die Dienste zu nutzen. Wenn das Volljährigkeitsalter in Ihrem Wohnsitzland höher ist, gilt dieses Alter.",
+          "Mit der Zustimmung zu diesen AGB versichern und garantieren Sie, dass: (a) Sie das geltende gesetzliche Mindestalter erreicht haben; und (b) Ihre Nutzung der Website allen für Sie geltenden Gesetzen und Vorschriften entspricht.",
+          "Sie dürfen die Website, unsere Dienste oder unseren Inhalt nicht nutzen, wenn: (1) dies nach geltendem Recht rechtswidrig wäre; oder (2) Sie sich in einer Rechtsordnung befinden, in der unsere Dienste eingeschränkt sind, wie gegebenenfalls auf der Website mitgeteilt wird."
         ]
       },
       {
-        "heading": "Käufe und virtuelle Gegenstände",
+        "heading": "Unzulässige Aktivitäten",
         "paragraphs": [
-          "Erworbene In-Game-Gegenstände oder Dienste werden Ihnen lizenziert, nicht verkauft, und haben keinen realen Geldwert.",
-          "Alle Käufe sind endgültig, sofern das geltende Recht nichts anderes vorschreibt."
+          "Sie dürfen die Website und deren Inhalt nur für rechtmäßige Zwecke und in Übereinstimmung mit diesen AGB nutzen. Sie dürfen die Dienste nicht nutzen, um ein konkurrierendes Produkt zu entwickeln oder anzubieten, Teile der Dienste zu reverse-engineeren oder die Dienste weiterzuverkaufen oder weiterzuverteilen. Jedes Konto darf nur von einem Nutzer verwendet werden, und jeder Nutzer darf nur ein Konto führen.",
+          "Sie dürfen die Dienste nicht nutzen, um die geistigen Eigentumsrechte Dritter zu verletzen, einschließlich Urheber-, Patent- oder Markenrechten. Dies kann zu Sanktionen führen, einschließlich rechtlicher Schritte oder einer dauerhaften Sperre.",
+          "Wir können gemeldete Verstöße gegen diese AGB untersuchen und alle Maßnahmen ergreifen, die wir für angemessen halten, einschließlich der Meldung mutmaßlich rechtswidriger Aktivitäten an Strafverfolgungsbehörden, Aufsichtsbehörden oder andere Dritte sowie der Offenlegung von Informationen, soweit dies dafür erforderlich ist.",
+          "Es ist Ihnen ferner untersagt, die Website oder Dienste zu nutzen:"
+        ],
+        "bullets": [
+          "für rechtswidrige Zwecke",
+          "zur Aufforderung Dritter zu rechtswidrigen Handlungen",
+          "zur Verletzung geltender Gesetze, Vorschriften oder Verordnungen",
+          "zur Verletzung unserer geistigen Eigentumsrechte oder derer Dritter",
+          "zur Belästigung, Beleidigung, Diffamierung oder Diskriminierung einer Person aus einem geschützten Grund",
+          "zur Übermittlung falscher oder irreführender Informationen",
+          "zum Hochladen von Viren oder anderem Schadcode",
+          "zur Erhebung oder Verfolgung personenbezogener Daten anderer Nutzer",
+          "für Spam, Phishing oder das Scraping von Daten",
+          "für obszöne oder unmoralische Zwecke",
+          "zur Störung oder Umgehung der Sicherheit des Dienstes oder der Website"
+        ]
+      },
+      {
+        "heading": "Fair-Use-Richtlinie",
+        "paragraphs": [
+          "Wenn Ihre Nutzung dauerhaft übermäßig oder unangemessen ist, das Spielerlebnis anderer Nutzer negativ beeinträchtigt oder nicht der typischen Nutzung entspricht, die von Ihrem aktuellen Paket erwartet wird, können wir Ihren Zugang zu den Diensten aussetzen oder beenden."
+        ]
+      },
+      {
+        "heading": "Unsere Dienste",
+        "paragraphs": [
+          "Die Website ist ein Minecraft-Shop, betrieben vom Unternehmen. Wir betreiben dedizierte Server im Spiel, auf denen Nutzer spielen können. Über Ihr persönliches Konto (der \"Persönliche Bereich\") auf der Website können Sie Privilegien, Kristalle und andere digitale Gegenstände erwerben. Wenn Sie einen Kauf abschließen, wählen Sie den Server aus, auf dem Sie spielen möchten, und der erworbene digitale Gegenstand wird Ihrem Konto auf diesem Server gutgeschrieben."
+        ]
+      },
+      {
+        "heading": "Serverzugang",
+        "paragraphs": [
+          "Der Zugang zu unseren Servern ist kostenlos. Für die Verbindung benötigen Sie eine lizenzierte Kopie des Spiels. Nach dem Start des Spiels geben Sie die IP-Adresse des jeweiligen Servers im Mehrspielermenü ein. Server-IP-Adressen sind auf der Website verfügbar. Wenn Sie auf einem anderen unserer Server spielen möchten, können Sie zur Website zurückkehren, um die entsprechende IP-Adresse abzurufen."
+        ]
+      },
+      {
+        "heading": "Registrierung des Nutzerkontos",
+        "paragraphs": [
+          "Um auf bestimmte Dienste oder Bereiche der Website zuzugreifen, müssen Sie ein Konto (das \"Konto\") registrieren und Angaben wie Ihren Namen, Ihr Wohnsitzland, ein Passwort und Ihre E-Mail-Adresse machen.",
+          "Sie versichern und garantieren, dass alle von Ihnen gemachten Angaben aktuell, vollständig und richtig sind, und verpflichten sich, diese stets auf dem neuesten Stand zu halten, einschließlich Ihrer E-Mail-Adresse und Zahlungsdetails, damit wir Transaktionen abwickeln und Sie bei Bedarf kontaktieren können. Bei der Registrierung gemachte Angaben werden gemäß unserer Datenschutzerklärung behandelt. Halten Sie Ihr Passwort vertraulich.",
+          "Ihr Konto ist mit Ihrer persönlichen E-Mail-Adresse verknüpft, und Sie dürfen Dritten keinen Zugang dazu gewähren. Sie sind für den Schutz Ihrer Kontodaten und für alle unter Ihrem Konto durchgeführten Aktivitäten verantwortlich.",
+          "Wir können eine Registrierung aus triftigen und objektiven Gründen ablehnen, einschließlich eines Verstoßes gegen diese AGB, betrugspräventiver Maßnahmen, Zweifeln an Ihrer Identität, Verdacht auf Spam-Aktivitäten, Unsicherheit über Ihr Alter, betrügerischem Verhalten oder dem Versuch, sich aus einer Rechtsordnung zu registrieren, in der unsere Dienste nicht verfügbar sind."
+        ]
+      },
+      {
+        "heading": "Kontorichtlinie",
+        "paragraphs": [
+          "Sie sind allein verantwortlich für alle Aktivitäten, die unter Ihrem Konto stattfinden. Sie verpflichten sich, kein Konto, keinen Benutzernamen und kein Passwort eines anderen Nutzers zu verwenden und Ihr eigenes Passwort keinem Dritten mitzuteilen.",
+          "Sie verpflichten sich, uns unverzüglich über jede unbefugte Nutzung Ihres Kontos zu informieren.",
+          "Wenn wir begründeten Verdacht auf einen Verstoß gegen diese AGB haben oder dass von Ihnen gemachte Angaben unwahr, unrichtig oder unvollständig sind, können wir Ihr Konto kündigen und den weiteren Zugang zu einigen oder allen Diensten verweigern.",
+          "Wir haften nicht für Verluste oder Schäden, die aus unbefugtem Zugriff auf oder unbefugter Nutzung Ihres Kontos entstehen."
+        ]
+      },
+      {
+        "heading": "Richtlinie für inaktive Nutzerkonten",
+        "paragraphs": [
+          "Wir können Konten, die länger als 30 Kalendertage inaktiv bleiben, deaktivieren oder sperren, und zugehörige Daten können infolgedessen gelöscht werden. Wir sind nicht verpflichtet, Sie vorab über eine solche Maßnahme zu informieren."
+        ]
+      },
+      {
+        "heading": "Ingame-Käufe",
+        "paragraphs": [
+          "Um digitale Gegenstände in unserem Ingame-Shop zu erwerben, benötigen Sie zunächst Zugang zu einem unserer Server, wie oben beschrieben.",
+          "Um einen digitalen Gegenstand zu kaufen, wählen Sie den gewünschten Gegenstand in Ihrem Persönlichen Bereich aus, bestimmen Sie den Server, an den er geliefert werden soll, und bezahlen Sie mit einer akzeptierten Zahlungsmethode.",
+          "Wir stellen erworbene digitale Gegenstände ohne unangemessene Verzögerung auf Ihrem Konto auf dem ausgewählten Server bereit, sobald wir die Bestätigung Ihrer Zahlung erhalten haben.",
+          "Wir sind nicht verpflichtet, einen Kauf abzuschließen, wenn ein Zahlungsversuch fehlschlägt oder von unserem Zahlungsdienstleister abgelehnt wird.",
+          "Käufe dürfen nur über Ihr eigenes Konto getätigt werden. Wir behalten uns das Recht vor, Bestellungen abzulehnen sowie pro Person, Haushalt oder Bestellung Mengen zu begrenzen oder zu stornieren, einschließlich Bestellungen, die über dasselbe Konto, dieselbe Zahlungskarte oder dieselben Rechnungsdaten aufgegeben wurden. Wenn wir eine Bestellung ändern oder stornieren, versuchen wir, Sie über die hinterlegten Kontaktdaten zu informieren. Wir können Bestellungen begrenzen oder ablehnen, die nach unserer Einschätzung von Wiederverkäufern oder Distributoren stammen.",
+          "Sie verpflichten sich, Ihre Konto- und Zahlungsinformationen aktuell, vollständig und richtig zu halten, damit wir Ihre Käufe abwickeln und Sie bei Bedarf kontaktieren können."
+        ]
+      },
+      {
+        "heading": "Preise",
+        "paragraphs": [
+          "Preise enthalten in der Regel anfallende Liefer-, Bearbeitungs- und Steuerkosten; falls nicht, informieren wir Sie vor der Bestellung. Ihr Kauf kann Wechselkursgebühren oder preisliche Unterschiede je nach Standort unterliegen.",
+          "Wir können jeden Dienst nach unserem Ermessen anpassen, aussetzen oder einstellen und haften nicht für Verluste, die aus solchen Änderungen entstehen.",
+          "Soweit gesetzlich zulässig, können wir unsere Preise jederzeit ändern. Über Preisänderungen informieren wir Sie angemessen, indem wir aktualisierte Preise auf der Website veröffentlichen und/oder Sie per E-Mail oder auf andere hervorgehobene Weise benachrichtigen.",
+          "Wenn Sie einen neuen Preis nicht zahlen möchten, können Sie das betreffende Abonnement vor Inkrafttreten der Änderung kündigen. Um eine Belastung zu vermeiden, müssen Sie Ihr Abonnement mindestens 24 Stunden vor Ende des laufenden Abrechnungszeitraums aktiv kündigen."
+        ]
+      },
+      {
+        "heading": "Zahlungen",
+        "paragraphs": [
+          "Zahlungen können Ihrem Konto mittels Debit- oder Kreditkarte oder einer anderen akzeptierten Zahlungsmethode belastet werden.",
+          "Käufe müssen im Voraus bezahlt werden. Sie können einen digitalen Gegenstand oder Dienst nur erwerben, wenn ausreichend Guthaben oder Kredit verfügbar ist.",
+          "Wenn eine Zahlung nicht genehmigt wird oder wegen unzureichender Deckung zurückgewiesen wird, wird Ihre Bestellung nicht bearbeitet.",
+          "Alle Zahlungen werden von unseren Drittanbieter-Zahlungsdienstleistern abgewickelt. Die Website wird benachrichtigt, sobald eine Zahlung abgeschlossen ist, und speichert keine Zahlungskartendaten.",
+          "Soweit anwendbar, halten wir relevante EU-Zahlungsdienstrichtlinien ein, einschließlich der Richtlinie (EU) 2015/2366 (PSD2)."
         ]
       },
       {
         "heading": "Haftungsbeschränkung",
         "paragraphs": [
-          "Unsere Dienste werden auf einer „Wie-ist“-Basis und „Wie-verfügbar“-Basis bereitgestellt. Im größtmöglichen gesetzlich zulässigen Umfang haften wir nicht für indirekte oder Folgeschäden, die aus der Nutzung unserer Dienste entstehen."
+          "Soweit gesetzlich zulässig, haften das Unternehmen und seine verbundenen Unternehmen, Vertreter, Direktoren, Mitarbeiter, Lieferanten und Lizenzgeber Ihnen gegenüber nicht für Schäden, die aus Ihrer Nutzung oder Unfähigkeit zur Nutzung der Website, des Inhalts, der Dienste oder der digitalen Gegenstände entstehen, einschließlich Schäden infolge von Fehlern, Unterbrechungen, Verzögerungen, Datenverlust, unbefugtem Zugriff oder dem Vertrauen auf über die Website erhaltene Informationen.",
+          "In keinem Fall haftet das Unternehmen für indirekte, besondere, zufällige, Folge-, Straf- oder exemplarische Schäden, einschließlich Verlust von Goodwill, entgangenem Gewinn oder Verlust oder Beschädigung von Daten. Ihr einziges Rechtsmittel bei Unzufriedenheit mit der Website besteht darin, deren Nutzung einzustellen.",
+          "In keinem Fall übersteigt die Gesamthaftung des Unternehmens Ihnen gegenüber den Betrag, den Sie dem Unternehmen unter diesen AGB gezahlt haben.",
+          "Diese Beschränkung gilt unabhängig von der geltend gemachten Rechtstheorie (Vertrag, unerlaubte Handlung, Fahrlässigkeit, verschuldensunabhängige Haftung oder sonstige), selbst wenn das Unternehmen auf die Möglichkeit solcher Schäden hingewiesen wurde."
         ]
       },
       {
-        "heading": "Änderungen dieser Bedingungen",
+        "heading": "Gewährleistungsausschluss",
         "paragraphs": [
-          "Wir können diese Allgemeinen Geschäftsbedingungen von Zeit zu Zeit aktualisieren. Die fortgesetzte Nutzung unserer Dienste nach Inkrafttreten der Änderungen gilt als Annahme der aktualisierten Bedingungen."
+          "Die Website, der Inhalt und die Dienste werden \"wie besehen\" und \"wie verfügbar\" bereitgestellt, ohne jegliche ausdrückliche oder stillschweigende Gewährleistung, einschließlich stillschweigender Gewährleistungen der Marktgängigkeit oder Eignung für einen bestimmten Zweck, soweit gesetzlich zulässig.",
+          "Wir gewährleisten nicht, dass die Website oder ihre Dienste Ihren spezifischen Anforderungen entsprechen, ununterbrochen, rechtzeitig, sicher oder fehlerfrei sind oder dass erzielte Ergebnisse genau oder zuverlässig sind. Die Nutzung der Website und der Server erfolgt auf eigenes Risiko."
+        ]
+      },
+      {
+        "heading": "Nutzung der Spieleserver",
+        "paragraphs": [
+          "Unsere Server werden vorbehaltlich der Bedingungen der Endnutzer-Lizenzvereinbarung (EULA) des Spiels bereitgestellt. Sie dürfen die Server nicht in einer Weise nutzen, die gegen die EULA oder geltendes Recht verstößt, Rechte Dritter verletzt, die Server oder verbundene Netzwerke beschädigt oder überlastet oder unbefugten Zugriff auf die Server oder zugehörige Systeme versucht. Wir können Ihren Zugang zu den Servern jederzeit mit oder ohne Ankündigung aus beliebigem Grund aussetzen oder beenden."
+        ]
+      },
+      {
+        "heading": "Geistiges Eigentum",
+        "paragraphs": [
+          "Der gesamte Inhalt der Website ist, sofern nicht anders angegeben, Eigentum des Unternehmens oder seiner Lizenzgeber und durch Urheberrecht und andere geltende Gesetze geschützt. Marken, Logos und ähnliche Kennzeichen auf der Website dürfen nicht ohne Genehmigung verwendet werden.",
+          "Das Unternehmen ist nicht mit Mojang Studios, Xbox Game Studios oder anderen Rechteinhabern des Spiels verbunden oder von diesen empfohlen.",
+          "Wenn Sie uns Inhalte übermitteln (\"Ihre Inhalte\"), behalten Sie das Eigentum daran, gewähren dem Unternehmen jedoch eine nicht-exklusive, weltweite, unbefristete, gebührenfreie, übertragbare und unterlizenzierbare Lizenz zur Nutzung, Vervielfältigung, Änderung, Verbreitung und Verarbeitung im Zusammenhang mit den Diensten. Sie garantieren, dass Sie berechtigt sind, solche Inhalte zu teilen, und dass diese keine Rechte Dritter verletzen."
+        ]
+      },
+      {
+        "heading": "Freistellung",
+        "paragraphs": [
+          "Durch den Zugriff auf die Website verpflichten Sie sich, das Unternehmen und seine verbundenen Unternehmen gegen Ansprüche, Forderungen und angemessene Rechtskosten zu verteidigen, freizustellen und schadlos zu halten, die aus Ihrer Nutzung oder Ihrem Missbrauch der Website, der Dienste oder des Inhalts, Ihrem Verstoß gegen diese AGB oder Ihrem Verhalten entstehen."
+        ]
+      },
+      {
+        "heading": "Höhere Gewalt",
+        "paragraphs": [
+          "Das Unternehmen haftet nicht für Verzögerungen oder Leistungsausfälle, die durch Umstände außerhalb seiner zumutbaren Kontrolle verursacht werden, einschließlich Naturkatastrophen, Feuer, Epidemien, Krieg, Terrorismus, Unruhen, Embargos, Telekommunikations- oder Infrastrukturausfälle, Arbeitskonflikte oder behördliche Maßnahmen."
+        ]
+      },
+      {
+        "heading": "Kein Verzicht",
+        "paragraphs": [
+          "Unser Versäumnis, eine Bestimmung dieser AGB durchzusetzen, bedeutet keinen Verzicht auf unser Recht, diese oder eine andere Bestimmung später durchzusetzen."
+        ]
+      },
+      {
+        "heading": "Keine Partnerschaft",
+        "paragraphs": [
+          "Nichts in diesen AGB begründet ein Joint Venture, eine Partnerschaft, ein Arbeitsverhältnis oder ein Agenturverhältnis zwischen Ihnen und dem Unternehmen."
+        ]
+      },
+      {
+        "heading": "Kündigung",
+        "paragraphs": [
+          "Wir können Ihren Zugang zur Website oder zu den Diensten jederzeit ohne vorherige Ankündigung oder Haftung aus beliebigem Grund aussetzen, beenden oder einschränken, einschließlich eines Verstoßes gegen diese AGB."
+        ]
+      },
+      {
+        "heading": "Anwendbares Recht und Streitbeilegung",
+        "paragraphs": [
+          "Diese AGB unterliegen dem Recht des Vereinigten Königreichs. Nichts in diesen AGB nimmt Ihnen die Schutzvorteile, die Verbrauchern nach den zwingenden Gesetzen Ihres Wohnsitzlandes zustehen.",
+          "Wenn Sie im EWR oder in der Schweiz wohnhaft sind, können Sie die Online-Streitbeilegungsplattform der EU unter http://ec.europa.eu/consumers/odr nutzen, um Streitigkeiten mit uns beizulegen.",
+          "Bei Ansprüchen im Zusammenhang mit diesen AGB kontaktieren Sie uns bitte unter privacy@minecraftsgame.com."
+        ]
+      },
+      {
+        "heading": "Salvatorische Klausel",
+        "paragraphs": [
+          "Sollte eine Bestimmung dieser AGB als nicht durchsetzbar erachtet werden, wird sie in dem minimal erforderlichen Umfang geändert, um sie durchsetzbar zu machen, und die übrigen Bestimmungen bleiben in vollem Umfang wirksam."
+        ]
+      },
+      {
+        "heading": "Gesamte Vereinbarung",
+        "paragraphs": [
+          "Diese AGB stellen die gesamte Vereinbarung zwischen Ihnen und uns in Bezug auf die Website und die Dienste dar und ersetzen alle früheren Vereinbarungen oder Absprachen zum gleichen Gegenstand."
+        ]
+      },
+      {
+        "heading": "Fortgeltung",
+        "paragraphs": [
+          "Die Abschnitte 4, 15, 16, 18, 19, 21 und 24 gelten 10 (zehn) Jahre nach Beendigung Ihres Kontos oder Ihres Zugangs zu den Diensten fort."
         ]
       }
     ]
@@ -100,39 +364,62 @@
   "cookies": {
     "badge": "Rechtliches",
     "title": "Cookie-Richtlinie",
-    "lastUpdated": "18. Juni 2026",
-    "intro": "Diese Cookie-Richtlinie erläutert, was Cookies sind, wie Adventures in Minecraft sie verwendet und welche Wahlmöglichkeiten Sie bezüglich ihrer Nutzung haben.",
+    "lastUpdated": "6. August 2026",
+    "intro": [
+      "Diese Cookie-Richtlinie erläutert, wie Dexervil LTD (\"wir\", \"uns\" oder \"das Unternehmen\") Cookies und ähnliche Technologien auf https://minecraftsgame.com/ (der \"Website\") verwendet. Sie ist zusammen mit unserer Datenschutzerklärung zu lesen, die erläutert, wie wir personenbezogene Daten allgemein verwenden."
+    ],
     "sections": [
       {
-        "heading": "Was sind Cookies",
+        "heading": "Was sind Cookies?",
         "paragraphs": [
-          "Cookies sind kleine Textdateien, die beim Besuch einer Website auf Ihrem Gerät gespeichert werden. Sie helfen der Website, Ihre Einstellungen zu speichern und Ihr Nutzungserlebnis zu verbessern."
+          "Cookies sind kleine Textdateien, die auf Ihrem Gerät gespeichert werden, wenn Sie eine Website besuchen. Sie ermöglichen es der Website, Ihr Gerät zu erkennen und Informationen über Ihre Präferenzen oder frühere Aktionen zu speichern. Wir verwenden auch ähnliche Technologien wie Local Storage und Pixel, die zusammen mit Cookies von dieser Richtlinie erfasst werden."
         ]
       },
       {
-        "heading": "Von uns verwendete Cookie-Typen",
+        "heading": "Arten von Cookies, die wir verwenden",
         "paragraphs": [
-          "Notwendige Cookies sind für das Funktionieren der Website unerlässlich, beispielsweise um Sie angemeldet zu halten und Ihre Sitzung zu sichern. Diese können nicht deaktiviert werden.",
-          "Analyse-Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, damit wir sie verbessern können. Marketing-Cookies können verwendet werden, um relevante Inhalte bereitzustellen und die Kampagnenleistung zu messen."
+          "Wir verwenden folgende Cookie-Kategorien:"
+        ],
+        "bullets": [
+          "Unbedingt erforderliche Cookies — für das Funktionieren der Website erforderlich, z. B. um Sie in Ihrem Konto angemeldet zu halten und einen sicheren Checkout zu ermöglichen. Diese können in unseren Systemen nicht deaktiviert werden.",
+          "Funktionale Cookies — speichern Ihre Präferenzen, z. B. Ihren ausgewählten Server oder Ihre Sprache, um Ihr Erlebnis zu verbessern.",
+          "Analyse-Cookies — helfen uns zu verstehen, wie Besucher mit der Website interagieren (z. B. über Google Analytics), damit wir deren Leistung und Inhalt verbessern können.",
+          "Marketing-Cookies — werden, sofern zutreffend und mit Ihrer Einwilligung, verwendet, um relevantere Werbung auszuspielen und die Wirksamkeit von Marketingkampagnen zu messen."
         ]
       },
       {
-        "heading": "Verwaltung Ihrer Einstellungen",
+        "heading": "Cookies von Drittanbietern",
         "paragraphs": [
-          "Beim ersten Besuch unserer Website können Sie über unser Cookie-Banner wählen, ob Sie nicht notwendige Cookies akzeptieren oder ablehnen möchten.",
-          "Sie können Cookies jederzeit über Ihre Browsereinstellungen kontrollieren und löschen. Das Deaktivieren bestimmter Cookies kann die Funktionsweise der Website beeinträchtigen."
+          "Einige Cookies werden von Drittanbieter-Dienstleistern gesetzt, die Funktionen auf unserer Website bereitstellen, wie Analyse oder Zahlungsabwicklung. Diese Dritten können Cookies gemäß ihren eigenen Datenschutz- und Cookie-Richtlinien verwenden, über die wir keine vollständige Kontrolle haben."
         ]
       },
       {
-        "heading": "Drittanbieter-Cookies",
+        "heading": "Wie lange bleiben Cookies gespeichert?",
         "paragraphs": [
-          "Einige Cookies können von Drittanbieterdiensten gesetzt werden, die auf unseren Seiten erscheinen. Wir haben keine Kontrolle über die Verwendung von Cookies durch diese Drittanbieter."
+          "Cookies können sitzungsbasiert oder persistent sein:"
+        ],
+        "bullets": [
+          "Sitzungs-Cookies — temporär und werden gelöscht, sobald Sie Ihren Browser schließen.",
+          "Persistente Cookies — verbleiben für einen festgelegten Zeitraum auf Ihrem Gerät oder bis Sie sie manuell löschen, damit die Website Ihre Präferenzen über Besuche hinweg speichert."
         ]
       },
       {
-        "heading": "Aktualisierungen dieser Richtlinie",
+        "heading": "Verwaltung Ihrer Cookie-Einstellungen",
         "paragraphs": [
-          "Wir können diese Cookie-Richtlinie regelmäßig aktualisieren, um Änderungen in Technologie oder Regulierung widerzuspiegeln. Bitte überprüfen Sie sie regelmäßig, um stets informiert zu bleiben."
+          "Beim ersten Besuch der Website werden Sie über unser Cookie-Banner um Ihre Einwilligung zu nicht notwendigen Cookies gebeten. Sie können Ihre Einstellungen jederzeit ändern.",
+          "Sie können Cookies auch über Ihre Browsereinstellungen verwalten oder löschen. Die meisten Browser ermöglichen es Ihnen, Cookies abzulehnen, vorhandene Cookies zu löschen oder vor dem Speichern eines Cookies benachrichtigt zu werden. Bitte beachten Sie, dass das Blockieren unbedingt erforderlicher Cookies die Funktionalität der Website beeinträchtigen kann, einschließlich Ihrer Möglichkeit, sich anzumelden oder einen Kauf abzuschließen."
+        ]
+      },
+      {
+        "heading": "Änderungen dieser Richtlinie",
+        "paragraphs": [
+          "Wir können diese Cookie-Richtlinie von Zeit zu Zeit aktualisieren, um Änderungen bei den von uns verwendeten Cookies oder aus rechtlichen oder regulatorischen Gründen widerzuspiegeln. Wir empfehlen Ihnen, diese Richtlinie regelmäßig zu prüfen."
+        ]
+      },
+      {
+        "heading": "Kontakt",
+        "paragraphs": [
+          "Bei Fragen zu dieser Cookie-Richtlinie kontaktieren Sie uns bitte unter privacy@minecraftsgame.com."
         ]
       }
     ]
@@ -182,55 +469,6 @@
         "heading": "Support kontaktieren",
         "paragraphs": [
           "Bei Fragen oder Problemen zur Lieferung erreichen Sie uns über Discord oder die auf unserer Kontaktseite aufgeführten Kanäle. Geben Sie Ihren Ingame-Nickname, Server und die ungefähre Kaufzeit an."
-        ]
-      }
-    ]
-  },
-  "billingRefunds": {
-    "badge": "Rechtliches",
-    "title": "Richtlinie zu Abrechnung, Erstattungen und Chargebacks",
-    "lastUpdated": "3. Juli 2026",
-    "intro": "Diese Richtlinie beschreibt, wie wir Zahlungen verarbeiten, Erstattungen handhaben und Chargebacks für Käufe auf der Adventures in Minecraft Website verwalten.",
-    "sections": [
-      {
-        "heading": "Zahlungsabwicklung",
-        "paragraphs": [
-          "Zahlungen werden über einen PCI-DSS-konformen Zahlungsanbieter abgewickelt. Wir speichern keine vollständigen Kartennummern, CVV-Codes oder andere sensible Kartendaten auf unseren Servern.",
-          "Mit dem Abschluss eines Kaufs autorisieren Sie uns, die von Ihnen angegebene Zahlungsmethode mit dem beim Checkout angezeigten Gesamtbetrag einschließlich anfallender Steuern oder Gebühren zu belasten."
-        ]
-      },
-      {
-        "heading": "Digitale Güter und endgültiger Verkauf",
-        "paragraphs": [
-          "Alle Ingame-Gegenstände, Privilegien und virtuelle Währung sind digitale Güter, die Ihnen lizenziert werden, nicht verkauft, und haben keinen realen Geldwert.",
-          "Da die Lieferung unmittelbar nach der Zahlung beginnt, sind Käufe grundsätzlich endgültig. Erstattungen werden nur gewährt, wenn dies nach geltendem Verbraucherschutzrecht erforderlich ist."
-        ]
-      },
-      {
-        "heading": "Erstattungsberechtigung",
-        "paragraphs": [
-          "Wir können eine Erstattung gewähren, wenn Ihnen Kosten berechnet wurden, Sie Ihre Gegenstände aber aufgrund eines bestätigten technischen Fehlers auf unserer Seite nicht erhalten haben und der Support die Gegenstände nicht manuell liefern konnte.",
-          "Erstattungen sind nicht verfügbar für bereits gelieferte und im Spiel verbrauchte Gegenstände, Käufe mit falschem Nickname oder Server oder Fälle, in denen Sie zum Zeitpunkt der Lieferung offline waren."
-        ]
-      },
-      {
-        "heading": "So beantragen Sie eine Erstattung",
-        "paragraphs": [
-          "Kontaktieren Sie unser Support-Team innerhalb von 14 Tagen nach dem Kauf. Geben Sie Ihren Ingame-Nickname, Server, Kaufdatum und eine Beschreibung des Problems an.",
-          "Genehmigte Erstattungen werden an die ursprüngliche Zahlungsmethode zurückgegeben. Die Bearbeitungszeit hängt von Ihrer Bank oder Ihrem Kartenherausgeber ab und kann 5–10 Werktage dauern."
-        ]
-      },
-      {
-        "heading": "Chargebacks",
-        "paragraphs": [
-          "Wenn Sie eine Belastung bei Ihrer Bank oder Ihrem Kartenherausgeber bestreiten, ohne uns zuvor zu kontaktieren, behalten wir uns das Recht vor, das zugehörige Konto zu sperren oder dauerhaft zu sperren.",
-          "Die Einreichung eines Chargebacks für einen Kauf, bei dem Gegenstände erfolgreich geliefert wurden, kann als Betrug gelten. Wir stellen dem Zahlungsanbieter Transaktions- und Liefernachweise zur Verfügung, um unbegründete Chargebacks anzufechten."
-        ]
-      },
-      {
-        "heading": "Abrechnungsanfragen",
-        "paragraphs": [
-          "Bei Fragen zur Abrechnung, Erstattungsanträgen oder Zahlungsproblemen kontaktieren Sie uns über Discord oder die auf unserer Kontaktseite angegebene Support-E-Mail."
         ]
       }
     ]
