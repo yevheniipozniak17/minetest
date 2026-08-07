@@ -1,0 +1,90 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  width: 100%;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+
+.fieldHalf {
+  grid-column: span 1;
+}
+
+.fieldFull {
+  grid-column: 1 / -1;
+}
+
+.fieldLabel {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+  font-weight: 500;
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgba(189, 225, 83, 0.4);
+}
+
+.inputError {
+  border-color: rgba(239, 77, 77, 0.55);
+}
+
+.validationNote {
+  font-size: 11px;
+  color: #ef4d4d;
+}
+
+@media (min-width: 1280px) {
+  .fieldLabel {
+    font-size: 11px;
+    letter-spacing: 0.44px;
+  }
+
+  .input {
+    padding: 12px 16px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 640px) {
+  .formGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .fieldHalf,
+  .fieldFull {
+    grid-column: 1 / -1;
+  }
+}

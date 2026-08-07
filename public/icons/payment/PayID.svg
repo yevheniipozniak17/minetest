@@ -1,0 +1,6 @@
+<svg width="56" height="38" viewBox="0 0 56 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="56" height="38" rx="5" fill="#FFFFFF"/>
+  <circle cx="16" cy="19" r="6" fill="#00A3AD"/>
+  <path d="M16 15.5C17.9 15.5 19.5 17.1 19.5 19C19.5 20.9 17.9 22.5 16 22.5C14.1 22.5 12.5 20.9 12.5 19C12.5 17.1 14.1 15.5 16 15.5Z" fill="#FFFFFF"/>
+  <text x="34" y="22.5" text-anchor="middle" fill="#00A3AD" font-family="Arial,sans-serif" font-size="10" font-weight="700">PayID</text>
+</svg>

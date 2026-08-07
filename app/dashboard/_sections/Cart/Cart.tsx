@@ -20,6 +20,20 @@ import {
   type PendingPayment,
 } from '@/lib/client/pendingPayment';
 import { useProfile } from '@/app/_components/ProfileProvider/ProfileProvider';
+import { CheckoutModal } from './CheckoutModal/CheckoutModal';
+import {
+  EMPTY_CLIENT_INFO,
+  validateClientInfo,
+  type ClientInfo,
+  type ClientInfoField,
+} from './CheckoutModal/clientInfo';
+import { ClientInfoForm } from './ClientInfoForm/ClientInfoForm';
+import { PaymentMethods } from './PaymentMethods/PaymentMethods';
+import {
+  ALL_PAYMENT_ICONS,
+  DEFAULT_PAYMENT_METHOD,
+  type PaymentMethodId,
+} from './paymentMethods';
 import styles from './Cart.module.css';
 
 type Row = {
@@ -216,7 +230,12 @@ export default function Cart() {
   const [policiesAgreed, setPoliciesAgreed] = useState(false);
   const [consentToast, setConsentToast] = useState<string | null>(null);
   const [highlightConsents, setHighlightConsents] = useState(false);
+  const [paymentMethod, setPaymentMethod] = useState<PaymentMethodId>(DEFAULT_PAYMENT_METHOD);
+  const [checkoutOpen, setCheckoutOpen] = useState(false);
+  const [clientInfo, setClientInfo] = useState<ClientInfo>(EMPTY_CLIENT_INFO);
+  const [clientInfoErrors, setClientInfoErrors] = useState<ClientInfoField[]>([]);
   const consentsRef = useRef<HTMLDivElement>(null);
+  const clientInfoRef = useRef<HTMLElement>(null);
   const purchaseConsentRef = useRef<HTMLInputElement>(null);
   const policiesConsentRef = useRef<HTMLInputElement>(null);
   const consentToastTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -246,6 +265,22 @@ export default function Cart() {
       if (consentToastTimer.current) clearTimeout(consentToastTimer.current);
       if (highlightTimer.current) clearTimeout(highlightTimer.current);
     };
+  }, []);
+
+  useEffect(() => {
+    if (!profile) return;
+    const username = profile.username?.trim() ?? '';
+    const nameParts = username ? username.split(/\s+/) : [];
+    setClientInfo(prev => ({
+      ...prev,
+      email: prev.email || profile.email || '',
+      firstName: prev.firstName || nameParts[0] || '',
+      lastName: prev.lastName || nameParts.slice(1).join(' ') || '',
+    }));
+  }, [profile]);
+
+  const clearClientInfoFieldError = useCallback((field: ClientInfoField) => {
+    setClientInfoErrors(prev => prev.filter(key => key !== field));
   }, []);
 
   // Незавершений платіж: показуємо банер «Продовжити оплату», поки лінк живий (20 хв).
@@ -574,6 +609,17 @@ export default function Cart() {
       nudgeConsents();
       return;
     }
+    const missing = validateClientInfo(clientInfo);
+    if (missing.length > 0) {
+      setClientInfoErrors(missing);
+      clientInfoRef.current?.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      return;
+    }
+    setClientInfoErrors([]);
+    setCheckoutOpen(true);
+  }
+
+  function confirmCheckout() {
     void handlePay();
   }
 
@@ -865,10 +911,58 @@ export default function Cart() {
               </div>
               <p className={styles.deliveryNote}>{t('deliveryNote')}</p>
             </section>
+
+            <section
+              className={`${styles.panel} ${styles.panelPayment}`}
+              aria-labelledby="payment-heading"
+            >
+              <div className={styles.panelHead}>
+                <h2 id="payment-heading" className={styles.panelTitle}>
+                  {t('paymentTitle')}
+                </h2>
+              </div>
+              <p className={styles.paymentHint}>{t('paymentHint')}</p>
+              <PaymentMethods value={paymentMethod} onChange={setPaymentMethod} variant="inline" />
+            </section>
+
+            <section
+              ref={clientInfoRef}
+              className={`${styles.panel} ${styles.panelClientInfo} ${clientInfoErrors.length > 0 ? styles.panelClientInfoHighlight : ''}`}
+              aria-labelledby="client-info-heading"
+            >
+              <div className={styles.panelHead}>
+                <h2 id="client-info-heading" className={styles.panelTitle}>
+                  {t('clientInfoTitle')}
+                </h2>
+                <span className={styles.requiredBadge}>{t('requiredBadge')}</span>
+              </div>
+              <p className={styles.clientInfoHint}>{t('clientInfoHint')}</p>
+              <ClientInfoForm
+                value={clientInfo}
+                onChange={setClientInfo}
+                fieldErrors={clientInfoErrors}
+                onClearFieldError={clearClientInfoFieldError}
+                idPrefix="cart-client"
+                showValidationNote
+              />
+            </section>
           </div>
 
           <div className={styles.sidebarColumn}>
             {summaryBlock}
+            <div className={styles.paymentStrip} aria-label={t('paymentTitle')}>
+              {ALL_PAYMENT_ICONS.map(icon => (
+                <Image
+                  key={icon}
+                  src={icon}
+                  alt=""
+                  width={56}
+                  height={38}
+                  className={styles.paymentStripIcon}
+                  aria-hidden
+                />
+              ))}
+            </div>
             <p className={styles.pciNote}>{t('pciNote')}</p>
 
             <aside className={styles.importantNotice} aria-label={t('importantNoticeAriaLabel')}>
@@ -944,6 +1038,20 @@ export default function Cart() {
           {consentToast}
         </div>
       )}
+      <CheckoutModal
+        isOpen={checkoutOpen}
+        onClose={() => setCheckoutOpen(false)}
+        onConfirm={confirmCheckout}
+        paymentMethod={paymentMethod}
+        onPaymentMethodChange={setPaymentMethod}
+        clientInfo={clientInfo}
+        onClientInfoChange={setClientInfo}
+        fieldErrors={clientInfoErrors}
+        onFieldErrorsChange={setClientInfoErrors}
+        onClearFieldError={clearClientInfoFieldError}
+        totalLabel={formatMoney(effectiveTotal, cartCurrency)}
+        confirming={paying}
+      />
     </div>
   );
 }
