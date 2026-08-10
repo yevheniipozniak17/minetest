@@ -2,7 +2,7 @@ import axios, {
   type AxiosError,
   type InternalAxiosRequestConfig,
 } from 'axios';
-import { isAuthRedirectSuppressed } from './authRedirect';
+import { isLoggingOut } from './authRedirect';
 
 type RetriableConfig = InternalAxiosRequestConfig & { _retry?: boolean };
 
@@ -31,11 +31,15 @@ http.interceptors.response.use(
     const original = error.config as RetriableConfig | undefined;
 
     if (error.response?.status === 401 && original && !original._retry) {
+      // Під час логауту не оновлюємо токен: /api/auth/refresh поставив би куки
+      // назад уже після того, як /api/auth/logout їх зчистив.
+      if (isLoggingOut()) return Promise.reject(error);
+
       original._retry = true;
       const ok = await tryRefresh();
       if (ok) return http(original);
 
-      if (!isAuthRedirectSuppressed() && typeof window !== 'undefined') {
+      if (typeof window !== 'undefined') {
         if (window.location.pathname.startsWith('/dashboard')) {
           window.location.href = '/login';
         }
