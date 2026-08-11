@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\u201eVeralteter Server / Client\u201c",
-        "text": "Minecraft auf Java 1.12.2 \u2013 1.19 oder den neuesten Bedrock-Build aktualisieren."
+        "text": "Minecraft auf eine unterst\u00fctzte Version aktualisieren (Java 1.12.2 \u2013 1.19 oder den neuesten Bedrock-Build)."
       },
       {
         "title": "\u201eVerbindung getrennt\u201c",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\u201eVeralteter Server\u201c oder \u201eVeralteter Client\u201c",
-        "text": "Deine Minecraft-Version stimmt nicht mit dem Server \u00fcberein. Minecraft auf Java 1.12.2 \u2013 1.19 oder den neuesten Bedrock-Build aktualisieren und erneut verbinden."
+        "text": "Deine Minecraft-Version stimmt nicht mit dem Server \u00fcberein. Minecraft auf eine unterst\u00fctzte Version aktualisieren (Java 1.12.2 \u2013 1.19 oder den neuesten Bedrock-Build) und erneut verbinden."
       },
       {
         "title": "\u201eVerbindung getrennt\u201c direkt nach dem Beitritt",

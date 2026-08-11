@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\"Server/client obsoleto\"",
-        "text": "Aggiorna Minecraft a Java 1.12.2 \u2013 1.19 o all'ultima build Bedrock."
+        "text": "Aggiorna Minecraft a una versione supportata (Java 1.12.2 \u2013 1.19 o l'ultima build Bedrock)."
       },
       {
         "title": "\"Connessione persa\"",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\"Server obsoleto\" o \"Client obsoleto\"",
-        "text": "La tua versione di Minecraft non corrisponde al server. Aggiorna Minecraft a Java 1.12.2 \u2013 1.19 o all'ultima build Bedrock, poi riconnettiti."
+        "text": "La tua versione di Minecraft non corrisponde al server. Aggiorna Minecraft a una versione supportata (Java 1.12.2 \u2013 1.19 o l'ultima build Bedrock), poi riconnettiti."
       },
       {
         "title": "\"Connessione persa\" subito dopo l'accesso",

@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\"Serveur / client obsol\u00e8te\"",
-        "text": "Mettez \u00e0 jour Minecraft vers Java 1.12.2 \u2013 1.19 ou la derni\u00e8re version Bedrock."
+        "text": "Mettez \u00e0 jour Minecraft vers une version prise en charge (Java 1.12.2 \u2013 1.19 ou la derni\u00e8re version Bedrock)."
       },
       {
         "title": "\"Connexion perdue\"",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\"Serveur obsol\u00e8te\" ou \"Client obsol\u00e8te\"",
-        "text": "Votre version de Minecraft ne correspond pas au serveur. Mettez \u00e0 jour Minecraft vers Java 1.12.2 \u2013 1.19 ou la derni\u00e8re version Bedrock, puis reconnectez-vous."
+        "text": "Votre version de Minecraft ne correspond pas au serveur. Mettez \u00e0 jour Minecraft vers une version prise en charge (Java 1.12.2 \u2013 1.19 ou la derni\u00e8re version Bedrock), puis reconnectez-vous."
       },
       {
         "title": "\"Connexion perdue\" juste apr\u00e8s la connexion",

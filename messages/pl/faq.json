@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\u201cPrzestarza\u0142y serwer / klient\u201d",
-        "text": "Zaktualizuj Minecrafta do Javy 1.12.2 \u2013 1.19 lub najnowszego Bedrocka."
+        "text": "Zaktualizuj Minecrafta do obs\u0142ugiwanej wersji (Java 1.12.2 \u2013 1.19 lub najnowszy Bedrock)."
       },
       {
         "title": "\u201cUtracono po\u0142\u0105czenie\u201d",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\u201cPrzestarza\u0142y serwer\u201d lub \u201cPrzestarza\u0142y klient\u201d",
-        "text": "Twoja wersja Minecrafta nie pasuje do serwera. Zaktualizuj Minecrafta do Javy 1.12.2 \u2013 1.19 lub najnowszego Bedrocka, a nast\u0119pnie po\u0142\u0105cz si\u0119 ponownie."
+        "text": "Twoja wersja Minecrafta nie pasuje do serwera. Zaktualizuj Minecrafta do obs\u0142ugiwanej wersji (Java 1.12.2 \u2013 1.19 lub najnowszy Bedrock), a nast\u0119pnie po\u0142\u0105cz si\u0119 ponownie."
       },
       {
         "title": "\u201cUtracono po\u0142\u0105czenie\u201d zaraz po do\u0142\u0105czeniu",

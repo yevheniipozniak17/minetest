@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\u00abServidor / cliente desactualizado\u00bb",
-        "text": "Actualiza Minecraft a Java 1.12.2 \u2013 1.19 o la \u00faltima versi\u00f3n de Bedrock."
+        "text": "Actualiza Minecraft a una versi\u00f3n compatible (Java 1.12.2 \u2013 1.19 o la \u00faltima versi\u00f3n de Bedrock)."
       },
       {
         "title": "\u00abConexi\u00f3n perdida\u00bb",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\u00abServidor desactualizado\u00bb o \u00abCliente desactualizado\u00bb",
-        "text": "Tu versi\u00f3n de Minecraft no coincide con la del servidor. Actualiza Minecraft a Java 1.12.2 \u2013 1.19 o la \u00faltima versi\u00f3n de Bedrock y vuelve a conectarte."
+        "text": "Tu versi\u00f3n de Minecraft no coincide con la del servidor. Actualiza Minecraft a una versi\u00f3n compatible (Java 1.12.2 \u2013 1.19 o la \u00faltima versi\u00f3n de Bedrock) y vuelve a conectarte."
       },
       {
         "title": "\u00abConexi\u00f3n perdida\u00bb justo al unirse",

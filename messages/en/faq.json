@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\u201cOutdated server / client\u201d",
-        "text": "Update Minecraft to Java 1.12.2 \u2013 1.19 or the latest Bedrock build."
+        "text": "Update Minecraft to a supported version (Java 1.12.2 \u2013 1.19 or the latest Bedrock build)."
       },
       {
         "title": "\u201cConnection lost\u201d",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\u201cOutdated server\u201d or \u201cOutdated client\u201d",
-        "text": "Your Minecraft version does not match the server. Update Minecraft to Java 1.12.2 \u2013 1.19 or the latest Bedrock build, then reconnect."
+        "text": "Your Minecraft version does not match the server. Update Minecraft to a supported version (Java 1.12.2 \u2013 1.19 or the latest Bedrock build), then reconnect."
       },
       {
         "title": "\u201cConnection lost\u201d right after joining",
@@ -566,7 +566,7 @@
         "leadDesktop": "Java Edition shows the version string on the main menu bottom-left. Bedrock lists the build under Settings \u2192 About. Match it against the supported list above.",
         "steps": [
           "Open Minecraft and note your version number.",
-          "Compare it to Java 1.12.2 \u2013 1.19 or the latest Bedrock build.",
+          "Check it against Java 1.12.2 \u2013 1.19 or the latest Bedrock build.",
           "Update through the official launcher if needed.",
           "Reconnect to the server from your dashboard IP."
         ]
