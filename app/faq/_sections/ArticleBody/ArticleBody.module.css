@@ -4,6 +4,12 @@
   background: #001812;
 }
 
+/* Montserrat ships 400/600/800 here, so avoid the UA default of 700. */
+.article strong {
+  font-weight: 600;
+  color: #fff;
+}
+
 .body {
   display: flex;
   flex-direction: column;

@@ -186,8 +186,8 @@
     "supported-versions": {
       "question": "Quali versioni di Minecraft supportate?",
       "breadcrumb": "Versioni supportate",
-      "quickAnswer": "Java 1.20.4 e l'ultima versione Bedrock. Le versioni precedenti non sono supportate a causa dei plugin personalizzati che utilizziamo.",
-      "excerpt": "Supportiamo Java 1.20.4 e l'ultima versione Bedrock. I plugin personalizzati richiedono un client aggiornato \u2014 le versioni precedenti non possono connettersi."
+      "quickAnswer": "Java 1.12.2 \u2013 1.19 e l'ultima versione Bedrock. Le versioni al di fuori di questo intervallo non sono supportate a causa dei plugin personalizzati che utilizziamo.",
+      "excerpt": "Supportiamo Java 1.12.2 \u2013 1.19 e l'ultima versione Bedrock. I plugin personalizzati richiedono un client supportato \u2014 le altre versioni non possono connettersi."
     },
     "first-day-checklist": {
       "question": "Cosa devo fare il primo giorno?",
@@ -330,7 +330,7 @@
     "connection-lost": {
       "question": "Perch\u00e9 ricevo errori di \"connessione persa\"?",
       "breadcrumb": "Connessione persa",
-      "quickAnswer": "Di solito \u00e8 un firewall, una VPN o una versione non corrispondente. Consenti la porta 25565, disattiva la VPN e verifica di usare Java 1.20.4 o l'ultima versione Bedrock.",
+      "quickAnswer": "Di solito \u00e8 un firewall, una VPN o una versione non corrispondente. Consenti la porta 25565, disattiva la VPN e verifica di usare Java 1.12.2 \u2013 1.19 o l'ultima versione Bedrock.",
       "excerpt": "Gli errori di connessione persa di solito indicano un firewall, una VPN o una versione non corrispondente. Consenti la porta 25565 e aggiorna il client."
     },
     "resource-pack-issues": {
@@ -369,13 +369,13 @@
       "desktop": "Assicurati di avere tutto il seguente pronto prima di iniziare. Se manca qualcosa, i link qui sotto ti portano nel posto giusto."
     },
     "beforeBulletsMobile": [
-      "Copia legale di Minecraft (Java 1.20.4 o ultima versione Bedrock).",
+      "Copia legale di Minecraft (Java 1.12.2 \u2013 1.19 o ultima versione Bedrock).",
       "Indirizzo email valido a cui puoi accedere ora.",
       "Un nickname che gli altri giocatori vedranno.",
       "Connessione internet stabile."
     ],
     "beforeBulletsDesktop": [
-      "Una copia legale di Minecraft (Java 1.20.4 o l'ultima versione Bedrock).",
+      "Una copia legale di Minecraft (Java 1.12.2 \u2013 1.19 o l'ultima versione Bedrock).",
       "Un indirizzo email valido a cui puoi accedere subito (per la verifica).",
       "Un nickname che vuoi mostrare agli altri giocatori \u2014 pu\u00f2 essere diverso dal tuo nome utente Microsoft.",
       "Una connessione internet stabile (qualsiasi banda larga moderna va bene)."
@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\"Server/client obsoleto\"",
-        "text": "Aggiorna Minecraft alla versione 1.20.4 (Java) o all'ultima build Bedrock."
+        "text": "Aggiorna Minecraft a Java 1.12.2 \u2013 1.19 o all'ultima build Bedrock."
       },
       {
         "title": "\"Connessione persa\"",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\"Server obsoleto\" o \"Client obsoleto\"",
-        "text": "La tua versione di Minecraft non corrisponde al server. Aggiorna Minecraft alla versione 1.20.4 (Java) o all'ultima build Bedrock, poi riconnettiti."
+        "text": "La tua versione di Minecraft non corrisponde al server. Aggiorna Minecraft a Java 1.12.2 \u2013 1.19 o all'ultima build Bedrock, poi riconnettiti."
       },
       {
         "title": "\"Connessione persa\" subito dopo l'accesso",
@@ -533,21 +533,26 @@
         "desktop": "Utilizziamo plugin personalizzati, anti-cheat e sistemi economici che richiedono un client Minecraft aggiornato. Ecco esattamente cosa funziona oggi \u2014 e cosa no."
       },
       "s1": {
-        "title": "Client supportati",
-        "leadMobile": "Queste versioni si connettono senza avvisi di compatibilit\u00e0.",
-        "leadDesktop": "Queste versioni client si connettono senza avvisi di compatibilit\u00e0 e ricevono il set completo di funzionalit\u00e0, inclusi tornei e negozio in gioco.",
+        "title": "Client supportati e compatibilit\u00e0",
+        "leadMobile": "Connettiti senza problemi usando client Minecraft e configurazioni di launcher supportati.",
+        "leadDesktop": "Connettiti senza problemi usando client Minecraft e configurazioni di launcher supportati.",
         "bullets": [
-          "Java Edition 1.20.4 \u2014 consigliata per i giocatori PC.",
-          "Ultima versione Bedrock su Windows, iOS, Android e console.",
-          "Il nostro launcher seleziona automaticamente il profilo corretto dopo l'accesso."
-        ]
+          "**Java Edition (1.12.2 \u2013 1.19):** Completamente supportata per i giocatori PC."
+        ],
+        "bulletsAfterCallout": [
+          "**Launcher ufficiali e di terze parti:** I launcher Minecraft ufficiali configurano automaticamente l'ambiente Java richiesto. I launcher di terze parti richiedono la selezione manuale del profilo.",
+          "**Bedrock Edition:** Supportata su Windows, iOS, Android e console tramite compatibilit\u00e0 cross-play."
+        ],
+        "calloutTitle": "Nota sull'ambiente Java (JRE)",
+        "calloutMobile": "Se usi launcher personalizzati (es. TLauncher) o mod (Forge/Fabric), assicurati che la tua versione di Java corrisponda al client:\n**Minecraft 1.12.2 \u2013 1.16.5:** Richiede **Java 8**.\n**Minecraft 1.17 \u2013 1.19:** Richiede **Java 17**.",
+        "calloutDesktop": "Se usi launcher personalizzati (es. TLauncher) o mod (Forge/Fabric), assicurati che la tua versione di Java corrisponda al client:\n**Minecraft 1.12.2 \u2013 1.16.5:** Richiede **Java 8**.\n**Minecraft 1.17 \u2013 1.19:** Richiede **Java 17**."
       },
       "s2": {
         "title": "Versioni non supportate",
         "leadMobile": "I client pi\u00f9 vecchi non possono connettersi perch\u00e9 le API dei plugin differiscono tra le versioni principali.",
         "leadDesktop": "I client pi\u00f9 vecchi non possono connettersi perch\u00e9 le nostre API dei plugin differiscono tra le versioni principali. Tentare la connessione mostra un messaggio di client o server obsoleto.",
         "bullets": [
-          "Versioni Java precedenti alla 1.20.4.",
+          "Versioni Java al di fuori di 1.12.2 \u2013 1.19.",
           "Edizioni console legacy senza cross-play Bedrock.",
           "Client craccati o modificati segnalati dall'anti-cheat."
         ],
@@ -561,7 +566,7 @@
         "leadDesktop": "Java Edition mostra la versione in basso a sinistra nel menu principale. Bedrock elenca la build in Impostazioni \u2192 Informazioni. Confrontala con la lista supportata qui sopra.",
         "steps": [
           "Apri Minecraft e annota il numero di versione.",
-          "Confrontalo con Java 1.20.4 o l'ultima build Bedrock.",
+          "Confrontalo con Java 1.12.2 \u2013 1.19 o l'ultima build Bedrock.",
           "Aggiorna tramite il launcher ufficiale se necessario.",
           "Riconnettiti al server dall'IP nella tua dashboard."
         ]
@@ -1374,8 +1379,8 @@
       },
       "s1": {
         "title": "Client e versione",
-        "leadMobile": "Verifica Java 1.20.4 o l'ultima versione Bedrock prima di tutto il resto.",
-        "leadDesktop": "Verifica Java 1.20.4 o l'ultima versione Bedrock prima di tutto il resto. Le versioni non corrispondenti falliscono entro pochi secondi dall'accesso.",
+        "leadMobile": "Verifica Java 1.12.2 \u2013 1.19 o l'ultima versione Bedrock prima di tutto il resto.",
+        "leadDesktop": "Verifica Java 1.12.2 \u2013 1.19 o l'ultima versione Bedrock prima di tutto il resto. Le versioni non corrispondenti falliscono entro pochi secondi dall'accesso.",
         "bullets": [
           "Aggiorna Minecraft tramite il launcher ufficiale.",
           "Rimuovi le voci server duplicate con errori di battitura.",

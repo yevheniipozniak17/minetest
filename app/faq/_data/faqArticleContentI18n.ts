@@ -22,11 +22,16 @@ function buildSimpleSection(
   const leadMobile = t(`${sKey}.leadMobile`);
   const leadDesktop = t(`${sKey}.leadDesktop`);
 
-  // bullets or steps (mutually exclusive per section)
-  const rawBullets = tRaw(`${sKey}.bullets`) as string[] | undefined;
-  const rawSteps = tRaw(`${sKey}.steps`) as string[] | undefined;
-  const bullets = Array.isArray(rawBullets) ? rawBullets : undefined;
-  const steps = Array.isArray(rawSteps) ? rawSteps : undefined;
+  // bullets or steps (mutually exclusive per section) — probe with tHas first,
+  // because tRaw logs a MISSING_MESSAGE error for whichever key is absent.
+  const rawBullets = tHas(`${sKey}.bullets`) ? tRaw(`${sKey}.bullets`) : undefined;
+  const rawSteps = tHas(`${sKey}.steps`) ? tRaw(`${sKey}.steps`) : undefined;
+  const rawTrailing = tHas(`${sKey}.bulletsAfterCallout`)
+    ? tRaw(`${sKey}.bulletsAfterCallout`)
+    : undefined;
+  const bullets = Array.isArray(rawBullets) ? (rawBullets as string[]) : undefined;
+  const steps = Array.isArray(rawSteps) ? (rawSteps as string[]) : undefined;
+  const bulletsAfterCallout = Array.isArray(rawTrailing) ? (rawTrailing as string[]) : undefined;
 
   // callout (optional — only when keys exist; t() returns the key path when missing)
   let callout: FaqSectionContent['callout'] | undefined;
@@ -49,6 +54,9 @@ function buildSimpleSection(
     title,
     lead: b(leadMobile, leadDesktop),
     bullets: bullets ? { mobile: bullets, desktop: bullets } : undefined,
+    bulletsAfterCallout: bulletsAfterCallout
+      ? { mobile: bulletsAfterCallout, desktop: bulletsAfterCallout }
+      : undefined,
     steps: steps ? { mobile: steps, desktop: steps } : undefined,
     callout,
   };

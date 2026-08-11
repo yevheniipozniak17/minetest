@@ -1,4 +1,12 @@
-import type { FaqArticleContentBlock, FaqArticleListBlock } from './joinArticleContent';
+export type FaqArticleContentBlock = {
+  mobile: string;
+  desktop: string;
+};
+
+export type FaqArticleListBlock = {
+  mobile: readonly string[];
+  desktop: readonly string[];
+};
 
 export type FaqSectionContent = {
   id: string;
@@ -8,6 +16,8 @@ export type FaqSectionContent = {
   titleDesktop?: string;
   lead: FaqArticleContentBlock;
   bullets?: FaqArticleListBlock;
+  /** Rendered after the callout, so a note can sit between two groups of bullets. */
+  bulletsAfterCallout?: FaqArticleListBlock;
   steps?: FaqArticleListBlock;
   callout?: {
     variant: 'info' | 'success';

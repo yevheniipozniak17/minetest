@@ -21,7 +21,7 @@ export const HOME_FAQ: QuestionsCardProps[] = [
   },
   {
     question: 'Do you support Java Edition?',
-    answer: 'Yes. We support Java 1.20.4 and the latest Bedrock release.',
+    answer: 'Yes. We support Java 1.12.2 – 1.19 and the latest Bedrock release.',
   },
   {
     question: 'How do I contact support?',

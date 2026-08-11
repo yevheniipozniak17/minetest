@@ -147,12 +147,12 @@
       "descDesktop": "You need a legal copy of Minecraft (Java or Bedrock edition). The Java edition is what most of our players use because it supports more plugins and custom crafts.",
       "bullets": [
         "Open minecraft.net and sign in.",
-        "Install 1.20.4 (Java) or latest Bedrock.",
+        "Install Java 1.12.2 \u2013 1.19 or latest Bedrock.",
         "Launch once to verify."
       ],
       "bulletsDesktop": [
         "Open minecraft.net and sign in with your Microsoft account.",
-        "Download the launcher and install Minecraft 1.20.4 (Java) or the latest Bedrock release.",
+        "Download the launcher and install Minecraft Java 1.12.2 \u2013 1.19 or the latest Bedrock release.",
         "Launch the game once to verify everything loads."
       ],
       "callout": "Cosmetics and tournaments ship to Java first.",

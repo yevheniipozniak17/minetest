@@ -186,8 +186,8 @@
     "supported-versions": {
       "question": "Jakie wersje Minecrafta obs\u0142ugujecie?",
       "breadcrumb": "Obs\u0142ugiwane wersje",
-      "quickAnswer": "Java 1.20.4 oraz najnowsze wydanie Bedrock. Starsze wersje nie s\u0105 obs\u0142ugiwane ze wzgl\u0119du na niestandardowe wtyczki.",
-      "excerpt": "Obs\u0142ugujemy Java 1.20.4 oraz najnowsze wydanie Bedrock. Niestandardowe wtyczki wymagaj\u0105 aktualnego klienta \u2014 starsze wersje nie mog\u0105 si\u0119 po\u0142\u0105czy\u0107."
+      "quickAnswer": "Java 1.12.2 \u2013 1.19 oraz najnowsze wydanie Bedrock. Wersje poza tym zakresem nie s\u0105 obs\u0142ugiwane ze wzgl\u0119du na niestandardowe wtyczki.",
+      "excerpt": "Obs\u0142ugujemy Java 1.12.2 \u2013 1.19 oraz najnowsze wydanie Bedrock. Niestandardowe wtyczki wymagaj\u0105 obs\u0142ugiwanego klienta \u2014 inne wersje nie mog\u0105 si\u0119 po\u0142\u0105czy\u0107."
     },
     "first-day-checklist": {
       "question": "Co powinienem zrobi\u0107 w pierwszym dniu gry?",
@@ -330,7 +330,7 @@
     "connection-lost": {
       "question": "Dlaczego pojawia si\u0119 b\u0142\u0105d \u201cutracono po\u0142\u0105czenie\u201d?",
       "breadcrumb": "Utracono po\u0142\u0105czenie",
-      "quickAnswer": "Zazwyczaj to zapora sieciowa, VPN lub niezgodno\u015b\u0107 wersji. Zezw\u00f3l na port 25565, wy\u0142\u0105cz VPN i upewnij si\u0119, \u017ce u\u017cywasz Java 1.20.4 lub najnowszego Bedrocka.",
+      "quickAnswer": "Zazwyczaj to zapora sieciowa, VPN lub niezgodno\u015b\u0107 wersji. Zezw\u00f3l na port 25565, wy\u0142\u0105cz VPN i upewnij si\u0119, \u017ce u\u017cywasz Java 1.12.2 \u2013 1.19 lub najnowszego Bedrocka.",
       "excerpt": "B\u0142\u0119dy utraty po\u0142\u0105czenia oznaczaj\u0105 zwykle zapor\u0119, VPN lub niezgodno\u015b\u0107 wersji. Zezw\u00f3l na port 25565 i zaktualizuj klienta."
     },
     "resource-pack-issues": {
@@ -369,13 +369,13 @@
       "desktop": "Upewnij si\u0119, \u017ce masz przygotowane wszystko wymienione poni\u017cej. Je\u015bli czego\u015b brakuje, linki poni\u017cej przekieruj\u0105 Ci\u0119 we w\u0142a\u015bciwe miejsce."
     },
     "beforeBulletsMobile": [
-      "Legalna kopia Minecrafta (Java 1.20.4 lub najnowszy Bedrock).",
+      "Legalna kopia Minecrafta (Java 1.12.2 \u2013 1.19 lub najnowszy Bedrock).",
       "Aktywny adres e-mail, do kt\u00f3rego masz dost\u0119p.",
       "Nick widoczny dla innych graczy.",
       "Stabilne po\u0142\u0105czenie z internetem."
     ],
     "beforeBulletsDesktop": [
-      "Legalna kopia Minecrafta (Java 1.20.4 lub najnowsze wydanie Bedrock).",
+      "Legalna kopia Minecrafta (Java 1.12.2 \u2013 1.19 lub najnowsze wydanie Bedrock).",
       "Aktywny adres e-mail, do kt\u00f3rego masz teraz dost\u0119p (do weryfikacji).",
       "Nick, kt\u00f3ry chcesz pokazywa\u0107 innym graczom \u2014 mo\u017ce r\u00f3\u017cni\u0107 si\u0119 od nazwy konta Microsoft.",
       "Stabilne po\u0142\u0105czenie z internetem (ka\u017cde nowoczesne \u0142\u0105cze szerokopasmowe wystarczy)."
@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\u201cPrzestarza\u0142y serwer / klient\u201d",
-        "text": "Zaktualizuj Minecrafta do wersji 1.20.4 (Java) lub najnowszego Bedrocka."
+        "text": "Zaktualizuj Minecrafta do Javy 1.12.2 \u2013 1.19 lub najnowszego Bedrocka."
       },
       {
         "title": "\u201cUtracono po\u0142\u0105czenie\u201d",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\u201cPrzestarza\u0142y serwer\u201d lub \u201cPrzestarza\u0142y klient\u201d",
-        "text": "Twoja wersja Minecrafta nie pasuje do serwera. Zaktualizuj Minecrafta do wersji 1.20.4 (Java) lub najnowszego Bedrocka, a nast\u0119pnie po\u0142\u0105cz si\u0119 ponownie."
+        "text": "Twoja wersja Minecrafta nie pasuje do serwera. Zaktualizuj Minecrafta do Javy 1.12.2 \u2013 1.19 lub najnowszego Bedrocka, a nast\u0119pnie po\u0142\u0105cz si\u0119 ponownie."
       },
       {
         "title": "\u201cUtracono po\u0142\u0105czenie\u201d zaraz po do\u0142\u0105czeniu",
@@ -533,21 +533,26 @@
         "desktop": "U\u017cywamy niestandardowych wtyczek, antycheat\u00f3w i system\u00f3w ekonomii, kt\u00f3re wymagaj\u0105 aktualnego klienta Minecraft. Oto dok\u0142adnie, co dzia\u0142a dzisiaj \u2014 a co nie."
       },
       "s1": {
-        "title": "Obs\u0142ugiwane klienty",
-        "leadMobile": "Te wersje \u0142\u0105cz\u0105 si\u0119 bez ostrze\u017ce\u0144 o kompatybilno\u015bci.",
-        "leadDesktop": "Te wersje klient\u00f3w \u0142\u0105cz\u0105 si\u0119 bez ostrze\u017ce\u0144 o kompatybilno\u015bci i maj\u0105 dost\u0119p do pe\u0142nego zestawu funkcji, w tym turniej\u00f3w i sklepu w grze.",
+        "title": "Obs\u0142ugiwane klienty i kompatybilno\u015b\u0107",
+        "leadMobile": "Po\u0142\u0105cz si\u0119 bez problem\u00f3w, korzystaj\u0105c z obs\u0142ugiwanych klient\u00f3w Minecrafta i konfiguracji launcher\u00f3w.",
+        "leadDesktop": "Po\u0142\u0105cz si\u0119 bez problem\u00f3w, korzystaj\u0105c z obs\u0142ugiwanych klient\u00f3w Minecrafta i konfiguracji launcher\u00f3w.",
         "bullets": [
-          "Java Edition 1.20.4 \u2014 zalecane dla graczy PC.",
-          "Najnowsze wydanie Bedrock na Windows, iOS, Android i konsolach.",
-          "Nasz launcher automatycznie wybiera w\u0142a\u015bciwy profil po zalogowaniu."
-        ]
+          "**Java Edition (1.12.2 \u2013 1.19):** W pe\u0142ni obs\u0142ugiwana dla graczy PC."
+        ],
+        "bulletsAfterCallout": [
+          "**Launchery oficjalne i zewn\u0119trzne:** Oficjalne launchery Minecrafta automatycznie konfiguruj\u0105 wymagane \u015brodowisko Java. Launchery zewn\u0119trzne wymagaj\u0105 r\u0119cznego wyboru profilu.",
+          "**Bedrock Edition:** Obs\u0142ugiwana na Windows, iOS, Android i konsolach dzi\u0119ki zgodno\u015bci cross-play."
+        ],
+        "calloutTitle": "Uwaga o \u015brodowisku Java (JRE)",
+        "calloutMobile": "Je\u015bli u\u017cywasz w\u0142asnych launcher\u00f3w (np. TLauncher) lub mod\u00f3w (Forge/Fabric), upewnij si\u0119, \u017ce wersja Javy odpowiada Twojemu klientowi:\n**Minecraft 1.12.2 \u2013 1.16.5:** Wymaga **Java 8**.\n**Minecraft 1.17 \u2013 1.19:** Wymaga **Java 17**.",
+        "calloutDesktop": "Je\u015bli u\u017cywasz w\u0142asnych launcher\u00f3w (np. TLauncher) lub mod\u00f3w (Forge/Fabric), upewnij si\u0119, \u017ce wersja Javy odpowiada Twojemu klientowi:\n**Minecraft 1.12.2 \u2013 1.16.5:** Wymaga **Java 8**.\n**Minecraft 1.17 \u2013 1.19:** Wymaga **Java 17**."
       },
       "s2": {
         "title": "Nieobs\u0142ugiwane wersje",
         "leadMobile": "Starsze klienty nie mog\u0105 do\u0142\u0105czy\u0107, poniewa\u017c API wtyczek r\u00f3\u017cni si\u0119 mi\u0119dzy g\u0142\u00f3wnymi wydaniami.",
         "leadDesktop": "Starsze klienty nie mog\u0105 do\u0142\u0105czy\u0107, poniewa\u017c nasze API wtyczek r\u00f3\u017cni si\u0119 mi\u0119dzy g\u0142\u00f3wnymi wydaniami. Pr\u00f3ba po\u0142\u0105czenia wy\u015bwietla komunikat o przestarza\u0142ym kliencie lub serwerze.",
         "bullets": [
-          "Wersje Java poni\u017cej 1.20.4.",
+          "Wersje Java poza zakresem 1.12.2 \u2013 1.19.",
           "Starsze edycje konsolowe bez cross-play Bedrock.",
           "Crackowane lub zmodyfikowane klienty wykryte przez antycheat."
         ],
@@ -561,7 +566,7 @@
         "leadDesktop": "Java Edition pokazuje numer wersji w lewym dolnym rogu menu g\u0142\u00f3wnego. Bedrock podaje wersj\u0119 w sekcji Ustawienia \u2192 Informacje. Por\u00f3wnaj go z obs\u0142ugiwan\u0105 wersj\u0105 powy\u017cej.",
         "steps": [
           "Otw\u00f3rz Minecrafta i sprawd\u017a numer wersji.",
-          "Por\u00f3wnaj go z Java 1.20.4 lub najnowszym Bedrockiem.",
+          "Por\u00f3wnaj go z Java 1.12.2 \u2013 1.19 lub najnowszym Bedrockiem.",
           "Zaktualizuj przez oficjalny launcher, je\u015bli potrzeba.",
           "Po\u0142\u0105cz si\u0119 z serwerem korzystaj\u0105c z IP z panelu."
         ]
@@ -1374,8 +1379,8 @@
       },
       "s1": {
         "title": "Klient i wersja",
-        "leadMobile": "Potwierd\u017a Java 1.20.4 lub najnowszy Bedrock przed czymkolwiek innym.",
-        "leadDesktop": "Potwierd\u017a Java 1.20.4 lub najnowszy Bedrock przed czymkolwiek innym. Niezgodne wersje ko\u0144cz\u0105 si\u0119 niepowodzeniem w ci\u0105gu kilku sekund od do\u0142\u0105czenia.",
+        "leadMobile": "Potwierd\u017a Java 1.12.2 \u2013 1.19 lub najnowszy Bedrock przed czymkolwiek innym.",
+        "leadDesktop": "Potwierd\u017a Java 1.12.2 \u2013 1.19 lub najnowszy Bedrock przed czymkolwiek innym. Niezgodne wersje ko\u0144cz\u0105 si\u0119 niepowodzeniem w ci\u0105gu kilku sekund od do\u0142\u0105czenia.",
         "bullets": [
           "Zaktualizuj Minecrafta przez oficjalny launcher.",
           "Usu\u0144 zduplikowane wpisy serwer\u00f3w z liter\u00f3wkami.",

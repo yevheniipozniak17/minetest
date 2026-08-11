@@ -151,7 +151,7 @@
     },
     "q3": {
       "question": "Unterst\u00fctzt ihr die Java Edition?",
-      "answer": "Ja. Wir unterst\u00fctzen Java 1.20.4 und die aktuelle Bedrock-Version."
+      "answer": "Ja. Wir unterst\u00fctzen Java 1.12.2 \u2013 1.19 und die aktuelle Bedrock-Version."
     },
     "q4": {
       "question": "Wie erreiche ich den Support?",

@@ -7,8 +7,7 @@ import { Container } from '@/app/_components/Container/Container';
 import ArticleShareLinks from '@/app/blog/_components/ArticleShareLinks/ArticleShareLinks';
 import { getFaqArticleBySlug } from '@/app/faq/_data/faqArticles';
 import { getTranslatedFaqArticleContent } from '@/app/faq/_data/faqArticleContentI18n';
-import type { FaqArticleContentBlock } from '@/app/faq/_data/joinArticleContent';
-import type { FaqSectionContent } from '@/app/faq/_data/faqArticleTypes';
+import type { FaqArticleContentBlock, FaqSectionContent } from '@/app/faq/_data/faqArticleTypes';
 import { GAME_SERVERS } from '@/lib/server/gameServers';
 import { TWITCH_URL } from '@/lib/data/social';
 import styles from './ArticleBody.module.css';
@@ -16,11 +15,39 @@ import { useFaqArticleToc } from './useFaqArticleToc';
 
 const EXAMPLE_IP = GAME_SERVERS.luckysurvival.ip;
 
+/** Renders `**bold**` spans; everything else passes through as plain text. */
+function renderRichText(text: string) {
+  if (!text.includes('**')) {
+    return text;
+  }
+
+  return text
+    .split('**')
+    .map((part, index) => (index % 2 === 1 ? <strong key={index}>{part}</strong> : part));
+}
+
 function TextBlock({ text, className }: { text: FaqArticleContentBlock; className: string }) {
   return (
     <>
-      <p className={`${className} ${text.desktop ? styles.mobileOnly : ''}`}>{text.mobile}</p>
-      {text.desktop && <p className={`${className} ${styles.desktopOnly}`}>{text.desktop}</p>}
+      <p className={`${className} ${text.desktop ? styles.mobileOnly : ''}`}>
+        {renderRichText(text.mobile)}
+      </p>
+      {text.desktop && (
+        <p className={`${className} ${styles.desktopOnly}`}>{renderRichText(text.desktop)}</p>
+      )}
+    </>
+  );
+}
+
+/** Callout copy may hold several lines separated by `\n`; each becomes its own paragraph. */
+function CalloutText({ text, className }: { text: string; className: string }) {
+  return (
+    <>
+      {text.split('\n').map(line => (
+        <p key={line} className={className}>
+          {renderRichText(line)}
+        </p>
+      ))}
     </>
   );
 }
@@ -38,7 +65,7 @@ function BulletList({
         {items.map(item => (
           <li key={item} className={styles.bulletItem}>
             <span className={styles.bullet} aria-hidden="true" />
-            <span>{item}</span>
+            <span>{renderRichText(item)}</span>
           </li>
         ))}
       </ul>
@@ -47,7 +74,7 @@ function BulletList({
           {desktopItems.map(item => (
             <li key={item} className={styles.bulletItem}>
               <span className={styles.bullet} aria-hidden="true" />
-              <span>{item}</span>
+              <span>{renderRichText(item)}</span>
             </li>
           ))}
         </ul>
@@ -69,7 +96,7 @@ function OrderedList({
         {items.map((item, index) => (
           <li key={item} className={styles.orderedItem}>
             <span className={styles.orderedNum}>{index + 1}</span>
-            <span>{item}</span>
+            <span>{renderRichText(item)}</span>
           </li>
         ))}
       </ol>
@@ -78,7 +105,7 @@ function OrderedList({
           {desktopItems.map((item, index) => (
             <li key={item} className={styles.orderedItem}>
               <span className={styles.orderedNum}>{index + 1}</span>
-              <span>{item}</span>
+              <span>{renderRichText(item)}</span>
             </li>
           ))}
         </ol>
@@ -89,21 +116,22 @@ function OrderedList({
 
 function InfoCallout({
   title,
-  children,
-  desktopChildren,
+  text,
+  desktopText,
 }: {
   title: string;
-  children: React.ReactNode;
-  desktopChildren?: React.ReactNode;
+  text: string;
+  desktopText?: string;
 }) {
   return (
     <aside className={styles.calloutInfo}>
       <p className={styles.calloutTitle}>{title}</p>
-      <p className={`${styles.calloutText} ${desktopChildren ? styles.mobileOnly : ''}`}>
-        {children}
-      </p>
-      {desktopChildren && (
-        <p className={`${styles.calloutText} ${styles.desktopOnly}`}>{desktopChildren}</p>
+      <CalloutText
+        text={text}
+        className={`${styles.calloutText} ${desktopText ? styles.mobileOnly : ''}`}
+      />
+      {desktopText && (
+        <CalloutText text={desktopText} className={`${styles.calloutText} ${styles.desktopOnly}`} />
       )}
     </aside>
   );
@@ -112,13 +140,13 @@ function InfoCallout({
 function SuccessCallout({
   title,
   desktopTitle,
-  children,
-  desktopChildren,
+  text,
+  desktopText,
 }: {
   title: string;
   desktopTitle?: string;
-  children: React.ReactNode;
-  desktopChildren?: React.ReactNode;
+  text: string;
+  desktopText?: string;
 }) {
   return (
     <aside className={styles.calloutSuccess}>
@@ -127,17 +155,36 @@ function SuccessCallout({
         <span className={styles.mobileOnly}>{title}</span>
         {desktopTitle && <span className={styles.desktopOnly}>{desktopTitle}</span>}
       </p>
-      <p className={`${styles.calloutText} ${desktopChildren ? styles.mobileOnly : ''}`}>
-        {children}
-      </p>
-      {desktopChildren && (
-        <p className={`${styles.calloutText} ${styles.desktopOnly}`}>{desktopChildren}</p>
+      <CalloutText
+        text={text}
+        className={`${styles.calloutText} ${desktopText ? styles.mobileOnly : ''}`}
+      />
+      {desktopText && (
+        <CalloutText text={desktopText} className={`${styles.calloutText} ${styles.desktopOnly}`} />
       )}
     </aside>
   );
 }
 
 function SectionRenderer({ section }: { section: FaqSectionContent }) {
+  const callout = section.callout;
+  const calloutNode = callout ? (
+    callout.variant === 'success' ? (
+      <SuccessCallout
+        title={callout.title}
+        desktopTitle={callout.titleDesktop}
+        text={callout.text.mobile}
+        desktopText={callout.text.desktop}
+      />
+    ) : (
+      <InfoCallout
+        title={callout.title}
+        text={callout.text.mobile}
+        desktopText={callout.text.desktop}
+      />
+    )
+  ) : null;
+
   return (
     <section id={`section-${section.id}`} className={styles.section}>
       {section.titleDesktop ? (
@@ -153,6 +200,16 @@ function SectionRenderer({ section }: { section: FaqSectionContent }) {
 
       {section.bullets && (
         <BulletList items={section.bullets.mobile} desktopItems={section.bullets.desktop} />
+      )}
+
+      {section.bulletsAfterCallout && (
+        <>
+          {calloutNode}
+          <BulletList
+            items={section.bulletsAfterCallout.mobile}
+            desktopItems={section.bulletsAfterCallout.desktop}
+          />
+        </>
       )}
 
       {section.steps && (
@@ -196,20 +253,7 @@ function SectionRenderer({ section }: { section: FaqSectionContent }) {
         </div>
       )}
 
-      {section.callout &&
-        (section.callout.variant === 'success' ? (
-          <SuccessCallout
-            title={section.callout.title}
-            desktopTitle={section.callout.titleDesktop}
-            desktopChildren={section.callout.text.desktop}
-          >
-            {section.callout.text.mobile}
-          </SuccessCallout>
-        ) : (
-          <InfoCallout title={section.callout.title} desktopChildren={section.callout.text.desktop}>
-            {section.callout.text.mobile}
-          </InfoCallout>
-        ))}
+      {!section.bulletsAfterCallout && calloutNode}
 
       {section.troubleItems && (
         <>

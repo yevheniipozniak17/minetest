@@ -186,8 +186,8 @@
     "supported-versions": {
       "question": "Welche Minecraft-Versionen werden unterst\u00fctzt?",
       "breadcrumb": "Unterst\u00fctzte Versionen",
-      "quickAnswer": "Java 1.20.4 und das neueste Bedrock-Release. \u00c4ltere Versionen werden wegen unserer Custom-Plugins nicht unterst\u00fctzt.",
-      "excerpt": "Wir unterst\u00fctzen Java 1.20.4 und das neueste Bedrock-Release. Custom-Plugins erfordern einen aktuellen Client \u2014 \u00e4ltere Versionen k\u00f6nnen keine Verbindung herstellen."
+      "quickAnswer": "Java 1.12.2 \u2013 1.19 und das neueste Bedrock-Release. Versionen au\u00dferhalb dieses Bereichs werden wegen unserer Custom-Plugins nicht unterst\u00fctzt.",
+      "excerpt": "Wir unterst\u00fctzen Java 1.12.2 \u2013 1.19 und das neueste Bedrock-Release. Custom-Plugins erfordern einen unterst\u00fctzten Client \u2014 andere Versionen k\u00f6nnen keine Verbindung herstellen."
     },
     "first-day-checklist": {
       "question": "Was sollte ich an meinem ersten Tag tun?",
@@ -330,7 +330,7 @@
     "connection-lost": {
       "question": "Warum erhalte ich \u201eVerbindung getrennt\u201c-Fehler?",
       "breadcrumb": "Verbindung getrennt",
-      "quickAnswer": "\u00dcblicherweise eine Firewall, ein VPN oder ein Versionskonflikt. Port 25565 erlauben, VPN deaktivieren und best\u00e4tigen, dass Java 1.20.4 oder neuestes Bedrock l\u00e4uft.",
+      "quickAnswer": "\u00dcblicherweise eine Firewall, ein VPN oder ein Versionskonflikt. Port 25565 erlauben, VPN deaktivieren und best\u00e4tigen, dass Java 1.12.2 \u2013 1.19 oder neuestes Bedrock l\u00e4uft.",
       "excerpt": "\u201eVerbindung getrennt\u201c-Fehler bedeuten meist eine Firewall, ein VPN oder einen Versionskonflikt. Port 25565 erlauben und Client aktualisieren."
     },
     "resource-pack-issues": {
@@ -369,13 +369,13 @@
       "desktop": "Stelle sicher, dass du Folgendes bereit hast. Falls etwas fehlt, f\u00fchren die Links unten zur richtigen Stelle."
     },
     "beforeBulletsMobile": [
-      "Legale Kopie von Minecraft (Java 1.20.4 oder neuestes Bedrock).",
+      "Legale Kopie von Minecraft (Java 1.12.2 \u2013 1.19 oder neuestes Bedrock).",
       "G\u00fcltige E-Mail-Adresse, auf die du jetzt zugreifen kannst.",
       "Ein Spielname f\u00fcr andere Spieler.",
       "Stabile Internetverbindung."
     ],
     "beforeBulletsDesktop": [
-      "Eine legale Kopie von Minecraft (Java 1.20.4 oder das neueste Bedrock-Release).",
+      "Eine legale Kopie von Minecraft (Java 1.12.2 \u2013 1.19 oder das neueste Bedrock-Release).",
       "Eine g\u00fcltige E-Mail-Adresse, auf die du jetzt zugreifen kannst (f\u00fcr die Verifizierung).",
       "Ein Spielname, den andere Spieler sehen sollen \u2014 kann sich von deinem Microsoft-Handle unterscheiden.",
       "Eine stabile Internetverbindung (modernes Breitband gen\u00fcgt)."
@@ -475,7 +475,7 @@
     "troubleMobileItems": [
       {
         "title": "\u201eVeralteter Server / Client\u201c",
-        "text": "Minecraft auf 1.20.4 (Java) oder den neuesten Bedrock-Build aktualisieren."
+        "text": "Minecraft auf Java 1.12.2 \u2013 1.19 oder den neuesten Bedrock-Build aktualisieren."
       },
       {
         "title": "\u201eVerbindung getrennt\u201c",
@@ -493,7 +493,7 @@
     "troubleDesktopItems": [
       {
         "title": "\u201eVeralteter Server\u201c oder \u201eVeralteter Client\u201c",
-        "text": "Deine Minecraft-Version stimmt nicht mit dem Server \u00fcberein. Minecraft auf 1.20.4 (Java) oder den neuesten Bedrock-Build aktualisieren und erneut verbinden."
+        "text": "Deine Minecraft-Version stimmt nicht mit dem Server \u00fcberein. Minecraft auf Java 1.12.2 \u2013 1.19 oder den neuesten Bedrock-Build aktualisieren und erneut verbinden."
       },
       {
         "title": "\u201eVerbindung getrennt\u201c direkt nach dem Beitritt",
@@ -533,21 +533,26 @@
         "desktop": "Wir betreiben Custom-Plugins, Anti-Cheat und Wirtschaftssysteme, die einen aktuellen Minecraft-Client erfordern. Hier ist genau, was heute funktioniert \u2014 und was nicht."
       },
       "s1": {
-        "title": "Unterst\u00fctzte Clients",
-        "leadMobile": "Diese Versionen stellen die Verbindung ohne Kompatibilit\u00e4tswarnungen her.",
-        "leadDesktop": "Diese Client-Versionen stellen die Verbindung ohne Kompatibilit\u00e4tswarnungen her und erhalten alle Funktionen einschlie\u00dflich Turnieren und dem In-Game-Shop.",
+        "title": "Unterst\u00fctzte Clients & Kompatibilit\u00e4t",
+        "leadMobile": "Verbinde dich problemlos mit unterst\u00fctzten Minecraft-Clients und Launcher-Konfigurationen.",
+        "leadDesktop": "Verbinde dich problemlos mit unterst\u00fctzten Minecraft-Clients und Launcher-Konfigurationen.",
         "bullets": [
-          "Java Edition 1.20.4 \u2014 empfohlen f\u00fcr PC-Spieler.",
-          "Neuestes Bedrock-Release auf Windows, iOS, Android und Konsole.",
-          "Unser Launcher w\u00e4hlt nach der Anmeldung automatisch das richtige Profil aus."
-        ]
+          "**Java Edition (1.12.2 \u2013 1.19):** Vollst\u00e4ndig unterst\u00fctzt f\u00fcr PC-Spieler."
+        ],
+        "bulletsAfterCallout": [
+          "**Offizielle & Drittanbieter-Launcher:** Offizielle Minecraft-Launcher konfigurieren die erforderliche Java-Umgebung automatisch. Drittanbieter-Launcher erfordern eine manuelle Profilauswahl.",
+          "**Bedrock Edition:** Unterst\u00fctzt unter Windows, iOS, Android und auf Konsolen \u00fcber Cross-Play-Kompatibilit\u00e4t."
+        ],
+        "calloutTitle": "Hinweis zur Java-Laufzeitumgebung (JRE)",
+        "calloutMobile": "Wenn du Custom-Launcher (z.\u00a0B. TLauncher) oder Mods (Forge/Fabric) verwendest, achte darauf, dass deine Java-Version zum Client passt:\n**Minecraft 1.12.2 \u2013 1.16.5:** Ben\u00f6tigt **Java 8**.\n**Minecraft 1.17 \u2013 1.19:** Ben\u00f6tigt **Java 17**.",
+        "calloutDesktop": "Wenn du Custom-Launcher (z.\u00a0B. TLauncher) oder Mods (Forge/Fabric) verwendest, achte darauf, dass deine Java-Version zum Client passt:\n**Minecraft 1.12.2 \u2013 1.16.5:** Ben\u00f6tigt **Java 8**.\n**Minecraft 1.17 \u2013 1.19:** Ben\u00f6tigt **Java 17**."
       },
       "s2": {
         "title": "Nicht unterst\u00fctzte Versionen",
         "leadMobile": "\u00c4ltere Clients k\u00f6nnen keine Verbindung herstellen, da Plugin-APIs zwischen Hauptversionen unterschiedlich sind.",
         "leadDesktop": "\u00c4ltere Clients k\u00f6nnen keine Verbindung herstellen, da sich unsere Plugin-APIs zwischen Hauptversionen unterscheiden. Ein Verbindungsversuch zeigt eine veraltete Client- oder Servermeldung.",
         "bullets": [
-          "Java-Versionen unter 1.20.4.",
+          "Java-Versionen au\u00dferhalb von 1.12.2 \u2013 1.19.",
           "Legacy-Konsolenversionen ohne Bedrock-Cross-Play.",
           "Gecrackte oder modifizierte Clients, die von Anti-Cheat erkannt werden."
         ],
@@ -561,7 +566,7 @@
         "leadDesktop": "Java Edition zeigt den Versionsstring unten links im Hauptmen\u00fc. Bedrock listet den Build unter Einstellungen \u2192 \u00dcber. Mit der unterst\u00fctzten Liste oben abgleichen.",
         "steps": [
           "Minecraft \u00f6ffnen und Versionsnummer notieren.",
-          "Mit Java 1.20.4 oder dem neuesten Bedrock-Build vergleichen.",
+          "Mit Java 1.12.2 \u2013 1.19 oder dem neuesten Bedrock-Build vergleichen.",
           "Bei Bedarf \u00fcber den offiziellen Launcher aktualisieren.",
           "Vom Dashboard aus erneut mit dem Server verbinden."
         ]
@@ -1374,8 +1379,8 @@
       },
       "s1": {
         "title": "Client und Version",
-        "leadMobile": "Java 1.20.4 oder neuestes Bedrock vor allem anderen best\u00e4tigen.",
-        "leadDesktop": "Java 1.20.4 oder neuestes Bedrock vor allem anderen best\u00e4tigen. Nicht \u00fcbereinstimmende Versionen schlagen innerhalb von Sekunden nach dem Beitritt fehl.",
+        "leadMobile": "Java 1.12.2 \u2013 1.19 oder neuestes Bedrock vor allem anderen best\u00e4tigen.",
+        "leadDesktop": "Java 1.12.2 \u2013 1.19 oder neuestes Bedrock vor allem anderen best\u00e4tigen. Nicht \u00fcbereinstimmende Versionen schlagen innerhalb von Sekunden nach dem Beitritt fehl.",
         "bullets": [
           "Minecraft \u00fcber den offiziellen Launcher aktualisieren.",
           "Doppelte Servereintr\u00e4ge mit Tippfehlern entfernen.",

@@ -102,9 +102,9 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     views: 9620,
     readMinutes: 2,
     quickAnswer:
-      'Java 1.20.4 and the latest Bedrock release. Older versions are not supported because of the custom plugins we run.',
+      'Java 1.12.2 – 1.19 and the latest Bedrock release. Versions outside this range are not supported because of the custom plugins we run.',
     excerpt:
-      'We support Java 1.20.4 and the latest Bedrock release. Custom plugins require a current client — older versions cannot connect.',
+      'We support Java 1.12.2 – 1.19 and the latest Bedrock release. Custom plugins require a supported client — other versions cannot connect.',
   },
   {
     slug: 'first-day-checklist',
@@ -438,7 +438,7 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     views: 11890,
     readMinutes: 3,
     quickAnswer:
-      'Usually a firewall, VPN, or version mismatch. Allow port 25565, disable VPN, and confirm you run Java 1.20.4 or latest Bedrock.',
+      'Usually a firewall, VPN, or version mismatch. Allow port 25565, disable VPN, and confirm you run Java 1.12.2 – 1.19 or latest Bedrock.',
     excerpt:
       'Connection lost errors usually mean a firewall, VPN, or version mismatch. Allow port 25565 and update your client.',
   },

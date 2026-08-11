@@ -151,7 +151,7 @@
     },
     "q3": {
       "question": "Do you support Java Edition?",
-      "answer": "Yes. We support Java 1.20.4 and the latest Bedrock release."
+      "answer": "Yes. We support Java 1.12.2 \u2013 1.19 and the latest Bedrock release."
     },
     "q4": {
       "question": "How do I contact support?",

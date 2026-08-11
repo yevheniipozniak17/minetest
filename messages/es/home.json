@@ -151,7 +151,7 @@
     },
     "q3": {
       "question": "\u00bfAdmit\u00eds la Java Edition?",
-      "answer": "S\u00ed. Soportamos Java 1.20.4 y la \u00faltima versi\u00f3n Bedrock."
+      "answer": "S\u00ed. Soportamos Java 1.12.2 \u2013 1.19 y la \u00faltima versi\u00f3n Bedrock."
     },
     "q4": {
       "question": "\u00bfC\u00f3mo contacto al soporte?",
