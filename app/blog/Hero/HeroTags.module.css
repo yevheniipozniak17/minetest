@@ -27,6 +27,8 @@
   letter-spacing: 0.6px;
   text-transform: uppercase;
   white-space: nowrap;
+
+  transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
 }
 
 .tag:hover:not(.tagActive) {
@@ -48,11 +50,51 @@
   color: #001812;
 }
 
+.tagToggle {
+  cursor: pointer;
+  font-family: inherit;
+  border-color: rgba(189, 225, 83, 0.35);
+  color: #bde153;
+}
+
+.tagToggle:hover {
+  background: rgba(189, 225, 83, 0.12);
+}
+
+/* Приховані категорії — в окремому «випадаючому» ряду. Займають повну
+   ширину контейнера (щоб бути на власному рядку), overflow: hidden ховає
+   вміст у згорнутому стані. Теги в DOM — Google їх бачить. */
+.moreRow {
+  flex-basis: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  margin-top: 0;
+  transition:
+    max-height 280ms ease,
+    opacity 220ms ease,
+    margin-top 280ms ease;
+}
+
+.moreRowOpen {
+  max-height: 240px;
+  opacity: 1;
+  margin-top: 4px;
+}
+
 @media (min-width: 1280px) {
   .tags {
-    width: auto;
-    max-width: none;
+    /* Обмежуємо ширину ряду, щоб на ультравайд-екранах теги не тягнулись
+       на 2000+ px по горизонталі. */
+    width: 100%;
+    max-width: 1100px;
     margin-top: 0;
+    margin-inline: auto;
     gap: 10px;
     justify-content: center;
   }
@@ -62,5 +104,9 @@
     font-size: 12px;
     letter-spacing: 0.72px;
     backdrop-filter: blur(15px);
+  }
+
+  .moreRow {
+    gap: 10px;
   }
 }
