@@ -9,6 +9,9 @@ export const metadata: Metadata = buildMetadata({
   description:
     'Latest patch notes, seasonal events, and feature releases across LuckySurvival, MineWars, and CalmSky.',
   path: '/blog/updates',
+  // Демо-стаття зі статичним текстом, лишилась від старого дизайну. Решта
+  // блогу під noindex до апруву SEO — ця сторінка була єдиною відкритою.
+  noindex: true,
 });
 
 export default function Updates() {
