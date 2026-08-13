@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getBlogArticle, getBlogArticleList, getBlogSlugs, getBlogCategories } from '@/lib/server/blog';
+import { getBlogArticle, getBlogArticleList, getBlogCategories } from '@/lib/server/blog';
 import { sanitizeArticleHtml } from '@/lib/server/sanitizeArticleHtml';
 import { adaptCardArticle, adaptFullArticle, buildCategoryMap } from '../_adapter';
 import ArticlePage from '../_article/ArticlePage';
@@ -12,14 +12,11 @@ type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
-export async function generateStaticParams() {
-  try {
-    const slugs = await getBlogSlugs();
-    return slugs.map(slug => ({ slug }));
-  } catch {
-    return [];
-  }
-}
+// Сторінка рендериться на кожен запит. Тіло статті кешується через
+// revalidate на fetch-у до бекенду, тож бекенду це не додає навантаження.
+// generateStaticParams не використовуємо: next-intl.getTranslations читає
+// cookie (dynamic API), а це несумісне зі static generation.
+export const dynamic = 'force-dynamic';
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
