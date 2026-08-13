@@ -5,7 +5,8 @@
     "description": "Poradniki, aktualizacje serwerów i historie graczy z naszych światów.",
     "searchPlaceholder": "Szukaj artykułów…",
     "searchButton": "Szukaj",
-    "categoriesLabel": "Kategorie bloga"
+    "categoriesLabel": "Kategorie bloga",
+    "categoryLabel": "Kategoria"
   },
   "featured": {
     "tagFeatured": "Wyrożniony",

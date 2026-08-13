@@ -3,7 +3,9 @@
     padding-bottom: 48px;
 
     position: relative;
-    overflow: hidden;
+    /* Дропдаун категорій виходить за нижню межу героя — обрізати не можна.
+       Фон і градієнт ::after все одно лишаються в межах блока. */
+    overflow: visible;
 
     width: 100%;
     background-color: #001812;
@@ -154,7 +156,6 @@
         background-image: url('/blog/hero-desktop.webp');
         background-size: 108%;
         background-position: 75% 38%;
-        overflow: hidden;
     }
 
     .content {

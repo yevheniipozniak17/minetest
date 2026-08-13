@@ -5,7 +5,8 @@
     "description": "Guides, server updates and player stories from our worlds.",
     "searchPlaceholder": "Search articles…",
     "searchButton": "Search",
-    "categoriesLabel": "Blog categories"
+    "categoriesLabel": "Blog categories",
+    "categoryLabel": "Category"
   },
   "featured": {
     "tagFeatured": "Featured",

@@ -5,7 +5,8 @@
     "description": "Guías, actualizaciones del servidor e historias de jugadores desde nuestros mundos.",
     "searchPlaceholder": "Buscar artículos…",
     "searchButton": "Buscar",
-    "categoriesLabel": "Categorías del blog"
+    "categoriesLabel": "Categorías del blog",
+    "categoryLabel": "Categoría"
   },
   "featured": {
     "tagFeatured": "Destacado",

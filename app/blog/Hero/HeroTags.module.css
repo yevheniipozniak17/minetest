@@ -1,112 +1,377 @@
-.tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
+/* Мобілка: у герої лишається один селектор на всю ширину, а всі категорії
+   живуть у дропдауні під ним. Ряд чипів тут не працює — 16 категорій або
+   розповзаються на 10 рядів, або обрізаються в горизонтальному скролі. */
+.root {
+  position: relative;
   width: 100%;
-  margin-top: 16px;
 }
 
-.tag {
+/* Пара «підпис + назва» по центру, а шеврон поза потоком біля правого краю:
+   при короткому значенні («All») ліве вирівнювання лишало праворуч діру. */
+.selector {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 12px;
+  gap: 10px;
+  width: 100%;
+  margin-top: 16px;
+  padding: 13px 40px;
+  cursor: pointer;
+
   border-radius: 999px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: rgba(255, 255, 255, 0.05);
-  text-decoration: none;
-
-  color: #fff;
-  font-family: Montserrat, sans-serif;
-  font-size: 10px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-  white-space: nowrap;
-
-  transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
+  backdrop-filter: blur(15px);
+  text-align: left;
 }
 
-.tag:hover:not(.tagActive) {
-  background: rgba(255, 255, 255, 0.1);
-}
-
-.tagActive:hover {
-  filter: brightness(1.05);
-}
-
-.tag:focus-visible {
+.selector:focus-visible {
   outline: 2px solid #bde153;
   outline-offset: 2px;
 }
 
-.tagActive {
-  border-color: #bde153;
-  background: #bde153;
-  color: #001812;
+.selectorLabel {
+  flex: 0 0 auto;
+  color: rgba(255, 255, 255, 0.45);
+  font-family: Montserrat, sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
 }
 
-.tagToggle {
-  cursor: pointer;
-  font-family: inherit;
-  border-color: rgba(189, 225, 83, 0.35);
+.selectorValue {
+  flex: 0 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+.selectorFiltered .selectorValue {
   color: #bde153;
 }
 
-.tagToggle:hover {
-  background: rgba(189, 225, 83, 0.12);
+.selectorChevron {
+  position: absolute;
+  right: 18px;
+  width: 12px;
+  height: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  transition: transform 180ms ease;
 }
 
-/* Приховані категорії — в окремому «випадаючому» ряду. Займають повну
-   ширину контейнера (щоб бути на власному рядку), overflow: hidden ховає
-   вміст у згорнутому стані. Теги в DOM — Google їх бачить. */
-.moreRow {
-  flex-basis: 100%;
+.selector[aria-expanded='true'] .selectorChevron {
+  transform: rotate(180deg);
+}
+
+.tags {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  z-index: 30;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  max-height: min(320px, 52vh);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding: 6px 16px;
+
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 20px;
+  /* Непрозорий фон, бо дропдаун виходить за межі героя й лягає на світлу
+     картинку першої статті. */
+  background: #04211a;
+  box-shadow: 0 24px 48px rgba(0, 0, 0, 0.5);
+
+  /* visibility, а не тільки opacity: прихований список не читає скрінрідер
+     і він не ловить фокус, але лишається в DOM для краулерів. */
+  visibility: hidden;
+  opacity: 0;
+  transform: translateY(-6px);
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease,
+    visibility 0s linear 180ms;
+}
+
+.tagsOpen {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition:
+    opacity 180ms ease,
+    transform 180ms ease,
+    visibility 0s;
+}
+
+/* Дефолтний скролбар у темній панелі читається як біла смуга — приглушуємо.
+   Обидва списки: мобільний дропдаун і десктопний popover. */
+.tags,
+.panel {
+  scrollbar-width: thin;
+  /* Колір «жолоба» не прозорий: фон елемента під смугу скролу не заходить,
+     і крізь неї просвічує сторінка. */
+  scrollbar-color: rgba(255, 255, 255, 0.24) #04211a;
+}
+
+.tags::-webkit-scrollbar,
+.panel::-webkit-scrollbar {
+  width: 6px;
+  background: #04211a;
+}
+
+.tags::-webkit-scrollbar-thumb,
+.panel::-webkit-scrollbar-thumb {
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.24);
+}
+
+/* Пігулки на всю ширину виглядали як стіна кнопок, тому в дропдауні це список:
+   рядки з тонкими розділювачами й галочкою на активному. */
+.tag {
+  position: relative;
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
-  max-height: 0;
-  opacity: 0;
-  margin-top: 0;
-  transition:
-    max-height 280ms ease,
-    opacity 220ms ease,
-    margin-top 280ms ease;
+  gap: 8px;
+  padding: 13px 22px;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+  background: none;
+  text-decoration: none;
+
+  color: #fff;
+  font-family: Montserrat, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+
+  transition: background 120ms ease, border-color 120ms ease, color 120ms ease;
 }
 
-.moreRowOpen {
-  max-height: 240px;
-  opacity: 1;
-  margin-top: 4px;
+.tag:focus-visible {
+  outline: 2px solid #bde153;
+  outline-offset: -2px;
+}
+
+.tagActive {
+  color: #bde153;
+}
+
+/* Галочка поза потоком, інакше вона зсуває назву й активний рядок
+   перестає бути по центру. */
+.tagActive::after {
+  content: '✓';
+  position: absolute;
+  right: 2px;
+  font-size: 13px;
+}
+
+/* Останній рядок списку — без розділювача. Тегами з дропдауна список
+   закінчується, тож саме там прибираємо межу. */
+@media (max-width: 1279px) {
+  .panel .tag:last-child {
+    border-bottom: none;
+  }
+}
+
+/* Тригер «+N more» потрібен лише десктопу: на мобілці список відкриває
+   селектор у герої. */
+.tagToggle {
+  display: none;
+}
+
+.chevron {
+  width: 10px;
+  height: 7px;
+  transition: transform 180ms ease;
+}
+
+.tagToggle[aria-expanded='true'] .chevron {
+  transform: rotate(180deg);
+}
+
+/* Ширина = найдовший із підписів, тому перемикання стану не рухає ряд.
+   Неактивний підпис ховаємо через visibility — він тримає розмір,
+   але не потрапляє в дерево доступності. */
+.toggleLabel {
+  display: grid;
+  grid-template-areas: 'label';
+  align-items: center;
+  justify-items: center;
+}
+
+.toggleOption {
+  grid-area: label;
+  visibility: hidden;
+  white-space: nowrap;
+}
+
+.toggleOptionActive {
+  visibility: visible;
+}
+
+/* На мобілці обгортки не мають власного боксу: чипи з дропдауна стають
+   такими самими рядками списку, як і решта. */
+.more,
+.panel {
+  display: contents;
 }
 
 @media (min-width: 1280px) {
+  .root {
+    display: contents;
+  }
+
+  .selector {
+    display: none;
+  }
+
+  /* Обмежуємо ширину ряду, щоб на ультравайд-екранах теги не тягнулись
+     на 2000+ px по горизонталі. */
   .tags {
-    /* Обмежуємо ширину ряду, щоб на ультравайд-екранах теги не тягнулись
-       на 2000+ px по горизонталі. */
+    position: static;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
     max-width: 1100px;
-    margin-top: 0;
+    max-height: none;
     margin-inline: auto;
-    gap: 10px;
-    justify-content: center;
+    padding: 0;
+    overflow: visible;
+
+    border: none;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    backdrop-filter: none;
+
+    visibility: visible;
+    opacity: 1;
+    transform: none;
+    transition: none;
   }
 
   .tag {
+    flex: 0 0 auto;
+    justify-content: center;
     padding: 8px 14px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(15px);
+
     font-size: 12px;
     letter-spacing: 0.72px;
-    backdrop-filter: blur(15px);
+    white-space: nowrap;
   }
 
-  .moreRow {
-    gap: 10px;
+  .tag:hover:not(.tagActive) {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .tag:focus-visible {
+    outline-offset: 2px;
+  }
+
+  .tagActive {
+    border-color: #bde153;
+    background: #bde153;
+    color: #001812;
+  }
+
+  .tagActive:hover {
+    filter: brightness(1.05);
+  }
+
+  .tagActive::after {
+    content: none;
+  }
+
+  .tagToggle {
+    display: flex;
+    gap: 6px;
+    cursor: pointer;
+    border-color: rgba(189, 225, 83, 0.35);
+    color: #bde153;
+    font-family: inherit;
+  }
+
+  .tagToggle:hover {
+    background: rgba(189, 225, 83, 0.12);
+  }
+
+  /* Вибрана категорія лежить у списку за тригером — підсвічуємо тригер, щоб було
+     видно, що фільтр застосований. Змінюємо лише колір, не розміри: інакше ряд
+     зсунеться при переході на таку категорію. */
+  .tagToggleActive {
+    border-color: #bde153;
+    background: rgba(189, 225, 83, 0.18);
+  }
+
+  .more {
+    display: block;
+    position: relative;
+  }
+
+  /* Панель прив'язана правим краєм до тригера: тригер завжди в кінці ряду,
+     тож так вона гарантовано лишається в межах вікна. */
+  .panel {
+    position: absolute;
+    top: calc(100% + 12px);
+    right: 0;
+    z-index: 20;
+
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    justify-items: start;
+    gap: 8px 16px;
+    width: max-content;
+    max-width: min(560px, calc(100vw - 48px));
+    max-height: 320px;
+    overflow-y: auto;
+    padding: 20px;
+
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 20px;
+    background: rgba(0, 24, 18, 0.94);
+    box-shadow: 0 24px 48px rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(20px);
+
+    /* visibility, а не тільки opacity: приховані посилання не читає скрінрідер
+       і вони не ловлять фокус, але лишаються в DOM для краулерів. */
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-6px);
+    transition:
+      opacity 180ms ease,
+      transform 180ms ease,
+      visibility 0s linear 180ms;
+  }
+
+  .panelOpen {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+    transition:
+      opacity 180ms ease,
+      transform 180ms ease,
+      visibility 0s;
   }
 }
