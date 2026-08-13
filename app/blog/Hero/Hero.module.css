@@ -3,6 +3,7 @@
     padding-bottom: 48px;
 
     position: relative;
+    overflow: hidden;
 
     width: 100%;
     background-color: #001812;
@@ -10,6 +11,23 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/* Плавне згасання нижнього краю hero у фон Featured (#001812),
+   щоб при численних рядах бейджів не було видимої смужки картинки. */
+.hero::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 240px;
+    background: linear-gradient(to bottom,
+        rgba(0, 24, 18, 0) 0%,
+        rgba(0, 24, 18, 0.75) 45%,
+        #001812 100%);
+    pointer-events: none;
+    z-index: 0;
 }
 
 .badge {
@@ -132,7 +150,7 @@
 @media (min-width: 1280px) {
     .hero {
         padding-top: 0;
-        padding-bottom: 80px;
+        padding-bottom: 24px;
         background-image: url('/blog/hero-desktop.webp');
         background-size: 108%;
         background-position: 75% 38%;

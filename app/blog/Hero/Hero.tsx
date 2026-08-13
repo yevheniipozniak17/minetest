@@ -17,15 +17,20 @@ export default async function Hero() {
           <p className={styles.description}>{t('hero.description')}</p>
         </div>
 
-        <div className={styles.search}>
+        <form className={styles.search} action="/blog" method="GET" role="search">
           <span className={styles.searchIcon} aria-hidden="true">
             ⌕
           </span>
-          <input className={styles.input} type="search" placeholder={t('hero.searchPlaceholder')} />
-          <button type="button" className={styles.searchButton}>
+          <input
+            className={styles.input}
+            type="search"
+            name="search_query"
+            placeholder={t('hero.searchPlaceholder')}
+          />
+          <button type="submit" className={styles.searchButton}>
             {t('hero.searchButton')}
           </button>
-        </div>
+        </form>
 
         <Suspense fallback={null}>
           <HeroTags />

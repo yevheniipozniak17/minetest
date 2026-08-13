@@ -1,92 +1,99 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getTranslations } from 'next-intl/server';
+import { getBlogArticle, getBlogArticleList, getBlogSlugs, getBlogCategories } from '@/lib/server/blog';
+import { sanitizeArticleHtml } from '@/lib/server/sanitizeArticleHtml';
+import { adaptCardArticle, adaptFullArticle, buildCategoryMap } from '../_adapter';
 import ArticlePage from '../_article/ArticlePage';
-import { getAllPostSlugs, getRelatedArticles, getTranslatedPost } from '../_article/posts';
 import { buildMetadata } from '@/lib/seo/meta';
 import { JsonLd } from '@/app/_components/JsonLd/JsonLd';
 import { articleSchema, breadcrumbSchema, toIsoDate } from '@/lib/seo/schema';
-import type { ArticleCardProps } from '../CardList/Card/Card';
 
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
 
 export async function generateStaticParams() {
-  return getAllPostSlugs().map(slug => ({ slug }));
+  try {
+    const slugs = await getBlogSlugs();
+    return slugs.map(slug => ({ slug }));
+  } catch {
+    return [];
+  }
 }
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const t = await getTranslations('blog');
-  const post = getTranslatedPost(slug, key => t.raw(key as Parameters<typeof t.raw>[0]));
+  const article = await getBlogArticle(slug).catch(() => null);
 
-  if (!post) {
-    return { title: 'Article not found' };
+  if (!article) {
+    return { title: 'Article not found', robots: { index: false, follow: false } };
   }
 
   return buildMetadata({
-    title: post.title,
-    description: post.description,
+    title: article.meta_title || article.title,
+    description: article.meta_description || article.short_description,
     path: `/blog/${slug}`,
-    image: post.image,
+    image: `/api/blog/image/${slug}`,
     ogType: 'article',
+    noindex: true,
     article: {
-      publishedTime: toIsoDate(post.date),
-      tags: [...post.sidebarTags],
+      publishedTime: toIsoDate(article.publish_date),
     },
   });
 }
 
 export default async function BlogArticlePage({ params }: PageProps) {
   const { slug } = await params;
-  const t = await getTranslations('blog');
-  const getRaw = (key: string) => t.raw(key as Parameters<typeof t.raw>[0]);
 
-  const post = getTranslatedPost(slug, getRaw);
+  const [article, categories] = await Promise.all([
+    getBlogArticle(slug).catch(() => null),
+    getBlogCategories().catch(() => []),
+  ]);
 
-  if (!post) {
+  if (!article) {
     notFound();
   }
 
-  const { mobile: relatedMobile, desktop: relatedDesktop } = getRelatedArticles(slug);
+  const categoryMap = buildCategoryMap(categories);
+  const post = adaptFullArticle(article, categoryMap);
+  const sanitizedHtml = sanitizeArticleHtml(post.htmlWithAnchors);
 
-  const translateCard = (
-    card: ArticleCardProps & { slug?: string },
-    useDesktop = false,
-  ): ArticleCardProps & { slug?: string } => {
-    const s = card.slug;
-    if (!s) return card;
-    try {
-      const pt = getRaw(`posts.${s}`) as {
-        title?: string;
-        description?: string;
-        descriptionDesktop?: string;
-      } | null;
-      return {
-        ...card,
-        title: pt?.title ?? card.title,
-        description: (useDesktop ? pt?.descriptionDesktop : pt?.description) ?? card.description,
-      };
-    } catch {
-      return card;
-    }
-  };
+  // Спочатку тягнемо статті з тієї ж категорії. Якщо їх немає (або тільки
+  // поточна), падбекап — свіжі статті будь-якої категорії, щоб секція
+  // "Keep reading" не була пуста.
+  const sameCategoryResponse = await getBlogArticleList({
+    category: article.category_slug,
+    page_size: 6,
+  }).catch(() => ({ results: [], count: 0, next: null, previous: null }));
 
-  const translatedRelatedMobile = relatedMobile.map(c => translateCard(c, false));
-  const translatedRelatedDesktop = relatedDesktop.map(c => translateCard(c, true));
+  let relatedRaw = sameCategoryResponse.results.filter(item => item.slug !== slug);
+
+  if (relatedRaw.length < 3) {
+    const fallback = await getBlogArticleList({ page_size: 6 }).catch(() => ({
+      results: [],
+      count: 0,
+      next: null,
+      previous: null,
+    }));
+    const seen = new Set([slug, ...relatedRaw.map(item => item.slug)]);
+    const extra = fallback.results.filter(item => !seen.has(item.slug));
+    relatedRaw = [...relatedRaw, ...extra];
+  }
+
+  const relatedArticles = relatedRaw
+    .slice(0, 3)
+    .map(item => adaptCardArticle(item, categoryMap));
 
   return (
-    <>
+    <main style={{ backgroundColor: '#001812' }}>
       <JsonLd
         id="article-schema"
         data={articleSchema({
           title: post.title,
-          description: post.description,
+          description: article.meta_description || article.short_description,
           path: `/blog/${slug}`,
           image: post.image,
-          datePublished: toIsoDate(post.date),
-          tags: post.sidebarTags,
+          datePublished: toIsoDate(article.publish_date),
         })}
       />
       <JsonLd
@@ -94,14 +101,11 @@ export default async function BlogArticlePage({ params }: PageProps) {
         data={breadcrumbSchema([
           { name: 'Home', path: '/' },
           { name: 'Blog', path: '/blog' },
-          { name: post.breadcrumbLabel, path: `/blog/${slug}` },
+          { name: post.categoryLabel, path: `/blog?category=${article.category_slug}` },
+          { name: post.title, path: `/blog/${slug}` },
         ])}
       />
-      <ArticlePage
-        post={post}
-        relatedMobile={translatedRelatedMobile}
-        relatedDesktop={translatedRelatedDesktop}
-      />
-    </>
+      <ArticlePage post={post} sanitizedHtml={sanitizedHtml} relatedArticles={relatedArticles} />
+    </main>
   );
 }

@@ -4,7 +4,6 @@ import { Container } from '@/app/_components/Container/Container';
 import { categoryHref } from '@/app/blog/categories';
 import type { BlogPostFull } from '../types';
 import styles from './Hero.module.css';
-import Image from 'next/image';
 
 type HeroProps = Pick<
   BlogPostFull,
@@ -16,12 +15,12 @@ type HeroProps = Pick<
   | 'descriptionDesktop'
   | 'date'
   | 'time'
-  | 'image'
-  | 'heroImageDesktop'
->;
+> & {
+  categoryLabel: string;
+  categorySlug: string;
+};
 
 export default async function Hero({
-  genre,
   heroTags,
   breadcrumbLabel,
   title,
@@ -29,18 +28,17 @@ export default async function Hero({
   descriptionDesktop,
   date,
   time,
-  image,
-  heroImageDesktop,
+  categoryLabel,
+  categorySlug,
 }: HeroProps) {
   const t = await getTranslations('blog');
   const breadcrumbItems = [
     t('articleHero.home'),
     t('articleHero.blog'),
-    t(`categories.${genre}` as Parameters<typeof t>[0]),
+    categoryLabel,
     breadcrumbLabel,
   ];
-  const breadcrumbLinks = ['/', '/blog', categoryHref(genre)];
-  const desktopImage = heroImageDesktop ?? image;
+  const breadcrumbLinks = ['/', '/blog', categoryHref(categorySlug)];
 
   return (
     <div className={styles.page}>
@@ -66,23 +64,6 @@ export default async function Hero({
               <span className={styles.readTime}>{t('articleHero.minRead', { time })}</span>
             </div>
           </div>
-
-          <Image
-            src={image}
-            alt={title}
-            width={375}
-            height={203}
-            className={`${styles.image} ${styles.imageMobile}`}
-            priority
-          />
-          <Image
-            src={desktopImage}
-            alt={title}
-            width={1114}
-            height={603}
-            className={`${styles.image} ${styles.imageDesktop}`}
-            priority
-          />
         </div>
       </Container>
     </div>

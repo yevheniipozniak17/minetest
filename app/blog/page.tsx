@@ -4,21 +4,40 @@ import Featured from './Featured/Featured';
 import Hero from './Hero/Hero';
 import { buildMetadata } from '@/lib/seo/meta';
 import { JsonLd } from '@/app/_components/JsonLd/JsonLd';
-import { breadcrumbSchema, itemListSchema } from '@/lib/seo/schema';
-import { getAllPostSlugs } from './_article/posts';
-import { getPostBySlug } from './_article/posts';
+import { breadcrumbSchema } from '@/lib/seo/schema';
+import { getBlogArticleList } from '@/lib/server/blog';
+import { itemListSchema } from '@/lib/seo/schema';
+import { parseCategoryParam } from './categories';
+import { BLOG_ARTICLES_PER_PAGE } from './Articles/articlesData';
 
 export const metadata: Metadata = buildMetadata({
   title: 'Blog — Guides, PvP & Updates',
   description:
     'Survival guides, PvP loadouts, redstone tutorials, player spotlights, and server updates from the Minecraft Game team.',
   path: '/blog',
+  noindex: true,
 });
 
-const Blog = () => {
-  const posts = getAllPostSlugs()
-    .map(getPostBySlug)
-    .filter((post): post is NonNullable<typeof post> => Boolean(post));
+type PageProps = {
+  searchParams: Promise<{
+    category?: string;
+    page?: string;
+    search_query?: string;
+  }>;
+};
+
+export default async function BlogPage({ searchParams }: PageProps) {
+  const params = await searchParams;
+  const category = parseCategoryParam(params.category);
+  const searchQuery = params.search_query?.trim() || null;
+  const page = Math.max(1, Number.parseInt(params.page ?? '1', 10) || 1);
+
+  const list = await getBlogArticleList({
+    page,
+    page_size: BLOG_ARTICLES_PER_PAGE,
+    category: category ?? undefined,
+    search_query: searchQuery ?? undefined,
+  }).catch(() => ({ results: [], count: 0, next: null, previous: null, pages: 0 }));
 
   return (
     <main style={{ backgroundColor: '#001812' }}>
@@ -33,14 +52,12 @@ const Blog = () => {
         id="blog-list"
         data={itemListSchema(
           'Minecraft Game blog articles',
-          posts.map(post => ({ name: post.title, url: `/blog/${post.slug}` })),
+          list.results.map(article => ({ name: article.title, url: `/blog/${article.slug}` }))
         )}
       />
       <Hero />
       <Featured />
-      <Articles />
+      <Articles category={category} page={page} searchQuery={searchQuery} />
     </main>
   );
-};
-
-export default Blog;
+}

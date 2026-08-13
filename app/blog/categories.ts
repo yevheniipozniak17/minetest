@@ -1,41 +1,24 @@
-import type { ArticleCardProps } from './CardList/Card/Card';
+export function buildBlogListHref(options: {
+  page?: number;
+  category?: string;
+  searchQuery?: string;
+}): string {
+  const params = new URLSearchParams();
+  if (options.category) params.set('category', options.category);
+  if (options.searchQuery) params.set('search_query', options.searchQuery);
+  if (options.page && options.page > 1) params.set('page', String(options.page));
 
-export const BLOG_CATEGORIES = [
-  'All',
-  'Guides',
-  'Engineering',
-  'PvP',
-  'Community',
-  'Updates',
-  'Tutorials',
-] as const;
-
-export type BlogCategory = (typeof BLOG_CATEGORIES)[number];
-type BlogGenre = Exclude<BlogCategory, 'All'>;
-
-export function parseCategoryParam(value: string | null | undefined): BlogCategory {
-  if (value && BLOG_CATEGORIES.includes(value as BlogCategory) && value !== 'All') {
-    return value as BlogGenre;
-  }
-
-  return 'All';
+  const qs = params.toString();
+  return qs ? `/blog?${qs}` : '/blog';
 }
 
-export function categoryHref(category: BlogCategory): string {
-  if (category === 'All') {
-    return '/blog';
-  }
-
-  return `/blog?category=${encodeURIComponent(category)}`;
+export function categoryHref(slug?: string | null): string {
+  if (!slug) return '/blog';
+  return `/blog?category=${encodeURIComponent(slug)}`;
 }
 
-export function filterArticlesByCategory<T extends Pick<ArticleCardProps, 'genre'>>(
-  articles: T[],
-  category: BlogCategory,
-): T[] {
-  if (category === 'All') {
-    return articles;
-  }
-
-  return articles.filter(article => article.genre === category);
+export function parseCategoryParam(value: string | null | undefined): string | null {
+  if (!value) return null;
+  const trimmed = value.trim();
+  return trimmed.length > 0 ? trimmed : null;
 }

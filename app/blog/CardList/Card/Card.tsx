@@ -13,6 +13,7 @@ export interface ArticleCardProps {
   description: string;
   date: Date | string;
   slug?: string;
+  categoryLabel?: string;
 }
 
 export default function Card({
@@ -23,15 +24,19 @@ export default function Card({
   description,
   date,
   slug,
+  categoryLabel,
 }: ArticleCardProps) {
   const t = useTranslations('blog');
+  const genreLabel =
+    categoryLabel ??
+    t(`categories.${genre}` as Parameters<typeof t>[0]);
 
   const content = (
     <>
       <Image src={image} className={styles.image} alt={title} width={335} height={200} />
       <div className={styles.card_content}>
         <div className={styles.content_header}>
-          <span className={styles.genre}>{t(`categories.${genre}` as Parameters<typeof t>[0])}</span>
+          <span className={styles.genre}>{genreLabel}</span>
           <span className={styles.time}>⏱️ {t('card.readTime', { time })}</span>
         </div>
 

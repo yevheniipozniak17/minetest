@@ -51,9 +51,16 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
-.pagArrow:disabled {
+.pagArrow:disabled,
+.pagArrowDisabled {
   opacity: 0.4;
   cursor: not-allowed;
+  pointer-events: none;
+}
+
+.pagNumber,
+.pagArrow {
+  text-decoration: none;
 }
 
 .pagNumber {

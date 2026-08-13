@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { buildPageNumbers } from '@/lib/pagination/buildPageNumbers';
 import Card, { ArticleCardProps } from './Card/Card';
@@ -8,7 +9,7 @@ import styles from './CardList.module.css';
 type CardListPagination = {
   activePage: number;
   totalPages: number;
-  onPageChange: (page: number) => void;
+  pageHref: (page: number) => string;
 };
 
 export default function CardList({
@@ -36,15 +37,20 @@ export default function CardList({
       {pagination ? (
         <nav className={styles.pagination} aria-label={paginationLabel}>
           <div className={styles.pagRow}>
-            <button
-              type="button"
-              className={styles.pagArrow}
-              aria-label={t('prevAriaLabel')}
-              disabled={pagination.activePage === 1}
-              onClick={() => pagination.onPageChange(pagination.activePage - 1)}
-            >
-              ←
-            </button>
+            {pagination.activePage > 1 ? (
+              <Link
+                href={pagination.pageHref(pagination.activePage - 1)}
+                className={styles.pagArrow}
+                aria-label={t('prevAriaLabel')}
+                rel="prev"
+              >
+                ←
+              </Link>
+            ) : (
+              <span className={`${styles.pagArrow} ${styles.pagArrowDisabled}`} aria-hidden="true">
+                ←
+              </span>
+            )}
 
             {pageNumbers.map((page, index) => {
               if (page === '…') {
@@ -62,27 +68,34 @@ export default function CardList({
               const isActive = page === pagination.activePage;
 
               return (
-                <button
+                <Link
                   key={page}
-                  type="button"
+                  href={pagination.pageHref(page)}
                   className={`${styles.pagNumber} ${isActive ? styles.pagNumberActive : ''}`}
                   aria-current={isActive ? 'page' : undefined}
-                  onClick={() => pagination.onPageChange(page)}
                 >
                   {page}
-                </button>
+                </Link>
               );
             })}
 
-            <button
-              type="button"
-              className={`${styles.pagArrow} ${styles.pagArrowNext}`}
-              aria-label={t('nextAriaLabel')}
-              disabled={pagination.activePage === pagination.totalPages}
-              onClick={() => pagination.onPageChange(pagination.activePage + 1)}
-            >
-              →
-            </button>
+            {pagination.activePage < pagination.totalPages ? (
+              <Link
+                href={pagination.pageHref(pagination.activePage + 1)}
+                className={`${styles.pagArrow} ${styles.pagArrowNext}`}
+                aria-label={t('nextAriaLabel')}
+                rel="next"
+              >
+                →
+              </Link>
+            ) : (
+              <span
+                className={`${styles.pagArrow} ${styles.pagArrowNext} ${styles.pagArrowDisabled}`}
+                aria-hidden="true"
+              >
+                →
+              </span>
+            )}
           </div>
         </nav>
       ) : null}

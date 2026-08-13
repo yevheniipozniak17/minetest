@@ -198,6 +198,24 @@ button.shareLink {
   line-height: 26px;
 }
 
+.heroImage {
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  height: auto;
+  aspect-ratio: 760 / 411;
+  margin: 0 0 20px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+@media (min-width: 1280px) {
+  .heroImage {
+    margin-bottom: 32px;
+    border-radius: 16px;
+  }
+}
+
 .section {
   display: flex;
   flex-direction: column;

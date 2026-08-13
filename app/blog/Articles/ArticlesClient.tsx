@@ -1,157 +1,66 @@
 'use client';
 
-import { useEffect, useMemo, useRef, useState } from 'react';
-import { useSearchParams } from 'next/navigation';
 import { useTranslations } from 'next-intl';
+import { Container } from '@/app/_components/Container/Container';
 import CardList from '../CardList/CardList';
-import { filterArticlesByCategory, parseCategoryParam } from '../categories';
-import {
-  ARTICLE_SORT_OPTIONS,
-  type ArticleSort,
-  type BlogArticle,
-  paginateArticles,
-  sortBlogArticles,
-} from './articlesData';
+import { buildBlogListHref } from '../categories';
+import type { BlogArticle } from './articlesData';
 import styles from './Articles.module.css';
-
-type ArticleSortSelectProps = {
-  value: ArticleSort;
-  onChange: (value: ArticleSort) => void;
-};
-
-function ArticleSortSelect({ value, onChange }: ArticleSortSelectProps) {
-  const [open, setOpen] = useState(false);
-  const rootRef = useRef<HTMLDivElement>(null);
-  const t = useTranslations('blog');
-  const label = t(`sort.${value}` as Parameters<typeof t>[0]);
-
-  useEffect(() => {
-    if (!open) return;
-
-    const onPointerDown = (event: MouseEvent) => {
-      if (rootRef.current?.contains(event.target as Node)) return;
-      setOpen(false);
-    };
-
-    const onKeyDown = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setOpen(false);
-    };
-
-    document.addEventListener('mousedown', onPointerDown);
-    document.addEventListener('keydown', onKeyDown);
-
-    return () => {
-      document.removeEventListener('mousedown', onPointerDown);
-      document.removeEventListener('keydown', onKeyDown);
-    };
-  }, [open]);
-
-  const choose = (next: ArticleSort) => {
-    setOpen(false);
-    if (next !== value) onChange(next);
-  };
-
-  return (
-    <div className={styles.sortWrap} ref={rootRef}>
-      <button
-        type="button"
-        className={styles.button_sort}
-        aria-haspopup="listbox"
-        aria-expanded={open}
-        onClick={() => setOpen(current => !current)}
-      >
-        {label}
-        <span className={`${styles.arrow} ${open ? styles.arrowOpen : ''}`} aria-hidden="true">
-          ▾
-        </span>
-      </button>
-
-      {open && (
-        <ul className={styles.sortMenu} role="listbox" aria-label={t('sort.ariaLabel')}>
-          {ARTICLE_SORT_OPTIONS.map(option => (
-            <li key={option.value} role="presentation">
-              <button
-                type="button"
-                role="option"
-                aria-selected={value === option.value}
-                className={`${styles.sortOption} ${value === option.value ? styles.sortOptionActive : ''}`}
-                onClick={() => choose(option.value)}
-              >
-                {t(`sort.${option.value}` as Parameters<typeof t>[0])}
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
 
 type ArticlesClientProps = {
   articles: BlogArticle[];
+  activePage: number;
+  totalPages: number;
+  category?: string | null;
+  searchQuery?: string | null;
 };
 
-export default function ArticlesClient({ articles }: ArticlesClientProps) {
-  const searchParams = useSearchParams();
-  const category = parseCategoryParam(searchParams.get('category'));
-  const [sort, setSort] = useState<ArticleSort>('all');
-  const [page, setPage] = useState(1);
+export default function ArticlesClient({
+  articles,
+  activePage,
+  totalPages,
+  category,
+  searchQuery,
+}: ArticlesClientProps) {
   const t = useTranslations('blog');
 
-  const filteredArticles = useMemo(
-    () => filterArticlesByCategory(articles, category),
-    [articles, category],
-  );
-  const visibleArticles = useMemo(
-    () => sortBlogArticles(filteredArticles, sort),
-    [filteredArticles, sort],
-  );
-  const { pageItems, totalPages, activePage, showPagination } = useMemo(
-    () => paginateArticles(visibleArticles, page),
-    [visibleArticles, page],
-  );
+  const sectionTitle = category
+    ? t('articles.categoryTitle', {
+        category:
+          articles[0]?.categoryLabel ??
+          category
+            .split('-')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' '),
+      })
+    : t('articles.latestTitle');
 
-  useEffect(() => {
-    setPage(1);
-  }, [category, sort]);
-
-  useEffect(() => {
-    if (page > totalPages) {
-      setPage(totalPages);
-    }
-  }, [page, totalPages]);
-
-  const handlePageChange = (nextPage: number) => {
-    setPage(nextPage);
-    document.querySelector(`.${styles.articles}`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-  };
-
-  const sectionTitle =
-    category === 'All'
-      ? t('articles.latestTitle')
-      : t('articles.categoryTitle', {
-          category: t(`categories.${category}` as Parameters<typeof t>[0]),
-        });
+  const pageHref = (page: number) =>
+    buildBlogListHref({
+      page,
+      category: category ?? undefined,
+      searchQuery: searchQuery ?? undefined,
+    });
 
   return (
-    <>
+    <Container variant="blog">
       <div className={styles.article_wrapper}>
         <h2 className={styles.title}>{sectionTitle}</h2>
-        <ArticleSortSelect value={sort} onChange={setSort} />
       </div>
+
       <CardList
-        articles={pageItems}
+        articles={articles}
         pagination={
-          showPagination
+          totalPages > 1
             ? {
                 activePage,
                 totalPages,
-                onPageChange: handlePageChange,
+                pageHref,
               }
             : undefined
         }
         paginationLabel={t('sidebar.paginationLabel')}
       />
-    </>
+    </Container>
   );
 }

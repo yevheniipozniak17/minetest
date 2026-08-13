@@ -1,33 +1,17 @@
-'use client';
+import { getBlogCategories } from '@/lib/server/blog';
+import HeroTagsClient from './HeroTagsClient';
 
-import Link from 'next/link';
-import { useSearchParams } from 'next/navigation';
-import { useTranslations } from 'next-intl';
-import { BLOG_CATEGORIES, categoryHref, parseCategoryParam } from '../categories';
-import styles from './HeroTags.module.css';
-
-export default function HeroTags() {
-  const searchParams = useSearchParams();
-  const activeTag = parseCategoryParam(searchParams.get('category'));
-  const t = useTranslations('blog');
+export default async function HeroTags() {
+  const categories = await getBlogCategories().catch(() => []);
 
   return (
-    <div className={styles.tags} role="tablist" aria-label={t('hero.categoriesLabel')}>
-      {BLOG_CATEGORIES.map(tag => {
-        const isActive = tag === activeTag;
-
-        return (
-          <Link
-            key={tag}
-            href={categoryHref(tag)}
-            role="tab"
-            aria-selected={isActive}
-            className={`${styles.tag} ${isActive ? styles.tagActive : ''}`}
-          >
-            {t(`categories.${tag}` as Parameters<typeof t>[0])}
-          </Link>
-        );
-      })}
-    </div>
+    <HeroTagsClient
+      categories={categories
+        .filter(category => Boolean(category.slug && category.name))
+        .map(category => ({
+          slug: category.slug as string,
+          name: category.name as string,
+        }))}
+    />
   );
 }
