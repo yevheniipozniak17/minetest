@@ -13,8 +13,9 @@ import { fetchBlogArticleImage } from '@/lib/server/blog';
 
 export const runtime = 'nodejs';
 // Роут кешується Next-ом, ключем є slug. Оскільки картинки immutable за slug'ом,
-// маємо велике вікно ревалідації.
-export const revalidate = 60 * 60 * 24; // 24 години
+// маємо велике вікно ревалідації — 24 години (86400 сек).
+// ВАЖЛИВО: Next вимагає числовий літерал у сегмент-конфігах, не вираз.
+export const revalidate = 86400;
 
 interface Params {
   params: Promise<{ slug: string }>;
