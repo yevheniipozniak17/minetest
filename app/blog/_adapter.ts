@@ -26,11 +26,8 @@ export type AdaptedFullArticle = AdaptedCardArticle & {
   lead: { mobile: string; desktop?: string };
 };
 
-const WORDS_PER_MINUTE = 200;
-// Розумний дефолт для карток списку — API не віддає ані word_count, ані самого
-// контенту, а short_description занадто короткий (даватиме 1 хв, що виглядає
-// неправдиво). Наші SEO-статті стабільно 1500-2000 слів, тож ~6-8 хв.
-const CARD_FALLBACK_READING_TIME = 6;
+// Фолбек на випадок, якщо бекенд у якомусь записі не порахує reading_time.
+const READING_TIME_FALLBACK = 1;
 
 export function buildCategoryMap(
   categories: { slug: string; name?: string }[]
@@ -68,11 +65,6 @@ export function stripHtml(html: string): string {
     .replace(/&#39;/gi, "'")
     .replace(/\s+/g, ' ')
     .trim();
-}
-
-export function readingTimeMinutes(html: string): number {
-  const words = stripHtml(html).split(/\s+/).filter(Boolean).length;
-  return Math.max(1, Math.ceil(words / WORDS_PER_MINUTE));
 }
 
 export function formatArticleDate(value: string): string {
@@ -139,13 +131,12 @@ export function injectHeadingAnchors(html: string, tocItems: TocItem[]): string 
 
 export function adaptCardArticle(
   item: BlogArticleListItem,
-  categoryMap: CategoryMap,
-  htmlForReadingTime?: string
+  categoryMap: CategoryMap
 ): AdaptedCardArticle {
   const categoryLabel = categoryLabelFor(item.category_slug, categoryMap);
-  const time = htmlForReadingTime
-    ? readingTimeMinutes(htmlForReadingTime)
-    : CARD_FALLBACK_READING_TIME;
+  const time = Number.isFinite(item.reading_time) && item.reading_time > 0
+    ? item.reading_time
+    : READING_TIME_FALLBACK;
 
   return {
     slug: item.slug,
@@ -168,7 +159,7 @@ export function adaptFullArticle(
   const tocItems = extractTocItems(htmlContent);
   const htmlWithAnchors = injectHeadingAnchors(htmlContent, tocItems);
   const categoryLabel = categoryLabelFor(article.category_slug, categoryMap);
-  const card = adaptCardArticle(article, categoryMap, htmlContent);
+  const card = adaptCardArticle(article, categoryMap);
 
   return {
     ...card,

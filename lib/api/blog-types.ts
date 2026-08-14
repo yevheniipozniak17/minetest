@@ -17,6 +17,7 @@ export interface BlogArticleListItem {
   meta_title: string;
   meta_description: string;
   meta_keywords: string | null;
+  reading_time: number; // Хвилини. Бекенд рахує на основі word_count статті.
   image: string; // Повний URL до /image/ ендпоінта (з авторизацією).
   publish_date: string;
   cluster_id: string | null;
