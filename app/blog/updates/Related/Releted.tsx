@@ -1,23 +1,28 @@
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { Container } from '@/app/_components/Container/Container';
-import Card, { type ArticleCardProps } from '@/app/blog/CardList/Card/Card';
+import Card from '@/app/blog/CardList/Card/Card';
+import { adaptCardArticle, buildCategoryMap } from '@/app/blog/_adapter';
+import { getBlogArticleList, getBlogCategories } from '@/lib/server/blog';
 import styles from './Releted.module.css';
-
-type RelatedArticle = ArticleCardProps & { slug: string };
 
 export default async function Related() {
   const t = await getTranslations('blog');
 
-  const related = t.raw('updates.related') as Array<
-    RelatedArticle & { descriptionDesktop?: string }
-  >;
+  const [listResponse, categories] = await Promise.all([
+    getBlogArticleList({ page_size: 3 }).catch(() => ({
+      results: [],
+      count: 0,
+      next: null,
+      previous: null,
+    })),
+    getBlogCategories().catch(() => []),
+  ]);
 
-  const relatedMobile: RelatedArticle[] = related.map(({ descriptionDesktop: _dt, ...article }) => article);
-  const relatedDesktop: RelatedArticle[] = related.map(article => ({
-    ...article,
-    description: article.descriptionDesktop ?? article.description,
-  }));
+  const categoryMap = buildCategoryMap(categories);
+  const related = listResponse.results.map(item => adaptCardArticle(item, categoryMap));
+
+  if (related.length === 0) return null;
 
   return (
     <section className={styles.related}>
@@ -38,14 +43,14 @@ export default async function Related() {
           </div>
 
           <ul className={`${styles.list} ${styles.listMobile}`}>
-            {relatedMobile.map(article => (
-              <Card key={article.title} {...article} />
+            {related.map(article => (
+              <Card key={article.slug} {...article} />
             ))}
           </ul>
 
           <ul className={`${styles.list} ${styles.listDesktop}`}>
-            {relatedDesktop.map(article => (
-              <Card key={article.title} {...article} />
+            {related.map(article => (
+              <Card key={article.slug} {...article} />
             ))}
           </ul>
 
