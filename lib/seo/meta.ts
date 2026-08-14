@@ -1,4 +1,6 @@
 import type { Metadata } from 'next';
+import { DEFAULT_LOCALE, LOCALES, isLocale, type Locale } from '@/lib/i18n/config';
+import { hreflangAlternates, localizedPath } from '@/lib/i18n/paths';
 
 export const SITE_URL = 'https://minecraftsgame.com';
 export const SITE_NAME = 'Minecraft Game';
@@ -9,9 +11,19 @@ export const DEFAULT_TITLE = 'Minecraft Game — Three Next-Generation Servers';
 export const DEFAULT_DESCRIPTION =
   'Three unique Minecraft servers, an in-game economy, rankings, and tournaments. Play survival, PvP, or peaceful building the way you like.';
 
+export const OG_LOCALE_MAP: Record<Locale, string> = {
+  en: 'en_US',
+  de: 'de_DE',
+  fr: 'fr_FR',
+  es: 'es_ES',
+  it: 'it_IT',
+  pl: 'pl_PL',
+};
+
 type OgType = 'website' | 'article';
 
 export type BuildMetadataInput = {
+  locale: Locale;
   title?: string;
   description?: string;
   /** Absolute path beginning with "/" used for the canonical URL. */
@@ -35,10 +47,11 @@ export function absoluteUrl(path: string): string {
 }
 
 /**
- * Builds a consistent Metadata object (canonical + OpenGraph + Twitter) for a page.
+ * Builds a consistent Metadata object (canonical + hreflang + OpenGraph + Twitter) for a page.
  * Keep `path` in sync with the route so canonical URLs stay correct.
  */
 export function buildMetadata({
+  locale,
   title,
   description = DEFAULT_DESCRIPTION,
   path,
@@ -48,21 +61,31 @@ export function buildMetadata({
   article,
 }: BuildMetadataInput): Metadata {
   const resolvedTitle = title ?? DEFAULT_TITLE;
-  const canonical = path === '/' ? '/' : path;
+  const canonicalPath = localizedPath(path, locale);
   const imageUrl = absoluteUrl(image);
+  const languages = Object.fromEntries(
+    Object.entries(hreflangAlternates(path)).map(([lang, hrefPath]) => [
+      lang,
+      absoluteUrl(hrefPath),
+    ]),
+  );
 
   return {
     title: title ?? { absolute: DEFAULT_TITLE },
     description,
-    alternates: { canonical },
+    alternates: {
+      canonical: absoluteUrl(canonicalPath),
+      languages,
+    },
     robots: noindex
       ? { index: false, follow: false }
       : { index: true, follow: true },
     openGraph: {
       type: ogType,
       siteName: SITE_NAME,
-      locale: 'en_US',
-      url: absoluteUrl(canonical),
+      locale: OG_LOCALE_MAP[locale],
+      alternateLocale: LOCALES.filter(item => item !== locale).map(item => OG_LOCALE_MAP[item]),
+      url: absoluteUrl(canonicalPath),
       title: resolvedTitle,
       description,
       images: [{ url: imageUrl, width: 1200, height: 630, alt: resolvedTitle }],
@@ -76,4 +99,9 @@ export function buildMetadata({
       images: [imageUrl],
     },
   };
+}
+
+/** Resolve locale from dynamic segment params (throws nothing — falls back to EN). */
+export function localeFromParams(value: string | undefined): Locale {
+  return isLocale(value) ? value : DEFAULT_LOCALE;
 }

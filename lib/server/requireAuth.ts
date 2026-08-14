@@ -1,10 +1,12 @@
-import { redirect } from 'next/navigation';
+import { redirect } from '@/i18n/navigation';
+import { getLocale } from 'next-intl/server';
 import { getRefreshToken } from './authCookies';
 
 export async function requireAuth() {
   const refresh = await getRefreshToken();
 
   if (!refresh) {
-    redirect('/login');
+    const locale = await getLocale();
+    redirect({ href: '/login', locale });
   }
 }

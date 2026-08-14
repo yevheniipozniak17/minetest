@@ -6,7 +6,7 @@ export type Locale = (typeof LOCALES)[number];
 
 export const DEFAULT_LOCALE: Locale = 'en';
 
-// Cookie, у якому зберігається вибір мови (читається в i18n/request.ts).
+// Cookie, який next-intl middleware використовує для locale detection при першому візиті.
 export const LOCALE_COOKIE = 'NEXT_LOCALE';
 
 // Підписи мов рідною мовою — для перемикача.

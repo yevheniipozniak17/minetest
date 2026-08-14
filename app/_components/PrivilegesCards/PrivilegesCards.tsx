@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { StaticImageData } from 'next/image';
 import Card from './Card/Card';
 import styles from './PrivilegesCards.module.css';

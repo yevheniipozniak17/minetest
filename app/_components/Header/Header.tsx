@@ -1,8 +1,8 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { Link } from '@/i18n/navigation';
+import { usePathname } from '@/i18n/navigation';
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { useProfile } from '../ProfileProvider/ProfileProvider';
@@ -63,6 +63,7 @@ export function Header({ isAuthed = false }: { isAuthed?: boolean }) {
             <Link
               key={link.href}
               href={link.href}
+              locale={link.key === 'blog' ? 'en' : undefined}
               className={[
                 styles.navLink,
                 isNavLinkActive(link.href, pathname) && styles.navLinkActive,

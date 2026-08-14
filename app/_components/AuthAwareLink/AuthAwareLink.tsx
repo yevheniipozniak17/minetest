@@ -1,6 +1,6 @@
 'use client';
 
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { useEffect, useState } from 'react';
 import { readHasStoredAccount } from '@/lib/client/storedAccount';
 import { getDashboardPlayHref, getOpenStoreHref } from '@/lib/data/servers';

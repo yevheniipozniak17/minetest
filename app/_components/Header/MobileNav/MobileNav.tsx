@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/navigation';
 import { useEffect } from 'react';
 import { useTranslations } from 'next-intl';
 import { LanguageSwitcher } from '../../LanguageSwitcher/LanguageSwitcher';
@@ -101,6 +101,7 @@ export function MobileNav({ isOpen, onClose, pathname }: MobileNavProps) {
               <Link
                 key={link.href}
                 href={link.href}
+                locale={link.key === 'blog' ? 'en' : undefined}
                 className={[styles.navLink, isActive && styles.navLinkActive].filter(Boolean).join(' ')}
                 aria-current={isActive ? 'page' : undefined}
                 onClick={onClose}

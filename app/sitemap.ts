@@ -1,6 +1,8 @@
 import type { MetadataRoute } from 'next';
-import { SITE_URL } from '@/lib/seo/meta';
-import { getAllFaqSlugs } from './faq/_data/faqArticles';
+import { LOCALES } from '@/lib/i18n/config';
+import { hreflangAlternates } from '@/lib/i18n/paths';
+import { absoluteUrl, SITE_URL } from '@/lib/seo/meta';
+import { getAllFaqSlugs } from './[locale]/faq/_data/faqArticles';
 
 type Entry = MetadataRoute.Sitemap[number];
 
@@ -15,24 +17,57 @@ const staticRoutes: { path: string; priority: number; changeFrequency: Entry['ch
   { path: '/how-to-start', priority: 0.8, changeFrequency: 'monthly' },
   { path: '/faq', priority: 0.7, changeFrequency: 'weekly' },
   { path: '/contacts', priority: 0.5, changeFrequency: 'monthly' },
+  { path: '/cookie-policy', priority: 0.3, changeFrequency: 'yearly' },
+  { path: '/terms', priority: 0.3, changeFrequency: 'yearly' },
+  { path: '/privacy-policy', priority: 0.3, changeFrequency: 'yearly' },
+  { path: '/delivery-policy', priority: 0.3, changeFrequency: 'yearly' },
 ];
+
+function localizedAlternates(path: string): NonNullable<Entry['alternates']>['languages'] {
+  return Object.fromEntries(
+    Object.entries(hreflangAlternates(path)).map(([lang, hrefPath]) => [
+      lang,
+      absoluteUrl(hrefPath),
+    ]),
+  );
+}
+
+function entriesForPath(
+  path: string,
+  priority: number,
+  changeFrequency: Entry['changeFrequency'],
+  now: Date,
+): MetadataRoute.Sitemap {
+  return LOCALES.map(locale => {
+    const localized =
+      locale === 'en'
+        ? path
+        : path === '/'
+          ? `/${locale}`
+          : `/${locale}${path}`;
+
+    return {
+      url: `${SITE_URL}${localized}`,
+      lastModified: now,
+      changeFrequency,
+      priority,
+      alternates: {
+        languages: localizedAlternates(path),
+      },
+    };
+  });
+}
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
 
-  const staticEntries: MetadataRoute.Sitemap = staticRoutes.map(route => ({
-    url: `${SITE_URL}${route.path}`,
-    lastModified: now,
-    changeFrequency: route.changeFrequency,
-    priority: route.priority,
-  }));
+  const staticEntries = staticRoutes.flatMap(route =>
+    entriesForPath(route.path, route.priority, route.changeFrequency, now),
+  );
 
-  const faqEntries: MetadataRoute.Sitemap = getAllFaqSlugs().map(slug => ({
-    url: `${SITE_URL}/faq/${slug}`,
-    lastModified: now,
-    changeFrequency: 'monthly',
-    priority: 0.5,
-  }));
+  const faqEntries = getAllFaqSlugs().flatMap(slug =>
+    entriesForPath(`/faq/${slug}`, 0.5, 'monthly', now),
+  );
 
   return [...staticEntries, ...faqEntries];
 }

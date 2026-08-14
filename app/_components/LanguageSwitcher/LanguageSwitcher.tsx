@@ -1,9 +1,8 @@
 'use client';
 
-import { useEffect, useRef, useState, useTransition, type ReactNode } from 'react';
+import { useEffect, useRef, useState, type ReactNode } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
-import { useRouter } from 'next/navigation';
-import { setLocale } from '@/app/_actions/setLocale';
+import { useRouter, usePathname } from '@/i18n/navigation';
 import {
   LOCALES,
   LOCALE_LABELS,
@@ -35,8 +34,8 @@ export function LanguageSwitcher({
   const locale: Locale = isLocale(rawLocale) ? rawLocale : DEFAULT_LOCALE;
   const t = useTranslations('common');
   const router = useRouter();
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
-  const [isPending, startTransition] = useTransition();
   const rootRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -60,10 +59,7 @@ export function LanguageSwitcher({
   const choose = (next: Locale) => {
     setOpen(false);
     if (next === locale) return;
-    startTransition(async () => {
-      await setLocale(next);
-      router.refresh();
-    });
+    router.replace(pathname, { locale: next });
   };
 
   const menuClasses = [
@@ -83,7 +79,6 @@ export function LanguageSwitcher({
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={t('lang.changeLanguage')}
-        disabled={isPending}
       >
         <span className={styles.triggerLabel}>{LOCALE_SHORT[locale]}</span>
         {arrow}
