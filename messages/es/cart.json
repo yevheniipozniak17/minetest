@@ -46,6 +46,8 @@
   "paymentCreatedOffline": "Pago creado — únete a {server} como \"{nick}\" para que tus artículos puedan ser entregados.",
   "paymentCreatedOnline": "Pago creado — pendiente de confirmación. Síguelo en tu historial de compras.",
   "errorPaymentFailed": "No se pudo iniciar el pago. Por favor, inténtalo de nuevo.",
+  "errorPaymentUnavailable": "Los pagos no están disponibles temporalmente. Inténtalo de nuevo en unos minutos.",
+  "errorNetwork": "Se perdió la conexión. Comprueba tu internet e inténtalo de nuevo.",
   "resumeTitle": "No has finalizado tu pago",
   "resumeText": "Tu enlace de pago sigue siendo válido unos {minutes} min. Continúa donde lo dejaste.",
   "resumeContinue": "Continuar el pago",

@@ -5,8 +5,21 @@ import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { Container } from '@/app/_components/Container/Container';
 import ArticleShareLinks from '@/app/[locale]/blog/_components/ArticleShareLinks/ArticleShareLinks';
+import ArticleSidebarTags from '@/app/[locale]/blog/_components/ArticleSidebarTags/ArticleSidebarTags';
+import type { ArticleSidebarTag } from '@/app/[locale]/blog/_adapter';
 import styles from './Articles.module.css';
 import { useArticleToc } from './useArticleToc';
+
+const UPDATES_TAG_SLUGS: Record<string, string> = {
+  Updates: 'Updates',
+};
+
+function toSidebarTags(labels: string[]): ArticleSidebarTag[] {
+  return labels.map(label => ({
+    label,
+    slug: UPDATES_TAG_SLUGS[label] ?? label,
+  }));
+}
 
 const SECTION_IDS = ['01', '02', '03', '04', '05', '06', '07', '08'] as const;
 
@@ -123,7 +136,7 @@ export default function Articles() {
   const t = useTranslations('blog');
 
   const tocItems = t.raw('updates.toc') as Array<{ id: string; label: string }>;
-  const tags = t.raw('updates.tags') as string[];
+  const tags = toSidebarTags(t.raw('updates.tags') as string[]);
 
   const { activeId, readingProgress, setActiveId } = useArticleToc(SECTION_IDS);
 
@@ -207,13 +220,11 @@ export default function Articles() {
 
             <div className={styles.tagsCard}>
               <p className={styles.tagsCardTitle}>{t('updates.tagsLabel')}</p>
-              <ul className={styles.tagsList}>
-                {tags.map(tag => (
-                  <li key={tag}>
-                    <span className={styles.tag}>{tag}</span>
-                  </li>
-                ))}
-              </ul>
+              <ArticleSidebarTags
+                tags={tags}
+                listClassName={styles.tagsList}
+                tagClassName={styles.tag}
+              />
             </div>
           </aside>
 

@@ -2,6 +2,8 @@ import { getTranslations } from 'next-intl/server';
 import { Container } from '@/app/_components/Container/Container';
 import AuthAwareLink from '@/app/_components/AuthAwareLink/AuthAwareLink';
 import { getPublicServerHref } from '@/lib/data/servers';
+import { TWITCH_URL } from '@/lib/data/social';
+import { MINECRAFT_VERSION_LABEL } from '@/lib/server/gameServers';
 import styles from './Hero.module.css';
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
@@ -45,15 +47,15 @@ export default async function Hero({ isAuthed = false }: { isAuthed?: boolean })
               <div className={styles.stepperContent}>
                 <h3 className={styles.stepperTitle}>
                   {t('howToStart.step1Title')}
-                  <span className={styles.stepperVersion}>
-                    <Image
-                      src="/how-to-start/icons/game.svg"
-                      alt="Minecraft version"
-                      width={24}
-                      height={24}
-                    />
-                    1.12–1.19
-                  </span>
+                  <a
+                    href={TWITCH_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={styles.stepperVersion}
+                  >
+                    <Image src="/icons/social/twitch.svg" alt="" width={24} height={24} />
+                    {MINECRAFT_VERSION_LABEL}
+                  </a>
                 </h3>
                 <p className={styles.stepperDescription}>{t('howToStart.step1Desc')}</p>
                 <a

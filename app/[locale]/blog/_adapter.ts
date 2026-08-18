@@ -10,6 +10,11 @@ export type TocItem = {
   label: string;
 };
 
+export type ArticleSidebarTag = {
+  label: string;
+  slug: string;
+};
+
 export type AdaptedCardArticle = ArticleCardProps & {
   slug: string;
   categoryLabel: string;
@@ -21,7 +26,7 @@ export type AdaptedFullArticle = AdaptedCardArticle & {
   htmlWithAnchors: string;
   tocItems: TocItem[];
   heroTags: readonly string[];
-  sidebarTags: readonly string[];
+  sidebarTags: readonly ArticleSidebarTag[];
   breadcrumbLabel: string;
   descriptionDesktop: string;
   heroImageDesktop: string;
@@ -188,7 +193,7 @@ export function adaptFullArticle(
     htmlWithAnchors,
     tocItems,
     heroTags: [categoryLabel],
-    sidebarTags: [categoryLabel],
+    sidebarTags: [{ label: categoryLabel, slug: article.category_slug }],
     breadcrumbLabel: article.title,
     descriptionDesktop: article.short_description,
     heroImageDesktop: blogImagePath(article.slug),

@@ -4,6 +4,8 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { Container } from '@/app/_components/Container/Container';
 import ArticleShareLinks from '@/app/[locale]/blog/_components/ArticleShareLinks/ArticleShareLinks';
+import ArticleSidebarTags from '@/app/[locale]/blog/_components/ArticleSidebarTags/ArticleSidebarTags';
+import type { ArticleSidebarTag } from '@/app/[locale]/blog/_adapter';
 import type { TocItem } from '@/app/[locale]/blog/_adapter';
 import contentStyles from '@/app/[locale]/blog/_view/ArticleContent.module.css';
 import styles from './Articles.module.css';
@@ -14,7 +16,7 @@ type HtmlArticleBodyProps = {
   lead: string;
   sanitizedHtml: string;
   tocItems: TocItem[];
-  sidebarTags: readonly string[];
+  sidebarTags: readonly ArticleSidebarTag[];
   heroImage: string;
 };
 
@@ -98,13 +100,11 @@ export default function HtmlArticleBody({
 
             <div className={styles.tagsCard}>
               <p className={styles.tagsCardTitle}>{t('sidebar.tagsTitle')}</p>
-              <ul className={styles.tagsList}>
-                {sidebarTags.map(tag => (
-                  <li key={tag}>
-                    <span className={styles.tag}>{tag}</span>
-                  </li>
-                ))}
-              </ul>
+              <ArticleSidebarTags
+                tags={sidebarTags}
+                listClassName={styles.tagsList}
+                tagClassName={styles.tag}
+              />
             </div>
           </aside>
 

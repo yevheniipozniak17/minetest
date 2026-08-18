@@ -232,7 +232,7 @@ export default function RegistrationForm() {
               </Link>
 
               <p className={styles.footerLink}>
-                <span>{t('register.didntGet')}</span>
+                <span>{t('register.didntGet')}</span>{' '}
                 <button
                   type="button"
                   className={styles.linkButton}

@@ -46,6 +46,8 @@
   "paymentCreatedOffline": "Płatność utworzona — dołącz do {server} jako \"{nick}\", aby Twoje przedmioty mogły zostać dostarczone.",
   "paymentCreatedOnline": "Płatność utworzona — oczekuje na potwierdzenie. Śledź ją w historii zakupów.",
   "errorPaymentFailed": "Nie udało się rozpocząć płatności. Spróbuj ponownie.",
+  "errorPaymentUnavailable": "Płatności są tymczasowo niedostępne. Spróbuj ponownie za kilka minut.",
+  "errorNetwork": "Utracono połączenie. Sprawdź internet i spróbuj ponownie.",
   "resumeTitle": "Nie dokończyłeś płatności",
   "resumeText": "Twój link do płatności jest ważny jeszcze około {minutes} min. Kontynuuj od miejsca, w którym skończyłeś.",
   "resumeContinue": "Kontynuuj płatność",

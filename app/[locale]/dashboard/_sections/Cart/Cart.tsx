@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { isAxiosError } from 'axios';
 import { Link } from '@/i18n/navigation';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
@@ -69,6 +70,26 @@ function extractPaymentUrl(data: unknown): string | null {
     for (const key of keys) {
       const value = obj[key];
       if (typeof value === 'string' && /^https?:\/\//.test(value)) return value;
+    }
+  }
+  return null;
+}
+
+// Причину відмови create_payment (порожній кошик, невалідний ник, ліміт суми)
+// знає лише бекенд, і віддає її то як {detail}, то як DRF-мапу {field: [...]}.
+function backendDetail(data: unknown): string | null {
+  if (typeof data === 'string') return data.trim() || null;
+  if (!data || typeof data !== 'object') return null;
+  const obj = data as Record<string, unknown>;
+  for (const key of ['detail', 'error', 'message']) {
+    const value = obj[key];
+    if (typeof value === 'string' && value.trim()) return value.trim();
+  }
+  for (const value of Object.values(obj)) {
+    if (typeof value === 'string' && value.trim()) return value.trim();
+    if (Array.isArray(value)) {
+      const first = value.find(item => typeof item === 'string' && item.trim());
+      if (typeof first === 'string') return first.trim();
     }
   }
   return null;
@@ -524,6 +545,23 @@ export default function Cart() {
     }
   }
 
+  function paymentErrorText(err: unknown): string {
+    if (!isAxiosError(err)) return t('errorPaymentFailed');
+    // Наш /api/payment/create завжди відповідає, тож порожня response — це вже
+    // проблема мережі самого покупця.
+    if (!err.response) return t('errorNetwork');
+    const status = err.response.status;
+    // Лише валідація приходить із людським текстом ("Server is not valid.").
+    // Решта статусів несе службові рядки бекенду — їх покупцю показувати не можна.
+    if (status === 400 || status === 422) {
+      return backendDetail(err.response.data) ?? t('errorPaymentFailed');
+    }
+    // 403 від create_payment і будь-які 5xx покупець виправити не може —
+    // просимо зачекати, а не «спробувати ще раз».
+    if (status === 403 || status >= 500) return t('errorPaymentUnavailable');
+    return t('errorPaymentFailed');
+  }
+
   async function handlePay() {
     const nick = nickname.trim();
     if (!nick) {
@@ -561,8 +599,12 @@ export default function Cart() {
       setPayMessage(
         online === false ? t('paymentCreatedOffline', { server, nick }) : t('paymentCreatedOnline')
       );
-    } catch {
-      setPayMessage(t('errorPaymentFailed'));
+    } catch (err) {
+      setPayMessage(paymentErrorText(err));
+      // create_payment спустошує кошик навіть коли падає, тож без перечитування
+      // сторінка показувала б позиції, яких на бекенді вже немає, і покупець
+      // бив би в оплату по фантомах.
+      void reloadCart();
     } finally {
       setPaying(false);
     }

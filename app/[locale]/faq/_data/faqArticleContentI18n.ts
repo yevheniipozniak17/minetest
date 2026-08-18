@@ -80,7 +80,7 @@ function buildSimpleArticleContent(
     sidebarRelatedSlugs: [],
     cta: {
       primary: t('contentCta.primary'),
-      primaryHref: '/faq',
+      primaryHref: '/contacts',
       secondary: t('contentCta.secondary'),
       secondaryHref: '/faq',
     },
