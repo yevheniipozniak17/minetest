@@ -18,9 +18,13 @@ export interface BlogArticleListItem {
   meta_description: string;
   meta_keywords: string | null;
   reading_time: number; // Хвилини. Бекенд рахує на основі word_count статті.
-  image: string; // Повний URL до /image/ ендпоінта (з авторизацією).
+  // Посилання на картинку на бекенді. Наразі завжди null — файли туди не
+  // заливали, ілюстрації беремо з public/blog/articles (див. _adapter).
+  image: string | null;
   publish_date: string;
-  cluster_id: string | null;
+  // Приходить лише у списку — detail-відповідь статті cluster_id не віддає.
+  // Саме тому картинки розкладаємо під слагом, а не під cluster_id.
+  cluster_id?: string | null;
 }
 
 export interface BlogArticle extends BlogArticleListItem {

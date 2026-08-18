@@ -1,4 +1,4 @@
-import { getBlogArticleList, getBlogCategories } from '@/lib/server/blog';
+import { currentBlogLang, getBlogArticleList, getBlogCategories } from '@/lib/server/blog';
 import { adaptCardArticle, buildCategoryMap } from '../_adapter';
 import { BLOG_ARTICLES_PER_PAGE } from './articlesData';
 import ArticlesClient from './ArticlesClient';
@@ -15,18 +15,22 @@ export default async function Articles({
   page = 1,
   searchQuery,
 }: ArticlesProps) {
+  const lang = await currentBlogLang();
   const [{ results, pages, count }, categories] = await Promise.all([
-    getBlogArticleList({
-      page,
-      page_size: BLOG_ARTICLES_PER_PAGE,
-      category: category ?? undefined,
-      search_query: searchQuery ?? undefined,
-    }).catch(() => ({ results: [], pages: 0, count: 0, next: null, previous: null })),
-    getBlogCategories().catch(() => []),
+    getBlogArticleList(
+      {
+        page,
+        page_size: BLOG_ARTICLES_PER_PAGE,
+        category: category ?? undefined,
+        search_query: searchQuery ?? undefined,
+      },
+      lang
+    ).catch(() => ({ results: [], pages: 0, count: 0, next: null, previous: null })),
+    getBlogCategories(lang).catch(() => []),
   ]);
 
   const categoryMap = buildCategoryMap(categories);
-  const articles = results.map(item => adaptCardArticle(item, categoryMap));
+  const articles = results.map(item => adaptCardArticle(item, categoryMap, lang));
   const totalPages = Math.max(1, pages ?? Math.ceil(count / BLOG_ARTICLES_PER_PAGE));
 
   return (

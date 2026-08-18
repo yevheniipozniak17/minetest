@@ -1,12 +1,15 @@
 import { Suspense } from 'react';
-import { getTranslations } from 'next-intl/server';
+import { getLocale, getTranslations } from 'next-intl/server';
 import { Container } from '@/app/_components/Container/Container';
+import { localizedPath } from '@/lib/i18n/paths';
+import { localeFromParams } from '@/lib/seo/meta';
 import styles from './Hero.module.css';
 import { Badge } from '@/app/_components/Badge/Badge';
 import HeroTags from './HeroTags';
 
 export default async function Hero() {
   const t = await getTranslations('blog');
+  const locale = localeFromParams(await getLocale());
 
   return (
     <section className={styles.hero}>
@@ -17,7 +20,12 @@ export default async function Hero() {
           <p className={styles.description}>{t('hero.description')}</p>
         </div>
 
-        <form className={styles.search} action="/blog" method="GET" role="search">
+        <form
+          className={styles.search}
+          action={localizedPath('/blog', locale)}
+          method="GET"
+          role="search"
+        >
           <span className={styles.searchIcon} aria-hidden="true">
             ⌕
           </span>

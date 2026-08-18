@@ -1,11 +1,19 @@
-// Серверна обгортка над Blog API: типізовані функції під усі 5 ендпоінтів
-// плюс окрема функція для завантаження бінарника картинки (для проксі-роута).
+// Серверна обгортка над Blog API: типізовані функції під ендпоінти списку,
+// статті, слагів і категорій. Картинки статей тут не фігурують — бекенд їх не
+// роздає, вони лежать у public/blog/articles (див. app/[locale]/blog/_adapter).
 //
 // Використовуємо нативний fetch — саме він інтегрований з кеш-системою Next
 // (revalidate + теги). axios у Node не проходить через цю систему.
 
 import 'server-only';
-import { BLOG_API_URL, BLOG_AUTH_HEADER, DEFAULT_BLOG_LANG, type BlogLang } from './blogBackend';
+import { getLocale } from 'next-intl/server';
+import {
+  BLOG_API_URL,
+  BLOG_AUTH_HEADER,
+  DEFAULT_BLOG_LANG,
+  toBlogLang,
+  type BlogLang,
+} from './blogBackend';
 import type {
   BlogArticle,
   BlogArticleListItem,
@@ -62,13 +70,19 @@ export class BlogApiError extends Error {
   }
 }
 
+// Мова блогу для поточного запиту — беремо з next-intl, тобто з URL-сегмента.
+// Так вкладені серверні компоненти блогу не мусять протягувати locale пропами.
+export async function currentBlogLang(): Promise<BlogLang> {
+  return toBlogLang(await getLocale());
+}
+
 export async function getBlogArticleList(
   query: BlogListQuery = {},
   lang: BlogLang = DEFAULT_BLOG_LANG
 ): Promise<BlogPaginated<BlogArticleListItem>> {
   return blogFetch<BlogPaginated<BlogArticleListItem>>(
     `/blog/${lang}/articles/list/`,
-    { revalidate: REVALIDATE_LIST, tags: ['blog:list'] },
+    { revalidate: REVALIDATE_LIST, tags: ['blog:list', `blog:list:${lang}`] },
     {
       page: query.page,
       page_size: query.page_size,
@@ -85,7 +99,12 @@ export async function getBlogArticle(
   try {
     return await blogFetch<BlogArticle>(
       `/blog/${lang}/article/${encodeURIComponent(slug)}/`,
-      { revalidate: REVALIDATE_ARTICLE, tags: [`blog:article:${slug}`] }
+      {
+        revalidate: REVALIDATE_ARTICLE,
+        // Слаг спільний для всіх мов, тому тег без мови ревалідує статтю разом
+        // з усіма перекладами — саме так контентник її й оновлює.
+        tags: [`blog:article:${slug}`, `blog:article:${lang}:${slug}`],
+      }
     );
   } catch (err) {
     if (err instanceof BlogApiError && err.status === 404) return null;
@@ -96,7 +115,7 @@ export async function getBlogArticle(
 export async function getBlogSlugs(lang: BlogLang = DEFAULT_BLOG_LANG): Promise<string[]> {
   return blogFetch<string[]>(`/blog/${lang}/articles/slugs/`, {
     revalidate: REVALIDATE_SLUGS,
-    tags: ['blog:slugs'],
+    tags: ['blog:slugs', `blog:slugs:${lang}`],
   });
 }
 
@@ -105,61 +124,8 @@ export async function getBlogCategories(
 ): Promise<BlogCategory[]> {
   const list = await blogFetch<BlogCategory[]>(`/blog/${lang}/categories/list/`, {
     revalidate: REVALIDATE_CATEGORIES,
-    tags: ['blog:categories'],
+    tags: ['blog:categories', `blog:categories:${lang}`],
   });
   // Відкидаємо биті записи (без name) — бачили один такий у списку категорій.
   return list.filter(c => typeof c.name === 'string' && c.name.trim().length > 0);
-}
-
-// Тягне бінарник картинки статті. Проксі-роут /api/blog/image/[slug] додає
-// публічний Cache-Control поверх цього.
-export async function fetchBlogArticleImage(
-  slug: string,
-  lang: BlogLang = DEFAULT_BLOG_LANG
-): Promise<{ buffer: ArrayBuffer; contentType: string } | null> {
-  const res = await fetch(
-    `${BLOG_API_URL}/blog/${lang}/article/${encodeURIComponent(slug)}/image/`,
-    {
-      headers: BLOG_AUTH_HEADER ? { Authorization: BLOG_AUTH_HEADER } : {},
-      // Кеш картинок робимо у себе на рівні відповіді, а не в fetch-кеші Next:
-      // Next не кешує великі бінарники, тримати їх у ізольованому кеші зайве.
-      cache: 'no-store',
-    }
-  );
-
-  if (res.status === 404) return null;
-  if (!res.ok) throw new BlogApiError(res.status, `Blog image ${slug} → ${res.status}`);
-
-  // Бекенд віддає application/octet-stream, хоча в Content-Disposition стоїть
-  // filename="....webp". Нормалізуємо до image/webp за розширенням, інакше
-  // next/image і браузер не розпізнають картинку як зображення.
-  const rawType = res.headers.get('content-type') ?? '';
-  const disposition = res.headers.get('content-disposition') ?? '';
-  const contentType = normalizeImageContentType(rawType, disposition);
-
-  return {
-    buffer: await res.arrayBuffer(),
-    contentType,
-  };
-}
-
-function normalizeImageContentType(rawType: string, disposition: string): string {
-  if (rawType.startsWith('image/')) return rawType;
-  const match = /filename="[^"]*\.([a-z0-9]+)"?/i.exec(disposition);
-  const ext = match?.[1]?.toLowerCase();
-  switch (ext) {
-    case 'webp':
-      return 'image/webp';
-    case 'jpg':
-    case 'jpeg':
-      return 'image/jpeg';
-    case 'png':
-      return 'image/png';
-    case 'gif':
-      return 'image/gif';
-    case 'avif':
-      return 'image/avif';
-    default:
-      return 'image/webp';
-  }
 }

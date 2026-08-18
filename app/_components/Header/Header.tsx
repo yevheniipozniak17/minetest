@@ -63,7 +63,6 @@ export function Header({ isAuthed = false }: { isAuthed?: boolean }) {
             <Link
               key={link.href}
               href={link.href}
-              locale={link.key === 'blog' ? 'en' : undefined}
               className={[
                 styles.navLink,
                 isNavLinkActive(link.href, pathname) && styles.navLinkActive,

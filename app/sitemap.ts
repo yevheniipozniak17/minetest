@@ -8,7 +8,9 @@ type Entry = MetadataRoute.Sitemap[number];
 
 // Блог тимчасово вилучено з сайтмапа й закрито від індексації (noindex у
 // метаданих сторінок) на час рев'ю контенту SEO-командою. Після апруву
-// повертаємо /blog і додаємо /blog/[slug] через getBlogSlugs() з бекенду.
+// повертаємо /blog і додаємо /blog/[slug] через getBlogSlugs() з бекенду —
+// слаги однакові для всіх мов, тож список тягнеться один раз і розгортається
+// по локалях через entriesForPath.
 const staticRoutes: { path: string; priority: number; changeFrequency: Entry['changeFrequency'] }[] = [
   { path: '/', priority: 1, changeFrequency: 'daily' },
   { path: '/servers', priority: 0.9, changeFrequency: 'daily' },

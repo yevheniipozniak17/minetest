@@ -1,8 +1,8 @@
-import { getBlogCategories } from '@/lib/server/blog';
+import { currentBlogLang, getBlogCategories } from '@/lib/server/blog';
 import HeroTagsClient from './HeroTagsClient';
 
 export default async function HeroTags() {
-  const categories = await getBlogCategories().catch(() => []);
+  const categories = await getBlogCategories(await currentBlogLang()).catch(() => []);
 
   return (
     <HeroTagsClient

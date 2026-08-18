@@ -101,7 +101,6 @@ export function MobileNav({ isOpen, onClose, pathname }: MobileNavProps) {
               <Link
                 key={link.href}
                 href={link.href}
-                locale={link.key === 'blog' ? 'en' : undefined}
                 className={[styles.navLink, isActive && styles.navLinkActive].filter(Boolean).join(' ')}
                 aria-current={isActive ? 'page' : undefined}
                 onClick={onClose}

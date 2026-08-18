@@ -1,4 +1,6 @@
 import type { BlogArticle, BlogArticleListItem } from '@/lib/api/blog-types';
+import { DEFAULT_LOCALE, type Locale } from '@/lib/i18n/config';
+import { ARTICLE_IMAGE_SLUGS } from './_articleImages';
 import type { ArticleCardProps } from './CardList/Card/Card';
 
 export type CategoryMap = Map<string, string>;
@@ -67,23 +69,40 @@ export function stripHtml(html: string): string {
     .trim();
 }
 
-export function formatArticleDate(value: string): string {
+export function formatArticleDate(value: string, locale: Locale = DEFAULT_LOCALE): string {
   const parsed = new Date(value);
   if (Number.isNaN(parsed.getTime())) return value;
-  return parsed.toLocaleDateString('en-US', {
+  return parsed.toLocaleDateString(locale === 'en' ? 'en-US' : locale, {
     month: 'short',
     day: 'numeric',
     year: 'numeric',
   });
 }
 
+// Ілюстрація для статті без власної картинки. Бʼється лише тоді, коли бекенд
+// віддає статтю, якої ще немає у синхронізованій вигрузці контенту.
+export const ARTICLE_IMAGE_FALLBACK = '/blog/1.webp';
+
+// Картинки статей лежать у нашому репозиторії, а не на бекенді: ендпоінт
+// /blog/{lang}/article/{slug}/image/ віддає 404, файли туди свідомо не заливали.
+// Розкладає їх scripts/sync-article-images.mjs — він же генерує список слагів,
+// по якому ми відрізняємо наявну картинку від відсутньої.
 export function blogImagePath(slug: string): string {
-  return `/api/blog/image/${slug}`;
+  return ARTICLE_IMAGE_SLUGS.has(slug) ? `/blog/articles/${slug}.webp` : ARTICLE_IMAGE_FALLBACK;
 }
 
 export function slugifyHeading(text: string): string {
   const base = stripHtml(text)
     .toLowerCase()
+    // Заголовки перекладених статей мають діакритику (ć, ü, é, ñ...). Без
+    // нормалізації вона просто викидалась, і різні заголовки давали однакові
+    // id — TOC починав скролити не туди.
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/ß/g, 'ss')
+    .replace(/[łŁ]/g, 'l')
+    .replace(/[øØ]/g, 'o')
+    .replace(/[æÆ]/g, 'ae')
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/^-+|-+$/g, '');
 
@@ -131,7 +150,8 @@ export function injectHeadingAnchors(html: string, tocItems: TocItem[]): string 
 
 export function adaptCardArticle(
   item: BlogArticleListItem,
-  categoryMap: CategoryMap
+  categoryMap: CategoryMap,
+  locale: Locale = DEFAULT_LOCALE
 ): AdaptedCardArticle {
   const categoryLabel = categoryLabelFor(item.category_slug, categoryMap);
   const time = Number.isFinite(item.reading_time) && item.reading_time > 0
@@ -145,7 +165,7 @@ export function adaptCardArticle(
     time,
     title: item.title,
     description: item.short_description,
-    date: formatArticleDate(item.publish_date),
+    date: formatArticleDate(item.publish_date, locale),
     categoryLabel,
     categorySlug: item.category_slug,
   };
@@ -153,13 +173,14 @@ export function adaptCardArticle(
 
 export function adaptFullArticle(
   article: BlogArticle,
-  categoryMap: CategoryMap
+  categoryMap: CategoryMap,
+  locale: Locale = DEFAULT_LOCALE
 ): AdaptedFullArticle {
   const htmlContent = article.blocks?.[0]?.text ?? '';
   const tocItems = extractTocItems(htmlContent);
   const htmlWithAnchors = injectHeadingAnchors(htmlContent, tocItems);
   const categoryLabel = categoryLabelFor(article.category_slug, categoryMap);
-  const card = adaptCardArticle(article, categoryMap);
+  const card = adaptCardArticle(article, categoryMap, locale);
 
   return {
     ...card,

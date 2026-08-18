@@ -3,24 +3,25 @@ import { getTranslations } from 'next-intl/server';
 import { Container } from '@/app/_components/Container/Container';
 import Card from '@/app/[locale]/blog/CardList/Card/Card';
 import { adaptCardArticle, buildCategoryMap } from '@/app/[locale]/blog/_adapter';
-import { getBlogArticleList, getBlogCategories } from '@/lib/server/blog';
+import { currentBlogLang, getBlogArticleList, getBlogCategories } from '@/lib/server/blog';
 import styles from './Releted.module.css';
 
 export default async function Related() {
   const t = await getTranslations('blog');
+  const lang = await currentBlogLang();
 
   const [listResponse, categories] = await Promise.all([
-    getBlogArticleList({ page_size: 3 }).catch(() => ({
+    getBlogArticleList({ page_size: 3 }, lang).catch(() => ({
       results: [],
       count: 0,
       next: null,
       previous: null,
     })),
-    getBlogCategories().catch(() => []),
+    getBlogCategories(lang).catch(() => []),
   ]);
 
   const categoryMap = buildCategoryMap(categories);
-  const related = listResponse.results.map(item => adaptCardArticle(item, categoryMap));
+  const related = listResponse.results.map(item => adaptCardArticle(item, categoryMap, lang));
 
   if (related.length === 0) return null;
 
