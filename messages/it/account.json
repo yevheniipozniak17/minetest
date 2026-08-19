@@ -245,23 +245,23 @@
       ]
     },
     "s7": {
-      "nav": "Unisciti a Twitch",
-      "title": "Unisciti a Twitch",
-      "titleDesktop": "Unisciti alla community su Twitch",
-      "descMobile": "Stream, highlights dei tornei e incontri della community \u2014 tutto su Twitch.",
-      "descDesktop": "La maggior parte dei nostri aggiornamenti, annunci di tornei ed eventi della community avvengono su Twitch. Gratuito da seguire, facile entrare quando parte uno stream live.",
+      "nav": "Seguici su Twitter",
+      "title": "Seguici su Twitter",
+      "titleDesktop": "Unisciti alla community su Twitter",
+      "descMobile": "Aggiornamenti, annunci dei tornei e momenti della community \u2014 tutto su Twitter.",
+      "descDesktop": "La maggior parte dei nostri aggiornamenti, annunci di tornei ed eventi della community viene pubblicata su Twitter. Gratuito da seguire, facile da consultare quando vuoi.",
       "bullets": [
-        "Toccare il pulsante Twitch.",
-        "Seguire il canale.",
-        "Attivare le notifiche per gli stream live."
+        "Toccare il pulsante Twitter.",
+        "Seguire l'account.",
+        "Attivare le notifiche per i nuovi post."
       ],
       "bulletsDesktop": [
-        "Fare clic sul pulsante Twitch nella barra laterale.",
-        "Seguire il nostro canale per restare aggiornato.",
-        "Attivare le notifiche per non perdere un torneo o uno stream della community."
+        "Fare clic sul pulsante Twitter nella barra laterale.",
+        "Seguire il nostro account per restare aggiornato.",
+        "Attivare le notifiche per non perdere un torneo o un aggiornamento della community."
       ],
-      "callout": "Guarda stream live, sessioni Q&A e finali di torneo insieme al resto della community.",
-      "calloutDesktop": "Guarda stream live, sessioni Q&A e finali di torneo insieme al resto della community \u2014 saluta in chat quando ti colleghi."
+      "callout": "Segui annunci, thread di Q&A e risultati dei tornei insieme al resto della community.",
+      "calloutDesktop": "Segui annunci, thread di Q&A e risultati dei tornei insieme al resto della community \u2014 rispondi per salutare quando passi."
     }
   }
 }

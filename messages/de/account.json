@@ -245,23 +245,23 @@
       ]
     },
     "s7": {
-      "nav": "Twitch beitreten",
-      "title": "Twitch beitreten",
-      "titleDesktop": "Der Community auf Twitch beitreten",
-      "descMobile": "Streams, Turnier-Highlights und Community-Treffen \u2014 alles auf Twitch.",
-      "descDesktop": "Die meisten Updates, Turnier-Ank\u00fcndigungen und Community-Events finden auf Twitch statt. Kostenlos folgen, einfach reinschauen, wenn ein Stream live geht.",
+      "nav": "Twitter folgen",
+      "title": "Twitter folgen",
+      "titleDesktop": "Der Community auf Twitter folgen",
+      "descMobile": "Updates, Turnier-Ank\u00fcndigungen und Community-Highlights \u2014 alles auf Twitter.",
+      "descDesktop": "Die meisten Updates, Turnier-Ank\u00fcndigungen und Community-Events posten wir auf Twitter. Kostenlos folgen, jederzeit schnell nachlesen.",
       "bullets": [
-        "Auf den Twitch-Button tippen.",
-        "Dem Kanal folgen.",
-        "Benachrichtigungen f\u00fcr Live-Streams aktivieren."
+        "Auf den Twitter-Button tippen.",
+        "Dem Account folgen.",
+        "Benachrichtigungen f\u00fcr neue Posts aktivieren."
       ],
       "bulletsDesktop": [
-        "Auf den Twitch-Button in der Seitenleiste klicken.",
-        "Unserem Kanal folgen, um auf dem Laufenden zu bleiben.",
-        "Benachrichtigungen aktivieren, damit du kein Turnier oder Community-Stream verpasst."
+        "Auf den Twitter-Button in der Seitenleiste klicken.",
+        "Unserem Account folgen, um auf dem Laufenden zu bleiben.",
+        "Benachrichtigungen aktivieren, damit du kein Turnier und kein Community-Update verpasst."
       ],
-      "callout": "Erlebe Live-Streams, Q&A-Runden und Turnier-Finals mit der Community.",
-      "calloutDesktop": "Erlebe Live-Streams, Q&A-Runden und Turnier-Finals mit der Community \u2014 sag Hallo im Chat, wenn du einschaltest."
+      "callout": "Verfolge Ank\u00fcndigungen, Q&A-Threads und Turnier-Ergebnisse mit der Community.",
+      "calloutDesktop": "Verfolge Ank\u00fcndigungen, Q&A-Threads und Turnier-Ergebnisse mit der Community \u2014 antworte einfach, wenn du Hallo sagen willst."
     }
   }
 }

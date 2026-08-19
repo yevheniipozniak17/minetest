@@ -245,23 +245,23 @@
       ]
     },
     "s7": {
-      "nav": "Do\u0142\u0105cz na Twitchu",
-      "title": "Do\u0142\u0105cz na Twitchu",
-      "titleDesktop": "Do\u0142\u0105cz do spo\u0142eczno\u015bci na Twitchu",
-      "descMobile": "Streamy, skr\u00f3ty z turniej\u00f3w i spotkania spo\u0142eczno\u015bci \u2014 wszystko na Twitchu.",
-      "descDesktop": "Wi\u0119kszo\u015b\u0107 aktualizacji, og\u0142osze\u0144 turniejowych i wydarze\u0144 spo\u0142eczno\u015bci odbywa si\u0119 na Twitchu. Darmowe obserwowanie, \u0142atwe do\u0142\u0105czenie, gdy tylko ruszy transmisja.",
+      "nav": "Obserwuj nas na Twitterze",
+      "title": "Obserwuj nas na Twitterze",
+      "titleDesktop": "Do\u0142\u0105cz do spo\u0142eczno\u015bci na Twitterze",
+      "descMobile": "Aktualno\u015bci, og\u0142oszenia turniej\u00f3w i \u017cycie spo\u0142eczno\u015bci \u2014 wszystko na Twitterze.",
+      "descDesktop": "Wi\u0119kszo\u015b\u0107 aktualizacji, og\u0142osze\u0144 turniejowych i wydarze\u0144 spo\u0142eczno\u015bci publikujemy na Twitterze. Darmowe obserwowanie, \u0142atwo sprawdzisz w dowolnym momencie.",
       "bullets": [
-        "Naci\u015bnij przycisk Twitch.",
-        "Obserwuj kana\u0142.",
-        "W\u0142\u0105cz powiadomienia o transmisjach na \u017cywo."
+        "Naci\u015bnij przycisk Twitter.",
+        "Obserwuj konto.",
+        "W\u0142\u0105cz powiadomienia o nowych wpisach."
       ],
       "bulletsDesktop": [
-        "Kliknij przycisk Twitch na pasku bocznym.",
-        "Obserwuj nasz kana\u0142, \u017ceby by\u0107 na bie\u017c\u0105co.",
-        "W\u0142\u0105cz powiadomienia, \u017ceby nie przegapi\u0107 turnieju ani streamu spo\u0142eczno\u015bci."
+        "Kliknij przycisk Twitter na pasku bocznym.",
+        "Obserwuj nasze konto, \u017ceby by\u0107 na bie\u017c\u0105co.",
+        "W\u0142\u0105cz powiadomienia, \u017ceby nie przegapi\u0107 turnieju ani nowo\u015bci spo\u0142eczno\u015bci."
       ],
-      "callout": "Ogl\u0105daj transmisje na \u017cywo, sesje Q&A i fina\u0142y turniej\u00f3w razem ze spo\u0142eczno\u015bci\u0105.",
-      "calloutDesktop": "Ogl\u0105daj transmisje na \u017cywo, sesje Q&A i fina\u0142y turniej\u00f3w razem ze spo\u0142eczno\u015bci\u0105 \u2014 napisz cze\u015b\u0107 na czacie, gdy do\u0142\u0105czysz."
+      "callout": "\u015aled\u017a og\u0142oszenia, w\u0105tki Q&A i wyniki turniej\u00f3w razem ze spo\u0142eczno\u015bci\u0105.",
+      "calloutDesktop": "\u015aled\u017a og\u0142oszenia, w\u0105tki Q&A i wyniki turniej\u00f3w razem ze spo\u0142eczno\u015bci\u0105 \u2014 odpisz i przywitaj si\u0119, gdy wpadniesz."
     }
   }
 }

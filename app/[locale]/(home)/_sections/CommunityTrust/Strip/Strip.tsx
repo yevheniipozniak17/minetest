@@ -6,7 +6,6 @@ const STRIP_LOGO_HEIGHT = 32;
 const STRIP_SOURCES = [
   { src: '/icons/strip/reddit.png', alt: 'Reddit', naturalWidth: 400, naturalHeight: 400 },
   { src: '/icons/strip/TikTok.png', alt: 'TikTok', naturalWidth: 400, naturalHeight: 400 },
-  { src: '/icons/strip/twitch.png', alt: 'Twitch', naturalWidth: 400, naturalHeight: 246 },
   { src: '/icons/strip/twitter.png', alt: 'Twitter', naturalWidth: 400, naturalHeight: 400 },
   { src: '/icons/strip/youtube.png', alt: 'YouTube', naturalWidth: 512, naturalHeight: 512 },
 ] as const;

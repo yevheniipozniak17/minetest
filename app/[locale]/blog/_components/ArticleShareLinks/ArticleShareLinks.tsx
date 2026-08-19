@@ -14,12 +14,6 @@ const SHARE_ITEMS = [
     action: 'share-x' as const,
   },
   {
-    id: 'twitch' as const,
-    icon: '/icons/social/twitch.svg',
-    size: 18,
-    action: 'copy' as const,
-  },
-  {
     id: 'facebook' as const,
     icon: '/icons/social/ic_round-facebook.svg',
     size: 18,

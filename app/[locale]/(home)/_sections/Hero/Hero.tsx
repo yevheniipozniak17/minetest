@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { getTranslations } from 'next-intl/server';
 import { getDashboardPlayHref } from '@/lib/data/servers';
-import { TWITCH_URL } from '@/lib/data/social';
+import { TWITTER_URL } from '@/lib/data/social';
 import { Container } from '@/app/_components/Container/Container';
 import { Divider } from '@/app/_components/Divider/Divider';
 import styles from './Hero.module.css';
@@ -52,13 +52,13 @@ export async function Hero({ isAuthed = false }: { isAuthed?: boolean }) {
               {t('hero.playNow')}
             </Link>
             <a
-              href={TWITCH_URL}
+              href={TWITTER_URL}
               target="_blank"
               rel="noopener noreferrer"
               className={styles.btnSecondary}
             >
-              <Image src="/icons/social/twitch.svg" alt="" width={24} height={24} />
-              <span>{t('hero.joinTwitch')}</span>
+              <Image src="/icons/social/prime_twitter.svg" alt="" width={24} height={24} />
+              <span>{t('hero.joinTwitter')}</span>
             </a>
           </div>
         </Container>

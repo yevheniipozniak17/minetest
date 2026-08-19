@@ -1,4 +1,4 @@
-import { TWITCH_URL } from '@/lib/data/social';
+import { TWITTER_URL } from '@/lib/data/social';
 
 export const NAV_LINKS = [
   { key: 'home', href: '/' },
@@ -19,8 +19,7 @@ export function isNavLinkActive(href: string, pathname: string) {
 }
 
 const SOCIAL_LINKS = [
-  { icon: '/icons/social/prime_twitter.svg', alt: 'Twitter', href: 'https://x.com/Minecrafts_Game', size: 18 },
-  { icon: '/icons/social/twitch.svg', alt: 'Twitch', href: TWITCH_URL, size: 18 },
+  { icon: '/icons/social/prime_twitter.svg', alt: 'Twitter', href: TWITTER_URL, size: 18 },
   { icon: '/icons/social/ic_round-facebook.svg', alt: 'Facebook', href: 'https://www.facebook.com/minecraftsgameworld', size: 18 },
   { icon: '/icons/social/ri_instagram-fill.svg', alt: 'Instagram', href: 'https://www.instagram.com/minecraftsgameworld', size: 18 },
 ] as const;

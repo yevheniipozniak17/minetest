@@ -4,7 +4,7 @@ import { Container } from '@/app/_components/Container/Container';
 import { Badge } from '@/app/_components/Badge/Badge';
 import { Breadcrumbs } from '@/app/_components/Breadcrumbs/Breadcrumbs';
 import { CONTACT_STATS, SUPPORT_EMAIL } from '@/lib/data/contacts';
-import { TWITCH_URL } from '@/lib/data/social';
+import { TWITTER_URL } from '@/lib/data/social';
 import styles from './Hero.module.css';
 
 const BREADCRUMB_LINKS = ['/', '/faq'];
@@ -59,12 +59,12 @@ export default async function Hero() {
             {t('contacts.hero.emailUs')}
           </a>
           <a
-            href={TWITCH_URL}
+            href={TWITTER_URL}
             className={styles.actionSecondary}
             target="_blank"
             rel="noopener noreferrer"
           >
-            {t('contacts.hero.joinTwitch')}
+            {t('contacts.hero.joinTwitter')}
           </a>
           <Link href="/faq" className={styles.actionSecondary}>
             {t('contacts.hero.browseFaq')}

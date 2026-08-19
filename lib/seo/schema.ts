@@ -1,5 +1,5 @@
 import { absoluteUrl, SITE_NAME, SITE_URL } from './meta';
-import { TWITCH_URL } from '@/lib/data/social';
+import { TWITTER_URL } from '@/lib/data/social';
 
 type Faq = { question: string; answer: string };
 
@@ -15,7 +15,7 @@ export function organizationSchema(): Record<string, unknown> {
     name: SITE_NAME,
     url: SITE_URL,
     logo: absoluteUrl('/favicon/android-chrome-512x512.png'),
-    sameAs: [TWITCH_URL],
+    sameAs: [TWITTER_URL],
   };
 }
 

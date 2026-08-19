@@ -9,7 +9,7 @@ import { getFaqArticleBySlug } from '@/app/[locale]/faq/_data/faqArticles';
 import { getTranslatedFaqArticleContent } from '@/app/[locale]/faq/_data/faqArticleContentI18n';
 import type { FaqArticleContentBlock, FaqSectionContent } from '@/app/[locale]/faq/_data/faqArticleTypes';
 import { GAME_SERVERS } from '@/lib/server/gameServers';
-import { TWITCH_URL } from '@/lib/data/social';
+import { TWITTER_URL } from '@/lib/data/social';
 import styles from './ArticleBody.module.css';
 import { useFaqArticleToc } from './useFaqArticleToc';
 
@@ -307,7 +307,7 @@ export default function ArticleBody({ slug }: ArticleBodyProps) {
   const shareTitle = t(`articles.${slug}.question` as Parameters<typeof t>[0]);
   const primaryCtaHref =
     content.cta?.primary === t('join.ctaPrimary')
-      ? TWITCH_URL
+      ? TWITTER_URL
       : (content.cta?.primaryHref ?? '/faq');
 
   return (

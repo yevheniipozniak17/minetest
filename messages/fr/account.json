@@ -245,23 +245,23 @@
       ]
     },
     "s7": {
-      "nav": "Rejoindre Twitch",
-      "title": "Rejoindre Twitch",
-      "titleDesktop": "Rejoindre la communaut\u00e9 sur Twitch",
-      "descMobile": "Streams, temps forts de tournois et rencontres communautaires \u2014 tout sur Twitch.",
-      "descDesktop": "La plupart de nos mises \u00e0 jour, annonces de tournois et \u00e9v\u00e9nements communautaires se passent sur Twitch. Gratuit \u00e0 suivre, facile de passer quand un stream est en direct.",
+      "nav": "Nous suivre sur Twitter",
+      "title": "Nous suivre sur Twitter",
+      "titleDesktop": "Rejoindre la communaut\u00e9 sur Twitter",
+      "descMobile": "Mises \u00e0 jour, annonces de tournois et temps forts de la communaut\u00e9 \u2014 tout sur Twitter.",
+      "descDesktop": "La plupart de nos mises \u00e0 jour, annonces de tournois et \u00e9v\u00e9nements communautaires sont publi\u00e9s sur Twitter. Gratuit \u00e0 suivre, facile \u00e0 consulter quand vous voulez.",
       "bullets": [
-        "Appuyer sur le bouton Twitch.",
-        "Suivre la cha\u00eene.",
-        "Activer les notifications pour les streams en direct."
+        "Appuyer sur le bouton Twitter.",
+        "Suivre le compte.",
+        "Activer les notifications pour les nouvelles publications."
       ],
       "bulletsDesktop": [
-        "Cliquer sur le bouton Twitch dans la barre lat\u00e9rale.",
-        "Suivre notre cha\u00eene pour rester inform\u00e9.",
-        "Activer les notifications pour ne jamais manquer un tournoi ou un stream communautaire."
+        "Cliquer sur le bouton Twitter dans la barre lat\u00e9rale.",
+        "Suivre notre compte pour rester inform\u00e9.",
+        "Activer les notifications pour ne jamais manquer un tournoi ou une actualit\u00e9 de la communaut\u00e9."
       ],
-      "callout": "Regardez les streams en direct, les sessions Q&R et les finales de tournois avec le reste de la communaut\u00e9.",
-      "calloutDesktop": "Regardez les streams en direct, les sessions Q&R et les finales de tournois avec le reste de la communaut\u00e9 \u2014 dites bonjour dans le chat quand vous vous connectez."
+      "callout": "Retrouvez les annonces, les fils de questions-r\u00e9ponses et les r\u00e9sultats de tournois avec le reste de la communaut\u00e9.",
+      "calloutDesktop": "Retrouvez les annonces, les fils de questions-r\u00e9ponses et les r\u00e9sultats de tournois avec le reste de la communaut\u00e9 \u2014 r\u00e9pondez pour dire bonjour quand vous passez."
     }
   }
 }

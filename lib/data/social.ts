@@ -1,1 +1,1 @@
-export const TWITCH_URL = 'https://www.twitch.tv/minecrafts_game';
+export const TWITTER_URL = 'https://x.com/Minecrafts_Game';

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
 import { useTranslations } from 'next-intl';
 import { getPlayNowHref } from '@/lib/data/servers';
-import { TWITCH_URL } from '@/lib/data/social';
+import { TWITTER_URL } from '@/lib/data/social';
 import styles from './MineWarsActions.module.css';
 
 export default function MineWarsActions({ isAuthed = false }: { isAuthed?: boolean }) {
@@ -18,19 +18,19 @@ export default function MineWarsActions({ isAuthed = false }: { isAuthed?: boole
       </Link>
 
       <a
-        href={TWITCH_URL}
+        href={TWITTER_URL}
         target="_blank"
         rel="noopener noreferrer"
         className={`${styles.button} ${styles.secondary}`}
       >
         <Image
-          src="/icons/social/twitch.svg"
+          src="/icons/social/prime_twitter.svg"
           alt=""
           width={24}
           height={24}
           className={styles.discordIcon}
         />
-        {t('shared.joinTwitch')}
+        {t('shared.joinTwitter')}
       </a>
     </section>
   );

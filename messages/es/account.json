@@ -245,23 +245,23 @@
       ]
     },
     "s7": {
-      "nav": "Unirse a Twitch",
-      "title": "Unirse a Twitch",
-      "titleDesktop": "Unirse a la comunidad en Twitch",
-      "descMobile": "Streams, momentos de torneos y encuentros de la comunidad \u2014 todo en Twitch.",
-      "descDesktop": "La mayor\u00eda de nuestras actualizaciones, anuncios de torneos y eventos comunitarios se realizan en Twitch. Gratis para seguir, f\u00e1cil de entrar cuando hay un stream en directo.",
+      "nav": "S\u00edguenos en Twitter",
+      "title": "S\u00edguenos en Twitter",
+      "titleDesktop": "\u00danete a la comunidad en Twitter",
+      "descMobile": "Novedades, anuncios de torneos y momentos de la comunidad \u2014 todo en Twitter.",
+      "descDesktop": "La mayor\u00eda de nuestras novedades, anuncios de torneos y eventos comunitarios se publican en Twitter. Gratis para seguir, f\u00e1cil de consultar cuando quieras.",
       "bullets": [
-        "Pulsar el bot\u00f3n de Twitch.",
-        "Seguir el canal.",
-        "Activar notificaciones para streams en directo."
+        "Pulsar el bot\u00f3n de Twitter.",
+        "Seguir la cuenta.",
+        "Activar notificaciones de nuevas publicaciones."
       ],
       "bulletsDesktop": [
-        "Hacer clic en el bot\u00f3n Twitch de la barra lateral.",
-        "Seguir nuestro canal para estar al d\u00eda.",
-        "Activar notificaciones para no perderte un torneo ni un stream comunitario."
+        "Hacer clic en el bot\u00f3n Twitter de la barra lateral.",
+        "Seguir nuestra cuenta para estar al d\u00eda.",
+        "Activar notificaciones para no perderte un torneo ni una novedad de la comunidad."
       ],
-      "callout": "Disfruta de streams en directo, sesiones de preguntas y finales de torneos con el resto de la comunidad.",
-      "calloutDesktop": "Disfruta de streams en directo, sesiones de preguntas y finales de torneos con el resto de la comunidad \u2014 saluda en el chat cuando te conectes."
+      "callout": "Sigue los anuncios, los hilos de preguntas y los resultados de torneos con el resto de la comunidad.",
+      "calloutDesktop": "Sigue los anuncios, los hilos de preguntas y los resultados de torneos con el resto de la comunidad \u2014 responde para saludar cuando te pases."
     }
   }
 }

@@ -1,4 +1,5 @@
 import type { FaqArticleFullContent, FaqSectionContent } from './faqArticleTypes';
+import { TWITTER_URL } from '@/lib/data/social';
 
 type TFn = (key: string, values?: Record<string, string | number | Date>) => string;
 type TRawFn = (key: string) => unknown;
@@ -109,7 +110,7 @@ function buildJoinContent(t: TFn, tRaw: TRawFn): FaqArticleFullContent {
     ],
     cta: {
       primary: t('join.ctaPrimary'),
-      primaryHref: 'https://www.twitch.tv/minecraftsgame',
+      primaryHref: TWITTER_URL,
       secondary: t('join.ctaSecondary'),
       secondaryHref: '/faq',
     },

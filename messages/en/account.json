@@ -245,23 +245,23 @@
       ]
     },
     "s7": {
-      "nav": "Follow us on Twitch",
-      "title": "Follow us on Twitch",
-      "titleDesktop": "Join the community on Twitch",
-      "descMobile": "Streams, tournament highlights, and community hangouts \u2014 all on Twitch.",
-      "descDesktop": "Most of our updates, tournament announcements, and community events happen on Twitch. Free to follow, easy to drop in whenever a stream goes live.",
+      "nav": "Follow us on Twitter",
+      "title": "Follow us on Twitter",
+      "titleDesktop": "Join the community on Twitter",
+      "descMobile": "Updates, tournament announcements, and community highlights \u2014 all on Twitter.",
+      "descDesktop": "Most of our updates, tournament announcements, and community events are posted on Twitter. Free to follow, easy to check whenever you have a minute.",
       "bullets": [
-        "Tap the Twitch button.",
-        "Follow the channel.",
-        "Turn on notifications for live streams."
+        "Tap the Twitter button.",
+        "Follow the account.",
+        "Turn on notifications for new posts."
       ],
       "bulletsDesktop": [
-        "Click the Twitch button in the sidebar.",
-        "Follow our channel to stay in the loop.",
-        "Enable notifications so you never miss a tournament or community stream."
+        "Click the Twitter button in the sidebar.",
+        "Follow our account to stay in the loop.",
+        "Enable notifications so you never miss a tournament or community update."
       ],
-      "callout": "Catch live streams, Q&A sessions, and tournament finals with the rest of the community.",
-      "calloutDesktop": "Catch live streams, Q&A sessions, and tournament finals with the rest of the community \u2014 drop a hello in chat when you tune in."
+      "callout": "Catch announcements, Q&A threads, and tournament results with the rest of the community.",
+      "calloutDesktop": "Catch announcements, Q&A threads, and tournament results with the rest of the community \u2014 reply to say hello when you drop by."
     }
   }
 }
