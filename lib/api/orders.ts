@@ -81,12 +81,33 @@ export function isOrderRefunded(
   return false;
 }
 
-export type OrderPaymentStatus = 'paid' | 'refund' | 'failed';
+export type OrderPaymentStatus = 'paid' | 'pending' | 'refund' | 'failed';
+
+function mapBackendOrderStatus(status: string | null | undefined): OrderPaymentStatus | null {
+  const normalized = status?.toUpperCase().trim();
+  if (!normalized) return null;
+
+  switch (normalized) {
+    case 'PAID':
+      return 'paid';
+    case 'FAILED':
+      return 'failed';
+    case 'CREATED':
+    case 'PENDING':
+      return 'pending';
+    default:
+      return null;
+  }
+}
 
 export function mapOrderStatus(
   order: Pick<OrderListItem, 'has_bill' | 'is_refund' | 'is_refunded' | 'status'>,
 ): OrderPaymentStatus {
   if (isOrderRefunded(order)) return 'refund';
+
+  const backendStatus = mapBackendOrderStatus(order.status);
+  if (backendStatus) return backendStatus;
+
   return orderHasBill(order) ? 'paid' : 'failed';
 }
 

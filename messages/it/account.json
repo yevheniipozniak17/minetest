@@ -45,11 +45,13 @@
     },
     "status": {
       "paid": "pagato",
+      "pending": "in attesa",
       "refund": "rimborso",
       "failed": "fallito"
     },
     "statusShort": {
       "paid": "pagato",
+      "pending": "in attesa",
       "refund": "rimb.",
       "failed": "fallito"
     },

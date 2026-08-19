@@ -45,11 +45,13 @@
     },
     "status": {
       "paid": "op\u0142acone",
+      "pending": "oczekuj\u0105ca",
       "refund": "zwrot",
       "failed": "nieudane"
     },
     "statusShort": {
       "paid": "op\u0142acone",
+      "pending": "oczekuj\u0105ca",
       "refund": "zwrot",
       "failed": "nieudane"
     },

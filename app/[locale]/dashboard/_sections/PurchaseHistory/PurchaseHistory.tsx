@@ -24,6 +24,7 @@ import { buildPageNumbers } from '@/lib/pagination/buildPageNumbers';
 import styles from './PurchaseHistory.module.css';
 
 const ORDERS_PER_PAGE = 10;
+const PENDING_POLL_INTERVAL_MS = 30_000;
 
 function OpenReceiptIcon({ className }: { className?: string }) {
   return (
@@ -138,11 +139,13 @@ export default function PurchaseHistory() {
 
   const statusLabels: Record<OrderPaymentStatus, string> = {
     paid: t('ph.status.paid'),
+    pending: t('ph.status.pending'),
     refund: t('ph.status.refund'),
     failed: t('ph.status.failed'),
   };
   const statusTableLabels: Record<OrderPaymentStatus, string> = {
     paid: t('ph.statusShort.paid'),
+    pending: t('ph.statusShort.pending'),
     refund: t('ph.statusShort.refund'),
     failed: t('ph.statusShort.failed'),
   };
@@ -173,19 +176,62 @@ export default function PurchaseHistory() {
 
   useEffect(() => {
     let active = true;
-    getOrders(1, 50)
-      .then(data => {
+
+    async function loadOrders() {
+      try {
+        const data = await getOrders(1, 50);
         if (!active) return;
         setRawOrders(data.results);
-      })
-      .catch(() => {})
-      .finally(() => {
+      } catch {
+        // Keep the last loaded list when a refresh fails.
+      } finally {
         if (active) setLoaded(true);
-      });
+      }
+    }
+
+    void loadOrders();
+
     return () => {
       active = false;
     };
   }, []);
+
+  const hasPendingOrders = useMemo(
+    () => rawOrders.some(order => mapOrderStatus(order) === 'pending'),
+    [rawOrders],
+  );
+
+  useEffect(() => {
+    if (!hasPendingOrders) return;
+
+    let active = true;
+
+    async function refreshOrders() {
+      try {
+        const data = await getOrders(1, 50);
+        if (!active) return;
+        setRawOrders(data.results);
+      } catch {
+        // Keep the last loaded list when a refresh fails.
+      }
+    }
+
+    const intervalId = window.setInterval(() => {
+      void refreshOrders();
+    }, PENDING_POLL_INTERVAL_MS);
+
+    const onFocus = () => {
+      void refreshOrders();
+    };
+
+    window.addEventListener('focus', onFocus);
+
+    return () => {
+      active = false;
+      window.clearInterval(intervalId);
+      window.removeEventListener('focus', onFocus);
+    };
+  }, [hasPendingOrders]);
 
   // Каталог товарів: даємо позиціям реальну назву та визначаємо кристали за категорією.
   useEffect(() => {

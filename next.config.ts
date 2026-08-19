@@ -3,8 +3,12 @@ import createNextIntlPlugin from "next-intl/plugin";
 
 const withNextIntl = createNextIntlPlugin("./i18n/request.ts");
 
+const isProduction = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
-  reactCompiler: true,
+  // The React Compiler runs client components through a Babel loader, and Turbopack
+  // panics in that stage while reporting HMR issues, killing the dev server.
+  reactCompiler: isProduction,
   experimental: {
     inlineCss: true,
   },

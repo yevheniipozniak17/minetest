@@ -45,11 +45,13 @@
     },
     "status": {
       "paid": "bezahlt",
+      "pending": "ausstehend",
       "refund": "R\u00fcckerstattung",
       "failed": "fehlgeschlagen"
     },
     "statusShort": {
       "paid": "bezahlt",
+      "pending": "ausstehend",
       "refund": "erstattet",
       "failed": "fehler"
     },
