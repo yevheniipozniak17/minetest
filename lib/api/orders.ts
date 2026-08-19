@@ -100,10 +100,22 @@ function mapBackendOrderStatus(status: string | null | undefined): OrderPaymentS
   }
 }
 
+function hasExplicitBill(order: Pick<OrderListItem, 'has_bill'>): boolean {
+  const value = order.has_bill;
+  if (value == null) return false;
+  if (value === true) return true;
+  if (value === false) return false;
+  const normalized = String(value).toLowerCase().trim();
+  return normalized === 'true' || normalized === '1' || normalized === 'yes';
+}
+
 export function mapOrderStatus(
   order: Pick<OrderListItem, 'has_bill' | 'is_refund' | 'is_refunded' | 'status'>,
 ): OrderPaymentStatus {
   if (isOrderRefunded(order)) return 'refund';
+
+  // Receipt exists — payment succeeded even if status field is stale (e.g. FAILED after return).
+  if (hasExplicitBill(order)) return 'paid';
 
   const backendStatus = mapBackendOrderStatus(order.status);
   if (backendStatus) return backendStatus;
