@@ -46,12 +46,7 @@ export default async function Hero({ isAuthed = false }: { isAuthed?: boolean })
               <div className={styles.stepperContent}>
                 <h3 className={styles.stepperTitle}>
                   {t('howToStart.step1Title')}
-                  <a
-                    href={TWITCH_URL}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className={styles.stepperVersion}
-                  >
+                  <span className={styles.stepperVersion}>
                     <Image
                       src="/how-to-start/icons/game.svg"
                       alt="Minecraft version"
@@ -59,7 +54,7 @@ export default async function Hero({ isAuthed = false }: { isAuthed?: boolean })
                       height={24}
                     />
                     {MINECRAFT_VERSION_LABEL}
-                  </a>
+                  </span>
                 </h3>
                 <p className={styles.stepperDescription}>{t('howToStart.step1Desc')}</p>
                 <a
