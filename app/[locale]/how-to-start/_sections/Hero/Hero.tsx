@@ -2,7 +2,6 @@ import { getTranslations } from 'next-intl/server';
 import { Container } from '@/app/_components/Container/Container';
 import AuthAwareLink from '@/app/_components/AuthAwareLink/AuthAwareLink';
 import { getPublicServerHref } from '@/lib/data/servers';
-import { TWITCH_URL } from '@/lib/data/social';
 import { MINECRAFT_VERSION_LABEL } from '@/lib/server/gameServers';
 import styles from './Hero.module.css';
 import Image from 'next/image';
@@ -53,7 +52,12 @@ export default async function Hero({ isAuthed = false }: { isAuthed?: boolean })
                     rel="noopener noreferrer"
                     className={styles.stepperVersion}
                   >
-                    <Image src="/icons/social/twitch.svg" alt="" width={24} height={24} />
+                    <Image
+                      src="/how-to-start/icons/game.svg"
+                      alt="Minecraft version"
+                      width={24}
+                      height={24}
+                    />
                     {MINECRAFT_VERSION_LABEL}
                   </a>
                 </h3>
