@@ -20,17 +20,17 @@ BRANCH="${DEPLOY_BRANCH:-main}"
 cd "$(dirname "$0")"
 
 echo "==> [1/4] Забираю свіжий код (origin/$BRANCH)..."
-if ! git fetch origin "$BRANCH"; then
+# protocol.version=1 тут обовʼязковий. Git 2.43 типово говорить по протоколу v2,
+# а GitHub на POST /git-upload-pack у цьому режимі відповідає 401 навіть для
+# публічного репозиторію. GET /info/refs при цьому проходить із 200, тому збій
+# виглядає як запит логіна на кроці, де авторизації взагалі не має бути.
+if ! git -c protocol.version=1 fetch origin "$BRANCH"; then
   echo "" >&2
   echo "git fetch не пройшов. Поточний origin:" >&2
   git remote get-url origin >&2 || echo "  origin не налаштований" >&2
   echo "" >&2
-  echo "Репозиторій публічний, анонімний fetch по HTTPS працює без кредів. Якщо" >&2
-  echo "GitHub усе одно просить авторизацію — origin вказує не на нього:" >&2
-  echo "старий/перейменований шлях, інший репозиторій або вшитий у URL username." >&2
-  echo "Виправити:  git remote set-url origin <правильний-url>" >&2
-  echo "УВАГА: спершу звір remote -v — підміна URL на інший репозиторій призведе" >&2
-  echo "до того, що git reset --hard нижче затре сервер чужою історією." >&2
+  echo "Перевір доступність репозиторію із сервера:" >&2
+  echo "  git -c protocol.version=1 ls-remote origin $BRANCH" >&2
   exit 1
 fi
 # Жорстко вирівнюємо до remote. УВАГА: локальні зміни на сервері будуть стерті.
