@@ -19,7 +19,9 @@ export interface BlogArticleListItem {
   meta_keywords: string | null;
   reading_time: number; // Хвилини. Бекенд рахує на основі word_count статті.
   // Посилання на картинку на бекенді. Наразі завжди null — файли туди не
-  // заливали, ілюстрації беремо з public/blog/articles (див. _adapter).
+  // заливали, тому ілюстрації віддає власний хендлер app/blog-image. Щойно
+  // поле почне приходити заповненим, воно автоматично отримає пріоритет
+  // (див. blogImagePath у _adapter).
   image: string | null;
   publish_date: string;
   // Приходить лише у списку — detail-відповідь статті cluster_id не віддає.

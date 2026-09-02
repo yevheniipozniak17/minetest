@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   return buildMetadata({ locale: localeFromParams(locale), title: article.meta_title || article.title,
     description: article.meta_description || article.short_description,
     path: `/blog/${slug}`,
-    image: blogImagePath(slug),
+    image: blogImagePath(slug, article.image),
     ogType: 'article',
     noindex: true,
     article: {

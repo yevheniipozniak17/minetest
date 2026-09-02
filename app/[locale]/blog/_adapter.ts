@@ -1,6 +1,5 @@
 import type { BlogArticle, BlogArticleListItem } from '@/lib/api/blog-types';
 import { DEFAULT_LOCALE, type Locale } from '@/lib/i18n/config';
-import { ARTICLE_IMAGE_SLUGS } from './_articleImages';
 import type { ArticleCardProps } from './CardList/Card/Card';
 
 export type CategoryMap = Map<string, string>;
@@ -84,16 +83,16 @@ export function formatArticleDate(value: string, locale: Locale = DEFAULT_LOCALE
   });
 }
 
-// Ілюстрація для статті без власної картинки. Бʼється лише тоді, коли бекенд
-// віддає статтю, якої ще немає у синхронізованій вигрузці контенту.
-export const ARTICLE_IMAGE_FALLBACK = '/blog/1.webp';
-
-// Картинки статей лежать у нашому репозиторії, а не на бекенді: ендпоінт
-// /blog/{lang}/article/{slug}/image/ віддає 404, файли туди свідомо не заливали.
-// Розкладає їх scripts/sync-article-images.mjs — він же генерує список слагів,
-// по якому ми відрізняємо наявну картинку від відсутньої.
-export function blogImagePath(slug: string): string {
-  return ARTICLE_IMAGE_SLUGS.has(slug) ? `/blog/articles/${slug}.webp` : ARTICLE_IMAGE_FALLBACK;
+// Адреса ілюстрації статті.
+//
+// Пріоритет у бекенду: щойно він почне заповнювати image (зараз там завжди
+// null), картинки поїдуть з нього і власне сховище стане непотрібним разом із
+// цією функцією. До того часу шлях веде в app/blog-image, який читає файл із
+// каталогу поза білдом — тому нова стаття з CMS не вимагає ні коміту, ні
+// деплою. Відсутній файл віддається як заглушка самим хендлером, тож тут
+// перевіряти наявність не потрібно.
+export function blogImagePath(slug: string, apiImage?: string | null): string {
+  return apiImage || `/blog-image/${slug}.webp`;
 }
 
 export function slugifyHeading(text: string): string {
@@ -165,7 +164,7 @@ export function adaptCardArticle(
 
   return {
     slug: item.slug,
-    image: blogImagePath(item.slug),
+    image: blogImagePath(item.slug, item.image),
     genre: 'Guides',
     time,
     title: item.title,
@@ -196,7 +195,7 @@ export function adaptFullArticle(
     sidebarTags: [{ label: categoryLabel, slug: article.category_slug }],
     breadcrumbLabel: article.title,
     descriptionDesktop: article.short_description,
-    heroImageDesktop: blogImagePath(article.slug),
+    heroImageDesktop: blogImagePath(article.slug, article.image),
     lead: { mobile: article.short_description },
   };
 }

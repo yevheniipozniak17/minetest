@@ -39,6 +39,9 @@ yarn-error.log*
 # local drop zone for zips/exports from other teams — never commit
 /_incoming
 
+# проміжний каталог scripts/upload-blog-images.mjs (жорсткі посилання на _incoming)
+/.blog-images-staging
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
