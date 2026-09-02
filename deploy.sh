@@ -20,17 +20,28 @@ BRANCH="${DEPLOY_BRANCH:-main}"
 cd "$(dirname "$0")"
 
 echo "==> [1/4] Забираю свіжий код (origin/$BRANCH)..."
-# protocol.version=1 тут обовʼязковий. Git 2.43 типово говорить по протоколу v2,
-# а GitHub на POST /git-upload-pack у цьому режимі відповідає 401 навіть для
-# публічного репозиторію. GET /info/refs при цьому проходить із 200, тому збій
-# виглядає як запит логіна на кроці, де авторизації взагалі не має бути.
-if ! git -c protocol.version=1 fetch origin "$BRANCH"; then
+# Репозиторій публічний і креди для fetch не потрібні, але GitHub час від часу
+# відповідає 401 на POST /git-upload-pack для анонімних запитів із цього сервера
+# (GET /info/refs при цьому проходить). Збій плаваючий і зникає з повтору, тому
+# не валимо весь деплой через одну невдалу спробу.
+fetched=0
+for attempt in 1 2 3 4 5; do
+  if git fetch origin "$BRANCH"; then
+    fetched=1
+    break
+  fi
+  echo "    спроба $attempt не вдалася, повтор через 5с..." >&2
+  sleep 5
+done
+
+if [ "$fetched" -ne 1 ]; then
   echo "" >&2
-  echo "git fetch не пройшов. Поточний origin:" >&2
+  echo "git fetch не пройшов за 5 спроб. Поточний origin:" >&2
   git remote get-url origin >&2 || echo "  origin не налаштований" >&2
   echo "" >&2
-  echo "Перевір доступність репозиторію із сервера:" >&2
-  echo "  git -c protocol.version=1 ls-remote origin $BRANCH" >&2
+  echo "Якщо GitHub вимагає авторизацію стабільно, а не епізодично — заводь" >&2
+  echo "deploy key і переводь origin на git@github.com: автентифікований fetch" >&2
+  echo "не підпадає під ліміти для анонімних запитів." >&2
   exit 1
 fi
 # Жорстко вирівнюємо до remote. УВАГА: локальні зміни на сервері будуть стерті.
