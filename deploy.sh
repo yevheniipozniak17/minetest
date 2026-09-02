@@ -8,6 +8,11 @@
 #
 set -euo pipefail
 
+# З GitHub Actions скрипт запускається по SSH без TTY. Без цієї змінної git на
+# 401 від GitHub намагається спитати логін, не може відкрити /dev/tty і падає з
+# незрозумілим "could not read Username: No such device or address".
+export GIT_TERMINAL_PROMPT=0
+
 APP_NAME="minecraftsgame"
 BRANCH="${DEPLOY_BRANCH:-main}"
 
@@ -15,7 +20,19 @@ BRANCH="${DEPLOY_BRANCH:-main}"
 cd "$(dirname "$0")"
 
 echo "==> [1/4] Забираю свіжий код (origin/$BRANCH)..."
-git fetch origin "$BRANCH"
+if ! git fetch origin "$BRANCH"; then
+  echo "" >&2
+  echo "git fetch не пройшов. Поточний origin:" >&2
+  git remote get-url origin >&2 || echo "  origin не налаштований" >&2
+  echo "" >&2
+  echo "Репозиторій публічний, анонімний fetch по HTTPS працює без кредів. Якщо" >&2
+  echo "GitHub усе одно просить авторизацію — origin вказує не на нього:" >&2
+  echo "старий/перейменований шлях, інший репозиторій або вшитий у URL username." >&2
+  echo "Виправити:  git remote set-url origin <правильний-url>" >&2
+  echo "УВАГА: спершу звір remote -v — підміна URL на інший репозиторій призведе" >&2
+  echo "до того, що git reset --hard нижче затре сервер чужою історією." >&2
+  exit 1
+fi
 # Жорстко вирівнюємо до remote. УВАГА: локальні зміни на сервері будуть стерті.
 git reset --hard "origin/$BRANCH"
 
