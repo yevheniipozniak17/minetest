@@ -1,7 +1,7 @@
 .card {
   position: relative;
   width: 338px;
-  height: 364px;
+  min-height: 364px;
 
   display: flex;
   flex-direction: column;
@@ -201,11 +201,23 @@
 /* Спільні стилі для mobile і desktop — Figma compact-картка ідентична на обох breakpoint'ах. */
 .card.cardCompact {
   width: 327px;
-  min-height: 481px;
+  min-height: 434px;
   justify-content: flex-start;
   padding: 152px 17px 18px;
   border-radius: 18px;
   backdrop-filter: blur(4px);
+}
+
+/* Content grows so price + button stay pinned to the bottom → equal-height cards */
+.card.cardCompact .content {
+  flex: 1;
+  min-height: 0;
+}
+
+/* All EXPANDED compact cards share one height (tallest tier = Silver, 11 items).
+   Independent of siblings — opening one card never resizes its row-mates. */
+.card.cardCompact.open {
+  min-height: 737px;
 }
 
 .card.cardCompact .title {
@@ -216,10 +228,8 @@
 .card.cardCompact .text {
   width: auto;
   margin-bottom: 0;
+  min-height: 90px; /* reserve the tallest description (5 lines) so "Details" aligns across cards */
   font-size: 12px;
-  flex: 1;
-  min-height: 0;
-  overflow: hidden;
 }
 
 .card.cardCompact .priceRow {
@@ -245,21 +255,8 @@
   height: 21px;
 }
 
-/* Mobile: кнопка зафіксована внизу, price row — 14px над нею */
+/* Mobile: картка обгортає вміст; price row — 16px над кнопкою */
 @media (max-width: 1279px) {
-  .card.cardCompact {
-    height: 481px;
-  }
-
-  .card.cardCompact .content {
-    flex: 1;
-    min-height: 0;
-  }
-
-  .card.cardCompact .priceRow {
-    margin-top: auto;
-  }
-
   .card.cardCompact .button {
     margin-top: 14px;
     flex-shrink: 0;
@@ -333,21 +330,7 @@
 
 @media (min-width: 1280px) {
 
-  /* Compact: кнопка зафіксована внизу, price row — 16px над нею */
-  .card.cardCompact {
-    height: 481px;
-  }
-
-  .card.cardCompact .content {
-    flex: 1;
-    min-height: 0;
-  }
-
-  .card.cardCompact .priceRow {
-    margin-top: auto;
-    flex-shrink: 0;
-  }
-
+  /* Compact: картка обгортає вміст (без фіксованої висоти) */
   .card.cardCompact .button {
     margin-top: 16px;
     flex-shrink: 0;
@@ -356,7 +339,7 @@
   /* :not(.cardCompact) — li має обидва класи; без цього compact-стилі перебиваються */
   .card:not(.cardCompact) {
     width: 371px;
-    height: 479px;
+    min-height: 479px;
     justify-content: flex-start;
 
     padding: 141px 20px 31px 20px;
@@ -435,4 +418,84 @@
     left: 154px;
     bottom: 340px;
   }
+}
+
+/* ── Expandable details (FAQ-style) ── */
+.details {
+  margin-top: 12px;
+}
+
+.detailsToggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  padding: 0;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--color-primary, #bde153);
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+
+.detailsToggle:hover {
+  opacity: 0.85;
+}
+
+.detailsToggle img {
+  flex-shrink: 0;
+}
+
+.detailsWrapper {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+
+.card.open .detailsWrapper {
+  grid-template-rows: 1fr;
+}
+
+.detailsList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.card.open .detailsList {
+  opacity: 1;
+  padding-top: 12px;
+}
+
+.detailsList li {
+  position: relative;
+  padding-left: 16px;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.detailsList li::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 7px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-primary, #bde153);
 }

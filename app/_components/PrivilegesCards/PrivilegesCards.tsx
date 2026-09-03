@@ -91,6 +91,7 @@ export default function PrivilegesCards({
             key={index}
             title={item.title}
             text={t(`privCard_${item.title.toLowerCase()}`)}
+            details={t.raw(`privDetails_${item.title.toLowerCase()}`) as string[]}
             icon={item.icon}
             compact={compact}
             price={priceForTitle(item.title, pricesByTitle)}
