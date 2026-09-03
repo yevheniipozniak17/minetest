@@ -56,17 +56,17 @@
     margin-inline: -10px;
   }
 
-  /* Row 3: 2 cards centered (3 + 3 + 2) */
-  .cards > :nth-child(7),
-  .cards > :nth-child(8) {
+  /* Row 3: 2 cards centered (3 + 3 + 2) — non-compact (Store) grid only */
+  .cards:not(.cardsCompact) > :nth-child(7),
+  .cards:not(.cardsCompact) > :nth-child(8) {
     margin-inline-start: calc((371px + 22px) / 2);
   }
 
-  .cards > :nth-child(7) {
+  .cards:not(.cardsCompact) > :nth-child(7) {
     grid-column: 1;
   }
 
-  .cards > :nth-child(8) {
+  .cards:not(.cardsCompact) > :nth-child(8) {
     grid-column: 2;
   }
 
