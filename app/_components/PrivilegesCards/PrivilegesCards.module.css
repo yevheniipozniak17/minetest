@@ -70,16 +70,13 @@
     grid-column: 2;
   }
 
-  /* Compact grid — 327px tracks for the dashboard Shop */
+  /* Compact grid — 2 per row for the dashboard Shop */
   .cardsCompact {
-    grid-template-columns: repeat(3, 327px);
-    column-gap: 43px;
-    row-gap: 43px;
-    margin-inline: 0;
-  }
-
-  .cardsCompact > :nth-child(7),
-  .cardsCompact > :nth-child(8) {
-    margin-inline-start: calc((327px + 43px) / 2);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 32px;
+    row-gap: 32px;
+    width: 100%;
+    max-width: 1000px;
+    margin-inline: auto;
   }
 }

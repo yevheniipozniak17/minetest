@@ -201,7 +201,8 @@
 /* Спільні стилі для mobile і desktop — Figma compact-картка ідентична на обох breakpoint'ах. */
 .card.cardCompact {
   width: 327px;
-  min-height: 434px;
+  /* All cards show full details → share one height (tallest tier = 11 items) */
+  min-height: 648px;
   justify-content: flex-start;
   padding: 152px 17px 18px;
   border-radius: 18px;
@@ -214,11 +215,6 @@
   min-height: 0;
 }
 
-/* All EXPANDED compact cards share one height (tallest tier = Silver, 11 items).
-   Independent of siblings — opening one card never resizes its row-mates. */
-.card.cardCompact.open {
-  min-height: 737px;
-}
 
 .card.cardCompact .title {
   margin-bottom: 12px;
@@ -228,7 +224,6 @@
 .card.cardCompact .text {
   width: auto;
   margin-bottom: 0;
-  min-height: 90px; /* reserve the tallest description (5 lines) so "Details" aligns across cards */
   font-size: 12px;
 }
 
@@ -330,6 +325,24 @@
 
 @media (min-width: 1280px) {
 
+  /* 2 per row → cards fill the grid column */
+  .card.cardCompact {
+    width: 100%;
+  }
+
+  /* Wider cards: re-center each tier icon (px lefts were tuned for the 327px card) */
+  .card.cardCompact:nth-child(1) .icon,
+  .card.cardCompact:nth-child(2) .icon,
+  .card.cardCompact:nth-child(3) .icon,
+  .card.cardCompact:nth-child(4) .icon,
+  .card.cardCompact:nth-child(5) .icon,
+  .card.cardCompact:nth-child(6) .icon,
+  .card.cardCompact:nth-child(7) .icon,
+  .card.cardCompact:nth-child(8) .icon {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
   /* Compact: картка обгортає вміст (без фіксованої висоти) */
   .card.cardCompact .button {
     margin-top: 16px;
@@ -420,63 +433,14 @@
   }
 }
 
-/* ── Expandable details (FAQ-style) ── */
-.details {
-  margin-top: 12px;
-}
-
-.detailsToggle {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  width: 100%;
-  padding: 0;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  color: var(--color-primary, #bde153);
-  font-family: var(--Font-Serif-Typography, Montserrat);
-  font-size: 14px;
-  font-weight: 600;
-  line-height: normal;
-  text-align: left;
-}
-
-.detailsToggle:hover {
-  opacity: 0.85;
-}
-
-.detailsToggle img {
-  flex-shrink: 0;
-}
-
-.detailsWrapper {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.3s ease;
-}
-
-.card.open .detailsWrapper {
-  grid-template-rows: 1fr;
-}
-
+/* ── Full details (always visible) ── */
 .detailsList {
   list-style: none;
-  margin: 0;
+  margin: 12px 0 0;
   padding: 0;
-  min-height: 0;
-  overflow: hidden;
   display: flex;
   flex-direction: column;
   gap: 8px;
-  opacity: 0;
-  transition: opacity 0.25s ease;
-}
-
-.card.open .detailsList {
-  opacity: 1;
-  padding-top: 12px;
 }
 
 .detailsList li {
