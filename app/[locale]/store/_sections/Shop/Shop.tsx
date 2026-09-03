@@ -358,7 +358,10 @@ export default function Shop() {
       {showCrystals && (
         <>
           <div className={styles.crysTitle}>
-            <h2 className={styles.crysHeading}>{t('shop_crysHeading')}</h2>
+            <div className={styles.crysTitleText}>
+              <h2 className={styles.crysHeading}>{t('shop_crysHeading')}</h2>
+              <p className={styles.crysSub}>{t('shop_crysSub')}</p>
+            </div>
             <p className={styles.bestValue}>{t('shop_bestValue')}</p>
           </div>
 

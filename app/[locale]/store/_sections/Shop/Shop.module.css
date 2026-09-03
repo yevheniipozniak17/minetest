@@ -637,16 +637,30 @@
   /* Crystals section title */
   .crysTitle {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
     text-transform: uppercase;
+  }
+
+  .crysTitleText {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
   }
 
   .crysHeading {
     font-size: 20px;
     font-weight: 800;
     color: #fff;
+  }
+
+  .crysSub {
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: normal;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: none;
   }
 
   .bestValue {
