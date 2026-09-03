@@ -90,8 +90,16 @@ export default function PrivilegesCards({
           <Card
             key={index}
             title={item.title}
-            text={t(`privCard_${item.title.toLowerCase()}`)}
-            details={t.raw(`privDetails_${item.title.toLowerCase()}`) as string[]}
+            /* Dashboard (compact): short blurb + expanded details.
+               Store (non-compact): original full description, no bullet list. */
+            text={t(
+              `${compact ? 'privCard' : 'privCardFull'}_${item.title.toLowerCase()}`,
+            )}
+            details={
+              compact
+                ? (t.raw(`privDetails_${item.title.toLowerCase()}`) as string[])
+                : undefined
+            }
             icon={item.icon}
             compact={compact}
             price={priceForTitle(item.title, pricesByTitle)}
