@@ -471,7 +471,9 @@
     "badge": "Note legali",
     "title": "Politica di Fatturazione, Rimborsi e Storni",
     "lastUpdated": "20 settembre 2026",
-    "intro": [],
+    "intro": [
+      "Non è un prodotto Minecraft ufficiale. Non è approvato da Mojang o Microsoft né associato ad esse. Adventures in Minecraft non è supportato da Mojang o Microsoft. Non è una piattaforma Minecraft ufficiale. Forniamo i nostri Servizi e vendiamo i nostri Articoli Digitali in conformità alle Minecraft Usage Guidelines."
+    ],
     "sections": [
       {
         "heading": "Panoramica",

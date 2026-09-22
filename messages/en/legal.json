@@ -471,7 +471,9 @@
     "badge": "Legal",
     "title": "Billing, Refunds & Chargeback Policy",
     "lastUpdated": "September 20, 2026",
-    "intro": [],
+    "intro": [
+      "It is not an official Minecraft product. It is not approved by or associated with Mojang or Microsoft. Adventures in Minecraft is not supported by Mojang or Microsoft. It is not an official Minecraft platform. We provide our Services and sell our Digital Items in line with the Minecraft Usage Guidelines."
+    ],
     "sections": [
       {
         "heading": "Overview",

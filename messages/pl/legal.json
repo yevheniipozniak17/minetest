@@ -471,7 +471,9 @@
     "badge": "Informacje prawne",
     "title": "Polityka rozliczeń, zwrotów i obciążeń zwrotnych",
     "lastUpdated": "20 września 2026",
-    "intro": [],
+    "intro": [
+      "To nie jest oficjalny produkt Minecraft. Nie jest zatwierdzony przez Mojang ani Microsoft ani z nimi powiązany. Adventures in Minecraft nie jest wspierany przez Mojang ani Microsoft. To nie jest oficjalna platforma Minecraft. Świadczymy nasze Usługi i sprzedajemy nasze Przedmioty Cyfrowe zgodnie z Minecraft Usage Guidelines."
+    ],
     "sections": [
       {
         "heading": "Przegląd",

@@ -471,7 +471,9 @@
     "badge": "Rechtliches",
     "title": "Billing-, Rückerstattungs- & Rückbuchungsrichtlinie",
     "lastUpdated": "20. September 2026",
-    "intro": [],
+    "intro": [
+      "Es handelt sich nicht um ein offizielles Minecraft-Produkt. Es ist von Mojang oder Microsoft weder genehmigt noch mit ihnen verbunden. Adventures in Minecraft wird von Mojang oder Microsoft nicht unterstützt. Es ist keine offizielle Minecraft-Plattform. Wir erbringen unsere Dienste und verkaufen unsere Digitalen Artikel im Einklang mit den Minecraft Usage Guidelines."
+    ],
     "sections": [
       {
         "heading": "Überblick",

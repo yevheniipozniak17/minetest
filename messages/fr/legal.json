@@ -471,7 +471,9 @@
     "badge": "Mentions légales",
     "title": "Politique de facturation, de remboursements et de rétrofacturation",
     "lastUpdated": "20 septembre 2026",
-    "intro": [],
+    "intro": [
+      "Ce n'est pas un produit Minecraft officiel. Il n'est ni approuvé par Mojang ou Microsoft ni associé à eux. Adventures in Minecraft n'est pas soutenu par Mojang ou Microsoft. Ce n'est pas une plateforme Minecraft officielle. Nous fournissons nos Services et vendons nos Articles numériques conformément aux Minecraft Usage Guidelines."
+    ],
     "sections": [
       {
         "heading": "Aperçu",
