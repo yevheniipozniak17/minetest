@@ -172,6 +172,11 @@
     "awardAlt": "Premio",
     "featuredOnAriaLabel": "In evidenza su"
   },
+  "serverLists": {
+    "title": "Trovaci nelle liste di server",
+    "description": "Cerca il server o vota per lui in queste directory.",
+    "listLabel": "Liste di server"
+  },
   "startAdventure": {
     "title": "Pronto a iniziare la tua avventura?",
     "description": "Unisciti al mondo dei server Minecraft unici.",

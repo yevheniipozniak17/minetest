@@ -172,6 +172,11 @@
     "awardAlt": "Award",
     "featuredOnAriaLabel": "Featured on"
   },
+  "serverLists": {
+    "title": "Find us on server lists",
+    "description": "Look up the server or vote for it on these directories.",
+    "listLabel": "Server lists"
+  },
   "startAdventure": {
     "title": "Ready to start your adventure?",
     "description": "Join the world of unique Minecraft servers.",

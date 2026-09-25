@@ -172,6 +172,11 @@
     "awardAlt": "Premio",
     "featuredOnAriaLabel": "Presentado en"
   },
+  "serverLists": {
+    "title": "Encuéntranos en listas de servidores",
+    "description": "Busca el servidor o vota por él en estos directorios.",
+    "listLabel": "Listas de servidores"
+  },
   "startAdventure": {
     "title": "\u00bfListo para comenzar tu aventura?",
     "description": "\u00danete al mundo de servidores Minecraft \u00fanicos.",

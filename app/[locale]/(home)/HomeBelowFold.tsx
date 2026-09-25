@@ -4,6 +4,7 @@ import Features from './_sections/Features/Features';
 import HowItWorks from './_sections/HowItWorks/HowItWorks';
 import Preview from './_sections/Preview/Preview';
 import Questions from './_sections/Questions/Questions';
+import ServerLists from './_sections/ServerLists/ServerLists';
 import StartAdventure from './_sections/StartAdventure/StartAdventure';
 
 export default function HomeBelowFold({ isAuthed = false }: { isAuthed?: boolean }) {
@@ -14,6 +15,7 @@ export default function HomeBelowFold({ isAuthed = false }: { isAuthed?: boolean
       <Benefits />
       <HowItWorks />
       <CommunityTrust />
+      <ServerLists />
       <Questions />
       <StartAdventure isAuthed={isAuthed} />
     </>

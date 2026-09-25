@@ -172,6 +172,11 @@
     "awardAlt": "Nagroda",
     "featuredOnAriaLabel": "Dost\u0119pny na"
   },
+  "serverLists": {
+    "title": "Znajdź nas na listach serwerów",
+    "description": "Wyszukaj serwer albo zagłosuj na niego w tych katalogach.",
+    "listLabel": "Listy serwerów"
+  },
   "startAdventure": {
     "title": "Gotowy na swoj\u0105 przygod\u0119?",
     "description": "Do\u0142\u0105cz do \u015bwiata unikalnych serwer\u00f3w Minecraft.",

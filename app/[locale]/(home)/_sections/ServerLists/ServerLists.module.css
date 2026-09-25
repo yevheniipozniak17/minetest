@@ -1,0 +1,128 @@
+.section {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.title {
+  max-width: 337px;
+  margin: 0 auto 12px;
+  color: #fff;
+  text-align: center;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-H2-Medium, 30px);
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.description {
+  max-width: 337px;
+  margin: 0 auto 24px;
+  color: #fff;
+  text-align: center;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: var(--Size-Mobile-Body-xsmall, 12px);
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.grid > li {
+  min-width: 0;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 52px;
+  padding: 10px 12px;
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 4px 5px 30px 0 rgba(3, 29, 23, 0.44);
+  backdrop-filter: blur(5px);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-family: var(--Font-Serif-Typography, Montserrat);
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.3;
+  transition:
+    border-color 0.2s ease,
+    background 0.2s ease,
+    color 0.2s ease;
+}
+
+.link img.mark {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: 40px;
+  object-fit: contain;
+}
+
+.link img.mark.markCompact {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.name {
+  min-width: 0;
+}
+
+.link:hover {
+  border-color: rgba(189, 225, 83, 0.55);
+  background: rgba(189, 225, 83, 0.08);
+  color: #bde153;
+}
+
+.link:focus-visible {
+  outline: 2px solid #bde153;
+  outline-offset: 2px;
+}
+
+@media (min-width: 1280px) {
+  .title {
+    max-width: 640px;
+    margin-bottom: 16px;
+    font-size: var(--Size-Desk-H2-Medium, 40px);
+  }
+
+  .description {
+    max-width: 640px;
+    margin-bottom: 32px;
+    font-size: var(--Size-Desk-Body-xsmall, 16px);
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .link {
+    min-height: 64px;
+    font-size: 15px;
+  }
+
+  .link img.mark {
+    height: 44px;
+  }
+
+  .link img.mark.markCompact {
+    width: 32px;
+    height: 32px;
+  }
+}
