@@ -2,6 +2,7 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useLocale, useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import {
   loadGameItems,
   peekGameItems,
@@ -28,6 +29,8 @@ type GameItemsCardsProps = {
   onAddToCart?: (product: { id: string; title: string }) => Promise<void>;
   /** Коли задано — рендеримо стільки карток і показуємо Load more. */
   initialLimit?: number;
+  /** Замість розгортання каталогу на місці «View more» веде сюди. */
+  viewMoreHref?: string;
 };
 
 export default function GameItemsCards({
@@ -36,6 +39,7 @@ export default function GameItemsCards({
   currency,
   onAddToCart,
   initialLimit,
+  viewMoreHref,
 }: GameItemsCardsProps) {
   const t = useTranslations('store');
   const locale = useLocale();
@@ -224,9 +228,15 @@ export default function GameItemsCards({
 
       {showLoadMore && (
         <div className={styles.loadMoreWrap}>
-          <button type="button" className={styles.loadMore} onClick={() => setExpanded(true)}>
-            {t('shop_loadMore')}
-          </button>
+          {viewMoreHref ? (
+            <Link href={viewMoreHref} className={styles.loadMore}>
+              {t('privCard_viewMore')}
+            </Link>
+          ) : (
+            <button type="button" className={styles.loadMore} onClick={() => setExpanded(true)}>
+              {t('shop_loadMore')}
+            </button>
+          )}
         </div>
       )}
 

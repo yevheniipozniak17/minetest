@@ -1,6 +1,7 @@
 .section {
   padding-top: 48px;
   padding-bottom: 48px;
+  scroll-margin-top: var(--header-height, 72px);
 }
 
 .title {

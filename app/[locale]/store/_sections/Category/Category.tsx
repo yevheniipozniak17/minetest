@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { useSearchParams } from 'next/navigation';
 import { useLocale, useTranslations } from 'next-intl';
 import { Container } from '@/app/_components/Container/Container';
 import styles from './Category.module.css';
@@ -13,10 +14,18 @@ import { prefetchGameItems } from '@/lib/client/gameItemsCache';
 
 const STORE_TABS = ['Crystals', 'Privileges', 'GameItems'] as const satisfies readonly Tab[];
 
+function tabFromSearchParam(value: string | null): Tab | null {
+  if (value === 'Crystals' || value === 'Privileges' || value === 'GameItems') return value;
+  return null;
+}
+
 export default function Category({ isAuthed = false }: { isAuthed?: boolean }) {
   const t = useTranslations('store');
   const locale = useLocale();
-  const [activeTab, setActiveTab] = useState<Tab>('Privileges');
+  const searchParams = useSearchParams();
+  const [activeTab, setActiveTab] = useState<Tab>(
+    () => tabFromSearchParam(searchParams.get('tab')) ?? 'Privileges',
+  );
   const crystalsHref = useShopSectionHref(isAuthed, 'Crystals');
   const privilegesHref = useShopSectionHref(isAuthed, 'Privileges');
   const gameItemsHref = useShopSectionHref(isAuthed, 'GameItems');
@@ -27,8 +36,15 @@ export default function Category({ isAuthed = false }: { isAuthed?: boolean }) {
     prefetchGameItems(locale, { limit: null });
   }, [locale]);
 
+  useEffect(() => {
+    const fromUrl = tabFromSearchParam(searchParams.get('tab'));
+    if (!fromUrl) return;
+    setActiveTab(fromUrl);
+    document.getElementById('store-category')?.scrollIntoView({ block: 'start' });
+  }, [searchParams]);
+
   return (
-    <section className={styles.section}>
+    <section id="store-category" className={styles.section}>
       <Container>
         <h2 className={styles.title}>{t('category_title')}</h2>
 
