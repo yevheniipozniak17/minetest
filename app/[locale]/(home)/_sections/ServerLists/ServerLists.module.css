@@ -29,7 +29,8 @@
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: minmax(0, 338px);
+  justify-content: center;
   gap: 10px;
   margin: 0;
   padding: 0;
@@ -38,6 +39,7 @@
 
 .grid > li {
   min-width: 0;
+  width: 100%;
 }
 
 .link {
@@ -113,6 +115,7 @@
 
   .grid {
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    justify-content: stretch;
     gap: 12px;
   }
 
