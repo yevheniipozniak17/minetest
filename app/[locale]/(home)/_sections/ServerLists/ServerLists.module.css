@@ -73,6 +73,11 @@
   object-fit: contain;
 }
 
+.link img.mark.markSmall {
+  width: 82%;
+  height: 30px;
+}
+
 .link img.mark.markCompact {
   width: 28px;
   height: 28px;
@@ -119,6 +124,10 @@
 
   .link img.mark {
     height: 44px;
+  }
+
+  .link img.mark.markSmall {
+    height: 32px;
   }
 
   .link img.mark.markCompact {

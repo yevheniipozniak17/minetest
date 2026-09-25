@@ -3,6 +3,7 @@ export type ServerListing = {
   href: string;
   logo: string;
   label?: boolean;
+  small?: boolean;
 };
 
 export const SERVER_LISTINGS: ServerListing[] = [
@@ -27,6 +28,7 @@ export const SERVER_LISTINGS: ServerListing[] = [
     name: 'Minecraft-Server-List',
     href: 'https://minecraft-server-list.com/server/523510/',
     logo: '/icons/listings/minecraft-server-list.png?v=3',
+    small: true,
   },
   {
     name: 'Minecraft IP List',
@@ -55,6 +57,7 @@ export const SERVER_LISTINGS: ServerListing[] = [
     name: 'MC-Liste',
     href: 'https://www.mc-liste.de/server/349',
     logo: '/icons/listings/mc-liste.png',
+    small: true,
   },
   {
     name: 'MinecraftList',
@@ -78,6 +81,7 @@ export const SERVER_LISTINGS: ServerListing[] = [
     name: '9Minecraft',
     href: 'https://servers.9minecraft.net/',
     logo: '/icons/listings/9minecraft-word.png',
+    small: true,
   },
   {
     name: 'Minelist',

@@ -25,7 +25,13 @@ export default async function ServerLists() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    className={item.label ? `${styles.mark} ${styles.markCompact}` : styles.mark}
+                    className={[
+                      styles.mark,
+                      item.label ? styles.markCompact : '',
+                      item.small ? styles.markSmall : '',
+                    ]
+                      .filter(Boolean)
+                      .join(' ')}
                     src={item.logo}
                     alt={item.label ? '' : item.name}
                     width={item.label ? 32 : 220}
