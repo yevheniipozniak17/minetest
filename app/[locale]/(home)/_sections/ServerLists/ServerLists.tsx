@@ -24,20 +24,18 @@ export default async function ServerLists() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
-                    className={[
-                      styles.mark,
-                      item.label ? styles.markCompact : '',
-                      item.small ? styles.markSmall : '',
-                    ]
-                      .filter(Boolean)
-                      .join(' ')}
-                    src={item.logo}
-                    alt={item.label ? '' : item.name}
-                    width={item.label ? 32 : 220}
-                    height={item.label ? 32 : 40}
-                  />
-                  {item.label ? <span className={styles.name}>{item.name}</span> : null}
+                  <img className={styles.mark} src={item.logo} alt="" width={32} height={32} />
+                  <span className={styles.name}>{item.name}</span>
+                  <svg className={styles.chevron} viewBox="0 0 20 20" aria-hidden="true">
+                    <path
+                      d="M7.5 4.5 13 10l-5.5 5.5"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="1.6"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </a>
               </li>
             ))}
