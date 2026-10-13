@@ -4,7 +4,7 @@ import { hreflangAlternates, localizedPath } from '@/lib/i18n/paths';
 
 export const SITE_URL = 'https://minecraftsgame.com';
 export const SITE_NAME = 'Minecraft Game';
-export const SITE_TWITTER = '@minecraftgworld';
+export const SITE_TWITTER = '@mcgameworld';
 export const DEFAULT_OG_IMAGE = '/og/og-default.png';
 
 export const DEFAULT_TITLE = 'Minecraft Game — Three Next-Generation Servers';

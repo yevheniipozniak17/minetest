@@ -1,1 +1,1 @@
-export const TWITTER_URL = 'https://x.com/minecraftgworld';
+export const TWITTER_URL = 'https://x.com/mcgameworld';
