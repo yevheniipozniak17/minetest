@@ -192,8 +192,8 @@
     "first-day-checklist": {
       "question": "\u00bfQu\u00e9 debo hacer en mi primer d\u00eda?",
       "breadcrumb": "Lista del primer d\u00eda",
-      "quickAnswer": "Establece un hogar, reclama terreno, abre /shop para las misiones diarias y \u00fanete a Discord. Esos cuatro pasos cubren el 90% de las dudas de los nuevos jugadores.",
-      "excerpt": "Establece un hogar con /sethome, reclama tu base, revisa /shop para las misiones diarias y \u00fanete a Discord para conocer a otros jugadores."
+      "quickAnswer": "Establece un hogar, reclama terreno y abre /shop para las misiones diarias. Esos pasos cubren la mayoría de las dudas de los nuevos jugadores.",
+      "excerpt": "Establece un hogar con /sethome, reclama tu base y revisa /shop para las misiones diarias."
     },
     "dashboard-guide": {
       "question": "\u00bfC\u00f3mo uso el panel del jugador?",
@@ -342,8 +342,8 @@
     "lag-performance": {
       "question": "\u00bfC\u00f3mo soluciono el lag o los FPS bajos en el servidor?",
       "breadcrumb": "Lag y rendimiento",
-      "quickAnswer": "Reduce la distancia de renderizado a 12 chunks, desactiva shaders pesados y cierra aplicaciones en segundo plano. Las ca\u00eddas de TPS del servidor se publican en Discord.",
-      "excerpt": "Reduce la distancia de renderizado, desactiva shaders pesados y cierra aplicaciones en segundo plano. Revisa Discord para ver eventos de lag conocidos del servidor."
+      "quickAnswer": "Reduce la distancia de renderizado a 12 chunks, desactiva shaders pesados y cierra aplicaciones en segundo plano. Las caídas de TPS del servidor se publican en la página de estado.",
+      "excerpt": "Reduce la distancia de renderizado, desactiva shaders pesados y cierra aplicaciones en segundo plano. Revisa la página de estado para ver eventos de lag conocidos del servidor."
     },
     "server-rules": {
       "question": "\u00bfCu\u00e1les son las reglas principales del servidor?",
@@ -516,12 +516,12 @@
     "nextBulletsMobile": [
       "Ejecuta /sethome \u2014 3 hogares gratuitos para teletransportarte.",
       "/shop para ver las misiones diarias.",
-      "\u00danete al Discord de la comunidad."
+      "Conoce a constructores, comerciantes y jugadores de PvP en el chat del servidor."
     ],
     "nextBulletsDesktop": [
       "Ejecuta /sethome en tu primera base \u2014 tienes 3 hogares gratuitos para teletransportarte.",
       "Abre la tienda del juego con /shop y revisa las misiones diarias.",
-      "\u00danete al Discord de la comunidad \u2014 la mayor\u00eda de constructores, comerciantes y jugadores de PvP est\u00e1n all\u00ed."
+      "Saluda en el chat del servidor — la mayoría de constructores, comerciantes y jugadores de PvP están allí."
     ],
     "ctaPrimary": "Unirse a Twitter",
     "ctaSecondary": "Ver todo el FAQ"
@@ -709,8 +709,8 @@
         "leadMobile": "Si el correo no llega, abre un ticket con tu nombre de usuario y la fecha de registro.",
         "leadDesktop": "Si el correo no llega despu\u00e9s de cinco minutos, abre un ticket de soporte con tu nombre de usuario y la fecha aproximada de registro para la verificaci\u00f3n manual.",
         "calloutTitle": "Nota de seguridad",
-        "calloutMobile": "El personal nunca te pedir\u00e1 tu contrase\u00f1a en el chat o en Discord.",
-        "calloutDesktop": "El personal y los moderadores nunca te pedir\u00e1n tu contrase\u00f1a en el chat, Discord o por correo. Reporta a los suplantadores de inmediato."
+        "calloutMobile": "El personal nunca te pedirá tu contraseña en el chat.",
+        "calloutDesktop": "El personal y los moderadores nunca te pedirán tu contraseña en el chat o por correo. Reporta a los suplantadores de inmediato."
       }
     },
     "link-microsoft": {
@@ -848,8 +848,8 @@
         "leadMobile": "No aceptamos criptomonedas, transferencias bancarias ni tarjetas regalo de terceros.",
         "leadDesktop": "No aceptamos criptomonedas, transferencias bancarias manuales ni tarjetas regalo de terceros vendidas fuera de nuestra tienda oficial.",
         "calloutTitle": "Seguridad",
-        "calloutMobile": "Nunca pedimos n\u00fameros de tarjeta en Discord ni en el chat del juego.",
-        "calloutDesktop": "Nunca pedimos n\u00fameros de tarjeta en Discord ni en el chat del juego. El proceso de pago siempre ocurre en nuestro dominio HTTPS de la tienda."
+        "calloutMobile": "Nunca pedimos números de tarjeta en el chat del juego.",
+        "calloutDesktop": "Nunca pedimos números de tarjeta en el chat del juego. El proceso de pago siempre ocurre en nuestro dominio HTTPS de la tienda."
       }
     },
     "donations-privileges": {
@@ -979,7 +979,7 @@
         "bullets": [
           "Da\u00f1o por explosi\u00f3n ACTIVADO en la naturaleza no reclamada.",
           "Rastreador ELO separado del de LuckySurvival.",
-          "Eventos de fin de semana estilo hardcore anunciados en Discord."
+          "Eventos de fin de semana estilo hardcore anunciados en el servidor."
         ]
       },
       "s3": {
@@ -1013,7 +1013,7 @@
         "leadDesktop": "Los rangos comprados, la configuraci\u00f3n del panel y las inscripciones en torneos siguen a tu cuenta. Los objetos y reclamaciones espec\u00edficos del mundo no.",
         "bullets": [
           "Los cosm\u00e9ticos de la tienda se sincronizan al iniciar sesi\u00f3n.",
-          "Los roles de Discord se actualizan en cinco minutos.",
+          "Las ventajas de la cuenta se actualizan en cinco minutos tras iniciar sesión.",
           "El estado de baneo aplica en todos los servidores."
         ]
       },
@@ -1054,7 +1054,7 @@
       "s3": {
         "title": "Notificaciones",
         "leadMobile": "Suscr\u00edbete a alertas por correo en Panel \u2192 Servidores para ventanas de mantenimiento y reinicio.",
-        "leadDesktop": "Suscr\u00edbete a alertas por correo en Panel \u2192 Servidores para ventanas de mantenimiento y reinicio. Discord #announcements refleja el mismo calendario.",
+        "leadDesktop": "Suscríbete a alertas por correo en Panel → Servidores para ventanas de mantenimiento y reinicio.",
         "calloutTitle": "Ten en cuenta",
         "calloutMobile": "El correo no le\u00eddo y los listados de subastas deben recogerse antes de los reinicios de temporada.",
         "calloutDesktop": "El correo no le\u00eddo y los listados de subastas deben recogerse antes de los reinicios de temporada \u2014 el dep\u00f3sito en garant\u00eda devuelve los art\u00edculos a los vendedores autom\u00e1ticamente despu\u00e9s."
@@ -1111,13 +1111,13 @@
         ]
       },
       "s2": {
-        "title": "Anuncios en Discord",
-        "leadMobile": "#announcements publica ventanas de mantenimiento e interrupciones inesperadas.",
-        "leadDesktop": "Discord #announcements publica ventanas de mantenimiento, interrupciones inesperadas y tiempos estimados de recuperaci\u00f3n.",
+        "title": "Avisos por correo y en el panel",
+        "leadMobile": "Las ventanas de mantenimiento y las interrupciones inesperadas se publican en el panel y por correo.",
+        "leadDesktop": "El panel y los avisos por correo cubren ventanas de mantenimiento, interrupciones inesperadas y tiempos estimados de recuperación.",
         "bullets": [
-          "Activa el rol de ping @announcement para alertas cr\u00edticas.",
-          "Los embeds de estado se actualizan autom\u00e1ticamente cada minuto.",
-          "Los hilos de comentarios est\u00e1n desactivados durante los incidentes activos."
+          "Activa los avisos por correo para las interrupciones críticas.",
+          "El estado del panel se actualiza en cuanto cambia el latido del servidor.",
+          "Las notas del incidente permanecen en la página del servidor hasta que se resuelve."
         ]
       },
       "s3": {
@@ -1157,8 +1157,8 @@
       },
       "s3": {
         "title": "Prueba antes de comprar",
-        "leadMobile": "Pregunta en Discord #vip-showcase \u2014 los jugadores demuestran rastros y estilos de chat en vivo.",
-        "leadDesktop": "Pregunta en Discord #vip-showcase \u2014 los jugadores demuestran rastros y estilos de chat en vivo cada s\u00e1bado.",
+        "leadMobile": "Compara rastros y estilos de chat en la página de la tienda antes de comprar.",
+        "leadDesktop": "Compara rastros y estilos de chat en la página de la tienda. Los jugadores también los muestran en el juego los sábados.",
         "calloutTitle": "Consejo",
         "calloutMobile": "Los niveles inferiores se actualizan a prorrata dentro de los siete d\u00edas tras la compra.",
         "calloutDesktop": "Los niveles inferiores se actualizan a prorrata dentro de los siete d\u00edas tras la compra \u2014 contacta con soporte con tu ID de pedido si el bot\u00f3n de actualizaci\u00f3n falla."
@@ -1236,7 +1236,7 @@
     "claims-protection": {
       "lead": {
         "mobile": "Las reclamaciones protegen los bloques que colocas de otros jugadores. Autoriza a los amigos expl\u00edcitamente.",
-        "desktop": "Las reclamaciones protegen los bloques que colocas de otros jugadores. Autoriza a los amigos expl\u00edcitamente \u2014 ser amigos en Discord no autoriza autom\u00e1ticamente en el juego."
+        "desktop": "Las reclamaciones protegen los bloques que colocas de otros jugadores. Autoriza a los amigos explícitamente — conocer a alguien fuera del juego no autoriza automáticamente en el juego."
       },
       "s1": {
         "title": "Crea una reclamaci\u00f3n",
@@ -1314,7 +1314,7 @@
         "steps": [
           "Confirma que cumples el requisito de tiempo de juego indicado en el bracket.",
           "Haz clic en Inscribirse y elige tu kit si es necesario.",
-          "Revisa Discord #tournaments para los horarios de clasificaci\u00f3n.",
+          "Revisa la página de torneos para los horarios.",
           "Aparece 10 minutos antes para el registro de entrada."
         ]
       },
@@ -1454,8 +1454,8 @@
       },
       "s2": {
         "title": "TPS del servidor",
-        "leadMobile": "Si todos sufren lag a la vez, revisa Discord #announcements para ca\u00eddas de TPS.",
-        "leadDesktop": "Si todos sufren lag a la vez, revisa Discord #announcements para ca\u00eddas de TPS relacionadas con granjas de redstone o eventos.",
+        "leadMobile": "Si todos sufren lag a la vez, revisa la página de estado del servidor para caídas de TPS.",
+        "leadDesktop": "Si todos sufren lag a la vez, revisa la página de estado del servidor para caídas de TPS relacionadas con granjas de redstone o eventos.",
         "bullets": [
           "El personal puede limitar las granjas con gran acumulaci\u00f3n de mobs.",
           "Evita generar miles de entidades de objetos a la vez.",
@@ -1538,7 +1538,7 @@
         "leadDesktop": "Las decisiones tras una revisi\u00f3n completa son definitivas para ese ID de caso. Espera hasta la fecha de vencimiento indicada para el desbaneo autom\u00e1tico cuando corresponda.",
         "calloutTitle": "Ten en cuenta",
         "calloutMobile": "Acosar al personal sobre las apelaciones puede extender el baneo.",
-        "calloutDesktop": "Acosar al personal sobre las apelaciones en Discord o con cuentas alternativas puede extender el baneo bajo la regla de evasi\u00f3n."
+        "calloutDesktop": "Acosar al personal sobre las apelaciones, incluso con cuentas alternativas, puede extender el baneo bajo la regla de evasión."
       }
     }
   }

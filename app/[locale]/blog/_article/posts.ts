@@ -615,9 +615,9 @@ export const BLOG_POSTS: BlogPostFull[] = [
             type: 'paragraph',
             text: {
               mobile:
-                'RedstoneKing plays on Survival. No staff rank, no content creator tag — just a player who documented every farm upgrade in public Discord threads.',
+                'RedstoneKing plays on Survival. No staff rank, no content creator tag — just a player who documented every farm upgrade in public build threads.',
               desktop:
-                'RedstoneKing is a regular on our primary Survival shard. No staff rank, no official content creator tag — just a player who documented every farm upgrade in public Discord threads and answered new-player redstone questions at 2 a.m. server time.',
+                'RedstoneKing is a regular on our primary Survival shard. No staff rank, no official content creator tag — just a player who documented every farm upgrade in public build threads and answered new-player redstone questions at 2 a.m. server time.',
             },
           },
           {
@@ -628,7 +628,7 @@ export const BLOG_POSTS: BlogPostFull[] = [
               'Known for open-door base tours every Saturday.',
             ],
             desktopItems: [
-              'Regular Survival player with a public build log on Discord.',
+              'Regular Survival player with a public build log on the server.',
               'Zero ban history and three community mentorship awards from moderators.',
               'Known for open-door base tours every Saturday at 16:00 UTC.',
             ],
@@ -706,7 +706,7 @@ export const BLOG_POSTS: BlogPostFull[] = [
               mobile:
                 'Beyond builds, RedstoneKing runs a weekly "Redstone Office Hours" thread — screenshot your circuit, get async feedback. Over 200 replies last month alone.',
               desktop:
-                'Beyond builds, RedstoneKing runs a weekly "Redstone Office Hours" thread in Discord — post a screenshot of your circuit, get async feedback within a day. Moderators counted over 200 helpful replies last month alone, many directed at first-time farm builders.',
+                'Beyond builds, RedstoneKing runs a weekly "Redstone Office Hours" thread on the server — post a screenshot of your circuit, get async feedback within a day. Moderators counted over 200 helpful replies last month alone, many directed at first-time farm builders.',
             },
           },
           {
@@ -753,9 +753,9 @@ export const BLOG_POSTS: BlogPostFull[] = [
             type: 'paragraph',
             text: {
               mobile:
-                'Think someone deserves next month\'s spotlight? Open a ticket in Discord #community-nominate with their username and a sentence why. Staff and players both vote.',
+                'Think someone deserves next month\'s spotlight? Open a support ticket on the website with their username and a sentence why. Staff and players both vote.',
               desktop:
-                'Think someone deserves next month\'s spotlight? Open a ticket in Discord #community-nominate with their username, server, and one sentence why. Staff and players both vote — wins need both community pull and clean moderation history.',
+                'Think someone deserves next month\'s spotlight? Open a support ticket on the website with their username, server, and one sentence why. Staff and players both vote — wins need both community pull and clean moderation history.',
             },
           },
           {
@@ -1078,13 +1078,13 @@ export const BLOG_POSTS: BlogPostFull[] = [
           {
             type: 'ordered',
             items: [
-              'Download the .zip from the official links in our Discord pin.',
+              'Download the .zip from the official links on the website.',
               'Open Minecraft → Options → Resource Packs → Open Pack Folder.',
               'Drop the zip in the folder and enable it in the list.',
               'Reconnect to any server — no restart required on our launcher.',
             ],
             desktopItems: [
-              'Download the .zip from the official links pinned in Discord #resource-packs.',
+              'Download the .zip from the official links on the website.',
               'Open Minecraft → Options → Resource Packs → Open Pack Folder.',
               'Drop the zip in the folder and move it to the selected column.',
               'Reconnect to any server in our launcher — a full restart is usually not required.',

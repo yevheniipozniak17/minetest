@@ -863,8 +863,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing joue sur Survival. Pas de rang staff, pas de tag créateur de contenu — juste un joueur qui a documenté chaque amélioration de ferme dans des fils Discord publics.",
-                "desktop": "RedstoneKing est un habitué de notre shard Survival principal. Pas de rang staff, pas de tag créateur de contenu officiel — juste un joueur qui a documenté chaque amélioration de ferme dans des fils Discord publics et répondu aux questions redstone des nouveaux joueurs à 2h du matin, heure du serveur."
+                "mobile": "RedstoneKing joue sur Survival. Pas de rang staff, pas de tag créateur de contenu — juste un joueur qui a documenté chaque amélioration de ferme dans des fils publics de construction.",
+                "desktop": "RedstoneKing est un habitué de notre shard Survival principal. Pas de rang staff, pas de tag créateur de contenu officiel — juste un joueur qui a documenté chaque amélioration de ferme dans des fils publics de construction et répondu aux questions redstone des nouveaux joueurs à 2h du matin, heure du serveur."
               }
             },
             {
@@ -875,7 +875,7 @@
                 "Connu pour les visites guidées de base ouvertes chaque samedi."
               ],
               "desktopItems": [
-                "Joueur Survival régulier avec un journal public de builds sur Discord.",
+                "Joueur Survival régulier avec un journal public de builds sur le serveur.",
                 "Zéro historique de ban et trois récompenses de mentorat communautaire des modérateurs.",
                 "Connu pour les visites guidées de base ouvertes chaque samedi à 16h00 UTC."
               ]
@@ -943,7 +943,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "En plus des constructions, RedstoneKing gère un fil hebdomadaire « Permanence Redstone » — postez une capture de votre circuit, recevez du feedback asynchrone. Plus de 200 réponses le mois dernier.",
-                "desktop": "En plus des constructions, RedstoneKing gère un fil hebdomadaire « Permanence Redstone » dans Discord — postez une capture de votre circuit, recevez du feedback asynchrone en moins d’un jour. Les modérateurs ont compté plus de 200 réponses utiles le mois dernier, beaucoup destinées à des premiers constructeurs de fermes."
+                "desktop": "En plus des constructions, RedstoneKing gère un fil hebdomadaire « Permanence Redstone » sur le serveur — postez une capture de votre circuit, recevez du feedback asynchrone en moins d’un jour. Les modérateurs ont compté plus de 200 réponses utiles le mois dernier, beaucoup destinées à des premiers constructeurs de fermes."
               }
             },
             {
@@ -989,8 +989,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Quelqu'un mérite le spotlight du mois prochain ? Ouvrez un ticket dans Discord #community-nominate avec son pseudo et une phrase pourquoi. Staff et joueurs votent.",
-                "desktop": "Quelqu'un mérite le spotlight du mois prochain ? Ouvrez un ticket dans Discord #community-nominate avec son pseudo, serveur et une phrase pourquoi. Staff et joueurs votent — les victoires demandent à la fois traction communautaire et historique de modération propre."
+                "mobile": "Quelqu'un mérite le spotlight du mois prochain ? Ouvrez un ticket de support sur le site avec son pseudo et une phrase pourquoi. Staff et joueurs votent.",
+                "desktop": "Quelqu'un mérite le spotlight du mois prochain ? Ouvrez un ticket de support sur le site avec son pseudo, serveur et une phrase pourquoi. Staff et joueurs votent — les victoires demandent à la fois traction communautaire et historique de modération propre."
               }
             },
             {
@@ -1289,13 +1289,13 @@
             {
               "type": "ordered",
               "items": [
-                "Téléchargez le .zip depuis les liens officiels épinglés dans notre Discord.",
+                "Téléchargez le .zip depuis les liens officiels sur le site.",
                 "Ouvrez Minecraft → Options → Packs de ressources → Ouvrir le dossier.",
                 "Déposez le zip dans le dossier et activez-le dans la liste.",
                 "Reconnectez-vous à n’importe quel serveur — pas de redémarrage nécessaire."
               ],
               "desktopItems": [
-                "Téléchargez le .zip depuis les liens officiels épinglés dans Discord #resource-packs.",
+                "Téléchargez le .zip depuis les liens officiels sur le site.",
                 "Ouvrez Minecraft → Options → Packs de ressources → Ouvrir le dossier.",
                 "Déposez le zip dans le dossier et déplacez-le dans la colonne sélectionnée.",
                 "Reconnectez-vous à n’importe quel serveur dans notre launcher — un redémarrage complet n’est généralement pas nécessaire."

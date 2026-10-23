@@ -30,7 +30,7 @@
     },
     "playerSupport": {
       "title": "Player support",
-      "text": "Fast help via Discord and in-game support."
+      "text": "Fast help via in-game support."
     }
   },
   "howItWorks": {
@@ -155,7 +155,7 @@
     },
     "q4": {
       "question": "How do I contact support?",
-      "answer": "Use live chat, email, or Discord \u2014 our team replies in under 4 hours, around the clock."
+      "answer": "Use live chat or email — our team replies in under 4 hours, around the clock."
     },
     "q5": {
       "question": "Are events free to join?",

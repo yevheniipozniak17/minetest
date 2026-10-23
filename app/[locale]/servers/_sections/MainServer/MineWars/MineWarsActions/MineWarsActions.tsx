@@ -28,7 +28,7 @@ export default function MineWarsActions({ isAuthed = false }: { isAuthed?: boole
           alt=""
           width={24}
           height={24}
-          className={styles.discordIcon}
+          className={styles.socialIcon}
         />
         {t('shared.joinTwitter')}
       </a>

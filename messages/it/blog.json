@@ -863,8 +863,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing gioca su Survival. Nessun grado staff, nessun tag creator — solo un giocatore che ha documentato ogni miglioramento della fattoria in thread pubblici su Discord.",
-                "desktop": "RedstoneKing è un habitué del nostro shard Survival principale. Nessun grado staff, nessun tag creator ufficiale — solo un giocatore che ha documentato ogni miglioramento della fattoria in thread pubblici su Discord e risposto alle domande redstone dei nuovi giocatori alle 2 di notte, ora del server."
+                "mobile": "RedstoneKing gioca su Survival. Nessun grado staff, nessun tag creator — solo un giocatore che ha documentato ogni miglioramento della fattoria in thread pubblici di costruzione.",
+                "desktop": "RedstoneKing è un habitué del nostro shard Survival principale. Nessun grado staff, nessun tag creator ufficiale — solo un giocatore che ha documentato ogni miglioramento della fattoria in thread pubblici di costruzione e risposto alle domande redstone dei nuovi giocatori alle 2 di notte, ora del server."
               }
             },
             {
@@ -875,7 +875,7 @@
                 "Noto per tour a base aperta ogni sabato."
               ],
               "desktopItems": [
-                "Giocatore Survival abituale con registro pubblico delle build su Discord.",
+                "Giocatore Survival abituale con registro pubblico delle build sul server.",
                 "Nessuna storia di ban e tre premi di mentorship community dai moderatori.",
                 "Noto per tour a base aperta ogni sabato alle 16:00 UTC."
               ]
@@ -943,7 +943,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "Oltre alle costruzioni, RedstoneKing gestisce un thread settimanale di «Orario di Ricevimento Redstone» — posta uno screenshot del tuo circuito, ricevi feedback asincrono. Oltre 200 risposte solo il mese scorso.",
-                "desktop": "Oltre alle costruzioni, RedstoneKing gestisce un thread settimanale di «Orario di Ricevimento Redstone» su Discord — posta uno screenshot del tuo circuito, ricevi feedback asincrono entro un giorno. I moderatori hanno contato oltre 200 risposte utili solo il mese scorso, molte dirette a costruttori di fattorie alle prime armi."
+                "desktop": "Oltre alle costruzioni, RedstoneKing gestisce un thread settimanale di «Orario di Ricevimento Redstone» sul server — posta uno screenshot del tuo circuito, ricevi feedback asincrono entro un giorno. I moderatori hanno contato oltre 200 risposte utili solo il mese scorso, molte dirette a costruttori di fattorie alle prime armi."
               }
             },
             {
@@ -989,8 +989,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Conosci qualcuno che merita lo spotlight del prossimo mese? Apri un ticket in Discord #community-nominate con username e una frase sul perché. Staff e giocatori votano.",
-                "desktop": "Conosci qualcuno che merita lo spotlight del prossimo mese? Apri un ticket in Discord #community-nominate con username, server e una frase sul perché. Staff e giocatori votano — le vittorie richiedono appeal community e storico moderazione pulito."
+                "mobile": "Conosci qualcuno che merita lo spotlight del prossimo mese? Apri un ticket di supporto sul sito con username e una frase sul perché. Staff e giocatori votano.",
+                "desktop": "Conosci qualcuno che merita lo spotlight del prossimo mese? Apri un ticket di supporto sul sito con username, server e una frase sul perché. Staff e giocatori votano — le vittorie richiedono appeal community e storico moderazione pulito."
               }
             },
             {
@@ -1289,13 +1289,13 @@
             {
               "type": "ordered",
               "items": [
-                "Scarica lo .zip dai link ufficiali nel nostro Discord.",
+                "Scarica lo .zip dai link ufficiali sul sito.",
                 "Apri Minecraft → Opzioni → Resource Pack → Apri cartella pack.",
                 "Trascina lo zip nella cartella e abilitalo nella lista.",
                 "Ricollegati a qualsiasi server — nessun riavvio necessario nel nostro launcher."
               ],
               "desktopItems": [
-                "Scarica lo .zip dai link ufficiali in evidenza su Discord #resource-packs.",
+                "Scarica lo .zip dai link ufficiali sul sito.",
                 "Apri Minecraft → Opzioni → Resource Pack → Apri cartella pack.",
                 "Trascina lo zip nella cartella e spostalo nella colonna selezionata.",
                 "Ricollegati a qualsiasi server nel nostro launcher — di solito non è necessario un riavvio completo."

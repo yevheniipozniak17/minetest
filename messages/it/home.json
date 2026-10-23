@@ -30,7 +30,7 @@
     },
     "playerSupport": {
       "title": "Supporto giocatori",
-      "text": "Aiuto rapido tramite Discord e supporto in gioco."
+      "text": "Aiuto rapido tramite il supporto in gioco."
     }
   },
   "howItWorks": {
@@ -155,7 +155,7 @@
     },
     "q4": {
       "question": "Come contatto il supporto?",
-      "answer": "Usa la chat live, l'e-mail o Discord \u2014 il nostro team risponde in meno di 4 ore, 24 ore su 24."
+      "answer": "Usa la chat live o l'e-mail — il nostro team risponde in meno di 4 ore, 24 ore su 24."
     },
     "q5": {
       "question": "Gli eventi sono gratuiti?",

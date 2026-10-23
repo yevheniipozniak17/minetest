@@ -863,8 +863,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing gra na Survivalu. Żadna ranga personelu, żadnego tagu twórcy — tylko gracz dokumentujący każde ulepszenie farmy w publicznych wątkach na Discordzie.",
-                "desktop": "RedstoneKing to stały bywalec naszego głównego shardu Survival. Żadnej rangi personelu, żadnego oficjalnego tagu twórcy — tylko gracz dokumentujący każde ulepszenie farmy w publicznych wątkach na Discordzie i odpowiadający na pytania o redstone nowych graczy o 2 w nocy czasu serwera."
+                "mobile": "RedstoneKing gra na Survivalu. Żadna ranga personelu, żadnego tagu twórcy — tylko gracz dokumentujący każde ulepszenie farmy w publicznych wątkach o budowie.",
+                "desktop": "RedstoneKing to stały bywalec naszego głównego shardu Survival. Żadnej rangi personelu, żadnego oficjalnego tagu twórcy — tylko gracz dokumentujący każde ulepszenie farmy w publicznych wątkach o budowie i odpowiadający na pytania o redstone nowych graczy o 2 w nocy czasu serwera."
               }
             },
             {
@@ -875,7 +875,7 @@
                 "Znany z otwartych tourów bazy w każdą sobotę."
               ],
               "desktopItems": [
-                "Stały gracz Survival z publicznym dziennikiem buildów na Discordzie.",
+                "Stały gracz Survival z publicznym dziennikiem buildów na serwerze.",
                 "Brak historii banów i trzy nagrody mentorskie społeczności od moderatorów.",
                 "Znany z otwartych tourów bazy w każdą sobotę o 16:00 UTC."
               ]
@@ -943,7 +943,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "Poza budowlami RedstoneKing prowadzi cotygodniowy wątek »Redstone Godziny Pracy« — wklej screenshot swojego obwodu, otrzymaj asynpan asynchroniczną informację zwrotną. Ponad 200 odpowiedzi tylko w zeszłym miesiącu.",
-                "desktop": "Poza budowlami RedstoneKing prowadzi cotygodniowy wątek »Redstone Godziny Pracy« na Discordzie — wklej screenshot swojego obwodu, otrzymaj asynpan asynchroniczną informację zwrotną w ciągu jednego dnia. Moderatorzy policzyli ponad 200 pomocnych odpowiedzi tylko w zeszłym miesiącu, wiele skierowanych do początkujących budowniczych farm."
+                "desktop": "Poza budowlami RedstoneKing prowadzi cotygodniowy wątek »Redstone Godziny Pracy« na serwerze — wklej screenshot swojego obwodu, otrzymaj asynchroniczną informację zwrotną w ciągu jednego dnia. Moderatorzy policzyli ponad 200 pomocnych odpowiedzi tylko w zeszłym miesiącu, wiele skierowanych do początkujących budowniczych farm."
               }
             },
             {
@@ -989,8 +989,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Znasz kogoś, kto zasługuje na spotlight w następnym miesiącu? Otwórz ticket na Discordzie #community-nominate z nickiem i zdaniem dlaczego. Staff i gracze głosują.",
-                "desktop": "Znasz kogoś, kto zasługuje na spotlight w następnym miesiącu? Otwórz ticket na Discordzie #community-nominate z nickiem, serwerem i zdaniem dlaczego. Staff i gracze głosują — zwycięstwa wymagają wsparcia społeczności i czystej historii moderacji."
+                "mobile": "Znasz kogoś, kto zasługuje na spotlight w następnym miesiącu? Otwórz zgłoszenie na stronie z nickiem i zdaniem dlaczego. Staff i gracze głosują.",
+                "desktop": "Znasz kogoś, kto zasługuje na spotlight w następnym miesiącu? Otwórz zgłoszenie na stronie z nickiem, serwerem i zdaniem dlaczego. Staff i gracze głosują — zwycięstwa wymagają wsparcia społeczności i czystej historii moderacji."
               }
             },
             {
@@ -1289,13 +1289,13 @@
             {
               "type": "ordered",
               "items": [
-                "Pobierz .zip z oficjalnych linków na naszym Discordzie.",
+                "Pobierz .zip z oficjalnych linków na stronie.",
                 "Otwrzy Minecraft → Opcje → Paczki zasobów → Otwrzy folder paczek.",
                 "Przeciągnij zip do folderu i włącz go na liście.",
                 "Połącz się ponownie z dowolnym serwerem — w naszym launcherze restart nie jest wymagany."
               ],
               "desktopItems": [
-                "Pobierz .zip z oficjalnych linków przypietych na Discord #resource-packs.",
+                "Pobierz .zip z oficjalnych linków na stronie.",
                 "Otwrzy Minecraft → Opcje → Paczki zasobów → Otwrzy folder paczek.",
                 "Przeciągnij zip do folderu i przenieś go do wybranej kolumny.",
                 "Połącz się ponownie z dowolnym serwerem w naszym launcherze — zwykle pełny restart nie jest wymagany."

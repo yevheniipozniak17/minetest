@@ -863,8 +863,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing juega en Survival. Sin rango de staff, sin etiqueta de creador de contenido — solo un jugador que documentó cada mejora de granja en hilos públicos de Discord.",
-                "desktop": "RedstoneKing es un habitual en nuestro shard principal de Survival. Sin rango de staff, sin etiqueta oficial de creador de contenido — solo un jugador que documentó cada mejora de granja en hilos públicos de Discord y respondió preguntas de redstone de jugadores nuevos a las 2 de la mañana hora del servidor."
+                "mobile": "RedstoneKing juega en Survival. Sin rango de staff, sin etiqueta de creador de contenido — solo un jugador que documentó cada mejora de granja en hilos públicos de construcción.",
+                "desktop": "RedstoneKing es un habitual en nuestro shard principal de Survival. Sin rango de staff, sin etiqueta oficial de creador de contenido — solo un jugador que documentó cada mejora de granja en hilos públicos de construcción y respondió preguntas de redstone de jugadores nuevos a las 2 de la mañana hora del servidor."
               }
             },
             {
@@ -875,7 +875,7 @@
                 "Conocido por tours abiertos de base cada sábado."
               ],
               "desktopItems": [
-                "Jugador habitual de Survival con registro público de builds en Discord.",
+                "Jugador habitual de Survival con registro público de builds en el servidor.",
                 "Sin historial de baneos y tres premios de mentoría comunitaria de moderadores.",
                 "Conocido por tours abiertos de base cada sábado a las 16:00 UTC."
               ]
@@ -943,7 +943,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "Además de construcciones, RedstoneKing dirige un hilo semanal de «Horas de Oficina de Redstone» — sube captura de tu circuito, recibe feedback asíncrono. Más de 200 respuestas el mes pasado.",
-                "desktop": "Además de construcciones, RedstoneKing dirige un hilo semanal de «Horas de Oficina de Redstone» en Discord — sube una captura de tu circuito, recibe feedback asíncrono en menos de un día. Los moderadores contaron más de 200 respuestas útiles el mes pasado, muchas dirigidas a constructores de granjas novatos."
+                "desktop": "Además de construcciones, RedstoneKing dirige un hilo semanal de «Horas de Oficina de Redstone» en el servidor — sube una captura de tu circuito, recibe feedback asíncrono en menos de un día. Los moderadores contaron más de 200 respuestas útiles el mes pasado, muchas dirigidas a constructores de granjas novatos."
               }
             },
             {
@@ -989,8 +989,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "¿Conoces a alguien que merezca el spotlight del próximo mes? Abre un ticket en Discord #community-nominate con su usuario y una frase explicando por qué. Staff y jugadores votan.",
-                "desktop": "¿Conoces a alguien que merezca el spotlight del próximo mes? Abre un ticket en Discord #community-nominate con su usuario, servidor y una frase explicando por qué. Staff y jugadores votan — las victorias requieren apoyo comunitario e historial limpio de moderación."
+                "mobile": "¿Conoces a alguien que merezca el spotlight del próximo mes? Abre un ticket de soporte en la web con su usuario y una frase explicando por qué. Staff y jugadores votan.",
+                "desktop": "¿Conoces a alguien que merezca el spotlight del próximo mes? Abre un ticket de soporte en la web con su usuario, servidor y una frase explicando por qué. Staff y jugadores votan — las victorias requieren apoyo comunitario e historial limpio de moderación."
               }
             },
             {
@@ -1289,13 +1289,13 @@
             {
               "type": "ordered",
               "items": [
-                "Descarga el .zip de los enlaces oficiales en nuestro Discord.",
+                "Descarga el .zip de los enlaces oficiales en la web.",
                 "Abre Minecraft → Opciones → Packs de recursos → Abrir carpeta.",
                 "Arrastra el zip a la carpeta y actívalo en la lista.",
                 "Reconectártete a cualquier servidor — no se requiere reinicio en nuestro launcher."
               ],
               "desktopItems": [
-                "Descarga el .zip de los enlaces oficiales fijados en Discord #resource-packs.",
+                "Descarga el .zip de los enlaces oficiales en la web.",
                 "Abre Minecraft → Opciones → Packs de recursos → Abrir carpeta de packs.",
                 "Arrastra el zip a la carpeta y muévelo a la columna seleccionada.",
                 "Reconectártete a cualquier servidor en nuestro launcher — normalmente no se requiere reinicio completo."

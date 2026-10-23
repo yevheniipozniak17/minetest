@@ -192,8 +192,8 @@
     "first-day-checklist": {
       "question": "Co powinienem zrobi\u0107 w pierwszym dniu gry?",
       "breadcrumb": "Lista zada\u0144 na pierwszy dzie\u0144",
-      "quickAnswer": "Ustaw dom, zajmij ziemi\u0119, otw\u00f3rz /shop po dzienne zadania i do\u0142\u0105cz do Discorda. Te cztery kroki rozwi\u0105zuj\u0105 90% problem\u00f3w nowych graczy.",
-      "excerpt": "Ustaw dom za pomoc\u0105 /sethome, zajmij swoj\u0105 baz\u0119, sprawd\u017a /shop po dzienne zadania i do\u0142\u0105cz do Discorda, aby pozna\u0107 innych graczy."
+      "quickAnswer": "Ustaw dom, zajmij ziemię i otwórz /shop po dzienne zadania. Te kroki rozwiązują większość problemów nowych graczy.",
+      "excerpt": "Ustaw dom za pomocą /sethome, zajmij swoją bazę i sprawdź /shop po dzienne zadania."
     },
     "dashboard-guide": {
       "question": "Jak korzysta\u0107 z panelu gracza?",
@@ -342,8 +342,8 @@
     "lag-performance": {
       "question": "Jak naprawi\u0107 lagi lub niskie FPS na serwerze?",
       "breadcrumb": "Lagi i wydajno\u015b\u0107",
-      "quickAnswer": "Zmniejsz zasi\u0119g renderowania do 12 chunk\u00f3w, wy\u0142\u0105cz ci\u0119\u017ckie shadery i zamknij aplikacje dzia\u0142aj\u0105ce w tle. Lagi po stronie serwera s\u0105 og\u0142aszane na Discordzie.",
-      "excerpt": "Zmniejsz zasi\u0119g renderowania, wy\u0142\u0105cz ci\u0119\u017ckie shadery i zamknij aplikacje dzia\u0142aj\u0105ce w tle. Sprawd\u017a Discorda, aby dowiedzie\u0107 si\u0119 o znanych zdarzeniach po stronie serwera."
+      "quickAnswer": "Zmniejsz zasięg renderowania do 12 chunków, wyłącz ciężkie shadery i zamknij aplikacje działające w tle. Lagi po stronie serwera są ogłaszane na stronie statusu.",
+      "excerpt": "Zmniejsz zasięg renderowania, wyłącz ciężkie shadery i zamknij aplikacje działające w tle. Sprawdź stronę statusu, aby dowiedzieć się o znanych zdarzeniach po stronie serwera."
     },
     "server-rules": {
       "question": "Jakie s\u0105 g\u0142\u00f3wne zasady serwera?",
@@ -516,12 +516,12 @@
     "nextBulletsMobile": [
       "Uruchom /sethome \u2014 3 darmowe domy do teleportacji.",
       "/shop, aby zobaczy\u0107 dzienne zadania.",
-      "Do\u0142\u0105cz do Discorda spo\u0142eczno\u015bci."
+      "Poznaj budowniczych, handlarzy i graczy PvP na czacie serwera."
     ],
     "nextBulletsDesktop": [
       "Uruchom /sethome przy swojej pierwszej bazie \u2014 masz 3 darmowe miejsca do teleportacji.",
       "Otw\u00f3rz sklep w grze za pomoc\u0105 /shop i sprawd\u017a dzienne zadania.",
-      "Do\u0142\u0105cz do Discorda spo\u0142eczno\u015bci \u2014 to tam spotykaj\u0105 si\u0119 budowniczowie, handlarze i gracze PvP."
+      "Przywitaj się na czacie serwera — to tam spotykają się budowniczowie, handlarze i gracze PvP."
     ],
     "ctaPrimary": "Do\u0142\u0105cz do Twittera",
     "ctaSecondary": "Przegl\u0105daj wszystkie FAQ"
@@ -709,8 +709,8 @@
         "leadMobile": "Je\u015bli e-mail nie dotrze, otw\u00f3rz zg\u0142oszenie z nazw\u0105 u\u017cytkownika i dat\u0105 rejestracji.",
         "leadDesktop": "Je\u015bli e-mail nie dotrze po pi\u0119ciu minutach, otw\u00f3rz zg\u0142oszenie wsparcia z nazw\u0105 u\u017cytkownika i przybli\u017con\u0105 dat\u0105 rejestracji do r\u0119cznej weryfikacji.",
         "calloutTitle": "Uwaga bezpiecze\u0144stwa",
-        "calloutMobile": "Personel nigdy nie poprosi o has\u0142o na czacie ani na Discordzie.",
-        "calloutDesktop": "Personel i moderatorzy nigdy nie prosz\u0105 o has\u0142o na czacie, Discordzie ani przez e-mail. Zg\u0142aszaj podszywaj\u0105cych si\u0119 natychmiast."
+        "calloutMobile": "Personel nigdy nie poprosi o hasło na czacie.",
+        "calloutDesktop": "Personel i moderatorzy nigdy nie proszą o hasło na czacie ani przez e-mail. Zgłaszaj podszywających się natychmiast."
       }
     },
     "link-microsoft": {
@@ -848,8 +848,8 @@
         "leadMobile": "Nie przyjmujemy kryptowalut, przelew\u00f3w bankowych ani kart upominkowych stron trzecich.",
         "leadDesktop": "Nie przyjmujemy kryptowalut, r\u0119cznych przelew\u00f3w bankowych ani kart upominkowych stron trzecich sprzedawanych poza naszym oficjalnym sklepem.",
         "calloutTitle": "Bezpiecze\u0144stwo",
-        "calloutMobile": "Nigdy nie prosimy o numery kart na Discordzie ani w czacie gry.",
-        "calloutDesktop": "Nigdy nie prosimy o numery kart na Discordzie ani w czacie gry. Kasa zawsze odbywa si\u0119 na naszej domenie sklepu z HTTPS."
+        "calloutMobile": "Nigdy nie prosimy o numery kart w czacie gry.",
+        "calloutDesktop": "Nigdy nie prosimy o numery kart w czacie gry. Kasa zawsze odbywa się na naszej domenie sklepu z HTTPS."
       }
     },
     "donations-privileges": {
@@ -979,7 +979,7 @@
         "bullets": [
           "Obra\u017cenia od eksplozji W\u0141\u0104CZONE w niezaj\u0119tych terenach.",
           "Osobny system ELO od LuckySurvival.",
-          "Eventy weekendowe w stylu hardcore og\u0142aszane na Discordzie."
+          "Eventy weekendowe w stylu hardcore ogłaszane na serwerze."
         ]
       },
       "s3": {
@@ -1013,7 +1013,7 @@
         "leadDesktop": "Zakupione rangi, ustawienia panelu i rejestracje turniejowe pod\u0105\u017caj\u0105 za Twoim kontem. Przedmioty i dzia\u0142ki ze \u015bwiata tego nie robi\u0105.",
         "bullets": [
           "Kosmetyki sklepu synchronizuj\u0105 si\u0119 przy logowaniu.",
-          "Role na Discordzie s\u0105 aktualizowane w ci\u0105gu pi\u0119ciu minut.",
+          "Dodatki konta synchronizują się w ciągu pięciu minut od logowania.",
           "Status bana obowi\u0105zuje na wszystkich serwerach."
         ]
       },
@@ -1054,7 +1054,7 @@
       "s3": {
         "title": "Powiadomienia",
         "leadMobile": "Subskrybuj alerty e-mail w Panelu \u2192 Serwery dla okien konserwacji i reset\u00f3w.",
-        "leadDesktop": "Subskrybuj alerty e-mail w Panelu \u2192 Serwery dla okien konserwacji i reset\u00f3w. Kana\u0142 Discord #announcements odzwierciedla ten sam harmonogram.",
+        "leadDesktop": "Subskrybuj alerty e-mail w Panelu → Serwery dla okien konserwacji i resetów.",
         "calloutTitle": "Wa\u017cne",
         "calloutMobile": "Nieprzeczytana poczta i oferty aukcji musz\u0105 by\u0107 odebrane przed sezonowymi resetami.",
         "calloutDesktop": "Nieprzeczytana poczta i oferty aukcji musz\u0105 by\u0107 odebrane przed sezonowymi resetami \u2014 system escrow automatycznie zwraca przedmioty sprzedawcom."
@@ -1111,13 +1111,13 @@
         ]
       },
       "s2": {
-        "title": "Og\u0142oszenia na Discordzie",
-        "leadMobile": "#announcements publikuje okna konserwacji i nieoczekiwane awarie.",
-        "leadDesktop": "Discord #announcements publikuje okna konserwacji, nieoczekiwane awarie i szacowany czas odzyskania.",
+        "title": "Alerty e-mail i w panelu",
+        "leadMobile": "Okna konserwacji i nieoczekiwane awarie są publikowane w panelu i e-mailem.",
+        "leadDesktop": "Panel i alerty e-mail obejmują okna konserwacji, nieoczekiwane awarie i szacowany czas odzyskania.",
         "bullets": [
-          "W\u0142\u0105cz rol\u0119 @announcement ping dla krytycznych alert\u00f3w.",
-          "Embedy statusu aktualizuj\u0105 si\u0119 automatycznie co minut\u0119.",
-          "W\u0105tki komentarzy s\u0105 wy\u0142\u0105czone podczas aktywnych incydent\u00f3w."
+          "Włącz alerty e-mail dla krytycznych awarii.",
+          "Status w panelu aktualizuje się, gdy tylko zmieni się sygnał serwera.",
+          "Notatki o incydencie zostają na stronie serwera do czasu rozwiązania problemu."
         ]
       },
       "s3": {
@@ -1157,8 +1157,8 @@
       },
       "s3": {
         "title": "Wypr\u00f3buj przed zakupem",
-        "leadMobile": "Zapytaj na Discordzie w #vip-showcase \u2014 gracze prezentuj\u0105 efekty i style czatu na \u017cywo.",
-        "leadDesktop": "Zapytaj na Discordzie w #vip-showcase \u2014 gracze prezentuj\u0105 efekty i style czatu na \u017cywo ka\u017cd\u0105 sobot\u0119.",
+        "leadMobile": "Porównaj efekty i style czatu na stronie sklepu przed zakupem.",
+        "leadDesktop": "Porównaj efekty i style czatu na stronie sklepu. Gracze pokazują je też w grze w soboty.",
         "calloutTitle": "Wskaz\u00f3wka",
         "calloutMobile": "Ni\u017csze poziomy mo\u017cna ulepszy\u0107 proporcjonalnie w ci\u0105gu siedmiu dni od zakupu.",
         "calloutDesktop": "Ni\u017csze poziomy mo\u017cna ulepszy\u0107 proporcjonalnie w ci\u0105gu siedmiu dni od zakupu \u2014 skontaktuj si\u0119 ze wsparciem z ID zam\u00f3wienia, je\u015bli przycisk ulepszenia nie dzia\u0142a."
@@ -1236,7 +1236,7 @@
     "claims-protection": {
       "lead": {
         "mobile": "Dzia\u0142ki chroni\u0105 Twoje bloki przed innymi graczami. Jawnie obdarzaj zaufaniem znajomych.",
-        "desktop": "Dzia\u0142ki chroni\u0105 Twoje bloki przed innymi graczami. Jawnie obdarzaj zaufaniem znajomych \u2014 bycie znajomymi na Discordzie nie daje automatycznie zaufania w grze."
+        "desktop": "Działki chronią Twoje bloki przed innymi graczami. Jawnie obdarzaj zaufaniem znajomych — znajomość poza grą nie daje automatycznie zaufania w grze."
       },
       "s1": {
         "title": "Utw\u00f3rz dzia\u0142k\u0119",
@@ -1314,7 +1314,7 @@
         "steps": [
           "Potwierd\u017a, \u017ce spe\u0142niasz wym\u00f3g czasu gry podany w drabince.",
           "Kliknij Zarejestruj si\u0119 i wybierz zestaw ekwipunku, je\u015bli wymagane.",
-          "Sprawd\u017a Discord #tournaments w poszukiwaniu czas\u00f3w rozstawienia.",
+          "Sprawdź stronę turniejów, aby poznać godziny.",
           "Pojaw si\u0119 10 minut wcze\u015bniej na odpraw\u0119."
         ]
       },
@@ -1454,8 +1454,8 @@
       },
       "s2": {
         "title": "TPS serwera",
-        "leadMobile": "Je\u015bli wszyscy laguj\u0105 jednocze\u015bnie, sprawd\u017a Discord #announcements w poszukiwaniu spadk\u00f3w TPS.",
-        "leadDesktop": "Je\u015bli wszyscy laguj\u0105 jednocze\u015bnie, sprawd\u017a Discord #announcements w poszukiwaniu spadk\u00f3w TPS powi\u0105zanych z farmami redstone lub eventami.",
+        "leadMobile": "Jeśli wszyscy lagują jednocześnie, sprawdź stronę statusu serwera w poszukiwaniu spadków TPS.",
+        "leadDesktop": "Jeśli wszyscy lagują jednocześnie, sprawdź stronę statusu serwera w poszukiwaniu spadków TPS powiązanych z farmami redstone lub eventami.",
         "bullets": [
           "Du\u017ce farmy skupiaj\u0105ce mob mog\u0105 by\u0107 ograniczane przez personel.",
           "Unikaj \u0142adowania tysi\u0119cy encji przedmiot\u00f3w naraz.",
@@ -1538,7 +1538,7 @@
         "leadDesktop": "Decyzje po pe\u0142nym rozpatrzeniu s\u0105 ostateczne dla danego ID sprawy. Poczekaj do podanej daty wyga\u015bni\u0119cia dla automatycznego odbanowania, je\u015bli dotyczy.",
         "calloutTitle": "Wa\u017cne",
         "calloutMobile": "N\u0119kanie personelu w sprawie odwo\u0142a\u0144 mo\u017ce przed\u0142u\u017cy\u0107 bana.",
-        "calloutDesktop": "N\u0119kanie personelu w sprawie odwo\u0142a\u0144 na Discordzie lub kontach pomocniczych mo\u017ce przed\u0142u\u017cy\u0107 bana zgodnie z zasad\u0105 omijania bana."
+        "calloutDesktop": "Nękanie personelu w sprawie odwołań, także z kont pomocniczych, może przedłużyć bana zgodnie z zasadą omijania bana."
       }
     }
   }

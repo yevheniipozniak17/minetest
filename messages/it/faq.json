@@ -192,8 +192,8 @@
     "first-day-checklist": {
       "question": "Cosa devo fare il primo giorno?",
       "breadcrumb": "Lista del primo giorno",
-      "quickAnswer": "Imposta una home, rivendica il terreno, apri /shop per le missioni giornaliere e unisciti a Discord. Questi quattro passi risolvono il 90% della confusione dei nuovi giocatori.",
-      "excerpt": "Imposta una home con /sethome, rivendica la tua base, controlla /shop per le missioni giornaliere e unisciti a Discord per incontrare gli altri giocatori."
+      "quickAnswer": "Imposta una home, rivendica il terreno e apri /shop per le missioni giornaliere. Questi passi risolvono la maggior parte della confusione dei nuovi giocatori.",
+      "excerpt": "Imposta una home con /sethome, rivendica la tua base e controlla /shop per le missioni giornaliere."
     },
     "dashboard-guide": {
       "question": "Come uso la dashboard del giocatore?",
@@ -342,8 +342,8 @@
     "lag-performance": {
       "question": "Come risolvo il lag o gli FPS bassi sul server?",
       "breadcrumb": "Lag e prestazioni",
-      "quickAnswer": "Riduci la distanza di render a 12 chunk, disabilita gli shader pesanti e chiudi le app in background. I lag lato server vengono pubblicati su Discord.",
-      "excerpt": "Riduci la distanza di render, disabilita gli shader pesanti e chiudi le app in background. Controlla Discord per i lag noti lato server."
+      "quickAnswer": "Riduci la distanza di render a 12 chunk, disabilita gli shader pesanti e chiudi le app in background. I lag lato server vengono pubblicati sulla pagina di stato.",
+      "excerpt": "Riduci la distanza di render, disabilita gli shader pesanti e chiudi le app in background. Controlla la pagina di stato per i lag noti lato server."
     },
     "server-rules": {
       "question": "Quali sono le regole principali del server?",
@@ -516,12 +516,12 @@
     "nextBulletsMobile": [
       "Esegui /sethome \u2014 3 home gratuite per teletrasportarti.",
       "/shop per vedere le missioni giornaliere.",
-      "Unisciti al Discord della community."
+      "Incontra costruttori, commercianti e giocatori PvP nella chat del server."
     ],
     "nextBulletsDesktop": [
       "Esegui /sethome nella tua prima base \u2014 hai 3 home gratuite tra cui teletrasportarti.",
       "Apri il negozio in gioco con /shop e controlla le missioni giornaliere.",
-      "Unisciti al Discord della community \u2014 costruttori, commercianti e giocatori PvP si trovano l\u00ec."
+      "Saluta nella chat del server — costruttori, commercianti e giocatori PvP si trovano lì."
     ],
     "ctaPrimary": "Unisciti a Twitter",
     "ctaSecondary": "Sfoglia tutta la FAQ"
@@ -709,8 +709,8 @@
         "leadMobile": "Se l'email non arriva, apri un ticket con il tuo nome utente e la data di registrazione.",
         "leadDesktop": "Se l'email non arriva dopo cinque minuti, apri un ticket di supporto con il tuo nome utente e la data approssimativa di registrazione per la verifica manuale.",
         "calloutTitle": "Nota di sicurezza",
-        "calloutMobile": "Lo staff non chieder\u00e0 mai la tua password in chat o su Discord.",
-        "calloutDesktop": "Lo staff e i moderatori non chiederanno mai la tua password in chat, su Discord o via email. Segnala immediatamente i casi di impersonazione."
+        "calloutMobile": "Lo staff non chiederà mai la tua password in chat.",
+        "calloutDesktop": "Lo staff e i moderatori non chiederanno mai la tua password in chat o via email. Segnala immediatamente i casi di impersonazione."
       }
     },
     "link-microsoft": {
@@ -848,8 +848,8 @@
         "leadMobile": "Non accettiamo criptovalute, bonifici bancari o gift card di terze parti.",
         "leadDesktop": "Non accettiamo criptovalute, bonifici bancari manuali o gift card di terze parti vendute al di fuori del nostro negozio ufficiale.",
         "calloutTitle": "Sicurezza",
-        "calloutMobile": "Non chiediamo mai numeri di carta su Discord o nella chat in gioco.",
-        "calloutDesktop": "Non chiediamo mai numeri di carta su Discord o nella chat in gioco. Il checkout avviene sempre sul nostro dominio negozio HTTPS."
+        "calloutMobile": "Non chiediamo mai numeri di carta nella chat in gioco.",
+        "calloutDesktop": "Non chiediamo mai numeri di carta nella chat in gioco. Il checkout avviene sempre sul nostro dominio negozio HTTPS."
       }
     },
     "donations-privileges": {
@@ -979,7 +979,7 @@
         "bullets": [
           "Danno da esplosione ATTIVO nella natura incontaminata non rivendicata.",
           "Tracker ELO separato da LuckySurvival.",
-          "Eventi stile hardcore nel fine settimana annunciati su Discord."
+          "Eventi stile hardcore nel fine settimana annunciati sul server."
         ]
       },
       "s3": {
@@ -1013,7 +1013,7 @@
         "leadDesktop": "Ranghi acquistati, impostazioni della dashboard e iscrizioni ai tornei seguono il tuo account. Oggetti del mondo e rivendicazioni no.",
         "bullets": [
           "I cosmetici del negozio si sincronizzano all'accesso.",
-          "I ruoli Discord si aggiornano entro cinque minuti.",
+          "I vantaggi dell'account si aggiornano entro cinque minuti dal login.",
           "Lo stato del ban si applica su tutti i server."
         ]
       },
@@ -1054,7 +1054,7 @@
       "s3": {
         "title": "Notifiche",
         "leadMobile": "Iscriviti agli avvisi email su Dashboard \u2192 Server per le finestre di manutenzione e reset.",
-        "leadDesktop": "Iscriviti agli avvisi email su Dashboard \u2192 Server per le finestre di manutenzione e reset. Discord #announcements rispecchia lo stesso calendario.",
+        "leadDesktop": "Iscriviti agli avvisi email su Dashboard → Server per le finestre di manutenzione e reset.",
         "calloutTitle": "Attenzione",
         "calloutMobile": "La posta non letta e le inserzioni delle aste devono essere ritirate prima dei reset stagionali.",
         "calloutDesktop": "La posta non letta e le inserzioni delle aste devono essere ritirate prima dei reset stagionali \u2014 il deposito a garanzia restituisce automaticamente gli oggetti ai venditori in seguito."
@@ -1111,13 +1111,13 @@
         ]
       },
       "s2": {
-        "title": "Annunci Discord",
-        "leadMobile": "#announcements pubblica le finestre di manutenzione e le interruzioni impreviste.",
-        "leadDesktop": "Discord #announcements pubblica le finestre di manutenzione, le interruzioni impreviste e i tempi di ripristino stimati.",
+        "title": "Avvisi e-mail e dashboard",
+        "leadMobile": "Le finestre di manutenzione e le interruzioni impreviste sono pubblicate sulla dashboard e via e-mail.",
+        "leadDesktop": "La dashboard e gli avvisi e-mail coprono le finestre di manutenzione, le interruzioni impreviste e i tempi di ripristino stimati.",
         "bullets": [
-          "Abilita il ruolo di ping @announcement per gli avvisi critici.",
-          "Gli embed di stato si aggiornano automaticamente ogni minuto.",
-          "I thread di commenti sono disabilitati durante gli incidenti attivi."
+          "Attiva gli avvisi e-mail per le interruzioni critiche.",
+          "Lo stato della dashboard si aggiorna appena cambia il segnale del server.",
+          "Le note sull'incidente restano sulla pagina del server fino alla risoluzione."
         ]
       },
       "s3": {
@@ -1157,8 +1157,8 @@
       },
       "s3": {
         "title": "Prova prima di comprare",
-        "leadMobile": "Chiedi su Discord #vip-showcase \u2014 i giocatori mostrano scie e stili di chat dal vivo.",
-        "leadDesktop": "Chiedi su Discord #vip-showcase \u2014 i giocatori mostrano scie e stili di chat dal vivo ogni sabato.",
+        "leadMobile": "Confronta scie e stili di chat nella pagina del negozio prima di acquistare.",
+        "leadDesktop": "Confronta scie e stili di chat nella pagina del negozio. I giocatori li mostrano anche in gioco il sabato.",
         "calloutTitle": "Suggerimento",
         "calloutMobile": "I livelli inferiori si aggiornano proporzionalmente entro sette giorni dall'acquisto.",
         "calloutDesktop": "I livelli inferiori si aggiornano proporzionalmente entro sette giorni dall'acquisto \u2014 contatta il supporto con il tuo ID ordine se il pulsante di aggiornamento non funziona."
@@ -1236,7 +1236,7 @@
     "claims-protection": {
       "lead": {
         "mobile": "Le rivendicazioni proteggono i blocchi che piazzi dagli altri giocatori. Aggiungi gli amici come fidati esplicitamente.",
-        "desktop": "Le rivendicazioni proteggono i blocchi che piazzi dagli altri giocatori. Aggiungi gli amici come fidati esplicitamente \u2014 essere amici su Discord non aggiunge automaticamente la fiducia in gioco."
+        "desktop": "Le rivendicazioni proteggono i blocchi che piazzi dagli altri giocatori. Aggiungi gli amici come fidati esplicitamente — conoscere qualcuno fuori dal gioco non aggiunge automaticamente la fiducia in gioco."
       },
       "s1": {
         "title": "Crea una rivendicazione",
@@ -1314,7 +1314,7 @@
         "steps": [
           "Verifica di soddisfare il requisito di tempo di gioco elencato nel bracket.",
           "Clicca Registrati e scegli il tuo kit se richiesto.",
-          "Controlla Discord #tournaments per gli orari dei seed.",
+          "Controlla la pagina dei tornei per gli orari.",
           "Presentati 10 minuti prima per il check-in."
         ]
       },
@@ -1454,8 +1454,8 @@
       },
       "s2": {
         "title": "TPS server",
-        "leadMobile": "Se tutti hanno lag contemporaneamente, controlla Discord #announcements per cali di TPS.",
-        "leadDesktop": "Se tutti hanno lag contemporaneamente, controlla Discord #announcements per cali di TPS legati a farm redstone o eventi.",
+        "leadMobile": "Se tutti hanno lag contemporaneamente, controlla la pagina di stato del server per cali di TPS.",
+        "leadDesktop": "Se tutti hanno lag contemporaneamente, controlla la pagina di stato del server per cali di TPS legati a farm redstone o eventi.",
         "bullets": [
           "Le grandi farm di mob compresse possono essere limitate dallo staff.",
           "Evita di caricare migliaia di entit\u00e0 oggetto contemporaneamente.",
@@ -1538,7 +1538,7 @@
         "leadDesktop": "Le decisioni dopo una revisione completa sono definitive per quell'ID caso. Attendi la data di scadenza indicata per lo sblocco automatico quando applicabile.",
         "calloutTitle": "Attenzione",
         "calloutMobile": "Molestare lo staff riguardo ai ricorsi pu\u00f2 prolungare il ban.",
-        "calloutDesktop": "Molestare lo staff riguardo ai ricorsi su Discord o con account alternativi pu\u00f2 prolungare il ban ai sensi della regola sull'evasione."
+        "calloutDesktop": "Molestare lo staff riguardo ai ricorsi, anche con account alternativi, può prolungare il ban ai sensi della regola sull'evasione."
       }
     }
   }

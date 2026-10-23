@@ -192,8 +192,8 @@
     "first-day-checklist": {
       "question": "What should I do on my first day?",
       "breadcrumb": "First day checklist",
-      "quickAnswer": "Set a home, claim land, open /shop for daily quests, and join Discord. Those four steps cover 90% of new-player confusion.",
-      "excerpt": "Set a home with /sethome, claim your base, check /shop for daily quests, and join Discord to meet other players."
+      "quickAnswer": "Set a home, claim land, and open /shop for daily quests. Those steps cover most new-player confusion.",
+      "excerpt": "Set a home with /sethome, claim your base, and check /shop for daily quests."
     },
     "dashboard-guide": {
       "question": "How do I use the player dashboard?",
@@ -342,8 +342,8 @@
     "lag-performance": {
       "question": "How do I fix lag or low FPS on the server?",
       "breadcrumb": "Lag & performance",
-      "quickAnswer": "Lower render distance to 12 chunks, disable heavy shaders, and close background apps. Server-side lag spikes are posted on Discord.",
-      "excerpt": "Lower render distance, disable heavy shaders, and close background apps. Check Discord for known server-side lag events."
+      "quickAnswer": "Lower render distance to 12 chunks, disable heavy shaders, and close background apps. Server-side lag spikes are posted on the status page.",
+      "excerpt": "Lower render distance, disable heavy shaders, and close background apps. Check the status page for known server-side lag events."
     },
     "server-rules": {
       "question": "What are the main server rules?",
@@ -516,12 +516,12 @@
     "nextBulletsMobile": [
       "Run /sethome \u2014 3 free homes to teleport between.",
       "/shop to see daily quests.",
-      "Join the community Discord."
+      "Meet builders, traders, and PvP players in server chat."
     ],
     "nextBulletsDesktop": [
       "Run /sethome at your first base \u2014 you get 3 free homes to teleport between.",
       "Open the in-game shop with /shop and check the daily quests.",
-      "Join the community Discord \u2014 most builders, traders, and PvP players hang out there."
+      "Say hello in server chat — most builders, traders, and PvP players hang out there."
     ],
     "ctaPrimary": "Join Twitter",
     "ctaSecondary": "Browse all FAQ"
@@ -709,8 +709,8 @@
         "leadMobile": "If the email never arrives, open a ticket with your username and signup date.",
         "leadDesktop": "If the email never arrives after five minutes, open a support ticket with your username and approximate signup date for manual verification.",
         "calloutTitle": "Security note",
-        "calloutMobile": "Staff will never ask for your password in chat or Discord.",
-        "calloutDesktop": "Staff and moderators will never ask for your password in chat, Discord, or email. Report impersonators immediately."
+        "calloutMobile": "Staff will never ask for your password in chat.",
+        "calloutDesktop": "Staff and moderators will never ask for your password in chat or email. Report impersonators immediately."
       }
     },
     "link-microsoft": {
@@ -848,8 +848,8 @@
         "leadMobile": "We do not accept crypto, wire transfers, or third-party gift cards.",
         "leadDesktop": "We do not accept cryptocurrency, manual wire transfers, or third-party gift cards sold outside our official shop.",
         "calloutTitle": "Security",
-        "calloutMobile": "We never ask for card numbers in Discord or in-game chat.",
-        "calloutDesktop": "We never ask for card numbers in Discord or in-game chat. Checkout always happens on our HTTPS shop domain."
+        "calloutMobile": "We never ask for card numbers in in-game chat.",
+        "calloutDesktop": "We never ask for card numbers in in-game chat. Checkout always happens on our HTTPS shop domain."
       }
     },
     "donations-privileges": {
@@ -979,7 +979,7 @@
         "bullets": [
           "Explosion damage ON in unclaimed wilderness.",
           "Separate ELO tracker from LuckySurvival.",
-          "Hardcore-style weekend events announced on Discord."
+          "Hardcore-style weekend events announced on the server."
         ]
       },
       "s3": {
@@ -1013,7 +1013,7 @@
         "leadDesktop": "Purchased ranks, dashboard settings, and tournament registrations follow your account. World-specific items and claims do not.",
         "bullets": [
           "Shop cosmetics sync on login.",
-          "Discord roles update within five minutes.",
+          "Account perks sync within five minutes of login.",
           "Ban status applies across all servers."
         ]
       },
@@ -1054,7 +1054,7 @@
       "s3": {
         "title": "Notifications",
         "leadMobile": "Subscribe to email alerts on Dashboard \u2192 Servers for maintenance and reset windows.",
-        "leadDesktop": "Subscribe to email alerts on Dashboard \u2192 Servers for maintenance and reset windows. Discord #announcements mirrors the same schedule.",
+        "leadDesktop": "Subscribe to email alerts on Dashboard → Servers for maintenance and reset windows.",
         "calloutTitle": "Heads up",
         "calloutMobile": "Unread mail and auction listings must be collected before seasonal wipes.",
         "calloutDesktop": "Unread mail and auction listings must be collected before seasonal wipes \u2014 escrow returns items to sellers automatically afterward."
@@ -1111,13 +1111,13 @@
         ]
       },
       "s2": {
-        "title": "Discord announcements",
-        "leadMobile": "#announcements posts maintenance windows and unexpected outages.",
-        "leadDesktop": "Discord #announcements posts maintenance windows, unexpected outages, and estimated recovery times.",
+        "title": "Email and dashboard alerts",
+        "leadMobile": "Maintenance windows and unexpected outages are posted on the dashboard and by email.",
+        "leadDesktop": "The dashboard and email alerts cover maintenance windows, unexpected outages, and estimated recovery times.",
         "bullets": [
-          "Enable @announcement ping role for critical alerts.",
-          "Status embeds update automatically every minute.",
-          "Comment threads are disabled during active incidents."
+          "Turn on email alerts for critical outages.",
+          "Dashboard status updates as soon as the server heartbeat changes.",
+          "Incident notes stay on the server page until the issue is resolved."
         ]
       },
       "s3": {
@@ -1157,8 +1157,8 @@
       },
       "s3": {
         "title": "Try before you buy",
-        "leadMobile": "Ask in Discord #vip-showcase \u2014 players demo trails and chat styles live.",
-        "leadDesktop": "Ask in Discord #vip-showcase \u2014 players demo trails and chat styles live every Saturday.",
+        "leadMobile": "Compare trails and chat styles on the shop page before you buy.",
+        "leadDesktop": "Compare trails and chat styles on the shop page. Players also show them off in-game on Saturdays.",
         "calloutTitle": "Tip",
         "calloutMobile": "Lower tiers upgrade pro-rata within seven days of purchase.",
         "calloutDesktop": "Lower tiers upgrade pro-rata within seven days of purchase \u2014 contact support with your order ID if the upgrade button fails."
@@ -1236,7 +1236,7 @@
     "claims-protection": {
       "lead": {
         "mobile": "Claims protect blocks you place from other players. Trust friends explicitly.",
-        "desktop": "Claims protect blocks you place from other players. Trust friends explicitly \u2014 being friends in Discord does not auto-trust in-game."
+        "desktop": "Claims protect blocks you place from other players. Trust friends explicitly — knowing someone outside the game does not auto-trust them in-game."
       },
       "s1": {
         "title": "Create a claim",
@@ -1314,7 +1314,7 @@
         "steps": [
           "Confirm you meet the playtime requirement listed on the bracket.",
           "Click Register and pick your kit loadout if required.",
-          "Check Discord #tournaments for seed times.",
+          "Check the tournament page for seed times.",
           "Show up 10 minutes early for check-in."
         ]
       },
@@ -1454,8 +1454,8 @@
       },
       "s2": {
         "title": "Server TPS",
-        "leadMobile": "If everyone lags at once, check Discord #announcements for TPS dips.",
-        "leadDesktop": "If everyone lags at once, check Discord #announcements for TPS dips tied to redstone farms or events.",
+        "leadMobile": "If everyone lags at once, check the server status page for TPS dips.",
+        "leadDesktop": "If everyone lags at once, check the server status page for TPS dips tied to redstone farms or events.",
         "bullets": [
           "Huge mob cram farms may be throttled by staff.",
           "Avoid loading thousands of item entities at once.",
@@ -1538,7 +1538,7 @@
         "leadDesktop": "Decisions after a full review are final for that case ID. Wait until the listed expiry date for automatic unban when applicable.",
         "calloutTitle": "Heads up",
         "calloutMobile": "Harassing staff about appeals can extend the ban.",
-        "calloutDesktop": "Harassing staff about appeals in Discord or alt accounts can extend the ban under the evasion rule."
+        "calloutDesktop": "Harassing staff about appeals, including from alt accounts, can extend the ban under the evasion rule."
       }
     }
   }

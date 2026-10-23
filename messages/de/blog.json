@@ -863,8 +863,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "RedstoneKing spielt auf Survival. Kein Admin-Rang, kein Content-Creator-Tag — nur ein Spieler, der jedes Farm-Upgrade in öffentlichen Discord-Threads dokumentiert hat.",
-                "desktop": "RedstoneKing ist Stammgast auf unserem primären Survival-Shard. Kein Admin-Rang, kein offizieller Content-Creator-Tag — nur ein Spieler, der jedes Farm-Upgrade in öffentlichen Discord-Threads dokumentiert und Neuspieler-Redstone-Fragen um 2 Uhr morgens Server-Zeit beantwortet hat."
+                "mobile": "RedstoneKing spielt auf Survival. Kein Admin-Rang, kein Content-Creator-Tag — nur ein Spieler, der jedes Farm-Upgrade in öffentlichen Bau-Threads dokumentiert hat.",
+                "desktop": "RedstoneKing ist Stammgast auf unserem primären Survival-Shard. Kein Admin-Rang, kein offizieller Content-Creator-Tag — nur ein Spieler, der jedes Farm-Upgrade in öffentlichen Bau-Threads dokumentiert und Neuspieler-Redstone-Fragen um 2 Uhr morgens Server-Zeit beantwortet hat."
               }
             },
             {
@@ -875,7 +875,7 @@
                 "Bekannt für offene Base-Touren jeden Samstag."
               ],
               "desktopItems": [
-                "Regelmäßiger Survival-Spieler mit öffentlichem Build-Log auf Discord.",
+                "Regelmäßiger Survival-Spieler mit öffentlichem Build-Log auf dem Server.",
                 "Keine Ban-Historie und drei Community-Mentoring-Auszeichnungen von Moderatoren.",
                 "Bekannt für offene Base-Touren jeden Samstag um 16:00 UTC."
               ]
@@ -943,7 +943,7 @@
               "type": "paragraph",
               "text": {
                 "mobile": "Neben Builds führt RedstoneKing einen wöchentlichen „Redstone-Sprechstunden“-Thread — Screenshot deines Stromkreises einschicken, asynchrones Feedback erhalten. Über 200 Antworten allein letzten Monat.",
-                "desktop": "Neben Builds führt RedstoneKing einen wöchentlichen „Redstone-Sprechstunden“-Thread in Discord — Screenshot deines Stromkreises einschicken, asynchrones Feedback innerhalb eines Tages erhalten. Moderatoren zählten über 200 hilfreiche Antworten allein letzten Monat, viele an Farm-Erstbauer gerichtet."
+                "desktop": "Neben Builds führt RedstoneKing einen wöchentlichen „Redstone-Sprechstunden“-Thread auf dem Server — Screenshot deines Stromkreises einschicken, asynchrones Feedback innerhalb eines Tages erhalten. Moderatoren zählten über 200 hilfreiche Antworten allein letzten Monat, viele an Farm-Erstbauer gerichtet."
               }
             },
             {
@@ -989,8 +989,8 @@
             {
               "type": "paragraph",
               "text": {
-                "mobile": "Kennt jemanden, der den Spotlight im nächsten Monat verdient? Ticket in Discord #community-nominate mit Username und einem Satz warum. Staff und Spieler stimmen ab.",
-                "desktop": "Kennt jemanden, der den Spotlight im nächsten Monat verdient? Ticket in Discord #community-nominate mit Username, Server und einem Satz warum. Staff und Spieler stimmen ab — Gewinne brauchen Community-Pull und saubere Moderations-Historie."
+                "mobile": "Kennt jemanden, der den Spotlight im nächsten Monat verdient? Ticket auf der Website mit Username und einem Satz warum. Staff und Spieler stimmen ab.",
+                "desktop": "Kennt jemanden, der den Spotlight im nächsten Monat verdient? Ticket auf der Website mit Username, Server und einem Satz warum. Staff und Spieler stimmen ab — Gewinne brauchen Community-Pull und saubere Moderations-Historie."
               }
             },
             {
@@ -1289,13 +1289,13 @@
             {
               "type": "ordered",
               "items": [
-                "Die .zip von den offiziellen Links in unserem Discord-Pin herunterladen.",
+                "Die .zip von den offiziellen Links auf der Website herunterladen.",
                 "Minecraft öffnen → Optionen → Ressourcenpakete → Paketordner öffnen.",
                 "Zip in den Ordner ziehen und in der Liste aktivieren.",
                 "Neu mit einem Server verbinden — kein Neustart auf unserem Launcher nötig."
               ],
               "desktopItems": [
-                "Die .zip von den in Discord #resource-packs angepinnten offiziellen Links herunterladen.",
+                "Die .zip von den offiziellen Links auf der Website herunterladen.",
                 "Minecraft öffnen → Optionen → Ressourcenpakete → Paketordner öffnen.",
                 "Zip in den Ordner ziehen und in die ausgewählte Spalte verschieben.",
                 "Neu mit einem Server in unserem Launcher verbinden — ein vollständiger Neustart ist üblicherweise nicht nötig."

@@ -192,8 +192,8 @@
     "first-day-checklist": {
       "question": "Was sollte ich an meinem ersten Tag tun?",
       "breadcrumb": "Erste-Tage-Checkliste",
-      "quickAnswer": "Heim setzen, Land beanspruchen, /shop f\u00fcr t\u00e4gliche Quests \u00f6ffnen und Discord beitreten. Diese vier Schritte l\u00f6sen 90\u00a0% der Verwirrung bei Neueinsteigern.",
-      "excerpt": "Setze ein Zuhause mit /sethome, beanspruche deine Basis, \u00fcberpr\u00fcfe /shop f\u00fcr t\u00e4gliche Quests und tritt Discord bei."
+      "quickAnswer": "Heim setzen, Land beanspruchen und /shop für tägliche Quests öffnen. Diese Schritte lösen den Großteil der Verwirrung bei Neueinsteigern.",
+      "excerpt": "Setze ein Zuhause mit /sethome, beanspruche deine Basis und überprüfe /shop für tägliche Quests."
     },
     "dashboard-guide": {
       "question": "Wie nutze ich das Spieler-Dashboard?",
@@ -342,8 +342,8 @@
     "lag-performance": {
       "question": "Wie behebe ich Lag oder niedrige FPS auf dem Server?",
       "breadcrumb": "Lag & Performance",
-      "quickAnswer": "Sichtweite auf 12 Chunks reduzieren, schwere Shader deaktivieren und Hintergrundanwendungen schlie\u00dfen. Serverseitiger Lag wird auf Discord gemeldet.",
-      "excerpt": "Sichtweite reduzieren, schwere Shader deaktivieren und Hintergrundanwendungen schlie\u00dfen. Discord auf bekannte serverseitige Lag-Events pr\u00fcfen."
+      "quickAnswer": "Sichtweite auf 12 Chunks reduzieren, schwere Shader deaktivieren und Hintergrundanwendungen schließen. Serverseitiger Lag wird auf der Statusseite gemeldet.",
+      "excerpt": "Sichtweite reduzieren, schwere Shader deaktivieren und Hintergrundanwendungen schließen. Die Statusseite auf bekannte serverseitige Lag-Events prüfen."
     },
     "server-rules": {
       "question": "Was sind die wichtigsten Serverregeln?",
@@ -516,12 +516,12 @@
     "nextBulletsMobile": [
       "/sethome ausf\u00fchren \u2014 3 kostenlose Heimpl\u00e4tze zum Teleportieren.",
       "/shop f\u00fcr t\u00e4gliche Quests.",
-      "Der Community-Discord beitreten."
+      "Baumeister, Händler und PvP-Spieler im Server-Chat treffen."
     ],
     "nextBulletsDesktop": [
       "/sethome an deiner ersten Basis ausf\u00fchren \u2014 du erh\u00e4ltst 3 kostenlose Heimpl\u00e4tze zum Teleportieren.",
       "Den In-Game-Shop mit /shop \u00f6ffnen und die t\u00e4glichen Quests pr\u00fcfen.",
-      "Dem Community-Discord beitreten \u2014 die meisten Baumeister, H\u00e4ndler und PvP-Spieler sind dort."
+      "Sag hallo im Server-Chat — die meisten Baumeister, Händler und PvP-Spieler sind dort."
     ],
     "ctaPrimary": "Twitter beitreten",
     "ctaSecondary": "Alle FAQ durchsuchen"
@@ -709,8 +709,8 @@
         "leadMobile": "Wenn die E-Mail nie ankommt, ein Ticket mit Benutzername und Anmeldedatum \u00f6ffnen.",
         "leadDesktop": "Wenn die E-Mail nach f\u00fcnf Minuten nicht ankommt, ein Support-Ticket mit Benutzername und ungef\u00e4hrem Anmeldedatum zur manuellen Verifizierung \u00f6ffnen.",
         "calloutTitle": "Sicherheitshinweis",
-        "calloutMobile": "Staff wird dich nie nach deinem Passwort im Chat oder auf Discord fragen.",
-        "calloutDesktop": "Staff und Moderatoren werden dich nie nach deinem Passwort im Chat, auf Discord oder per E-Mail fragen. Imitatoren sofort melden."
+        "calloutMobile": "Staff wird dich nie nach deinem Passwort im Chat fragen.",
+        "calloutDesktop": "Staff und Moderatoren werden dich nie nach deinem Passwort im Chat oder per E-Mail fragen. Imitatoren sofort melden."
       }
     },
     "link-microsoft": {
@@ -848,8 +848,8 @@
         "leadMobile": "Wir akzeptieren keine Kryptow\u00e4hrungen, \u00dcberweisungen oder Gutschriften von Drittanbietern.",
         "leadDesktop": "Wir akzeptieren keine Kryptow\u00e4hrungen, manuelle \u00dcberweisungen oder Geschenkkarten von Drittanbietern, die au\u00dferhalb unseres offiziellen Shops verkauft werden.",
         "calloutTitle": "Sicherheit",
-        "calloutMobile": "Wir fragen nie nach Kartennummern in Discord oder im In-Game-Chat.",
-        "calloutDesktop": "Wir fragen nie nach Kartennummern in Discord oder im In-Game-Chat. Der Checkout erfolgt immer auf unserer HTTPS-Shop-Domain."
+        "calloutMobile": "Wir fragen nie nach Kartennummern im In-Game-Chat.",
+        "calloutDesktop": "Wir fragen nie nach Kartennummern im In-Game-Chat. Der Checkout erfolgt immer auf unserer HTTPS-Shop-Domain."
       }
     },
     "donations-privileges": {
@@ -979,7 +979,7 @@
         "bullets": [
           "Explosionsschaden AN in unbeanspruchter Wildnis.",
           "Separater ELO-Tracker von LuckySurvival.",
-          "Hardcore-Wochenend-Events, die auf Discord angek\u00fcndigt werden."
+          "Hardcore-Wochenend-Events, die auf dem Server angekündigt werden."
         ]
       },
       "s3": {
@@ -1013,7 +1013,7 @@
         "leadDesktop": "Gekaufte R\u00e4nge, Dashboard-Einstellungen und Turnierregistrierungen folgen deinem Konto. Weltspezifische Gegenst\u00e4nde und Claims nicht.",
         "bullets": [
           "Shop-Kosmetika synchronisieren sich bei der Anmeldung.",
-          "Discord-Rollen aktualisieren sich innerhalb von f\u00fcnf Minuten.",
+          "Account-Vorteile synchronisieren sich innerhalb von fünf Minuten nach dem Login.",
           "Bannstatus gilt auf allen Servern."
         ]
       },
@@ -1054,7 +1054,7 @@
       "s3": {
         "title": "Benachrichtigungen",
         "leadMobile": "E-Mail-Benachrichtigungen auf Dashboard \u2192 Server f\u00fcr Wartungs- und Reset-Fenster abonnieren.",
-        "leadDesktop": "E-Mail-Benachrichtigungen auf Dashboard \u2192 Server f\u00fcr Wartungs- und Reset-Fenster abonnieren. Discord #announcements spiegelt denselben Zeitplan.",
+        "leadDesktop": "E-Mail-Benachrichtigungen auf Dashboard → Server für Wartungs- und Reset-Fenster abonnieren.",
         "calloutTitle": "Hinweis",
         "calloutMobile": "Ungelesene Mails und Auktionsinserate m\u00fcssen vor saisonalen Wipes eingesammelt werden.",
         "calloutDesktop": "Ungelesene Mails und Auktionsinserate m\u00fcssen vor saisonalen Wipes eingesammelt werden \u2014 Treuhand gibt Gegenst\u00e4nde danach automatisch an Verk\u00e4ufer zur\u00fcck."
@@ -1111,13 +1111,13 @@
         ]
       },
       "s2": {
-        "title": "Discord-Ank\u00fcndigungen",
-        "leadMobile": "#announcements ver\u00f6ffentlicht Wartungsfenster und unerwartete Ausf\u00e4lle.",
-        "leadDesktop": "Discord #announcements ver\u00f6ffentlicht Wartungsfenster, unerwartete Ausf\u00e4lle und gesch\u00e4tzte Wiederherstellungszeiten.",
+        "title": "E-Mail- und Dashboard-Hinweise",
+        "leadMobile": "Wartungsfenster und unerwartete Ausfälle stehen im Dashboard und in der E-Mail.",
+        "leadDesktop": "Dashboard und E-Mail-Hinweise decken Wartungsfenster, unerwartete Ausfälle und geschätzte Wiederherstellungszeiten ab.",
         "bullets": [
-          "@announcement-Ping-Rolle f\u00fcr kritische Benachrichtigungen aktivieren.",
-          "Status-Embeds aktualisieren sich automatisch jede Minute.",
-          "Kommentar-Threads sind w\u00e4hrend aktiver Vorf\u00e4lle deaktiviert."
+          "E-Mail-Hinweise für kritische Ausfälle einschalten.",
+          "Der Dashboard-Status aktualisiert sich, sobald sich der Server-Heartbeat ändert.",
+          "Hinweise zum Vorfall bleiben auf der Serverseite, bis das Problem behoben ist."
         ]
       },
       "s3": {
@@ -1157,8 +1157,8 @@
       },
       "s3": {
         "title": "Vor dem Kauf ausprobieren",
-        "leadMobile": "In Discord #vip-showcase fragen \u2014 Spieler demonstrieren Spuren und Chat-Stile live.",
-        "leadDesktop": "In Discord #vip-showcase fragen \u2014 Spieler demonstrieren Spuren und Chat-Stile live jeden Samstag.",
+        "leadMobile": "Vergleiche Spuren und Chat-Stile auf der Shop-Seite, bevor du kaufst.",
+        "leadDesktop": "Vergleiche Spuren und Chat-Stile auf der Shop-Seite. Spieler zeigen sie samstags auch im Spiel.",
         "calloutTitle": "Tipp",
         "calloutMobile": "Niedrigere Stufen k\u00f6nnen anteilig innerhalb von sieben Tagen nach dem Kauf upgraden.",
         "calloutDesktop": "Niedrigere Stufen k\u00f6nnen anteilig innerhalb von sieben Tagen nach dem Kauf upgraden \u2014 Support mit deiner Bestell-ID kontaktieren, wenn die Upgrade-Schaltfl\u00e4che nicht funktioniert."
@@ -1236,7 +1236,7 @@
     "claims-protection": {
       "lead": {
         "mobile": "Claims sch\u00fctzen Bl\u00f6cke, die du platzierst, vor anderen Spielern. Freunden explizit vertrauen.",
-        "desktop": "Claims sch\u00fctzen Bl\u00f6cke, die du platzierst, vor anderen Spielern. Freunden explizit vertrauen \u2014 auf Discord befreundet zu sein bedeutet kein automatisches In-Game-Vertrauen."
+        "desktop": "Claims schützen Blöcke, die du platzierst, vor anderen Spielern. Freunden explizit vertrauen — jemanden außerhalb des Spiels zu kennen bedeutet kein automatisches In-Game-Vertrauen."
       },
       "s1": {
         "title": "Einen Claim erstellen",
@@ -1314,7 +1314,7 @@
         "steps": [
           "Best\u00e4tigen, dass du die auf dem Bracket aufgef\u00fchrte Spielzeitanforderung erf\u00fcllst.",
           "Auf Anmelden klicken und ggf. dein Kit-Loadout ausw\u00e4hlen.",
-          "Discord #tournaments f\u00fcr Startzeiten pr\u00fcfen.",
+          "Die Turnierseite für Startzeiten prüfen.",
           "10 Minuten fr\u00fch zum Check-in erscheinen."
         ]
       },
@@ -1454,8 +1454,8 @@
       },
       "s2": {
         "title": "Server-TPS",
-        "leadMobile": "Wenn alle gleichzeitig Lag haben, Discord #announcements auf TPS-Einbr\u00fcche pr\u00fcfen.",
-        "leadDesktop": "Wenn alle gleichzeitig Lag haben, Discord #announcements auf TPS-Einbr\u00fcche im Zusammenhang mit Redstone-Farmen oder Events pr\u00fcfen.",
+        "leadMobile": "Wenn alle gleichzeitig Lag haben, die Server-Statusseite auf TPS-Einbrüche prüfen.",
+        "leadDesktop": "Wenn alle gleichzeitig Lag haben, die Server-Statusseite auf TPS-Einbrüche im Zusammenhang mit Redstone-Farmen oder Events prüfen.",
         "bullets": [
           "Riesige Mob-Cram-Farmen k\u00f6nnen vom Staff gedrosselt werden.",
           "Das gleichzeitige Laden von Tausenden von Gegenstandsentit\u00e4ten vermeiden.",
@@ -1538,7 +1538,7 @@
         "leadDesktop": "Entscheidungen nach einer vollst\u00e4ndigen Pr\u00fcfung sind f\u00fcr diese Fall-ID endg\u00fcltig. Auf das aufgef\u00fchrte Ablaufdatum f\u00fcr automatisches Entsperren warten, falls zutreffend.",
         "calloutTitle": "Hinweis",
         "calloutMobile": "Das Bel\u00e4stigen von Staff wegen Einspruchen kann die Sperre verl\u00e4ngern.",
-        "calloutDesktop": "Das Bel\u00e4stigen von Staff wegen Einspruchen in Discord oder mit Alt-Konten kann die Sperre unter der Umgehungsregel verl\u00e4ngern."
+        "calloutDesktop": "Das Belästigen von Staff wegen Einsprüchen, auch mit Alt-Konten, kann die Sperre unter der Umgehungsregel verlängern."
       }
     }
   }

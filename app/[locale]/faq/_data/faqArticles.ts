@@ -116,9 +116,9 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     views: 7140,
     readMinutes: 3,
     quickAnswer:
-      'Set a home, claim land, open /shop for daily quests, and join Discord. Those four steps cover 90% of new-player confusion.',
+      'Set a home, claim land, and open /shop for daily quests. Those steps cover most new-player confusion.',
     excerpt:
-      'Set a home with /sethome, claim your base, check /shop for daily quests, and join Discord to meet other players.',
+      'Set a home with /sethome, claim your base, and check /shop for daily quests.',
   },
   {
     slug: 'dashboard-guide',
@@ -466,9 +466,9 @@ const ARTICLE_SEEDS: ArticleSeed[] = [
     views: 6230,
     readMinutes: 3,
     quickAnswer:
-      'Lower render distance to 12 chunks, disable heavy shaders, and close background apps. Server-side lag spikes are posted on Discord.',
+      'Lower render distance to 12 chunks, disable heavy shaders, and close background apps. Server-side lag spikes are posted on the status page.',
     excerpt:
-      'Lower render distance, disable heavy shaders, and close background apps. Check Discord for known server-side lag events.',
+      'Lower render distance, disable heavy shaders, and close background apps. Check the status page for known server-side lag events.',
   },
   {
     slug: 'server-rules',

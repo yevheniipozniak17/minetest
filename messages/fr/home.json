@@ -30,7 +30,7 @@
     },
     "playerSupport": {
       "title": "Support joueurs",
-      "text": "Aide rapide via Discord et support en jeu."
+      "text": "Aide rapide via le support en jeu."
     }
   },
   "howItWorks": {
@@ -155,7 +155,7 @@
     },
     "q4": {
       "question": "Comment contacter le support ?",
-      "answer": "Utilisez le chat en direct, l'e-mail ou Discord \u2014 notre \u00e9quipe r\u00e9pond en moins de 4 heures, 24h/24."
+      "answer": "Utilisez le chat en direct ou l'e-mail — notre équipe répond en moins de 4 heures, 24h/24."
     },
     "q5": {
       "question": "Les \u00e9v\u00e9nements sont-ils gratuits ?",
