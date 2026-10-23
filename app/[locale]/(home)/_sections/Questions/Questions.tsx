@@ -26,7 +26,7 @@ export const HOME_FAQ: QuestionsCardProps[] = [
   {
     question: 'How do I contact support?',
     answer:
-      'Use live chat or email — our team replies in under 4 hours, around the clock.',
+      'Email help@minecraftsgame.com — our team will reply soon.',
   },
   {
     question: 'Are events free to join?',

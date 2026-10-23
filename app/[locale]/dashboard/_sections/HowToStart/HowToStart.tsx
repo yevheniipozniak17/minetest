@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { Link } from '@/i18n/navigation';
+import { SUPPORT_EMAIL } from '@/lib/data/contacts';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 import styles from './HowToStart.module.css';
@@ -352,9 +353,9 @@ export default function HowToStart() {
                 </div>
               </div>
               <div className={styles.doneActions}>
-                <Link href="/faq" className={styles.doneButtonPrimary}>
+                <a href={`mailto:${SUPPORT_EMAIL}`} className={styles.doneButtonPrimary}>
                   {t('hts.openSupport')}
-                </Link>
+                </a>
                 <Link href="/dashboard" className={styles.doneButtonSecondary}>
                   {t('hts.goToDashboard')}
                 </Link>
