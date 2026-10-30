@@ -11,7 +11,7 @@
   "privacy": {
     "badge": "Legal",
     "title": "Política de Privacidad",
-    "lastUpdated": "20 de septiembre de 2026",
+    "lastUpdated": "30 de octubre de 2026",
     "intro": [
       "Esta es la Política de Privacidad de https://minecraftsgame.com/. Expone qué datos personales recopilamos, por qué los recopilamos y qué derechos tienes sobre ellos. Léela antes de registrarte — si algo aquí no te convence, la opción más segura es no usar el Sitio web ni los Servicios.",
       "Usar el Sitio web o los Servicios significa que aceptas lo que se describe a continuación."
@@ -32,7 +32,7 @@
           "Información de la cuenta — tus credenciales de acceso, nombre de usuario, registros de actividad, ajustes y todo lo demás de tu perfil.",
           "Datos de contacto — dirección de correo electrónico y número de teléfono o dirección postal, si nos los has facilitado.",
           "Información de transacciones — tu historial de pedidos y el saldo de tu cuenta.",
-          "Datos de pago — gestionados por completo por nuestro procesador de pagos, FINTECH GLOBAL SOFTWARE LTD. Nunca vemos los datos completos de tu tarjeta; el procesador los recopila y gestiona directamente, conforme a la norma PCI-DSS.",
+          "Datos de pago — gestionados por completo por nuestro procesador de pagos, SMART OUTSOURCING SERVICES S.R.L.. Nunca vemos los datos completos de tu tarjeta; el procesador los recopila y gestiona directamente, conforme a la norma PCI-DSS.",
           "Registros de comunicaciones — todo lo que hayas contado a nuestro equipo de soporte, y sus respuestas.",
           "Información técnica — tipo de dispositivo, dirección IP, sistema operativo, navegador y similares.",
           "Datos de atención al cliente — los problemas que has reportado y cómo se resolvieron.",
@@ -161,7 +161,7 @@
   "terms": {
     "badge": "Legal",
     "title": "Términos y Condiciones",
-    "lastUpdated": "20 de septiembre de 2026",
+    "lastUpdated": "30 de octubre de 2026",
     "intro": [
       "Hola y bienvenido/a a https://minecraftsgame.com/ (el \"Sitio web\").",
       "Estos Términos y Condiciones (los \"Términos\") se establecen entre tú y Dexervil LTD — una sociedad del Reino Unido, con domicilio social en 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, con número de sociedad 17345695 (\"nosotros\", \"nos\", \"nuestro\" o la \"Empresa\") — y tú, el usuario (\"tú\" o \"tu\").",
@@ -407,7 +407,7 @@
   "cookies": {
     "badge": "Legal",
     "title": "Política de Cookies",
-    "lastUpdated": "20 de septiembre de 2026",
+    "lastUpdated": "30 de octubre de 2026",
     "intro": [
       "Esto explica cómo Dexervil LTD usa cookies y tecnologías similares en minecraftsgame.com. Léelo junto con nuestra Política de Privacidad, que trata los datos personales de forma más amplia."
     ],
@@ -470,7 +470,7 @@
   "billing": {
     "badge": "Legal",
     "title": "Política de Facturación, Reembolsos y Contracargos",
-    "lastUpdated": "20 de septiembre de 2026",
+    "lastUpdated": "30 de octubre de 2026",
     "intro": [
       "No es un producto oficial de Minecraft. No está aprobado por Mojang o Microsoft ni asociado con ellos. Adventures in Minecraft no cuenta con el respaldo de Mojang ni Microsoft. No es una plataforma oficial de Minecraft. Prestamos nuestros Servicios y vendemos nuestros Artículos Digitales conforme a las Minecraft Usage Guidelines."
     ],
@@ -479,7 +479,7 @@
         "heading": "Resumen",
         "paragraphs": [
           "Así funciona la facturación en https://minecraftsgame.com/ — cómo se gestionan tu saldo y cualquier compra recurrente, y qué hacer si un cargo parece incorrecto antes de acudir a tu banco. Comprar un Artículo Digital, recargar tu saldo o realizar cualquier otra compra en el Sitio web significa que aceptas lo siguiente. Léela junto con nuestros Términos y Condiciones, en especial las Secciones 13, 14 y 17.",
-          "Las compras se realizan en EUR (€), salvo que el pago indique otra cosa. Aceptamos Visa y Mastercard, procesadas de forma segura por nuestro proveedor de pagos, FINTECH GLOBAL SOFTWARE LTD, conforme a la norma PCI-DSS. Todo está tokenizado; Dexervil LTD nunca ve ni almacena el número completo de tu tarjeta."
+          "Las compras se realizan en EUR (€), salvo que el pago indique otra cosa. Aceptamos Visa y Mastercard, procesadas de forma segura por nuestro proveedor de pagos, SMART OUTSOURCING SERVICES S.R.L., conforme a la norma PCI-DSS. Todo está tokenizado; Dexervil LTD nunca ve ni almacena el número completo de tu tarjeta."
         ]
       },
       {

@@ -11,7 +11,7 @@
   "privacy": {
     "badge": "Legal",
     "title": "Privacy Policy",
-    "lastUpdated": "September 20, 2026",
+    "lastUpdated": "October 30, 2026",
     "intro": [
       "This is the Privacy Policy for https://minecraftsgame.com/. It sets out what personal data we collect, why we collect it, and what rights you have over it. Have a read before you sign up — if something here doesn't sit right with you, the safest option is not to use the Website or Services.",
       "Using the Website or Services means you accept what's described below."
@@ -32,7 +32,7 @@
           "Account Information — your login details, username, activity logs, settings, and anything else in your profile.",
           "Contact Details — email address, and phone number or postal address if you've given us one.",
           "Transaction Information — your order history and account balance.",
-          "Payment Data — handled entirely by our payment processor, FINTECH GLOBAL SOFTWARE LTD. We never see your full card details; the processor collects and handles that directly, under PCI-DSS.",
+          "Payment Data — handled entirely by our payment processor, SMART OUTSOURCING SERVICES S.R.L.. We never see your full card details; the processor collects and handles that directly, under PCI-DSS.",
           "Communication Records — whatever you've told our support team, and their replies.",
           "Technical Information — device type, IP address, OS, browser, and similar.",
           "Customer Support Data — the issues you've reported and how they were sorted out.",
@@ -161,7 +161,7 @@
   "terms": {
     "badge": "Legal",
     "title": "Terms and Conditions",
-    "lastUpdated": "September 20, 2026",
+    "lastUpdated": "October 30, 2026",
     "intro": [
       "Hi, and welcome to https://minecraftsgame.com/ (the \"Website\").",
       "These Terms and Conditions (the \"Terms\") sit between you and Dexervil LTD — a UK company, registered address 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, company number 17345695 (\"we,\" \"us,\" \"our,\" or the \"Company\") — and you, the user (\"you\" or \"your\").",
@@ -407,7 +407,7 @@
   "cookies": {
     "badge": "Legal",
     "title": "Cookie Policy",
-    "lastUpdated": "September 20, 2026",
+    "lastUpdated": "October 30, 2026",
     "intro": [
       "This explains how Dexervil LTD uses cookies and similar tech on minecraftsgame.com. Read it alongside our Privacy Policy, which covers personal data more broadly."
     ],
@@ -470,7 +470,7 @@
   "billing": {
     "badge": "Legal",
     "title": "Billing, Refunds & Chargeback Policy",
-    "lastUpdated": "September 20, 2026",
+    "lastUpdated": "October 30, 2026",
     "intro": [
       "It is not an official Minecraft product. It is not approved by or associated with Mojang or Microsoft. Adventures in Minecraft is not supported by Mojang or Microsoft. It is not an official Minecraft platform. We provide our Services and sell our Digital Items in line with the Minecraft Usage Guidelines."
     ],
@@ -479,7 +479,7 @@
         "heading": "Overview",
         "paragraphs": [
           "Here's how billing works on https://minecraftsgame.com/ — how your balance and any recurring purchases are handled, and what to do if a charge looks wrong before you go to your bank about it. Buying a Digital Item, topping up your balance, or making any other purchase on the Website means you're agreeing to what follows. Read it alongside our Terms and Conditions, especially Sections 13, 14, and 17.",
-          "Purchases run through EUR (€) unless checkout says otherwise. We take Visa and Mastercard, processed securely by our payment provider, FINTECH GLOBAL SOFTWARE LTD, under PCI-DSS. Everything's tokenized; Dexervil LTD never sees or stores your full card number."
+          "Purchases run through EUR (€) unless checkout says otherwise. We take Visa and Mastercard, processed securely by our payment provider, SMART OUTSOURCING SERVICES S.R.L., under PCI-DSS. Everything's tokenized; Dexervil LTD never sees or stores your full card number."
         ]
       },
       {

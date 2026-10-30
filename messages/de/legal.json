@@ -11,7 +11,7 @@
   "privacy": {
     "badge": "Rechtliches",
     "title": "Datenschutzerklärung",
-    "lastUpdated": "20. September 2026",
+    "lastUpdated": "30. Oktober 2026",
     "intro": [
       "Dies ist die Datenschutzerklärung für https://minecraftsgame.com/. Sie legt dar, welche personenbezogenen Daten wir erheben, warum wir sie erheben und welche Rechte Sie daran haben. Lesen Sie sie, bevor Sie sich registrieren — wenn Ihnen etwas hier nicht zusagt, ist die sicherste Option, die Website oder die Dienste nicht zu nutzen.",
       "Die Nutzung der Website oder der Dienste bedeutet, dass Sie das Nachstehende akzeptieren."
@@ -32,7 +32,7 @@
           "Kontoinformationen — Ihre Anmeldedaten, Ihr Benutzername, Aktivitätsprotokolle, Einstellungen und alles Weitere in Ihrem Profil.",
           "Kontaktdaten — E-Mail-Adresse sowie Telefonnummer oder Postanschrift, falls Sie uns eine angegeben haben.",
           "Transaktionsinformationen — Ihre Bestellhistorie und Ihr Kontoguthaben.",
-          "Zahlungsdaten — vollständig abgewickelt durch unseren Zahlungsdienstleister FINTECH GLOBAL SOFTWARE LTD. Wir sehen Ihre vollständigen Kartendaten nie; der Dienstleister erhebt und verarbeitet diese direkt, gemäß PCI-DSS.",
+          "Zahlungsdaten — vollständig abgewickelt durch unseren Zahlungsdienstleister SMART OUTSOURCING SERVICES S.R.L.. Wir sehen Ihre vollständigen Kartendaten nie; der Dienstleister erhebt und verarbeitet diese direkt, gemäß PCI-DSS.",
           "Kommunikationsaufzeichnungen — alles, was Sie unserem Support-Team mitgeteilt haben, sowie dessen Antworten.",
           "Technische Informationen — Gerätetyp, IP-Adresse, Betriebssystem, Browser und Ähnliches.",
           "Kundensupport-Daten — die von Ihnen gemeldeten Probleme und wie sie gelöst wurden.",
@@ -161,7 +161,7 @@
   "terms": {
     "badge": "Rechtliches",
     "title": "Allgemeine Geschäftsbedingungen",
-    "lastUpdated": "20. September 2026",
+    "lastUpdated": "30. Oktober 2026",
     "intro": [
       "Hallo und willkommen auf https://minecraftsgame.com/ (die \"Website\").",
       "Diese Allgemeinen Geschäftsbedingungen (die \"Bedingungen\") stehen zwischen Ihnen und Dexervil LTD — einer Gesellschaft nach dem Recht des Vereinigten Königreichs mit eingetragenem Sitz in 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, Handelsregisternummer 17345695 (\"wir\", \"uns\", \"unser\" oder das \"Unternehmen\") — und Ihnen, dem Nutzer (\"Sie\" oder \"Ihr\").",
@@ -407,7 +407,7 @@
   "cookies": {
     "badge": "Rechtliches",
     "title": "Cookie-Richtlinie",
-    "lastUpdated": "20. September 2026",
+    "lastUpdated": "30. Oktober 2026",
     "intro": [
       "Dies erklärt, wie Dexervil LTD Cookies und ähnliche Technologien auf minecraftsgame.com verwendet. Lesen Sie es zusammen mit unserer Datenschutzerklärung, die personenbezogene Daten umfassender behandelt."
     ],
@@ -470,7 +470,7 @@
   "billing": {
     "badge": "Rechtliches",
     "title": "Billing-, Rückerstattungs- & Rückbuchungsrichtlinie",
-    "lastUpdated": "20. September 2026",
+    "lastUpdated": "30. Oktober 2026",
     "intro": [
       "Es handelt sich nicht um ein offizielles Minecraft-Produkt. Es ist von Mojang oder Microsoft weder genehmigt noch mit ihnen verbunden. Adventures in Minecraft wird von Mojang oder Microsoft nicht unterstützt. Es ist keine offizielle Minecraft-Plattform. Wir erbringen unsere Dienste und verkaufen unsere Digitalen Artikel im Einklang mit den Minecraft Usage Guidelines."
     ],
@@ -479,7 +479,7 @@
         "heading": "Überblick",
         "paragraphs": [
           "So funktioniert die Abrechnung auf https://minecraftsgame.com/ — wie Ihr Guthaben und etwaige wiederkehrende Käufe gehandhabt werden und was zu tun ist, wenn eine Abbuchung falsch aussieht, bevor Sie sich an Ihre Bank wenden. Wenn Sie einen Digitalen Artikel kaufen, Ihr Guthaben aufladen oder einen anderen Kauf auf der Website tätigen, stimmen Sie dem Folgenden zu. Lesen Sie dies zusammen mit unseren Allgemeinen Geschäftsbedingungen, insbesondere den Abschnitten 13, 14 und 17.",
-          "Käufe laufen in EUR (€), sofern der Checkout nichts anderes angibt. Wir akzeptieren Visa und Mastercard, sicher verarbeitet durch unseren Zahlungsdienstleister FINTECH GLOBAL SOFTWARE LTD, gemäß PCI-DSS. Alles ist tokenisiert; Dexervil LTD sieht oder speichert Ihre vollständige Kartennummer nie."
+          "Käufe laufen in EUR (€), sofern der Checkout nichts anderes angibt. Wir akzeptieren Visa und Mastercard, sicher verarbeitet durch unseren Zahlungsdienstleister SMART OUTSOURCING SERVICES S.R.L., gemäß PCI-DSS. Alles ist tokenisiert; Dexervil LTD sieht oder speichert Ihre vollständige Kartennummer nie."
         ]
       },
       {

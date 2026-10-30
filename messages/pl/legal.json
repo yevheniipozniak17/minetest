@@ -11,7 +11,7 @@
   "privacy": {
     "badge": "Informacje prawne",
     "title": "Polityka prywatności",
-    "lastUpdated": "20 września 2026",
+    "lastUpdated": "30 października 2026",
     "intro": [
       "To jest Polityka prywatności serwisu https://minecraftsgame.com/. Określa, jakie dane osobowe zbieramy, dlaczego je zbieramy i jakie masz do nich prawa. Przeczytaj ją przed rejestracją — jeśli coś tutaj Ci nie odpowiada, najbezpieczniej będzie nie korzystać z Witryny ani z Usług.",
       "Korzystanie z Witryny lub Usług oznacza, że akceptujesz to, co opisano poniżej."
@@ -32,7 +32,7 @@
           "Informacje o koncie — Twoje dane logowania, nazwa użytkownika, dzienniki aktywności, ustawienia i wszystko inne w Twoim profilu.",
           "Dane kontaktowe — adres e-mail oraz numer telefonu lub adres pocztowy, jeśli je podałeś.",
           "Informacje o transakcjach — Twoja historia zamówień i saldo konta.",
-          "Dane płatnicze — obsługiwane w całości przez naszego operatora płatności, FINTECH GLOBAL SOFTWARE LTD. Nigdy nie widzimy pełnych danych Twojej karty; operator zbiera je i obsługuje bezpośrednio, zgodnie ze standardem PCI-DSS.",
+          "Dane płatnicze — obsługiwane w całości przez naszego operatora płatności, SMART OUTSOURCING SERVICES S.R.L.. Nigdy nie widzimy pełnych danych Twojej karty; operator zbiera je i obsługuje bezpośrednio, zgodnie ze standardem PCI-DSS.",
           "Zapisy komunikacji — wszystko, co przekazałeś naszemu zespołowi wsparcia, oraz jego odpowiedzi.",
           "Informacje techniczne — typ urządzenia, adres IP, system operacyjny, przeglądarka i podobne.",
           "Dane obsługi klienta — zgłaszane przez Ciebie problemy i sposób ich rozwiązania.",
@@ -161,7 +161,7 @@
   "terms": {
     "badge": "Informacje prawne",
     "title": "Regulamin",
-    "lastUpdated": "20 września 2026",
+    "lastUpdated": "30 października 2026",
     "intro": [
       "Cześć i witaj na https://minecraftsgame.com/ (\"Witryna\").",
       "Niniejszy Regulamin (\"Regulamin\") obowiązuje pomiędzy Tobą a Dexervil LTD — spółką prawa brytyjskiego, z siedzibą pod adresem 2nd Floor College House, 17 King Edwards Road, Ruislip, London, United Kingdom, HA4 7AE, numer spółki 17345695 (\"my\", \"nas\", \"nasz\" lub \"Spółka\") — oraz Tobą, użytkownikiem (\"Ty\" lub \"Twój\").",
@@ -407,7 +407,7 @@
   "cookies": {
     "badge": "Informacje prawne",
     "title": "Polityka plików cookie",
-    "lastUpdated": "20 września 2026",
+    "lastUpdated": "30 października 2026",
     "intro": [
       "To wyjaśnia, jak Dexervil LTD używa plików cookie i podobnych technologii w serwisie minecraftsgame.com. Czytaj to razem z naszą Polityką prywatności, która szerzej omawia dane osobowe."
     ],
@@ -470,7 +470,7 @@
   "billing": {
     "badge": "Informacje prawne",
     "title": "Polityka rozliczeń, zwrotów i obciążeń zwrotnych",
-    "lastUpdated": "20 września 2026",
+    "lastUpdated": "30 października 2026",
     "intro": [
       "To nie jest oficjalny produkt Minecraft. Nie jest zatwierdzony przez Mojang ani Microsoft ani z nimi powiązany. Adventures in Minecraft nie jest wspierany przez Mojang ani Microsoft. To nie jest oficjalna platforma Minecraft. Świadczymy nasze Usługi i sprzedajemy nasze Przedmioty Cyfrowe zgodnie z Minecraft Usage Guidelines."
     ],
@@ -479,7 +479,7 @@
         "heading": "Przegląd",
         "paragraphs": [
           "Oto jak działają rozliczenia w https://minecraftsgame.com/ — jak obsługiwane są Twoje saldo i ewentualne zakupy cykliczne oraz co zrobić, jeśli obciążenie wygląda nieprawidłowo, zanim zwrócisz się do banku. Zakup Przedmiotu Cyfrowego, doładowanie salda lub dokonanie dowolnego innego zakupu w Witrynie oznacza akceptację poniższych zasad. Czytaj to razem z naszym Regulaminem, w szczególności z Sekcjami 13, 14 i 17.",
-          "Zakupy realizowane są w EUR (€), chyba że przy płatności wskazano inaczej. Akceptujemy Visa i Mastercard, przetwarzane bezpiecznie przez naszego operatora płatności, FINTECH GLOBAL SOFTWARE LTD, zgodnie ze standardem PCI-DSS. Wszystko jest tokenizowane; Dexervil LTD nigdy nie widzi ani nie przechowuje pełnego numeru Twojej karty."
+          "Zakupy realizowane są w EUR (€), chyba że przy płatności wskazano inaczej. Akceptujemy Visa i Mastercard, przetwarzane bezpiecznie przez naszego operatora płatności, SMART OUTSOURCING SERVICES S.R.L., zgodnie ze standardem PCI-DSS. Wszystko jest tokenizowane; Dexervil LTD nigdy nie widzi ani nie przechowuje pełnego numeru Twojej karty."
         ]
       },
       {
