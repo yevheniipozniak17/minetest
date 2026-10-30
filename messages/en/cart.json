@@ -27,7 +27,7 @@
   "payBtnProcessing": "Processing…",
   "consentText": "By purchasing, I agree to immediate digital delivery and waive my withdrawal right.",
   "consentRequiredToast": "Please agree to the terms above before checkout.",
-  "pciNote": "We process card data in accordance with PCI DSS",
+  "pciNote": "All payments are processed through a PCI DSS compliant payment system, with 3D Secure authentication applied where required for enhanced transaction security.",
   "policiesConsentText": "I have read and agree to the <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms>.",
   "importantNoticeAriaLabel": "Important delivery notice",
   "importantTitle": "Important",

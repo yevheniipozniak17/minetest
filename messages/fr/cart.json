@@ -27,7 +27,7 @@
   "payBtnProcessing": "Traitement en cours…",
   "consentText": "En achetant, j'accepte la livraison numérique immédiate et renonce à mon droit de rétractation.",
   "consentRequiredToast": "Veuillez accepter les conditions ci-dessus avant de payer.",
-  "pciNote": "Nous traitons les données de carte conformément à PCI DSS",
+  "pciNote": "Tous les paiements sont traités via un système de paiement conforme à la norme PCI DSS, avec une authentification 3D Secure lorsque cela est requis pour renforcer la sécurité des transactions.",
   "policiesConsentText": "J''ai lu et j''accepte la <privacy>Politique de confidentialité</privacy> et les <terms>Conditions d''utilisation</terms>.",
   "importantNoticeAriaLabel": "Avis de livraison important",
   "importantTitle": "Important",
